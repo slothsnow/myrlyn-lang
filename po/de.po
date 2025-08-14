@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-08-14 19:21+0200\n"
-"Last-Translator: slothsnow <slothsnow@fuchstruppe.de>\n"
-"Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2025-08-14 19:47+0000\n"
+"Last-Translator: slothsnow <slothsnow@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 "X-Qt-Contexts: true\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:320
 msgid "&Update Problems"
@@ -27,11 +29,11 @@ msgstr "Paket & Klassifikation"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:382
 msgid "&Languages"
-msgstr ""
+msgstr "&Sprachen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:398
 msgid "&Repositories"
-msgstr ""
+msgstr "&Repositories"
 
 #. TRANSLATORS: Menu item
 #: libyui-qt-pkg/src/YQPackageSelector.cc:413
