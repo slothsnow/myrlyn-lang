@@ -4,7 +4,7 @@
 This repository is for translations of [Myrlyn](https://github.com/shundhammer/myrlyn). For more information, you can also look into this [issue](https://github.com/shundhammer/myrlyn/issues/45).\
 🌍 For translation work Weblate is used: https://translate.codeberg.org/projects/myrlyn-lang/ \
 📦 It is built at Open Build Service:  https://build.opensuse.org/package/show/home:slothsnow/myrlyn-lang
-## I want to help
+## How you can help
 Translation work is done in the Weblate (see above). You can login with your GitHub account. If your language is already available, just start with translating.
 If you can't find your language, follow the steps below.
 ## Add a language
