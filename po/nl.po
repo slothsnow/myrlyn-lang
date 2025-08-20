@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-08-14 21:14+0200\n"
-"Last-Translator: slothsnow <slothsnow@fuchstruppe.de>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"PO-Revision-Date: 2025-08-21 08:09+0000\n"
+"Last-Translator: Vistaus <vistaus@noreply.codeberg.org>\n"
+"Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 "X-Qt-Contexts: true\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:320
 msgid "&Update Problems"
@@ -27,16 +29,16 @@ msgstr "Pakket&classificatie"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:382
 msgid "&Languages"
-msgstr ""
+msgstr "Ta&len"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:398
 msgid "&Repositories"
-msgstr ""
+msgstr "Pakketb&ronnen"
 
 #. TRANSLATORS: Menu item
 #: libyui-qt-pkg/src/YQPackageSelector.cc:413
 msgid "&Services"
-msgstr "&Services"
+msgstr "Dien&sten"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:422
 msgid "S&earch"
@@ -58,12 +60,12 @@ msgstr "B&eschrijving"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:541
 msgid "&Technical Data"
-msgstr "&Technische gegevens"
+msgstr "&Technische informatie"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:554
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:102
 msgid "Dependencies"
-msgstr ""
+msgstr "Afhankelijkheden"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:569
 msgid "&Versions"
@@ -71,11 +73,11 @@ msgstr "&Versies"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:587
 msgid "File List"
-msgstr ""
+msgstr "Bestandslijst"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:604
 msgid "Change Log"
-msgstr ""
+msgstr "Wijzigingslog"
 
 #. "Cancel" button
 #. button #0
@@ -93,7 +95,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:432
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:204
 msgid "&Cancel"
-msgstr ""
+msgstr "Ann&uleren"
 
 #. Translators: "Accept" here refers to licenses or similar
 #: libyui-qt-pkg/src/YQPackageSelector.cc:640
@@ -101,19 +103,19 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:244
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:213
 msgid "&Accept"
-msgstr ""
+msgstr "&Accepteren"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:681
 msgid "&File"
-msgstr ""
+msgstr "&Bestand"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:683
 msgid "&Import..."
-msgstr "&Importeren..."
+msgstr "&Importeren…"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:684
 msgid "&Export..."
-msgstr "E&xporteren..."
+msgstr "E&xporteren…"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:688
 msgid "E&xit -- Discard Changes"
@@ -125,23 +127,23 @@ msgstr "&Stoppen -- wijzigingen opslaan"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:701
 msgid "&Package"
-msgstr ""
+msgstr "&Pakket"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:740
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:58
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:112
 msgid "All Packages"
-msgstr ""
+msgstr "Alle pakketten"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:742
 #: libyui-qt-pkg/src/YQPkgObjList.cc:398
 msgid "Update if newer version available"
-msgstr ""
+msgstr "Bijwerken indien nieuwer"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:745
 #: libyui-qt-pkg/src/YQPkgObjList.cc:381 libyui-qt-pkg/src/YQPkgObjList.cc:404
 msgid "Update unconditionally"
-msgstr ""
+msgstr "Altijd bijwerken"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:759
 msgid "&Patch"
@@ -149,80 +151,80 @@ msgstr "&Patch"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:786
 msgid "Confi&guration"
-msgstr "Conf&iguratie"
+msgstr "Instellin&gen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:787
 msgid "&Repositories..."
-msgstr "Opslagr&uimtes..."
+msgstr "Pakketb&ronnen…"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:788
 msgid "&Online Update..."
-msgstr "&Online bijwerken..."
+msgstr "&Online bijwerken…"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:799
 msgid "&Dependencies"
-msgstr ""
+msgstr "Afhankelijkhe&den"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:801
 msgid "&Check Now"
-msgstr ""
+msgstr "Nu &controleren"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:803
 msgid "&Autocheck"
-msgstr ""
+msgstr "&Automatisch controleren"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:808
 msgid "Install &Recommended Packages"
-msgstr ""
+msgstr "Aanbevolen pakketten installe&ren"
 
 #. Translators: Menu for view options (Use a noun, not a verb!)
 #: libyui-qt-pkg/src/YQPackageSelector.cc:821
 msgid "&Options"
-msgstr ""
+msgstr "&Opties"
 
 #. Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:824
 msgid "Show -de&vel Packages"
-msgstr ""
+msgstr "-de&vel-pakketten tonen"
 
 #. Translators: This is about packages ending in "-debuginfo", so don't translate that "-debuginfo"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:833
 msgid "Show -&debuginfo/-debugsource Packages"
-msgstr ""
+msgstr "&-debuginfo/-debugsource-pakketten tonen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:841
 msgid "&System Verification Mode"
-msgstr ""
+msgstr "&Systeemverificatiemodus"
 
 #. Widget styles can use the text information in the rendering for sections,
 #. or can choose to ignore it and render sections like simple separators.
 #: libyui-qt-pkg/src/YQPackageSelector.cc:847
 msgid "Options for this run only..."
-msgstr "Opties voor alleen deze keer uitvoeren..."
+msgstr "Eenmalig opties…"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:849
 msgid "&Cleanup when deleting packages"
-msgstr ""
+msgstr "Bestanden oprui&men na verwijderen van pakketten"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:853
 msgid "&Allow vendor change"
-msgstr ""
+msgstr "Lever&ancierswijzigingen toestaan"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:865
 msgid "E&xtras"
-msgstr ""
+msgstr "E&xtra's"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:867
 msgid "Show &Products"
-msgstr ""
+msgstr "&Producten tonen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:868
 msgid "Show P&ackage Changes"
-msgstr "P&akketwijzigingen weergeven"
+msgstr "P&akketwijzigingen tonen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:869
 msgid "Show &History"
-msgstr ""
+msgstr "Gesc&hiedenis bekijken"
 
 #. Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:877
