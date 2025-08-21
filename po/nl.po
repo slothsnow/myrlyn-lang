@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-08-21 08:09+0000\n"
+"PO-Revision-Date: 2025-08-22 19:09+0000\n"
 "Last-Translator: Vistaus <vistaus@noreply.codeberg.org>\n"
 "Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/nl/>\n"
@@ -247,7 +247,7 @@ msgstr "Alle &overeenkomende aanbevolen pakketten installeren"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:892
 msgid "Generate Dependency Resolver &Test Case"
-msgstr ""
+msgstr "&Testrapportage voor afhankelijkheidsoplosser samenstellen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:904
 msgid "Search &Online"
@@ -255,14 +255,14 @@ msgstr "&Online zoeken"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:915
 msgid "&Help"
-msgstr "&Help"
+msgstr "&Hulp"
 
 #. Note: The help functions and their texts are moved out
 #. to a separate source file YQPackageSelectorHelp.cc
 #. Menu entry for help overview
 #: libyui-qt-pkg/src/YQPackageSelector.cc:921
 msgid "&Overview"
-msgstr ""
+msgstr "&Overzicht"
 
 #. Menu entry for help about used symbols ( icons )
 #: libyui-qt-pkg/src/YQPackageSelector.cc:924
@@ -276,7 +276,7 @@ msgstr "&Toetsen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1122
 msgid "All package dependencies are OK."
-msgstr ""
+msgstr "Alle afhankelijkheden zijn in orde."
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1138
 msgid "P&atches"
@@ -298,12 +298,12 @@ msgstr "Pakketlijst opslaan"
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:189
 #: libyui-qt-pkg/src/YQPkgList.cc:592
 msgid "Error"
-msgstr ""
+msgstr "Foutmelding"
 
 #. caption
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1242
 msgid "Error exporting package list to %1"
-msgstr "Fout bij het exporteren van pakketlijst naar %1"
+msgstr "De pakketlijst kan niet naar ‘%1’ worden geëxporteerd"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1254
 msgid "Load Package List"
@@ -312,13 +312,13 @@ msgstr "Pakketlijst laden"
 #. caption
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1336
 msgid "Error loading package list from %1"
-msgstr "Fout opgetreden tijdens het laden van de pakketlijst van %1"
+msgstr "Er is een fout opgetreden tijdens het laden van de pakketlijst uit ‘%1’"
 
 #. caption
 #. Translators: %1 is the number of affected packages
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1438
 msgid "%1 packages will be updated"
-msgstr ""
+msgstr "%1 pakketten worden bijgewerkt"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1439
 msgid "&Continue"
@@ -334,18 +334,20 @@ msgid ""
 "packages to versions in repository %2</small></p>"
 msgstr ""
 "<p><small><a href=\"repoupgraderemove:///%1\">Wisselen van</a> "
-"systeempakketten naar versies in opslagruimte %2 annuleren</small></p>"
+"systeempakketten naar versies in pakketbron %2 annuleren</small></p>"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1498
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
+"<p><a href=\"repoupgradeadd:///%1\">Systeempakketten wisselen met</a> "
+"versies in deze pakketbron (%2)</p>"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1594
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1751
 msgid "Added Subpackages:"
-msgstr ""
+msgstr "Toegevoegde aanvullende pakketten:"
 
 #. "OK" button
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1595
@@ -358,7 +360,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:121
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:57
 msgid "&OK"
-msgstr ""
+msgstr "&Oké"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:79
 msgid "Reset &Ignored Dependency Conflicts"
@@ -366,12 +368,12 @@ msgstr "&Genegeerde afhankelijkheidsconflicten terugzetten"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:150
 msgid "System dependencies verify OK."
-msgstr ""
+msgstr "De systeemafhankelijkheden zijn in orde."
 
 #. Translators: RichText ( HTML-like ) format
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:171
 msgid "Error: Out of disk space!"
-msgstr ""
+msgstr "Foutmelding: geen vrije schijfruimte meer!"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:172
 msgid ""
@@ -383,15 +385,15 @@ msgstr ""
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:180
 msgid "C&ontinue Anyway"
-msgstr ""
+msgstr "T&óch doorgaan"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:194
 msgid "The following items will be changed: "
-msgstr ""
+msgstr "De volgende items worden aangepast: "
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:234
 msgid "Do you want to Abandon all changes and exit?"
-msgstr "Wilt u alle wijzigingen opgeven en afsluiten?"
+msgstr "Wilt u alle aanpassingen ongedaan maken en afsluiten?"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:235
 msgid "&Yes"
@@ -405,20 +407,22 @@ msgstr "&Nee"
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:283
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:104
 msgid "Automatic Changes"
-msgstr ""
+msgstr "Automatische aanpassingen"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:287
 msgid ""
 "In addition to your manual selections, the following packages have been "
 "changed to resolve dependencies:"
 msgstr ""
+"Naast uw eigen keuzes, zijn de volgende beslissingen genomen om "
+"afhankelijkheden op te lossen:"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:291
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:312
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:379
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:431
 msgid "C&ontinue"
-msgstr ""
+msgstr "D&oorgaan"
 
 #. Dialog header
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:304
@@ -430,17 +434,17 @@ msgid ""
 "Please realize that the following selected software is either unsupported or "
 "requires an additional customer contract for support."
 msgstr ""
-"Houd er rekening mee dat de volgende geselecteerde software niet ondersteund "
-"wordt of een extra klantcontract voor ondersteuning vereist."
+"Houd er rekening mee dat de door u gekozen software niet ondersteund wordt "
+"of een extra klantcontract voor ondersteuning vereist."
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:414
 msgid "Not implemented yet. Sorry."
-msgstr "Nog niet geïmplementeerd."
+msgstr "Nog niet geïmplementeerd - excuses."
 
 #. Translators: Headline for help about the package manager in general
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:51
 msgid "The YaST Package Manager"
-msgstr "De YaST Pakketbeheerder"
+msgstr "De YaST-pakketbeheerder"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:54
@@ -448,8 +452,8 @@ msgid ""
 "<b>Note:</b> This is a just a short  overview. Refer to the manual for "
 "details."
 msgstr ""
-"<b>Opmerking:</b> Dit is maar een kort overzicht. Raadpleeg de handleiding "
-"voor meer details."
+"<b>Let op:</b> dit is maar een kort overzicht. Raadpleeg voor meer "
+"informatie de handleiding."
 
 #. Help specific to online update mode
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:61
