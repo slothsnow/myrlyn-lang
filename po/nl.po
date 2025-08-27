@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-08-22 19:09+0000\n"
+"PO-Revision-Date: 2025-08-28 20:09+0000\n"
 "Last-Translator: Vistaus <vistaus@noreply.codeberg.org>\n"
 "Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/nl/>\n"
@@ -247,7 +247,7 @@ msgstr "Alle &overeenkomende aanbevolen pakketten installeren"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:892
 msgid "Generate Dependency Resolver &Test Case"
-msgstr "&Testrapportage voor afhankelijkheidsoplosser samenstellen"
+msgstr "&Testscenario voor afhankelijkheidsoplosser samenstellen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:904
 msgid "Search &Online"
@@ -458,8 +458,7 @@ msgstr ""
 #. Help specific to online update mode
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:61
 msgid "In this dialog, select patches to download and install."
-msgstr ""
-"In deze dialoog selecteert u patches die u wilt downloaden en installeren."
+msgstr "Op dit venster kiest u patches die u wilt downloaden en installeren."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:62
 msgid ""
@@ -467,9 +466,8 @@ msgid ""
 "respective patch kind (security, recommended, or optional) and the "
 "(estimated) download size."
 msgstr ""
-"De lijst links bevat de beschikbare patches samen met het respectieve "
-"patchtype (beveiliging, aanbevolen of optioneel) en de (geschatte) "
-"downloadgrootte."
+"De lijst links bevat de beschikbare patches en patchtypes (beveiliging, "
+"aanbevolen of optioneel), en de (geschatte) downloadgrootte."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:65
 msgid ""
@@ -477,9 +475,9 @@ msgid ""
 "your system yet. You can change that with the <b>Include Installed Patches</"
 "b> check box below the list."
 msgstr ""
-"Normaal gesproken bevat deze lijst alleen de patches die nog niet op uw "
-"systeem geïnstalleerd zijn. U kunt dit met behulp van het keuzevakje "
-"<b>Inclusief geïnstalleerde patches</b> onder aan de lijst wijzigen."
+"Normaliter bevat deze lijst alleen de patches die nog niet op uw systeem "
+"geïnstalleerd zijn. U kunt dit met behulp van het keuzevakje <b>Inclusief "
+"geïnstalleerde patches</b> onderaan de lijst wijzigen."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:67
 msgid ""
@@ -487,9 +485,8 @@ msgid ""
 "currently selected patch. Click a patch in the list to view its description "
 "here."
 msgstr ""
-"Het veld <b>Patch-beschrijving</b> veld bevat een uitgebreidere uitleg over "
-"de geselecteerde patch. Klik in de lijst op een patch om de beschrijving "
-"ervan hier te bekijken."
+"Het veld <b>Patchbeschrijving</b> bevat een uitgebreidere uitleg over de "
+"gekozen patch. Klik op een patch om de beschrijving ervan te lezen."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:69
 msgid ""
@@ -498,11 +495,11 @@ msgid ""
 "individual packages from a patch, only the patch as a whole. This is "
 "intentional to avoid system inconsistencies."
 msgstr ""
-"In de pakketlijst aan de rechterkant wordt de inhoud van de huidige "
-"geselecteerde patch weergegeven, zoals bijvoorbeeld de pakketten die het "
-"bevat. Van een patch kunt u geen individuele pakketten installeren of "
-"verwijderen, alleen de patch in zijn geheel. Dit is bewust gedaan om "
-"systeeminconsistenties te voorkomen."
+"Op de pakketlijst aan de rechterkant wordt de inhoud van de huidige gekozen "
+"patch getoond, zoals bijvoorbeeld de pakketten die het bevat. Van een patch "
+"kunt u geen individuele pakketten installeren of verwijderen - alleen de "
+"patch in zijn geheel. Dit is bewust gedaan om systeeminconsistenties te "
+"voorkomen."
 
 #. Translators: Please keep the reference to "filter views" to distinguish between "filter views" that
 #. affect the amount of visible packages in the package list and "details views" ( below the package list )
@@ -512,8 +509,8 @@ msgid ""
 "In addition to <b>Patches</b>, you can also select one of the other filter "
 "views from <b>Filter</b> at the upper left:"
 msgstr ""
-"Naast <b>Patches</b> kunt u ook een van de andere filterweergaven selecteren "
-"bij <b>Filter</b> linksboven:"
+"Naast <b>Patches</b> kunt u ook een van de andere filterweergaven kiezen "
+"onder <b>Filter</b> linksboven:"
 
 #. Help specific to normal (non-online-update) mode
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:85
@@ -521,9 +518,9 @@ msgid ""
 "In this dialog, select which packages to install, update, or delete. You can "
 "select individual packages or entire package \"selections\"."
 msgstr ""
-"In deze dialoog kunt u de pakketten selecteren die u wilt installeren, "
-"bijwerken, of verwijderen. U kunt zowel individuele pakketten als gehele "
-"pakket\"selecties\" selecteren."
+"Op dit venster kunt u de pakketten kiezen die u wilt installeren, bijwerken "
+"of verwijderen. U kunt zowel individuele pakketten kiezen als gehele "
+"pakketselecties maken."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:87
 msgid ""
@@ -531,7 +528,7 @@ msgid ""
 "right-click it to open a context menu."
 msgstr ""
 "Klik om de status te wijzigen op het statuspictogram van een pakket of van "
-"een selectie, klik met de rechtermuisknop om een contextmenu te openen."
+"een selectie; klik met de rechtermuisknop om een menu te openen."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:89
 msgid ""
@@ -543,8 +540,8 @@ msgid ""
 msgstr ""
 "Gebruik de knop <b>Afhankelijkheden controleren</b> voor het oplossen van "
 "pakketafhankelijkheden. Sommige pakketten vereisen de installatie van andere "
-"pakketten. Ook zijn er pakketten die alleen geïnstalleerd kunnen worden "
-"wanneer bepaalde andere pakketten niet geïnstalleerd zijn. Deze controle zal "
+"pakketten. Ook zijn er pakketten die alleen geïnstalleerd kunnen worden als "
+"bepaalde andere pakketten niet geïnstalleerd zijn. Deze controle zal "
 "automatisch aangeven welke pakketten er voor de installatie nodig zijn en u "
 "wordt gewaarschuwd als er afhankelijkheidsconflicten optreden."
 
@@ -553,8 +550,8 @@ msgid ""
 "When you leave this dialog with <b>Accept</b>, this check will automatically "
 "be performed."
 msgstr ""
-"Wanneer u deze dialoog met behulp van <b>Accepteren</b> verlaat, dan zal "
-"deze controle automatisch worden uitgevoerd."
+"Als u dit venster met behulp van <b>Accepteren</b> slut, dan zal deze "
+"controle automatisch worden uitgevoerd."
 
 #. Translators: Please keep the reference to "filter views" to distinguish between "filter views" that
 #. affect the amount of visible packages in the package list and "details views" (below the package list)
@@ -564,7 +561,7 @@ msgid ""
 "Select one of the available filter views with the <b>Filter</b> combo-box at "
 "the upper left:"
 msgstr ""
-"Selecteer één van de beschikbare filteroverzichten in het venster <b>Filter</"
+"Selecteer een van de beschikbare filteroverzichten op het venster <b>Filter</"
 "b> linksboven:"
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:104
@@ -572,8 +569,8 @@ msgid ""
 "<b>Selections</b> shows some predefined sets of packages that logically "
 "belong together."
 msgstr ""
-"Bij <b>Selecties</b> worden enkele voorgedefinieerde pakketselecties "
-"weergegeven die logisch gezien bij elkaar horen."
+"Bij <b>Selecties</b> worden enkele vooringestelde pakketselecties getoond, "
+"die logischerwijs bij elkaar horen."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:105
 msgid ""
@@ -581,8 +578,8 @@ msgid ""
 "also select or deselect individual packages in the package list at the right."
 msgstr ""
 "Gebruik het keuzevakje naast de selectie om het als een geheel te "
-"selecteren. Ook kunt u individuele pakketten in de rechterpakketlijst "
-"selecteren of de selectie juist ongedaan maken."
+"selecteren. Ook kunt u individuele pakketten op de rechter pakketlijst "
+"kiezen of de selectie juist ongedaan maken."
 
 #. Help common to all modes: Description of the various filter views
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:113
@@ -593,17 +590,17 @@ msgid ""
 "side."
 msgstr ""
 "<b>Pakketgroepen</b> toont de pakketten per categorie. U kunt de groepen als "
-"boomstructuur uitvouwen en invouwen om de categorieën daarmee te verfijnen "
-"of te generaliseren. Klik op een willekeurige categorie om de pakketten in "
-"die categorie in de pakketlijst aan de rechterkant zichtbaar te maken."
+"boomstructuur uit- en invouwen om de categorieën daarmee te verfijnen of te "
+"generaliseren. Klik op een willekeurige categorie om de pakketten in die "
+"categorie op de pakketlijst aan de rechterkant zichtbaar te maken."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:116
 msgid ""
 " <b>Hint:</b> There is a \"zzz All\" entry at the very end of the list that "
 "will show all packages. This may take a few seconds on slow machines."
 msgstr ""
-" <b>Tip:</b> Helemaal onderaan de lijst ziet u het item \"zzz All\" dat alle "
-"pakketten zal laten zien. Bij trage computers kan dit enkele minuten duren."
+" <b>Tip:</b> helemaal onderaan de lijst ziet u het item ‘zzz All’, dat alle "
+"pakketten zal laten zien. Op trage computers kan dit enkele minuten duren."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:119
 msgid ""
@@ -611,15 +608,15 @@ msgid ""
 "This is usually the easiest way to find a package if you know its name."
 msgstr ""
 "<b>Zoeken</b> biedt u de mogelijkheid te zoeken naar pakketten die aan "
-"verschillende criteria tegemoet komen. Dit is meestal de eenvoudigste manier "
-"om een pakket te vinden, vooral als u de naam ervan weet."
+"verschillende criteria voldoen. Dit is meestal de eenvoudigste manier om een "
+"pakket te vinden, vooral als u de naam ervan weet."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:121
 msgid ""
 "<b>Hint:</b> You can also use this to find out what package contains a "
 "certain library.  Search in the <b>Provides</b> RPM field."
 msgstr ""
-"<b>Tip:</b> Ook kunt u dit gebruiken om uit te vinden welk pakket een "
+"<b>Tip:</b> ook kunt u dit gebruiken om uit te vinden welk pakket een "
 "bepaalde bibliotheek bevat. Zoek in het RPM-veld <b>Zorgt voor</b>."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:124
@@ -628,8 +625,7 @@ msgid ""
 "what packages will be installed, deleted, or updated."
 msgstr ""
 "<b>Installatieoverzicht</b> laat standaard alle wijzigingen op uw systeem "
-"zien -- welke pakketten geïnstalleerd, verwijderd, of geüpdatet zullen "
-"worden."
+"zien - welke pakketten geïnstalleerd, verwijderd, of geüpdatet zullen worden."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:126
 msgid ""
@@ -638,7 +634,7 @@ msgid ""
 "see all changes that will be made to your system."
 msgstr ""
 "Over het algemeen is het een goed idee om <b>Afhankelijkheden controleren</"
-"b> te gebruiken en dan vervolgens naar <b>Installatieoverzicht</b> te gaan "
+"b> te gebruiken en vervolgens naar <b>Installatieoverzicht</b> te gaan, "
 "voordat u op <b>Accepteren</b> klikt. Zo kunt u alle wijzigingen zien die op "
 "uw systeem worden uitgevoerd."
 
@@ -647,7 +643,7 @@ msgid ""
 "You can also explicitly select what packages with what status to see here; "
 "use the check boxes at the left side."
 msgstr ""
-"Ook kunt u expliciet selecteren welke pakketten met welke status u hier wilt "
+"Ook kunt u uitdrukkelijk kiezen welke pakketten met welke status u hier wilt "
 "zien; gebruik daarvoor de keuzevakjes aan de linkerkant."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:131
@@ -656,7 +652,7 @@ msgid ""
 "what packages remain the same on your system. Simply check <b>Keep</b> and "
 "uncheck everything else."
 msgstr ""
-"<b>Tip:</b> Ook kunt u het effect van dit filter omkeren. U kunt zien welke "
+"<b>Tip:</b> ook kunt u het effect van dit filter omkeren. U kunt zien welke "
 "pakketten op uw systeem niet gewijzigd worden. Klik daartoe op <b>Behouden</"
 "b> en schakel alle andere selecties uit."
 
@@ -665,7 +661,7 @@ msgstr ""
 #. Translators: Headline for help about package status icons
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:148
 msgid "Symbols Overview"
-msgstr "Overzicht van de symbolen"
+msgstr "Legenda"
 
 #. Translators: Package status short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:155
@@ -676,31 +672,31 @@ msgstr "Niet installeren"
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:157
 msgid "This package is not installed and it will not be installed."
-msgstr "Dit pakket is niet geïnstalleerd en het wordt ook niet geïnstalleerd."
+msgstr "Dit pakket is niet geïnstalleerd en wordt ook niet geïnstalleerd."
 
 #. Translators: Package status short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:161
 #: libyui-qt-pkg/src/YQPkgObjList.cc:260
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:82
 msgid "Install"
-msgstr ""
+msgstr "Installeren"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:163
 msgid "This package will be installed. It is not installed yet."
-msgstr "Dit pakket wordt geïnstalleerd. Het is nog niet geïnstalleerd."
+msgstr "Dit pakket wordt geïnstalleerd en is nog niet geïnstalleerd."
 
 #. Translators: Package status short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:167
 #: libyui-qt-pkg/src/YQPkgObjList.cc:261
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:94
 msgid "Keep"
-msgstr ""
+msgstr "Behouden"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:169
 msgid "This package is already installed. Leave it untouched."
-msgstr "Dit pakket is al geïnstalleerd. Laat het onaangeraakt."
+msgstr "Dit pakket is al geïnstalleerd - laat dit ongewijzigd."
 
 #. Translators: Package status short (!) description
 #. Translators: Keyboard action short (!) description
@@ -709,7 +705,7 @@ msgstr "Dit pakket is al geïnstalleerd. Laat het onaangeraakt."
 #: libyui-qt-pkg/src/YQPkgObjList.cc:265
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:83
 msgid "Update"
-msgstr ""
+msgstr "Bijwerken"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:175
@@ -717,20 +713,20 @@ msgid ""
 "This package is already installed. Update it or reinstall it (if the "
 "versions are the same)."
 msgstr ""
-"Dit pakket is al geïnstalleerd. Werk het bij of installeer het opnieuw (bij "
-"identieke versies)."
+"Dit pakket is al geïnstalleerd - werk het bij of installeer het opnieuw (in "
+"het geval van identieke versies)."
 
 #. Translators: Package status short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:180
 #: libyui-qt-pkg/src/YQPkgObjList.cc:259
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:81
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:182
 msgid "This package is already installed. Delete it."
-msgstr "Dit pakket is al geïnstalleerd. Verwijder het."
+msgstr "Dit pakket is al geïnstalleerd - verwijder het."
 
 #. Translators: Package status short (!) description
 #. Translators: Keyboard action short (!) description
@@ -749,7 +745,7 @@ msgid ""
 msgstr ""
 "Dit pakket is niet geïnstalleerd en mag in geen geval geïnstalleerd worden, "
 "vooral niet omdat andere pakketten onopgeloste afhankelijkheden kunnen "
-"hebben of kunnen krijgen."
+"hebben of krijgen."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:192
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:308
@@ -757,7 +753,7 @@ msgid ""
 "Packages set to \"taboo\" are treated as if they did not exist on any "
 "installation media."
 msgstr ""
-"Pakketten ingesteld op \"taboe\" worden behandeld alsof ze op geen enkel "
+"Pakketten ingesteld op ‘taboe’ worden behandeld alsof ze op geen enkel "
 "installatiemedium bestaan."
 
 #. Translators: Package status short (!) description
@@ -773,23 +769,22 @@ msgid ""
 "because of unresolved dependencies that other packages might have or get."
 msgstr ""
 "Dit pakket is geïnstalleerd en mag niet worden aangepast, vooral niet omdat "
-"andere pakketten onopgeloste afhankelijkheden kunnen hebben of kunnen "
-"krijgen."
+"andere pakketten onopgeloste afhankelijkheden kunnen hebben of krijgen."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:202
 msgid ""
 "Use this status for third-party packages that should not be overwritten by "
 "newer versions that may come with the distribution."
 msgstr ""
-"Gebruik deze status voor pakketten van derden die niet door eventuele, met "
-"de distributie meegeleverde, nieuwere versies overschreven mogen worden."
+"Gebruik deze status voor externe pakketten die niet door eventuele, met de "
+"distributie meegeleverde, nieuwere versies overschreven mogen worden."
 
 #. Translators: Package status short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:207
 #: libyui-qt-pkg/src/YQPkgObjList.cc:257
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:85
 msgid "Autoinstall"
-msgstr ""
+msgstr "Automatisch installeren"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:209
@@ -797,22 +792,22 @@ msgid ""
 "This package will be installed automatically because some other package "
 "needs it."
 msgstr ""
-"Dit pakket wordt automatisch geïnstalleerd omdat dit vereist is voor een "
+"Dit pakket wordt automatisch geïnstalleerd, omdat dit vereist is voor een "
 "ander pakket."
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:211
 msgid ""
 "<b>Hint:</b> You may have to use \"taboo\" to get rid of such a package."
 msgstr ""
-"<b>Tip:</b> U zal waarschijnlijk \"taboe\" moeten gebruiken om zo'n pakket "
-"te kunnen verwijderen."
+"<b>Tip:</b> u zal waarschijnlijk ‘taboe’ moeten gebruiken om zo'n pakket te "
+"kunnen verwijderen."
 
 #. Translators: Package status short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:215
 #: libyui-qt-pkg/src/YQPkgObjList.cc:258
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:86
 msgid "Autoupdate"
-msgstr ""
+msgstr "Automatisch bijwerken"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:217
@@ -828,7 +823,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgObjList.cc:256
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:84
 msgid "Autodelete"
-msgstr ""
+msgstr "Automatisch verwijderen"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:224
@@ -848,13 +843,13 @@ msgstr ""
 #. Translators: Headline for help about "magic keys" in the package manager
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:257
 msgid "Special Keys Overview"
-msgstr "Overzicht van speciale toetsen"
+msgstr "Toetslegenda"
 
 #. Translators: Additional hint that will be added to any of the following keyboard actions.
 #. Automatic word wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:261
 msgid "In any case, go to the next list item."
-msgstr "Ga in elk geval naar het volgende lijstitem."
+msgstr "Ga altijd naar het volgende lijstitem."
 
 #. Translators: Keyboard action short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:268
@@ -867,9 +862,8 @@ msgid ""
 "Get this package. Install it if it is not installed yet. Update it to the "
 "latest version if it is installed  and there is a newer version."
 msgstr ""
-"Haal dit pakket op. Installeer het wanneer dit nog niet geïnstalleerd is. "
-"Werk het bij wanneer het geïnstalleerd is en er een nieuwere versie "
-"beschikbaar is."
+"Haal dit pakket op - installeer het als dit nog niet geïnstalleerd is. Werk "
+"het bij als het geïnstalleerd is en er een nieuwere versie beschikbaar is."
 
 #. Translators: Keyboard action short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:277
@@ -882,8 +876,8 @@ msgid ""
 "Get rid of this package. Mark it as \"do not install\" if it is not "
 "installed yet. Delete it if it is installed."
 msgstr ""
-"Verwijder dit pakket. Markeer het als \"niet installeren\" indien het nog "
-"niet geïnstalleerd is. Verwijder het als het wel geïnstalleerd is."
+"Verwijder dit pakket. Markeer het als ‘niet installeren’ indien het nog niet "
+"geïnstalleerd is. Verwijder het als het wel geïnstalleerd is."
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:287
@@ -897,7 +891,7 @@ msgstr ""
 #. Translators: Keyboard action short (!) description
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:294
 msgid "Undo Update"
-msgstr "Update ongedaan maken"
+msgstr "Bijwerken terugdraaien"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:296
@@ -905,9 +899,8 @@ msgid ""
 "Undo the effect of \">\" above: Set package to \"keep\" if it is currently "
 "set to \"update\". Ignore all other packages."
 msgstr ""
-"Het effect van \">\" hierboven ongedaan maken: stel het pakket als "
-"\"behouden\" in wanneer het nu op \"bijwerken\" staat ingesteld. Negeer alle "
-"andere pakketten."
+"Maak het effect van ‘>’ hierboven ongedaan: stel het pakket als ‘behouden’ "
+"in als het nu op ‘bijwerken’ staat ingesteld. Negeer alle andere pakketten."
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:304
@@ -916,10 +909,10 @@ msgid ""
 "does not get installed, especially not because of unresolved dependencies "
 "that other packages might have or get. "
 msgstr ""
-"Stel dit pakket in als \"taboe\" wanneer het niet geïnstalleerd is: om u "
-"ervan te verzekeren dat dit pakket niet geïnstalleerd gaat worden, vooral "
-"omdat andere pakketten mogelijk onopgeloste afhankelijkheden kunnen hebben "
-"of kunnen krijgen. "
+"Stel dit pakket in als ‘taboe’ als het niet geïnstalleerd is: om u ervan te "
+"verzekeren dat dit pakket niet geïnstalleerd gaat worden, vooral omdat "
+"andere pakketten mogelijk onopgeloste afhankelijkheden kunnen hebben of "
+"krijgen. "
 
 # /usr/lib/YaST2/clients/lan_inetd_custom.ycp:175
 #. Translators: Keyboard action short (!) description
@@ -934,16 +927,16 @@ msgid ""
 "will not be modified, especially not because of unresolved dependencies that "
 "other packages might have or get. "
 msgstr ""
-"Dit pakket als \"beschermd\" instellen wanneer het geïnstalleerd is: om u "
-"ervan te verzekeren dat dit pakket niet gewijzigd wordt, vooral omdat andere "
-"pakketten onopgeloste afhankelijkheden kunnen hebben of kunnen krijgen. "
+"Stel dit pakket in als ‘beschermd’ als het geïnstalleerd is: om u ervan te "
+"verzekeren dat dit pakket niet gewijzigd wordt, vooral omdat andere "
+"pakketten onopgeloste afhankelijkheden kunnen hebben of krijgen. "
 
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:320
 msgid ""
 "Use this for third-party packages that should not be overwritten by newer "
 "versions that may come with the distribution."
 msgstr ""
-"Gebruik dit voor pakketten van derden die niet door eventuele, met de "
+"Gebruik dit voor externe pakketten die niet door eventuele, met de "
 "distributie meegeleverde, nieuwere versies overschreven mogen worden."
 
 #: libyui-qt-pkg/src/YQPatternSelector.cc:168
@@ -951,12 +944,12 @@ msgstr ""
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:167
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:193
 msgid "&Details..."
-msgstr "&Details..."
+msgstr "&Details…"
 
 #: libyui-qt-pkg/src/YQPkgChangeLogView.cc:90
 #: libyui-qt-pkg/src/YQPkgFileListView.cc:82
 msgid "Information only available for installed packages."
-msgstr ""
+msgstr "Informatie alleen voor geïnstalleerde pakketten."
 
 #. TRANSLATORS: The package change log is too long to display, only the latest
 #. changes are displayed. %1 is the number of the items which are not displayed,
@@ -966,58 +959,58 @@ msgid ""
 "(%1 more change entries are not displayed. Run \"%2\" to see the complete "
 "change log.)"
 msgstr ""
-"(%1 meer wijzigingen zijn niet getoond. Voer \"%2\" uit om de complete log "
-"met wijzigingen te zien.)"
+"(%1 wijzigingen worden niet getoond. Voer ‘%2’ uit om het volledige logboek "
+"met wijzigingen te bekijken.)"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:66
 msgid "Changed Packages"
-msgstr ""
+msgstr "Gewijzigde pakketten"
 
 #. add the items.
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:102
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:103
 msgid "Selected by the user"
-msgstr ""
+msgstr "Door de gebruiker gekozen"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:50
 msgid "No Packages"
-msgstr ""
+msgstr "Geen pakketten"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:51
 msgid "Recommended Packages"
-msgstr ""
+msgstr "Aanbevolen pakketten"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:52
 msgid "Suggested Packages"
-msgstr ""
+msgstr "Voorgestelde pakketten"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:53
 msgid "Orphaned Packages"
-msgstr ""
+msgstr "Onteigende pakketten"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:54
 msgid "Unneeded Packages"
-msgstr ""
+msgstr "Onnodige pakketten"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:55
 msgid "Multiversion Packages"
-msgstr ""
+msgstr "Pakketten met meerdere versies"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:56
 msgid "Retracted Packages"
-msgstr ""
+msgstr "Teruggetrokken pakketten"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:57
 msgid "Retracted Installed Packages"
-msgstr ""
+msgstr "Teruggetrokken geïnstalleerde pakketten"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:88
 msgid "Package Classification"
-msgstr ""
+msgstr "Pakketklassificatie"
 
 #. Set the dialog title.
 #.
@@ -1027,31 +1020,31 @@ msgstr ""
 #. manager running (and configured to show any dialog titles).
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:84
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
 #. "OK" button
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:120
 msgid "&OK -- Try Again"
-msgstr ""
+msgstr "&Oké - opnieuw proberen"
 
 #. "Expert" menu button
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:131
 msgid "&Expert"
-msgstr ""
+msgstr "&Expert"
 
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:143
 msgid "&Save This List to a File..."
-msgstr ""
+msgstr "Lijst op&slaan als bestand…"
 
 #. Busy popup
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:160
 msgid "Checking Dependencies..."
-msgstr "De afhankelijkheden worden gecontroleerd..."
+msgstr "Bezig met controleren van afhankelijkheden…"
 
 #. Heading for popup dialog
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:370
 msgid "Create Dependency Resolver Test Case"
-msgstr ""
+msgstr "Testscenario van afhankelijkheidsoplosser creëren"
 
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:373
 msgid ""
