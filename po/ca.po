@@ -1,0 +1,1769 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: David Medina\n"
+"Language-Team: opensusecatalà\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Qt-Contexts: true\n"
+
+#: about-dialog.ui:14
+msgctxt "AboutDialog|"
+msgid "About Myrlyn"
+msgstr "Quant al Myrlyn"
+
+#: about-dialog.ui:36
+msgctxt "AboutDialog|"
+msgid "## Myrlyn "
+msgstr "## Myrlyn"
+
+#: about-dialog.ui:65
+msgctxt "AboutDialog|"
+msgid ""
+"Myrlyn is a graphical package manager to select\n"
+"software packages and patterns for installation,\n"
+"update and removal.\n"
+"\n"
+"It uses libzypp as its backend and Qt as its\n"
+"GUI toolkit.\n"
+"\n"
+"This started in the 11/2024 SUSE Hack Week\n"
+"to make the SUSE YaST Qt package selector usable\n"
+"as a standalone Qt program without any YaST\n"
+"dependencies."
+msgstr ""
+"El Myrlyn és un gestor de paquets gràfic per seleccionar\n"
+"paquets i patrons de programari per a la instal·lació,\n"
+"actualització i supressió.\n"
+"\n"
+"Usa libzypp com a fons i Qt com a\n"
+"joc d'eines de la IGU.\n"
+"\n"
+"Això va començar a la 11/2024 SUSE Hack Week\n"
+"per a fer usable el selector de paquets SUSE YaST Qt\n"
+"com a programa Qt independent sense cap\n"
+"dependència del YaST."
+
+#: about-dialog.ui:107
+msgctxt "AboutDialog|"
+msgid ""
+"### Main Author\n"
+"\n"
+"- Stefan Hundhammer (GitHub: @shundhammer)\n"
+"\n"
+"### Contributors\n"
+"\n"
+"- Christoph Grüninger (GitHub: @gruenich)"
+msgstr ""
+"Autor principal\n"
+"\n"
+"- Stefan Hundhammer (GitHub: )shundhammer)\n"
+"\n"
+"Col·laboradors\n"
+"\n"
+"- Christoph Grüninger (GitHub: )gruenich)"
+
+#: init-repos-page.ui:15
+msgctxt "InitReposPage|"
+msgid "Form"
+msgstr "Formulari"
+
+#: init-repos-page.ui:36
+msgctxt "InitReposPage|"
+msgid "Initializing Repositories"
+msgstr "S'inicien els repositoris"
+
+#: pkg-commit-page.ui:15
+msgctxt "PkgCommitPage|"
+msgid "Form"
+msgstr "Formulari"
+
+#: pkg-commit-page.ui:41
+msgctxt "PkgCommitPage|"
+msgid "Installing / Removing Packages"
+msgstr "Instal·lació / supressió de paquets"
+
+#: pkg-commit-page.ui:61
+msgctxt "PkgCommitPage|"
+msgid "Hide &Details"
+msgstr "Amaga els detalls"
+
+#: pkg-commit-page.ui:113
+msgctxt "PkgCommitPage|"
+msgid "To Do"
+msgstr "Per fer"
+
+#: pkg-commit-page.ui:238
+msgctxt "PkgCommitPage|"
+msgid "Downloads"
+msgstr "Baixades"
+
+#: pkg-commit-page.ui:282
+msgctxt "PkgCommitPage|"
+msgid "Doing"
+msgstr "Es fa"
+
+#: pkg-commit-page.ui:376
+msgctxt "PkgCommitPage|"
+msgid "Done"
+msgstr "Fet"
+
+#: pkg-commit-page.ui:489
+msgctxt "PkgCommitPage|"
+msgid "&Cancel"
+msgstr "Cancel·la"
+
+#: pkg-commit-page.ui:548
+msgctxt "PkgCommitPage|"
+msgid "Show &Summary Page"
+msgstr "Mostra la pàgina de resum"
+
+#: progress-dialog.ui:14
+msgctxt "ProgressDialog|"
+msgid "Working..."
+msgstr "Treballant..."
+
+#: progress-dialog.ui:79
+msgctxt "ProgressDialog|"
+msgid "&Close"
+msgstr "Tan&ca"
+
+#: repo-config.ui:14
+msgctxt "RepoConfig|"
+msgid "Repository Configuration"
+msgstr "Configuració del repositori"
+
+#: repo-config.ui:41
+msgctxt "RepoConfig|"
+msgid "**Repository Configuration**"
+msgstr "**Configuració del repositori**"
+
+#: repo-config.ui:94
+msgctxt "RepoConfig|"
+msgid "**PackMan**"
+msgstr "**ManPack**"
+
+#: repo-config.ui:128
+msgctxt "RepoConfig|"
+msgid "URL:"
+msgstr "URL:"
+
+#: repo-config.ui:154
+msgctxt "RepoConfig|"
+msgid "Raw URL:"
+msgstr "URL RAW:"
+
+#: repo-config.ui:208
+msgctxt "RepoConfig|"
+msgid "&Priority:"
+msgstr "&Prioritat:"
+
+#: repo-config.ui:248
+msgctxt "RepoConfig|"
+msgid "Ena&bled"
+msgstr "Ha&bilitat"
+
+#: repo-config.ui:258
+msgctxt "RepoConfig|"
+msgid "Auto-Re&fresh"
+msgstr "Re&fresca automàticament"
+
+#: repo-config.ui:281
+msgctxt "RepoConfig|"
+msgid "1: highest; 200: lowest"
+msgstr "1: més alta; 200: més baixa"
+
+#: repo-config.ui:334
+msgctxt "RepoConfig|"
+msgid "&Add"
+msgstr "&Afegeix"
+
+#: repo-config.ui:341
+msgctxt "RepoConfig|"
+msgid "&Edit"
+msgstr "&Edita"
+
+#: repo-config.ui:348
+msgctxt "RepoConfig|"
+msgid "&Delete"
+msgstr "S&uprimeix"
+
+#: repo-config.ui:368
+msgctxt "RepoConfig|"
+msgid "<i>Restart needed!</i>"
+msgstr "<i>Cal reiniciar!</i>"
+
+#: repo-config.ui:378
+msgctxt "RepoConfig|"
+msgid "&Close"
+msgstr "Tan&ca"
+
+#: repo-edit-add.ui:98
+msgctxt "RepoEdit|"
+msgid "Custom &Repository"
+msgstr "Repositori pe&rsonalitzat"
+
+#: repo-edit-add.ui:108
+msgctxt "RepoEdit|"
+msgid "Co&mmunity Repository"
+msgstr "Repositori de la co&munitat"
+
+#: repo-edit-add.ui:254
+msgctxt "RepoEdit|"
+msgid "&Name"
+msgstr "&Nom"
+
+#: repo-edit-add.ui:270
+msgctxt "RepoEdit|"
+msgid "Repository Name"
+msgstr "Nom del repositori"
+
+#: repo-edit-add.ui:302
+msgctxt "RepoEdit|"
+msgid "Raw &URL"
+msgstr "&URL en cru"
+
+#: repo-edit-add.ui:362
+msgctxt "RepoEdit|"
+msgid "&Cancel"
+msgstr "&Cancel·la"
+
+#: repo-edit-add.ui:369
+msgctxt "RepoEdit|"
+msgid "&OK"
+msgstr "D'AC&ORD"
+
+#: repo-gpg-key-import-dialog.ui:14
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "GPG Key"
+msgstr "Clau de GPG"
+
+#: repo-gpg-key-import-dialog.ui:41
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "## Import Untrusted GPG Key"
+msgstr "## Importa una clau de GPG no fiable"
+
+#: repo-gpg-key-import-dialog.ui:81
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Repository:_"
+msgstr "_Repositori:_"
+
+#: repo-gpg-key-import-dialog.ui:101
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_URL:_"
+msgstr "_URL:_"
+
+#: repo-gpg-key-import-dialog.ui:121
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Fingerprint:_"
+msgstr "_Empremta digital:_"
+
+#: repo-gpg-key-import-dialog.ui:141
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Key Name:_"
+msgstr "_Nom de la clau:_"
+
+#: repo-gpg-key-import-dialog.ui:161
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Key Algorithm:_"
+msgstr "_Algorisme de la clau:_"
+
+#: repo-gpg-key-import-dialog.ui:181
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Key ID:_"
+msgstr "_ID de la clau:_"
+
+#: repo-gpg-key-import-dialog.ui:201
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Created:_"
+msgstr "_Creació:_"
+
+#: repo-gpg-key-import-dialog.ui:221
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Expires:_"
+msgstr "_Caducitat:_"
+
+#: repo-gpg-key-import-dialog.ui:274
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "&Trust"
+msgstr "Con&fia-hi"
+
+#: repo-gpg-key-import-dialog.ui:297
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "&Cancel"
+msgstr "&Cancel·la"
+
+#: search-filter-view.ui:14
+msgctxt "SearchFilterView|"
+msgid "Form"
+msgstr "Formulari"
+
+#: search-filter-view.ui:43
+msgctxt "SearchFilterView|"
+msgid "Search Text or Pattern"
+msgstr "Cerca text o un patró"
+
+#: search-filter-view.ui:53
+msgctxt "SearchFilterView|"
+msgid "&Search"
+msgstr "&Cerca"
+
+#: search-filter-view.ui:78
+msgctxt "SearchFilterView|"
+msgid "Search In"
+msgstr "Cerca a"
+
+#: search-filter-view.ui:87
+msgctxt "SearchFilterView|"
+msgid "&Name"
+msgstr "&Nom"
+
+#: search-filter-view.ui:97
+msgctxt "SearchFilterView|"
+msgid "Su&mmary"
+msgstr "Resu&m"
+
+#: search-filter-view.ui:104
+msgctxt "SearchFilterView|"
+msgid "D&escription"
+msgstr "D&escripció"
+
+#: search-filter-view.ui:111
+msgctxt "SearchFilterView|"
+msgid "RPM P&rovides"
+msgstr "P&rovisions d'RPM"
+
+#: search-filter-view.ui:118
+msgctxt "SearchFilterView|"
+msgid "RPM Re&quires"
+msgstr "Re&queriments d'RPM"
+
+#: search-filter-view.ui:125
+msgctxt "SearchFilterView|"
+msgid "File &List"
+msgstr "&Llista de fitxers"
+
+#: search-filter-view.ui:159
+msgctxt "SearchFilterView|"
+msgid "Searc&h Mode:"
+msgstr "M&ode de cerca:"
+
+#: search-filter-view.ui:170
+msgctxt "SearchFilterView|"
+msgid "Auto"
+msgstr "Automàtic"
+
+#: search-filter-view.ui:175
+msgctxt "SearchFilterView|"
+msgid "Contains"
+msgstr "Conté"
+
+#: search-filter-view.ui:180
+msgctxt "SearchFilterView|"
+msgid "Starts With"
+msgstr "Comença amb"
+
+#: search-filter-view.ui:185
+msgctxt "SearchFilterView|"
+msgid "Exact Match"
+msgstr "Coincidència exacta"
+
+#: search-filter-view.ui:190
+msgctxt "SearchFilterView|"
+msgid "Wildcards"
+msgstr "Comodins"
+
+#: search-filter-view.ui:195
+msgctxt "SearchFilterView|"
+msgid "Regular Expression"
+msgstr "Expressió regular"
+
+#: search-filter-view.ui:203
+msgctxt "SearchFilterView|"
+msgid "Detected:"
+msgstr "Detectat:"
+
+#: search-filter-view.ui:212
+msgctxt "SearchFilterView|"
+msgid "Case Sens&itive"
+msgstr "Distingeix majúscules i minúscules"
+
+#: status-filter-view.ui:14
+msgctxt "StatusFilterView|"
+msgid "Form"
+msgstr "Formulari"
+
+#: status-filter-view.ui:32
+msgctxt "StatusFilterView|"
+msgid "Show Packages with Status"
+msgstr "Mostra els paquets amb l'estat"
+
+#: status-filter-view.ui:63
+msgctxt "StatusFilterView|"
+msgid "Install"
+msgstr "Instal·la"
+
+#: status-filter-view.ui:83
+msgctxt "StatusFilterView|"
+msgid "Update"
+msgstr "Actualitza"
+
+#: status-filter-view.ui:103
+msgctxt "StatusFilterView|"
+msgid "Auto-Install"
+msgstr "Instal·lació automàtica"
+
+#: status-filter-view.ui:123
+msgctxt "StatusFilterView|"
+msgid "Auto-Update"
+msgstr "Actualitza automàticament"
+
+#: status-filter-view.ui:143
+msgctxt "StatusFilterView|"
+msgid "Taboo"
+msgstr "Tabú"
+
+#: status-filter-view.ui:160
+msgctxt "StatusFilterView|"
+msgid "Protected"
+msgstr "Protegit"
+
+#: status-filter-view.ui:193
+msgctxt "StatusFilterView|"
+msgid "Keep"
+msgstr "Conserva"
+
+#: status-filter-view.ui:210
+msgctxt "StatusFilterView|"
+msgid "Do Not Install"
+msgstr "No instal·lis"
+
+#: status-filter-view.ui:259
+msgctxt "StatusFilterView|"
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: status-filter-view.ui:279
+msgctxt "StatusFilterView|"
+msgid "Auto-Delete"
+msgstr "Suprimeix automàticament"
+
+#: status-filter-view.ui:302
+msgctxt "StatusFilterView|"
+msgid "<i>Middle-click on a status to show only this one</i>"
+msgstr "<i>Feu clic del mig sobre un estat per mostrar només aquest</i>"
+
+#: status-filter-view.ui:354
+msgctxt "StatusFilterView|"
+msgid "Defaults"
+msgstr "Per defecte"
+
+#: status-filter-view.ui:361
+msgctxt "StatusFilterView|"
+msgid "Refresh List"
+msgstr "Actualitza la llista"
+
+#: summary-page.ui:15
+msgctxt "SummaryPage|"
+msgid "Form"
+msgstr "Formulari"
+
+#: summary-page.ui:36
+msgctxt "SummaryPage|"
+msgid "Summary"
+msgstr "Resum"
+
+#: summary-page.ui:52
+msgctxt "SummaryPage|"
+msgid ""
+"Packages installed: 2\n"
+"\n"
+"Packages updated: 5\n"
+"\n"
+"Packages removed: 0\n"
+"\n"
+"Errors: 0\n"
+"\n"
+msgstr ""
+"Paquets instal·lats: 2\n"
+"\n"
+"Paquets actualitzats: 5\n"
+"\n"
+"Paquets suprimits: 0\n"
+"\n"
+"Errors: 0\n"
+
+#: summary-page.ui:92
+msgctxt "SummaryPage|"
+msgid "Automatically closing in"
+msgstr "Es tanca automàticament d'aquí a"
+
+#: summary-page.ui:99
+msgctxt "SummaryPage|"
+msgid "10"
+msgstr "10"
+
+#: summary-page.ui:122
+msgctxt "SummaryPage|"
+msgid "&Stop"
+msgstr "A&tura"
+
+#: summary-page.ui:132
+msgctxt "SummaryPage|"
+msgid "..."
+msgstr "..."
+
+#: summary-page.ui:172
+msgctxt "SummaryPage|"
+msgid "&Back"
+msgstr "&Enrere"
+
+#: summary-page.ui:179
+msgctxt "SummaryPage|"
+msgid "&Finish"
+msgstr "Aca&ba"
+
+#: updates-filter-view.ui:14
+msgctxt "UpdatesFilterView|"
+msgid "Form"
+msgstr "Formulari"
+
+#: updates-filter-view.ui:35
+msgctxt "UpdatesFilterView|"
+msgid "Updates"
+msgstr "Actualitzacions"
+
+#: updates-filter-view.ui:48
+msgctxt "UpdatesFilterView|"
+msgid ""
+"This shows only packages that could be updated, i.e. where a newer version "
+"is available than the version that is already installed."
+msgstr ""
+"Això només mostra els paquets que es poden actualitzar, és a dir, on hi ha "
+"disponible una versió més nova que la versió que ja està instal·lada."
+
+#: updates-filter-view.ui:98
+msgctxt "UpdatesFilterView|"
+msgid "Pac&kage Update"
+msgstr "Actualització del paquet"
+
+#: updates-filter-view.ui:120
+msgctxt "UpdatesFilterView|"
+msgid ""
+"Mark all packages for updating that can be updated without a dependency "
+"problem.\n"
+"\n"
+"This is the equivalent of the \"zypper up\" command."
+msgstr ""
+"Marca tots els paquets per actualitzar que es poden actualitzar sense un "
+"problema de dependència.\n"
+"\n"
+"Això és l'equivalent a l'ordre «zypper up»."
+
+#: updates-filter-view.ui:172
+msgctxt "UpdatesFilterView|"
+msgid "D&ist-Upgrade"
+msgstr "Actualització de la distribució"
+
+#: updates-filter-view.ui:194
+msgctxt "UpdatesFilterView|"
+msgid ""
+"Do a distribution upgrade: Mark all packages for updating that can be "
+"updated without a dependency problem.\n"
+"\n"
+"This takes package splits, package renames,  pattern updates and more into "
+"account.\n"
+"\n"
+"This is the equivalent of the \"zypper dup\" command."
+msgstr ""
+"Fes una actualització de la distribució: marca tots els paquets per "
+"actualitzar que es poden actualitzar sense un problema de dependència.\n"
+"\n"
+"Això té en compte els desglossaments dels paquets, els canvis de nom dels "
+"paquets, les actualitzacions dels patrons i molt més.\n"
+"\n"
+"Això és l'equivalent a l'ordre «zypper dup»."
+
+#: updates-filter-view.ui:242
+msgctxt "UpdatesFilterView|"
+msgid "Refresh List"
+msgstr "Actualitza la llista"
+
+#: MyrlynApp.cc:180
+msgid " [root]"
+msgstr " [root]"
+
+#: MyrlynApp.cc:183 RepoConfigDialog.cc:64
+msgid " (read-only)"
+msgstr "(només de lectura)"
+
+#: MyrlynApp.cc:204
+msgid "Preparing the package selector..."
+msgstr "Es prepara el selector de paquets..."
+
+#: MyrlynApp.cc:462
+msgid "Really quit?"
+msgstr "De debò en voleu sortir?"
+
+#: MyrlynRepoManager.cc:296
+msgid ""
+"Error loading the repos. Run\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"and restart the program."
+msgstr ""
+"S'ha produït un error en carregar els repositoris. Executeu\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"i reinicieu el programa."
+
+#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
+#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:159
+msgid "Error"
+msgstr "Error"
+
+#: MyrlynRepoManager.cc:318
+#, qt-format
+msgid ""
+"Refreshing repository \"%1\" failed.\n"
+"\n"
+"This repository is now disabled for this program run."
+msgstr ""
+"Ha fallat l'actualització del repositori «%1».\n"
+"\n"
+"Aquest repositori ara està desactivat per a executar aquest programa."
+
+#: MyrlynRepoManager.cc:329
+#, qt-format
+msgid ""
+"Refreshing failed for repositories\n"
+"\n"
+"%1\n"
+"Those repositories are now disabled for this program run."
+msgstr ""
+"Ha fallat l'actualització per als repositoris\n"
+"\n"
+"%1\n"
+"Aquests repositoris estan desactivats per a executar aquest programa."
+
+#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
+msgid "Warning"
+msgstr "Avís"
+
+#: MyrlynWorkflowSteps.cc:168
+msgid ""
+"Can't connect to the package manager!\n"
+"It may be busy in another window.\n"
+msgstr ""
+"No es pot connectar amb el gestor de paquets!\n"
+"Pot estar ocupat en una altra finestra.\n"
+
+#: PkgCommitPage.cc:141
+msgid "To Do"
+msgstr "Per a fer"
+
+#: PkgCommitPage.cc:142
+msgid "Downloads"
+msgstr "Baixades"
+
+#: PkgCommitPage.cc:143
+msgid "Done"
+msgstr "Fet"
+
+#: PkgCommitPage.cc:295
+msgid "Hide &Details"
+msgstr "Amaga'n els &detalls"
+
+#: PkgCommitPage.cc:295
+msgid "Show &Details"
+msgstr "Mostra'n els &detalls"
+
+#: PkgCommitPage.cc:340
+msgid "Really cancel the current package actions?"
+msgstr "De debò voleu cancel·lar les accions del paquet actual?"
+
+#: PkgCommitPage.cc:541
+msgid "Checking File Conflicts..."
+msgstr "Es comproven els conflictes entre fitxers..."
+
+#: PkgCommitPage.cc:710
+#, qt-format
+msgid "Error downloading package %1"
+msgstr "S'ha produït un error en baixar el paquet %1"
+
+#: PkgCommitPage.cc:758 PkgCommitPage.cc:787
+#, qt-format
+msgid "Error installing package %1"
+msgstr "S'ha produït un error en instal·lar el paquet %1"
+
+#: PkgCommitPage.cc:975
+msgid "[Post-transaction scripts]"
+msgstr "[Scripts posteriors a la transacció]"
+
+#: PkgCommitPage.cc:1124
+msgid "File Conflict"
+msgstr "Conflicte de fitxers"
+
+#: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
+#: YQPkgServiceList.cc:46
+msgid "Name"
+msgstr "Nom"
+
+#: QY2DiskUsageList.cc:164
+msgid "Disk Usage"
+msgstr "Ús del disc"
+
+#: QY2DiskUsageList.cc:165
+msgid "Free"
+msgstr "Lliure"
+
+#: QY2DiskUsageList.cc:166
+msgid "Total"
+msgstr "Total"
+
+#: QY2DiskUsageList.cc:228
+#, qt-format
+msgid "Used %1"
+msgstr "Usat: %1"
+
+#: RepoConfigDialog.cc:324
+#, qt-format
+msgid ""
+"Really delete repository \"%1\"?\n"
+"\n"
+"URL: %2"
+msgstr ""
+"De debò voleu suprimir el repositori «%1»?\n"
+"\n"
+"URL: %2"
+
+#: RepoConfigDialog.cc:350
+msgid ""
+"The application needs to be restarted\n"
+"for the changes to take effect.\n"
+"\n"
+"Quitting now. Please restart."
+msgstr ""
+"Cal reiniciar l'aplicació\n"
+"perquè els canvis tinguin efecte.\n"
+"\n"
+"Se'n surt ara. Si us plau, reinicieu."
+
+#: RepoEditDialog.cc:104
+msgid "See also  'man zypper'"
+msgstr "Vegeu també «man zypper»"
+
+#: RepoEditDialog.cc:112
+msgid "Add Repository"
+msgstr "Afegeix-hi un repositori"
+
+#: RepoEditDialog.cc:112
+msgid "Edit Repository"
+msgstr "Edita el repositori"
+
+#: RepoEditDialog.cc:246
+msgid "Invalid URL: "
+msgstr "URL no vàlid: "
+
+#: RepoEditDialog.cc:251
+msgid "Invalid input: "
+msgstr "Entrada no vàlida: "
+
+#: RepoGpgKeyImportDialog.cc:110
+#, qt-format
+msgid "Repository \"%1\" will be temporarily disabled."
+msgstr "El repositori «%1» s'inhabilitarà temporalment."
+
+#: RepoTable.cc:40
+msgid "Priority"
+msgstr "Prioritat"
+
+#: RepoTable.cc:41
+msgid "Enabled"
+msgstr "Habilitat"
+
+#: RepoTable.cc:42
+msgid "Auto-Refresh"
+msgstr "Actualitza automàticament"
+
+#: RepoTable.cc:43
+msgid "Service"
+msgstr "Servei"
+
+#: RepoTable.cc:44
+msgid "URL"
+msgstr "URL"
+
+#: SummaryPage.cc:120
+#, qt-format
+msgid "%1 s"
+msgstr "%1 s"
+
+#: SummaryPage.cc:175
+msgid "Close after 300 seconds (5 minutes)"
+msgstr "Es tanca després de 300 segons (5 minuts)"
+
+#: SummaryPage.cc:176
+msgid "Don't automatically close"
+msgstr "No el tanquis automàticament"
+
+#: SummaryPage.cc:192
+#, qt-format
+msgid "Close after %1 seconds"
+msgstr "Es tanca després de %1 segons"
+
+#: SummaryPage.cc:258
+msgid "No package changes."
+msgstr "Sense canvis de paquet."
+
+#: SummaryPage.cc:299
+#, qt-format
+msgid "FAILED: %1"
+msgstr "HA FALLAT: %1"
+
+#: SummaryPage.cc:300
+#, qt-format
+msgid "Packages removed by user: %1"
+msgstr "Paquets suprimits per l'usuari: %1"
+
+#: SummaryPage.cc:301
+#, qt-format
+msgid "Packages removed because of dependencies: %1"
+msgstr "Paquets suprimits a causa de dependències: %1"
+
+#: SummaryPage.cc:302
+#, qt-format
+msgid "Packages installed by user: %1"
+msgstr "Paquets instal·lats per l'usuari: %1"
+
+#: SummaryPage.cc:303
+#, qt-format
+msgid "Packages installed because of dependencies: %1"
+msgstr "Paquets instal·lats a causa de dependències: %1"
+
+#: SummaryPage.cc:304
+#, qt-format
+msgid "Packages updated by user: %1"
+msgstr "Paquets actualitzats per l'usuari: %1"
+
+#: SummaryPage.cc:305
+#, qt-format
+msgid "Packages updated because of dependencies: %1"
+msgstr "Paquets actualitzats a causa de dependències: %1"
+
+#: SummaryPage.cc:306
+#, qt-format
+msgid "To do: %1"
+msgstr "Per a fer: %1"
+
+#: SummaryPage.cc:355
+#, qt-format
+msgid "(%1 more)"
+msgstr "(%1 més)"
+
+#: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
+msgid "Information only available for installed packages."
+msgstr "La informació només està disponible per als paquets instal·lats."
+
+#: YQPkgChangeLogView.cc:116
+#, qt-format
+msgid "(%1 more; run \"%2\" to see the complete change log)"
+msgstr "(%1 més; executeu «%2» per a veure el registre complet de canvis)"
+
+#: YQPkgChangesDialog.cc:48
+msgid "Changed Packages"
+msgstr "Paquets canviats"
+
+#: YQPkgChangesDialog.cc:85
+msgid "All"
+msgstr "Tots"
+
+#: YQPkgChangesDialog.cc:86
+msgid "Selected by the user"
+msgstr "Seleccionat per l'usuari"
+
+#: YQPkgChangesDialog.cc:87 YQPkgSelectorBase.cc:261
+msgid "Automatic Changes"
+msgstr "Canvis automàtics"
+
+#: YQPkgClassificationFilterView.cc:45
+msgid "No Packages"
+msgstr "Sense paquets"
+
+#: YQPkgClassificationFilterView.cc:46
+msgid "Recommended Packages"
+msgstr "Paquets recomanats"
+
+#: YQPkgClassificationFilterView.cc:47
+msgid "Suggested Packages"
+msgstr "Paquets suggerits"
+
+#: YQPkgClassificationFilterView.cc:48
+msgid "Orphaned Packages"
+msgstr "Paquets orfes"
+
+#: YQPkgClassificationFilterView.cc:49
+msgid "Unneeded Packages"
+msgstr "Paquets innecessaris"
+
+#: YQPkgClassificationFilterView.cc:50
+msgid "Multiversion Packages"
+msgstr "Paquets multiversió"
+
+#: YQPkgClassificationFilterView.cc:51
+msgid "Retracted Packages"
+msgstr "Paquets trets"
+
+#: YQPkgClassificationFilterView.cc:52
+msgid "Retracted Installed Packages"
+msgstr "Paquets instal·lats trets"
+
+#: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:109
+#: YQPkgSelector.cc:703
+msgid "All Packages"
+msgstr "Tots els paquets"
+
+#: YQPkgClassificationFilterView.cc:82
+msgid "Package Classification"
+msgstr "Classificació dels paquets"
+
+#: YQPkgConflictDialog.cc:104
+msgid "&OK -- Try Again"
+msgstr "D'ac&ord -- Torna-ho a provar"
+
+#: YQPkgConflictDialog.cc:116
+msgid "&Expert"
+msgstr "&Expert"
+
+#: YQPkgConflictDialog.cc:129
+msgid "&Save This List to a File..."
+msgstr "&Desa aquesta llista en un fitxer..."
+
+#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148
+#: YQPkgSelectorBase.cc:271 YQPkgSelector.cc:612 YQPkgSelector.cc:1218
+#: YQPkgTextDialog.cc:235
+msgid "&Cancel"
+msgstr "&Cancel·la"
+
+#: YQPkgConflictDialog.cc:190
+msgid "Verifying System Dependencies"
+msgstr "Es verifiquen les dependències del sistema"
+
+#: YQPkgConflictDialog.cc:321
+msgid "Create Dependency Resolver Test Case"
+msgstr "Crea un cas de prova del solucionador de dependències"
+
+#: YQPkgConflictDialog.cc:325
+msgid "You need to run the dependency resolver first."
+msgstr "Primer heu d'executar el solucionador de dependències."
+
+#: YQPkgConflictDialog.cc:333
+#, qt-format
+msgid ""
+"<p>Use this to generate extensive logs to help tracking down bugs in the "
+"dependency resolver. The logs will be stored in directory <br><tt>%1</tt></"
+"p>"
+msgstr ""
+"<p>Useu això per generar registres extensos per ajudar a rastrejar els "
+"errors al solucionador de dependències. Els registres s'emmagatzemaran al "
+"directori <br><tt>%1</tt></p>"
+
+#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1217
+#: YQPkgSelector.cc:1269 YQPkgVersionsView.cc:427
+msgid "C&ontinue"
+msgstr "Continua"
+
+#: YQPkgConflictDialog.cc:351
+#, qt-format
+msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
+msgstr "<p>Prova de resolució de dependències escrita a <br><tt>%1</tt></p>"
+
+#: YQPkgConflictDialog.cc:354
+msgid "Success"
+msgstr "Correcte"
+
+#: YQPkgConflictDialog.cc:359
+#, qt-format
+msgid ""
+"<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
+"disk space and permissions for <tt>%1</tt></p>"
+msgstr ""
+"<p><b>Error</b> en crear el cas de prova del solucionador de dependències</"
+"p><p>Si us plau, comproveu l'espai del disc i els permisos per a <tt>%1</"
+"tt></p>"
+
+#: YQPkgConflictList.cc:137
+msgid "Save conflicts list"
+msgstr "Desa la llista de conflictes"
+
+#: YQPkgConflictList.cc:160
+#, qt-format
+msgid "Can't open file %1"
+msgstr "No es pot obrir el fitxer %1"
+
+#: YQPkgConflictList.cc:246
+msgid "Conflict Resolution:"
+msgstr "Resolució de conflictes:"
+
+#: YQPkgConflictList.cc:286
+#, qt-format
+msgid "<a href='/'>%1 more...</a>"
+msgstr "<a href='/'>%1 més...</a>"
+
+#: YQPkgDependenciesView.cc:81 YQPkgDependenciesView.cc:111
+#: YQPkgTechnicalDetailsView.cc:105 YQPkgTechnicalDetailsView.cc:146
+msgid "Version:"
+msgstr "Versió:"
+
+#: YQPkgDependenciesView.cc:83 YQPkgDependenciesView.cc:113
+msgid "Provides:"
+msgstr "Provisions:"
+
+#: YQPkgDependenciesView.cc:84 YQPkgDependenciesView.cc:114
+msgid "Prerequires:"
+msgstr "Prerequisits:"
+
+#: YQPkgDependenciesView.cc:85 YQPkgDependenciesView.cc:115
+msgid "Requires:"
+msgstr "Requeriments:"
+
+#: YQPkgDependenciesView.cc:86 YQPkgDependenciesView.cc:116
+msgid "Conflicts:"
+msgstr "Conflictes:"
+
+#: YQPkgDependenciesView.cc:87 YQPkgDependenciesView.cc:117
+msgid "Obsoletes:"
+msgstr "Obsolet:"
+
+#: YQPkgDependenciesView.cc:88 YQPkgDependenciesView.cc:118
+msgid "Recommends:"
+msgstr "Recomana:"
+
+#: YQPkgDependenciesView.cc:89 YQPkgDependenciesView.cc:119
+msgid "Suggests:"
+msgstr "Suggereix:"
+
+#: YQPkgDependenciesView.cc:90 YQPkgDependenciesView.cc:120
+msgid "Enhances:"
+msgstr "Millora:"
+
+#: YQPkgDependenciesView.cc:91 YQPkgDependenciesView.cc:121
+msgid "Supplements:"
+msgstr "Suplements:"
+
+#: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:139
+msgid "<b>Alternate Version</b>"
+msgstr "<b>Versió alternativa</b>"
+
+#: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:140
+msgid "<b>Installed Version</b>"
+msgstr "<b>Versió instal·lada</b>"
+
+#: YQPkgDescriptionDialog.cc:45
+msgid "Package Description"
+msgstr "Descripció del paquet"
+
+#: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
+#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114
+#: YQPkgProductDialog.cc:99 YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449
+#: YQPkgSelector.cc:1619 YQPkgTextDialog.cc:43
+msgid "&OK"
+msgstr "D'ACORD"
+
+#: YQPkgDescriptionView.cc:88
+msgid "References:"
+msgstr "Referències:"
+
+#: YQPkgDescriptionView.cc:237
+msgid "This package contains: "
+msgstr "Aquest paquet conté: "
+
+#: YQPkgDiskUsageList.cc:123
+msgid "<b>Error:</b> Out of disk space!"
+msgstr "<b>Error:</b> sense espai de disc!"
+
+#: YQPkgDiskUsageList.cc:132
+msgid "<b>Warning:</b> Disk space is running out!"
+msgstr "<b>Avís:</b> l'espai de disc s'acaba!"
+
+#: YQPkgDiskUsageWarningDialog.cc:41
+msgid "Disk Space Warning"
+msgstr "Avís d'espai de disc"
+
+#: YQPkgFileListView.cc:98
+#, qt-format
+msgid "%1 files total"
+msgstr "%1 fitxers en total"
+
+#: YQPkgFilterTab.cc:123
+msgid "&View"
+msgstr "&Vista"
+
+#: YQPkgFilterTab.cc:232
+msgid "Move page &left"
+msgstr "Mou la pàgina a l'es&querra"
+
+#: YQPkgFilterTab.cc:240
+msgid "Move page &right"
+msgstr "Mou la pàgina a la d&reta"
+
+#: YQPkgFilterTab.cc:248
+msgid "&Close page"
+msgstr "Tan&ca la pàgina"
+
+#: YQPkgHistoryDialog.cc:56
+msgid "Package History"
+msgstr "Historial de paquets"
+
+#: YQPkgHistoryDialog.cc:73
+msgid "Package History (/var/log/zypp/history)"
+msgstr "Historial de paquets (/var/log/zypp/history)"
+
+#: YQPkgHistoryDialog.cc:89
+msgid "Date"
+msgstr "Data"
+
+#: YQPkgHistoryDialog.cc:97
+msgid "Action"
+msgstr "Acció"
+
+#: YQPkgHistoryDialog.cc:97
+msgid "Version/URL"
+msgstr "Versió / URL"
+
+#: YQPkgHistoryDialog.cc:183
+msgid "Unable to read history"
+msgstr "No s'ha pogut llegir l'historial."
+
+#: YQPkgLangList.cc:40
+msgid "Code"
+msgstr "Codi"
+
+#: YQPkgLangList.cc:43
+msgid "Language"
+msgstr "Llengua"
+
+#: YQPkgList.cc:48
+msgid "Package"
+msgstr "Paquet"
+
+#: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
+msgid "Summary"
+msgstr "Resum"
+
+#: YQPkgList.cc:54
+msgid "Installed (Available)"
+msgstr "Instal·lat (disponible)"
+
+#: YQPkgList.cc:58
+msgid "Avail. Ver."
+msgstr "Ver. disp."
+
+#: YQPkgList.cc:61
+msgid "Inst. Ver."
+msgstr "Ver. instal."
+
+#: YQPkgList.cc:67 YQPkgProductList.cc:37
+msgid "Version"
+msgstr "Versió"
+
+#: YQPkgList.cc:71
+msgid "Size"
+msgstr "Mida"
+
+#: YQPkgList.cc:436 YQPkgObjList.cc:526 YQPkgPatchList.cc:386
+msgid "&All in This List"
+msgstr "Tot en &aquesta llista"
+
+#: YQPkgList.cc:575
+#, qt-format
+msgid "Installed Version: %1"
+msgstr "Versió instal·lada: %1"
+
+#: YQPkgList.cc:593
+msgid "same"
+msgstr "igual"
+
+#: YQPkgList.cc:595
+msgid "newer"
+msgstr "més recent"
+
+#: YQPkgList.cc:596
+msgid "older"
+msgstr "més antiga"
+
+#: YQPkgList.cc:599
+#, qt-format
+msgid "Available Version: %1 (%2)"
+msgstr "Versió disponible: %1 (%2)"
+
+#: YQPkgList.cc:603
+msgid "Not available for installation"
+msgstr "No disponible per a la instal·lació"
+
+#: YQPkgObjList.cc:264
+msgid "Autodelete"
+msgstr "Supressió automàtica"
+
+#: YQPkgObjList.cc:265
+msgid "Autoinstall"
+msgstr "Instal·lació automàtica"
+
+#: YQPkgObjList.cc:266
+msgid "Autoupdate"
+msgstr "Actualitza automàticament"
+
+#: YQPkgObjList.cc:267
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: YQPkgObjList.cc:268
+msgid "Install"
+msgstr "Instal·la"
+
+#: YQPkgObjList.cc:269
+msgid "Keep"
+msgstr "Mantén"
+
+#: YQPkgObjList.cc:270
+msgid "Do Not Install"
+msgstr "No l'instal·lis"
+
+#: YQPkgObjList.cc:271
+msgid "Protected -- Do Not Modify"
+msgstr "Protegit -- No es modifica"
+
+#: YQPkgObjList.cc:272
+msgid "Taboo -- Never Install"
+msgstr "Tabú -- No l'instal·lis mai"
+
+#: YQPkgObjList.cc:273
+msgid "Update"
+msgstr "Actualitza"
+
+#: YQPkgObjList.cc:390 YQPkgObjList.cc:412 YQPkgSelector.cc:708
+msgid "Update unconditionally"
+msgstr "Actualitza'l incondicionalment"
+
+#: YQPkgObjList.cc:406 YQPkgSelector.cc:705
+msgid "Update if newer version available"
+msgstr "Actualitza'l si hi ha disponible una versió més nova"
+
+#: YQPkgObjList.cc:1314
+msgid "(by a software selection)"
+msgstr "(per una selecció de programari)"
+
+#: YQPkgObjList.cc:1316
+msgid "(by dependencies)"
+msgstr "(per dependències)"
+
+#: YQPkgPatchFilterView.cc:59
+msgid "&Show Patch Category:"
+msgstr "&Mostra la categoria del pedaç:"
+
+#: YQPkgPatchFilterView.cc:65
+msgid "Needed Patches"
+msgstr "Pedaços necessaris"
+
+#: YQPkgPatchFilterView.cc:66
+msgid "Unneeded Patches"
+msgstr "Pedaços innecessaris"
+
+#: YQPkgPatchFilterView.cc:67
+msgid "All Patches"
+msgstr "Tots els pedaços"
+
+#: YQPkgPatchFilterView.cc:79
+msgid "Patch Description"
+msgstr "Descripció del pedaç"
+
+#: YQPkgPatchList.cc:595
+msgid "YaST"
+msgstr "YaST"
+
+#: YQPkgPatchList.cc:596
+msgid "security"
+msgstr "seguretat"
+
+#: YQPkgPatchList.cc:597
+msgid "recommended"
+msgstr "recomanat"
+
+#: YQPkgPatchList.cc:598
+msgid "optional"
+msgstr "opcional"
+
+#: YQPkgPatchList.cc:599
+msgid "feature"
+msgstr "característica"
+
+#: YQPkgPatchList.cc:600
+msgid "document"
+msgstr "document"
+
+#: YQPkgPatternList.cc:56
+msgid "Pattern"
+msgstr "Patró"
+
+#: YQPkgPatternList.cc:68
+msgid "Order"
+msgstr "Ordre"
+
+#: YQPkgPatternList.cc:398
+msgid "Invisible"
+msgstr "Invisible"
+
+#: YQPkgProductDialog.cc:40
+msgid "Products"
+msgstr "Productes"
+
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:542
+msgid "Dependencies"
+msgstr "Dependències"
+
+#: YQPkgProductList.cc:35
+msgid "Product"
+msgstr "Producte"
+
+#: YQPkgProductList.cc:38
+msgid "Vendor"
+msgstr "Proveïdor"
+
+#: YQPkgSearchFilterView.cc:141
+#, qt-format
+msgid "Default: %1"
+msgstr "Per defecte: %1"
+
+#: YQPkgSearchFilterView.cc:147
+#, qt-format
+msgid "Detected: %1"
+msgstr "Detectat: %1"
+
+#: YQPkgSearchFilterView.cc:364
+msgid "No Results."
+msgstr "Sense resultats."
+
+#: YQPkgSearchFilterView.cc:379
+msgid "Query Error"
+msgstr "Error de consulta"
+
+#: YQPkgSecondaryFilterView.cc:99
+msgid "&Secondary Filter:"
+msgstr "Filtre &secundari:"
+
+#: YQPkgSecondaryFilterView.cc:119
+msgid "Search"
+msgstr "Cerca"
+
+#: YQPkgSecondaryFilterView.cc:135
+msgid "Installation Summary"
+msgstr "Resum de la instal·lació"
+
+#: YQPkgSelectorBase.cc:120
+msgid "System dependencies verify OK."
+msgstr "Verificació correcta de les dependències del sistema."
+
+#: YQPkgSelectorBase.cc:139
+msgid "Error: Out of disk space!"
+msgstr "Error: sense espai de disc!"
+
+#: YQPkgSelectorBase.cc:140
+msgid ""
+"<p>You can choose to install anyway if you know what you are doing, but you "
+"risk getting a corrupted system that requires manual repairs. If you are "
+"not absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"deselect some packages.</p>"
+msgstr ""
+"<p>Podeu optar per instal·lar-lo de tota manera si sabeu el que feu, però "
+"correu el risc de tenir un sistema corrupte que requereixi reparacions "
+"manuals. Si no esteu absolutament segur de com gestionar aquest cas, premeu "
+"<b>Cancel·la</b> ara i desmarqueu alguns paquets.</p>"
+
+#: YQPkgSelectorBase.cc:148
+msgid "C&ontinue Anyway"
+msgstr "C&ontinua tanmateix"
+
+#: YQPkgSelectorBase.cc:160
+msgid "The following items will be changed: "
+msgstr "Es canviaran els elements següents: "
+
+#: YQPkgSelectorBase.cc:210
+msgid "Really abandon all changes and exit?"
+msgstr "De debò voleu abandonar tots els canvis i sortir-ne?"
+
+#: YQPkgSelectorBase.cc:265
+msgid ""
+"In addition to your manual selections, the following packages have been "
+"changed to resolve dependencies:"
+msgstr ""
+"A més de les seleccions manuals, s'han canviat els paquets següents per "
+"resoldre dependències:"
+
+#: YQPkgSelectorBase.cc:367
+msgid "Not implemented yet"
+msgstr "Encara no implementat"
+
+#: YQPkgSelector.cc:294
+msgid "&Search"
+msgstr "&Cerca"
+
+#: YQPkgSelector.cc:308 YQPkgSelector.cc:1234
+msgid "Patc&hes"
+msgstr "Peda&ços"
+
+#: YQPkgSelector.cc:320 YQPkgSelector.cc:1235
+msgid "&Updates"
+msgstr "Act&ualitzacions"
+
+#: YQPkgSelector.cc:330
+msgid "&Repositories"
+msgstr "&Repositoris"
+
+#: YQPkgSelector.cc:344
+msgid "Repository Index Ser&vices"
+msgstr "Ser&veis de l'índex del repositori"
+
+#: YQPkgSelector.cc:357
+msgid "Pa&tterns"
+msgstr "Pa&trons"
+
+#: YQPkgSelector.cc:368
+msgid "Package Classi&fication"
+msgstr "Classi&ficació de paquets"
+
+#: YQPkgSelector.cc:379
+msgid "&Languages"
+msgstr "&Llengües"
+
+#: YQPkgSelector.cc:389
+msgid "Installation Su&mmary"
+msgstr "Resu&m de la instal·lació"
+
+#: YQPkgSelector.cc:517
+msgid "Description"
+msgstr "Descripció"
+
+#: YQPkgSelector.cc:529
+msgid "Technical Data"
+msgstr "Dades tècniques"
+
+#: YQPkgSelector.cc:556
+msgid "Versions"
+msgstr "Versions"
+
+#: YQPkgSelector.cc:574
+msgid "File List"
+msgstr "Llista de fitxers"
+
+#: YQPkgSelector.cc:590
+msgid "Change Log"
+msgstr "Registre de canvis"
+
+#: YQPkgSelector.cc:622 YQPkgTextDialog.cc:235
+msgid "&Accept"
+msgstr "&Accepta"
+
+#: YQPkgSelector.cc:661
+msgid "&File"
+msgstr "&Fitxer"
+
+#: YQPkgSelector.cc:664
+msgid "&Accept Changes"
+msgstr "&Accepta els canvis"
+
+#: YQPkgSelector.cc:666
+msgid "&Quit - Discard Changes"
+msgstr "&Surt - Descarta els canvis"
+
+#: YQPkgSelector.cc:678
+msgid "&Package"
+msgstr "&Paquet"
+
+#: YQPkgSelector.cc:727
+msgid "Patch"
+msgstr "Pedaç"
+
+#: YQPkgSelector.cc:753
+msgid "&Dependencies"
+msgstr "&Dependències"
+
+#: YQPkgSelector.cc:755
+msgid "&Check Now"
+msgstr "&Comprova-ho ara"
+
+#: YQPkgSelector.cc:757
+msgid "&Autocheck"
+msgstr "Comprovació &automàtica"
+
+#: YQPkgSelector.cc:761
+msgid "Install &Recommended Packages"
+msgstr "Instal·la els paquets &recomanats"
+
+#: YQPkgSelector.cc:774
+msgid "&Options"
+msgstr "&Opcions"
+
+#: YQPkgSelector.cc:777
+msgid "Show -de&vel Packages"
+msgstr "Mostra els paquets de desen&volupament"
+
+#: YQPkgSelector.cc:787
+msgid "Show -&debuginfo/-debugsource Packages"
+msgstr "Mostra els paquets debuginfo / debugsource"
+
+#: YQPkgSelector.cc:797
+msgid "&System Verification Mode"
+msgstr "Mode de verificació del &sistema"
+
+#: YQPkgSelector.cc:804
+msgid "Options for this run only"
+msgstr "Opcions només per a aquesta execució"
+
+#: YQPkgSelector.cc:806
+msgid "&Cleanup when deleting packages"
+msgstr "&Neteja quan se suprimeixin els paquets"
+
+#: YQPkgSelector.cc:810
+msgid "&Allow vendor change"
+msgstr "Permet el c&anvi de proveïdor"
+
+#: YQPkgSelector.cc:822
+msgid "E&xtras"
+msgstr "E&xtres"
+
+#: YQPkgSelector.cc:826
+msgid "C&onfigure Repositories..."
+msgstr "C&onfigura els repositoris..."
+
+#: YQPkgSelector.cc:832
+msgid "Show &Products"
+msgstr "Mostra els &productes"
+
+#: YQPkgSelector.cc:833
+msgid "Show Package &Changes"
+msgstr "Mostra els &canvis dels paquets"
+
+#: YQPkgSelector.cc:834
+msgid "Show &History"
+msgstr "Mostra'n l'&historial"
+
+#: YQPkgSelector.cc:839
+msgid "Install All Matching -devel Packages"
+msgstr "Instal·la tots els paquets coincidents amb -devel"
+
+#: YQPkgSelector.cc:842
+msgid "Install All Matching -debuginfo Packages"
+msgstr "Instal·la tots els paquets coincidents amb -debuginfo"
+
+#: YQPkgSelector.cc:845
+msgid "Install All Matching -debugsource Packages"
+msgstr "Instal·la tots els paquets coincidents amb -debugsource"
+
+#: YQPkgSelector.cc:847
+msgid "Install All Matching Recommended Packages"
+msgstr "Instal·la tots els paquets recomanats coincidents"
+
+#: YQPkgSelector.cc:853
+msgid "Generate Dependency Resolver &Test Case"
+msgstr "Genera un cas de prova del solucionador de dependències"
+
+#: YQPkgSelector.cc:866
+msgid "H&elp"
+msgstr "A&juda"
+
+#: YQPkgSelector.cc:876
+msgid "&Overview"
+msgstr "R&esum"
+
+#: YQPkgSelector.cc:878
+msgid "About &Myrlyn"
+msgstr "Quant al &Myrlyn"
+
+#: YQPkgSelector.cc:879
+msgid "About &Qt"
+msgstr "Quant a les &Qt"
+
+#: YQPkgSelector.cc:884
+msgid "Rep&ository Configuration"
+msgstr "Configuració del rep&ositori"
+
+#: YQPkgSelector.cc:885
+msgid "Root &Authentication"
+msgstr "&Autenticació d'arrel"
+
+#: YQPkgSelector.cc:1105
+msgid "All package dependencies are OK."
+msgstr "Totes les dependències del paquet són correctes."
+
+#: YQPkgSelector.cc:1209
+msgid ""
+"There are pending changes.\n"
+"\n"
+"If you continue to the repository configuration\n"
+"and change anything there, you will have to\n"
+"restart the program, and all package changes\n"
+"will be lost.\n"
+msgstr ""
+"Hi ha canvis pendents.\n"
+"\n"
+"Si continueu la configuració del repositori\n"
+"i hi canvieu qualsevol cosa, haureu de\n"
+"reiniciar el programa i tots els canvis dels paquets\n"
+"es perdran.\n"
+
+#: YQPkgSelector.cc:1267
+#, qt-format
+msgid "%1 packages will be updated"
+msgstr "S'actualitzaran %1 paquets"
+
+#: YQPkgSelector.cc:1320
+#, qt-format
+msgid ""
+"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
+"versions in this repository (%2)</p>"
+msgstr ""
+"<p><a href=\"repoupgradeadd:///%1\">Canvia els paquets del sistema</a> a "
+"les versions d'aquest repositori (%2)</p>"
+
+#: YQPkgSelector.cc:1345
+#, qt-format
+msgid ""
+"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
+"to versions in repository %2</p>"
+msgstr ""
+"<p><a href=\"repoupgraderemove:///%1\">Cancel·la el canvi dels</a> paquets "
+"del sistema a versions del repositori %2</p>"
+
+#: YQPkgSelector.cc:1448 YQPkgSelector.cc:1617
+msgid "Added Subpackages:"
+msgstr "Subpaquets afegits:"
+
+#: YQPkgServiceList.cc:202
+msgid "URL: "
+msgstr "URL: "
+
+#: YQPkgServiceList.cc:209
+msgid "Product: "
+msgstr "Producte: "
+
+#: YQPkgServiceList.cc:213
+msgid "Repositories:"
+msgstr "Repositoris:"
+
+#: YQPkgTechnicalDetailsView.cc:106 YQPkgTechnicalDetailsView.cc:147
+msgid "Build Time:"
+msgstr "Hora de construcció:"
+
+#: YQPkgTechnicalDetailsView.cc:110 YQPkgTechnicalDetailsView.cc:148
+msgid "Install Time:"
+msgstr "Hora d'instal·lació:"
+
+#: YQPkgTechnicalDetailsView.cc:112 YQPkgTechnicalDetailsView.cc:149
+msgid "License:"
+msgstr "Llicència:"
+
+#: YQPkgTechnicalDetailsView.cc:113 YQPkgTechnicalDetailsView.cc:150
+msgid "Installed Size:"
+msgstr "Mida de la instal·lació:"
+
+#: YQPkgTechnicalDetailsView.cc:114 YQPkgTechnicalDetailsView.cc:151
+msgid "Download Size:"
+msgstr "Mida de la baixada:"
+
+#: YQPkgTechnicalDetailsView.cc:115 YQPkgTechnicalDetailsView.cc:152
+msgid "Distribution:"
+msgstr "Distribució:"
+
+#: YQPkgTechnicalDetailsView.cc:116 YQPkgTechnicalDetailsView.cc:153
+msgid "Vendor:"
+msgstr "Proveïdor:"
+
+#: YQPkgTechnicalDetailsView.cc:117 YQPkgTechnicalDetailsView.cc:154
+msgid "Packager:"
+msgstr "Paquet:"
+
+#: YQPkgTechnicalDetailsView.cc:118 YQPkgTechnicalDetailsView.cc:155
+msgid "Architecture:"
+msgstr "Arquitectura:"
+
+#: YQPkgTechnicalDetailsView.cc:119 YQPkgTechnicalDetailsView.cc:156
+msgid "URL:"
+msgstr "URL:"
+
+#: YQPkgTechnicalDetailsView.cc:120 YQPkgTechnicalDetailsView.cc:157
+msgid "Source Package:"
+msgstr "Paquet font:"
+
+#: YQPkgTechnicalDetailsView.cc:123 YQPkgTechnicalDetailsView.cc:161
+msgid "Authors:"
+msgstr "Autors:"
+
+#: YQPkgVersionsView.cc:184
+#, qt-format
+msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
+msgstr "%1-%2 [RETRACTED] del proveïdor %3 (instal·lat)"
+
+#: YQPkgVersionsView.cc:192
+#, qt-format
+msgid "%1-%2 from vendor %3 (installed)"
+msgstr "%1-%2 del proveïdor %3 (instal·lat)"
+
+#: YQPkgVersionsView.cc:399
+msgid ""
+"You are trying to install multiversion-capable\n"
+"and non-multiversion-capable versions of this\n"
+"package at the same time."
+msgstr ""
+"Intenteu instal·lar versions multiversió\n"
+"i versions no multiversió\n"
+"d'aquest paquet al mateix temps."
+
+#: YQPkgVersionsView.cc:407
+msgid ""
+"This version is multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install this version\n"
+"and unselect the non-multiversion-capable version,\n"
+"\"Cancel\" to unselect this version and keep the other one."
+msgstr ""
+"Aquesta versió és multiversió.\n"
+"\n"
+"Premeu Continua per a instal·lar aquesta versió\n"
+"i desmarqueu la versió no multiversió,\n"
+"Cancel·leu-ho per a desmarcar aquesta versió i mantenir l'altra."
+
+#: YQPkgVersionsView.cc:416
+msgid ""
+"This version is not multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install only this version\n"
+"and unselect all other versions,\n"
+"\"Cancel\" to unselect this version and keep the other ones."
+msgstr ""
+"Aquesta versió no és multiversió.\n"
+"\n"
+"Premeu Continua per a instal·lar només aquesta versió\n"
+"i desmarqueu totes les altres,\n"
+"Cancel·leu-ho per a desmarcar aquesta versió i mantenir les altres."
+
+#: YQPkgVersionsView.cc:425
+msgid "Incompatible Package Versions"
+msgstr "Versions de paquets incompatibles"
+
+#: YQPkgVersionsView.cc:551
+#, qt-format
+msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
+msgstr "%1-%2 [RETRACTED] de %3 amb prioritat %4 i proveïdor %5"
+
+#: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
+#, qt-format
+msgid "%1-%2 from %3 with priority %4 and vendor %5"
+msgstr "%1-%2 de %3 amb prioritat %4 i proveïdor %5"
