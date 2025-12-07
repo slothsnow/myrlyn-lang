@@ -6,7 +6,7 @@ set -e
 PACKAGE_NAME="myrlyn-lang"
 TRANSLATED_PACKAGE="myrlyn"
 VERSION="0.2"
-REPO_DIR="../po"  # Verzeichnis mit deinen .po-Dateien
+REPO_DIR="../po"  # Directory with po-Files
 BUILDROOT="$HOME/rpmbuild"
 LOCALE_DIR="usr/share/locale"
 # End of Config
