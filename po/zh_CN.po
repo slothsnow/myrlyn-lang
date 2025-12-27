@@ -3,13 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-08-30 14:09+0200\n"
-"Last-Translator: slothsnow <slothsnow@fuchstruppe.de>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"PO-Revision-Date: 2025-12-28 16:21+0000\n"
+"Last-Translator: Ll_777 <ll_777@noreply.codeberg.org>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"translate.codeberg.org/projects/myrlyn-lang/myrlyn-lang/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.15.1\n"
 "X-Qt-Contexts: true\n"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:320
@@ -26,11 +29,11 @@ msgstr "包分类(&C)"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:382
 msgid "&Languages"
-msgstr ""
+msgstr "语言"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:398
 msgid "&Repositories"
-msgstr ""
+msgstr "软件源"
 
 #. TRANSLATORS: Menu item
 #: libyui-qt-pkg/src/YQPackageSelector.cc:413
@@ -62,7 +65,7 @@ msgstr "技术数据(&T)"
 #: libyui-qt-pkg/src/YQPackageSelector.cc:554
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:102
 msgid "Dependencies"
-msgstr ""
+msgstr "依赖"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:569
 msgid "&Versions"
@@ -70,11 +73,11 @@ msgstr "版本(&V)"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:587
 msgid "File List"
-msgstr ""
+msgstr "文件列表"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:604
 msgid "Change Log"
-msgstr ""
+msgstr "更新日志"
 
 #. "Cancel" button
 #. button #0
@@ -92,7 +95,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:432
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:204
 msgid "&Cancel"
-msgstr ""
+msgstr "取消"
 
 #. Translators: "Accept" here refers to licenses or similar
 #: libyui-qt-pkg/src/YQPackageSelector.cc:640
@@ -100,11 +103,11 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:244
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:213
 msgid "&Accept"
-msgstr ""
+msgstr "接受"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:681
 msgid "&File"
-msgstr ""
+msgstr "文件"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:683
 msgid "&Import..."
@@ -124,23 +127,23 @@ msgstr "退出 -- 保存更改(&Q)"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:701
 msgid "&Package"
-msgstr ""
+msgstr "软件包"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:740
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:58
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:112
 msgid "All Packages"
-msgstr ""
+msgstr "所有软件包"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:742
 #: libyui-qt-pkg/src/YQPkgObjList.cc:398
 msgid "Update if newer version available"
-msgstr ""
+msgstr "在新版本时更新"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:745
 #: libyui-qt-pkg/src/YQPkgObjList.cc:381 libyui-qt-pkg/src/YQPkgObjList.cc:404
 msgid "Update unconditionally"
-msgstr ""
+msgstr "立即更新"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:759
 msgid "&Patch"
@@ -160,38 +163,38 @@ msgstr "联机更新(&O)..."
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:799
 msgid "&Dependencies"
-msgstr ""
+msgstr "依赖"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:801
 msgid "&Check Now"
-msgstr ""
+msgstr "立即检查"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:803
 msgid "&Autocheck"
-msgstr ""
+msgstr "自动检查"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:808
 msgid "Install &Recommended Packages"
-msgstr ""
+msgstr "安装及推荐包"
 
 #. Translators: Menu for view options (Use a noun, not a verb!)
 #: libyui-qt-pkg/src/YQPackageSelector.cc:821
 msgid "&Options"
-msgstr ""
+msgstr "设置"
 
 #. Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:824
 msgid "Show -de&vel Packages"
-msgstr ""
+msgstr "显示开发包"
 
 #. Translators: This is about packages ending in "-debuginfo", so don't translate that "-debuginfo"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:833
 msgid "Show -&debuginfo/-debugsource Packages"
-msgstr ""
+msgstr "显示 -debuginfo 软件包与 -debugsource 软件包"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:841
 msgid "&System Verification Mode"
-msgstr ""
+msgstr "系统验证模式"
 
 #. Widget styles can use the text information in the rendering for sections,
 #. or can choose to ignore it and render sections like simple separators.
@@ -201,19 +204,19 @@ msgstr "仅应用于这次的选项..."
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:849
 msgid "&Cleanup when deleting packages"
-msgstr ""
+msgstr "删除软件包并清理相关文件"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:853
 msgid "&Allow vendor change"
-msgstr ""
+msgstr "允许切换来源"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:865
 msgid "E&xtras"
-msgstr ""
+msgstr "更多功能"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:867
 msgid "Show &Products"
-msgstr ""
+msgstr "显示软件包"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:868
 msgid "Show P&ackage Changes"
@@ -221,7 +224,7 @@ msgstr "显示软件包变动(&a)"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:869
 msgid "Show &History"
-msgstr ""
+msgstr "显示历史记录"
 
 #. Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:877
@@ -244,7 +247,7 @@ msgstr "安装全部匹配的被推荐软件包(&R)"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:892
 msgid "Generate Dependency Resolver &Test Case"
-msgstr ""
+msgstr "生成依赖处理测试用例"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:904
 msgid "Search &Online"
@@ -259,7 +262,7 @@ msgstr "帮助(&H)"
 #. Menu entry for help overview
 #: libyui-qt-pkg/src/YQPackageSelector.cc:921
 msgid "&Overview"
-msgstr ""
+msgstr "概览"
 
 #. Menu entry for help about used symbols ( icons )
 #: libyui-qt-pkg/src/YQPackageSelector.cc:924
@@ -273,7 +276,7 @@ msgstr "键(&K)"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1122
 msgid "All package dependencies are OK."
-msgstr ""
+msgstr "所有软件包依赖关系正常。"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1138
 msgid "P&atches"
@@ -295,7 +298,7 @@ msgstr "保存软件包列表"
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:189
 #: libyui-qt-pkg/src/YQPkgList.cc:592
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #. caption
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1242
@@ -315,7 +318,7 @@ msgstr "从 %1 加载软件包列表时出错"
 #. Translators: %1 is the number of affected packages
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1438
 msgid "%1 packages will be updated"
-msgstr ""
+msgstr "%1 个软件包将被更新"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1439
 msgid "&Continue"
@@ -338,11 +341,13 @@ msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
+"<p><a href=\"repoupgradeadd:///%1\">将系统软件包切换</a>到此仓库 (%2) 中的版"
+"本</p>"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1594
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1751
 msgid "Added Subpackages:"
-msgstr ""
+msgstr "已添加的子包："
 
 #. "OK" button
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1595
@@ -355,7 +360,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:121
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:57
 msgid "&OK"
-msgstr ""
+msgstr "确定(&O)"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:79
 msgid "Reset &Ignored Dependency Conflicts"
@@ -363,12 +368,12 @@ msgstr "重置已忽略的依赖项冲突(&I)"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:150
 msgid "System dependencies verify OK."
-msgstr ""
+msgstr "系统依赖检查通过。"
 
 #. Translators: RichText ( HTML-like ) format
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:171
 msgid "Error: Out of disk space!"
-msgstr ""
+msgstr "错误：磁盘空间不足！"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:172
 msgid ""
@@ -377,14 +382,17 @@ msgid ""
 "absolutely sure how to handle such a case, press <b>Cancel</b> now and "
 "deselect some packages.</p>"
 msgstr ""
+"<p>如果您知道自己在做什么，可以选择继续安装，但这有可能导致系统损坏，需要手动"
+"修复。如果您不完全确定如何处理此类情况，请立即点击 <b>取消</b> 并取消选中部分"
+"软件包。</p>"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:180
 msgid "C&ontinue Anyway"
-msgstr ""
+msgstr "继续安装(&C)"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:194
 msgid "The following items will be changed: "
-msgstr ""
+msgstr "将修改以下项目： "
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:234
 msgid "Do you want to Abandon all changes and exit?"
@@ -402,20 +410,20 @@ msgstr "否(&N)"
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:283
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:104
 msgid "Automatic Changes"
-msgstr ""
+msgstr "继续安装"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:287
 msgid ""
 "In addition to your manual selections, the following packages have been "
 "changed to resolve dependencies:"
-msgstr ""
+msgstr "­在您手动选择的基础上，以下软件包已被更改以满足依赖要求:"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:291
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:312
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:379
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:431
 msgid "C&ontinue"
-msgstr ""
+msgstr "继续(&C)"
 
 #. Dialog header
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:304
@@ -642,7 +650,7 @@ msgstr "该软件包尚未安装且将不会安装。"
 #: libyui-qt-pkg/src/YQPkgObjList.cc:260
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:82
 msgid "Install"
-msgstr ""
+msgstr "安装"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:163
@@ -654,7 +662,7 @@ msgstr "即将安装该软件包，目前尚未安装。"
 #: libyui-qt-pkg/src/YQPkgObjList.cc:261
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:94
 msgid "Keep"
-msgstr ""
+msgstr "保留"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:169
@@ -668,7 +676,7 @@ msgstr "该软件包已经安装，保持不变。"
 #: libyui-qt-pkg/src/YQPkgObjList.cc:265
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:83
 msgid "Update"
-msgstr ""
+msgstr "升级"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:175
@@ -682,7 +690,7 @@ msgstr "该软件包已经安装，将更新或重新安装（若版本相同）
 #: libyui-qt-pkg/src/YQPkgObjList.cc:259
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:81
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:182
@@ -740,7 +748,7 @@ msgstr "针对不应为发行版自带的新版本覆盖的第三方软件包使
 #: libyui-qt-pkg/src/YQPkgObjList.cc:257
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:85
 msgid "Autoinstall"
-msgstr ""
+msgstr "自动安装"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:209
@@ -759,7 +767,7 @@ msgstr "<b>提示：</b>您可能必须使用“禁用”来清除这样的软�
 #: libyui-qt-pkg/src/YQPkgObjList.cc:258
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:86
 msgid "Autoupdate"
-msgstr ""
+msgstr "自动升级"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:217
@@ -774,7 +782,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgObjList.cc:256
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:84
 msgid "Autodelete"
-msgstr ""
+msgstr "自动删除"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:224
@@ -888,7 +896,7 @@ msgstr "细节(&D)..."
 #: libyui-qt-pkg/src/YQPkgChangeLogView.cc:90
 #: libyui-qt-pkg/src/YQPkgFileListView.cc:82
 msgid "Information only available for installed packages."
-msgstr ""
+msgstr "信息仅适用于已安装的软件包。"
 
 #. TRANSLATORS: The package change log is too long to display, only the latest
 #. changes are displayed. %1 is the number of the items which are not displayed,
@@ -902,52 +910,52 @@ msgstr "（%1 个更改条目未显示。运行“%2”可查看完整的变更�
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:66
 msgid "Changed Packages"
-msgstr ""
+msgstr "已更改的软件包"
 
 #. add the items.
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:102
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:103
 msgid "Selected by the user"
-msgstr ""
+msgstr "用户选择"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:50
 msgid "No Packages"
-msgstr ""
+msgstr "没有软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:51
 msgid "Recommended Packages"
-msgstr ""
+msgstr "推荐的软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:52
 msgid "Suggested Packages"
-msgstr ""
+msgstr "可选的软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:53
 msgid "Orphaned Packages"
-msgstr ""
+msgstr "孤立的软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:54
 msgid "Unneeded Packages"
-msgstr ""
+msgstr "无需的软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:55
 msgid "Multiversion Packages"
-msgstr ""
+msgstr "并存版本的软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:56
 msgid "Retracted Packages"
-msgstr ""
+msgstr "已撤回的软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:57
 msgid "Retracted Installed Packages"
-msgstr ""
+msgstr "已安装且已撤回的软件包"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:88
 msgid "Package Classification"
-msgstr ""
+msgstr "软件包分类"
 
 #. Set the dialog title.
 #.
@@ -957,21 +965,21 @@ msgstr ""
 #. manager running (and configured to show any dialog titles).
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:84
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #. "OK" button
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:120
 msgid "&OK -- Try Again"
-msgstr ""
+msgstr "确认并重试(&O)"
 
 #. "Expert" menu button
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:131
 msgid "&Expert"
-msgstr ""
+msgstr "高级(&E)"
 
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:143
 msgid "&Save This List to a File..."
-msgstr ""
+msgstr "将列表保存为文件...(&S)"
 
 #. Busy popup
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:160
@@ -981,13 +989,15 @@ msgstr "正在检查依赖项..."
 #. Heading for popup dialog
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:370
 msgid "Create Dependency Resolver Test Case"
-msgstr ""
+msgstr "创建依赖解析器测试用例"
 
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:373
 msgid ""
 "<p>Use this to generate extensive logs to help tracking down bugs in the "
 "dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
 msgstr ""
+"<p>使用此功能可以生成详细日志，以便追踪依赖解析器中的错误。日志将存储在目录"
+"：<br><tt>%1</tt></p>"
 
 #. parent
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:377
@@ -1005,7 +1015,7 @@ msgstr ""
 #. parent
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:395
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #. caption
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:408
@@ -1013,6 +1023,8 @@ msgid ""
 "<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
 "disk space and permissions for <tt>%1</tt></p>"
 msgstr ""
+"<p><b>错误</b>: 创建依赖解析器测试用例失败</p>\n"
+"<p>请检查目录 <tt>%1</tt> 的磁盘空间和权限</p>"
 
 #. startsWith
 #. filter
@@ -1028,53 +1040,53 @@ msgstr "无法打开文件 %1"
 
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:280
 msgid "Conflict Resolution:"
-msgstr ""
+msgstr "冲突解决:"
 
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:317
 msgid "<a href='/'>%1 more...</a>"
-msgstr ""
+msgstr "<a href='/'>还有 %1 项...</a>"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:92
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:122
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:120
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:161
 msgid "Version:"
-msgstr ""
+msgstr "版本:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:94
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:124
 msgid "Provides:"
-msgstr ""
+msgstr "提供:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:95
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:125
 msgid "Prerequires:"
-msgstr ""
+msgstr "先决依赖:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:96
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:126
 msgid "Requires:"
-msgstr ""
+msgstr "依赖关系:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:97
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:127
 msgid "Conflicts:"
-msgstr ""
+msgstr "冲突软件包:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:98
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:128
 msgid "Obsoletes:"
-msgstr ""
+msgstr "已废弃的软件包:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:99
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:129
 msgid "Recommends:"
-msgstr ""
+msgstr "推荐软件包:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:100
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:130
 msgid "Suggests:"
-msgstr ""
+msgstr "建议软件包:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:101
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:131
