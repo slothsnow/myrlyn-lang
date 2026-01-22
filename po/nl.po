@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-12-01 14:10+0000\n"
+"PO-Revision-Date: 2026-01-23 12:21+0000\n"
 "Last-Translator: freekdk <freekdk@noreply.codeberg.org>\n"
 "Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/nl/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 "X-Qt-Contexts: true\n"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:320
@@ -1076,7 +1076,7 @@ msgstr ""
 #. parent
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:395
 msgid "Success"
-msgstr ""
+msgstr "Succes"
 
 #. caption
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:408
@@ -1084,6 +1084,8 @@ msgid ""
 "<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
 "disk space and permissions for <tt>%1</tt></p>"
 msgstr ""
+"<p><b>Fout</b> maken van testgeval voor oplossen van afhankelijkheid</p><p>"
+"Controleer schijfruimte en rechten voor <tt>%1</tt></p>"
 
 #. startsWith
 #. filter
@@ -1099,82 +1101,82 @@ msgstr "Kan bestand %1 niet openen"
 
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:280
 msgid "Conflict Resolution:"
-msgstr ""
+msgstr "Oplossing van conflict:"
 
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:317
 msgid "<a href='/'>%1 more...</a>"
-msgstr ""
+msgstr "<a href='/'>%1 meer...</a>"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:92
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:122
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:120
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:161
 msgid "Version:"
-msgstr ""
+msgstr "Versie:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:94
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:124
 msgid "Provides:"
-msgstr ""
+msgstr "Levert:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:95
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:125
 msgid "Prerequires:"
-msgstr ""
+msgstr "Vooraf vereisten:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:96
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:126
 msgid "Requires:"
-msgstr ""
+msgstr "Vereist:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:97
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:127
 msgid "Conflicts:"
-msgstr ""
+msgstr "Conflicten:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:98
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:128
 msgid "Obsoletes:"
-msgstr ""
+msgstr "Maakt overbodig:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:99
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:129
 msgid "Recommends:"
-msgstr ""
+msgstr "Beveelt aan:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:100
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:130
 msgid "Suggests:"
-msgstr ""
+msgstr "Suggereert:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:101
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:131
 msgid "Enhances:"
-msgstr ""
+msgstr "Verbetert:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:102
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:132
 msgid "Supplements:"
-msgstr ""
+msgstr "Vult aan:"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:115
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:154
 msgid "<b>Alternate Version</b>"
-msgstr ""
+msgstr "<b>Alternatieve versie</b>"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:116
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:155
 msgid "<b>Installed Version</b>"
-msgstr ""
+msgstr "<b>Geïnstalleerde versie</b>"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgDescriptionDialog.cc:59
 msgid "Package Description"
-msgstr ""
+msgstr "Packetbeschrijving"
 
 #: libyui-qt-pkg/src/YQPkgDescriptionView.cc:107
 msgid "References:"
-msgstr ""
+msgstr "Verwijst naar:"
 
 # /usr/lib/YaST2/clients/printconf_filter.ycp:200
 #. Translators: %1 contains the support level like "Level 3", "unsupported" or "unknown"
@@ -1184,25 +1186,25 @@ msgstr "Mate van ondersteuning: %1"
 
 #: libyui-qt-pkg/src/YQPkgDescriptionView.cc:262
 msgid "This package contains: "
-msgstr ""
+msgstr "Dit pakket bevat: "
 
 #: libyui-qt-pkg/src/YQPkgDiskUsageList.cc:144
 msgid "<b>Error:</b> Out of disk space!"
-msgstr ""
+msgstr "<b>Fout:</b> Geen schijfruimte meer!"
 
 #: libyui-qt-pkg/src/YQPkgDiskUsageList.cc:153
 msgid "<b>Warning:</b> Disk space is running out!"
-msgstr ""
+msgstr "<b>Waarschuwing:</b> Schijfruimte raakt op!"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgDiskUsageWarningDialog.cc:58
 msgid "Disk Space Warning"
-msgstr ""
+msgstr "Waarschuwing over schijfruimte"
 
 #. %1 is the total number of files in a file list
 #: libyui-qt-pkg/src/YQPkgFileListView.cc:118
 msgid "%1 files total"
-msgstr ""
+msgstr "Totaal %1 bestanden"
 
 #. Translators: Button with pop-up menu to open a new page (very much like
 #. in a web browser) with another package filter view or to switch to an
@@ -1210,96 +1212,96 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:158
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:162
 msgid "&View"
-msgstr ""
+msgstr "&Beeld"
 
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:516
 msgid "Move page &left"
-msgstr ""
+msgstr "Pagina naar &links verplaatsen"
 
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:526
 msgid "Move page &right"
-msgstr ""
+msgstr "Pagina naar &rechts verplaatsen"
 
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:533
 msgid "&Close page"
-msgstr ""
+msgstr "Pagina &sluiten"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:67
 msgid "Package History"
-msgstr ""
+msgstr "Geschiedenis van pakket"
 
 #. Heading
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:84
 msgid "Package History (/var/log/zypp/history)"
-msgstr ""
+msgstr "Geschiedenis van pakket (/var/log/zypp/history)"
 
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:100
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:108
 msgid "Action"
-msgstr ""
+msgstr "Actie"
 
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:108
 msgid "Version/URL"
-msgstr ""
+msgstr "Versie/URL"
 
 #. Translators: This is a (short) text indicating that something went
 #. wrong while trying to read the history file.
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:194
 msgid "Unable to read history"
-msgstr ""
+msgstr "Geschiedenis lezen kan niet"
 
 #. Translators: Table column heading for language ISO code like "de_DE", "en_US"
 #. Please keep this short to avoid stretching the column too wide!
 #: libyui-qt-pkg/src/YQPkgLangList.cc:58
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. Full (human readable) language / country name like "German (Austria)"
 #: libyui-qt-pkg/src/YQPkgLangList.cc:61
 msgid "Language"
-msgstr ""
+msgstr "Taal"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:73 libyui-qt-pkg/src/YQPkgList.cc:612
 msgid "Package"
-msgstr ""
+msgstr "Pakket"
 
 #. headers <<  _( "Patch"	);	_nameCol	= numCol++;
 #: libyui-qt-pkg/src/YQPkgList.cc:74 libyui-qt-pkg/src/YQPkgList.cc:613
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:66
 #: libyui-qt-pkg/src/YQPkgProductList.cc:52
 msgid "Summary"
-msgstr ""
+msgstr "Samenvatting"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:79 libyui-qt-pkg/src/YQPkgList.cc:614
 msgid "Installed (Available)"
-msgstr ""
+msgstr "Geïnstalleerd (beschikbaar)"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:83
 msgid "Avail. Ver."
-msgstr ""
+msgstr "Besch. ver."
 
 #: libyui-qt-pkg/src/YQPkgList.cc:86
 msgid "Inst. Ver."
-msgstr ""
+msgstr "Geïnst. ver."
 
 #: libyui-qt-pkg/src/YQPkgList.cc:92 libyui-qt-pkg/src/YQPkgProductList.cc:53
 msgid "Version"
-msgstr ""
+msgstr "Versie"
 
 #. headers <<  _( "Source" );	_srpmStatusCol	= numCol++;
 #: libyui-qt-pkg/src/YQPkgList.cc:97 libyui-qt-pkg/src/YQPkgList.cc:615
 msgid "Size"
-msgstr ""
+msgstr "Grootte"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:236 libyui-qt-pkg/src/YQPkgList.cc:504
 #: libyui-qt-pkg/src/YQPkgObjList.cc:518
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:386
 msgid "&All in This List"
-msgstr ""
+msgstr "&Alles in deze lijst"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:462 libyui-qt-pkg/src/YQPkgList.cc:482
 msgid "Export This List to &Text File..."
@@ -1348,51 +1350,51 @@ msgstr "Geen bronnen beschikbaar"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:894
 msgid "Installed Version: %1"
-msgstr ""
+msgstr "Geïnstalleerde versie: %1"
 
 #. Translators: This is the relation between two versions of one package
 #. if both versions are the same, e.g., both "1.2.3-42", "1.2.3-42"
 #: libyui-qt-pkg/src/YQPkgList.cc:912
 msgid "same"
-msgstr ""
+msgstr "hetzelfde"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:914
 msgid "newer"
-msgstr ""
+msgstr "nieuwer"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:915
 msgid "older"
-msgstr ""
+msgstr "ouder"
 
 #. Translators: %1 is the version, %2 is one of "newer", "older", "same"
 #: libyui-qt-pkg/src/YQPkgList.cc:918
 msgid "Available Version: %1 (%2)"
-msgstr ""
+msgstr "Beschikbare versie: %1 (%2)"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:922
 msgid "Not available for installation"
-msgstr ""
+msgstr "Niet beschikbaar voor installatie"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:262
 msgid "Do Not Install"
-msgstr ""
+msgstr "Niet installeren"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:263
 msgid "Protected -- Do Not Modify"
-msgstr ""
+msgstr "Beschermd -- niet wijzigen"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:264
 msgid "Taboo -- Never Install"
-msgstr ""
+msgstr "Taboe -- nooit installeren"
 
 #. Translators: Additional hint what caused an auto-status
 #: libyui-qt-pkg/src/YQPkgObjList.cc:1421
 msgid "(by a software selection)"
-msgstr ""
+msgstr "(door een software selectie)"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:1423
 msgid "(by dependencies)"
-msgstr ""
+msgstr "(door afhankelijkheden)"
 
 #. Translators: tool tip for patches / patterns that are installed,
 #. but whose dependencies are broken (no longer satisfied)
@@ -1408,46 +1410,46 @@ msgstr "Aan alle afhankelijkheden voldaan"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:80
 msgid "&Show Patch Category:"
-msgstr ""
+msgstr "Patchcategorie tonen:"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:87
 msgid "Needed Patches"
-msgstr ""
+msgstr "Noodzakelijke patches"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:88
 msgid "Unneeded Patches"
-msgstr ""
+msgstr "Onnodige pattches"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:89
 msgid "All Patches"
-msgstr ""
+msgstr "Alle patches"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:101
 msgid "Patch Description"
-msgstr ""
+msgstr "Beschrijving van patch"
 
 #. Translators: These are patch categories
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:566
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:86
 msgid "YaST"
-msgstr ""
+msgstr "YaST"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:567
 msgid "security"
-msgstr ""
+msgstr "beveiliging"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:568
 msgid "recommended"
-msgstr ""
+msgstr "aanbevolen"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:569
 msgid "optional"
-msgstr ""
+msgstr "optioneel"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:570
 msgid "document"
-msgstr ""
+msgstr "document"
 
 #. Translators: "Pattern" refers to so-called "installation patterns",
 #. i.e., specific task-oriented groups of packages, like "everything that
@@ -1457,40 +1459,40 @@ msgstr ""
 #. is only of little relevance, though.
 #: libyui-qt-pkg/src/YQPkgPatternList.cc:73
 msgid "Pattern"
-msgstr ""
+msgstr "Patroon"
 
 #: libyui-qt-pkg/src/YQPkgPatternList.cc:79
 msgid "Order"
-msgstr ""
+msgstr "Volgorde"
 
 #: libyui-qt-pkg/src/YQPkgPatternList.cc:386
 msgid "Invisible"
-msgstr ""
+msgstr "Onzichtbaar"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:60
 msgid "Products"
-msgstr ""
+msgstr "Producten"
 
 #: libyui-qt-pkg/src/YQPkgProductList.cc:51
 msgid "Product"
-msgstr ""
+msgstr "Product"
 
 #: libyui-qt-pkg/src/YQPkgProductList.cc:54
 msgid "Vendor"
-msgstr ""
+msgstr "Leverancier"
 
 #. Column headers for repository list
 #. TRANSLATORS: Column header for the service list
 #: libyui-qt-pkg/src/YQPkgRepoList.cc:67
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:62
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #. Search button
 #: libyui-qt-pkg/src/YQPkgSearchFilterView.cc:81
 msgid "&Search"
-msgstr ""
+msgstr "&Zoeken"
 
 #.
 #. Where to search
@@ -1564,7 +1566,7 @@ msgstr "Zoeken..."
 
 #: libyui-qt-pkg/src/YQPkgSearchFilterView.cc:322
 msgid "No Results."
-msgstr ""
+msgstr "Geen resultaat."
 
 #. Translators: This is a (short) text indicating that something went
 #. wrong while searching for packages. At this point, it is not clear
@@ -1573,7 +1575,7 @@ msgstr ""
 #. the original (translated) error message.
 #: libyui-qt-pkg/src/YQPkgSearchFilterView.cc:337
 msgid "Query Error"
-msgstr ""
+msgstr "Opvraagfout"
 
 #. Translators: This is a combo box where the user can apply a secondary filter
 #. in addition to the primary filter by repository - one of
@@ -1584,7 +1586,7 @@ msgstr ""
 #. above it.
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:103
 msgid "&Secondary Filter:"
-msgstr ""
+msgstr "&Secundair filter:"
 
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:119
 msgid "Unmaintained Packages"
@@ -1592,26 +1594,26 @@ msgstr "Niet-onderhouden pakketten"
 
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:127
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:140
 msgid "Installation Summary"
-msgstr ""
+msgstr "Samenvatting van installatie"
 
 #. TRANSLATORS: Tooltip item, followed by service URL
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:202
 msgid "URL: "
-msgstr ""
+msgstr "URL: "
 
 #. TRANSLATORS: Tooltip item, followed by product name
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:208
 msgid "Product: "
-msgstr ""
+msgstr "Product: "
 
 #. TRANSLATORS: Tooltip item, followed by the list of repositories inluded in the libzypp service
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:213
 msgid "Repositories:"
-msgstr ""
+msgstr "Opslagruimtes:"
 
 #. Headline
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:64
@@ -1633,47 +1635,47 @@ msgstr "Lijst ve&rnieuwen"
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:121
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:162
 msgid "Build Time:"
-msgstr ""
+msgstr "Bouwtijd:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:125
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:163
 msgid "Install Time:"
-msgstr ""
+msgstr "Installatietijd:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:127
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:164
 msgid "License:"
-msgstr ""
+msgstr "Licentie:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:128
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:165
 msgid "Installed Size:"
-msgstr ""
+msgstr "Geïnstalleerde grootte:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:129
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:166
 msgid "Download Size:"
-msgstr ""
+msgstr "Grootte bij downloaden:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:130
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:167
 msgid "Distribution:"
-msgstr ""
+msgstr "Distributie:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:131
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:168
 msgid "Vendor:"
-msgstr ""
+msgstr "Leverancier:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:132
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:169
 msgid "Packager:"
-msgstr ""
+msgstr "Pakketmaker:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:133
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:170
 msgid "Architecture:"
-msgstr ""
+msgstr "Architectuur:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:134
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:171
@@ -1683,12 +1685,12 @@ msgstr "Aanmaakhost:"
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:135
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:172
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:136
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:173
 msgid "Source Package:"
-msgstr ""
+msgstr "Bronpakket:"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:137
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:175
@@ -1698,7 +1700,7 @@ msgstr "Media nr.:"
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:138
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:176
 msgid "Authors:"
-msgstr ""
+msgstr "Auteurs:"
 
 #: libyui-qt-pkg/src/YQPkgUpdateProblemFilterView.cc:47
 msgid ""
@@ -1738,11 +1740,11 @@ msgstr ""
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:179
 msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr ""
+msgstr "%1-%2 [INGETROKKEN] van leverancier %3 (geïnstalleerd)"
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:187
 msgid "%1-%2 from vendor %3 (installed)"
-msgstr ""
+msgstr "%1-%2 van leverancier %3 (geïnstalleerd)"
 
 #. Translators: Popup dialog text. Try to keep the lines about the same length.
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:401
@@ -1751,6 +1753,9 @@ msgid ""
 "and non-multiversion-capable versions of this\n"
 "package at the same time."
 msgstr ""
+"U probeert versies met multi-versie-mogelijk\n"
+" te installeren tegelijk met de niet-multi-versie-\n"
+"mogelijk van dit pakket."
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:409
 msgid ""
@@ -1760,6 +1765,12 @@ msgid ""
 "and unselect the non-multiversion-capable version,\n"
 "\"Cancel\" to unselect this version and keep the other one."
 msgstr ""
+"Deze versie is multi-versie-mogelijk.\n"
+"\n"
+"Druk op \"Doorgaan\" om deze versie te installeren en \n"
+"deactiveer de versie met niet-multi-versie-mogelijk, \n"
+"\"Annuleren\" om deze versie te deactiveren en de \n"
+"andere te behouden."
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:418
 msgid ""
@@ -1769,11 +1780,17 @@ msgid ""
 "and unselect all other versions,\n"
 "\"Cancel\" to unselect this version and keep the other ones."
 msgstr ""
+"Deze versie is niet-multi-versie-mogelijk.\n"
+"\n"
+"Druk op \"Doorgaan\" om alleen deze versie te \n"
+"installeren en deactiveer alle andere versies,\n"
+"\"Annuleren\" om deze versie te deactiveren en \n"
+"de anderen te behouden."
 
 #. Dialog heading
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:426
 msgid "Incompatible Package Versions"
-msgstr ""
+msgstr "Incompatibele pakketversies"
 
 #. Translators: %1 is a package version, %2 the package architecture,
 #. %3 describes the repository where it comes from,
@@ -1786,7 +1803,7 @@ msgstr ""
 #. %1   %2		     %3					  %4		    %5
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:554
 msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 [INGETROKKEN] van %3 met prioriteit %4 en leverancier %5"
 
 #. Translators: %1 is a package version, %2 the package architecture,
 #. %3 describes the repository where it comes from,
@@ -1800,7 +1817,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:574
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:612
 msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 van %3 met prioriteit %4 en leverancier %5"
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:596
 msgid "This version is installed in your system."
@@ -1913,7 +1930,7 @@ msgid "&RPM Groups"
 msgstr "&RPM-groepen"
 
 msgid "zzz All"
-msgstr "zzz All"
+msgstr "zzz Alles"
 
 # /usr/lib/YaST2/clients/printconf_filter.ycp:200
 msgid "Show solver information"
