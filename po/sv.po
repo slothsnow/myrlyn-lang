@@ -1,0 +1,1766 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-01-24 05:43+0000\n"
+"Last-Translator: Luna Jernberg <bittin@opensuse.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.8\n"
+
+#: about-dialog.ui:14
+msgctxt "AboutDialog|"
+msgid "About Myrlyn"
+msgstr "Om Myrlyn"
+
+#: about-dialog.ui:36
+msgctxt "AboutDialog|"
+msgid "## Myrlyn "
+msgstr "## Myrlyn "
+
+#: about-dialog.ui:65
+msgctxt "AboutDialog|"
+msgid ""
+"Myrlyn is a graphical package manager to select\n"
+"software packages and patterns for installation,\n"
+"update and removal.\n"
+"\n"
+"It uses libzypp as its backend and Qt as its\n"
+"GUI toolkit.\n"
+"\n"
+"This started in the 11/2024 SUSE Hack Week\n"
+"to make the SUSE YaST Qt package selector usable\n"
+"as a standalone Qt program without any YaST\n"
+"dependencies."
+msgstr ""
+"Myrlyn är en grafisk pakethanterare för att välja\n"
+"programpaket och mönster för installation,\n"
+"uppdatering och borttagning.\n"
+"\n"
+"Den använder libzypp som backend och Qt som sitt\n"
+"GUI ramverk.\n"
+"\n"
+"Detta började under SUSE Hack Week 11/2024\n"
+"för att göra cUSE YaST Qt-paketväljaren användbar\n"
+"som ett fristående Qt-program utan några YaST\n"
+"beroenden."
+
+#: about-dialog.ui:107
+msgctxt "AboutDialog|"
+msgid ""
+"### Main Author\n"
+"\n"
+"- Stefan Hundhammer (GitHub: @shundhammer)\n"
+"\n"
+"### Contributors\n"
+"\n"
+"- Christoph Grüninger (GitHub: @gruenich)"
+msgstr ""
+"### Huvudutvecklare\n"
+"\n"
+"- Stefan Hundhammer (GitHub: @shundhammer)\r\n"
+"### Bidragsgivare\n"
+"\n"
+"- Christoph Grüninger (GitHub: @gruenich)"
+
+#: init-repos-page.ui:15
+msgctxt "InitReposPage|"
+msgid "Form"
+msgstr "Formulär"
+
+#: init-repos-page.ui:36
+msgctxt "InitReposPage|"
+msgid "Initializing Repositories"
+msgstr "Initierar förråd"
+
+#: pkg-commit-page.ui:15
+msgctxt "PkgCommitPage|"
+msgid "Form"
+msgstr "Formulär"
+
+#: pkg-commit-page.ui:41
+msgctxt "PkgCommitPage|"
+msgid "Installing / Removing Packages"
+msgstr "Installera/ta bort paket"
+
+#: pkg-commit-page.ui:61
+msgctxt "PkgCommitPage|"
+msgid "Hide &Details"
+msgstr "Dölj &detaljer"
+
+#: pkg-commit-page.ui:113
+msgctxt "PkgCommitPage|"
+msgid "To Do"
+msgstr "Att göra"
+
+#: pkg-commit-page.ui:238
+msgctxt "PkgCommitPage|"
+msgid "Downloads"
+msgstr "Nedladdningar"
+
+#: pkg-commit-page.ui:282
+msgctxt "PkgCommitPage|"
+msgid "Doing"
+msgstr "Gör"
+
+#: pkg-commit-page.ui:376
+msgctxt "PkgCommitPage|"
+msgid "Done"
+msgstr "Klart"
+
+#: pkg-commit-page.ui:489
+msgctxt "PkgCommitPage|"
+msgid "&Cancel"
+msgstr "&Avbryt"
+
+#: pkg-commit-page.ui:548
+msgctxt "PkgCommitPage|"
+msgid "Show &Summary Page"
+msgstr "Visa &sammanfattningssida"
+
+#: progress-dialog.ui:14
+msgctxt "ProgressDialog|"
+msgid "Working..."
+msgstr "Arbetar..."
+
+#: progress-dialog.ui:79
+msgctxt "ProgressDialog|"
+msgid "&Close"
+msgstr "&Stäng"
+
+#: repo-config.ui:14
+msgctxt "RepoConfig|"
+msgid "Repository Configuration"
+msgstr "Förråd konfiguration"
+
+#: repo-config.ui:41
+msgctxt "RepoConfig|"
+msgid "**Repository Configuration**"
+msgstr "**Förråds konfiguration**"
+
+#: repo-config.ui:94
+msgctxt "RepoConfig|"
+msgid "**PackMan**"
+msgstr "**PackMan**"
+
+#: repo-config.ui:128
+msgctxt "RepoConfig|"
+msgid "URL:"
+msgstr "URL:"
+
+#: repo-config.ui:154
+msgctxt "RepoConfig|"
+msgid "Raw URL:"
+msgstr "Rå URL:"
+
+#: repo-config.ui:208
+msgctxt "RepoConfig|"
+msgid "&Priority:"
+msgstr "&Prioritet:"
+
+#: repo-config.ui:248
+msgctxt "RepoConfig|"
+msgid "Ena&bled"
+msgstr "Akt&iverad"
+
+#: repo-config.ui:258
+msgctxt "RepoConfig|"
+msgid "Auto-Re&fresh"
+msgstr "Automatisk up&pdatering"
+
+#: repo-config.ui:281
+msgctxt "RepoConfig|"
+msgid "1: highest; 200: lowest"
+msgstr "1: högsta; 200: lägsta"
+
+#: repo-config.ui:334
+msgctxt "RepoConfig|"
+msgid "&Add"
+msgstr "&Lägg till"
+
+#: repo-config.ui:341
+msgctxt "RepoConfig|"
+msgid "&Edit"
+msgstr "&Redigera"
+
+#: repo-config.ui:348
+msgctxt "RepoConfig|"
+msgid "&Delete"
+msgstr "&Radera"
+
+#: repo-config.ui:368
+msgctxt "RepoConfig|"
+msgid "<i>Restart needed!</i>"
+msgstr "<i>Omstart krävs!</i>"
+
+#: repo-config.ui:378
+msgctxt "RepoConfig|"
+msgid "&Close"
+msgstr "&Stäng"
+
+#: repo-edit-add.ui:98
+msgctxt "RepoEdit|"
+msgid "Custom &Repository"
+msgstr "Anpassat &förråd"
+
+#: repo-edit-add.ui:108
+msgctxt "RepoEdit|"
+msgid "Co&mmunity Repository"
+msgstr "Ge&menskap förråd"
+
+#: repo-edit-add.ui:254
+msgctxt "RepoEdit|"
+msgid "&Name"
+msgstr "&Namn"
+
+#: repo-edit-add.ui:270
+msgctxt "RepoEdit|"
+msgid "Repository Name"
+msgstr "Förråd namn"
+
+#: repo-edit-add.ui:302
+msgctxt "RepoEdit|"
+msgid "Raw &URL"
+msgstr "Rå &URL"
+
+#: repo-edit-add.ui:362
+msgctxt "RepoEdit|"
+msgid "&Cancel"
+msgstr "&Avbryt"
+
+#: repo-edit-add.ui:369
+msgctxt "RepoEdit|"
+msgid "&OK"
+msgstr "&OK"
+
+#: repo-gpg-key-import-dialog.ui:14
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "GPG Key"
+msgstr "GPG-nyckel"
+
+#: repo-gpg-key-import-dialog.ui:41
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "## Import Untrusted GPG Key"
+msgstr "## Importera otillförlitlig GPG-nyckel"
+
+#: repo-gpg-key-import-dialog.ui:81
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Repository:_"
+msgstr "_Förråd:_"
+
+#: repo-gpg-key-import-dialog.ui:101
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_URL:_"
+msgstr "_URL:_"
+
+#: repo-gpg-key-import-dialog.ui:121
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Fingerprint:_"
+msgstr "_Fingeravtryck:_"
+
+#: repo-gpg-key-import-dialog.ui:141
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Key Name:_"
+msgstr "_Nyckel namn:_"
+
+#: repo-gpg-key-import-dialog.ui:161
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Key Algorithm:_"
+msgstr "_Nyckel algoritm:_"
+
+#: repo-gpg-key-import-dialog.ui:181
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Key ID:_"
+msgstr "_Nyckel-ID:_"
+
+#: repo-gpg-key-import-dialog.ui:201
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Created:_"
+msgstr "_Skapad:_"
+
+#: repo-gpg-key-import-dialog.ui:221
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "_Expires:_"
+msgstr "_Går ut:_"
+
+#: repo-gpg-key-import-dialog.ui:274
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "&Trust"
+msgstr "&Lita på"
+
+#: repo-gpg-key-import-dialog.ui:297
+msgctxt "RepoGpgKeyImportDialog|"
+msgid "&Cancel"
+msgstr "&Avbryt"
+
+#: search-filter-view.ui:14
+msgctxt "SearchFilterView|"
+msgid "Form"
+msgstr "Formulär"
+
+#: search-filter-view.ui:43
+msgctxt "SearchFilterView|"
+msgid "Search Text or Pattern"
+msgstr "Sök text eller mönster"
+
+#: search-filter-view.ui:53
+msgctxt "SearchFilterView|"
+msgid "&Search"
+msgstr "&Sök"
+
+#: search-filter-view.ui:78
+msgctxt "SearchFilterView|"
+msgid "Search In"
+msgstr "Sök i"
+
+#: search-filter-view.ui:87
+msgctxt "SearchFilterView|"
+msgid "&Name"
+msgstr "&Namn"
+
+#: search-filter-view.ui:97
+msgctxt "SearchFilterView|"
+msgid "Su&mmary"
+msgstr "Sa&mmanfattning"
+
+#: search-filter-view.ui:104
+msgctxt "SearchFilterView|"
+msgid "D&escription"
+msgstr "B&eskrivning"
+
+#: search-filter-view.ui:111
+msgctxt "SearchFilterView|"
+msgid "RPM P&rovides"
+msgstr "RPM t&illhandahåller"
+
+#: search-filter-view.ui:118
+msgctxt "SearchFilterView|"
+msgid "RPM Re&quires"
+msgstr "RPM kr&äver"
+
+#: search-filter-view.ui:125
+msgctxt "SearchFilterView|"
+msgid "File &List"
+msgstr "Fil &lista"
+
+#: search-filter-view.ui:159
+msgctxt "SearchFilterView|"
+msgid "Searc&h Mode:"
+msgstr "Sö&k läge:"
+
+#: search-filter-view.ui:170
+msgctxt "SearchFilterView|"
+msgid "Auto"
+msgstr "Automatisk"
+
+#: search-filter-view.ui:175
+msgctxt "SearchFilterView|"
+msgid "Contains"
+msgstr "Innehåller"
+
+#: search-filter-view.ui:180
+msgctxt "SearchFilterView|"
+msgid "Starts With"
+msgstr "Börjar med"
+
+#: search-filter-view.ui:185
+msgctxt "SearchFilterView|"
+msgid "Exact Match"
+msgstr "Exakt matchning"
+
+#: search-filter-view.ui:190
+msgctxt "SearchFilterView|"
+msgid "Wildcards"
+msgstr "Jokertecken"
+
+#: search-filter-view.ui:195
+msgctxt "SearchFilterView|"
+msgid "Regular Expression"
+msgstr "Reguljärt uttryck"
+
+#: search-filter-view.ui:203
+msgctxt "SearchFilterView|"
+msgid "Detected:"
+msgstr "Upptäckt:"
+
+#: search-filter-view.ui:212
+msgctxt "SearchFilterView|"
+msgid "Case Sens&itive"
+msgstr "Skiftlägeskän&sligt"
+
+#: status-filter-view.ui:14
+msgctxt "StatusFilterView|"
+msgid "Form"
+msgstr "Formulär"
+
+#: status-filter-view.ui:32
+msgctxt "StatusFilterView|"
+msgid "Show Packages with Status"
+msgstr "Visa paket med status"
+
+#: status-filter-view.ui:63
+msgctxt "StatusFilterView|"
+msgid "Install"
+msgstr "Installera"
+
+#: status-filter-view.ui:83
+msgctxt "StatusFilterView|"
+msgid "Update"
+msgstr "Uppdatera"
+
+#: status-filter-view.ui:103
+msgctxt "StatusFilterView|"
+msgid "Auto-Install"
+msgstr "Automatisk installation"
+
+#: status-filter-view.ui:123
+msgctxt "StatusFilterView|"
+msgid "Auto-Update"
+msgstr "Automatisk uppdatering"
+
+#: status-filter-view.ui:143
+msgctxt "StatusFilterView|"
+msgid "Taboo"
+msgstr "Tabu"
+
+#: status-filter-view.ui:160
+msgctxt "StatusFilterView|"
+msgid "Protected"
+msgstr "Skyddad"
+
+#: status-filter-view.ui:193
+msgctxt "StatusFilterView|"
+msgid "Keep"
+msgstr "Behåll"
+
+#: status-filter-view.ui:210
+msgctxt "StatusFilterView|"
+msgid "Do Not Install"
+msgstr "Installera inte"
+
+#: status-filter-view.ui:259
+msgctxt "StatusFilterView|"
+msgid "Delete"
+msgstr "Radera"
+
+#: status-filter-view.ui:279
+msgctxt "StatusFilterView|"
+msgid "Auto-Delete"
+msgstr "Automatisk radering"
+
+#: status-filter-view.ui:302
+msgctxt "StatusFilterView|"
+msgid "<i>Middle-click on a status to show only this one</i>"
+msgstr "<i>Mitten klicka på en status för att bara visa denna</i>"
+
+#: status-filter-view.ui:354
+msgctxt "StatusFilterView|"
+msgid "Defaults"
+msgstr "Standard"
+
+#: status-filter-view.ui:361
+msgctxt "StatusFilterView|"
+msgid "Refresh List"
+msgstr "Uppdatera lista"
+
+#: summary-page.ui:15
+msgctxt "SummaryPage|"
+msgid "Form"
+msgstr "Formulär"
+
+#: summary-page.ui:36
+msgctxt "SummaryPage|"
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: summary-page.ui:52
+msgctxt "SummaryPage|"
+msgid ""
+"Packages installed: 2\n"
+"\n"
+"Packages updated: 5\n"
+"\n"
+"Packages removed: 0\n"
+"\n"
+"Errors: 0\n"
+"\n"
+msgstr ""
+"Installerade paket: 2\n"
+"\n"
+"Paket uppdaterade: 5\n"
+"\n"
+"Paket borttagna: 0\n"
+"\n"
+"Fel: 0\n"
+"\n"
+
+#: summary-page.ui:92
+msgctxt "SummaryPage|"
+msgid "Automatically closing in"
+msgstr "Stänger automatiskt om"
+
+#: summary-page.ui:99
+msgctxt "SummaryPage|"
+msgid "10"
+msgstr "10"
+
+#: summary-page.ui:122
+msgctxt "SummaryPage|"
+msgid "&Stop"
+msgstr "&Stopp"
+
+#: summary-page.ui:132
+msgctxt "SummaryPage|"
+msgid "..."
+msgstr "..."
+
+#: summary-page.ui:172
+msgctxt "SummaryPage|"
+msgid "&Back"
+msgstr "&Tillbaka"
+
+#: summary-page.ui:179
+msgctxt "SummaryPage|"
+msgid "&Finish"
+msgstr "&Slutför"
+
+#: updates-filter-view.ui:14
+msgctxt "UpdatesFilterView|"
+msgid "Form"
+msgstr "Formulär"
+
+#: updates-filter-view.ui:35
+msgctxt "UpdatesFilterView|"
+msgid "Updates"
+msgstr "Uppdateringar"
+
+#: updates-filter-view.ui:48
+msgctxt "UpdatesFilterView|"
+msgid ""
+"This shows only packages that could be updated, i.e. where a newer version "
+"is available than the version that is already installed."
+msgstr ""
+"Detta visar endast paket som kan uppdateras, d.v.s. där en nyare version är "
+"tillgänglig än den version som redan är installerad."
+
+#: updates-filter-view.ui:98
+msgctxt "UpdatesFilterView|"
+msgid "Pac&kage Update"
+msgstr "Pak&et uppdatering"
+
+#: updates-filter-view.ui:120
+msgctxt "UpdatesFilterView|"
+msgid ""
+"Mark all packages for updating that can be updated without a dependency "
+"problem.\n"
+"\n"
+"This is the equivalent of the \"zypper up\" command."
+msgstr ""
+"Markera alla paket för uppdatering som kan uppdateras utan beroendeproblem.\n"
+"\n"
+"Detta motsvarar \"zypper up\" kommandot."
+
+#: updates-filter-view.ui:172
+msgctxt "UpdatesFilterView|"
+msgid "D&ist-Upgrade"
+msgstr "D&ist-uppgradering"
+
+#: updates-filter-view.ui:194
+msgctxt "UpdatesFilterView|"
+msgid ""
+"Do a distribution upgrade: Mark all packages for updating that can be "
+"updated without a dependency problem.\n"
+"\n"
+"This takes package splits, package renames,  pattern updates and more into "
+"account.\n"
+"\n"
+"This is the equivalent of the \"zypper dup\" command."
+msgstr ""
+"Gör en distributionsuppgradering: Markera alla paket för uppdatering som kan "
+"uppdateras utan beroendeproblem.\n"
+"\n"
+"Detta tar hänsyn till paketdelningar, paketnamnbyten,  mönsteruppdateringar "
+"och mer.\n"
+"\n"
+"Detta motsvarar kommandot \"zypper dup\" kommandot."
+
+#: updates-filter-view.ui:242
+msgctxt "UpdatesFilterView|"
+msgid "Refresh List"
+msgstr "Uppdatera lista"
+
+#: MyrlynApp.cc:180
+msgid " [root]"
+msgstr " [root]"
+
+#: MyrlynApp.cc:183 RepoConfigDialog.cc:64
+msgid " (read-only)"
+msgstr " (läs-endast)"
+
+#: MyrlynApp.cc:204
+msgid "Preparing the package selector..."
+msgstr "Förbereder paketväljaren..."
+
+#: MyrlynApp.cc:462
+msgid "Really quit?"
+msgstr "Verkligen avsluta?"
+
+#: MyrlynRepoManager.cc:296
+msgid ""
+"Error loading the repos. Run\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"and restart the program."
+msgstr ""
+"Fel vid laddning av förråd. Kör\n"
+"\n"
+"    sudo zypper refresh\r\n"
+"\n"
+"och starta om programmet"
+
+#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
+#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:159
+msgid "Error"
+msgstr "Fel"
+
+#: MyrlynRepoManager.cc:318
+#, qt-format
+msgid ""
+"Refreshing repository \"%1\" failed.\n"
+"\n"
+"This repository is now disabled for this program run."
+msgstr ""
+"Uppdatering av förråd \"%1\" misslyckades.\n"
+"\n"
+"Detta förråd är nu inaktiverat för den här programkörningen."
+
+#: MyrlynRepoManager.cc:329
+#, qt-format
+msgid ""
+"Refreshing failed for repositories\n"
+"\n"
+"%1\n"
+"Those repositories are now disabled for this program run."
+msgstr ""
+"Uppdatering misslyckades för förråd\n"
+"\n"
+"%1\n"
+"Detta förråd är nu inaktiverat för den här programkörningen."
+
+#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
+msgid "Warning"
+msgstr "Varning"
+
+#: MyrlynWorkflowSteps.cc:168
+msgid ""
+"Can't connect to the package manager!\n"
+"It may be busy in another window.\n"
+msgstr ""
+"Kan inte ansluta till pakethanteraren!\n"
+"Den kan vara upptaget i ett annat fönster.\n"
+
+#: PkgCommitPage.cc:141
+msgid "To Do"
+msgstr "Att göra"
+
+#: PkgCommitPage.cc:142
+msgid "Downloads"
+msgstr "Nedladdningar"
+
+#: PkgCommitPage.cc:143
+msgid "Done"
+msgstr "Klart"
+
+#: PkgCommitPage.cc:295
+msgid "Hide &Details"
+msgstr "Dölj &detaljer"
+
+#: PkgCommitPage.cc:295
+msgid "Show &Details"
+msgstr "Visa &detaljer"
+
+#: PkgCommitPage.cc:340
+msgid "Really cancel the current package actions?"
+msgstr "Vill du verkligen avbryta de aktuella paketåtgärderna?"
+
+#: PkgCommitPage.cc:541
+msgid "Checking File Conflicts..."
+msgstr "Kontrollerar filkonflikter..."
+
+#: PkgCommitPage.cc:710
+#, qt-format
+msgid "Error downloading package %1"
+msgstr "Fel vid nedladdning av paket %1"
+
+#: PkgCommitPage.cc:758 PkgCommitPage.cc:787
+#, qt-format
+msgid "Error installing package %1"
+msgstr "Fel vid installation av paket %1"
+
+#: PkgCommitPage.cc:975
+msgid "[Post-transaction scripts]"
+msgstr "[Skript efter transaktioner]"
+
+#: PkgCommitPage.cc:1124
+msgid "File Conflict"
+msgstr "Filkonflikt"
+
+#: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
+#: YQPkgServiceList.cc:46
+msgid "Name"
+msgstr "Namn"
+
+#: QY2DiskUsageList.cc:164
+msgid "Disk Usage"
+msgstr "Diskanvändning"
+
+#: QY2DiskUsageList.cc:165
+msgid "Free"
+msgstr "Fritt"
+
+#: QY2DiskUsageList.cc:166
+msgid "Total"
+msgstr "Totalt"
+
+#: QY2DiskUsageList.cc:228
+#, qt-format
+msgid "Used %1"
+msgstr "Använt %1"
+
+#: RepoConfigDialog.cc:324
+#, qt-format
+msgid ""
+"Really delete repository \"%1\"?\n"
+"\n"
+"URL: %2"
+msgstr ""
+"Vill du verkligen ta bort förrådet \"%1\"?\n"
+"\n"
+"URL: %2"
+
+#: RepoConfigDialog.cc:350
+msgid ""
+"The application needs to be restarted\n"
+"for the changes to take effect.\n"
+"\n"
+"Quitting now. Please restart."
+msgstr ""
+"Programmet måste startas om\n"
+"för att ändringarna ska träda i kraft.\n"
+"\n"
+"Avslutar nu. var vänlig starta om."
+
+#: RepoEditDialog.cc:104
+msgid "See also  'man zypper'"
+msgstr "Se även 'man zypper'"
+
+#: RepoEditDialog.cc:112
+msgid "Add Repository"
+msgstr "Lägg till förråd"
+
+#: RepoEditDialog.cc:112
+msgid "Edit Repository"
+msgstr "Redigera förråd"
+
+#: RepoEditDialog.cc:246
+msgid "Invalid URL: "
+msgstr "Ogiltig URL: "
+
+#: RepoEditDialog.cc:251
+msgid "Invalid input: "
+msgstr "Ogiltig indata: "
+
+#: RepoGpgKeyImportDialog.cc:110
+#, qt-format
+msgid "Repository \"%1\" will be temporarily disabled."
+msgstr "Förrådet \"%1\" kommer att inaktiveras tillfälligt."
+
+#: RepoTable.cc:40
+msgid "Priority"
+msgstr "Prioritet"
+
+#: RepoTable.cc:41
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: RepoTable.cc:42
+msgid "Auto-Refresh"
+msgstr "Automatisk uppdatering"
+
+#: RepoTable.cc:43
+msgid "Service"
+msgstr "Tjänst"
+
+#: RepoTable.cc:44
+msgid "URL"
+msgstr "URL"
+
+#: SummaryPage.cc:120
+#, qt-format
+msgid "%1 s"
+msgstr "%1 s"
+
+#: SummaryPage.cc:175
+msgid "Close after 300 seconds (5 minutes)"
+msgstr "Stäng efter 300 sekunder (5 minuter)"
+
+#: SummaryPage.cc:176
+msgid "Don't automatically close"
+msgstr "Stäng inte automatiskt"
+
+#: SummaryPage.cc:192
+#, qt-format
+msgid "Close after %1 seconds"
+msgstr "Stäng efter %1 sekunder"
+
+#: SummaryPage.cc:258
+msgid "No package changes."
+msgstr "Inga paketändringar."
+
+#: SummaryPage.cc:299
+#, qt-format
+msgid "FAILED: %1"
+msgstr "MISSLYCKADES: %1"
+
+#: SummaryPage.cc:300
+#, qt-format
+msgid "Packages removed by user: %1"
+msgstr "Paket borttagna av användaren: %1"
+
+#: SummaryPage.cc:301
+#, qt-format
+msgid "Packages removed because of dependencies: %1"
+msgstr "Paket borttagna på grund av beroenden: %1"
+
+#: SummaryPage.cc:302
+#, qt-format
+msgid "Packages installed by user: %1"
+msgstr "Paket installerade av användaren: %1"
+
+#: SummaryPage.cc:303
+#, qt-format
+msgid "Packages installed because of dependencies: %1"
+msgstr "Paket installerade på grund av beroenden: %1"
+
+#: SummaryPage.cc:304
+#, qt-format
+msgid "Packages updated by user: %1"
+msgstr "Paket uppdaterade av användaren: %1"
+
+#: SummaryPage.cc:305
+#, qt-format
+msgid "Packages updated because of dependencies: %1"
+msgstr "Paket uppdaterade på grund av beroenden: %1"
+
+#: SummaryPage.cc:306
+#, qt-format
+msgid "To do: %1"
+msgstr "Att göra: %1"
+
+#: SummaryPage.cc:355
+#, qt-format
+msgid "(%1 more)"
+msgstr "(%1 mer)"
+
+#: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
+msgid "Information only available for installed packages."
+msgstr "Information är endast tillgänglig för installerade paket."
+
+#: YQPkgChangeLogView.cc:116
+#, qt-format
+msgid "(%1 more; run \"%2\" to see the complete change log)"
+msgstr "(%1 mer; kör \"%2\" för att se hela ändringsloggen)"
+
+#: YQPkgChangesDialog.cc:48
+msgid "Changed Packages"
+msgstr "Ändrade paket"
+
+#: YQPkgChangesDialog.cc:85
+msgid "All"
+msgstr "Alla"
+
+#: YQPkgChangesDialog.cc:86
+msgid "Selected by the user"
+msgstr "Vald av användaren"
+
+#: YQPkgChangesDialog.cc:87 YQPkgSelectorBase.cc:261
+msgid "Automatic Changes"
+msgstr "Automatiska ändringar"
+
+#: YQPkgClassificationFilterView.cc:45
+msgid "No Packages"
+msgstr "Inga paket"
+
+#: YQPkgClassificationFilterView.cc:46
+msgid "Recommended Packages"
+msgstr "Rekommenderade paket"
+
+#: YQPkgClassificationFilterView.cc:47
+msgid "Suggested Packages"
+msgstr "Föreslagna paket"
+
+#: YQPkgClassificationFilterView.cc:48
+msgid "Orphaned Packages"
+msgstr "Överblivna paket"
+
+#: YQPkgClassificationFilterView.cc:49
+msgid "Unneeded Packages"
+msgstr "Onödiga paket"
+
+#: YQPkgClassificationFilterView.cc:50
+msgid "Multiversion Packages"
+msgstr "Multiversion paket"
+
+#: YQPkgClassificationFilterView.cc:51
+msgid "Retracted Packages"
+msgstr "Tillbakadragna paket"
+
+#: YQPkgClassificationFilterView.cc:52
+msgid "Retracted Installed Packages"
+msgstr "Tillbakadragna installerade paket"
+
+#: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:109
+#: YQPkgSelector.cc:703
+msgid "All Packages"
+msgstr "Alla paket"
+
+#: YQPkgClassificationFilterView.cc:82
+msgid "Package Classification"
+msgstr "Paketklassificering"
+
+#: YQPkgConflictDialog.cc:104
+msgid "&OK -- Try Again"
+msgstr "&OK -- Försök igen"
+
+#: YQPkgConflictDialog.cc:116
+msgid "&Expert"
+msgstr "&Expert"
+
+#: YQPkgConflictDialog.cc:129
+msgid "&Save This List to a File..."
+msgstr "&Spara den här listan till en fil..."
+
+#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
+#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
+msgid "&Cancel"
+msgstr "&Avbryt"
+
+#: YQPkgConflictDialog.cc:190
+msgid "Verifying System Dependencies"
+msgstr "Verifiera systemberoenden"
+
+#: YQPkgConflictDialog.cc:321
+msgid "Create Dependency Resolver Test Case"
+msgstr "Skapa testfall för beroendelösning"
+
+#: YQPkgConflictDialog.cc:325
+msgid "You need to run the dependency resolver first."
+msgstr "Du måste köra beroendeupplösaren först."
+
+#: YQPkgConflictDialog.cc:333
+#, qt-format
+msgid ""
+"<p>Use this to generate extensive logs to help tracking down bugs in the "
+"dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
+msgstr ""
+"<p>Använd detta för att generera omfattande loggar som hjälper till att "
+"spåra buggar i beroendeupplösaren. Loggarna kommer att lagras i katalogen "
+"<br><tt>%1</tt></p>"
+
+#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1217
+#: YQPkgSelector.cc:1269 YQPkgVersionsView.cc:427
+msgid "C&ontinue"
+msgstr "F&ortsätt"
+
+#: YQPkgConflictDialog.cc:351
+#, qt-format
+msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
+msgstr "<p>Testfall för beroendeupplösare skrivet till <br><tt>%1</tt></p>"
+
+#: YQPkgConflictDialog.cc:354
+msgid "Success"
+msgstr "Framgångsrikt"
+
+#: YQPkgConflictDialog.cc:359
+#, qt-format
+msgid ""
+"<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
+"disk space and permissions for <tt>%1</tt></p>"
+msgstr ""
+"<p><b>Fel</b> vid skapandet av testfallet för beroendeupplösare</"
+"p><p>Kontrollera diskutrymme och behörigheter för <tt>%1</tt></p>"
+
+#: YQPkgConflictList.cc:137
+msgid "Save conflicts list"
+msgstr "Spara konflikt lista"
+
+#: YQPkgConflictList.cc:160
+#, qt-format
+msgid "Can't open file %1"
+msgstr "Kan inte öppna fil %1"
+
+#: YQPkgConflictList.cc:246
+msgid "Conflict Resolution:"
+msgstr "Konfliktlösning:"
+
+#: YQPkgConflictList.cc:286
+#, qt-format
+msgid "<a href='/'>%1 more...</a>"
+msgstr "<a href='/'>%1 mer...</a>"
+
+#: YQPkgDependenciesView.cc:81 YQPkgDependenciesView.cc:111
+#: YQPkgTechnicalDetailsView.cc:105 YQPkgTechnicalDetailsView.cc:146
+msgid "Version:"
+msgstr "Version:"
+
+#: YQPkgDependenciesView.cc:83 YQPkgDependenciesView.cc:113
+msgid "Provides:"
+msgstr "Tillhandahåller:"
+
+#: YQPkgDependenciesView.cc:84 YQPkgDependenciesView.cc:114
+msgid "Prerequires:"
+msgstr "Förkrav:"
+
+#: YQPkgDependenciesView.cc:85 YQPkgDependenciesView.cc:115
+msgid "Requires:"
+msgstr "Kräver:"
+
+#: YQPkgDependenciesView.cc:86 YQPkgDependenciesView.cc:116
+msgid "Conflicts:"
+msgstr "Konflikter:"
+
+#: YQPkgDependenciesView.cc:87 YQPkgDependenciesView.cc:117
+msgid "Obsoletes:"
+msgstr "Föråldrade:"
+
+#: YQPkgDependenciesView.cc:88 YQPkgDependenciesView.cc:118
+msgid "Recommends:"
+msgstr "Rekommenderar:"
+
+#: YQPkgDependenciesView.cc:89 YQPkgDependenciesView.cc:119
+msgid "Suggests:"
+msgstr "Föreslår:"
+
+#: YQPkgDependenciesView.cc:90 YQPkgDependenciesView.cc:120
+msgid "Enhances:"
+msgstr "Förbättrar:"
+
+#: YQPkgDependenciesView.cc:91 YQPkgDependenciesView.cc:121
+msgid "Supplements:"
+msgstr "Tillskott:"
+
+#: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:139
+msgid "<b>Alternate Version</b>"
+msgstr "<b>Alternativ version</b>"
+
+#: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:140
+msgid "<b>Installed Version</b>"
+msgstr "<b>Installerad version</b>"
+
+#: YQPkgDescriptionDialog.cc:45
+msgid "Package Description"
+msgstr "Paketbeskrivning"
+
+#: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
+#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114 YQPkgProductDialog.cc:99
+#: YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449 YQPkgSelector.cc:1619
+#: YQPkgTextDialog.cc:43
+msgid "&OK"
+msgstr "&OK"
+
+#: YQPkgDescriptionView.cc:88
+msgid "References:"
+msgstr "Referenser:"
+
+#: YQPkgDescriptionView.cc:237
+msgid "This package contains: "
+msgstr "Detta paket innehåller: "
+
+#: YQPkgDiskUsageList.cc:123
+msgid "<b>Error:</b> Out of disk space!"
+msgstr "<b>Fel:</b> Slut på diskutrymme!"
+
+#: YQPkgDiskUsageList.cc:132
+msgid "<b>Warning:</b> Disk space is running out!"
+msgstr "<b>Varning:</b> Diskutrymmet börjar ta slut!"
+
+#: YQPkgDiskUsageWarningDialog.cc:41
+msgid "Disk Space Warning"
+msgstr "Varning för diskutrymme"
+
+#: YQPkgFileListView.cc:98
+#, qt-format
+msgid "%1 files total"
+msgstr "%1 filer totalt"
+
+#: YQPkgFilterTab.cc:123
+msgid "&View"
+msgstr "&Visa"
+
+#: YQPkgFilterTab.cc:232
+msgid "Move page &left"
+msgstr "Flytta sida &vänster"
+
+#: YQPkgFilterTab.cc:240
+msgid "Move page &right"
+msgstr "Flytta sida &höger"
+
+#: YQPkgFilterTab.cc:248
+msgid "&Close page"
+msgstr "&Stäng sida"
+
+#: YQPkgHistoryDialog.cc:56
+msgid "Package History"
+msgstr "Pakethistorik"
+
+#: YQPkgHistoryDialog.cc:73
+msgid "Package History (/var/log/zypp/history)"
+msgstr "Pakethistorik (/var/log/zypp/history)"
+
+#: YQPkgHistoryDialog.cc:89
+msgid "Date"
+msgstr "Datum"
+
+#: YQPkgHistoryDialog.cc:97
+msgid "Action"
+msgstr "Åtgärd"
+
+#: YQPkgHistoryDialog.cc:97
+msgid "Version/URL"
+msgstr "Version/URL"
+
+#: YQPkgHistoryDialog.cc:183
+msgid "Unable to read history"
+msgstr "Kunde inte läsa historik"
+
+#: YQPkgLangList.cc:40
+msgid "Code"
+msgstr "Kod"
+
+#: YQPkgLangList.cc:43
+msgid "Language"
+msgstr "Språk"
+
+#: YQPkgList.cc:48
+msgid "Package"
+msgstr "Paket"
+
+#: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: YQPkgList.cc:54
+msgid "Installed (Available)"
+msgstr "Installerad (tillgänglig)"
+
+#: YQPkgList.cc:58
+msgid "Avail. Ver."
+msgstr "Tillgänglig. version"
+
+#: YQPkgList.cc:61
+msgid "Inst. Ver."
+msgstr "Installerad. version."
+
+#: YQPkgList.cc:67 YQPkgProductList.cc:37
+msgid "Version"
+msgstr "Version"
+
+#: YQPkgList.cc:71
+msgid "Size"
+msgstr "Storlek"
+
+#: YQPkgList.cc:436 YQPkgObjList.cc:526 YQPkgPatchList.cc:386
+msgid "&All in This List"
+msgstr "&Alla i denna lista"
+
+#: YQPkgList.cc:575
+#, qt-format
+msgid "Installed Version: %1"
+msgstr "Installerad version: %1"
+
+#: YQPkgList.cc:593
+msgid "same"
+msgstr "samma"
+
+#: YQPkgList.cc:595
+msgid "newer"
+msgstr "nyare"
+
+#: YQPkgList.cc:596
+msgid "older"
+msgstr "äldre"
+
+#: YQPkgList.cc:599
+#, qt-format
+msgid "Available Version: %1 (%2)"
+msgstr "Tillgänglig version: %1 (%2)"
+
+#: YQPkgList.cc:603
+msgid "Not available for installation"
+msgstr "Inte tillgänglig för installation"
+
+#: YQPkgObjList.cc:264
+msgid "Autodelete"
+msgstr "Autoradering"
+
+#: YQPkgObjList.cc:265
+msgid "Autoinstall"
+msgstr "Automatisk installation"
+
+#: YQPkgObjList.cc:266
+msgid "Autoupdate"
+msgstr "Automatisk uppdatering"
+
+#: YQPkgObjList.cc:267
+msgid "Delete"
+msgstr "Radera"
+
+#: YQPkgObjList.cc:268
+msgid "Install"
+msgstr "Installera"
+
+#: YQPkgObjList.cc:269
+msgid "Keep"
+msgstr "Behåll"
+
+#: YQPkgObjList.cc:270
+msgid "Do Not Install"
+msgstr "Installera inte"
+
+#: YQPkgObjList.cc:271
+msgid "Protected -- Do Not Modify"
+msgstr "Skyddad -- ändra inte"
+
+#: YQPkgObjList.cc:272
+msgid "Taboo -- Never Install"
+msgstr "Tabu -- installera aldrig"
+
+#: YQPkgObjList.cc:273
+msgid "Update"
+msgstr "Uppdatera"
+
+#: YQPkgObjList.cc:390 YQPkgObjList.cc:412 YQPkgSelector.cc:708
+msgid "Update unconditionally"
+msgstr "Uppdatera villkorslöst"
+
+#: YQPkgObjList.cc:406 YQPkgSelector.cc:705
+msgid "Update if newer version available"
+msgstr "Uppdatera om en nyare version finns tillgänglig"
+
+#: YQPkgObjList.cc:1314
+msgid "(by a software selection)"
+msgstr "(genom ett programval)"
+
+#: YQPkgObjList.cc:1316
+msgid "(by dependencies)"
+msgstr "(efter beroenden)"
+
+#: YQPkgPatchFilterView.cc:59
+msgid "&Show Patch Category:"
+msgstr "&Show Patch Category:"
+
+#: YQPkgPatchFilterView.cc:65
+msgid "Needed Patches"
+msgstr "Nödvändiga patchar"
+
+#: YQPkgPatchFilterView.cc:66
+msgid "Unneeded Patches"
+msgstr "Onödiga patchar"
+
+#: YQPkgPatchFilterView.cc:67
+msgid "All Patches"
+msgstr "Alla patchar"
+
+#: YQPkgPatchFilterView.cc:79
+msgid "Patch Description"
+msgstr "patchbeskrivning"
+
+#: YQPkgPatchList.cc:595
+msgid "YaST"
+msgstr "YaST"
+
+#: YQPkgPatchList.cc:596
+msgid "security"
+msgstr "säkerhet"
+
+#: YQPkgPatchList.cc:597
+msgid "recommended"
+msgstr "rekommenderad"
+
+#: YQPkgPatchList.cc:598
+msgid "optional"
+msgstr "optional"
+
+#: YQPkgPatchList.cc:599
+msgid "feature"
+msgstr "funktion"
+
+#: YQPkgPatchList.cc:600
+msgid "document"
+msgstr "dokument"
+
+#: YQPkgPatternList.cc:56
+msgid "Pattern"
+msgstr "Mönster"
+
+#: YQPkgPatternList.cc:68
+msgid "Order"
+msgstr "Ordna"
+
+#: YQPkgPatternList.cc:398
+msgid "Invisible"
+msgstr "Osynlig"
+
+#: YQPkgProductDialog.cc:40
+msgid "Products"
+msgstr "Produkter"
+
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:542
+msgid "Dependencies"
+msgstr "Beroenden"
+
+#: YQPkgProductList.cc:35
+msgid "Product"
+msgstr "Produkt"
+
+#: YQPkgProductList.cc:38
+msgid "Vendor"
+msgstr "Leverantör"
+
+#: YQPkgSearchFilterView.cc:141
+#, qt-format
+msgid "Default: %1"
+msgstr "Standard: %1"
+
+#: YQPkgSearchFilterView.cc:147
+#, qt-format
+msgid "Detected: %1"
+msgstr "Upptäckt: %1"
+
+#: YQPkgSearchFilterView.cc:364
+msgid "No Results."
+msgstr "Inga resultat."
+
+#: YQPkgSearchFilterView.cc:379
+msgid "Query Error"
+msgstr "Frågefel"
+
+#: YQPkgSecondaryFilterView.cc:99
+msgid "&Secondary Filter:"
+msgstr "&Sekundärt filter:"
+
+#: YQPkgSecondaryFilterView.cc:119
+msgid "Search"
+msgstr "Sök"
+
+#: YQPkgSecondaryFilterView.cc:135
+msgid "Installation Summary"
+msgstr "Installationssammanfattning"
+
+#: YQPkgSelectorBase.cc:120
+msgid "System dependencies verify OK."
+msgstr "Systemberoenden verifieras som OK."
+
+#: YQPkgSelectorBase.cc:139
+msgid "Error: Out of disk space!"
+msgstr "Fel: Slut på diskutrymme!"
+
+#: YQPkgSelectorBase.cc:140
+msgid ""
+"<p>You can choose to install anyway if you know what you are doing, but you "
+"risk getting a corrupted system that requires manual repairs. If you are not "
+"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"deselect some packages.</p>"
+msgstr ""
+"<p>Du kan välja att installera ändå om du vet vad du gör, men du riskerar "
+"att få ett skadat system som kräver manuell reparation. Om du inte är helt "
+"säker på hur du ska hantera ett sådant fall, tryck på <b>Avbryt</b> nu och "
+"avmarkera vissa paket.</p>"
+
+#: YQPkgSelectorBase.cc:148
+msgid "C&ontinue Anyway"
+msgstr "F&ortsätt ändå"
+
+#: YQPkgSelectorBase.cc:160
+msgid "The following items will be changed: "
+msgstr "Följande objekt kommer att ändras: "
+
+#: YQPkgSelectorBase.cc:210
+msgid "Really abandon all changes and exit?"
+msgstr "Vill du verkligen avbryta alla ändringar och avsluta?"
+
+#: YQPkgSelectorBase.cc:265
+msgid ""
+"In addition to your manual selections, the following packages have been "
+"changed to resolve dependencies:"
+msgstr ""
+"Utöver dina manuella val har följande paket ändrats för att lösa beroenden:"
+
+#: YQPkgSelectorBase.cc:367
+msgid "Not implemented yet"
+msgstr "Inte implementerat ännu"
+
+#: YQPkgSelector.cc:294
+msgid "&Search"
+msgstr "&Sök"
+
+#: YQPkgSelector.cc:308 YQPkgSelector.cc:1234
+msgid "Patc&hes"
+msgstr "Patc&har"
+
+#: YQPkgSelector.cc:320 YQPkgSelector.cc:1235
+msgid "&Updates"
+msgstr "&Uppdateringar"
+
+#: YQPkgSelector.cc:330
+msgid "&Repositories"
+msgstr "&Förråd"
+
+#: YQPkgSelector.cc:344
+msgid "Repository Index Ser&vices"
+msgstr "Förråd index tjä&nster"
+
+#: YQPkgSelector.cc:357
+msgid "Pa&tterns"
+msgstr "Mö&nster"
+
+#: YQPkgSelector.cc:368
+msgid "Package Classi&fication"
+msgstr "Paket Klassi&fikation"
+
+#: YQPkgSelector.cc:379
+msgid "&Languages"
+msgstr "&Språk"
+
+#: YQPkgSelector.cc:389
+msgid "Installation Su&mmary"
+msgstr "Installationssa&mmanfattning"
+
+#: YQPkgSelector.cc:517
+msgid "Description"
+msgstr "Beskrivning"
+
+#: YQPkgSelector.cc:529
+msgid "Technical Data"
+msgstr "Teknisk data"
+
+#: YQPkgSelector.cc:556
+msgid "Versions"
+msgstr "Versioner"
+
+#: YQPkgSelector.cc:574
+msgid "File List"
+msgstr "Fil lista"
+
+#: YQPkgSelector.cc:590
+msgid "Change Log"
+msgstr "Ändringslogg"
+
+#: YQPkgSelector.cc:622 YQPkgTextDialog.cc:235
+msgid "&Accept"
+msgstr "&Acceptera"
+
+#: YQPkgSelector.cc:661
+msgid "&File"
+msgstr "&Fil"
+
+#: YQPkgSelector.cc:664
+msgid "&Accept Changes"
+msgstr "&Acceptera ändringar"
+
+#: YQPkgSelector.cc:666
+msgid "&Quit - Discard Changes"
+msgstr "&Avsluta - Ignorera ändringar"
+
+#: YQPkgSelector.cc:678
+msgid "&Package"
+msgstr "&Paket"
+
+#: YQPkgSelector.cc:727
+msgid "Patch"
+msgstr "Patch"
+
+#: YQPkgSelector.cc:753
+msgid "&Dependencies"
+msgstr "&Beroenden"
+
+#: YQPkgSelector.cc:755
+msgid "&Check Now"
+msgstr "&Kontrollera nu"
+
+#: YQPkgSelector.cc:757
+msgid "&Autocheck"
+msgstr "&Autokontroll"
+
+#: YQPkgSelector.cc:761
+msgid "Install &Recommended Packages"
+msgstr "Installera &rekommenderade paket"
+
+#: YQPkgSelector.cc:774
+msgid "&Options"
+msgstr "&Alternativ"
+
+#: YQPkgSelector.cc:777
+msgid "Show -de&vel Packages"
+msgstr "Visa - ut&vecklings paket"
+
+#: YQPkgSelector.cc:787
+msgid "Show -&debuginfo/-debugsource Packages"
+msgstr "Visa -&debuginfo/-debugsource Packages -&debuginfo/-debugsource paket"
+
+#: YQPkgSelector.cc:797
+msgid "&System Verification Mode"
+msgstr "&Systemverifieringsläge"
+
+#: YQPkgSelector.cc:804
+msgid "Options for this run only"
+msgstr "Alternativ endast för den här körningen"
+
+#: YQPkgSelector.cc:806
+msgid "&Cleanup when deleting packages"
+msgstr "&Rensa vid borttagning av paket"
+
+#: YQPkgSelector.cc:810
+msgid "&Allow vendor change"
+msgstr "&Tillåt leverantörs-förändring"
+
+#: YQPkgSelector.cc:822
+msgid "E&xtras"
+msgstr "E&xtra"
+
+#: YQPkgSelector.cc:826
+msgid "C&onfigure Repositories..."
+msgstr "K&onfigurera förråd..."
+
+#: YQPkgSelector.cc:832
+msgid "Show &Products"
+msgstr "Visa &produkter"
+
+#: YQPkgSelector.cc:833
+msgid "Show Package &Changes"
+msgstr "Visa paket &ändringar"
+
+#: YQPkgSelector.cc:834
+msgid "Show &History"
+msgstr "Visa &historik"
+
+#: YQPkgSelector.cc:839
+msgid "Install All Matching -devel Packages"
+msgstr "Installerade alla matchande -devel paket"
+
+#: YQPkgSelector.cc:842
+msgid "Install All Matching -debuginfo Packages"
+msgstr "Installerade alla matchande -debuginfo paket"
+
+#: YQPkgSelector.cc:845
+msgid "Install All Matching -debugsource Packages"
+msgstr "Installerade alla matchande -debugsource paket"
+
+#: YQPkgSelector.cc:847
+msgid "Install All Matching Recommended Packages"
+msgstr "Installera alla matchande rekommenderade paket"
+
+#: YQPkgSelector.cc:853
+msgid "Generate Dependency Resolver &Test Case"
+msgstr "Generera beroendelösning och &testfall"
+
+#: YQPkgSelector.cc:866
+msgid "H&elp"
+msgstr "H&jälp"
+
+#: YQPkgSelector.cc:876
+msgid "&Overview"
+msgstr "&Översik"
+
+#: YQPkgSelector.cc:878
+msgid "About &Myrlyn"
+msgstr "Om &Myrlyn"
+
+#: YQPkgSelector.cc:879
+msgid "About &Qt"
+msgstr "Om &Qt"
+
+#: YQPkgSelector.cc:884
+msgid "Rep&ository Configuration"
+msgstr "För&råds konfiguration"
+
+#: YQPkgSelector.cc:885
+msgid "Root &Authentication"
+msgstr "Root &autentisering"
+
+#: YQPkgSelector.cc:1105
+msgid "All package dependencies are OK."
+msgstr "Alla paketberoenden är OK."
+
+#: YQPkgSelector.cc:1209
+msgid ""
+"There are pending changes.\n"
+"\n"
+"If you continue to the repository configuration\n"
+"and change anything there, you will have to\n"
+"restart the program, and all package changes\n"
+"will be lost.\n"
+msgstr ""
+"Det finns väntande ändringar.\n"
+"\n"
+"Om du fortsätter till konfigurationen av förråd\n"
+"och ändrar någonting där, så kommer du att behöva\n"
+"starta om programmet och alla paketändringar\n"
+"kommer at gå förlorade.\n"
+
+#: YQPkgSelector.cc:1267
+#, qt-format
+msgid "%1 packages will be updated"
+msgstr "%1 paket kommer att uppdateras"
+
+#: YQPkgSelector.cc:1320
+#, qt-format
+msgid ""
+"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
+"versions in this repository (%2)</p>"
+msgstr ""
+"<p><a href=\"repoupgradeadd:///%1\">Växla systempaket</a> till versionerna i "
+"detta förråd (%2)</p>"
+
+#: YQPkgSelector.cc:1345
+#, qt-format
+msgid ""
+"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
+"to versions in repository %2</p>"
+msgstr ""
+"<p><a href=\"repoupgraderemove:///%1\">Avbryt byte</a> av systempaket till "
+"versioner i förrådet %2</p>"
+
+#: YQPkgSelector.cc:1448 YQPkgSelector.cc:1617
+msgid "Added Subpackages:"
+msgstr "Tillagda delpaket:"
+
+#: YQPkgServiceList.cc:202
+msgid "URL: "
+msgstr "URL: "
+
+#: YQPkgServiceList.cc:209
+msgid "Product: "
+msgstr "Produkt:"
+
+#: YQPkgServiceList.cc:213
+msgid "Repositories:"
+msgstr "Förråd:"
+
+#: YQPkgTechnicalDetailsView.cc:106 YQPkgTechnicalDetailsView.cc:147
+msgid "Build Time:"
+msgstr "Byggtid:"
+
+#: YQPkgTechnicalDetailsView.cc:110 YQPkgTechnicalDetailsView.cc:148
+msgid "Install Time:"
+msgstr "Installationstid:"
+
+#: YQPkgTechnicalDetailsView.cc:112 YQPkgTechnicalDetailsView.cc:149
+msgid "License:"
+msgstr "Licens:"
+
+#: YQPkgTechnicalDetailsView.cc:113 YQPkgTechnicalDetailsView.cc:150
+msgid "Installed Size:"
+msgstr "Installerad storlek:"
+
+#: YQPkgTechnicalDetailsView.cc:114 YQPkgTechnicalDetailsView.cc:151
+msgid "Download Size:"
+msgstr "Nedladdningsstorlek:"
+
+#: YQPkgTechnicalDetailsView.cc:115 YQPkgTechnicalDetailsView.cc:152
+msgid "Distribution:"
+msgstr "Distribution:"
+
+#: YQPkgTechnicalDetailsView.cc:116 YQPkgTechnicalDetailsView.cc:153
+msgid "Vendor:"
+msgstr "Leverantör:"
+
+#: YQPkgTechnicalDetailsView.cc:117 YQPkgTechnicalDetailsView.cc:154
+msgid "Packager:"
+msgstr "Paketerare:"
+
+#: YQPkgTechnicalDetailsView.cc:118 YQPkgTechnicalDetailsView.cc:155
+msgid "Architecture:"
+msgstr "Arkitektur:"
+
+#: YQPkgTechnicalDetailsView.cc:119 YQPkgTechnicalDetailsView.cc:156
+msgid "URL:"
+msgstr "URL:"
+
+#: YQPkgTechnicalDetailsView.cc:120 YQPkgTechnicalDetailsView.cc:157
+msgid "Source Package:"
+msgstr "Källpaket:"
+
+#: YQPkgTechnicalDetailsView.cc:123 YQPkgTechnicalDetailsView.cc:161
+msgid "Authors:"
+msgstr "Författare:"
+
+#: YQPkgVersionsView.cc:184
+#, qt-format
+msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
+msgstr "%1-%2 [TILLBAKADRAGET] från leverantör %3 (installerat)"
+
+#: YQPkgVersionsView.cc:192
+#, qt-format
+msgid "%1-%2 from vendor %3 (installed)"
+msgstr "%1-%2 från leverantör %3 (installerad)"
+
+#: YQPkgVersionsView.cc:399
+msgid ""
+"You are trying to install multiversion-capable\n"
+"and non-multiversion-capable versions of this\n"
+"package at the same time."
+msgstr ""
+"Du försöker installera multiversionskompatibla\n"
+"och icke-multiversionskompatibla versioner av detta\n"
+"paket samtidigt."
+
+#: YQPkgVersionsView.cc:407
+msgid ""
+"This version is multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install this version\n"
+"and unselect the non-multiversion-capable version,\n"
+"\"Cancel\" to unselect this version and keep the other one."
+msgstr ""
+"Den här versionen är multiversionskompatibel.\n"
+"\n"
+"Tryck på \"Fortsätt\" för att installera den här versionen\n"
+"och avmarkera den version som inte är multiversionskompatibel,\n"
+"\"Avbryt\" för att avmarkera den här versionen och behålla den andra."
+
+#: YQPkgVersionsView.cc:416
+msgid ""
+"This version is not multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install only this version\n"
+"and unselect all other versions,\n"
+"\"Cancel\" to unselect this version and keep the other ones."
+msgstr ""
+"Den här versionen är inte multiversionskompatibel.\n"
+"\n"
+"Tryck på \"Fortsätt\" för att endast installera den här versionen\n"
+"och avmarkera alla andra versioner,\n"
+"\"Avbryt\" för att avmarkera den här versionen och behålla dom andra."
+
+#: YQPkgVersionsView.cc:425
+msgid "Incompatible Package Versions"
+msgstr "Inkompatibla paketversioner"
+
+#: YQPkgVersionsView.cc:551
+#, qt-format
+msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
+msgstr "%1-%2 [TILLBAKADRAGET] från %3 ​​med prioritet %4 och leverantör %5"
+
+#: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
+#, qt-format
+msgid "%1-%2 from %3 with priority %4 and vendor %5"
+msgstr "%1-%2 från %3 ​​med prioritet %4 och leverantör %5"
