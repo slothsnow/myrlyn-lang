@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bittin@opensuse.org\n"
 "POT-Creation-Date: 2026-01-24 04:33+0000\n"
 "PO-Revision-Date: 2026-01-25 09:21+0000\n"
-"Last-Translator: slothsnow <slothsnow@noreply.codeberg.org>\n"
+"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
 "Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/sv/>\n"
 "Language: sv\n"
@@ -1297,7 +1297,7 @@ msgstr "rekommenderad"
 
 #: YQPkgPatchList.cc:598
 msgid "optional"
-msgstr "optional"
+msgstr "frivilliga"
 
 #: YQPkgPatchList.cc:599
 msgid "feature"
@@ -1649,7 +1649,7 @@ msgstr "URL: "
 
 #: YQPkgServiceList.cc:209
 msgid "Product: "
-msgstr "Produkt:"
+msgstr "Produkt: "
 
 #: YQPkgServiceList.cc:213
 msgid "Repositories:"
@@ -1758,9 +1758,9 @@ msgstr "Inkompatibla paketversioner"
 #: YQPkgVersionsView.cc:551
 #, qt-format
 msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr "%1-%2 [TILLBAKADRAGET] från %3 ​​med prioritet %4 och leverantör %5"
+msgstr "%1-%2 [TILLBAKADRAGET] från %3 med prioritet %4 och leverantör %5"
 
 #: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
 #, qt-format
 msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr "%1-%2 från %3 ​​med prioritet %4 och leverantör %5"
+msgstr "%1-%2 från %3 med prioritet %4 och leverantör %5"
