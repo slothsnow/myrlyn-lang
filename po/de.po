@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-08-30 04:09+0000\n"
+"PO-Revision-Date: 2026-01-26 19:21+0000\n"
 "Last-Translator: Atalanttore <atalanttore@noreply.codeberg.org>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.15.2\n"
 "X-Qt-Contexts: true\n"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:320
@@ -25,7 +25,7 @@ msgstr "Sche&mata"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:369
 msgid "Package &Classification"
-msgstr "Paket & Klassifikation"
+msgstr "Paket&klassifikation"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:382
 msgid "&Languages"
@@ -33,7 +33,7 @@ msgstr "&Sprachen"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:398
 msgid "&Repositories"
-msgstr "&Repositories"
+msgstr "&Repositorien"
 
 #. TRANSLATORS: Menu item
 #: libyui-qt-pkg/src/YQPackageSelector.cc:413
@@ -1936,9 +1936,8 @@ msgstr "Kommunikation"
 msgid "Network"
 msgstr "Netzwerk"
 
-#, fuzzy
 msgid "Maps"
-msgstr "Maps"
+msgstr "Karten"
 
 msgid "Software Sources"
 msgstr "Softwarequellen"
