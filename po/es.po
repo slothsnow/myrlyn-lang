@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
 "PO-Revision-Date: 2026-02-03 19:29+0000\n"
-"Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
 "Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/es/>\n"
 "Language: es\n"
@@ -1816,6 +1816,9 @@ msgid ""
 "and non-multiversion-capable versions of this\n"
 "package at the same time."
 msgstr ""
+"Está intentando instalar\n"
+"versiones compatibles y no compatibles\n"
+"de este paquete al mismo tiempo."
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:409
 msgid ""
@@ -1825,6 +1828,10 @@ msgid ""
 "and unselect the non-multiversion-capable version,\n"
 "\"Cancel\" to unselect this version and keep the other one."
 msgstr ""
+"Esta versión es compatible con múltiples versiones.\n"
+"Haga clic en «Continuar» para instalar esta versión y desactive la versión "
+"que no es compatible con múltiples versiones. Haga clic en «Cancelar» para "
+"desactivar esta versión y conservar la otra."
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:418
 msgid ""
@@ -1834,11 +1841,17 @@ msgid ""
 "and unselect all other versions,\n"
 "\"Cancel\" to unselect this version and keep the other ones."
 msgstr ""
+"Esta versión no admite la instalación de varias versiones.\n"
+"\n"
+"Haga clic en «Continuar» para instalar solo esta versión\n"
+"y deseleccionar todas las demás versiones;\n"
+"Haga clic en «Cancelar» para deseleccionar esta versión y conservar las "
+"demás versiones."
 
 #. Dialog heading
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:426
 msgid "Incompatible Package Versions"
-msgstr ""
+msgstr "Las versiones son incompatibles"
 
 #. Translators: %1 is a package version, %2 the package architecture,
 #. %3 describes the repository where it comes from,
@@ -1851,7 +1864,7 @@ msgstr ""
 #. %1   %2		     %3					  %4		    %5
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:554
 msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 [RETIRADO] de %3 con prioridad %4 y proveedor %5"
 
 #. Translators: %1 is a package version, %2 the package architecture,
 #. %3 describes the repository where it comes from,
@@ -1865,7 +1878,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:574
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:612
 msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 de %3 con prioridad %4 y proveedor %5"
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:596
 msgid "This version is installed in your system."
