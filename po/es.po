@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-02-21 18:29+0000\n"
+"PO-Revision-Date: 2026-09-03 21:25+0000\n"
 "Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
 "Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 2026.8.1\n"
 "X-Qt-Contexts: true\n"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:320
@@ -537,8 +537,8 @@ msgid ""
 "In addition to <b>Patches</b>, you can also select one of the other filter "
 "views from <b>Filter</b> at the upper left:"
 msgstr ""
-"Además de los <b>Parches</b>, también puede seleccionar una de las otras "
-"vistas de filtros en <b>Filtro,</b> en la parte superior izquierda:"
+"Además de <b>Parches</b>, también puede seleccionar otro filtro de vista "
+"desde <b>Filtro</b> en la parte superior izquierda:"
 
 #. Help specific to normal (non-online-update) mode
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:85
