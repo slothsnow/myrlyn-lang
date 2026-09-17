@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2025-08-30 14:07+0200\n"
-"Last-Translator: slothsnow <slothsnow@localhost>\n"
-"Language-Team: French <traduc@traduc.org>\n"
+"PO-Revision-Date: 2026-09-17 13:10+0000\n"
+"Last-Translator: LETARTARE <letartare@noreply.codeberg.org>\n"
+"Language-Team: French <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 # TLABEL packages_2002_01_04_0147__170
 #: libyui-qt-pkg/src/YQPackageSelector.cc:320
@@ -29,11 +31,11 @@ msgstr "&Catégorie de paquet"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:382
 msgid "&Languages"
-msgstr ""
+msgstr "Langue"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:398
 msgid "&Repositories"
-msgstr ""
+msgstr "&Dépôts"
 
 #. TRANSLATORS: Menu item
 #: libyui-qt-pkg/src/YQPackageSelector.cc:413
@@ -60,7 +62,7 @@ msgstr "Résumé de l'&installation"
 # TLABEL autoinst_2002_08_07_0216__343
 #: libyui-qt-pkg/src/YQPackageSelector.cc:528
 msgid "D&escription"
-msgstr "D&escription"
+msgstr "&Description"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:541
 msgid "&Technical Data"
@@ -69,7 +71,7 @@ msgstr "Données &techniques"
 #: libyui-qt-pkg/src/YQPackageSelector.cc:554
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:102
 msgid "Dependencies"
-msgstr ""
+msgstr "Dépendances"
 
 # TLABEL packages_2002_01_04_0147__148
 #: libyui-qt-pkg/src/YQPackageSelector.cc:569
@@ -78,11 +80,11 @@ msgstr "&Versions"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:587
 msgid "File List"
-msgstr ""
+msgstr "Liste de fichiers"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:604
 msgid "Change Log"
-msgstr ""
+msgstr "Journal des modifications"
 
 #. "Cancel" button
 #. button #0
@@ -100,7 +102,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:432
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:204
 msgid "&Cancel"
-msgstr ""
+msgstr "&Annuler"
 
 #. Translators: "Accept" here refers to licenses or similar
 #: libyui-qt-pkg/src/YQPackageSelector.cc:640
@@ -108,11 +110,11 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:244
 #: libyui-qt-pkg/src/YQSimplePatchSelector.cc:213
 msgid "&Accept"
-msgstr ""
+msgstr "&Accepter"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:681
 msgid "&File"
-msgstr ""
+msgstr "&Fichier"
 
 # TLABEL autoinst_2002_08_07_0216__279
 #: libyui-qt-pkg/src/YQPackageSelector.cc:683
@@ -134,23 +136,23 @@ msgstr "&Quitter -- Enregistrer les modifications"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:701
 msgid "&Package"
-msgstr ""
+msgstr "&Paquets"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:740
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:58
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:112
 msgid "All Packages"
-msgstr ""
+msgstr "Tous les paquets"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:742
 #: libyui-qt-pkg/src/YQPkgObjList.cc:398
 msgid "Update if newer version available"
-msgstr ""
+msgstr "Actualiser si une nouvelle version est disponible"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:745
 #: libyui-qt-pkg/src/YQPkgObjList.cc:381 libyui-qt-pkg/src/YQPkgObjList.cc:404
 msgid "Update unconditionally"
-msgstr ""
+msgstr "Forcer l'actualisation"
 
 # TLABEL autoinst_2002_08_07_0216__95
 #: libyui-qt-pkg/src/YQPackageSelector.cc:759
@@ -174,38 +176,38 @@ msgstr "Mise à j&our en ligne..."
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:799
 msgid "&Dependencies"
-msgstr ""
+msgstr "&Dépendances"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:801
 msgid "&Check Now"
-msgstr ""
+msgstr "&Vérifier maintenant"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:803
 msgid "&Autocheck"
-msgstr ""
+msgstr "&Autocontrôle"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:808
 msgid "Install &Recommended Packages"
-msgstr ""
+msgstr "Installer les paquets &Recommandés"
 
 #. Translators: Menu for view options (Use a noun, not a verb!)
 #: libyui-qt-pkg/src/YQPackageSelector.cc:821
 msgid "&Options"
-msgstr ""
+msgstr "&Options"
 
 #. Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:824
 msgid "Show -de&vel Packages"
-msgstr ""
+msgstr "Montrer les paquets de dé&veloppement"
 
 #. Translators: This is about packages ending in "-debuginfo", so don't translate that "-debuginfo"!
 #: libyui-qt-pkg/src/YQPackageSelector.cc:833
 msgid "Show -&debuginfo/-debugsource Packages"
-msgstr ""
+msgstr "Monter les paquets de débogage 'info/source'"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:841
 msgid "&System Verification Mode"
-msgstr ""
+msgstr "Mode de vérification du &Système"
 
 #. Widget styles can use the text information in the rendering for sections,
 #. or can choose to ignore it and render sections like simple separators.
@@ -215,19 +217,19 @@ msgstr "Options pour ce lancement seulement..."
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:849
 msgid "&Cleanup when deleting packages"
-msgstr ""
+msgstr "&Nettoyage lors de la suppression de paquets"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:853
 msgid "&Allow vendor change"
-msgstr ""
+msgstr "&Autoriser le changement de fournisseur"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:865
 msgid "E&xtras"
-msgstr ""
+msgstr "E&xtras"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:867
 msgid "Show &Products"
-msgstr ""
+msgstr "Afficher les &Produits"
 
 # TLABEL packages_2002_01_04_0147__156
 #: libyui-qt-pkg/src/YQPackageSelector.cc:868
@@ -236,7 +238,7 @@ msgstr "Afficher les changements de p&aquets"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:869
 msgid "Show &History"
-msgstr ""
+msgstr "Montre l'&Historique"
 
 # TLABEL printer_2002_08_07_0216__68
 #. Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
@@ -262,7 +264,7 @@ msgstr "Installer tous les paquets &recommandés correspondants"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:892
 msgid "Generate Dependency Resolver &Test Case"
-msgstr ""
+msgstr "Générer un résolveur de dépendances et un cas de &Test"
 
 # TLABEL backup_2002_03_14_2340__52
 #: libyui-qt-pkg/src/YQPackageSelector.cc:904
@@ -279,7 +281,7 @@ msgstr "Ai&de"
 #. Menu entry for help overview
 #: libyui-qt-pkg/src/YQPackageSelector.cc:921
 msgid "&Overview"
-msgstr ""
+msgstr "Surv&Ol général"
 
 #. Menu entry for help about used symbols ( icons )
 #: libyui-qt-pkg/src/YQPackageSelector.cc:924
@@ -294,7 +296,7 @@ msgstr "&Touches"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1122
 msgid "All package dependencies are OK."
-msgstr ""
+msgstr "Toutes les dépendances du paquet sont correctes."
 
 # TLABEL online_update_2002_01_04_0147__43
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1138
@@ -318,7 +320,7 @@ msgstr "Enregistrer la liste de paquets"
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:189
 #: libyui-qt-pkg/src/YQPkgList.cc:592
 msgid "Error"
-msgstr ""
+msgstr "Erreur"
 
 # TLABEL mail_2002_03_14_2340__77
 #. caption
@@ -340,7 +342,7 @@ msgstr "Erreur lors du chargement de la liste de paquets de %1"
 #. Translators: %1 is the number of affected packages
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1438
 msgid "%1 packages will be updated"
-msgstr ""
+msgstr "%1 paquets à actualiser"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1439
 msgid "&Continue"
@@ -363,11 +365,13 @@ msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
+"<p><a href=\"repoupgradeadd:///%1\">Remplacer les paquets système</a> par "
+"les versions de ce dépôt (%2)</p>"
 
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1594
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1751
 msgid "Added Subpackages:"
-msgstr ""
+msgstr "Sous-paquets ajoutés :"
 
 #. "OK" button
 #: libyui-qt-pkg/src/YQPackageSelector.cc:1595
@@ -380,21 +384,21 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:121
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:57
 msgid "&OK"
-msgstr ""
+msgstr "&Vu"
 
 # TLABEL packages_2002_01_04_0147__30
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:79
 msgid "Reset &Ignored Dependency Conflicts"
-msgstr "Rétablir les conflits de dépendances &ignorés"
+msgstr "Réinitialiser les conflits de dépendances &ignorés"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:150
 msgid "System dependencies verify OK."
-msgstr ""
+msgstr "Les dépendances du système ont été vérifiées et sont correctes."
 
 #. Translators: RichText ( HTML-like ) format
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:171
 msgid "Error: Out of disk space!"
-msgstr ""
+msgstr "Erreur : espace disque insuffisant !"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:172
 msgid ""
@@ -403,18 +407,23 @@ msgid ""
 "absolutely sure how to handle such a case, press <b>Cancel</b> now and "
 "deselect some packages.</p>"
 msgstr ""
+"<p>Vous pouvez choisir de procéder à l'installation malgré tout si vous "
+"savez ce que vous faites, mais vous risquez d'endommager votre système, ce "
+"qui nécessiterait des réparations manuelles. Si vous n'êtes pas absolument "
+"certain de savoir comment gérer une telle situation, cliquez dès maintenant "
+"sur <b>Annuler</b> et désélectionnez certains paquets.</p>"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:180
 msgid "C&ontinue Anyway"
-msgstr ""
+msgstr "C&ontinuer quand même"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:194
 msgid "The following items will be changed: "
-msgstr ""
+msgstr "Les éléments suivants feront l'objet de modifications : "
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:234
 msgid "Do you want to Abandon all changes and exit?"
-msgstr "Voulez-vous abandonner toutes les modifications et quitter ?"
+msgstr "Voulez-vous abandonner toutes les modifications et quitter ?"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:235
 msgid "&Yes"
@@ -428,20 +437,22 @@ msgstr "&Non"
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:283
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:104
 msgid "Automatic Changes"
-msgstr ""
+msgstr "Modifications automatiques"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:287
 msgid ""
 "In addition to your manual selections, the following packages have been "
 "changed to resolve dependencies:"
 msgstr ""
+"Outre les sélections que vous avez effectuées manuellement, les paquets "
+"suivants ont été modifiés afin de résoudre des problèmes de dépendances :"
 
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:291
 #: libyui-qt-pkg/src/YQPackageSelectorBase.cc:312
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:379
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:431
 msgid "C&ontinue"
-msgstr ""
+msgstr "C&ontinuer"
 
 # TLABEL packages_2002_01_04_0147__129
 #. Dialog header
@@ -709,7 +720,7 @@ msgstr "Ce paquet n'est pas installé et ne le sera pas."
 #: libyui-qt-pkg/src/YQPkgObjList.cc:260
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:82
 msgid "Install"
-msgstr ""
+msgstr "Installer"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:163
@@ -721,7 +732,7 @@ msgstr "Ce paquet sera installé. Il ne l'est pas encore."
 #: libyui-qt-pkg/src/YQPkgObjList.cc:261
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:94
 msgid "Keep"
-msgstr ""
+msgstr "Conserver"
 
 # TLABEL autoinst_2002_08_07_0216__184
 #. Translators: Automatic word-wrapping.
@@ -736,7 +747,7 @@ msgstr "Ce paquet est déjà installé. Il ne sera pas modifié."
 #: libyui-qt-pkg/src/YQPkgObjList.cc:265
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:83
 msgid "Update"
-msgstr ""
+msgstr "Mise à jour"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:175
@@ -752,7 +763,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgObjList.cc:259
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:81
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 # TLABEL autoinst_2002_08_07_0216__184
 #. Translators: Automatic word-wrapping.
@@ -820,7 +831,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgObjList.cc:257
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:85
 msgid "Autoinstall"
-msgstr ""
+msgstr "Installation automatique"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:209
@@ -842,7 +853,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgObjList.cc:258
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:86
 msgid "Autoupdate"
-msgstr ""
+msgstr "Mise à jour automatique"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:217
@@ -858,7 +869,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgObjList.cc:256
 #: libyui-qt-pkg/src/YQPkgStatusFilterView.cc:84
 msgid "Autodelete"
-msgstr ""
+msgstr "Suppression automatique"
 
 #. Translators: Automatic word-wrapping.
 #: libyui-qt-pkg/src/YQPackageSelectorHelp.cc:224
@@ -990,7 +1001,7 @@ msgstr "&Détails..."
 #: libyui-qt-pkg/src/YQPkgChangeLogView.cc:90
 #: libyui-qt-pkg/src/YQPkgFileListView.cc:82
 msgid "Information only available for installed packages."
-msgstr ""
+msgstr "Ces informations ne sont disponibles que pour les paquets installés."
 
 #. TRANSLATORS: The package change log is too long to display, only the latest
 #. changes are displayed. %1 is the number of the items which are not displayed,
@@ -1006,52 +1017,52 @@ msgstr ""
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:66
 msgid "Changed Packages"
-msgstr ""
+msgstr "Paquets modifiés"
 
 #. add the items.
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:102
 msgid "All"
-msgstr ""
+msgstr "Tous"
 
 #: libyui-qt-pkg/src/YQPkgChangesDialog.cc:103
 msgid "Selected by the user"
-msgstr ""
+msgstr "Sélectionné par l'utilisateur"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:50
 msgid "No Packages"
-msgstr ""
+msgstr "Aucun paquet"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:51
 msgid "Recommended Packages"
-msgstr ""
+msgstr "Paquets recommandés"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:52
 msgid "Suggested Packages"
-msgstr ""
+msgstr "Paquets suggérés"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:53
 msgid "Orphaned Packages"
-msgstr ""
+msgstr "Paquets orphelins"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:54
 msgid "Unneeded Packages"
-msgstr ""
+msgstr "Paquets inutiles"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:55
 msgid "Multiversion Packages"
-msgstr ""
+msgstr "Paquets multi-versions"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:56
 msgid "Retracted Packages"
-msgstr ""
+msgstr "Paquets retirés"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:57
 msgid "Retracted Installed Packages"
-msgstr ""
+msgstr "Paquets installés puis supprimés"
 
 #: libyui-qt-pkg/src/YQPkgClassFilterView.cc:88
 msgid "Package Classification"
-msgstr ""
+msgstr "Classification des paquets"
 
 #. Set the dialog title.
 #.
@@ -1061,21 +1072,21 @@ msgstr ""
 #. manager running (and configured to show any dialog titles).
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:84
 msgid "Warning"
-msgstr ""
+msgstr "Avertissement"
 
 #. "OK" button
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:120
 msgid "&OK -- Try Again"
-msgstr ""
+msgstr "&Vu -- Recommencer"
 
 #. "Expert" menu button
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:131
 msgid "&Expert"
-msgstr ""
+msgstr "&Expert"
 
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:143
 msgid "&Save This List to a File..."
-msgstr ""
+msgstr "&Sauvegarder cette liste dans un fichier..."
 
 # TLABEL packages_2002_03_14_2340__36
 #. Busy popup
@@ -1086,13 +1097,16 @@ msgstr "Vérification des dépendances..."
 #. Heading for popup dialog
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:370
 msgid "Create Dependency Resolver Test Case"
-msgstr ""
+msgstr "Créer un cas de test pour le résolveur de dépendances"
 
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:373
 msgid ""
 "<p>Use this to generate extensive logs to help tracking down bugs in the "
 "dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
 msgstr ""
+"<p>Utilisez cette option pour générer des journaux détaillés qui "
+"faciliteront la recherche de bogues dans le résolveur de dépendances. Les "
+"journaux seront stockés dans le répertoire <br><tt>%1</tt></p>"
 
 #. parent
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:377
@@ -1104,14 +1118,14 @@ msgid ""
 "<p>Dependency resolver test case written to <br><tt>%1</tt></p><p>Prepare "
 "<tt>y2logs.tgz tar</tt> archive to attach to Bugzilla?</p>"
 msgstr ""
-"<p>Cas de test du résolveur de dépendances écrit dans <br><tt>%1</tt></"
-"p><p>Préparer l'archive <tt>y2logs.tgz tar</tt> pour l'attachement à "
-"Bugzilla ?</p>"
+"<p>Cas de test du résolveur de dépendances écrit dans <br><tt>%1</tt></p><p>"
+"Préparer l'archive <tt>y2logs.tgz tar</tt> pour l'attachement à Bugzilla ?</"
+"p>"
 
 #. parent
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:395
 msgid "Success"
-msgstr ""
+msgstr "Succès"
 
 #. caption
 #: libyui-qt-pkg/src/YQPkgConflictDialog.cc:408
@@ -1119,13 +1133,16 @@ msgid ""
 "<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
 "disk space and permissions for <tt>%1</tt></p>"
 msgstr ""
+"<p><b>Erreur</b> lors de la création d'un cas de test pour le résolveur de "
+"dépendances</p><p>Veuillez vérifier l'espace disque et les droits d'accès "
+"pour <tt>%1</tt></p>"
 
 # TLABEL profile-manager_2002_08_07_0216__43
 #. startsWith
 #. filter
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:168
 msgid "Save Conflicts List"
-msgstr "Enregistrer la liste des conflits"
+msgstr "Sauvegarder la liste des conflits"
 
 # TLABEL backup_2002_03_14_2340__125
 #. caption
@@ -1136,82 +1153,82 @@ msgstr "Impossible d'ouvrir le fichier %1"
 
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:280
 msgid "Conflict Resolution:"
-msgstr ""
+msgstr "Résolution des conflits :"
 
 #: libyui-qt-pkg/src/YQPkgConflictList.cc:317
 msgid "<a href='/'>%1 more...</a>"
-msgstr ""
+msgstr "<a href='/'>%1 de plus...</a>"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:92
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:122
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:120
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:161
 msgid "Version:"
-msgstr ""
+msgstr "Version :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:94
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:124
 msgid "Provides:"
-msgstr ""
+msgstr "Pourvoit :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:95
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:125
 msgid "Prerequires:"
-msgstr ""
+msgstr "Prérequis :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:96
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:126
 msgid "Requires:"
-msgstr ""
+msgstr "Conditions requises :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:97
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:127
 msgid "Conflicts:"
-msgstr ""
+msgstr "Conflits :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:98
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:128
 msgid "Obsoletes:"
-msgstr ""
+msgstr "Obsolètes :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:99
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:129
 msgid "Recommends:"
-msgstr ""
+msgstr "Recommandations :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:100
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:130
 msgid "Suggests:"
-msgstr ""
+msgstr "Suggestions :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:101
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:131
 msgid "Enhances:"
-msgstr ""
+msgstr "Améliorations :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:102
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:132
 msgid "Supplements:"
-msgstr ""
+msgstr "Suppléments :"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:115
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:154
 msgid "<b>Alternate Version</b>"
-msgstr ""
+msgstr "<b>Version alternative</b>"
 
 #: libyui-qt-pkg/src/YQPkgDependenciesView.cc:116
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:155
 msgid "<b>Installed Version</b>"
-msgstr ""
+msgstr "<b>Version installée</b>"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgDescriptionDialog.cc:59
 msgid "Package Description"
-msgstr ""
+msgstr "Description du paquet"
 
 #: libyui-qt-pkg/src/YQPkgDescriptionView.cc:107
 msgid "References:"
-msgstr ""
+msgstr "Références :"
 
 # TLABEL support_2002_03_14_2340__6
 #. Translators: %1 contains the support level like "Level 3", "unsupported" or "unknown"
@@ -1221,25 +1238,25 @@ msgstr "Capacité de prise en charge : %1"
 
 #: libyui-qt-pkg/src/YQPkgDescriptionView.cc:262
 msgid "This package contains: "
-msgstr ""
+msgstr "Ce paquet contient;: "
 
 #: libyui-qt-pkg/src/YQPkgDiskUsageList.cc:144
 msgid "<b>Error:</b> Out of disk space!"
-msgstr ""
+msgstr "<b>Erreur :</b> Espace disque insuffisant !"
 
 #: libyui-qt-pkg/src/YQPkgDiskUsageList.cc:153
 msgid "<b>Warning:</b> Disk space is running out!"
-msgstr ""
+msgstr "<b>Avertissement :</b> L'espace disque est presque épuisé !"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgDiskUsageWarningDialog.cc:58
 msgid "Disk Space Warning"
-msgstr ""
+msgstr "Avertissement concernant l'espace disque"
 
 #. %1 is the total number of files in a file list
 #: libyui-qt-pkg/src/YQPkgFileListView.cc:118
 msgid "%1 files total"
-msgstr ""
+msgstr "%1 fichiers au total"
 
 #. Translators: Button with pop-up menu to open a new page (very much like
 #. in a web browser) with another package filter view or to switch to an
@@ -1247,96 +1264,96 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:158
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:162
 msgid "&View"
-msgstr ""
+msgstr "&Voir"
 
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:516
 msgid "Move page &left"
-msgstr ""
+msgstr "Déplacer la page vers la &gauche"
 
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:526
 msgid "Move page &right"
-msgstr ""
+msgstr "Déplacer la page vers la &droite"
 
 #: libyui-qt-pkg/src/YQPkgFilterTab.cc:533
 msgid "&Close page"
-msgstr ""
+msgstr "&Fermer la page"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:67
 msgid "Package History"
-msgstr ""
+msgstr "Historique du paquet"
 
 #. Heading
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:84
 msgid "Package History (/var/log/zypp/history)"
-msgstr ""
+msgstr "Historique du paquet (/var/log/zypp/history)"
 
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:100
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:108
 msgid "Action"
-msgstr ""
+msgstr "Action"
 
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:108
 msgid "Version/URL"
-msgstr ""
+msgstr "Version/URL"
 
 #. Translators: This is a (short) text indicating that something went
 #. wrong while trying to read the history file.
 #: libyui-qt-pkg/src/YQPkgHistoryDialog.cc:194
 msgid "Unable to read history"
-msgstr ""
+msgstr "Impossible de lire l'historique"
 
 #. Translators: Table column heading for language ISO code like "de_DE", "en_US"
 #. Please keep this short to avoid stretching the column too wide!
 #: libyui-qt-pkg/src/YQPkgLangList.cc:58
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. Full (human readable) language / country name like "German (Austria)"
 #: libyui-qt-pkg/src/YQPkgLangList.cc:61
 msgid "Language"
-msgstr ""
+msgstr "Langage"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:73 libyui-qt-pkg/src/YQPkgList.cc:612
 msgid "Package"
-msgstr ""
+msgstr "Paquet"
 
 #. headers <<  _( "Patch"	);	_nameCol	= numCol++;
 #: libyui-qt-pkg/src/YQPkgList.cc:74 libyui-qt-pkg/src/YQPkgList.cc:613
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:66
 #: libyui-qt-pkg/src/YQPkgProductList.cc:52
 msgid "Summary"
-msgstr ""
+msgstr "Sommaire"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:79 libyui-qt-pkg/src/YQPkgList.cc:614
 msgid "Installed (Available)"
-msgstr ""
+msgstr "Installé (Disponible)"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:83
 msgid "Avail. Ver."
-msgstr ""
+msgstr "Dispo.Bloc."
 
 #: libyui-qt-pkg/src/YQPkgList.cc:86
 msgid "Inst. Ver."
-msgstr ""
+msgstr "Inst. Vers."
 
 #: libyui-qt-pkg/src/YQPkgList.cc:92 libyui-qt-pkg/src/YQPkgProductList.cc:53
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #. headers <<  _( "Source" );	_srpmStatusCol	= numCol++;
 #: libyui-qt-pkg/src/YQPkgList.cc:97 libyui-qt-pkg/src/YQPkgList.cc:615
 msgid "Size"
-msgstr ""
+msgstr "Taille"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:236 libyui-qt-pkg/src/YQPkgList.cc:504
 #: libyui-qt-pkg/src/YQPkgObjList.cc:518
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:386
 msgid "&All in This List"
-msgstr ""
+msgstr "&Tous les éléments de cette liste"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:462 libyui-qt-pkg/src/YQPkgList.cc:482
 msgid "Export This List to &Text File..."
@@ -1392,51 +1409,51 @@ msgstr "Aucune source disponible"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:894
 msgid "Installed Version: %1"
-msgstr ""
+msgstr "Version installée : %1"
 
 #. Translators: This is the relation between two versions of one package
 #. if both versions are the same, e.g., both "1.2.3-42", "1.2.3-42"
 #: libyui-qt-pkg/src/YQPkgList.cc:912
 msgid "same"
-msgstr ""
+msgstr "idem"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:914
 msgid "newer"
-msgstr ""
+msgstr "plus récent"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:915
 msgid "older"
-msgstr ""
+msgstr "plus ancien"
 
 #. Translators: %1 is the version, %2 is one of "newer", "older", "same"
 #: libyui-qt-pkg/src/YQPkgList.cc:918
 msgid "Available Version: %1 (%2)"
-msgstr ""
+msgstr "Version disponible : %1 (%2)"
 
 #: libyui-qt-pkg/src/YQPkgList.cc:922
 msgid "Not available for installation"
-msgstr ""
+msgstr "Non disponible pour l'installation"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:262
 msgid "Do Not Install"
-msgstr ""
+msgstr "Ne Pas installer"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:263
 msgid "Protected -- Do Not Modify"
-msgstr ""
+msgstr "Protégé — Ne pas modifier"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:264
 msgid "Taboo -- Never Install"
-msgstr ""
+msgstr "À ne surtout pas faire : ne jamais installer"
 
 #. Translators: Additional hint what caused an auto-status
 #: libyui-qt-pkg/src/YQPkgObjList.cc:1421
 msgid "(by a software selection)"
-msgstr ""
+msgstr "(par le biais d'une sélection de logiciels)"
 
 #: libyui-qt-pkg/src/YQPkgObjList.cc:1423
 msgid "(by dependencies)"
-msgstr ""
+msgstr "(par dépendances)"
 
 # TLABEL packages_2002_03_14_2340__36
 #. Translators: tool tip for patches / patterns that are installed,
@@ -1454,46 +1471,46 @@ msgstr "Toutes les dépendances sont satisfaites"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:80
 msgid "&Show Patch Category:"
-msgstr ""
+msgstr "&Afficher la catégorie de correctifs :"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:87
 msgid "Needed Patches"
-msgstr ""
+msgstr "Correctifs nécessaires"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:88
 msgid "Unneeded Patches"
-msgstr ""
+msgstr "Correctifs inutiles"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:89
 msgid "All Patches"
-msgstr ""
+msgstr "Tous les correctifs"
 
 #: libyui-qt-pkg/src/YQPkgPatchFilterView.cc:101
 msgid "Patch Description"
-msgstr ""
+msgstr "Description du correctif"
 
 #. Translators: These are patch categories
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:566
 #: libyui-qt-pkg/src/YQPkgTextDialog.cc:86
 msgid "YaST"
-msgstr ""
+msgstr "YaST"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:567
 msgid "security"
-msgstr ""
+msgstr "sécurité"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:568
 msgid "recommended"
-msgstr ""
+msgstr "recommandé"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:569
 msgid "optional"
-msgstr ""
+msgstr "optionnel"
 
 #: libyui-qt-pkg/src/YQPkgPatchList.cc:570
 msgid "document"
-msgstr ""
+msgstr "document"
 
 #. Translators: "Pattern" refers to so-called "installation patterns",
 #. i.e., specific task-oriented groups of packages, like "everything that
@@ -1503,40 +1520,40 @@ msgstr ""
 #. is only of little relevance, though.
 #: libyui-qt-pkg/src/YQPkgPatternList.cc:73
 msgid "Pattern"
-msgstr ""
+msgstr "Modèle"
 
 #: libyui-qt-pkg/src/YQPkgPatternList.cc:79
 msgid "Order"
-msgstr ""
+msgstr "Commande"
 
 #: libyui-qt-pkg/src/YQPkgPatternList.cc:386
 msgid "Invisible"
-msgstr ""
+msgstr "Invisible"
 
 #. Dialog title
 #: libyui-qt-pkg/src/YQPkgProductDialog.cc:60
 msgid "Products"
-msgstr ""
+msgstr "Produits"
 
 #: libyui-qt-pkg/src/YQPkgProductList.cc:51
 msgid "Product"
-msgstr ""
+msgstr "Produit"
 
 #: libyui-qt-pkg/src/YQPkgProductList.cc:54
 msgid "Vendor"
-msgstr ""
+msgstr "Vendeur"
 
 #. Column headers for repository list
 #. TRANSLATORS: Column header for the service list
 #: libyui-qt-pkg/src/YQPkgRepoList.cc:67
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:62
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. Search button
 #: libyui-qt-pkg/src/YQPkgSearchFilterView.cc:81
 msgid "&Search"
-msgstr ""
+msgstr "&Rechercher"
 
 # TLABEL backup_2002_03_14_2340__52
 #.
@@ -1618,7 +1635,7 @@ msgstr "Recherche..."
 
 #: libyui-qt-pkg/src/YQPkgSearchFilterView.cc:322
 msgid "No Results."
-msgstr ""
+msgstr "Aucun résultat."
 
 #. Translators: This is a (short) text indicating that something went
 #. wrong while searching for packages. At this point, it is not clear
@@ -1627,7 +1644,7 @@ msgstr ""
 #. the original (translated) error message.
 #: libyui-qt-pkg/src/YQPkgSearchFilterView.cc:337
 msgid "Query Error"
-msgstr ""
+msgstr "Erreur de requête"
 
 #. Translators: This is a combo box where the user can apply a secondary filter
 #. in addition to the primary filter by repository - one of
@@ -1638,7 +1655,7 @@ msgstr ""
 #. above it.
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:103
 msgid "&Secondary Filter:"
-msgstr ""
+msgstr "Filtre &secondaire :"
 
 # TLABEL autoinst_2002_08_07_0216__78
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:119
@@ -1647,26 +1664,26 @@ msgstr "Paquets non maintenus"
 
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:127
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
 
 #: libyui-qt-pkg/src/YQPkgSecondaryFilterView.cc:140
 msgid "Installation Summary"
-msgstr ""
+msgstr "Résumé de l'installation"
 
 #. TRANSLATORS: Tooltip item, followed by service URL
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:202
 msgid "URL: "
-msgstr ""
+msgstr "URL : "
 
 #. TRANSLATORS: Tooltip item, followed by product name
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:208
 msgid "Product: "
-msgstr ""
+msgstr "Produit : "
 
 #. TRANSLATORS: Tooltip item, followed by the list of repositories inluded in the libzypp service
 #: libyui-qt-pkg/src/YQPkgServiceList.cc:213
 msgid "Repositories:"
-msgstr ""
+msgstr "Dépôts :"
 
 # TLABEL scanner_2002_01_04_0147__27
 #. Headline
@@ -1691,47 +1708,47 @@ msgstr "&Actualiser la liste"
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:121
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:162
 msgid "Build Time:"
-msgstr ""
+msgstr "Durée de compilation :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:125
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:163
 msgid "Install Time:"
-msgstr ""
+msgstr "Durée d'installation :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:127
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:164
 msgid "License:"
-msgstr ""
+msgstr "Licence :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:128
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:165
 msgid "Installed Size:"
-msgstr ""
+msgstr "Dimensions une fois installé :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:129
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:166
 msgid "Download Size:"
-msgstr ""
+msgstr "Taille du fichier à télécharger :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:130
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:167
 msgid "Distribution:"
-msgstr ""
+msgstr "Distribution :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:131
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:168
 msgid "Vendor:"
-msgstr ""
+msgstr "Vendeur :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:132
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:169
 msgid "Packager:"
-msgstr ""
+msgstr "Éditeur :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:133
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:170
 msgid "Architecture:"
-msgstr ""
+msgstr "Architecture :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:134
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:171
@@ -1741,12 +1758,12 @@ msgstr "Hôte de la version :"
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:135
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:172
 msgid "URL:"
-msgstr ""
+msgstr "URL :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:136
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:173
 msgid "Source Package:"
-msgstr ""
+msgstr "Paquet source :"
 
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:137
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:175
@@ -1756,7 +1773,7 @@ msgstr "N° support :"
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:138
 #: libyui-qt-pkg/src/YQPkgTechnicalDetailsView.cc:176
 msgid "Authors:"
-msgstr ""
+msgstr "Auteurs :"
 
 #: libyui-qt-pkg/src/YQPkgUpdateProblemFilterView.cc:47
 msgid ""
@@ -1797,11 +1814,11 @@ msgstr ""
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:179
 msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr ""
+msgstr "%1-%2 [RETIRÉ] du fournisseur %3 (installé)"
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:187
 msgid "%1-%2 from vendor %3 (installed)"
-msgstr ""
+msgstr "%1-%2 du fournisseur %3 (installé)"
 
 #. Translators: Popup dialog text. Try to keep the lines about the same length.
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:401
@@ -1810,6 +1827,9 @@ msgid ""
 "and non-multiversion-capable versions of this\n"
 "package at the same time."
 msgstr ""
+"Vous essayez d'installer simultanément des versions\n"
+"compatibles avec le multivers et des versions\n"
+"non compatibles avec le multivers de ce paquet."
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:409
 msgid ""
@@ -1819,6 +1839,11 @@ msgid ""
 "and unselect the non-multiversion-capable version,\n"
 "\"Cancel\" to unselect this version and keep the other one."
 msgstr ""
+"Cette version prend en charge le multiversion.\n"
+"\n"
+"Cliquez sur « Continuer » pour installer cette version\n"
+"et désélectionner la version ne prenant pas en charge le multiversion,\n"
+"ou sur « Annuler » pour désélectionner cette version et conserver l'autre."
 
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:418
 msgid ""
@@ -1828,11 +1853,16 @@ msgid ""
 "and unselect all other versions,\n"
 "\"Cancel\" to unselect this version and keep the other ones."
 msgstr ""
+"Cette version ne prend pas en charge la gestion de plusieurs versions.\n"
+"\n"
+"Cliquez sur « Continuer » pour installer uniquement cette version\n"
+"et désélectionner toutes les autres versions,\n"
+"ou sur « Annuler » pour désélectionner cette version et conserver les autres."
 
 #. Dialog heading
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:426
 msgid "Incompatible Package Versions"
-msgstr ""
+msgstr "Versions de paquets incompatibles"
 
 #. Translators: %1 is a package version, %2 the package architecture,
 #. %3 describes the repository where it comes from,
@@ -1845,7 +1875,7 @@ msgstr ""
 #. %1   %2		     %3					  %4		    %5
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:554
 msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 [RETIRÉ] de %3, avec une priorité %4 et un fournisseur %5"
 
 #. Translators: %1 is a package version, %2 the package architecture,
 #. %3 describes the repository where it comes from,
@@ -1859,7 +1889,7 @@ msgstr ""
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:574
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:612
 msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 provenant de %3, avec une priorité de %4 et un fournisseur %5"
 
 # TLABEL restore_2002_08_07_0216__75
 #: libyui-qt-pkg/src/YQPkgVersionsView.cc:596
