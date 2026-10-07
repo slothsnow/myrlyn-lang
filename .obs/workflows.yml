@@ -1,0 +1,8 @@
+workflow:
+  steps:
+    - trigger_services:
+        project: home:slothsnow
+        package: myrlyn-lang
+
+  filters:
+    event: tag_push
