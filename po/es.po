@@ -49,54 +49,19 @@ msgid ""
 "- Christoph Grüninger (GitHub: @gruenich)"
 msgstr ""
 
-#: init-repos-page.ui:15
-msgid "Form"
-msgstr ""
-
 #: init-repos-page.ui:36
 #, fuzzy
 msgid "Initializing Repositories"
 msgstr "&Repositorios"
-
-#: pkg-commit-page.ui:15
-msgid "Form"
-msgstr ""
 
 #: pkg-commit-page.ui:41
 #, fuzzy
 msgid "Installing / Removing Packages"
 msgstr "Instalar paquetes &recomendados"
 
-# clients/inst_sw_select.ycp:257
-#
-# modules/SlideShow.ycp:966 modules/SlideShow.ycp:1093
-# include/backup/ui.ycp:1799
-#: pkg-commit-page.ui:61
-#, fuzzy
-msgid "Hide &Details"
-msgstr "&Detalles..."
-
-#: pkg-commit-page.ui:113
-msgid "To Do"
-msgstr ""
-
-#: pkg-commit-page.ui:238
-#, fuzzy
-msgid "Downloads"
-msgstr "Tamaño de descarga:"
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
 msgstr ""
-
-#: pkg-commit-page.ui:376
-msgid "Done"
-msgstr ""
-
-#: pkg-commit-page.ui:489
-#, fuzzy
-msgid "&Cancel"
-msgstr "&Cancelar"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -113,11 +78,6 @@ msgstr ""
 msgid "Working..."
 msgstr "Buscando..."
 
-#: progress-dialog.ui:79
-#, fuzzy
-msgid "&Close"
-msgstr "&Cerrar"
-
 #: repo-config.ui:14
 #, fuzzy
 msgid "Repository Configuration"
@@ -131,11 +91,6 @@ msgstr "Confi&guración"
 #: repo-config.ui:94
 msgid "**PackMan**"
 msgstr ""
-
-#: repo-config.ui:128
-#, fuzzy
-msgid "URL:"
-msgstr "URL:"
 
 #: repo-config.ui:154
 #, fuzzy
@@ -189,11 +144,6 @@ msgstr "&Repositorios"
 msgid "Co&mmunity Repository"
 msgstr ""
 
-#: repo-edit-add.ui:254
-#, fuzzy
-msgid "&Name"
-msgstr "Nombre"
-
 #: repo-edit-add.ui:270
 #, fuzzy
 msgid "Repository Name"
@@ -202,16 +152,6 @@ msgstr "&Repositorios"
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
 msgstr ""
-
-#: repo-edit-add.ui:362
-#, fuzzy
-msgid "&Cancel"
-msgstr "&Cancelar"
-
-#: repo-edit-add.ui:369
-#, fuzzy
-msgid "&OK"
-msgstr "&Aceptar"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -259,23 +199,9 @@ msgstr ""
 msgid "&Trust"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:297
-#, fuzzy
-msgid "&Cancel"
-msgstr "&Cancelar"
-
-#: search-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
 msgstr ""
-
-#: search-filter-view.ui:53
-#, fuzzy
-msgid "&Search"
-msgstr "&Buscar"
 
 #: search-filter-view.ui:78
 #, fuzzy
@@ -358,26 +284,12 @@ msgstr "Protegido"
 msgid "Case Sens&itive"
 msgstr "Distinguir entre mayúscu&las/minúsculas"
 
-#: status-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 # clients/inst_sw_single.ycp:1391
 # clients/inst_sw_single.ycp:1506
 #: status-filter-view.ui:32
 #, fuzzy
 msgid "Show Packages with Status"
 msgstr "Mostrar paquetes con estado"
-
-#: status-filter-view.ui:63
-#, fuzzy
-msgid "Install"
-msgstr "Instalar"
-
-#: status-filter-view.ui:83
-#, fuzzy
-msgid "Update"
-msgstr "Actualizar"
 
 #: status-filter-view.ui:103
 #, fuzzy
@@ -402,21 +314,6 @@ msgstr "Tabú"
 msgid "Protected"
 msgstr "Protegido"
 
-#: status-filter-view.ui:193
-#, fuzzy
-msgid "Keep"
-msgstr "Mantener"
-
-#: status-filter-view.ui:210
-#, fuzzy
-msgid "Do Not Install"
-msgstr "No instalar"
-
-#: status-filter-view.ui:259
-#, fuzzy
-msgid "Delete"
-msgstr "Borrar"
-
 #: status-filter-view.ui:279
 #, fuzzy
 msgid "Auto-Delete"
@@ -429,21 +326,6 @@ msgstr ""
 #: status-filter-view.ui:354
 msgid "Defaults"
 msgstr ""
-
-# include/runlevel/ui.ycp:521
-#: status-filter-view.ui:361
-#, fuzzy
-msgid "Refresh List"
-msgstr "Actualiza&r lista"
-
-#: summary-page.ui:15
-msgid "Form"
-msgstr ""
-
-#: summary-page.ui:36
-#, fuzzy
-msgid "Summary"
-msgstr "Resumen"
 
 #: summary-page.ui:52
 msgid ""
