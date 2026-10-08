@@ -11,16 +11,10 @@ Translation work happens directly in **Weblate** (see above). You use your GitHu
 
 If your language isn't available yet, follow the steps below.
 ## Adding a New Language
-To add a new language, clone this repository and run the following command in the **`po`** folder, replacing `nl` with your desired locale:
+To add a new language, clone this repository. Next, download the locale file from [yast-translations](https://github.com/yast/yast-translations/tree/master/po/qt-pkg). Afterwards run the following command in the **`po`** folder, replacing `nl` with your desired locale:
 
 ```bash
-msginit --input=myrlyn.pot --locale=nl --output-file=nl.po
-```
-
-Next, download the locale file from [yast-translations](https://github.com/yast/yast-translations/tree/master/po/qt-pkg) and run this command (adjust paths as needed):
-
-```bash
-msgmerge nl.po ~/Downloads/nl.po -o nl.po
+msgmerge -o nl.po ~/Dokumente/myrlyn-lang/po/nl.po myrlyn.pot
 ```
 
 Then, open a **Pull Request**. Once merged, your language will be available in Weblate, and you can start translating.
