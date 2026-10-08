@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-08 14:34+0000\n"
+"PO-Revision-Date: 2026-10-08 19:18+0000\n"
 "Last-Translator: slothsnow <slothsnow@noreply.codeberg.org>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/de/>\n"
@@ -70,21 +70,19 @@ msgid "Form"
 msgstr ""
 
 #: init-repos-page.ui:36
-#, fuzzy
 msgctxt "InitReposPage|"
 msgid "Initializing Repositories"
-msgstr "&Repositorien"
+msgstr "Initialisiere Repositorien"
 
 #: pkg-commit-page.ui:15
 msgctxt "PkgCommitPage|"
 msgid "Form"
-msgstr ""
+msgstr "Formular"
 
 #: pkg-commit-page.ui:41
-#, fuzzy
 msgctxt "PkgCommitPage|"
 msgid "Installing / Removing Packages"
-msgstr "&Empfohlene Pakete installieren"
+msgstr "Installliere / Entferne Pakete"
 
 #: pkg-commit-page.ui:61
 #, fuzzy
@@ -95,29 +93,27 @@ msgstr "&Details..."
 #: pkg-commit-page.ui:113
 msgctxt "PkgCommitPage|"
 msgid "To Do"
-msgstr ""
+msgstr "Zu erledigen"
 
 #: pkg-commit-page.ui:238
-#, fuzzy
 msgctxt "PkgCommitPage|"
 msgid "Downloads"
-msgstr "Herunterladegröße:"
+msgstr "Downloads"
 
 #: pkg-commit-page.ui:282
 msgctxt "PkgCommitPage|"
 msgid "Doing"
-msgstr ""
+msgstr "Im Gange"
 
 #: pkg-commit-page.ui:376
 msgctxt "PkgCommitPage|"
 msgid "Done"
-msgstr ""
+msgstr "Erledigt"
 
 #: pkg-commit-page.ui:489
-#, fuzzy
 msgctxt "PkgCommitPage|"
 msgid "&Cancel"
-msgstr "Abbre&chen"
+msgstr "&Abbrechen"
 
 #: pkg-commit-page.ui:548
 msgctxt "PkgCommitPage|"
@@ -125,33 +121,29 @@ msgid "Show &Summary Page"
 msgstr ""
 
 #: progress-dialog.ui:14
-#, fuzzy
 msgctxt "ProgressDialog|"
 msgid "Working..."
-msgstr "Suche läuft..."
+msgstr "Im Gange ..."
 
 #: progress-dialog.ui:79
-#, fuzzy
 msgctxt "ProgressDialog|"
 msgid "&Close"
-msgstr "Schließ&en"
+msgstr "&Schließen"
 
 #: repo-config.ui:14
-#, fuzzy
 msgctxt "RepoConfig|"
 msgid "Repository Configuration"
-msgstr "&Konfiguration"
+msgstr "Konfiguration der Repositories"
 
 #: repo-config.ui:41
-#, fuzzy
 msgctxt "RepoConfig|"
 msgid "**Repository Configuration**"
-msgstr "&Konfiguration"
+msgstr "**Konfiguration der Repositories**"
 
 #: repo-config.ui:94
 msgctxt "RepoConfig|"
 msgid "**PackMan**"
-msgstr ""
+msgstr "**PackMan**"
 
 #: repo-config.ui:128
 #, fuzzy
@@ -160,15 +152,14 @@ msgid "URL:"
 msgstr "URL:"
 
 #: repo-config.ui:154
-#, fuzzy
 msgctxt "RepoConfig|"
 msgid "Raw URL:"
-msgstr "URL:"
+msgstr "Roh-URL:"
 
 #: repo-config.ui:208
 msgctxt "RepoConfig|"
 msgid "&Priority:"
-msgstr ""
+msgstr "&Priorität:"
 
 #: repo-config.ui:248
 msgctxt "RepoConfig|"
