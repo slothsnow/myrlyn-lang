@@ -1,18 +1,23 @@
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Mariusz Fik <fisiu@opensuse.org>, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: qt-pkg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-07 17:01+0200\n"
-"Last-Translator: byDMA <byDMApl@yandex.com>\n"
-"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2019-01-31 14:23+0000\n"
+"Last-Translator: Ewelina Michalowska <ewelina.michalowska@stgambit.com>\n"
+"Language-Team: Polish <https://l10n.opensuse.org/projects/yast-qt-pkg/master/"
+"pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Qt-Contexts: true\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.3\n"
 
 #: about-dialog.ui:14
 msgctxt "AboutDialog|"
@@ -58,9 +63,10 @@ msgid "Form"
 msgstr ""
 
 #: init-repos-page.ui:36
+#, fuzzy
 msgctxt "InitReposPage|"
 msgid "Initializing Repositories"
-msgstr ""
+msgstr "&Repozytoria"
 
 #: pkg-commit-page.ui:15
 msgctxt "PkgCommitPage|"
@@ -71,7 +77,7 @@ msgstr ""
 #, fuzzy
 msgctxt "PkgCommitPage|"
 msgid "Installing / Removing Packages"
-msgstr "Zainstaluj wszystkie &zgodne zalecane pakiety"
+msgstr "Za&instaluj zalecane pakiety"
 
 #: pkg-commit-page.ui:61
 #, fuzzy
@@ -85,9 +91,10 @@ msgid "To Do"
 msgstr ""
 
 #: pkg-commit-page.ui:238
+#, fuzzy
 msgctxt "PkgCommitPage|"
 msgid "Downloads"
-msgstr ""
+msgstr "Rozmiar danych do pobrania:"
 
 #: pkg-commit-page.ui:282
 msgctxt "PkgCommitPage|"
@@ -140,14 +147,16 @@ msgid "**PackMan**"
 msgstr ""
 
 #: repo-config.ui:128
+#, fuzzy
 msgctxt "RepoConfig|"
 msgid "URL:"
-msgstr ""
+msgstr "Adres URL:"
 
 #: repo-config.ui:154
+#, fuzzy
 msgctxt "RepoConfig|"
 msgid "Raw URL:"
-msgstr ""
+msgstr "Adres URL:"
 
 #: repo-config.ui:208
 msgctxt "RepoConfig|"
@@ -180,9 +189,10 @@ msgid "&Edit"
 msgstr ""
 
 #: repo-config.ui:348
+#, fuzzy
 msgctxt "RepoConfig|"
 msgid "&Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: repo-config.ui:368
 msgctxt "RepoConfig|"
@@ -196,9 +206,10 @@ msgid "&Close"
 msgstr "&Zamknij"
 
 #: repo-edit-add.ui:98
+#, fuzzy
 msgctxt "RepoEdit|"
 msgid "Custom &Repository"
-msgstr ""
+msgstr "&Repozytoria"
 
 #: repo-edit-add.ui:108
 msgctxt "RepoEdit|"
@@ -215,7 +226,7 @@ msgstr "&Nazwa"
 #, fuzzy
 msgctxt "RepoEdit|"
 msgid "Repository Name"
-msgstr "&Repozytoria..."
+msgstr "&Repozytoria"
 
 #: repo-edit-add.ui:302
 msgctxt "RepoEdit|"
@@ -229,9 +240,10 @@ msgid "&Cancel"
 msgstr "&Anuluj"
 
 #: repo-edit-add.ui:369
+#, fuzzy
 msgctxt "RepoEdit|"
 msgid "&OK"
-msgstr ""
+msgstr "&OK"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgctxt "RepoGpgKeyImportDialog|"
@@ -247,12 +259,13 @@ msgstr ""
 #, fuzzy
 msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Repository:_"
-msgstr "&Repozytoria..."
+msgstr "Repozytoria:"
 
 #: repo-gpg-key-import-dialog.ui:101
+#, fuzzy
 msgctxt "RepoGpgKeyImportDialog|"
 msgid "_URL:_"
-msgstr ""
+msgstr "Adres URL:"
 
 #: repo-gpg-key-import-dialog.ui:121
 msgctxt "RepoGpgKeyImportDialog|"
@@ -309,7 +322,7 @@ msgstr ""
 #, fuzzy
 msgctxt "SearchFilterView|"
 msgid "&Search"
-msgstr "Wy&szukiwanie"
+msgstr "&Szukaj"
 
 #: search-filter-view.ui:78
 #, fuzzy
@@ -420,24 +433,25 @@ msgstr "Pokaż pakiety w stanie"
 #, fuzzy
 msgctxt "StatusFilterView|"
 msgid "Install"
-msgstr "&Instaluj kod źródłowy"
+msgstr "Zainstaluj"
 
 #: status-filter-view.ui:83
 #, fuzzy
 msgctxt "StatusFilterView|"
 msgid "Update"
-msgstr "Cofnij aktualizację"
+msgstr "Aktualizacja"
 
 #: status-filter-view.ui:103
+#, fuzzy
 msgctxt "StatusFilterView|"
 msgid "Auto-Install"
-msgstr ""
+msgstr "Instalowany automatycznie"
 
 #: status-filter-view.ui:123
 #, fuzzy
 msgctxt "StatusFilterView|"
 msgid "Auto-Update"
-msgstr "Cofnij aktualizację"
+msgstr "Aktualizowany automatycznie"
 
 #: status-filter-view.ui:143
 #, fuzzy
@@ -452,9 +466,10 @@ msgid "Protected"
 msgstr "Chroniony"
 
 #: status-filter-view.ui:193
+#, fuzzy
 msgctxt "StatusFilterView|"
 msgid "Keep"
-msgstr ""
+msgstr "Pozostaw"
 
 #: status-filter-view.ui:210
 #, fuzzy
@@ -463,14 +478,16 @@ msgid "Do Not Install"
 msgstr "Nie instaluj"
 
 #: status-filter-view.ui:259
+#, fuzzy
 msgctxt "StatusFilterView|"
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: status-filter-view.ui:279
+#, fuzzy
 msgctxt "StatusFilterView|"
 msgid "Auto-Delete"
-msgstr ""
+msgstr "Usuwany automatycznie"
 
 #: status-filter-view.ui:302
 msgctxt "StatusFilterView|"
@@ -497,7 +514,7 @@ msgstr ""
 #, fuzzy
 msgctxt "SummaryPage|"
 msgid "Summary"
-msgstr "Podsu&mowaniach"
+msgstr "Podsumowanie"
 
 #: summary-page.ui:52
 msgctxt "SummaryPage|"
@@ -551,7 +568,7 @@ msgstr ""
 #, fuzzy
 msgctxt "UpdatesFilterView|"
 msgid "Updates"
-msgstr "Cofnij aktualizację"
+msgstr "Aktualizacja"
 
 #: updates-filter-view.ui:48
 msgctxt "UpdatesFilterView|"
@@ -564,7 +581,7 @@ msgstr ""
 #, fuzzy
 msgctxt "UpdatesFilterView|"
 msgid "Pac&kage Update"
-msgstr "Grupa pakietów:"
+msgstr "Pakiet"
 
 #: updates-filter-view.ui:120
 msgctxt "UpdatesFilterView|"
@@ -626,7 +643,7 @@ msgstr ""
 #: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
 #: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:159
 msgid "Error"
-msgstr ""
+msgstr "Błąd"
 
 #: MyrlynRepoManager.cc:318
 #, qt-format
@@ -647,7 +664,7 @@ msgstr ""
 
 #: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
 msgid "Warning"
-msgstr ""
+msgstr "Ostrzeżenie"
 
 #: MyrlynWorkflowSteps.cc:168
 msgid ""
@@ -660,8 +677,9 @@ msgid "To Do"
 msgstr ""
 
 #: PkgCommitPage.cc:142
+#, fuzzy
 msgid "Downloads"
-msgstr ""
+msgstr "Rozmiar danych do pobrania:"
 
 #: PkgCommitPage.cc:143
 msgid "Done"
@@ -708,7 +726,7 @@ msgstr "Lista plików"
 #: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
 #: YQPkgServiceList.cc:46
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #: QY2DiskUsageList.cc:164
 msgid "Disk Usage"
@@ -750,11 +768,12 @@ msgstr ""
 #: RepoEditDialog.cc:112
 #, fuzzy
 msgid "Add Repository"
-msgstr "&Repozytoria..."
+msgstr "&Repozytoria"
 
 #: RepoEditDialog.cc:112
+#, fuzzy
 msgid "Edit Repository"
-msgstr ""
+msgstr "&Repozytoria"
 
 #: RepoEditDialog.cc:246
 msgid "Invalid URL: "
@@ -787,8 +806,9 @@ msgid "Service"
 msgstr "U&sługi"
 
 #: RepoTable.cc:44
+#, fuzzy
 msgid "URL"
-msgstr ""
+msgstr "Adres URL:"
 
 #: SummaryPage.cc:120
 #, qt-format
@@ -860,7 +880,7 @@ msgstr ""
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
-msgstr ""
+msgstr "Informacje dostępne tylko dla zainstalowanych pakietów."
 
 #: YQPkgChangeLogView.cc:116
 #, fuzzy, qt-format
@@ -871,77 +891,81 @@ msgstr ""
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
-msgstr ""
+msgstr "Pakiety zmienione"
 
 #: YQPkgChangesDialog.cc:85
 msgid "All"
-msgstr ""
+msgstr "Wszystkie"
 
 #: YQPkgChangesDialog.cc:86
 msgid "Selected by the user"
-msgstr ""
+msgstr "Wybrane przez użytkownika"
 
 #: YQPkgChangesDialog.cc:87 YQPkgSelectorBase.cc:261
 msgid "Automatic Changes"
-msgstr ""
+msgstr "Zmiany automatyczne"
 
 #: YQPkgClassificationFilterView.cc:45
+#, fuzzy
 msgid "No Packages"
-msgstr ""
+msgstr "Wszystkie pakiety"
 
 #: YQPkgClassificationFilterView.cc:46
 msgid "Recommended Packages"
-msgstr ""
+msgstr "Zalecane pakiety"
 
 #: YQPkgClassificationFilterView.cc:47
 msgid "Suggested Packages"
-msgstr ""
+msgstr "Sugerowane pakiety"
 
 #: YQPkgClassificationFilterView.cc:48
 msgid "Orphaned Packages"
-msgstr ""
+msgstr "Pakiety osierocone"
 
 #: YQPkgClassificationFilterView.cc:49
 msgid "Unneeded Packages"
-msgstr ""
+msgstr "Zbędne pakiety"
 
 #: YQPkgClassificationFilterView.cc:50
 msgid "Multiversion Packages"
-msgstr ""
+msgstr "Pakiety z wieloma wersjami"
 
 #: YQPkgClassificationFilterView.cc:51
+#, fuzzy
 msgid "Retracted Packages"
-msgstr ""
+msgstr "Pakiety osierocone"
 
 #: YQPkgClassificationFilterView.cc:52
+#, fuzzy
 msgid "Retracted Installed Packages"
-msgstr ""
+msgstr "Zalecane pakiety"
 
 #: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:109
 #: YQPkgSelector.cc:703
 msgid "All Packages"
-msgstr ""
+msgstr "Wszystkie pakiety"
 
 #: YQPkgClassificationFilterView.cc:82
+#, fuzzy
 msgid "Package Classification"
-msgstr ""
+msgstr "Opis pakietu"
 
 #: YQPkgConflictDialog.cc:104
 msgid "&OK -- Try Again"
-msgstr ""
+msgstr "&OK -- spróbuj ponownie"
 
 #: YQPkgConflictDialog.cc:116
 msgid "&Expert"
-msgstr ""
+msgstr "Tryb &eksperta"
 
 #: YQPkgConflictDialog.cc:129
 msgid "&Save This List to a File..."
-msgstr ""
+msgstr "&Zapisz tę listę do pliku..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
 #: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
 msgid "&Cancel"
-msgstr ""
+msgstr "&Anuluj"
 
 #: YQPkgConflictDialog.cc:190
 #, fuzzy
@@ -950,11 +974,12 @@ msgstr "Sprawdzanie zależności..."
 
 #: YQPkgConflictDialog.cc:321
 msgid "Create Dependency Resolver Test Case"
-msgstr ""
+msgstr "Utwórz test modułu rozwiązywania zależności"
 
 #: YQPkgConflictDialog.cc:325
+#, fuzzy
 msgid "You need to run the dependency resolver first."
-msgstr ""
+msgstr "Wygeneruj &test modułu rozwiązywania zależności"
 
 #: YQPkgConflictDialog.cc:333
 #, qt-format
@@ -962,11 +987,14 @@ msgid ""
 "<p>Use this to generate extensive logs to help tracking down bugs in the "
 "dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
 msgstr ""
+"<p>Opcja pozwala wygenerować obszerny dziennik w celu wyłapania błędów w "
+"module rozwiązywania zależności. Dzienniki będą przechowywane w katalogu "
+"<br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1217
 #: YQPkgSelector.cc:1269 YQPkgVersionsView.cc:427
 msgid "C&ontinue"
-msgstr ""
+msgstr "K&ontynuuj"
 
 #: YQPkgConflictDialog.cc:351
 #, fuzzy, qt-format
@@ -978,7 +1006,7 @@ msgstr ""
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
-msgstr ""
+msgstr "Sukces"
 
 #: YQPkgConflictDialog.cc:359
 #, qt-format
@@ -986,6 +1014,9 @@ msgid ""
 "<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
 "disk space and permissions for <tt>%1</tt></p>"
 msgstr ""
+"<p>Wystąpił <b>błąd</b> podczas tworzenia testu modułu rozwiązywania "
+"zależności</p><p>Proszę sprawdzić miejsce na dysku oraz uprawnienia dla "
+"<tt>%1</tt></p>"
 
 #: YQPkgConflictList.cc:137
 #, fuzzy
@@ -999,117 +1030,117 @@ msgstr "Nie można otworzyć pliku %1"
 
 #: YQPkgConflictList.cc:246
 msgid "Conflict Resolution:"
-msgstr ""
+msgstr "Rozwiązanie konfliktu:"
 
 #: YQPkgConflictList.cc:286
 #, qt-format
 msgid "<a href='/'>%1 more...</a>"
-msgstr ""
+msgstr "<a href='/'>%1 więcej...</a>"
 
 #: YQPkgDependenciesView.cc:81 YQPkgDependenciesView.cc:111
 #: YQPkgTechnicalDetailsView.cc:105 YQPkgTechnicalDetailsView.cc:146
 msgid "Version:"
-msgstr ""
+msgstr "Wersja:"
 
 #: YQPkgDependenciesView.cc:83 YQPkgDependenciesView.cc:113
 msgid "Provides:"
-msgstr ""
+msgstr "Dostarcza:"
 
 #: YQPkgDependenciesView.cc:84 YQPkgDependenciesView.cc:114
 msgid "Prerequires:"
-msgstr ""
+msgstr "Wymagania wstępne:"
 
 #: YQPkgDependenciesView.cc:85 YQPkgDependenciesView.cc:115
 msgid "Requires:"
-msgstr ""
+msgstr "Wymaga:"
 
 #: YQPkgDependenciesView.cc:86 YQPkgDependenciesView.cc:116
 msgid "Conflicts:"
-msgstr ""
+msgstr "Konflikty:"
 
 #: YQPkgDependenciesView.cc:87 YQPkgDependenciesView.cc:117
 msgid "Obsoletes:"
-msgstr ""
+msgstr "Dezaktualizuje:"
 
 #: YQPkgDependenciesView.cc:88 YQPkgDependenciesView.cc:118
 msgid "Recommends:"
-msgstr ""
+msgstr "Zalecane:"
 
 #: YQPkgDependenciesView.cc:89 YQPkgDependenciesView.cc:119
 msgid "Suggests:"
-msgstr ""
+msgstr "Sugerowane:"
 
 #: YQPkgDependenciesView.cc:90 YQPkgDependenciesView.cc:120
 msgid "Enhances:"
-msgstr ""
+msgstr "Poprawia:"
 
 #: YQPkgDependenciesView.cc:91 YQPkgDependenciesView.cc:121
 msgid "Supplements:"
-msgstr ""
+msgstr "Uzupełnia:"
 
 #: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:139
 msgid "<b>Alternate Version</b>"
-msgstr ""
+msgstr "<b>Wersja alternatywna</b>"
 
 #: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:140
 msgid "<b>Installed Version</b>"
-msgstr ""
+msgstr "<b>Wersja zainstalowana</b>"
 
 #: YQPkgDescriptionDialog.cc:45
 msgid "Package Description"
-msgstr ""
+msgstr "Opis pakietu"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
 #: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114 YQPkgProductDialog.cc:99
 #: YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449 YQPkgSelector.cc:1619
 #: YQPkgTextDialog.cc:43
 msgid "&OK"
-msgstr ""
+msgstr "&OK"
 
 #: YQPkgDescriptionView.cc:88
 msgid "References:"
-msgstr ""
+msgstr "Odniesienia:"
 
 #: YQPkgDescriptionView.cc:237
 msgid "This package contains: "
-msgstr ""
+msgstr "Ten pakiet zawiera: "
 
 #: YQPkgDiskUsageList.cc:123
 msgid "<b>Error:</b> Out of disk space!"
-msgstr ""
+msgstr "<b>Błąd:</b> brak miejsca na dysku."
 
 #: YQPkgDiskUsageList.cc:132
 msgid "<b>Warning:</b> Disk space is running out!"
-msgstr ""
+msgstr "<b>Ostrzeżenie:</b> miejsce na dysku na wyczerpaniu."
 
 #: YQPkgDiskUsageWarningDialog.cc:41
 msgid "Disk Space Warning"
-msgstr ""
+msgstr "Ostrzeżenie o miejscu na dysku"
 
 #: YQPkgFileListView.cc:98
 #, qt-format
 msgid "%1 files total"
-msgstr ""
+msgstr "Razem plików: %1"
 
 #: YQPkgFilterTab.cc:123
 msgid "&View"
-msgstr ""
+msgstr "&Widok"
 
 #: YQPkgFilterTab.cc:232
 msgid "Move page &left"
-msgstr ""
+msgstr "Przesuń stronę w &lewo"
 
 #: YQPkgFilterTab.cc:240
 msgid "Move page &right"
-msgstr ""
+msgstr "Przesuń stronę w &prawo"
 
 #: YQPkgFilterTab.cc:248
 msgid "&Close page"
-msgstr ""
+msgstr "&Zamknij stronę"
 
 #: YQPkgHistoryDialog.cc:56
 msgid "Package History"
-msgstr ""
+msgstr "Historia pakietu"
 
 #: YQPkgHistoryDialog.cc:73
 #, fuzzy
@@ -1118,177 +1149,177 @@ msgstr "Pokaż historię (/var/log/zypp/history)"
 
 #: YQPkgHistoryDialog.cc:89
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: YQPkgHistoryDialog.cc:97
 msgid "Action"
-msgstr ""
+msgstr "Akcja"
 
 #: YQPkgHistoryDialog.cc:97
 msgid "Version/URL"
-msgstr ""
+msgstr "Wersja/URL"
 
 #: YQPkgHistoryDialog.cc:183
 msgid "Unable to read history"
-msgstr ""
+msgstr "Nie udało się wczytać historii"
 
 #: YQPkgLangList.cc:40
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 #: YQPkgLangList.cc:43
 msgid "Language"
-msgstr ""
+msgstr "Język"
 
 #: YQPkgList.cc:48
 msgid "Package"
-msgstr ""
+msgstr "Pakiet"
 
 #: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
 msgid "Summary"
-msgstr ""
+msgstr "Podsumowanie"
 
 #: YQPkgList.cc:54
 msgid "Installed (Available)"
-msgstr ""
+msgstr "Zainstalowano (dostępne)"
 
 #: YQPkgList.cc:58
 msgid "Avail. Ver."
-msgstr ""
+msgstr "Dost. wersja"
 
 #: YQPkgList.cc:61
 msgid "Inst. Ver."
-msgstr ""
+msgstr "Zainst. wersja"
 
 #: YQPkgList.cc:67 YQPkgProductList.cc:37
 msgid "Version"
-msgstr ""
+msgstr "Wersja"
 
 #: YQPkgList.cc:71
 msgid "Size"
-msgstr ""
+msgstr "Rozmiar"
 
 #: YQPkgList.cc:436 YQPkgObjList.cc:526 YQPkgPatchList.cc:386
 msgid "&All in This List"
-msgstr ""
+msgstr "&Wszytko z tej listy"
 
 #: YQPkgList.cc:575
 #, qt-format
 msgid "Installed Version: %1"
-msgstr ""
+msgstr "Zainstalowana wersja: %1"
 
 #: YQPkgList.cc:593
 msgid "same"
-msgstr ""
+msgstr "ta sama"
 
 #: YQPkgList.cc:595
 msgid "newer"
-msgstr ""
+msgstr "nowsza"
 
 #: YQPkgList.cc:596
 msgid "older"
-msgstr ""
+msgstr "starsza"
 
 #: YQPkgList.cc:599
 #, qt-format
 msgid "Available Version: %1 (%2)"
-msgstr ""
+msgstr "Dostępna wersja: %1 (%2)"
 
 #: YQPkgList.cc:603
 msgid "Not available for installation"
-msgstr ""
+msgstr "Niedostępny do instalacji"
 
 #: YQPkgObjList.cc:264
 msgid "Autodelete"
-msgstr ""
+msgstr "Usuwany automatycznie"
 
 #: YQPkgObjList.cc:265
 msgid "Autoinstall"
-msgstr ""
+msgstr "Instalowany automatycznie"
 
 #: YQPkgObjList.cc:266
 msgid "Autoupdate"
-msgstr ""
+msgstr "Aktualizowany automatycznie"
 
 #: YQPkgObjList.cc:267
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: YQPkgObjList.cc:268
 msgid "Install"
-msgstr ""
+msgstr "Zainstaluj"
 
 #: YQPkgObjList.cc:269
 msgid "Keep"
-msgstr ""
+msgstr "Pozostaw"
 
 #: YQPkgObjList.cc:270
 msgid "Do Not Install"
-msgstr ""
+msgstr "Nie instaluj"
 
 #: YQPkgObjList.cc:271
 msgid "Protected -- Do Not Modify"
-msgstr ""
+msgstr "Chroniony -- nie zmieniaj"
 
 #: YQPkgObjList.cc:272
 msgid "Taboo -- Never Install"
-msgstr ""
+msgstr "Tabu -- nigdy nie instaluj"
 
 #: YQPkgObjList.cc:273
 msgid "Update"
-msgstr ""
+msgstr "Aktualizacja"
 
 #: YQPkgObjList.cc:390 YQPkgObjList.cc:412 YQPkgSelector.cc:708
 msgid "Update unconditionally"
-msgstr ""
+msgstr "Aktualizuj bezwarunkowo"
 
 #: YQPkgObjList.cc:406 YQPkgSelector.cc:705
 msgid "Update if newer version available"
-msgstr ""
+msgstr "Aktualizuj, jeśli jest dostępna nowsza wersja"
 
 #: YQPkgObjList.cc:1314
 msgid "(by a software selection)"
-msgstr ""
+msgstr "(poprzez zestaw)"
 
 #: YQPkgObjList.cc:1316
 msgid "(by dependencies)"
-msgstr ""
+msgstr "(poprzez zależności)"
 
 #: YQPkgPatchFilterView.cc:59
 msgid "&Show Patch Category:"
-msgstr ""
+msgstr "&Pokaż kategorię poprawki:"
 
 #: YQPkgPatchFilterView.cc:65
 msgid "Needed Patches"
-msgstr ""
+msgstr "Wymagane poprawki"
 
 #: YQPkgPatchFilterView.cc:66
 msgid "Unneeded Patches"
-msgstr ""
+msgstr "Niewymagane poprawki"
 
 #: YQPkgPatchFilterView.cc:67
 msgid "All Patches"
-msgstr ""
+msgstr "Wszystkie poprawki"
 
 #: YQPkgPatchFilterView.cc:79
 msgid "Patch Description"
-msgstr ""
+msgstr "Opis poprawki"
 
 #: YQPkgPatchList.cc:595
 msgid "YaST"
-msgstr ""
+msgstr "YaST"
 
 #: YQPkgPatchList.cc:596
 msgid "security"
-msgstr ""
+msgstr "zabezpieczenia"
 
 #: YQPkgPatchList.cc:597
 msgid "recommended"
-msgstr ""
+msgstr "zalecana"
 
 #: YQPkgPatchList.cc:598
 msgid "optional"
-msgstr ""
+msgstr "opcjonalna"
 
 #: YQPkgPatchList.cc:599
 msgid "feature"
@@ -1296,11 +1327,11 @@ msgstr ""
 
 #: YQPkgPatchList.cc:600
 msgid "document"
-msgstr ""
+msgstr "dokument"
 
 #: YQPkgPatternList.cc:56
 msgid "Pattern"
-msgstr ""
+msgstr "Wzorzec"
 
 #: YQPkgPatternList.cc:68
 msgid "Order"
@@ -1312,19 +1343,19 @@ msgstr ""
 
 #: YQPkgProductDialog.cc:40
 msgid "Products"
-msgstr ""
+msgstr "Produkty"
 
 #: YQPkgProductDialog.cc:80 YQPkgSelector.cc:542
 msgid "Dependencies"
-msgstr ""
+msgstr "Zależności"
 
 #: YQPkgProductList.cc:35
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #: YQPkgProductList.cc:38
 msgid "Vendor"
-msgstr ""
+msgstr "Dostawca"
 
 #: YQPkgSearchFilterView.cc:141
 #, qt-format
@@ -1338,31 +1369,31 @@ msgstr ""
 
 #: YQPkgSearchFilterView.cc:364
 msgid "No Results."
-msgstr ""
+msgstr "Brak rezultatów."
 
 #: YQPkgSearchFilterView.cc:379
 msgid "Query Error"
-msgstr ""
+msgstr "Błąd zapytania"
 
 #: YQPkgSecondaryFilterView.cc:99
 msgid "&Secondary Filter:"
-msgstr ""
+msgstr "Filtr &drugorzędny:"
 
 #: YQPkgSecondaryFilterView.cc:119
 msgid "Search"
-msgstr ""
+msgstr "Wyszukiwanie"
 
 #: YQPkgSecondaryFilterView.cc:135
 msgid "Installation Summary"
-msgstr ""
+msgstr "Podsumowanie instalacji"
 
 #: YQPkgSelectorBase.cc:120
 msgid "System dependencies verify OK."
-msgstr ""
+msgstr "Zależności systemowe są spełnione."
 
 #: YQPkgSelectorBase.cc:139
 msgid "Error: Out of disk space!"
-msgstr ""
+msgstr "Błąd: brak miejsca na dysku."
 
 #: YQPkgSelectorBase.cc:140
 msgid ""
@@ -1371,14 +1402,18 @@ msgid ""
 "absolutely sure how to handle such a case, press <b>Cancel</b> now and "
 "deselect some packages.</p>"
 msgstr ""
+"<p>Kontynuacja instalacji grozi uszkodzeniem systemu, które będzie wymagać "
+"ręcznej interwencji. W przypadku braku absolutnej pewności co do słuszności "
+"własnych działań, należy nacisnąć przycisk <b>Anuluj</b> i odznaczyć "
+"niektóre pakiety.</p>"
 
 #: YQPkgSelectorBase.cc:148
 msgid "C&ontinue Anyway"
-msgstr ""
+msgstr "&Kontynuuj mimo wszystko"
 
 #: YQPkgSelectorBase.cc:160
 msgid "The following items will be changed: "
-msgstr ""
+msgstr "Następujące elementy zostaną zmienione: "
 
 #: YQPkgSelectorBase.cc:210
 #, fuzzy
@@ -1390,6 +1425,8 @@ msgid ""
 "In addition to your manual selections, the following packages have been "
 "changed to resolve dependencies:"
 msgstr ""
+"Poza pakietami wskazanymi bezpośrednio, następujące pakiety zostały "
+"zmienione w celu rozwiązania zależności:"
 
 #: YQPkgSelectorBase.cc:367
 #, fuzzy
@@ -1398,25 +1435,26 @@ msgstr "Przepraszamy. Ta funkcja nie jest jeszcze zaimplementowana."
 
 #: YQPkgSelector.cc:294
 msgid "&Search"
-msgstr ""
+msgstr "&Szukaj"
 
 #: YQPkgSelector.cc:308 YQPkgSelector.cc:1234
 #, fuzzy
 msgid "Patc&hes"
-msgstr "&Poprawka"
+msgstr "Wszystkie poprawki"
 
 #: YQPkgSelector.cc:320 YQPkgSelector.cc:1235
 #, fuzzy
 msgid "&Updates"
-msgstr "Problemy z &aktualizacją"
+msgstr "Aktualizacja"
 
 #: YQPkgSelector.cc:330
 msgid "&Repositories"
-msgstr ""
+msgstr "&Repozytoria"
 
 #: YQPkgSelector.cc:344
+#, fuzzy
 msgid "Repository Index Ser&vices"
-msgstr ""
+msgstr "&Repozytoria"
 
 #: YQPkgSelector.cc:357
 #, fuzzy
@@ -1430,12 +1468,12 @@ msgstr "Opis pakietu"
 
 #: YQPkgSelector.cc:379
 msgid "&Languages"
-msgstr ""
+msgstr "&Języki"
 
 #: YQPkgSelector.cc:389
 #, fuzzy
 msgid "Installation Su&mmary"
-msgstr "Podsumowanie &instalacji"
+msgstr "Podsumowanie instalacji"
 
 #: YQPkgSelector.cc:517
 #, fuzzy
@@ -1454,24 +1492,24 @@ msgstr "&Wersje"
 
 #: YQPkgSelector.cc:574
 msgid "File List"
-msgstr ""
+msgstr "Lista plików"
 
 #: YQPkgSelector.cc:590
 msgid "Change Log"
-msgstr ""
+msgstr "Dziennik zmian"
 
 #: YQPkgSelector.cc:622 YQPkgTextDialog.cc:235
 msgid "&Accept"
-msgstr ""
+msgstr "A&kceptuj"
 
 #: YQPkgSelector.cc:661
 msgid "&File"
-msgstr ""
+msgstr "&Plik"
 
 #: YQPkgSelector.cc:664
 #, fuzzy
 msgid "&Accept Changes"
-msgstr "Pokaż zmiany p&akietów"
+msgstr "A&kceptuj"
 
 #: YQPkgSelector.cc:666
 #, fuzzy
@@ -1480,7 +1518,7 @@ msgstr "&Wyjdź -- pomiń zmiany"
 
 #: YQPkgSelector.cc:678
 msgid "&Package"
-msgstr ""
+msgstr "Paki&et"
 
 #: YQPkgSelector.cc:727
 #, fuzzy
@@ -1489,35 +1527,35 @@ msgstr "&Poprawka"
 
 #: YQPkgSelector.cc:753
 msgid "&Dependencies"
-msgstr ""
+msgstr "&Zależności"
 
 #: YQPkgSelector.cc:755
 msgid "&Check Now"
-msgstr ""
+msgstr "&Sprawdź teraz"
 
 #: YQPkgSelector.cc:757
 msgid "&Autocheck"
-msgstr ""
+msgstr "Kontrola a&utomatyczna"
 
 #: YQPkgSelector.cc:761
 msgid "Install &Recommended Packages"
-msgstr ""
+msgstr "Za&instaluj zalecane pakiety"
 
 #: YQPkgSelector.cc:774
 msgid "&Options"
-msgstr ""
+msgstr "&Opcje"
 
 #: YQPkgSelector.cc:777
 msgid "Show -de&vel Packages"
-msgstr ""
+msgstr "Pokaż pakiety -de&vel"
 
 #: YQPkgSelector.cc:787
 msgid "Show -&debuginfo/-debugsource Packages"
-msgstr ""
+msgstr "Pokaż pakiety -&debuginfo/-debugsource"
 
 #: YQPkgSelector.cc:797
 msgid "&System Verification Mode"
-msgstr ""
+msgstr "&Tryb weryfikacji systemu"
 
 #: YQPkgSelector.cc:804
 msgid "Options for this run only"
@@ -1525,15 +1563,15 @@ msgstr ""
 
 #: YQPkgSelector.cc:806
 msgid "&Cleanup when deleting packages"
-msgstr ""
+msgstr "Wy&czyść przy usuwaniu pakietów"
 
 #: YQPkgSelector.cc:810
 msgid "&Allow vendor change"
-msgstr ""
+msgstr "Pozwól na zmi&anę dostawcy"
 
 #: YQPkgSelector.cc:822
 msgid "E&xtras"
-msgstr ""
+msgstr "&Dodatki"
 
 #: YQPkgSelector.cc:826
 #, fuzzy
@@ -1542,7 +1580,7 @@ msgstr "&Repozytoria..."
 
 #: YQPkgSelector.cc:832
 msgid "Show &Products"
-msgstr ""
+msgstr "Pokaż &produkty"
 
 #: YQPkgSelector.cc:833
 #, fuzzy
@@ -1551,7 +1589,7 @@ msgstr "Pokaż zmiany p&akietów"
 
 #: YQPkgSelector.cc:834
 msgid "Show &History"
-msgstr ""
+msgstr "Pokaż &historię"
 
 #: YQPkgSelector.cc:839
 #, fuzzy
@@ -1575,7 +1613,7 @@ msgstr "Zainstaluj wszystkie &zgodne zalecane pakiety"
 
 #: YQPkgSelector.cc:853
 msgid "Generate Dependency Resolver &Test Case"
-msgstr ""
+msgstr "Wygeneruj &test modułu rozwiązywania zależności"
 
 #: YQPkgSelector.cc:866
 msgid "H&elp"
@@ -1583,7 +1621,7 @@ msgstr ""
 
 #: YQPkgSelector.cc:876
 msgid "&Overview"
-msgstr ""
+msgstr "Prze&gląd"
 
 #: YQPkgSelector.cc:878
 msgid "About &Myrlyn"
@@ -1605,7 +1643,7 @@ msgstr "Komunikacja"
 
 #: YQPkgSelector.cc:1105
 msgid "All package dependencies are OK."
-msgstr ""
+msgstr "Wszystkie zależności pakietów są prawidłowe."
 
 #: YQPkgSelector.cc:1209
 msgid ""
@@ -1620,7 +1658,7 @@ msgstr ""
 #: YQPkgSelector.cc:1267
 #, qt-format
 msgid "%1 packages will be updated"
-msgstr ""
+msgstr "Pakiety do zaktualizowania: %1"
 
 #: YQPkgSelector.cc:1320
 #, qt-format
@@ -1628,6 +1666,8 @@ msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
+"<p><a href=\"repoupgradeadd:///%1\">Przełącz pakiety systemowe</a> do wersji "
+"z tego repozytorium (%2)</p>"
 
 #: YQPkgSelector.cc:1345
 #, fuzzy, qt-format
@@ -1640,77 +1680,77 @@ msgstr ""
 
 #: YQPkgSelector.cc:1448 YQPkgSelector.cc:1617
 msgid "Added Subpackages:"
-msgstr ""
+msgstr "Dodane podpakiety:"
 
 #: YQPkgServiceList.cc:202
 msgid "URL: "
-msgstr ""
+msgstr "Adres URL: "
 
 #: YQPkgServiceList.cc:209
 msgid "Product: "
-msgstr ""
+msgstr "Produkt: "
 
 #: YQPkgServiceList.cc:213
 msgid "Repositories:"
-msgstr ""
+msgstr "Repozytoria:"
 
 #: YQPkgTechnicalDetailsView.cc:106 YQPkgTechnicalDetailsView.cc:147
 msgid "Build Time:"
-msgstr ""
+msgstr "Czas kompilacji:"
 
 #: YQPkgTechnicalDetailsView.cc:110 YQPkgTechnicalDetailsView.cc:148
 msgid "Install Time:"
-msgstr ""
+msgstr "Czas instalacji:"
 
 #: YQPkgTechnicalDetailsView.cc:112 YQPkgTechnicalDetailsView.cc:149
 msgid "License:"
-msgstr ""
+msgstr "Licencja:"
 
 #: YQPkgTechnicalDetailsView.cc:113 YQPkgTechnicalDetailsView.cc:150
 msgid "Installed Size:"
-msgstr ""
+msgstr "Rozmiar po zainstalowaniu:"
 
 #: YQPkgTechnicalDetailsView.cc:114 YQPkgTechnicalDetailsView.cc:151
 msgid "Download Size:"
-msgstr ""
+msgstr "Rozmiar danych do pobrania:"
 
 #: YQPkgTechnicalDetailsView.cc:115 YQPkgTechnicalDetailsView.cc:152
 msgid "Distribution:"
-msgstr ""
+msgstr "Dystrybucja:"
 
 #: YQPkgTechnicalDetailsView.cc:116 YQPkgTechnicalDetailsView.cc:153
 msgid "Vendor:"
-msgstr ""
+msgstr "Dostawca:"
 
 #: YQPkgTechnicalDetailsView.cc:117 YQPkgTechnicalDetailsView.cc:154
 msgid "Packager:"
-msgstr ""
+msgstr "Autor pakietu:"
 
 #: YQPkgTechnicalDetailsView.cc:118 YQPkgTechnicalDetailsView.cc:155
 msgid "Architecture:"
-msgstr ""
+msgstr "Architektura:"
 
 #: YQPkgTechnicalDetailsView.cc:119 YQPkgTechnicalDetailsView.cc:156
 msgid "URL:"
-msgstr ""
+msgstr "Adres URL:"
 
 #: YQPkgTechnicalDetailsView.cc:120 YQPkgTechnicalDetailsView.cc:157
 msgid "Source Package:"
-msgstr ""
+msgstr "Pakiet z kodem źródłowym:"
 
 #: YQPkgTechnicalDetailsView.cc:123 YQPkgTechnicalDetailsView.cc:161
 msgid "Authors:"
-msgstr ""
+msgstr "Autorzy:"
 
 #: YQPkgVersionsView.cc:184
-#, qt-format
+#, fuzzy, qt-format
 msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr ""
+msgstr "%1-%2 od dostawcy %3 (zainstalowany)"
 
 #: YQPkgVersionsView.cc:192
 #, qt-format
 msgid "%1-%2 from vendor %3 (installed)"
-msgstr ""
+msgstr "%1-%2 od dostawcy %3 (zainstalowany)"
 
 #: YQPkgVersionsView.cc:399
 msgid ""
@@ -1718,6 +1758,9 @@ msgid ""
 "and non-multiversion-capable versions of this\n"
 "package at the same time."
 msgstr ""
+"Próbujesz jednocześnie zainstalować wersje\n"
+"obsługujące i nieobsługujące wiele wersji\n"
+"tego pakietu."
 
 #: YQPkgVersionsView.cc:407
 msgid ""
@@ -1727,6 +1770,12 @@ msgid ""
 "and unselect the non-multiversion-capable version,\n"
 "\"Cancel\" to unselect this version and keep the other one."
 msgstr ""
+"Ta wersja obsługuje wiele wersji.\n"
+"\n"
+"Naciśnij przycisk Kontynuuj, aby zainstalować tę wersję\n"
+"i usunąć zaznaczenie wersji nieobsługującej wielu wersji,\n"
+"lub naciśnij przycisk Anuluj, aby usunąć zaznaczenie tej wersji i zachować "
+"drugą."
 
 #: YQPkgVersionsView.cc:416
 msgid ""
@@ -1736,26 +1785,45 @@ msgid ""
 "and unselect all other versions,\n"
 "\"Cancel\" to unselect this version and keep the other ones."
 msgstr ""
+"Ta wersja nie obsługuje wielu wersji.\n"
+"\n"
+"Naciśnij przycisk Kontynuuj, aby zainstalować tylko tę wersję\n"
+"i usunąć zaznaczenie wszystkich innych wersji,\n"
+"Anuluj, aby odznaczyć tę wersję i utrzymać pozostałe."
 
 #: YQPkgVersionsView.cc:425
 msgid "Incompatible Package Versions"
-msgstr ""
+msgstr "Niezgodne wersje pakietów"
 
 #: YQPkgVersionsView.cc:551
-#, qt-format
+#, fuzzy, qt-format
 msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 z %3, z priorytetem %4 oraz dostawcą %5"
 
 #: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
 #, qt-format
 msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr ""
+msgstr "%1-%2 z %3, z priorytetem %4 oraz dostawcą %5"
+
+#~ msgid "&Update Problems"
+#~ msgstr "Problemy z &aktualizacją"
 
 #~ msgid "Patter&ns"
 #~ msgstr "Wzorc&e"
 
+#, fuzzy
+#~| msgid "Package Description"
+#~ msgid "Package &Classification"
+#~ msgstr "Opis pakietu"
+
+#~ msgid "S&earch"
+#~ msgstr "Wy&szukiwanie"
+
 #~ msgid "&Keywords"
 #~ msgstr "Słowa &kluczowe"
+
+#~ msgid "&Installation Summary"
+#~ msgstr "Podsumowanie &instalacji"
 
 #~ msgid "&Import..."
 #~ msgstr "&Importuj..."
@@ -1794,6 +1862,9 @@ msgstr ""
 
 #~ msgid "&Continue"
 #~ msgstr "&Kontynuuj"
+
+#~ msgid "C&ancel"
+#~ msgstr "&Anuluj"
 
 #~ msgid "Reset &Ignored Dependency Conflicts"
 #~ msgstr "Resetuj z&ignorowane konflikty zależności"
@@ -2007,6 +2078,9 @@ msgstr ""
 #~ msgid "Symbols Overview"
 #~ msgstr "Przegląd symboli"
 
+#~ msgid "Do not install"
+#~ msgstr "Nie instaluj"
+
 #~ msgid "This package is not installed and it will not be installed."
 #~ msgstr "Pakiet nie jest i nie będzie zainstalowany."
 
@@ -2122,6 +2196,9 @@ msgstr ""
 #~ "Uaktualnia pakiet, jeśli jest zainstalowany i istnieje jego nowsza "
 #~ "wersja. Pakiety, które nie są zainstalowane, są ignorowane."
 
+#~ msgid "Undo Update"
+#~ msgstr "Cofnij aktualizację"
+
 #~ msgid ""
 #~ "Undo the effect of \">\" above: Set package to \"keep\" if it is "
 #~ "currently set to \"update\". Ignore all other packages."
@@ -2166,6 +2243,9 @@ msgstr ""
 
 #~ msgid "Export This List to &Text File..."
 #~ msgstr "Eksportuj tę listę do pliku &tekstowego..."
+
+#~ msgid "&Install Source"
+#~ msgstr "&Instaluj kod źródłowy"
 
 #~ msgid "Do &Not Install Source"
 #~ msgstr "&Nie instaluj kodu źródłowego"
@@ -2259,6 +2339,9 @@ msgstr ""
 
 #~ msgid "Selection"
 #~ msgstr "Wybór"
+
+#~ msgid "Package Group:"
+#~ msgstr "Grupa pakietów:"
 
 #~ msgid "Package &Groups"
 #~ msgstr "&Grupy pakietów"
