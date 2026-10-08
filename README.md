@@ -14,7 +14,7 @@ If your language isn't available yet, follow the steps below.
 To add a new language, clone this repository. Next, download the locale file from [yast-translations](https://github.com/yast/yast-translations/tree/master/po/qt-pkg). Afterwards run the following command in the **`po`** folder, replacing `nl` with your desired locale:
 
 ```bash
-msgmerge -o nl.po ~/Dokumente/myrlyn-lang/po/nl.po myrlyn.pot
+msgmerge -o nl.po ~/Downloads/nl.po myrlyn.pot
 ```
 
 Then, open a **Pull Request**. Once merged, your language will be available in Weblate, and you can start translating.
