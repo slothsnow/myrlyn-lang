@@ -950,9 +950,8 @@ msgstr "&Expert"
 msgid "&Save This List to a File..."
 msgstr "&Desa aquesta llista en un fitxer..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148
-#: YQPkgSelectorBase.cc:271 YQPkgSelector.cc:612 YQPkgSelector.cc:1218
-#: YQPkgTextDialog.cc:235
+#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
+#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
 msgid "&Cancel"
 msgstr "&Cancel·la"
 
@@ -972,8 +971,7 @@ msgstr "Primer heu d'executar el solucionador de dependències."
 #, qt-format
 msgid ""
 "<p>Use this to generate extensive logs to help tracking down bugs in the "
-"dependency resolver. The logs will be stored in directory <br><tt>%1</tt></"
-"p>"
+"dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
 msgstr ""
 "<p>Useu això per generar registres extensos per ajudar a rastrejar els "
 "errors al solucionador de dependències. Els registres s'emmagatzemaran al "
@@ -1075,9 +1073,9 @@ msgid "Package Description"
 msgstr "Descripció del paquet"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114
-#: YQPkgProductDialog.cc:99 YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449
-#: YQPkgSelector.cc:1619 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114 YQPkgProductDialog.cc:99
+#: YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449 YQPkgSelector.cc:1619
+#: YQPkgTextDialog.cc:43
 msgid "&OK"
 msgstr "D'ACORD"
 
@@ -1381,8 +1379,8 @@ msgstr "Error: sense espai de disc!"
 #: YQPkgSelectorBase.cc:140
 msgid ""
 "<p>You can choose to install anyway if you know what you are doing, but you "
-"risk getting a corrupted system that requires manual repairs. If you are "
-"not absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"risk getting a corrupted system that requires manual repairs. If you are not "
+"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
 "deselect some packages.</p>"
 msgstr ""
 "<p>Podeu optar per instal·lar-lo de tota manera si sabeu el que feu, però "
@@ -1633,8 +1631,8 @@ msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
-"<p><a href=\"repoupgradeadd:///%1\">Canvia els paquets del sistema</a> a "
-"les versions d'aquest repositori (%2)</p>"
+"<p><a href=\"repoupgradeadd:///%1\">Canvia els paquets del sistema</a> a les "
+"versions d'aquest repositori (%2)</p>"
 
 #: YQPkgSelector.cc:1345
 #, qt-format
