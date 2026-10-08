@@ -67,17 +67,9 @@ msgstr ""
 "\n"
 "- Christoph Grüninger (GitHub: )gruenich)"
 
-#: init-repos-page.ui:15
-msgid "Form"
-msgstr "Formulari"
-
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
 msgstr "S'inicien els repositoris"
-
-#: pkg-commit-page.ui:15
-msgid "Form"
-msgstr "Formulari"
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
@@ -91,17 +83,9 @@ msgstr "Amaga els detalls"
 msgid "To Do"
 msgstr "Per fer"
 
-#: pkg-commit-page.ui:238
-msgid "Downloads"
-msgstr "Baixades"
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
 msgstr "Es fa"
-
-#: pkg-commit-page.ui:376
-msgid "Done"
-msgstr "Fet"
 
 #: pkg-commit-page.ui:489
 msgid "&Cancel"
@@ -115,10 +99,6 @@ msgstr "Mostra la pàgina de resum"
 msgid "Working..."
 msgstr "Treballant..."
 
-#: progress-dialog.ui:79
-msgid "&Close"
-msgstr "Tan&ca"
-
 #: repo-config.ui:14
 msgid "Repository Configuration"
 msgstr "Configuració del repositori"
@@ -130,10 +110,6 @@ msgstr "**Configuració del repositori**"
 #: repo-config.ui:94
 msgid "**PackMan**"
 msgstr "**ManPack**"
-
-#: repo-config.ui:128
-msgid "URL:"
-msgstr "URL:"
 
 #: repo-config.ui:154
 msgid "Raw URL:"
@@ -183,10 +159,6 @@ msgstr "Repositori pe&rsonalitzat"
 msgid "Co&mmunity Repository"
 msgstr "Repositori de la co&munitat"
 
-#: repo-edit-add.ui:254
-msgid "&Name"
-msgstr "&Nom"
-
 #: repo-edit-add.ui:270
 msgid "Repository Name"
 msgstr "Nom del repositori"
@@ -194,10 +166,6 @@ msgstr "Nom del repositori"
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
 msgstr "&URL en cru"
-
-#: repo-edit-add.ui:362
-msgid "&Cancel"
-msgstr "&Cancel·la"
 
 #: repo-edit-add.ui:369
 msgid "&OK"
@@ -247,21 +215,9 @@ msgstr "_Caducitat:_"
 msgid "&Trust"
 msgstr "Con&fia-hi"
 
-#: repo-gpg-key-import-dialog.ui:297
-msgid "&Cancel"
-msgstr "&Cancel·la"
-
-#: search-filter-view.ui:14
-msgid "Form"
-msgstr "Formulari"
-
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
 msgstr "Cerca text o un patró"
-
-#: search-filter-view.ui:53
-msgid "&Search"
-msgstr "&Cerca"
 
 #: search-filter-view.ui:78
 msgid "Search In"
@@ -327,21 +283,9 @@ msgstr "Detectat:"
 msgid "Case Sens&itive"
 msgstr "Distingeix majúscules i minúscules"
 
-#: status-filter-view.ui:14
-msgid "Form"
-msgstr "Formulari"
-
 #: status-filter-view.ui:32
 msgid "Show Packages with Status"
 msgstr "Mostra els paquets amb l'estat"
-
-#: status-filter-view.ui:63
-msgid "Install"
-msgstr "Instal·la"
-
-#: status-filter-view.ui:83
-msgid "Update"
-msgstr "Actualitza"
 
 #: status-filter-view.ui:103
 msgid "Auto-Install"
@@ -367,10 +311,6 @@ msgstr "Conserva"
 msgid "Do Not Install"
 msgstr "No instal·lis"
 
-#: status-filter-view.ui:259
-msgid "Delete"
-msgstr "Suprimeix"
-
 #: status-filter-view.ui:279
 msgid "Auto-Delete"
 msgstr "Suprimeix automàticament"
@@ -382,18 +322,6 @@ msgstr "<i>Feu clic del mig sobre un estat per mostrar només aquest</i>"
 #: status-filter-view.ui:354
 msgid "Defaults"
 msgstr "Per defecte"
-
-#: status-filter-view.ui:361
-msgid "Refresh List"
-msgstr "Actualitza la llista"
-
-#: summary-page.ui:15
-msgid "Form"
-msgstr "Formulari"
-
-#: summary-page.ui:36
-msgid "Summary"
-msgstr "Resum"
 
 #: summary-page.ui:52
 msgid ""
@@ -568,10 +496,6 @@ msgstr ""
 "No es pot connectar amb el gestor de paquets!\n"
 "Pot estar ocupat en una altra finestra.\n"
 
-#: PkgCommitPage.cc:141
-msgid "To Do"
-msgstr "Per a fer"
-
 #: PkgCommitPage.cc:142
 msgid "Downloads"
 msgstr "Baixades"
@@ -579,10 +503,6 @@ msgstr "Baixades"
 #: PkgCommitPage.cc:143
 msgid "Done"
 msgstr "Fet"
-
-#: PkgCommitPage.cc:295
-msgid "Hide &Details"
-msgstr "Amaga'n els &detalls"
 
 #: PkgCommitPage.cc:295
 msgid "Show &Details"
@@ -849,11 +769,6 @@ msgstr "&Expert"
 msgid "&Save This List to a File..."
 msgstr "&Desa aquesta llista en un fitxer..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
-#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
-msgid "&Cancel"
-msgstr "&Cancel·la"
-
 #: YQPkgConflictDialog.cc:190
 msgid "Verifying System Dependencies"
 msgstr "Es verifiquen les dependències del sistema"
@@ -970,13 +885,6 @@ msgstr "<b>Versió instal·lada</b>"
 #: YQPkgDescriptionDialog.cc:45
 msgid "Package Description"
 msgstr "Descripció del paquet"
-
-#: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114 YQPkgProductDialog.cc:99
-#: YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449 YQPkgSelector.cc:1619
-#: YQPkgTextDialog.cc:43
-msgid "&OK"
-msgstr "D'ACORD"
 
 #: YQPkgDescriptionView.cc:88
 msgid "References:"
@@ -1128,14 +1036,6 @@ msgstr "Suprimeix"
 #: YQPkgObjList.cc:268
 msgid "Install"
 msgstr "Instal·la"
-
-#: YQPkgObjList.cc:269
-msgid "Keep"
-msgstr "Mantén"
-
-#: YQPkgObjList.cc:270
-msgid "Do Not Install"
-msgstr "No l'instal·lis"
 
 #: YQPkgObjList.cc:271
 msgid "Protected -- Do Not Modify"
