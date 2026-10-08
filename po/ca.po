@@ -75,21 +75,9 @@ msgstr "S'inicien els repositoris"
 msgid "Installing / Removing Packages"
 msgstr "Instal·lació / supressió de paquets"
 
-#: pkg-commit-page.ui:61
-msgid "Hide &Details"
-msgstr "Amaga els detalls"
-
-#: pkg-commit-page.ui:113
-msgid "To Do"
-msgstr "Per fer"
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
 msgstr "Es fa"
-
-#: pkg-commit-page.ui:489
-msgid "&Cancel"
-msgstr "Cancel·la"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -166,10 +154,6 @@ msgstr "Nom del repositori"
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
 msgstr "&URL en cru"
-
-#: repo-edit-add.ui:369
-msgid "&OK"
-msgstr "D'AC&ORD"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -302,14 +286,6 @@ msgstr "Tabú"
 #: status-filter-view.ui:160
 msgid "Protected"
 msgstr "Protegit"
-
-#: status-filter-view.ui:193
-msgid "Keep"
-msgstr "Conserva"
-
-#: status-filter-view.ui:210
-msgid "Do Not Install"
-msgstr "No instal·lis"
 
 #: status-filter-view.ui:279
 msgid "Auto-Delete"
@@ -496,6 +472,10 @@ msgstr ""
 "No es pot connectar amb el gestor de paquets!\n"
 "Pot estar ocupat en una altra finestra.\n"
 
+#: PkgCommitPage.cc:141
+msgid "To Do"
+msgstr "Per fer"
+
 #: PkgCommitPage.cc:142
 msgid "Downloads"
 msgstr "Baixades"
@@ -503,6 +483,10 @@ msgstr "Baixades"
 #: PkgCommitPage.cc:143
 msgid "Done"
 msgstr "Fet"
+
+#: PkgCommitPage.cc:295
+msgid "Hide &Details"
+msgstr "Amaga els detalls"
 
 #: PkgCommitPage.cc:295
 msgid "Show &Details"
@@ -769,6 +753,11 @@ msgstr "&Expert"
 msgid "&Save This List to a File..."
 msgstr "&Desa aquesta llista en un fitxer..."
 
+#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
+#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
+msgid "&Cancel"
+msgstr "Cancel·la"
+
 #: YQPkgConflictDialog.cc:190
 msgid "Verifying System Dependencies"
 msgstr "Es verifiquen les dependències del sistema"
@@ -885,6 +874,13 @@ msgstr "<b>Versió instal·lada</b>"
 #: YQPkgDescriptionDialog.cc:45
 msgid "Package Description"
 msgstr "Descripció del paquet"
+
+#: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
+#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114 YQPkgProductDialog.cc:99
+#: YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449 YQPkgSelector.cc:1619
+#: YQPkgTextDialog.cc:43
+msgid "&OK"
+msgstr "D'AC&ORD"
 
 #: YQPkgDescriptionView.cc:88
 msgid "References:"
@@ -1036,6 +1032,14 @@ msgstr "Suprimeix"
 #: YQPkgObjList.cc:268
 msgid "Install"
 msgstr "Instal·la"
+
+#: YQPkgObjList.cc:269
+msgid "Keep"
+msgstr "Conserva"
+
+#: YQPkgObjList.cc:270
+msgid "Do Not Install"
+msgstr "No instal·lis"
 
 #: YQPkgObjList.cc:271
 msgid "Protected -- Do Not Modify"

@@ -72,45 +72,17 @@ msgstr ""
 "\n"
 "- Christoph Grüninger (GitHub: @gruenich)"
 
-#: init-repos-page.ui:15
-msgid "Form"
-msgstr "Formularz"
-
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
 msgstr "Inicjalizacja repozytoriów"
-
-#: pkg-commit-page.ui:15
-msgid "Form"
-msgstr "Formularz"
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
 msgstr "Instalacja / Usuwanie pakietów"
 
-#: pkg-commit-page.ui:61
-msgid "Hide &Details"
-msgstr "Ukryj szcz&egóły"
-
-#: pkg-commit-page.ui:113
-msgid "To Do"
-msgstr "Kolejka zadań"
-
-#: pkg-commit-page.ui:238
-msgid "Downloads"
-msgstr "Pobieranie"
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
 msgstr "W toku"
-
-#: pkg-commit-page.ui:376
-msgid "Done"
-msgstr "Gotowe"
-
-#: pkg-commit-page.ui:489
-msgid "&Cancel"
-msgstr "&Anuluj"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -119,10 +91,6 @@ msgstr "Pokaż pod&sumowanie"
 #: progress-dialog.ui:14
 msgid "Working..."
 msgstr "W toku..."
-
-#: progress-dialog.ui:79
-msgid "&Close"
-msgstr "&Zamknij"
 
 #: repo-config.ui:14
 msgid "Repository Configuration"
@@ -135,10 +103,6 @@ msgstr "**Konfiguracja repozytoriów**"
 #: repo-config.ui:94
 msgid "**PackMan**"
 msgstr "**PackMan**"
-
-#: repo-config.ui:128
-msgid "URL:"
-msgstr "Adres URL:"
 
 #: repo-config.ui:154
 msgid "Raw URL:"
@@ -188,10 +152,6 @@ msgstr "&Repozytorium własne"
 msgid "Co&mmunity Repository"
 msgstr "Repozytorium s&połeczności"
 
-#: repo-edit-add.ui:254
-msgid "&Name"
-msgstr "&Nazwa"
-
 #: repo-edit-add.ui:270
 msgid "Repository Name"
 msgstr "Nazwa &repozytorium"
@@ -199,14 +159,6 @@ msgstr "Nazwa &repozytorium"
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
 msgstr "Raw &URL"
-
-#: repo-edit-add.ui:362
-msgid "&Cancel"
-msgstr "&Anuluj"
-
-#: repo-edit-add.ui:369
-msgid "&OK"
-msgstr "&OK"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -252,21 +204,9 @@ msgstr "_Wygasa:_"
 msgid "&Trust"
 msgstr "&Zaufaj"
 
-#: repo-gpg-key-import-dialog.ui:297
-msgid "&Cancel"
-msgstr "&Anuluj"
-
-#: search-filter-view.ui:14
-msgid "Form"
-msgstr "Formularz"
-
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
 msgstr "Szukaj tekst lub wzorce"
-
-#: search-filter-view.ui:53
-msgid "&Search"
-msgstr "&Szukaj"
 
 #: search-filter-view.ui:78
 msgid "Search In"
@@ -332,21 +272,9 @@ msgstr "Wykryto:"
 msgid "Case Sens&itive"
 msgstr "Rozróżniaj wielkość &liter"
 
-#: status-filter-view.ui:14
-msgid "Form"
-msgstr "Formularz"
-
 #: status-filter-view.ui:32
 msgid "Show Packages with Status"
 msgstr "Pokaż pakiety ze statusem"
-
-#: status-filter-view.ui:63
-msgid "Install"
-msgstr "Zainstaluj"
-
-#: status-filter-view.ui:83
-msgid "Update"
-msgstr "Aktualizacja"
 
 #: status-filter-view.ui:103
 msgid "Auto-Install"
@@ -364,18 +292,6 @@ msgstr "Tabu"
 msgid "Protected"
 msgstr "Chroniony"
 
-#: status-filter-view.ui:193
-msgid "Keep"
-msgstr "Pozostaw"
-
-#: status-filter-view.ui:210
-msgid "Do Not Install"
-msgstr "Nie instaluj"
-
-#: status-filter-view.ui:259
-msgid "Delete"
-msgstr "Usuń"
-
 #: status-filter-view.ui:279
 msgid "Auto-Delete"
 msgstr "Usuwanie automatyczne"
@@ -389,18 +305,6 @@ msgstr ""
 #: status-filter-view.ui:354
 msgid "Defaults"
 msgstr "Domyślne"
-
-#: status-filter-view.ui:361
-msgid "Refresh List"
-msgstr "Odśwież listę"
-
-#: summary-page.ui:15
-msgid "Form"
-msgstr "Formularz"
-
-#: summary-page.ui:36
-msgid "Summary"
-msgstr "Podsumowanie"
 
 #: summary-page.ui:52
 msgid ""
@@ -583,7 +487,7 @@ msgstr "Kolejka zadań"
 
 #: PkgCommitPage.cc:142
 msgid "Downloads"
-msgstr "Pobieranie pakietów"
+msgstr "Pobieranie"
 
 #: PkgCommitPage.cc:143
 msgid "Done"

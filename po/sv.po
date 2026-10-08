@@ -66,45 +66,17 @@ msgstr ""
 "\n"
 "- Christoph Grüninger (GitHub: @gruenich)"
 
-#: init-repos-page.ui:15
-msgid "Form"
-msgstr "Formulär"
-
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
 msgstr "Initierar förråd"
-
-#: pkg-commit-page.ui:15
-msgid "Form"
-msgstr "Formulär"
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
 msgstr "Installera/ta bort paket"
 
-#: pkg-commit-page.ui:61
-msgid "Hide &Details"
-msgstr "Dölj &detaljer"
-
-#: pkg-commit-page.ui:113
-msgid "To Do"
-msgstr "Att göra"
-
-#: pkg-commit-page.ui:238
-msgid "Downloads"
-msgstr "Nedladdningar"
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
 msgstr "Gör"
-
-#: pkg-commit-page.ui:376
-msgid "Done"
-msgstr "Klart"
-
-#: pkg-commit-page.ui:489
-msgid "&Cancel"
-msgstr "&Avbryt"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -113,10 +85,6 @@ msgstr "Visa &sammanfattningssida"
 #: progress-dialog.ui:14
 msgid "Working..."
 msgstr "Arbetar..."
-
-#: progress-dialog.ui:79
-msgid "&Close"
-msgstr "&Stäng"
 
 #: repo-config.ui:14
 msgid "Repository Configuration"
@@ -129,10 +97,6 @@ msgstr "**Förråds konfiguration**"
 #: repo-config.ui:94
 msgid "**PackMan**"
 msgstr "**PackMan**"
-
-#: repo-config.ui:128
-msgid "URL:"
-msgstr "URL:"
 
 #: repo-config.ui:154
 msgid "Raw URL:"
@@ -182,10 +146,6 @@ msgstr "Anpassat &förråd"
 msgid "Co&mmunity Repository"
 msgstr "Ge&menskap förråd"
 
-#: repo-edit-add.ui:254
-msgid "&Name"
-msgstr "&Namn"
-
 #: repo-edit-add.ui:270
 msgid "Repository Name"
 msgstr "Förråd namn"
@@ -193,14 +153,6 @@ msgstr "Förråd namn"
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
 msgstr "Rå &URL"
-
-#: repo-edit-add.ui:362
-msgid "&Cancel"
-msgstr "&Avbryt"
-
-#: repo-edit-add.ui:369
-msgid "&OK"
-msgstr "&OK"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -246,21 +198,9 @@ msgstr "_Går ut:_"
 msgid "&Trust"
 msgstr "&Lita på"
 
-#: repo-gpg-key-import-dialog.ui:297
-msgid "&Cancel"
-msgstr "&Avbryt"
-
-#: search-filter-view.ui:14
-msgid "Form"
-msgstr "Formulär"
-
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
 msgstr "Sök text eller mönster"
-
-#: search-filter-view.ui:53
-msgid "&Search"
-msgstr "&Sök"
 
 #: search-filter-view.ui:78
 msgid "Search In"
@@ -326,21 +266,9 @@ msgstr "Upptäckt:"
 msgid "Case Sens&itive"
 msgstr "Skiftlägeskän&sligt"
 
-#: status-filter-view.ui:14
-msgid "Form"
-msgstr "Formulär"
-
 #: status-filter-view.ui:32
 msgid "Show Packages with Status"
 msgstr "Visa paket med status"
-
-#: status-filter-view.ui:63
-msgid "Install"
-msgstr "Installera"
-
-#: status-filter-view.ui:83
-msgid "Update"
-msgstr "Uppdatera"
 
 #: status-filter-view.ui:103
 msgid "Auto-Install"
@@ -358,18 +286,6 @@ msgstr "Tabu"
 msgid "Protected"
 msgstr "Skyddad"
 
-#: status-filter-view.ui:193
-msgid "Keep"
-msgstr "Behåll"
-
-#: status-filter-view.ui:210
-msgid "Do Not Install"
-msgstr "Installera inte"
-
-#: status-filter-view.ui:259
-msgid "Delete"
-msgstr "Radera"
-
 #: status-filter-view.ui:279
 msgid "Auto-Delete"
 msgstr "Automatisk radering"
@@ -381,18 +297,6 @@ msgstr "<i>Mitten klicka på en status för att bara visa denna</i>"
 #: status-filter-view.ui:354
 msgid "Defaults"
 msgstr "Standard"
-
-#: status-filter-view.ui:361
-msgid "Refresh List"
-msgstr "Uppdatera lista"
-
-#: summary-page.ui:15
-msgid "Form"
-msgstr "Formulär"
-
-#: summary-page.ui:36
-msgid "Summary"
-msgstr "Sammanfattning"
 
 #: summary-page.ui:52
 msgid ""

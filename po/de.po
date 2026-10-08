@@ -71,37 +71,13 @@ msgstr ""
 msgid "Initializing Repositories"
 msgstr "Initialisiere Repositorien"
 
-#: pkg-commit-page.ui:15
-msgid "Form"
-msgstr "Formular"
-
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
 msgstr "Installliere / Entferne Pakete"
 
-#: pkg-commit-page.ui:61
-msgid "Hide &Details"
-msgstr "&Details ausblenden"
-
-#: pkg-commit-page.ui:113
-msgid "To Do"
-msgstr "Zu erledigen"
-
-#: pkg-commit-page.ui:238
-msgid "Downloads"
-msgstr "Downloads"
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
 msgstr "Im Gange"
-
-#: pkg-commit-page.ui:376
-msgid "Done"
-msgstr "Erledigt"
-
-#: pkg-commit-page.ui:489
-msgid "&Cancel"
-msgstr "&Abbrechen"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -110,10 +86,6 @@ msgstr ""
 #: progress-dialog.ui:14
 msgid "Working..."
 msgstr "Im Gange ..."
-
-#: progress-dialog.ui:79
-msgid "&Close"
-msgstr "&Schließen"
 
 #: repo-config.ui:14
 msgid "Repository Configuration"
@@ -163,6 +135,10 @@ msgstr "Löschen"
 #: repo-config.ui:368
 msgid "<i>Restart needed!</i>"
 msgstr ""
+
+#: repo-config.ui:378
+msgid "&Close"
+msgstr "&Schließen"
 
 #: repo-edit-add.ui:98
 #, fuzzy
@@ -386,6 +362,10 @@ msgstr ""
 msgid "&Finish"
 msgstr ""
 
+#: updates-filter-view.ui:14
+msgid "Form"
+msgstr "Formular"
+
 #: updates-filter-view.ui:35
 #, fuzzy
 msgid "Updates"
@@ -486,6 +466,22 @@ msgid ""
 "Can't connect to the package manager!\n"
 "It may be busy in another window.\n"
 msgstr ""
+
+#: PkgCommitPage.cc:141
+msgid "To Do"
+msgstr "Zu erledigen"
+
+#: PkgCommitPage.cc:142
+msgid "Downloads"
+msgstr "Downloads"
+
+#: PkgCommitPage.cc:143
+msgid "Done"
+msgstr "Erledigt"
+
+#: PkgCommitPage.cc:295
+msgid "Hide &Details"
+msgstr "&Details ausblenden"
 
 #: PkgCommitPage.cc:295
 #, fuzzy
@@ -754,6 +750,11 @@ msgstr "&Experte"
 #: YQPkgConflictDialog.cc:129
 msgid "&Save This List to a File..."
 msgstr "Diese Liste in einer Datei &speichern..."
+
+#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
+#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
+msgid "&Cancel"
+msgstr "&Abbrechen"
 
 #: YQPkgConflictDialog.cc:190
 #, fuzzy

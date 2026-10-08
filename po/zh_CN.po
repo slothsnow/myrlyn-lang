@@ -49,50 +49,19 @@ msgid ""
 "- Christoph Grüninger (GitHub: @gruenich)"
 msgstr ""
 
-#: init-repos-page.ui:15
-msgid "Form"
-msgstr ""
-
 #: init-repos-page.ui:36
 #, fuzzy
 msgid "Initializing Repositories"
 msgstr "软件源(&R)"
-
-#: pkg-commit-page.ui:15
-msgid "Form"
-msgstr ""
 
 #: pkg-commit-page.ui:41
 #, fuzzy
 msgid "Installing / Removing Packages"
 msgstr "安装推荐的软件包(&R)"
 
-#: pkg-commit-page.ui:61
-#, fuzzy
-msgid "Hide &Details"
-msgstr "细节(&D)..."
-
-#: pkg-commit-page.ui:113
-msgid "To Do"
-msgstr ""
-
-#: pkg-commit-page.ui:238
-#, fuzzy
-msgid "Downloads"
-msgstr "下载时间:"
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
 msgstr ""
-
-#: pkg-commit-page.ui:376
-msgid "Done"
-msgstr ""
-
-#: pkg-commit-page.ui:489
-#, fuzzy
-msgid "&Cancel"
-msgstr "取消(&C)"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -102,11 +71,6 @@ msgstr ""
 #, fuzzy
 msgid "Working..."
 msgstr "正在搜索..."
-
-#: progress-dialog.ui:79
-#, fuzzy
-msgid "&Close"
-msgstr "关闭(&C)"
 
 #: repo-config.ui:14
 #, fuzzy
@@ -121,11 +85,6 @@ msgstr "配置(&C)"
 #: repo-config.ui:94
 msgid "**PackMan**"
 msgstr ""
-
-#: repo-config.ui:128
-#, fuzzy
-msgid "URL:"
-msgstr "URL:"
 
 #: repo-config.ui:154
 #, fuzzy
@@ -179,11 +138,6 @@ msgstr "软件源(&R)"
 msgid "Co&mmunity Repository"
 msgstr ""
 
-#: repo-edit-add.ui:254
-#, fuzzy
-msgid "&Name"
-msgstr "名称(&N)"
-
 #: repo-edit-add.ui:270
 #, fuzzy
 msgid "Repository Name"
@@ -192,16 +146,6 @@ msgstr "软件源(&R)"
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
 msgstr ""
-
-#: repo-edit-add.ui:362
-#, fuzzy
-msgid "&Cancel"
-msgstr "取消(&C)"
-
-#: repo-edit-add.ui:369
-#, fuzzy
-msgid "&OK"
-msgstr "确定(&O)"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -249,23 +193,9 @@ msgstr ""
 msgid "&Trust"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:297
-#, fuzzy
-msgid "&Cancel"
-msgstr "取消(&C)"
-
-#: search-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
 msgstr ""
-
-#: search-filter-view.ui:53
-#, fuzzy
-msgid "&Search"
-msgstr "搜索(&S)"
 
 #: search-filter-view.ui:78
 #, fuzzy
@@ -345,24 +275,10 @@ msgstr "保护"
 msgid "Case Sens&itive"
 msgstr "大小写敏感(&v)"
 
-#: status-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 #: status-filter-view.ui:32
 #, fuzzy
 msgid "Show Packages with Status"
 msgstr "显示具有以下状态的软件包"
-
-#: status-filter-view.ui:63
-#, fuzzy
-msgid "Install"
-msgstr "安装"
-
-#: status-filter-view.ui:83
-#, fuzzy
-msgid "Update"
-msgstr "升级"
 
 #: status-filter-view.ui:103
 #, fuzzy
@@ -384,21 +300,6 @@ msgstr "禁用"
 msgid "Protected"
 msgstr "保护"
 
-#: status-filter-view.ui:193
-#, fuzzy
-msgid "Keep"
-msgstr "保留"
-
-#: status-filter-view.ui:210
-#, fuzzy
-msgid "Do Not Install"
-msgstr "不安装"
-
-#: status-filter-view.ui:259
-#, fuzzy
-msgid "Delete"
-msgstr "删除"
-
 #: status-filter-view.ui:279
 #, fuzzy
 msgid "Auto-Delete"
@@ -411,20 +312,6 @@ msgstr ""
 #: status-filter-view.ui:354
 msgid "Defaults"
 msgstr ""
-
-#: status-filter-view.ui:361
-#, fuzzy
-msgid "Refresh List"
-msgstr "刷新列表(&R)"
-
-#: summary-page.ui:15
-msgid "Form"
-msgstr ""
-
-#: summary-page.ui:36
-#, fuzzy
-msgid "Summary"
-msgstr "摘要"
 
 #: summary-page.ui:52
 msgid ""
