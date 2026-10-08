@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: qt-pkg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-08 19:18+0000\n"
+"PO-Revision-Date: 2026-10-08 19:55+0000\n"
 "Last-Translator: byDMA <bydma@noreply.codeberg.org>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/pl/>\n"
@@ -79,7 +79,7 @@ msgstr ""
 #: init-repos-page.ui:15
 msgctxt "InitReposPage|"
 msgid "Form"
-msgstr ""
+msgstr "Formularz"
 
 #: init-repos-page.ui:36
 msgctxt "InitReposPage|"
@@ -89,7 +89,7 @@ msgstr "Inicjalizacja repozytoriów"
 #: pkg-commit-page.ui:15
 msgctxt "PkgCommitPage|"
 msgid "Form"
-msgstr ""
+msgstr "Formularz"
 
 #: pkg-commit-page.ui:41
 msgctxt "PkgCommitPage|"
@@ -309,7 +309,7 @@ msgstr "&Anuluj"
 #: search-filter-view.ui:14
 msgctxt "SearchFilterView|"
 msgid "Form"
-msgstr "Forma"
+msgstr "Formularz"
 
 #: search-filter-view.ui:43
 msgctxt "SearchFilterView|"
@@ -404,7 +404,7 @@ msgstr "Rozróżniaj wielkość &liter"
 #: status-filter-view.ui:14
 msgctxt "StatusFilterView|"
 msgid "Form"
-msgstr "Forma"
+msgstr "Formularz"
 
 #: status-filter-view.ui:32
 msgctxt "StatusFilterView|"
@@ -481,7 +481,7 @@ msgstr "Odśwież listę"
 #: summary-page.ui:15
 msgctxt "SummaryPage|"
 msgid "Form"
-msgstr "Forma"
+msgstr "Formularz"
 
 #: summary-page.ui:36
 msgctxt "SummaryPage|"
@@ -542,7 +542,7 @@ msgstr "&Zakończ"
 #: updates-filter-view.ui:14
 msgctxt "UpdatesFilterView|"
 msgid "Form"
-msgstr "Forma"
+msgstr "Formularz"
 
 #: updates-filter-view.ui:35
 msgctxt "UpdatesFilterView|"
@@ -886,11 +886,11 @@ msgid "Information only available for installed packages."
 msgstr "Informacje dostępne tylko dla zainstalowanych pakietów."
 
 #: YQPkgChangeLogView.cc:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "(%1 more; run \"%2\" to see the complete change log)"
 msgstr ""
 "(Liczba niewyświetlanych wpisów: %1. Uruchom \"%2\", aby zobaczyć pełny "
-"dziennik zmian)."
+"dziennik zmian)"
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
@@ -976,7 +976,7 @@ msgstr "Utwórz test modułu rozwiązywania zależności"
 
 #: YQPkgConflictDialog.cc:325
 msgid "You need to run the dependency resolver first."
-msgstr "Uruchom najpierw moduł rozwiązywania zależności"
+msgstr "Uruchom najpierw moduł rozwiązywania zależności."
 
 #: YQPkgConflictDialog.cc:333
 #, qt-format
@@ -994,12 +994,10 @@ msgid "C&ontinue"
 msgstr "K&ontynuuj"
 
 #: YQPkgConflictDialog.cc:351
-#, fuzzy, qt-format
+#, qt-format
 msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
 msgstr ""
-"<p>Test modułu rozwiązywania zależności został zapisany do <br><tt>%1</tt></"
-"p><p>Czy przygotować archiwum <tt>y2logs.tgz.tar</tt> do załączenia do "
-"raportu w Bugzilli?</p>"
+"<p>Test modułu rozwiązywania zależności został zapisany do <br><tt>%1</tt>"
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
@@ -1103,11 +1101,11 @@ msgstr "Ten pakiet zawiera: "
 
 #: YQPkgDiskUsageList.cc:123
 msgid "<b>Error:</b> Out of disk space!"
-msgstr "<b>Błąd:</b> brak miejsca na dysku."
+msgstr "<b>Błąd:</b> brak miejsca na dysku!"
 
 #: YQPkgDiskUsageList.cc:132
 msgid "<b>Warning:</b> Disk space is running out!"
-msgstr "<b>Ostrzeżenie:</b> miejsce na dysku na wyczerpaniu."
+msgstr "<b>Ostrzeżenie:</b> miejsce na dysku na wyczerpaniu!"
 
 #: YQPkgDiskUsageWarningDialog.cc:41
 msgid "Disk Space Warning"
@@ -1388,7 +1386,7 @@ msgstr "Zależności systemowe są spełnione."
 
 #: YQPkgSelectorBase.cc:139
 msgid "Error: Out of disk space!"
-msgstr "Błąd: brak miejsca na dysku."
+msgstr "Błąd: brak miejsca na dysku!"
 
 #: YQPkgSelectorBase.cc:140
 msgid ""
@@ -1627,6 +1625,12 @@ msgid ""
 "restart the program, and all package changes\n"
 "will be lost.\n"
 msgstr ""
+"Istnieją zmiany oczekujące na zapis.\n"
+"\n"
+"Jeżeli będziesz kontynuował konfigurację repozytorium\n"
+"i coś tu zmienisz, będziesz musiał\n"
+"zrestartować program, i wszystkie zmiany pakietów\n"
+"przepadną.\n"
 
 #: YQPkgSelector.cc:1267
 #, qt-format
@@ -1643,13 +1647,13 @@ msgstr ""
 "z tego repozytorium (%2)</p>"
 
 #: YQPkgSelector.cc:1345
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
 "to versions in repository %2</p>"
 msgstr ""
-"<p><small><a href=\"repoupgraderemove:///%1\">Anuluj przełączanie</a> "
-"pakietów systemowych do wersji z repozytorium %2</small></p>"
+"<p><a href=\"repoupgraderemove:///%1\">Anuluj przełączanie</a> pakietów "
+"systemowych do wersji z repozytorium %2</p>"
 
 #: YQPkgSelector.cc:1448 YQPkgSelector.cc:1617
 msgid "Added Subpackages:"
@@ -1716,9 +1720,9 @@ msgid "Authors:"
 msgstr "Autorzy:"
 
 #: YQPkgVersionsView.cc:184
-#, fuzzy, qt-format
+#, qt-format
 msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr "%1-%2 od dostawcy %3 (zainstalowany)"
+msgstr "%1-%2 [WYCOFANY] od dostawcy %3 (zainstalowany)"
 
 #: YQPkgVersionsView.cc:192
 #, qt-format
@@ -1747,8 +1751,8 @@ msgstr ""
 "\n"
 "Naciśnij przycisk Kontynuuj, aby zainstalować tę wersję\n"
 "i usunąć zaznaczenie wersji nieobsługującej wielu wersji,\n"
-"lub naciśnij przycisk Anuluj, aby usunąć zaznaczenie tej wersji i zachować "
-"drugą."
+"lub naciśnij przycisk \"Anuluj\", aby usunąć zaznaczenie tej wersji i "
+"zachować drugą."
 
 #: YQPkgVersionsView.cc:416
 msgid ""
@@ -1762,7 +1766,7 @@ msgstr ""
 "\n"
 "Naciśnij przycisk Kontynuuj, aby zainstalować tylko tę wersję\n"
 "i usunąć zaznaczenie wszystkich innych wersji,\n"
-"Anuluj, aby odznaczyć tę wersję i utrzymać pozostałe."
+"\"Anuluj\", aby odznaczyć tę wersję i utrzymać pozostałe."
 
 #: YQPkgVersionsView.cc:425
 msgid "Incompatible Package Versions"
