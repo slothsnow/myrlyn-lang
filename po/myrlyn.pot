@@ -39,44 +39,16 @@ msgid ""
 "- Christoph Grüninger (GitHub: @gruenich)"
 msgstr ""
 
-#: init-repos-page.ui:15
-msgid "Form"
-msgstr ""
-
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
-msgstr ""
-
-#: pkg-commit-page.ui:15
-msgid "Form"
 msgstr ""
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
 msgstr ""
 
-#: pkg-commit-page.ui:61
-msgid "Hide &Details"
-msgstr ""
-
-#: pkg-commit-page.ui:113
-msgid "To Do"
-msgstr ""
-
-#: pkg-commit-page.ui:238
-msgid "Downloads"
-msgstr ""
-
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr ""
-
-#: pkg-commit-page.ui:376
-msgid "Done"
-msgstr ""
-
-#: pkg-commit-page.ui:489
-msgid "&Cancel"
 msgstr ""
 
 #: pkg-commit-page.ui:548
@@ -85,10 +57,6 @@ msgstr ""
 
 #: progress-dialog.ui:14
 msgid "Working..."
-msgstr ""
-
-#: progress-dialog.ui:79
-msgid "&Close"
 msgstr ""
 
 #: repo-config.ui:14
@@ -101,10 +69,6 @@ msgstr ""
 
 #: repo-config.ui:94
 msgid "**PackMan**"
-msgstr ""
-
-#: repo-config.ui:128
-msgid "URL:"
 msgstr ""
 
 #: repo-config.ui:154
@@ -155,24 +119,12 @@ msgstr ""
 msgid "Co&mmunity Repository"
 msgstr ""
 
-#: repo-edit-add.ui:254
-msgid "&Name"
-msgstr ""
-
 #: repo-edit-add.ui:270
 msgid "Repository Name"
 msgstr ""
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr ""
-
-#: repo-edit-add.ui:362
-msgid "&Cancel"
-msgstr ""
-
-#: repo-edit-add.ui:369
-msgid "&OK"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:14
@@ -219,20 +171,8 @@ msgstr ""
 msgid "&Trust"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:297
-msgid "&Cancel"
-msgstr ""
-
-#: search-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
-msgstr ""
-
-#: search-filter-view.ui:53
-msgid "&Search"
 msgstr ""
 
 #: search-filter-view.ui:78
@@ -299,20 +239,8 @@ msgstr ""
 msgid "Case Sens&itive"
 msgstr ""
 
-#: status-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 #: status-filter-view.ui:32
 msgid "Show Packages with Status"
-msgstr ""
-
-#: status-filter-view.ui:63
-msgid "Install"
-msgstr ""
-
-#: status-filter-view.ui:83
-msgid "Update"
 msgstr ""
 
 #: status-filter-view.ui:103
@@ -331,18 +259,6 @@ msgstr ""
 msgid "Protected"
 msgstr ""
 
-#: status-filter-view.ui:193
-msgid "Keep"
-msgstr ""
-
-#: status-filter-view.ui:210
-msgid "Do Not Install"
-msgstr ""
-
-#: status-filter-view.ui:259
-msgid "Delete"
-msgstr ""
-
 #: status-filter-view.ui:279
 msgid "Auto-Delete"
 msgstr ""
@@ -353,18 +269,6 @@ msgstr ""
 
 #: status-filter-view.ui:354
 msgid "Defaults"
-msgstr ""
-
-#: status-filter-view.ui:361
-msgid "Refresh List"
-msgstr ""
-
-#: summary-page.ui:15
-msgid "Form"
-msgstr ""
-
-#: summary-page.ui:36
-msgid "Summary"
 msgstr ""
 
 #: summary-page.ui:52
