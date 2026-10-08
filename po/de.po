@@ -67,10 +67,6 @@ msgstr ""
 "\n"
 "- Christoph Grüninger (GitHub: @gruenich)"
 
-#: init-repos-page.ui:15
-msgid "Form"
-msgstr "Formular"
-
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
 msgstr "Initialisiere Repositorien"
@@ -131,11 +127,6 @@ msgstr "**Konfiguration der Repositories**"
 msgid "**PackMan**"
 msgstr "**PackMan**"
 
-#: repo-config.ui:128
-#, fuzzy
-msgid "URL:"
-msgstr "URL:"
-
 #: repo-config.ui:154
 msgid "Raw URL:"
 msgstr "Roh-URL:"
@@ -173,11 +164,6 @@ msgstr "Löschen"
 msgid "<i>Restart needed!</i>"
 msgstr ""
 
-#: repo-config.ui:378
-#, fuzzy
-msgid "&Close"
-msgstr "Schließ&en"
-
 #: repo-edit-add.ui:98
 #, fuzzy
 msgid "Custom &Repository"
@@ -187,11 +173,6 @@ msgstr "&Repositorien"
 msgid "Co&mmunity Repository"
 msgstr ""
 
-#: repo-edit-add.ui:254
-#, fuzzy
-msgid "&Name"
-msgstr "&Name"
-
 #: repo-edit-add.ui:270
 #, fuzzy
 msgid "Repository Name"
@@ -200,16 +181,6 @@ msgstr "&Repositorien"
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
 msgstr ""
-
-#: repo-edit-add.ui:362
-#, fuzzy
-msgid "&Cancel"
-msgstr "Abbre&chen"
-
-#: repo-edit-add.ui:369
-#, fuzzy
-msgid "&OK"
-msgstr "&OK"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -257,23 +228,9 @@ msgstr ""
 msgid "&Trust"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:297
-#, fuzzy
-msgid "&Cancel"
-msgstr "Abbre&chen"
-
-#: search-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
 msgstr ""
-
-#: search-filter-view.ui:53
-#, fuzzy
-msgid "&Search"
-msgstr "&Suchen"
 
 #: search-filter-view.ui:78
 #, fuzzy
@@ -355,24 +312,10 @@ msgstr "Geschützt"
 msgid "Case Sens&itive"
 msgstr "Groß-/Kleinschre&ibung beachten"
 
-#: status-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
 #: status-filter-view.ui:32
 #, fuzzy
 msgid "Show Packages with Status"
 msgstr "Pakete anzeigen mit Status"
-
-#: status-filter-view.ui:63
-#, fuzzy
-msgid "Install"
-msgstr "Installieren"
-
-#: status-filter-view.ui:83
-#, fuzzy
-msgid "Update"
-msgstr "Aktualisieren"
 
 #: status-filter-view.ui:103
 #, fuzzy
@@ -394,21 +337,6 @@ msgstr "Tabu"
 msgid "Protected"
 msgstr "Geschützt"
 
-#: status-filter-view.ui:193
-#, fuzzy
-msgid "Keep"
-msgstr "Behalten"
-
-#: status-filter-view.ui:210
-#, fuzzy
-msgid "Do Not Install"
-msgstr "Nicht installieren"
-
-#: status-filter-view.ui:259
-#, fuzzy
-msgid "Delete"
-msgstr "Löschen"
-
 #: status-filter-view.ui:279
 #, fuzzy
 msgid "Auto-Delete"
@@ -421,20 +349,6 @@ msgstr ""
 #: status-filter-view.ui:354
 msgid "Defaults"
 msgstr ""
-
-#: status-filter-view.ui:361
-#, fuzzy
-msgid "Refresh List"
-msgstr "Liste a&ktualisieren"
-
-#: summary-page.ui:15
-msgid "Form"
-msgstr ""
-
-#: summary-page.ui:36
-#, fuzzy
-msgid "Summary"
-msgstr "Zusammenfassung"
 
 #: summary-page.ui:52
 msgid ""
@@ -470,10 +384,6 @@ msgstr ""
 
 #: summary-page.ui:179
 msgid "&Finish"
-msgstr ""
-
-#: updates-filter-view.ui:14
-msgid "Form"
 msgstr ""
 
 #: updates-filter-view.ui:35
@@ -576,24 +486,6 @@ msgid ""
 "Can't connect to the package manager!\n"
 "It may be busy in another window.\n"
 msgstr ""
-
-#: PkgCommitPage.cc:141
-msgid "To Do"
-msgstr ""
-
-#: PkgCommitPage.cc:142
-#, fuzzy
-msgid "Downloads"
-msgstr "Herunterladegröße:"
-
-#: PkgCommitPage.cc:143
-msgid "Done"
-msgstr ""
-
-#: PkgCommitPage.cc:295
-#, fuzzy
-msgid "Hide &Details"
-msgstr "&Details..."
 
 #: PkgCommitPage.cc:295
 #, fuzzy
@@ -862,11 +754,6 @@ msgstr "&Experte"
 #: YQPkgConflictDialog.cc:129
 msgid "&Save This List to a File..."
 msgstr "Diese Liste in einer Datei &speichern..."
-
-#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
-#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
-msgid "&Cancel"
-msgstr "Abbre&chen"
 
 #: YQPkgConflictDialog.cc:190
 #, fuzzy
