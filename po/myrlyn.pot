@@ -6,17 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
-msgctxt "AboutDialog|"
 msgid "About Myrlyn"
 msgstr ""
 
 #: about-dialog.ui:36
-msgctxt "AboutDialog|"
 msgid "## Myrlyn "
 msgstr ""
 
 #: about-dialog.ui:65
-msgctxt "AboutDialog|"
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -32,7 +29,6 @@ msgid ""
 msgstr ""
 
 #: about-dialog.ui:107
-msgctxt "AboutDialog|"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -44,417 +40,334 @@ msgid ""
 msgstr ""
 
 #: init-repos-page.ui:15
-msgctxt "InitReposPage|"
 msgid "Form"
 msgstr ""
 
 #: init-repos-page.ui:36
-msgctxt "InitReposPage|"
 msgid "Initializing Repositories"
 msgstr ""
 
 #: pkg-commit-page.ui:15
-msgctxt "PkgCommitPage|"
 msgid "Form"
 msgstr ""
 
 #: pkg-commit-page.ui:41
-msgctxt "PkgCommitPage|"
 msgid "Installing / Removing Packages"
 msgstr ""
 
 #: pkg-commit-page.ui:61
-msgctxt "PkgCommitPage|"
 msgid "Hide &Details"
 msgstr ""
 
 #: pkg-commit-page.ui:113
-msgctxt "PkgCommitPage|"
 msgid "To Do"
 msgstr ""
 
 #: pkg-commit-page.ui:238
-msgctxt "PkgCommitPage|"
 msgid "Downloads"
 msgstr ""
 
 #: pkg-commit-page.ui:282
-msgctxt "PkgCommitPage|"
 msgid "Doing"
 msgstr ""
 
 #: pkg-commit-page.ui:376
-msgctxt "PkgCommitPage|"
 msgid "Done"
 msgstr ""
 
 #: pkg-commit-page.ui:489
-msgctxt "PkgCommitPage|"
 msgid "&Cancel"
 msgstr ""
 
 #: pkg-commit-page.ui:548
-msgctxt "PkgCommitPage|"
 msgid "Show &Summary Page"
 msgstr ""
 
 #: progress-dialog.ui:14
-msgctxt "ProgressDialog|"
 msgid "Working..."
 msgstr ""
 
 #: progress-dialog.ui:79
-msgctxt "ProgressDialog|"
 msgid "&Close"
 msgstr ""
 
 #: repo-config.ui:14
-msgctxt "RepoConfig|"
 msgid "Repository Configuration"
 msgstr ""
 
 #: repo-config.ui:41
-msgctxt "RepoConfig|"
 msgid "**Repository Configuration**"
 msgstr ""
 
 #: repo-config.ui:94
-msgctxt "RepoConfig|"
 msgid "**PackMan**"
 msgstr ""
 
 #: repo-config.ui:128
-msgctxt "RepoConfig|"
 msgid "URL:"
 msgstr ""
 
 #: repo-config.ui:154
-msgctxt "RepoConfig|"
 msgid "Raw URL:"
 msgstr ""
 
 #: repo-config.ui:208
-msgctxt "RepoConfig|"
 msgid "&Priority:"
 msgstr ""
 
 #: repo-config.ui:248
-msgctxt "RepoConfig|"
 msgid "Ena&bled"
 msgstr ""
 
 #: repo-config.ui:258
-msgctxt "RepoConfig|"
 msgid "Auto-Re&fresh"
 msgstr ""
 
 #: repo-config.ui:281
-msgctxt "RepoConfig|"
 msgid "1: highest; 200: lowest"
 msgstr ""
 
 #: repo-config.ui:334
-msgctxt "RepoConfig|"
 msgid "&Add"
 msgstr ""
 
 #: repo-config.ui:341
-msgctxt "RepoConfig|"
 msgid "&Edit"
 msgstr ""
 
 #: repo-config.ui:348
-msgctxt "RepoConfig|"
 msgid "&Delete"
 msgstr ""
 
 #: repo-config.ui:368
-msgctxt "RepoConfig|"
 msgid "<i>Restart needed!</i>"
 msgstr ""
 
 #: repo-config.ui:378
-msgctxt "RepoConfig|"
 msgid "&Close"
 msgstr ""
 
 #: repo-edit-add.ui:98
-msgctxt "RepoEdit|"
 msgid "Custom &Repository"
 msgstr ""
 
 #: repo-edit-add.ui:108
-msgctxt "RepoEdit|"
 msgid "Co&mmunity Repository"
 msgstr ""
 
 #: repo-edit-add.ui:254
-msgctxt "RepoEdit|"
 msgid "&Name"
 msgstr ""
 
 #: repo-edit-add.ui:270
-msgctxt "RepoEdit|"
 msgid "Repository Name"
 msgstr ""
 
 #: repo-edit-add.ui:302
-msgctxt "RepoEdit|"
 msgid "Raw &URL"
 msgstr ""
 
 #: repo-edit-add.ui:362
-msgctxt "RepoEdit|"
 msgid "&Cancel"
 msgstr ""
 
 #: repo-edit-add.ui:369
-msgctxt "RepoEdit|"
 msgid "&OK"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:14
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "GPG Key"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:41
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "## Import Untrusted GPG Key"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:81
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Repository:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:101
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_URL:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:121
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Fingerprint:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:141
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Name:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:161
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Algorithm:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:181
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key ID:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:201
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Created:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:221
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Expires:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:274
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Trust"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:297
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Cancel"
 msgstr ""
 
 #: search-filter-view.ui:14
-msgctxt "SearchFilterView|"
 msgid "Form"
 msgstr ""
 
 #: search-filter-view.ui:43
-msgctxt "SearchFilterView|"
 msgid "Search Text or Pattern"
 msgstr ""
 
 #: search-filter-view.ui:53
-msgctxt "SearchFilterView|"
 msgid "&Search"
 msgstr ""
 
 #: search-filter-view.ui:78
-msgctxt "SearchFilterView|"
 msgid "Search In"
 msgstr ""
 
 #: search-filter-view.ui:87
-msgctxt "SearchFilterView|"
 msgid "&Name"
 msgstr ""
 
 #: search-filter-view.ui:97
-msgctxt "SearchFilterView|"
 msgid "Su&mmary"
 msgstr ""
 
 #: search-filter-view.ui:104
-msgctxt "SearchFilterView|"
 msgid "D&escription"
 msgstr ""
 
 #: search-filter-view.ui:111
-msgctxt "SearchFilterView|"
 msgid "RPM P&rovides"
 msgstr ""
 
 #: search-filter-view.ui:118
-msgctxt "SearchFilterView|"
 msgid "RPM Re&quires"
 msgstr ""
 
 #: search-filter-view.ui:125
-msgctxt "SearchFilterView|"
 msgid "File &List"
 msgstr ""
 
 #: search-filter-view.ui:159
-msgctxt "SearchFilterView|"
 msgid "Searc&h Mode:"
 msgstr ""
 
 #: search-filter-view.ui:170
-msgctxt "SearchFilterView|"
 msgid "Auto"
 msgstr ""
 
 #: search-filter-view.ui:175
-msgctxt "SearchFilterView|"
 msgid "Contains"
 msgstr ""
 
 #: search-filter-view.ui:180
-msgctxt "SearchFilterView|"
 msgid "Starts With"
 msgstr ""
 
 #: search-filter-view.ui:185
-msgctxt "SearchFilterView|"
 msgid "Exact Match"
 msgstr ""
 
 #: search-filter-view.ui:190
-msgctxt "SearchFilterView|"
 msgid "Wildcards"
 msgstr ""
 
 #: search-filter-view.ui:195
-msgctxt "SearchFilterView|"
 msgid "Regular Expression"
 msgstr ""
 
 #: search-filter-view.ui:203
-msgctxt "SearchFilterView|"
 msgid "Detected:"
 msgstr ""
 
 #: search-filter-view.ui:212
-msgctxt "SearchFilterView|"
 msgid "Case Sens&itive"
 msgstr ""
 
 #: status-filter-view.ui:14
-msgctxt "StatusFilterView|"
 msgid "Form"
 msgstr ""
 
 #: status-filter-view.ui:32
-msgctxt "StatusFilterView|"
 msgid "Show Packages with Status"
 msgstr ""
 
 #: status-filter-view.ui:63
-msgctxt "StatusFilterView|"
 msgid "Install"
 msgstr ""
 
 #: status-filter-view.ui:83
-msgctxt "StatusFilterView|"
 msgid "Update"
 msgstr ""
 
 #: status-filter-view.ui:103
-msgctxt "StatusFilterView|"
 msgid "Auto-Install"
 msgstr ""
 
 #: status-filter-view.ui:123
-msgctxt "StatusFilterView|"
 msgid "Auto-Update"
 msgstr ""
 
 #: status-filter-view.ui:143
-msgctxt "StatusFilterView|"
 msgid "Taboo"
 msgstr ""
 
 #: status-filter-view.ui:160
-msgctxt "StatusFilterView|"
 msgid "Protected"
 msgstr ""
 
 #: status-filter-view.ui:193
-msgctxt "StatusFilterView|"
 msgid "Keep"
 msgstr ""
 
 #: status-filter-view.ui:210
-msgctxt "StatusFilterView|"
 msgid "Do Not Install"
 msgstr ""
 
 #: status-filter-view.ui:259
-msgctxt "StatusFilterView|"
 msgid "Delete"
 msgstr ""
 
 #: status-filter-view.ui:279
-msgctxt "StatusFilterView|"
 msgid "Auto-Delete"
 msgstr ""
 
 #: status-filter-view.ui:302
-msgctxt "StatusFilterView|"
 msgid "<i>Middle-click on a status to show only this one</i>"
 msgstr ""
 
 #: status-filter-view.ui:354
-msgctxt "StatusFilterView|"
 msgid "Defaults"
 msgstr ""
 
 #: status-filter-view.ui:361
-msgctxt "StatusFilterView|"
 msgid "Refresh List"
 msgstr ""
 
 #: summary-page.ui:15
-msgctxt "SummaryPage|"
 msgid "Form"
 msgstr ""
 
 #: summary-page.ui:36
-msgctxt "SummaryPage|"
 msgid "Summary"
 msgstr ""
 
 #: summary-page.ui:52
-msgctxt "SummaryPage|"
 msgid ""
 "Packages installed: 2\n"
 "\n"
@@ -467,59 +380,48 @@ msgid ""
 msgstr ""
 
 #: summary-page.ui:92
-msgctxt "SummaryPage|"
 msgid "Automatically closing in"
 msgstr ""
 
 #: summary-page.ui:99
-msgctxt "SummaryPage|"
 msgid "10"
 msgstr ""
 
 #: summary-page.ui:122
-msgctxt "SummaryPage|"
 msgid "&Stop"
 msgstr ""
 
 #: summary-page.ui:132
-msgctxt "SummaryPage|"
 msgid "..."
 msgstr ""
 
 #: summary-page.ui:172
-msgctxt "SummaryPage|"
 msgid "&Back"
 msgstr ""
 
 #: summary-page.ui:179
-msgctxt "SummaryPage|"
 msgid "&Finish"
 msgstr ""
 
 #: updates-filter-view.ui:14
-msgctxt "UpdatesFilterView|"
 msgid "Form"
 msgstr ""
 
 #: updates-filter-view.ui:35
-msgctxt "UpdatesFilterView|"
 msgid "Updates"
 msgstr ""
 
 #: updates-filter-view.ui:48
-msgctxt "UpdatesFilterView|"
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
 msgstr ""
 
 #: updates-filter-view.ui:98
-msgctxt "UpdatesFilterView|"
 msgid "Pac&kage Update"
 msgstr ""
 
 #: updates-filter-view.ui:120
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Mark all packages for updating that can be updated without a dependency "
 "problem.\n"
@@ -528,12 +430,10 @@ msgid ""
 msgstr ""
 
 #: updates-filter-view.ui:172
-msgctxt "UpdatesFilterView|"
 msgid "D&ist-Upgrade"
 msgstr ""
 
 #: updates-filter-view.ui:194
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Do a distribution upgrade: Mark all packages for updating that can be "
 "updated without a dependency problem.\n"
@@ -545,7 +445,6 @@ msgid ""
 msgstr ""
 
 #: updates-filter-view.ui:242
-msgctxt "UpdatesFilterView|"
 msgid "Refresh List"
 msgstr ""
 

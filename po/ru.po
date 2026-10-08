@@ -17,17 +17,14 @@ msgstr ""
 "X-Generator: Weblate 2026.9.1\n"
 
 #: about-dialog.ui:14
-msgctxt "AboutDialog|"
 msgid "About Myrlyn"
 msgstr ""
 
 #: about-dialog.ui:36
-msgctxt "AboutDialog|"
 msgid "## Myrlyn "
 msgstr ""
 
 #: about-dialog.ui:65
-msgctxt "AboutDialog|"
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -43,7 +40,6 @@ msgid ""
 msgstr ""
 
 #: about-dialog.ui:107
-msgctxt "AboutDialog|"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -55,466 +51,383 @@ msgid ""
 msgstr ""
 
 #: init-repos-page.ui:15
-msgctxt "InitReposPage|"
 msgid "Form"
 msgstr ""
 
 #: init-repos-page.ui:36
 #, fuzzy
-msgctxt "InitReposPage|"
 msgid "Initializing Repositories"
 msgstr "&Репозитории"
 
 #: pkg-commit-page.ui:15
-msgctxt "PkgCommitPage|"
 msgid "Form"
 msgstr ""
 
 #: pkg-commit-page.ui:41
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "Installing / Removing Packages"
 msgstr "Установить &рекомендуемые пакеты"
 
 #: pkg-commit-page.ui:61
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "Hide &Details"
 msgstr "&Подробнее..."
 
 #: pkg-commit-page.ui:113
-msgctxt "PkgCommitPage|"
 msgid "To Do"
 msgstr ""
 
 #: pkg-commit-page.ui:238
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "Downloads"
 msgstr "Размер загрузки:"
 
 #: pkg-commit-page.ui:282
-msgctxt "PkgCommitPage|"
 msgid "Doing"
 msgstr ""
 
 #: pkg-commit-page.ui:376
-msgctxt "PkgCommitPage|"
 msgid "Done"
 msgstr ""
 
 #: pkg-commit-page.ui:489
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "&Cancel"
 msgstr "&Отмена"
 
 #: pkg-commit-page.ui:548
-msgctxt "PkgCommitPage|"
 msgid "Show &Summary Page"
 msgstr ""
 
 #: progress-dialog.ui:14
 #, fuzzy
-msgctxt "ProgressDialog|"
 msgid "Working..."
 msgstr "Выполняется поиск..."
 
 #: progress-dialog.ui:79
 #, fuzzy
-msgctxt "ProgressDialog|"
 msgid "&Close"
 msgstr "&Закрыть"
 
 #: repo-config.ui:14
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "Repository Configuration"
 msgstr "Конфи&гурация"
 
 #: repo-config.ui:41
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "**Repository Configuration**"
 msgstr "Конфи&гурация"
 
 #: repo-config.ui:94
-msgctxt "RepoConfig|"
 msgid "**PackMan**"
 msgstr ""
 
 #: repo-config.ui:128
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "URL:"
 msgstr "URL:"
 
 #: repo-config.ui:154
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "Raw URL:"
 msgstr "URL:"
 
 #: repo-config.ui:208
-msgctxt "RepoConfig|"
 msgid "&Priority:"
 msgstr ""
 
 #: repo-config.ui:248
-msgctxt "RepoConfig|"
 msgid "Ena&bled"
 msgstr ""
 
 #: repo-config.ui:258
-msgctxt "RepoConfig|"
 msgid "Auto-Re&fresh"
 msgstr ""
 
 #: repo-config.ui:281
-msgctxt "RepoConfig|"
 msgid "1: highest; 200: lowest"
 msgstr ""
 
 #: repo-config.ui:334
-msgctxt "RepoConfig|"
 msgid "&Add"
 msgstr ""
 
 #: repo-config.ui:341
-msgctxt "RepoConfig|"
 msgid "&Edit"
 msgstr ""
 
 #: repo-config.ui:348
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "&Delete"
 msgstr "Удалить"
 
 #: repo-config.ui:368
-msgctxt "RepoConfig|"
 msgid "<i>Restart needed!</i>"
 msgstr ""
 
 #: repo-config.ui:378
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "&Close"
 msgstr "&Закрыть"
 
 #: repo-edit-add.ui:98
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "Custom &Repository"
 msgstr "&Репозитории"
 
 #: repo-edit-add.ui:108
-msgctxt "RepoEdit|"
 msgid "Co&mmunity Repository"
 msgstr ""
 
 #: repo-edit-add.ui:254
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "&Name"
 msgstr "Название"
 
 #: repo-edit-add.ui:270
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "Repository Name"
 msgstr "&Репозитории"
 
 #: repo-edit-add.ui:302
-msgctxt "RepoEdit|"
 msgid "Raw &URL"
 msgstr ""
 
 #: repo-edit-add.ui:362
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "&Cancel"
 msgstr "&Отмена"
 
 #: repo-edit-add.ui:369
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "&OK"
 msgstr "&ОК"
 
 #: repo-gpg-key-import-dialog.ui:14
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "GPG Key"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:41
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "## Import Untrusted GPG Key"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:81
 #, fuzzy
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Repository:_"
 msgstr "Репозитории:"
 
 #: repo-gpg-key-import-dialog.ui:101
 #, fuzzy
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_URL:_"
 msgstr "URL:"
 
 #: repo-gpg-key-import-dialog.ui:121
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Fingerprint:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:141
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Name:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:161
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Algorithm:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:181
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key ID:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:201
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Created:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:221
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Expires:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:274
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Trust"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:297
 #, fuzzy
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Cancel"
 msgstr "&Отмена"
 
 #: search-filter-view.ui:14
-msgctxt "SearchFilterView|"
 msgid "Form"
 msgstr ""
 
 #: search-filter-view.ui:43
-msgctxt "SearchFilterView|"
 msgid "Search Text or Pattern"
 msgstr ""
 
 #: search-filter-view.ui:53
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "&Search"
 msgstr "&Поиск"
 
 #: search-filter-view.ui:78
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Search In"
 msgstr "Искать в"
 
 #: search-filter-view.ui:87
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "&Name"
 msgstr "Название"
 
 #: search-filter-view.ui:97
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Su&mmary"
 msgstr "Сводка"
 
 #: search-filter-view.ui:104
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "D&escription"
 msgstr "&Описание"
 
 #: search-filter-view.ui:111
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "RPM P&rovides"
 msgstr "RPM \"П&редоставляет\""
 
 #: search-filter-view.ui:118
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "RPM Re&quires"
 msgstr "RPM \"Тре&бует\""
 
 #: search-filter-view.ui:125
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "File &List"
 msgstr "Список файлов"
 
 #: search-filter-view.ui:159
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Searc&h Mode:"
 msgstr "Режим &поиска:"
 
 #: search-filter-view.ui:170
-msgctxt "SearchFilterView|"
 msgid "Auto"
 msgstr ""
 
 #: search-filter-view.ui:175
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Contains"
 msgstr "Содержит"
 
 #: search-filter-view.ui:180
-msgctxt "SearchFilterView|"
 msgid "Starts With"
 msgstr ""
 
 #: search-filter-view.ui:185
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Exact Match"
 msgstr "Полное совпадение"
 
 #: search-filter-view.ui:190
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Wildcards"
 msgstr "Использовать подстановочные символы"
 
 #: search-filter-view.ui:195
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Regular Expression"
 msgstr "Использовать регулярное выражение"
 
 #: search-filter-view.ui:203
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Detected:"
 msgstr "Защищен"
 
 #: search-filter-view.ui:212
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Case Sens&itive"
 msgstr "С учетом регистра"
 
 #: status-filter-view.ui:14
-msgctxt "StatusFilterView|"
 msgid "Form"
 msgstr ""
 
 #: status-filter-view.ui:32
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Show Packages with Status"
 msgstr "Показывать пакеты с состоянием"
 
 #: status-filter-view.ui:63
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Install"
 msgstr "Установить"
 
 #: status-filter-view.ui:83
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Update"
 msgstr "Обновить"
 
 #: status-filter-view.ui:103
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Auto-Install"
 msgstr "Автоустановка"
 
 #: status-filter-view.ui:123
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Auto-Update"
 msgstr "Автообновление"
 
 #: status-filter-view.ui:143
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Taboo"
 msgstr "Запретить"
 
 #: status-filter-view.ui:160
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Protected"
 msgstr "Защищен"
 
 #: status-filter-view.ui:193
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Keep"
 msgstr "Оставить"
 
 #: status-filter-view.ui:210
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Do Not Install"
 msgstr "Не устанавливать"
 
 #: status-filter-view.ui:259
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Delete"
 msgstr "Удалить"
 
 #: status-filter-view.ui:279
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Auto-Delete"
 msgstr "Автоудаление"
 
 #: status-filter-view.ui:302
-msgctxt "StatusFilterView|"
 msgid "<i>Middle-click on a status to show only this one</i>"
 msgstr ""
 
 #: status-filter-view.ui:354
-msgctxt "StatusFilterView|"
 msgid "Defaults"
 msgstr ""
 
 #: status-filter-view.ui:361
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Refresh List"
 msgstr "&Обновить список"
 
 #: summary-page.ui:15
-msgctxt "SummaryPage|"
 msgid "Form"
 msgstr ""
 
 #: summary-page.ui:36
 #, fuzzy
-msgctxt "SummaryPage|"
 msgid "Summary"
 msgstr "Сводка"
 
 #: summary-page.ui:52
-msgctxt "SummaryPage|"
 msgid ""
 "Packages installed: 2\n"
 "\n"
@@ -527,48 +440,39 @@ msgid ""
 msgstr ""
 
 #: summary-page.ui:92
-msgctxt "SummaryPage|"
 msgid "Automatically closing in"
 msgstr ""
 
 #: summary-page.ui:99
-msgctxt "SummaryPage|"
 msgid "10"
 msgstr ""
 
 #: summary-page.ui:122
-msgctxt "SummaryPage|"
 msgid "&Stop"
 msgstr ""
 
 #: summary-page.ui:132
-msgctxt "SummaryPage|"
 msgid "..."
 msgstr ""
 
 #: summary-page.ui:172
-msgctxt "SummaryPage|"
 msgid "&Back"
 msgstr ""
 
 #: summary-page.ui:179
-msgctxt "SummaryPage|"
 msgid "&Finish"
 msgstr ""
 
 #: updates-filter-view.ui:14
-msgctxt "UpdatesFilterView|"
 msgid "Form"
 msgstr ""
 
 #: updates-filter-view.ui:35
 #, fuzzy
-msgctxt "UpdatesFilterView|"
 msgid "Updates"
 msgstr "Обновить"
 
 #: updates-filter-view.ui:48
-msgctxt "UpdatesFilterView|"
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
@@ -576,12 +480,10 @@ msgstr ""
 
 #: updates-filter-view.ui:98
 #, fuzzy
-msgctxt "UpdatesFilterView|"
 msgid "Pac&kage Update"
 msgstr "Пакет"
 
 #: updates-filter-view.ui:120
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Mark all packages for updating that can be updated without a dependency "
 "problem.\n"
@@ -590,12 +492,10 @@ msgid ""
 msgstr ""
 
 #: updates-filter-view.ui:172
-msgctxt "UpdatesFilterView|"
 msgid "D&ist-Upgrade"
 msgstr ""
 
 #: updates-filter-view.ui:194
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Do a distribution upgrade: Mark all packages for updating that can be "
 "updated without a dependency problem.\n"
@@ -608,7 +508,6 @@ msgstr ""
 
 #: updates-filter-view.ui:242
 #, fuzzy
-msgctxt "UpdatesFilterView|"
 msgid "Refresh List"
 msgstr "&Обновить список"
 

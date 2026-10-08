@@ -16,17 +16,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
-msgctxt "AboutDialog|"
 msgid "About Myrlyn"
 msgstr "Om Myrlyn"
 
 #: about-dialog.ui:36
-msgctxt "AboutDialog|"
 msgid "## Myrlyn "
 msgstr "## Myrlyn "
 
 #: about-dialog.ui:65
-msgctxt "AboutDialog|"
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -53,7 +50,6 @@ msgstr ""
 "beroenden."
 
 #: about-dialog.ui:107
-msgctxt "AboutDialog|"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -71,417 +67,334 @@ msgstr ""
 "- Christoph Grüninger (GitHub: @gruenich)"
 
 #: init-repos-page.ui:15
-msgctxt "InitReposPage|"
 msgid "Form"
 msgstr "Formulär"
 
 #: init-repos-page.ui:36
-msgctxt "InitReposPage|"
 msgid "Initializing Repositories"
 msgstr "Initierar förråd"
 
 #: pkg-commit-page.ui:15
-msgctxt "PkgCommitPage|"
 msgid "Form"
 msgstr "Formulär"
 
 #: pkg-commit-page.ui:41
-msgctxt "PkgCommitPage|"
 msgid "Installing / Removing Packages"
 msgstr "Installera/ta bort paket"
 
 #: pkg-commit-page.ui:61
-msgctxt "PkgCommitPage|"
 msgid "Hide &Details"
 msgstr "Dölj &detaljer"
 
 #: pkg-commit-page.ui:113
-msgctxt "PkgCommitPage|"
 msgid "To Do"
 msgstr "Att göra"
 
 #: pkg-commit-page.ui:238
-msgctxt "PkgCommitPage|"
 msgid "Downloads"
 msgstr "Nedladdningar"
 
 #: pkg-commit-page.ui:282
-msgctxt "PkgCommitPage|"
 msgid "Doing"
 msgstr "Gör"
 
 #: pkg-commit-page.ui:376
-msgctxt "PkgCommitPage|"
 msgid "Done"
 msgstr "Klart"
 
 #: pkg-commit-page.ui:489
-msgctxt "PkgCommitPage|"
 msgid "&Cancel"
 msgstr "&Avbryt"
 
 #: pkg-commit-page.ui:548
-msgctxt "PkgCommitPage|"
 msgid "Show &Summary Page"
 msgstr "Visa &sammanfattningssida"
 
 #: progress-dialog.ui:14
-msgctxt "ProgressDialog|"
 msgid "Working..."
 msgstr "Arbetar..."
 
 #: progress-dialog.ui:79
-msgctxt "ProgressDialog|"
 msgid "&Close"
 msgstr "&Stäng"
 
 #: repo-config.ui:14
-msgctxt "RepoConfig|"
 msgid "Repository Configuration"
 msgstr "Förråd konfiguration"
 
 #: repo-config.ui:41
-msgctxt "RepoConfig|"
 msgid "**Repository Configuration**"
 msgstr "**Förråds konfiguration**"
 
 #: repo-config.ui:94
-msgctxt "RepoConfig|"
 msgid "**PackMan**"
 msgstr "**PackMan**"
 
 #: repo-config.ui:128
-msgctxt "RepoConfig|"
 msgid "URL:"
 msgstr "URL:"
 
 #: repo-config.ui:154
-msgctxt "RepoConfig|"
 msgid "Raw URL:"
 msgstr "Rå URL:"
 
 #: repo-config.ui:208
-msgctxt "RepoConfig|"
 msgid "&Priority:"
 msgstr "&Prioritet:"
 
 #: repo-config.ui:248
-msgctxt "RepoConfig|"
 msgid "Ena&bled"
 msgstr "Akt&iverad"
 
 #: repo-config.ui:258
-msgctxt "RepoConfig|"
 msgid "Auto-Re&fresh"
 msgstr "Automatisk up&pdatering"
 
 #: repo-config.ui:281
-msgctxt "RepoConfig|"
 msgid "1: highest; 200: lowest"
 msgstr "1: högsta; 200: lägsta"
 
 #: repo-config.ui:334
-msgctxt "RepoConfig|"
 msgid "&Add"
 msgstr "&Lägg till"
 
 #: repo-config.ui:341
-msgctxt "RepoConfig|"
 msgid "&Edit"
 msgstr "&Redigera"
 
 #: repo-config.ui:348
-msgctxt "RepoConfig|"
 msgid "&Delete"
 msgstr "&Radera"
 
 #: repo-config.ui:368
-msgctxt "RepoConfig|"
 msgid "<i>Restart needed!</i>"
 msgstr "<i>Omstart krävs!</i>"
 
 #: repo-config.ui:378
-msgctxt "RepoConfig|"
 msgid "&Close"
 msgstr "&Stäng"
 
 #: repo-edit-add.ui:98
-msgctxt "RepoEdit|"
 msgid "Custom &Repository"
 msgstr "Anpassat &förråd"
 
 #: repo-edit-add.ui:108
-msgctxt "RepoEdit|"
 msgid "Co&mmunity Repository"
 msgstr "Ge&menskap förråd"
 
 #: repo-edit-add.ui:254
-msgctxt "RepoEdit|"
 msgid "&Name"
 msgstr "&Namn"
 
 #: repo-edit-add.ui:270
-msgctxt "RepoEdit|"
 msgid "Repository Name"
 msgstr "Förråd namn"
 
 #: repo-edit-add.ui:302
-msgctxt "RepoEdit|"
 msgid "Raw &URL"
 msgstr "Rå &URL"
 
 #: repo-edit-add.ui:362
-msgctxt "RepoEdit|"
 msgid "&Cancel"
 msgstr "&Avbryt"
 
 #: repo-edit-add.ui:369
-msgctxt "RepoEdit|"
 msgid "&OK"
 msgstr "&OK"
 
 #: repo-gpg-key-import-dialog.ui:14
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "GPG Key"
 msgstr "GPG-nyckel"
 
 #: repo-gpg-key-import-dialog.ui:41
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "## Import Untrusted GPG Key"
 msgstr "## Importera otillförlitlig GPG-nyckel"
 
 #: repo-gpg-key-import-dialog.ui:81
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Repository:_"
 msgstr "_Förråd:_"
 
 #: repo-gpg-key-import-dialog.ui:101
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_URL:_"
 msgstr "_URL:_"
 
 #: repo-gpg-key-import-dialog.ui:121
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Fingerprint:_"
 msgstr "_Fingeravtryck:_"
 
 #: repo-gpg-key-import-dialog.ui:141
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Name:_"
 msgstr "_Nyckel namn:_"
 
 #: repo-gpg-key-import-dialog.ui:161
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Algorithm:_"
 msgstr "_Nyckel algoritm:_"
 
 #: repo-gpg-key-import-dialog.ui:181
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key ID:_"
 msgstr "_Nyckel-ID:_"
 
 #: repo-gpg-key-import-dialog.ui:201
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Created:_"
 msgstr "_Skapad:_"
 
 #: repo-gpg-key-import-dialog.ui:221
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Expires:_"
 msgstr "_Går ut:_"
 
 #: repo-gpg-key-import-dialog.ui:274
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Trust"
 msgstr "&Lita på"
 
 #: repo-gpg-key-import-dialog.ui:297
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Cancel"
 msgstr "&Avbryt"
 
 #: search-filter-view.ui:14
-msgctxt "SearchFilterView|"
 msgid "Form"
 msgstr "Formulär"
 
 #: search-filter-view.ui:43
-msgctxt "SearchFilterView|"
 msgid "Search Text or Pattern"
 msgstr "Sök text eller mönster"
 
 #: search-filter-view.ui:53
-msgctxt "SearchFilterView|"
 msgid "&Search"
 msgstr "&Sök"
 
 #: search-filter-view.ui:78
-msgctxt "SearchFilterView|"
 msgid "Search In"
 msgstr "Sök i"
 
 #: search-filter-view.ui:87
-msgctxt "SearchFilterView|"
 msgid "&Name"
 msgstr "&Namn"
 
 #: search-filter-view.ui:97
-msgctxt "SearchFilterView|"
 msgid "Su&mmary"
 msgstr "Sa&mmanfattning"
 
 #: search-filter-view.ui:104
-msgctxt "SearchFilterView|"
 msgid "D&escription"
 msgstr "B&eskrivning"
 
 #: search-filter-view.ui:111
-msgctxt "SearchFilterView|"
 msgid "RPM P&rovides"
 msgstr "RPM t&illhandahåller"
 
 #: search-filter-view.ui:118
-msgctxt "SearchFilterView|"
 msgid "RPM Re&quires"
 msgstr "RPM kr&äver"
 
 #: search-filter-view.ui:125
-msgctxt "SearchFilterView|"
 msgid "File &List"
 msgstr "Fil &lista"
 
 #: search-filter-view.ui:159
-msgctxt "SearchFilterView|"
 msgid "Searc&h Mode:"
 msgstr "Sö&k läge:"
 
 #: search-filter-view.ui:170
-msgctxt "SearchFilterView|"
 msgid "Auto"
 msgstr "Automatisk"
 
 #: search-filter-view.ui:175
-msgctxt "SearchFilterView|"
 msgid "Contains"
 msgstr "Innehåller"
 
 #: search-filter-view.ui:180
-msgctxt "SearchFilterView|"
 msgid "Starts With"
 msgstr "Börjar med"
 
 #: search-filter-view.ui:185
-msgctxt "SearchFilterView|"
 msgid "Exact Match"
 msgstr "Exakt matchning"
 
 #: search-filter-view.ui:190
-msgctxt "SearchFilterView|"
 msgid "Wildcards"
 msgstr "Jokertecken"
 
 #: search-filter-view.ui:195
-msgctxt "SearchFilterView|"
 msgid "Regular Expression"
 msgstr "Reguljärt uttryck"
 
 #: search-filter-view.ui:203
-msgctxt "SearchFilterView|"
 msgid "Detected:"
 msgstr "Upptäckt:"
 
 #: search-filter-view.ui:212
-msgctxt "SearchFilterView|"
 msgid "Case Sens&itive"
 msgstr "Skiftlägeskän&sligt"
 
 #: status-filter-view.ui:14
-msgctxt "StatusFilterView|"
 msgid "Form"
 msgstr "Formulär"
 
 #: status-filter-view.ui:32
-msgctxt "StatusFilterView|"
 msgid "Show Packages with Status"
 msgstr "Visa paket med status"
 
 #: status-filter-view.ui:63
-msgctxt "StatusFilterView|"
 msgid "Install"
 msgstr "Installera"
 
 #: status-filter-view.ui:83
-msgctxt "StatusFilterView|"
 msgid "Update"
 msgstr "Uppdatera"
 
 #: status-filter-view.ui:103
-msgctxt "StatusFilterView|"
 msgid "Auto-Install"
 msgstr "Automatisk installation"
 
 #: status-filter-view.ui:123
-msgctxt "StatusFilterView|"
 msgid "Auto-Update"
 msgstr "Automatisk uppdatering"
 
 #: status-filter-view.ui:143
-msgctxt "StatusFilterView|"
 msgid "Taboo"
 msgstr "Tabu"
 
 #: status-filter-view.ui:160
-msgctxt "StatusFilterView|"
 msgid "Protected"
 msgstr "Skyddad"
 
 #: status-filter-view.ui:193
-msgctxt "StatusFilterView|"
 msgid "Keep"
 msgstr "Behåll"
 
 #: status-filter-view.ui:210
-msgctxt "StatusFilterView|"
 msgid "Do Not Install"
 msgstr "Installera inte"
 
 #: status-filter-view.ui:259
-msgctxt "StatusFilterView|"
 msgid "Delete"
 msgstr "Radera"
 
 #: status-filter-view.ui:279
-msgctxt "StatusFilterView|"
 msgid "Auto-Delete"
 msgstr "Automatisk radering"
 
 #: status-filter-view.ui:302
-msgctxt "StatusFilterView|"
 msgid "<i>Middle-click on a status to show only this one</i>"
 msgstr "<i>Mitten klicka på en status för att bara visa denna</i>"
 
 #: status-filter-view.ui:354
-msgctxt "StatusFilterView|"
 msgid "Defaults"
 msgstr "Standard"
 
 #: status-filter-view.ui:361
-msgctxt "StatusFilterView|"
 msgid "Refresh List"
 msgstr "Uppdatera lista"
 
 #: summary-page.ui:15
-msgctxt "SummaryPage|"
 msgid "Form"
 msgstr "Formulär"
 
 #: summary-page.ui:36
-msgctxt "SummaryPage|"
 msgid "Summary"
 msgstr "Sammanfattning"
 
 #: summary-page.ui:52
-msgctxt "SummaryPage|"
 msgid ""
 "Packages installed: 2\n"
 "\n"
@@ -502,47 +415,38 @@ msgstr ""
 "\n"
 
 #: summary-page.ui:92
-msgctxt "SummaryPage|"
 msgid "Automatically closing in"
 msgstr "Stänger automatiskt om"
 
 #: summary-page.ui:99
-msgctxt "SummaryPage|"
 msgid "10"
 msgstr "10"
 
 #: summary-page.ui:122
-msgctxt "SummaryPage|"
 msgid "&Stop"
 msgstr "&Stopp"
 
 #: summary-page.ui:132
-msgctxt "SummaryPage|"
 msgid "..."
 msgstr "..."
 
 #: summary-page.ui:172
-msgctxt "SummaryPage|"
 msgid "&Back"
 msgstr "&Tillbaka"
 
 #: summary-page.ui:179
-msgctxt "SummaryPage|"
 msgid "&Finish"
 msgstr "&Slutför"
 
 #: updates-filter-view.ui:14
-msgctxt "UpdatesFilterView|"
 msgid "Form"
 msgstr "Formulär"
 
 #: updates-filter-view.ui:35
-msgctxt "UpdatesFilterView|"
 msgid "Updates"
 msgstr "Uppdateringar"
 
 #: updates-filter-view.ui:48
-msgctxt "UpdatesFilterView|"
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
@@ -551,12 +455,10 @@ msgstr ""
 "tillgänglig än den version som redan är installerad."
 
 #: updates-filter-view.ui:98
-msgctxt "UpdatesFilterView|"
 msgid "Pac&kage Update"
 msgstr "Pak&et uppdatering"
 
 #: updates-filter-view.ui:120
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Mark all packages for updating that can be updated without a dependency "
 "problem.\n"
@@ -568,12 +470,10 @@ msgstr ""
 "Detta motsvarar \"zypper up\" kommandot."
 
 #: updates-filter-view.ui:172
-msgctxt "UpdatesFilterView|"
 msgid "D&ist-Upgrade"
 msgstr "D&ist-uppgradering"
 
 #: updates-filter-view.ui:194
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Do a distribution upgrade: Mark all packages for updating that can be "
 "updated without a dependency problem.\n"
@@ -592,7 +492,6 @@ msgstr ""
 "Detta motsvarar kommandot \"zypper dup\" kommandot."
 
 #: updates-filter-view.ui:242
-msgctxt "UpdatesFilterView|"
 msgid "Refresh List"
 msgstr "Uppdatera lista"
 

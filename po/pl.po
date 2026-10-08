@@ -20,17 +20,14 @@ msgstr ""
 "X-Generator: Weblate 2026.9.1\n"
 
 #: about-dialog.ui:14
-msgctxt "AboutDialog|"
 msgid "About Myrlyn"
 msgstr "O programie Myrlyn"
 
 #: about-dialog.ui:36
-msgctxt "AboutDialog|"
 msgid "## Myrlyn "
 msgstr "## Myrlyn "
 
 #: about-dialog.ui:65
-msgctxt "AboutDialog|"
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -58,7 +55,6 @@ msgstr ""
 "od niego niezależnego i stworzonego na bazie QT."
 
 #: about-dialog.ui:107
-msgctxt "AboutDialog|"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -77,419 +73,336 @@ msgstr ""
 "- Christoph Grüninger (GitHub: @gruenich)"
 
 #: init-repos-page.ui:15
-msgctxt "InitReposPage|"
 msgid "Form"
 msgstr "Formularz"
 
 #: init-repos-page.ui:36
-msgctxt "InitReposPage|"
 msgid "Initializing Repositories"
 msgstr "Inicjalizacja repozytoriów"
 
 #: pkg-commit-page.ui:15
-msgctxt "PkgCommitPage|"
 msgid "Form"
 msgstr "Formularz"
 
 #: pkg-commit-page.ui:41
-msgctxt "PkgCommitPage|"
 msgid "Installing / Removing Packages"
 msgstr "Instalacja / Usuwanie pakietów"
 
 #: pkg-commit-page.ui:61
-msgctxt "PkgCommitPage|"
 msgid "Hide &Details"
 msgstr "Ukryj szcz&egóły"
 
 #: pkg-commit-page.ui:113
-msgctxt "PkgCommitPage|"
 msgid "To Do"
 msgstr "Kolejka zadań"
 
 #: pkg-commit-page.ui:238
-msgctxt "PkgCommitPage|"
 msgid "Downloads"
 msgstr "Pobieranie"
 
 #: pkg-commit-page.ui:282
-msgctxt "PkgCommitPage|"
 msgid "Doing"
 msgstr "W toku"
 
 #: pkg-commit-page.ui:376
-msgctxt "PkgCommitPage|"
 msgid "Done"
 msgstr "Gotowe"
 
 #: pkg-commit-page.ui:489
-msgctxt "PkgCommitPage|"
 msgid "&Cancel"
 msgstr "&Anuluj"
 
 #: pkg-commit-page.ui:548
-msgctxt "PkgCommitPage|"
 msgid "Show &Summary Page"
 msgstr "Pokaż pod&sumowanie"
 
 #: progress-dialog.ui:14
-msgctxt "ProgressDialog|"
 msgid "Working..."
 msgstr "W toku..."
 
 #: progress-dialog.ui:79
-msgctxt "ProgressDialog|"
 msgid "&Close"
 msgstr "&Zamknij"
 
 #: repo-config.ui:14
-msgctxt "RepoConfig|"
 msgid "Repository Configuration"
 msgstr "Konfiguracja repozytorium"
 
 #: repo-config.ui:41
-msgctxt "RepoConfig|"
 msgid "**Repository Configuration**"
 msgstr "**Konfiguracja repozytoriów**"
 
 #: repo-config.ui:94
-msgctxt "RepoConfig|"
 msgid "**PackMan**"
 msgstr "**PackMan**"
 
 #: repo-config.ui:128
-msgctxt "RepoConfig|"
 msgid "URL:"
 msgstr "Adres URL:"
 
 #: repo-config.ui:154
-msgctxt "RepoConfig|"
 msgid "Raw URL:"
 msgstr "Adres Raw URL:"
 
 #: repo-config.ui:208
-msgctxt "RepoConfig|"
 msgid "&Priority:"
 msgstr "&Priorytet:"
 
 #: repo-config.ui:248
-msgctxt "RepoConfig|"
 msgid "Ena&bled"
 msgstr "&Włączone"
 
 #: repo-config.ui:258
-msgctxt "RepoConfig|"
 msgid "Auto-Re&fresh"
 msgstr "&Autoodświeżanie"
 
 #: repo-config.ui:281
-msgctxt "RepoConfig|"
 msgid "1: highest; 200: lowest"
 msgstr "1: najwyższy; 200:najniższy"
 
 #: repo-config.ui:334
-msgctxt "RepoConfig|"
 msgid "&Add"
 msgstr "&Dodaj"
 
 #: repo-config.ui:341
-msgctxt "RepoConfig|"
 msgid "&Edit"
 msgstr "&Edytuj"
 
 #: repo-config.ui:348
-msgctxt "RepoConfig|"
 msgid "&Delete"
 msgstr "&Usuń"
 
 #: repo-config.ui:368
-msgctxt "RepoConfig|"
 msgid "<i>Restart needed!</i>"
 msgstr "<i>Konieczny restart!</i>"
 
 #: repo-config.ui:378
-msgctxt "RepoConfig|"
 msgid "&Close"
 msgstr "&Zamknij"
 
 #: repo-edit-add.ui:98
-msgctxt "RepoEdit|"
 msgid "Custom &Repository"
 msgstr "&Repozytorium własne"
 
 #: repo-edit-add.ui:108
-msgctxt "RepoEdit|"
 msgid "Co&mmunity Repository"
 msgstr "Repozytorium s&połeczności"
 
 #: repo-edit-add.ui:254
-msgctxt "RepoEdit|"
 msgid "&Name"
 msgstr "&Nazwa"
 
 #: repo-edit-add.ui:270
-msgctxt "RepoEdit|"
 msgid "Repository Name"
 msgstr "Nazwa &repozytorium"
 
 #: repo-edit-add.ui:302
-msgctxt "RepoEdit|"
 msgid "Raw &URL"
 msgstr "Raw &URL"
 
 #: repo-edit-add.ui:362
-msgctxt "RepoEdit|"
 msgid "&Cancel"
 msgstr "&Anuluj"
 
 #: repo-edit-add.ui:369
-msgctxt "RepoEdit|"
 msgid "&OK"
 msgstr "&OK"
 
 #: repo-gpg-key-import-dialog.ui:14
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "GPG Key"
 msgstr "Klucz GPG"
 
 #: repo-gpg-key-import-dialog.ui:41
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "## Import Untrusted GPG Key"
 msgstr "## Import niezaufanego klucza GPG"
 
 #: repo-gpg-key-import-dialog.ui:81
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Repository:_"
 msgstr "_Repozytorium:_"
 
 #: repo-gpg-key-import-dialog.ui:101
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_URL:_"
 msgstr "_Adres URL:_"
 
 #: repo-gpg-key-import-dialog.ui:121
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Fingerprint:_"
 msgstr "_Odcisk palca:_"
 
 #: repo-gpg-key-import-dialog.ui:141
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Name:_"
 msgstr "_Nazwa klucza:_"
 
 #: repo-gpg-key-import-dialog.ui:161
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Algorithm:_"
 msgstr "_Klucz algorytmu:_"
 
 #: repo-gpg-key-import-dialog.ui:181
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key ID:_"
 msgstr "_ID klucza:_"
 
 #: repo-gpg-key-import-dialog.ui:201
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Created:_"
 msgstr "_Utworzone:_"
 
 #: repo-gpg-key-import-dialog.ui:221
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Expires:_"
 msgstr "_Wygasa:_"
 
 #: repo-gpg-key-import-dialog.ui:274
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Trust"
 msgstr "&Zaufaj"
 
 #: repo-gpg-key-import-dialog.ui:297
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Cancel"
 msgstr "&Anuluj"
 
 #: search-filter-view.ui:14
-msgctxt "SearchFilterView|"
 msgid "Form"
 msgstr "Formularz"
 
 #: search-filter-view.ui:43
-msgctxt "SearchFilterView|"
 msgid "Search Text or Pattern"
 msgstr "Szukaj tekst lub wzorce"
 
 #: search-filter-view.ui:53
-msgctxt "SearchFilterView|"
 msgid "&Search"
 msgstr "&Szukaj"
 
 #: search-filter-view.ui:78
-msgctxt "SearchFilterView|"
 msgid "Search In"
 msgstr "Szukaj w"
 
 #: search-filter-view.ui:87
-msgctxt "SearchFilterView|"
 msgid "&Name"
 msgstr "&Nazwa"
 
 #: search-filter-view.ui:97
-msgctxt "SearchFilterView|"
 msgid "Su&mmary"
 msgstr "Podsu&mowanie"
 
 #: search-filter-view.ui:104
-msgctxt "SearchFilterView|"
 msgid "D&escription"
 msgstr "&Opis"
 
 #: search-filter-view.ui:111
-msgctxt "SearchFilterView|"
 msgid "RPM P&rovides"
 msgstr "RPM \"&dostarcza\""
 
 #: search-filter-view.ui:118
-msgctxt "SearchFilterView|"
 msgid "RPM Re&quires"
 msgstr "RPM \"wymaga\""
 
 #: search-filter-view.ui:125
-msgctxt "SearchFilterView|"
 msgid "File &List"
 msgstr "&Lista plików"
 
 #: search-filter-view.ui:159
-msgctxt "SearchFilterView|"
 msgid "Searc&h Mode:"
 msgstr "&Tryb wyszukiwania:"
 
 #: search-filter-view.ui:170
-msgctxt "SearchFilterView|"
 msgid "Auto"
 msgstr "Automatycznie"
 
 #: search-filter-view.ui:175
-msgctxt "SearchFilterView|"
 msgid "Contains"
 msgstr "Zawiera"
 
 #: search-filter-view.ui:180
-msgctxt "SearchFilterView|"
 msgid "Starts With"
 msgstr "Zaczyna się od"
 
 #: search-filter-view.ui:185
-msgctxt "SearchFilterView|"
 msgid "Exact Match"
 msgstr "Pasuje dokładnie"
 
 #: search-filter-view.ui:190
-msgctxt "SearchFilterView|"
 msgid "Wildcards"
 msgstr "Użyj wyrażeń wieloznacznych"
 
 #: search-filter-view.ui:195
-msgctxt "SearchFilterView|"
 msgid "Regular Expression"
 msgstr "Użyj wyrażenia regularnego"
 
 #: search-filter-view.ui:203
-msgctxt "SearchFilterView|"
 msgid "Detected:"
 msgstr "Wykryto:"
 
 #: search-filter-view.ui:212
-msgctxt "SearchFilterView|"
 msgid "Case Sens&itive"
 msgstr "Rozróżniaj wielkość &liter"
 
 #: status-filter-view.ui:14
-msgctxt "StatusFilterView|"
 msgid "Form"
 msgstr "Formularz"
 
 #: status-filter-view.ui:32
-msgctxt "StatusFilterView|"
 msgid "Show Packages with Status"
 msgstr "Pokaż pakiety ze statusem"
 
 #: status-filter-view.ui:63
-msgctxt "StatusFilterView|"
 msgid "Install"
 msgstr "Zainstaluj"
 
 #: status-filter-view.ui:83
-msgctxt "StatusFilterView|"
 msgid "Update"
 msgstr "Aktualizacja"
 
 #: status-filter-view.ui:103
-msgctxt "StatusFilterView|"
 msgid "Auto-Install"
 msgstr "Instalacja automatyczna"
 
 #: status-filter-view.ui:123
-msgctxt "StatusFilterView|"
 msgid "Auto-Update"
 msgstr "Aktualizacja automatyczna"
 
 #: status-filter-view.ui:143
-msgctxt "StatusFilterView|"
 msgid "Taboo"
 msgstr "Tabu"
 
 #: status-filter-view.ui:160
-msgctxt "StatusFilterView|"
 msgid "Protected"
 msgstr "Chroniony"
 
 #: status-filter-view.ui:193
-msgctxt "StatusFilterView|"
 msgid "Keep"
 msgstr "Pozostaw"
 
 #: status-filter-view.ui:210
-msgctxt "StatusFilterView|"
 msgid "Do Not Install"
 msgstr "Nie instaluj"
 
 #: status-filter-view.ui:259
-msgctxt "StatusFilterView|"
 msgid "Delete"
 msgstr "Usuń"
 
 #: status-filter-view.ui:279
-msgctxt "StatusFilterView|"
 msgid "Auto-Delete"
 msgstr "Usuwanie automatyczne"
 
 #: status-filter-view.ui:302
-msgctxt "StatusFilterView|"
 msgid "<i>Middle-click on a status to show only this one</i>"
 msgstr ""
 "<i>Wciśnięcie kółka myszy na statusie wyświetla pakiety tylko z tym "
 "statusem</i>"
 
 #: status-filter-view.ui:354
-msgctxt "StatusFilterView|"
 msgid "Defaults"
 msgstr "Domyślne"
 
 #: status-filter-view.ui:361
-msgctxt "StatusFilterView|"
 msgid "Refresh List"
 msgstr "Odśwież listę"
 
 #: summary-page.ui:15
-msgctxt "SummaryPage|"
 msgid "Form"
 msgstr "Formularz"
 
 #: summary-page.ui:36
-msgctxt "SummaryPage|"
 msgid "Summary"
 msgstr "Podsumowanie"
 
 #: summary-page.ui:52
-msgctxt "SummaryPage|"
 msgid ""
 "Packages installed: 2\n"
 "\n"
@@ -510,47 +423,38 @@ msgstr ""
 "\n"
 
 #: summary-page.ui:92
-msgctxt "SummaryPage|"
 msgid "Automatically closing in"
 msgstr "Zamknij automatycznie za"
 
 #: summary-page.ui:99
-msgctxt "SummaryPage|"
 msgid "10"
 msgstr "10"
 
 #: summary-page.ui:122
-msgctxt "SummaryPage|"
 msgid "&Stop"
 msgstr "&Stop"
 
 #: summary-page.ui:132
-msgctxt "SummaryPage|"
 msgid "..."
 msgstr "..."
 
 #: summary-page.ui:172
-msgctxt "SummaryPage|"
 msgid "&Back"
 msgstr "&Powrót"
 
 #: summary-page.ui:179
-msgctxt "SummaryPage|"
 msgid "&Finish"
 msgstr "&Zakończ"
 
 #: updates-filter-view.ui:14
-msgctxt "UpdatesFilterView|"
 msgid "Form"
 msgstr "Formularz"
 
 #: updates-filter-view.ui:35
-msgctxt "UpdatesFilterView|"
 msgid "Updates"
 msgstr "Aktualizacje"
 
 #: updates-filter-view.ui:48
-msgctxt "UpdatesFilterView|"
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
@@ -559,12 +463,10 @@ msgstr ""
 "są pakiety w nowszej wersji niż te już zainstalowane."
 
 #: updates-filter-view.ui:98
-msgctxt "UpdatesFilterView|"
 msgid "Pac&kage Update"
 msgstr "Aktualizacja pa&kietów"
 
 #: updates-filter-view.ui:120
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Mark all packages for updating that can be updated without a dependency "
 "problem.\n"
@@ -578,12 +480,10 @@ msgstr ""
 "konsoli.</i>"
 
 #: updates-filter-view.ui:172
-msgctxt "UpdatesFilterView|"
 msgid "D&ist-Upgrade"
 msgstr "Aktualizacja d&ystrybucji"
 
 #: updates-filter-view.ui:194
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Do a distribution upgrade: Mark all packages for updating that can be "
 "updated without a dependency problem.\n"
@@ -602,7 +502,6 @@ msgstr ""
 "Działanie  jest równoważne z wykonaniem polecenia \"zypper dup\" w konsoli."
 
 #: updates-filter-view.ui:242
-msgctxt "UpdatesFilterView|"
 msgid "Refresh List"
 msgstr "Odśwież listę"
 

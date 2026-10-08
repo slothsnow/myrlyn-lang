@@ -16,17 +16,14 @@ msgstr ""
 "X-Generator: Weblate 2026.9.1\n"
 
 #: about-dialog.ui:14
-msgctxt "AboutDialog|"
 msgid "About Myrlyn"
 msgstr ""
 
 #: about-dialog.ui:36
-msgctxt "AboutDialog|"
 msgid "## Myrlyn "
 msgstr ""
 
 #: about-dialog.ui:65
-msgctxt "AboutDialog|"
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -42,7 +39,6 @@ msgid ""
 msgstr ""
 
 #: about-dialog.ui:107
-msgctxt "AboutDialog|"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -54,485 +50,402 @@ msgid ""
 msgstr ""
 
 #: init-repos-page.ui:15
-msgctxt "InitReposPage|"
 msgid "Form"
 msgstr ""
 
 #: init-repos-page.ui:36
 #, fuzzy
-msgctxt "InitReposPage|"
 msgid "Initializing Repositories"
 msgstr "&Dépôts"
 
 #: pkg-commit-page.ui:15
-msgctxt "PkgCommitPage|"
 msgid "Form"
 msgstr ""
 
 #: pkg-commit-page.ui:41
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "Installing / Removing Packages"
 msgstr "Installer les paquets &Recommandés"
 
 # TLABEL backup_2002_03_14_2340__137
 #: pkg-commit-page.ui:61
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "Hide &Details"
 msgstr "&Détails..."
 
 #: pkg-commit-page.ui:113
-msgctxt "PkgCommitPage|"
 msgid "To Do"
 msgstr ""
 
 #: pkg-commit-page.ui:238
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "Downloads"
 msgstr "Taille du fichier à télécharger :"
 
 #: pkg-commit-page.ui:282
-msgctxt "PkgCommitPage|"
 msgid "Doing"
 msgstr ""
 
 #: pkg-commit-page.ui:376
-msgctxt "PkgCommitPage|"
 msgid "Done"
 msgstr ""
 
 #: pkg-commit-page.ui:489
 #, fuzzy
-msgctxt "PkgCommitPage|"
 msgid "&Cancel"
 msgstr "&Annuler"
 
 #: pkg-commit-page.ui:548
-msgctxt "PkgCommitPage|"
 msgid "Show &Summary Page"
 msgstr ""
 
 # TLABEL backup_2002_03_14_2340__88
 #: progress-dialog.ui:14
 #, fuzzy
-msgctxt "ProgressDialog|"
 msgid "Working..."
 msgstr "Recherche..."
 
 # TLABEL menu_2002_01_04_0147__23
 #: progress-dialog.ui:79
 #, fuzzy
-msgctxt "ProgressDialog|"
 msgid "&Close"
 msgstr "&Fermer"
 
 # TLABEL printerdb_2002_03_15_0210__3
 #: repo-config.ui:14
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "Repository Configuration"
 msgstr "Confi&guration"
 
 # TLABEL printerdb_2002_03_15_0210__3
 #: repo-config.ui:41
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "**Repository Configuration**"
 msgstr "Confi&guration"
 
 #: repo-config.ui:94
-msgctxt "RepoConfig|"
 msgid "**PackMan**"
 msgstr ""
 
 #: repo-config.ui:128
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "URL:"
 msgstr "URL :"
 
 #: repo-config.ui:154
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "Raw URL:"
 msgstr "URL :"
 
 #: repo-config.ui:208
-msgctxt "RepoConfig|"
 msgid "&Priority:"
 msgstr ""
 
 #: repo-config.ui:248
-msgctxt "RepoConfig|"
 msgid "Ena&bled"
 msgstr ""
 
 #: repo-config.ui:258
-msgctxt "RepoConfig|"
 msgid "Auto-Re&fresh"
 msgstr ""
 
 #: repo-config.ui:281
-msgctxt "RepoConfig|"
 msgid "1: highest; 200: lowest"
 msgstr ""
 
 #: repo-config.ui:334
-msgctxt "RepoConfig|"
 msgid "&Add"
 msgstr ""
 
 #: repo-config.ui:341
-msgctxt "RepoConfig|"
 msgid "&Edit"
 msgstr ""
 
 #: repo-config.ui:348
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "&Delete"
 msgstr "Supprimer"
 
 #: repo-config.ui:368
-msgctxt "RepoConfig|"
 msgid "<i>Restart needed!</i>"
 msgstr ""
 
 # TLABEL menu_2002_01_04_0147__23
 #: repo-config.ui:378
 #, fuzzy
-msgctxt "RepoConfig|"
 msgid "&Close"
 msgstr "&Fermer"
 
 #: repo-edit-add.ui:98
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "Custom &Repository"
 msgstr "&Dépôts"
 
 #: repo-edit-add.ui:108
-msgctxt "RepoEdit|"
 msgid "Co&mmunity Repository"
 msgstr ""
 
 #: repo-edit-add.ui:254
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "&Name"
 msgstr "Nom"
 
 #: repo-edit-add.ui:270
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "Repository Name"
 msgstr "&Dépôts"
 
 #: repo-edit-add.ui:302
-msgctxt "RepoEdit|"
 msgid "Raw &URL"
 msgstr ""
 
 #: repo-edit-add.ui:362
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "&Cancel"
 msgstr "&Annuler"
 
 #: repo-edit-add.ui:369
 #, fuzzy
-msgctxt "RepoEdit|"
 msgid "&OK"
 msgstr "&Vu"
 
 #: repo-gpg-key-import-dialog.ui:14
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "GPG Key"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:41
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "## Import Untrusted GPG Key"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:81
 #, fuzzy
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Repository:_"
 msgstr "Dépôts :"
 
 #: repo-gpg-key-import-dialog.ui:101
 #, fuzzy
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_URL:_"
 msgstr "URL :"
 
 #: repo-gpg-key-import-dialog.ui:121
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Fingerprint:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:141
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Name:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:161
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key Algorithm:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:181
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Key ID:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:201
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Created:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:221
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "_Expires:_"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:274
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Trust"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:297
 #, fuzzy
-msgctxt "RepoGpgKeyImportDialog|"
 msgid "&Cancel"
 msgstr "&Annuler"
 
 #: search-filter-view.ui:14
-msgctxt "SearchFilterView|"
 msgid "Form"
 msgstr ""
 
 #: search-filter-view.ui:43
-msgctxt "SearchFilterView|"
 msgid "Search Text or Pattern"
 msgstr ""
 
 #: search-filter-view.ui:53
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "&Search"
 msgstr "&Rechercher"
 
 # TLABEL backup_2002_03_14_2340__52
 #: search-filter-view.ui:78
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Search In"
 msgstr "Rechercher dans"
 
 #: search-filter-view.ui:87
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "&Name"
 msgstr "Nom"
 
 # TLABEL network_2002_08_07_0216__125
 #: search-filter-view.ui:97
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Su&mmary"
 msgstr "Résu&mé"
 
 # TLABEL autoinst_2002_08_07_0216__343
 #: search-filter-view.ui:104
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "D&escription"
 msgstr "&Description"
 
 # TLABEL network_2002_08_07_0216__11
 #: search-filter-view.ui:111
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "RPM P&rovides"
 msgstr "Le RPM \"fou&rnit\""
 
 # TLABEL hwinfo_2002_01_04_0147__14
 #: search-filter-view.ui:118
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "RPM Re&quires"
 msgstr "Le RPM \"re&quiert\""
 
 #: search-filter-view.ui:125
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "File &List"
 msgstr "Liste de fichiers"
 
 # TLABEL network_2002_03_14_2340__155
 #: search-filter-view.ui:159
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Searc&h Mode:"
 msgstr "&Mode de recherche :"
 
 #: search-filter-view.ui:170
-msgctxt "SearchFilterView|"
 msgid "Auto"
 msgstr ""
 
 # TLABEL wizard_2002_01_04_0147__23
 #: search-filter-view.ui:175
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Contains"
 msgstr "Contient"
 
 #: search-filter-view.ui:180
-msgctxt "SearchFilterView|"
 msgid "Starts With"
 msgstr ""
 
 #: search-filter-view.ui:185
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Exact Match"
 msgstr "Correspondance exacte"
 
 # TLABEL nfs_server_2002_01_04_0147__23
 #: search-filter-view.ui:190
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Wildcards"
 msgstr "Utiliser des caractères jokers"
 
 #: search-filter-view.ui:195
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Regular Expression"
 msgstr "Utiliser une expression régulière"
 
 # TLABEL wizard_2002_01_04_0147__42
 #: search-filter-view.ui:203
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Detected:"
 msgstr "Protégé"
 
 #: search-filter-view.ui:212
 #, fuzzy
-msgctxt "SearchFilterView|"
 msgid "Case Sens&itive"
 msgstr "Respec&ter la casse"
 
 #: status-filter-view.ui:14
-msgctxt "StatusFilterView|"
 msgid "Form"
 msgstr ""
 
 # TLABEL packages_2002_01_04_0147__156
 #: status-filter-view.ui:32
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Show Packages with Status"
 msgstr "Afficher les paquets avec l'état"
 
 #: status-filter-view.ui:63
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Install"
 msgstr "Installer"
 
 #: status-filter-view.ui:83
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Update"
 msgstr "Mise à jour"
 
 #: status-filter-view.ui:103
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Auto-Install"
 msgstr "Installation automatique"
 
 #: status-filter-view.ui:123
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Auto-Update"
 msgstr "Mise à jour automatique"
 
 # TLABEL partitioning_2002_01_04_0147__418
 #: status-filter-view.ui:143
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Taboo"
 msgstr "Protégé"
 
 # TLABEL wizard_2002_01_04_0147__42
 #: status-filter-view.ui:160
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Protected"
 msgstr "Protégé"
 
 #: status-filter-view.ui:193
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Keep"
 msgstr "Conserver"
 
 #: status-filter-view.ui:210
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Do Not Install"
 msgstr "Ne Pas installer"
 
 #: status-filter-view.ui:259
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Delete"
 msgstr "Supprimer"
 
 #: status-filter-view.ui:279
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Auto-Delete"
 msgstr "Suppression automatique"
 
 #: status-filter-view.ui:302
-msgctxt "StatusFilterView|"
 msgid "<i>Middle-click on a status to show only this one</i>"
 msgstr ""
 
 #: status-filter-view.ui:354
-msgctxt "StatusFilterView|"
 msgid "Defaults"
 msgstr ""
 
 # TLABEL runlevel_2002_01_04_0147__45
 #: status-filter-view.ui:361
 #, fuzzy
-msgctxt "StatusFilterView|"
 msgid "Refresh List"
 msgstr "&Actualiser la liste"
 
 #: summary-page.ui:15
-msgctxt "SummaryPage|"
 msgid "Form"
 msgstr ""
 
 #: summary-page.ui:36
 #, fuzzy
-msgctxt "SummaryPage|"
 msgid "Summary"
 msgstr "Sommaire"
 
 #: summary-page.ui:52
-msgctxt "SummaryPage|"
 msgid ""
 "Packages installed: 2\n"
 "\n"
@@ -545,48 +458,39 @@ msgid ""
 msgstr ""
 
 #: summary-page.ui:92
-msgctxt "SummaryPage|"
 msgid "Automatically closing in"
 msgstr ""
 
 #: summary-page.ui:99
-msgctxt "SummaryPage|"
 msgid "10"
 msgstr ""
 
 #: summary-page.ui:122
-msgctxt "SummaryPage|"
 msgid "&Stop"
 msgstr ""
 
 #: summary-page.ui:132
-msgctxt "SummaryPage|"
 msgid "..."
 msgstr ""
 
 #: summary-page.ui:172
-msgctxt "SummaryPage|"
 msgid "&Back"
 msgstr ""
 
 #: summary-page.ui:179
-msgctxt "SummaryPage|"
 msgid "&Finish"
 msgstr ""
 
 #: updates-filter-view.ui:14
-msgctxt "UpdatesFilterView|"
 msgid "Form"
 msgstr ""
 
 #: updates-filter-view.ui:35
 #, fuzzy
-msgctxt "UpdatesFilterView|"
 msgid "Updates"
 msgstr "Mise à jour"
 
 #: updates-filter-view.ui:48
-msgctxt "UpdatesFilterView|"
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
@@ -594,12 +498,10 @@ msgstr ""
 
 #: updates-filter-view.ui:98
 #, fuzzy
-msgctxt "UpdatesFilterView|"
 msgid "Pac&kage Update"
 msgstr "Paquet"
 
 #: updates-filter-view.ui:120
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Mark all packages for updating that can be updated without a dependency "
 "problem.\n"
@@ -608,12 +510,10 @@ msgid ""
 msgstr ""
 
 #: updates-filter-view.ui:172
-msgctxt "UpdatesFilterView|"
 msgid "D&ist-Upgrade"
 msgstr ""
 
 #: updates-filter-view.ui:194
-msgctxt "UpdatesFilterView|"
 msgid ""
 "Do a distribution upgrade: Mark all packages for updating that can be "
 "updated without a dependency problem.\n"
@@ -627,7 +527,6 @@ msgstr ""
 # TLABEL runlevel_2002_01_04_0147__45
 #: updates-filter-view.ui:242
 #, fuzzy
-msgctxt "UpdatesFilterView|"
 msgid "Refresh List"
 msgstr "&Actualiser la liste"
 
