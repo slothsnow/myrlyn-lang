@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
 "PO-Revision-Date: 2026-10-10 10:27+0000\n"
-"Last-Translator: slothsnow <slothsnow@noreply.codeberg.org>\n"
+"Last-Translator: Atalanttore <atalanttore@noreply.codeberg.org>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/de/>\n"
 "Language: de\n"
@@ -204,51 +204,42 @@ msgid "Search Text or Pattern"
 msgstr "Text oder Muster suchen"
 
 #: search-filter-view.ui:78
-#, fuzzy
 msgid "Search In"
 msgstr "Suchen in"
 
 #: search-filter-view.ui:87
-#, fuzzy
 msgid "&Name"
 msgstr "&Name"
 
 #: search-filter-view.ui:97
-#, fuzzy
 msgid "Su&mmary"
-msgstr "&Zusammenfassung"
+msgstr "Zusa&mmenfassung"
 
 #: search-filter-view.ui:104
-#, fuzzy
 msgid "D&escription"
-msgstr "Beschre&ibung"
+msgstr "B&eschreibung"
 
 #: search-filter-view.ui:111
-#, fuzzy
 msgid "RPM P&rovides"
-msgstr "R&PM \"Bietet An\""
+msgstr "RPM &bietet"
 
 #: search-filter-view.ui:118
-#, fuzzy
 msgid "RPM Re&quires"
-msgstr "RPM \"Be&nötigt\""
+msgstr "RPM er&fordert"
 
 #: search-filter-view.ui:125
-#, fuzzy
 msgid "File &List"
-msgstr "Dateiliste"
+msgstr "Datei&liste"
 
 #: search-filter-view.ui:159
-#, fuzzy
 msgid "Searc&h Mode:"
-msgstr "Such&modus:"
+msgstr "Suc&hmodus:"
 
 #: search-filter-view.ui:170
 msgid "Auto"
 msgstr "Automatisch"
 
 #: search-filter-view.ui:175
-#, fuzzy
 msgid "Contains"
 msgstr "Enthält"
 
@@ -257,59 +248,48 @@ msgid "Starts With"
 msgstr "Beginnt mit"
 
 #: search-filter-view.ui:185
-#, fuzzy
 msgid "Exact Match"
 msgstr "Exakte Übereinstimmung"
 
 #: search-filter-view.ui:190
-#, fuzzy
 msgid "Wildcards"
-msgstr "Platzhalterzeichen verwenden"
+msgstr "Platzhalter"
 
 #: search-filter-view.ui:195
-#, fuzzy
 msgid "Regular Expression"
-msgstr "Regulären Ausdruck verwenden"
+msgstr "Regulärer Ausdruck"
 
 #: search-filter-view.ui:203
-#, fuzzy
 msgid "Detected:"
-msgstr "Geschützt"
+msgstr "Erkannt:"
 
 # #-#-#-#-#  qt-pkg.de.po (qt-pkg.de)  #-#-#-#-#
 # shortened; cf. #46275 -ke-
 #: search-filter-view.ui:212
-#, fuzzy
 msgid "Case Sens&itive"
-msgstr "Groß-/Kleinschre&ibung beachten"
+msgstr "Groß-/Kle&inschreibung beachten"
 
 #: status-filter-view.ui:32
-#, fuzzy
 msgid "Show Packages with Status"
-msgstr "Pakete anzeigen mit Status"
+msgstr "Pakete mit Status anzeigen"
 
 #: status-filter-view.ui:103
-#, fuzzy
 msgid "Auto-Install"
 msgstr "Automatisch installieren"
 
 #: status-filter-view.ui:123
-#, fuzzy
 msgid "Auto-Update"
 msgstr "Automatisch aktualisieren"
 
 #: status-filter-view.ui:143
-#, fuzzy
 msgid "Taboo"
 msgstr "Tabu"
 
 #: status-filter-view.ui:160
-#, fuzzy
 msgid "Protected"
 msgstr "Geschützt"
 
 #: status-filter-view.ui:279
-#, fuzzy
 msgid "Auto-Delete"
 msgstr "Automatisch löschen"
 
@@ -372,9 +352,8 @@ msgid "Form"
 msgstr "Formular"
 
 #: updates-filter-view.ui:35
-#, fuzzy
 msgid "Updates"
-msgstr "Aktualisieren"
+msgstr "Aktualisierungen"
 
 #: updates-filter-view.ui:48
 msgid ""
@@ -385,9 +364,8 @@ msgstr ""
 "die eine neuere Version verfügbar ist als die bereits installierte."
 
 #: updates-filter-view.ui:98
-#, fuzzy
 msgid "Pac&kage Update"
-msgstr "Paket"
+msgstr "Pa&ketaktualisierung"
 
 #: updates-filter-view.ui:120
 msgid ""
@@ -417,25 +395,24 @@ msgid ""
 msgstr ""
 
 #: updates-filter-view.ui:242
-#, fuzzy
 msgid "Refresh List"
-msgstr "Liste a&ktualisieren"
+msgstr "Liste auffrischen"
 
 #: MyrlynApp.cc:180
 msgid " [root]"
-msgstr ""
+msgstr " [root]"
 
 #: MyrlynApp.cc:183 RepoConfigDialog.cc:64
 msgid " (read-only)"
-msgstr ""
+msgstr " (schreibgeschützt)"
 
 #: MyrlynApp.cc:204
 msgid "Preparing the package selector..."
-msgstr ""
+msgstr "Paketselektor wird vorbereitet ..."
 
 #: MyrlynApp.cc:462
 msgid "Really quit?"
-msgstr ""
+msgstr "Wirklich beenden?"
 
 #: MyrlynRepoManager.cc:296
 msgid ""
@@ -477,6 +454,8 @@ msgid ""
 "Can't connect to the package manager!\n"
 "It may be busy in another window.\n"
 msgstr ""
+"Es kann keine Verbindung zum Paketmanager hergestellt werden!\n"
+"Möglicherweise ist dieser gerade in einem anderen Fenster ausgelastet.\n"
 
 #: PkgCommitPage.cc:141
 msgid "To Do"
@@ -495,37 +474,34 @@ msgid "Hide &Details"
 msgstr "&Details ausblenden"
 
 #: PkgCommitPage.cc:295
-#, fuzzy
 msgid "Show &Details"
-msgstr "&Details..."
+msgstr "&Details anzeigen"
 
 #: PkgCommitPage.cc:340
 msgid "Really cancel the current package actions?"
-msgstr ""
+msgstr "Aktuelle Paketaktionen wirklich abbrechen?"
 
 #: PkgCommitPage.cc:541
-#, fuzzy
 msgid "Checking File Conflicts..."
-msgstr "Abhängigkeiten werden überprüft..."
+msgstr "Dateikonflikte werden überprüft ..."
 
 #: PkgCommitPage.cc:710
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error downloading package %1"
-msgstr "Fehler beim Laden der Paketliste von %1"
+msgstr "Fehler beim Herunterladen des Pakets %1"
 
 #: PkgCommitPage.cc:758 PkgCommitPage.cc:787
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error installing package %1"
-msgstr "Fehler beim Exportieren der Paketliste in %1"
+msgstr "Fehler beim Installieren des Pakets %1"
 
 #: PkgCommitPage.cc:975
 msgid "[Post-transaction scripts]"
-msgstr ""
+msgstr "[Skripte nach der Transaktion]"
 
 #: PkgCommitPage.cc:1124
-#, fuzzy
 msgid "File Conflict"
-msgstr "Dateiliste"
+msgstr "Dateikonflikt"
 
 #: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
 #: YQPkgServiceList.cc:46
@@ -534,20 +510,20 @@ msgstr "Name"
 
 #: QY2DiskUsageList.cc:164
 msgid "Disk Usage"
-msgstr ""
+msgstr "Festplattenbelegung"
 
 #: QY2DiskUsageList.cc:165
 msgid "Free"
-msgstr ""
+msgstr "Frei"
 
 #: QY2DiskUsageList.cc:166
 msgid "Total"
-msgstr ""
+msgstr "Gesamt"
 
 #: QY2DiskUsageList.cc:228
 #, qt-format
 msgid "Used %1"
-msgstr ""
+msgstr "%1 belegt"
 
 #: RepoConfigDialog.cc:324
 #, qt-format
@@ -564,134 +540,133 @@ msgid ""
 "\n"
 "Quitting now. Please restart."
 msgstr ""
+"Die Anwendung muss neu gestartet werden,\n"
+"damit die Änderungen wirksam werden.\n"
+"\n"
+"Jetzt wird beendet. Bitte neu starten."
 
 #: RepoEditDialog.cc:104
 msgid "See also  'man zypper'"
-msgstr ""
+msgstr "Siehe auch  'man zypper'"
 
 #: RepoEditDialog.cc:112
-#, fuzzy
 msgid "Add Repository"
-msgstr "&Repositorien"
+msgstr "Repository hinzufügen"
 
 #: RepoEditDialog.cc:112
-#, fuzzy
 msgid "Edit Repository"
-msgstr "&Repositorien"
+msgstr "Repository bearbeiten"
 
 #: RepoEditDialog.cc:246
 msgid "Invalid URL: "
-msgstr ""
+msgstr "Ungültige URL: "
 
 #: RepoEditDialog.cc:251
 msgid "Invalid input: "
-msgstr ""
+msgstr "Ungültige Eingabe: "
 
 #: RepoGpgKeyImportDialog.cc:110
 #, qt-format
 msgid "Repository \"%1\" will be temporarily disabled."
-msgstr ""
+msgstr "Das Repository „%1“ wird vorübergehend deaktiviert."
 
 #: RepoTable.cc:40
 msgid "Priority"
-msgstr ""
+msgstr "Priorität"
 
 #: RepoTable.cc:41
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiviert"
 
 #: RepoTable.cc:42
 msgid "Auto-Refresh"
-msgstr ""
+msgstr "Automatisch auffrischen"
 
 #: RepoTable.cc:43
-#, fuzzy
 msgid "Service"
-msgstr "&Dienste"
+msgstr "Dienst"
 
 #: RepoTable.cc:44
-#, fuzzy
 msgid "URL"
-msgstr "URL:"
+msgstr "URL"
 
 #: SummaryPage.cc:120
 #, qt-format
 msgid "%1 s"
-msgstr ""
+msgstr "%1 s"
 
 #: SummaryPage.cc:175
 msgid "Close after 300 seconds (5 minutes)"
-msgstr ""
+msgstr "Nach 300 Sekunden (5 Minuten) schließen"
 
 #: SummaryPage.cc:176
 msgid "Don't automatically close"
-msgstr ""
+msgstr "Nicht automatisch schließen"
 
 #: SummaryPage.cc:192
 #, qt-format
 msgid "Close after %1 seconds"
-msgstr ""
+msgstr "Nach %1 Sekunden schließen"
 
 #: SummaryPage.cc:258
-#, fuzzy
 msgid "No package changes."
-msgstr "P&aketänderungen anzeigen"
+msgstr "Keine Paketänderungen."
 
 #: SummaryPage.cc:299
 #, qt-format
 msgid "FAILED: %1"
-msgstr ""
+msgstr "FEHLGESCHLAGEN: %1"
 
 #: SummaryPage.cc:300
 #, qt-format
 msgid "Packages removed by user: %1"
-msgstr ""
+msgstr "Vom Benutzer entfernte Pakete: %1"
 
 #: SummaryPage.cc:301
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
-msgstr ""
+msgstr "Aufgrund von Abhängigkeiten entfernte Pakete: %1"
 
 #: SummaryPage.cc:302
 #, qt-format
 msgid "Packages installed by user: %1"
-msgstr ""
+msgstr "Vom Benutzer installierte Pakete: %1"
 
 #: SummaryPage.cc:303
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
-msgstr ""
+msgstr "Aufgrund von Abhängigkeiten installierte Pakete: %1"
 
 #: SummaryPage.cc:304
 #, qt-format
 msgid "Packages updated by user: %1"
-msgstr ""
+msgstr "Vom Benutzer aktualisierte Pakete: %1"
 
 #: SummaryPage.cc:305
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
-msgstr ""
+msgstr "Aufgrund von Abhängigkeiten aktualisierte Pakete: %1"
 
 #: SummaryPage.cc:306
 #, qt-format
 msgid "To do: %1"
-msgstr ""
+msgstr "Zu erledigen: %1"
 
 #: SummaryPage.cc:355
 #, qt-format
 msgid "(%1 more)"
-msgstr ""
+msgstr "(%1 weitere)"
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
 msgstr "Informationen sind nur für installierte Pakete verfügbar."
 
 #: YQPkgChangeLogView.cc:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "(%1 more; run \"%2\" to see the complete change log)"
 msgstr ""
-"(%1 mehr Änderungseinträge werden nicht angezeigt. Bitte \"%2\" ausführen um "
-"den kompletten Changelog zu sehen.)"
+"(%1 weitere; führen Sie „%2“ aus, um das vollständige Änderungsprotokoll zu "
+"sehen)"
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
@@ -768,18 +743,16 @@ msgid "&Cancel"
 msgstr "&Abbrechen"
 
 #: YQPkgConflictDialog.cc:190
-#, fuzzy
 msgid "Verifying System Dependencies"
-msgstr "Abhängigkeiten werden überprüft..."
+msgstr "Überprüfung der Systemabhängigkeiten"
 
 #: YQPkgConflictDialog.cc:321
 msgid "Create Dependency Resolver Test Case"
 msgstr "Testfall für Abhängigkeitsauflöser erstellen"
 
 #: YQPkgConflictDialog.cc:325
-#, fuzzy
 msgid "You need to run the dependency resolver first."
-msgstr "Abhängigkeitsauflöser und &Testfall generieren"
+msgstr "Sie müssen zuerst den Abhängigkeitsauflöser ausführen."
 
 #: YQPkgConflictDialog.cc:333
 #, qt-format
@@ -797,12 +770,11 @@ msgid "C&ontinue"
 msgstr "F&ortsetzen"
 
 #: YQPkgConflictDialog.cc:351
-#, fuzzy, qt-format
+#, qt-format
 msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
 msgstr ""
-"<p>Testfall für Abhängigkeitsauflösung wurde in <br><tt>%1</tt></p> "
-"geschrieben.<p><tt>y2logs.tgz tar</tt> zum Anhängen an Bugzilla vorbereiten?"
-"</p>"
+"<p>Testfall für den Abhängigkeitsauflöser wurd in <br><tt>%1</tt> "
+"geschrieben</p>"
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
@@ -819,12 +791,11 @@ msgstr ""
 "<tt>%1</tt></p>"
 
 #: YQPkgConflictList.cc:137
-#, fuzzy
 msgid "Save conflicts list"
 msgstr "Konfliktliste speichern"
 
 #: YQPkgConflictList.cc:160
-#, fuzzy, qt-format
+#, qt-format
 msgid "Can't open file %1"
 msgstr "Die Datei %1 kann nicht geöffnet werden"
 
@@ -1122,7 +1093,7 @@ msgstr "optional"
 
 #: YQPkgPatchList.cc:599
 msgid "feature"
-msgstr ""
+msgstr "Funktion"
 
 #: YQPkgPatchList.cc:600
 msgid "document"
@@ -1159,12 +1130,12 @@ msgstr "Anbieter"
 #: YQPkgSearchFilterView.cc:141
 #, qt-format
 msgid "Default: %1"
-msgstr ""
+msgstr "Standard: %1"
 
 #: YQPkgSearchFilterView.cc:147
 #, qt-format
 msgid "Detected: %1"
-msgstr ""
+msgstr "Erkannt: %1"
 
 #: YQPkgSearchFilterView.cc:364
 msgid "No Results."
@@ -1216,9 +1187,8 @@ msgid "The following items will be changed: "
 msgstr "Die folgenden Punkte werden geändert: "
 
 #: YQPkgSelectorBase.cc:210
-#, fuzzy
 msgid "Really abandon all changes and exit?"
-msgstr "Wollen Sie alle Änderungen verwerfen und verlassen?"
+msgstr "Wirklich alle Änderungen verwerfen und beenden?"
 
 #: YQPkgSelectorBase.cc:265
 msgid ""
@@ -1229,32 +1199,28 @@ msgstr ""
 "geändert, um Abhängigkeiten aufzulösen:"
 
 #: YQPkgSelectorBase.cc:367
-#, fuzzy
 msgid "Not implemented yet"
-msgstr "Leider noch nicht implementiert."
+msgstr "Noch nicht implementiert"
 
 #: YQPkgSelector.cc:294
 msgid "&Search"
 msgstr "&Suchen"
 
 #: YQPkgSelector.cc:308 YQPkgSelector.cc:1234
-#, fuzzy
 msgid "Patc&hes"
-msgstr "Alle Patches"
+msgstr "Patc&hes"
 
 #: YQPkgSelector.cc:320 YQPkgSelector.cc:1235
-#, fuzzy
 msgid "&Updates"
-msgstr "Aktualisieren"
+msgstr "Akt&ualisierungen"
 
 #: YQPkgSelector.cc:330
 msgid "&Repositories"
 msgstr "&Repositorien"
 
 #: YQPkgSelector.cc:344
-#, fuzzy
 msgid "Repository Index Ser&vices"
-msgstr "&Repositorien"
+msgstr "Repository-Inde&x-Dienste"
 
 #: YQPkgSelector.cc:357
 #, fuzzy
@@ -1262,33 +1228,28 @@ msgid "Pa&tterns"
 msgstr "&Schemata"
 
 #: YQPkgSelector.cc:368
-#, fuzzy
 msgid "Package Classi&fication"
-msgstr "Paketklassifizierung"
+msgstr "Paketklassi&fizierung"
 
 #: YQPkgSelector.cc:379
 msgid "&Languages"
 msgstr "&Sprachen"
 
 #: YQPkgSelector.cc:389
-#, fuzzy
 msgid "Installation Su&mmary"
-msgstr "Installationszusammenfassung"
+msgstr "Installationszusa&mmenfassung"
 
 #: YQPkgSelector.cc:517
-#, fuzzy
 msgid "Description"
-msgstr "Beschre&ibung"
+msgstr "Beschreibung"
 
 #: YQPkgSelector.cc:529
-#, fuzzy
 msgid "Technical Data"
-msgstr "&Technische Daten"
+msgstr "Technische Daten"
 
 #: YQPkgSelector.cc:556
-#, fuzzy
 msgid "Versions"
-msgstr "&Versionen"
+msgstr "Versionen"
 
 #: YQPkgSelector.cc:574
 msgid "File List"
@@ -1307,23 +1268,20 @@ msgid "&File"
 msgstr "&Datei"
 
 #: YQPkgSelector.cc:664
-#, fuzzy
 msgid "&Accept Changes"
-msgstr "&Akzeptieren"
+msgstr "&Änderungen akzeptieren"
 
 #: YQPkgSelector.cc:666
-#, fuzzy
 msgid "&Quit - Discard Changes"
-msgstr "&Verlassen -- Änderungen verwerfen"
+msgstr "&Beenden - Änderungen verwerfen"
 
 #: YQPkgSelector.cc:678
 msgid "&Package"
 msgstr "&Paket"
 
 #: YQPkgSelector.cc:727
-#, fuzzy
 msgid "Patch"
-msgstr "&Patch"
+msgstr "Patch"
 
 #: YQPkgSelector.cc:753
 msgid "&Dependencies"
@@ -1358,9 +1316,8 @@ msgid "&System Verification Mode"
 msgstr "&Systemverifikationsmodus"
 
 #: YQPkgSelector.cc:804
-#, fuzzy
 msgid "Options for this run only"
-msgstr "Optionen nur für diesen Durchlauf..."
+msgstr "Optionen nur für diesen Durchlauf"
 
 #: YQPkgSelector.cc:806
 msgid "&Cleanup when deleting packages"
@@ -1375,42 +1332,36 @@ msgid "E&xtras"
 msgstr "E&xtras"
 
 #: YQPkgSelector.cc:826
-#, fuzzy
 msgid "C&onfigure Repositories..."
-msgstr "&Repositorys..."
+msgstr "Repositorien k&onfigurieren ..."
 
 #: YQPkgSelector.cc:832
 msgid "Show &Products"
 msgstr "&Produkte anzeigen"
 
 #: YQPkgSelector.cc:833
-#, fuzzy
 msgid "Show Package &Changes"
-msgstr "P&aketänderungen anzeigen"
+msgstr "Paket&änderungen anzeigen"
 
 #: YQPkgSelector.cc:834
 msgid "Show &History"
 msgstr "&Verlauf anzeigen"
 
 #: YQPkgSelector.cc:839
-#, fuzzy
 msgid "Install All Matching -devel Packages"
-msgstr "Alle passenden -&devel-Pakete installieren"
+msgstr "Alle passenden -devel-Pakete installieren"
 
 #: YQPkgSelector.cc:842
-#, fuzzy
 msgid "Install All Matching -debuginfo Packages"
-msgstr "Alle passenden -de&buginfo-Pakete installieren"
+msgstr "Alle passenden -debuginfo-Pakete installieren"
 
 #: YQPkgSelector.cc:845
-#, fuzzy
 msgid "Install All Matching -debugsource Packages"
-msgstr "Alle passenden -debug&source-Pakete installieren"
+msgstr "Alle passenden -debugsource-Pakete installieren"
 
 #: YQPkgSelector.cc:847
-#, fuzzy
 msgid "Install All Matching Recommended Packages"
-msgstr "Alle passenden &empfohlenen Pakete installieren"
+msgstr "Alle passenden empfohlenen Pakete installieren"
 
 #: YQPkgSelector.cc:853
 msgid "Generate Dependency Resolver &Test Case"
@@ -1418,7 +1369,7 @@ msgstr "Abhängigkeitsauflöser und &Testfall generieren"
 
 #: YQPkgSelector.cc:866
 msgid "H&elp"
-msgstr ""
+msgstr "Hilf&e"
 
 #: YQPkgSelector.cc:876
 msgid "&Overview"
@@ -1426,21 +1377,19 @@ msgstr "&Übersicht"
 
 #: YQPkgSelector.cc:878
 msgid "About &Myrlyn"
-msgstr ""
+msgstr "Über &Myrlyn"
 
 #: YQPkgSelector.cc:879
 msgid "About &Qt"
-msgstr ""
+msgstr "Über &Qt"
 
 #: YQPkgSelector.cc:884
-#, fuzzy
 msgid "Rep&ository Configuration"
-msgstr "&Konfiguration"
+msgstr "Rep&ository-Konfiguration"
 
 #: YQPkgSelector.cc:885
-#, fuzzy
 msgid "Root &Authentication"
-msgstr "Kommunikation"
+msgstr "Root-&Authentifizierung"
 
 #: YQPkgSelector.cc:1105
 msgid "All package dependencies are OK."
