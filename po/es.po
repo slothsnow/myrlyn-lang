@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-09-03 21:25+0000\n"
-"Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
+"PO-Revision-Date: 2026-10-09 10:16+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
 "Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/es/>\n"
 "Language: es\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 "X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
-msgstr ""
+msgstr "Acerca de Myrlyn"
 
 #: about-dialog.ui:36
 msgid "## Myrlyn "
-msgstr ""
+msgstr "## Myrlyn "
 
 #: about-dialog.ui:65
 msgid ""
@@ -37,6 +37,17 @@ msgid ""
 "as a standalone Qt program without any YaST\n"
 "dependencies."
 msgstr ""
+"Myrlyn es una herramienta gráfica de gestión para elegir\n"
+"paquetes de software y patrones de instalación,\n"
+"actualización y borrado.\n"
+"\n"
+"Funciona con libzypp en el motor y Qt en el\n"
+"apartado visual.\n"
+"\n"
+"Se originó en la SUSE Hack Week de 11/2024\n"
+"con el fin de que el selector de paquetes YaST Qt de SUSE funcione\n"
+"como una aplicación Qt autónoma y libre de cualquier dependencia\n"
+"de YaST."
 
 #: about-dialog.ui:107
 msgid ""
@@ -48,24 +59,29 @@ msgid ""
 "\n"
 "- Christoph Grüninger (GitHub: @gruenich)"
 msgstr ""
+"### Autor Principal\n"
+"\n"
+"- Stefan Hundhammer (GitHub: @shundhammer)\n"
+"\n"
+"### Colaboradores\n"
+"\n"
+"- Christoph Grüninger (GitHub: @gruenich)"
 
 #: init-repos-page.ui:36
-#, fuzzy
 msgid "Initializing Repositories"
-msgstr "&Repositorios"
+msgstr "Preparando repositorios"
 
 #: pkg-commit-page.ui:41
-#, fuzzy
 msgid "Installing / Removing Packages"
-msgstr "Instalar paquetes &recomendados"
+msgstr "Instalando / Eliminando Paquetes"
 
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr ""
+msgstr "En progreso"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
-msgstr ""
+msgstr "&Mostrar página de resumen"
 
 # clients/lan_write.ycp:510 clients/lan_write.ycp:513 clients/lan_write.ycp:530 clients/lan_write.ycp:533
 # clients/lan_write.ycp:609 clients/lan_write.ycp:613 clients/lan_write.ycp:638 clients/lan_write.ycp:642
@@ -74,71 +90,64 @@ msgstr ""
 # include/backup/ui.ycp:915
 #
 #: progress-dialog.ui:14
-#, fuzzy
 msgid "Working..."
-msgstr "Buscando..."
+msgstr "Cargando..."
 
 #: repo-config.ui:14
-#, fuzzy
 msgid "Repository Configuration"
-msgstr "Confi&guración"
+msgstr "Configuración de repositorios"
 
 #: repo-config.ui:41
-#, fuzzy
 msgid "**Repository Configuration**"
-msgstr "Confi&guración"
+msgstr "**Configuración de repositorios**"
 
 #: repo-config.ui:94
 msgid "**PackMan**"
-msgstr ""
+msgstr "**PackMan**"
 
 #: repo-config.ui:154
-#, fuzzy
 msgid "Raw URL:"
-msgstr "URL:"
+msgstr "URL sin procesar:"
 
 #: repo-config.ui:208
 msgid "&Priority:"
-msgstr ""
+msgstr "&Prioridad:"
 
 #: repo-config.ui:248
 msgid "Ena&bled"
-msgstr ""
+msgstr "&Activado"
 
 #: repo-config.ui:258
 msgid "Auto-Re&fresh"
-msgstr ""
+msgstr "&Actualización automática"
 
 #: repo-config.ui:281
 msgid "1: highest; 200: lowest"
-msgstr ""
+msgstr "1: la más alta; 200: la más baja"
 
 #: repo-config.ui:334
 msgid "&Add"
-msgstr ""
+msgstr "&Añadir"
 
 #: repo-config.ui:341
 msgid "&Edit"
-msgstr ""
+msgstr "&Editar"
 
 #: repo-config.ui:348
-#, fuzzy
 msgid "&Delete"
-msgstr "Borrar"
+msgstr "&Borrar"
 
 #: repo-config.ui:368
 msgid "<i>Restart needed!</i>"
-msgstr ""
+msgstr "<i>¡Reinicio necesario!</i>"
 
 #: repo-config.ui:378
-#, fuzzy
 msgid "&Close"
 msgstr "&Cerrar"
 
 #: repo-edit-add.ui:98
-#, fuzzy
 msgid "Custom &Repository"
-msgstr "&Repositorios"
+msgstr "&Repositorio propio"
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
