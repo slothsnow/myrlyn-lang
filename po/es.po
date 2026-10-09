@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-09 10:16+0000\n"
+"PO-Revision-Date: 2026-10-10 10:27+0000\n"
 "Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
 "Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/es/>\n"
@@ -151,86 +151,79 @@ msgstr "&Repositorio propio"
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
-msgstr ""
+msgstr "&Repositorio comunitario"
 
 #: repo-edit-add.ui:270
-#, fuzzy
 msgid "Repository Name"
-msgstr "&Repositorios"
+msgstr "Nombre del repositorio"
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr ""
+msgstr "&URL sin procesar"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
-msgstr ""
+msgstr "Clave pública GPG"
 
 #: repo-gpg-key-import-dialog.ui:41
 msgid "## Import Untrusted GPG Key"
-msgstr ""
+msgstr "## Importar llave GPG no confiable"
 
 #: repo-gpg-key-import-dialog.ui:81
-#, fuzzy
 msgid "_Repository:_"
-msgstr "Repositorios:"
+msgstr "Nombre del repositorio:_"
 
 #: repo-gpg-key-import-dialog.ui:101
-#, fuzzy
 msgid "_URL:_"
-msgstr "URL:"
+msgstr "_URL:_"
 
 #: repo-gpg-key-import-dialog.ui:121
 msgid "_Fingerprint:_"
-msgstr ""
+msgstr "_Huella digital:_"
 
 #: repo-gpg-key-import-dialog.ui:141
 msgid "_Key Name:_"
-msgstr ""
+msgstr "_Nombre de la clave:_"
 
 #: repo-gpg-key-import-dialog.ui:161
 msgid "_Key Algorithm:_"
-msgstr ""
+msgstr "_Algoritmo de la clave:_"
 
 #: repo-gpg-key-import-dialog.ui:181
 msgid "_Key ID:_"
-msgstr ""
+msgstr "_Identificador de la clave:_"
 
 #: repo-gpg-key-import-dialog.ui:201
 msgid "_Created:_"
-msgstr ""
+msgstr "_Fecha de creación:_"
 
 #: repo-gpg-key-import-dialog.ui:221
 msgid "_Expires:_"
-msgstr ""
+msgstr "_Expira:_"
 
 #: repo-gpg-key-import-dialog.ui:274
 msgid "&Trust"
-msgstr ""
+msgstr "&Confiar"
 
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
-msgstr ""
+msgstr "Texto o patrón a buscar"
 
 #: search-filter-view.ui:78
-#, fuzzy
 msgid "Search In"
 msgstr "Buscar en"
 
 #: search-filter-view.ui:87
-#, fuzzy
 msgid "&Name"
-msgstr "Nombre"
+msgstr "&Nombre"
 
 #: search-filter-view.ui:97
-#, fuzzy
 msgid "Su&mmary"
-msgstr "Resu&men"
+msgstr "&Resumen"
 
 #: search-filter-view.ui:104
-#, fuzzy
 msgid "D&escription"
-msgstr "D&escripción"
+msgstr "&Descripción"
 
 #: search-filter-view.ui:111
 #, fuzzy
