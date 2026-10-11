@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: qt-pkg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-08 19:55+0000\n"
+"PO-Revision-Date: 2026-10-11 15:42+0000\n"
 "Last-Translator: byDMA <bydma@noreply.codeberg.org>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/pl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -41,18 +41,17 @@ msgid ""
 "as a standalone Qt program without any YaST\n"
 "dependencies."
 msgstr ""
-"Myrlyn to program z graficznym interfejsem\n"
-"do zarządzania pakietami dystrybucji.\n"
-"Pakiety oprogramowania lub całe ich wzorce\n"
+"Myrlyn to program do zarządzania pakietami\n"
+"dystrybucji SuSE. Pakiety lub całe ich wzorce\n"
 "mogą być instalowane, aktualizowane bądź usuwane.\n"
 "\n"
-"W tle pracuje libzypp, podczas gdy interfejs graficzny\n"
-"wraz z całym zestawem narzędzi tworzy środowisko QT.\n"
+"W tle pracuje libzypp, podczas gdy środowisko QT \n"
+"generuje interfejs użytkownika (GUI).\n"
 "\n"
-"Pomysł projektu powstał podczas spotkania SUSE HackWeek\n"
-"Chodziło o stworzenie dla SUSE - podobnie jak w YaST-\n"
-"funkcjonalnego menadżera pakietów, jednakże zupełnie\n"
-"od niego niezależnego i stworzonego na bazie QT."
+"Pomysł projektu powstał podczas SUSE HackWeek.\n"
+"Chodziło o stworzenie dla SuSE funkcjonalnego\n"
+"menadżera pakietów, zupełnie niezależnego od \n"
+"YaST (i Ruby) opartego na technologii QT."
 
 #: about-dialog.ui:107
 msgid ""
@@ -64,7 +63,7 @@ msgid ""
 "\n"
 "- Christoph Grüninger (GitHub: @gruenich)"
 msgstr ""
-"### Głowny twórca\n"
+"### Główny programista\n"
 "\n"
 "- Stefan Hundhammer (GitHub: @shundhammer)\n"
 "\n"
@@ -82,7 +81,7 @@ msgstr "Instalacja / Usuwanie pakietów"
 
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr "W toku"
+msgstr "Właśnie instalowane"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -94,7 +93,7 @@ msgstr "W toku..."
 
 #: repo-config.ui:14
 msgid "Repository Configuration"
-msgstr "Konfiguracja repozytorium"
+msgstr "Konfiguracja repozytoriów"
 
 #: repo-config.ui:41
 msgid "**Repository Configuration**"
@@ -150,15 +149,15 @@ msgstr "&Repozytorium własne"
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
-msgstr "Repozytorium s&połeczności"
+msgstr "Repozytoria s&połeczności"
 
 #: repo-edit-add.ui:270
 msgid "Repository Name"
-msgstr "Nazwa &repozytorium"
+msgstr "Nazwa repozytorium"
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr "Raw &URL"
+msgstr "Adres Raw &URL"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -194,7 +193,7 @@ msgstr "_ID klucza:_"
 
 #: repo-gpg-key-import-dialog.ui:201
 msgid "_Created:_"
-msgstr "_Utworzone:_"
+msgstr "_Utworzony:_"
 
 #: repo-gpg-key-import-dialog.ui:221
 msgid "_Expires:_"
@@ -206,7 +205,7 @@ msgstr "&Zaufaj"
 
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
-msgstr "Szukaj tekst lub wzorce"
+msgstr "Szukaj w tekście i wzorcach"
 
 #: search-filter-view.ui:78
 msgid "Search In"
@@ -222,7 +221,7 @@ msgstr "Podsu&mowanie"
 
 #: search-filter-view.ui:104
 msgid "D&escription"
-msgstr "&Opis"
+msgstr "&Opisach"
 
 #: search-filter-view.ui:111
 msgid "RPM P&rovides"
@@ -242,7 +241,7 @@ msgstr "&Tryb wyszukiwania:"
 
 #: search-filter-view.ui:170
 msgid "Auto"
-msgstr "Automatycznie"
+msgstr "Automatyczny"
 
 #: search-filter-view.ui:175
 msgid "Contains"
@@ -286,11 +285,11 @@ msgstr "Aktualizacja automatyczna"
 
 #: status-filter-view.ui:143
 msgid "Taboo"
-msgstr "Tabu"
+msgstr "Tabu -- nigdy nie instaluj"
 
 #: status-filter-view.ui:160
 msgid "Protected"
-msgstr "Chroniony"
+msgstr "Chroniony -- nie zmieniaj"
 
 #: status-filter-view.ui:279
 msgid "Auto-Delete"
@@ -323,7 +322,7 @@ msgstr ""
 "\n"
 "Pakietów usuniętych: 0\n"
 "\n"
-"Błedów: 0\n"
+"Błędów: 0\n"
 "\n"
 
 #: summary-page.ui:92
@@ -377,11 +376,10 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper up\" command."
 msgstr ""
-"<i>Zaznacza wszystkie pakiety, które można zaktualizować bez problemów z "
-"zależnościami.</i>\n"
+"Zaznacza wszystkie pakiety, które można zaktualizować bez problemów z "
+"zależnościami.\n"
 "\n"
-"<i>Działanie jest równoznaczne z wykonaniem polecenia \"zypper up\" w "
-"konsoli.</i>"
+"Działanie jest równoznaczne z wykonaniem polecenia \"zypper up\" w konsoli."
 
 #: updates-filter-view.ui:172
 msgid "D&ist-Upgrade"
@@ -403,7 +401,7 @@ msgstr ""
 "Zmiana obejmuje dzielenie pakietów, zmiany ich nazw, aktualizację wzorców i "
 "inne zmiany w systemie.\n"
 "\n"
-"Działanie  jest równoważne z wykonaniem polecenia \"zypper dup\" w konsoli."
+"Działanie jest równoznaczne z wykonaniem polecenia \"zypper dup\" w konsoli."
 
 #: updates-filter-view.ui:242
 msgid "Refresh List"
@@ -411,19 +409,19 @@ msgstr "Odśwież listę"
 
 #: MyrlynApp.cc:180
 msgid " [root]"
-msgstr " [root | tryb administratora]"
+msgstr " [root | Tryb administratora]"
 
 #: MyrlynApp.cc:183 RepoConfigDialog.cc:64
 msgid " (read-only)"
-msgstr " (read-only | tryb tylko do przeglądania)"
+msgstr " (read-only | Tryb tylko do przeglądania)"
 
 #: MyrlynApp.cc:204
 msgid "Preparing the package selector..."
-msgstr "Przygotowywanie pakietów..."
+msgstr "Trwa przygotowywanie pakietów..."
 
 #: MyrlynApp.cc:462
 msgid "Really quit?"
-msgstr "Rzeczywiście zakończyć?"
+msgstr "Czy zamknąć program?"
 
 #: MyrlynRepoManager.cc:296
 msgid ""
@@ -487,7 +485,7 @@ msgstr "Kolejka zadań"
 
 #: PkgCommitPage.cc:142
 msgid "Downloads"
-msgstr "Pobieranie"
+msgstr "Pobieranie pakietów"
 
 #: PkgCommitPage.cc:143
 msgid "Done"
@@ -503,7 +501,7 @@ msgstr "Pokaż szcz&egóły"
 
 #: PkgCommitPage.cc:340
 msgid "Really cancel the current package actions?"
-msgstr "Rzeczywiście zakończyć aktualne działanie?"
+msgstr "Czy zakończyć aktualne działanie?"
 
 #: PkgCommitPage.cc:541
 msgid "Checking File Conflicts..."
@@ -521,7 +519,7 @@ msgstr "Błąd podczas instalowania pakietu %1"
 
 #: PkgCommitPage.cc:975
 msgid "[Post-transaction scripts]"
-msgstr "[Skrypty-poinstalacyjne]"
+msgstr "[Skrypty-post-instalacyjne]"
 
 #: PkgCommitPage.cc:1124
 msgid "File Conflict"
@@ -570,19 +568,19 @@ msgstr ""
 "Należy zrestartować program \n"
 "celem uwzględnienia zmian.\n"
 "\n"
-"Zaraz nastąpi zamknięcie. Proszę uruchomić ponownie."
+"Zaraz nastąpi zamknięcie. Proszę uruchomić program ponownie."
 
 #: RepoEditDialog.cc:104
 msgid "See also  'man zypper'"
-msgstr "Sprawdź dokumentację  'man zypper'"
+msgstr "Sprawdź dokumentację 'man zypper'"
 
 #: RepoEditDialog.cc:112
 msgid "Add Repository"
-msgstr "Dodaj &repozytorium"
+msgstr "Dodawanie repozytoriów"
 
 #: RepoEditDialog.cc:112
 msgid "Edit Repository"
-msgstr "Edytuj repozytorium"
+msgstr "Edytowanie repozytorium"
 
 #: RepoEditDialog.cc:246
 msgid "Invalid URL: "
@@ -611,11 +609,11 @@ msgstr "Autoodświeżanie"
 
 #: RepoTable.cc:43
 msgid "Service"
-msgstr "U&sługi"
+msgstr "Usługa"
 
 #: RepoTable.cc:44
 msgid "URL"
-msgstr "Adres URL:"
+msgstr "Adres URL"
 
 #: SummaryPage.cc:120
 #, qt-format
@@ -762,7 +760,7 @@ msgstr "Tryb &eksperta"
 
 #: YQPkgConflictDialog.cc:129
 msgid "&Save This List to a File..."
-msgstr "&Zapisz tę listę do pliku..."
+msgstr "&Zapisz listę do pliku..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
 #: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
@@ -800,7 +798,8 @@ msgstr "K&ontynuuj"
 #, qt-format
 msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
 msgstr ""
-"<p>Test modułu rozwiązywania zależności został zapisany do <br><tt>%1</tt>"
+"<p>Test modułu rozwiązywania zależności został zapisany do <br><tt>%1</tt></"
+"p>"
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
@@ -977,7 +976,7 @@ msgstr "Podsumowanie"
 
 #: YQPkgList.cc:54
 msgid "Installed (Available)"
-msgstr "Zainstalowano (dostępne)"
+msgstr "Zainstalowane (dostępne)"
 
 #: YQPkgList.cc:58
 msgid "Avail. Ver."
@@ -1103,7 +1102,7 @@ msgstr "Opis poprawki"
 
 #: YQPkgPatchList.cc:595
 msgid "YaST"
-msgstr "Myrlyn"
+msgstr "YaST"
 
 #: YQPkgPatchList.cc:596
 msgid "security"
@@ -1200,8 +1199,8 @@ msgid ""
 msgstr ""
 "<p>Kontynuacja instalacji grozi uszkodzeniem systemu, które będzie wymagać "
 "ręcznej interwencji. W przypadku braku absolutnej pewności co do słuszności "
-"własnych działań, należy nacisnąć przycisk <b>Anuluj</b> i odznaczyć "
-"niektóre pakiety.</p>"
+"własnych działań, należy kliknąć przycisk <b>Anuluj</b> i odznaczyć niektóre "
+"pakiety.</p>"
 
 #: YQPkgSelectorBase.cc:148
 msgid "C&ontinue Anyway"
@@ -1237,7 +1236,7 @@ msgstr "Po&prawki"
 
 #: YQPkgSelector.cc:320 YQPkgSelector.cc:1235
 msgid "&Updates"
-msgstr "&Aktualizacja"
+msgstr "&Aktualizacje"
 
 #: YQPkgSelector.cc:330
 msgid "&Repositories"
@@ -1245,7 +1244,7 @@ msgstr "&Repozytoria"
 
 #: YQPkgSelector.cc:344
 msgid "Repository Index Ser&vices"
-msgstr "Usługi Indeksacji Repozytoriów"
+msgstr "Usługi indeksacji repozytoriów"
 
 #: YQPkgSelector.cc:357
 msgid "Pa&tterns"
@@ -1301,7 +1300,7 @@ msgstr "&Wyjdź -- pomiń zmiany"
 
 #: YQPkgSelector.cc:678
 msgid "&Package"
-msgstr "Paki&et"
+msgstr "Paki&ety"
 
 #: YQPkgSelector.cc:727
 msgid "Patch"
@@ -1430,10 +1429,10 @@ msgid ""
 msgstr ""
 "Istnieją zmiany oczekujące na zapis.\n"
 "\n"
-"Jeżeli będziesz kontynuował konfigurację repozytorium\n"
-"i coś tu zmienisz, będziesz musiał\n"
-"zrestartować program, i wszystkie zmiany pakietów\n"
-"przepadną.\n"
+"Jeżeli będzie kontynuowana konfiguracja\n"
+"repozytorium i coś zostanie zmienione, konieczny\n"
+"będzie restart programu, a wtedy wszystkie zmiany\n"
+"pakietów zostaną utracone.\n"
 
 #: YQPkgSelector.cc:1267
 #, qt-format
@@ -1552,7 +1551,7 @@ msgid ""
 msgstr ""
 "Ta wersja obsługuje wiele wersji.\n"
 "\n"
-"Naciśnij przycisk Kontynuuj, aby zainstalować tę wersję\n"
+"Naciśnij przycisk \"Kontynuuj\", aby zainstalować tę wersję\n"
 "i usunąć zaznaczenie wersji nieobsługującej wielu wersji,\n"
 "lub naciśnij przycisk \"Anuluj\", aby usunąć zaznaczenie tej wersji i "
 "zachować drugą."
@@ -1567,7 +1566,7 @@ msgid ""
 msgstr ""
 "Ta wersja nie obsługuje wielu wersji.\n"
 "\n"
-"Naciśnij przycisk Kontynuuj, aby zainstalować tylko tę wersję\n"
+"Naciśnij przycisk \"Kontynuuj\", aby zainstalować tylko tę wersję\n"
 "i usunąć zaznaczenie wszystkich innych wersji,\n"
 "\"Anuluj\", aby odznaczyć tę wersję i utrzymać pozostałe."
 
