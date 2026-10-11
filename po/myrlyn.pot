@@ -1,3 +1,1221 @@
+#: MyrlynApp.cc:203
+msgid " [root]"
+msgstr ""
+
+#: MyrlynApp.cc:206 RepoConfigDialog.cc:64
+msgid " (read-only)"
+msgstr ""
+
+#: MyrlynApp.cc:227
+msgid "Preparing the package selector..."
+msgstr ""
+
+#: MyrlynApp.cc:485
+msgid "Really quit?"
+msgstr ""
+
+#: MyrlynRepoManager.cc:296
+msgid ""
+"Error loading the repos. Run\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"and restart the program."
+msgstr ""
+
+#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
+#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
+msgid "Error"
+msgstr ""
+
+#: MyrlynRepoManager.cc:318
+#, qt-format
+msgid ""
+"Refreshing repository \"%1\" failed.\n"
+"\n"
+"This repository is now disabled for this program run."
+msgstr ""
+
+#: MyrlynRepoManager.cc:329
+#, qt-format
+msgid ""
+"Refreshing failed for repositories\n"
+"\n"
+"%1\n"
+"Those repositories are now disabled for this program run."
+msgstr ""
+
+#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
+msgid "Warning"
+msgstr ""
+
+#: MyrlynWorkflowSteps.cc:168
+msgid ""
+"Can't connect to the package manager!\n"
+"It may be busy in another window.\n"
+msgstr ""
+
+#: PkgCommitPage.cc:144 pkg-commit-page.ui:113
+msgid "To Do"
+msgstr ""
+
+#: PkgCommitPage.cc:145 pkg-commit-page.ui:238
+msgid "Downloads"
+msgstr ""
+
+#: PkgCommitPage.cc:146 pkg-commit-page.ui:376
+msgid "Done"
+msgstr ""
+
+#: PkgCommitPage.cc:298 pkg-commit-page.ui:61
+msgid "Hide &Details"
+msgstr ""
+
+#: PkgCommitPage.cc:298
+msgid "Show &Details"
+msgstr ""
+
+#: PkgCommitPage.cc:343
+msgid "Really cancel the current package actions?"
+msgstr ""
+
+#: PkgCommitPage.cc:544
+msgid "Checking File Conflicts..."
+msgstr ""
+
+#: PkgCommitPage.cc:713
+#, qt-format
+msgid "Error downloading package %1"
+msgstr ""
+
+#: PkgCommitPage.cc:761 PkgCommitPage.cc:790
+#, qt-format
+msgid "Error installing package %1"
+msgstr ""
+
+#: PkgCommitPage.cc:978
+msgid "[Post-transaction scripts]"
+msgstr ""
+
+#: PkgCommitPage.cc:1128
+msgid "File Conflict"
+msgstr ""
+
+#: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
+#: YQPkgServiceList.cc:46 zypp-history-browser.ui:157
+msgid "Name"
+msgstr ""
+
+#: QY2DiskUsageList.cc:164
+msgid "Disk Usage"
+msgstr ""
+
+#: QY2DiskUsageList.cc:165
+msgid "Free"
+msgstr ""
+
+#: QY2DiskUsageList.cc:166
+msgid "Total"
+msgstr ""
+
+#: QY2DiskUsageList.cc:228
+#, qt-format
+msgid "Used %1"
+msgstr ""
+
+#: RepoConfigDialog.cc:324
+#, qt-format
+msgid ""
+"Really delete repository \"%1\"?\n"
+"\n"
+"URL: %2"
+msgstr ""
+
+#: RepoConfigDialog.cc:350
+msgid ""
+"The application needs to be restarted\n"
+"for the changes to take effect.\n"
+"\n"
+"Quitting now. Please restart."
+msgstr ""
+
+#: RepoEditDialog.cc:105
+msgid "See also  'man zypper'"
+msgstr ""
+
+#: RepoEditDialog.cc:113
+msgid "Add Repository"
+msgstr ""
+
+#: RepoEditDialog.cc:113
+msgid "Edit Repository"
+msgstr ""
+
+#: RepoEditDialog.cc:247
+msgid "Invalid URL: "
+msgstr ""
+
+#: RepoEditDialog.cc:252
+msgid "Invalid input: "
+msgstr ""
+
+#: RepoGpgKeyImportDialog.cc:110
+#, qt-format
+msgid "Repository \"%1\" will be temporarily disabled."
+msgstr ""
+
+#: RepoTable.cc:40
+msgid "Priority"
+msgstr ""
+
+#: RepoTable.cc:41
+msgid "Enabled"
+msgstr ""
+
+#: RepoTable.cc:42
+msgid "Auto-Refresh"
+msgstr ""
+
+#: RepoTable.cc:43
+msgid "Service"
+msgstr ""
+
+#: RepoTable.cc:44
+msgid "URL"
+msgstr ""
+
+#: SummaryPage.cc:123
+#, qt-format
+msgid "%1 s"
+msgstr ""
+
+#: SummaryPage.cc:178
+msgid "Close after 300 seconds (5 minutes)"
+msgstr ""
+
+#: SummaryPage.cc:179
+msgid "Don't automatically close"
+msgstr ""
+
+#: SummaryPage.cc:195
+#, qt-format
+msgid "Close after %1 seconds"
+msgstr ""
+
+#: SummaryPage.cc:263
+msgid "No package changes."
+msgstr ""
+
+#: SummaryPage.cc:307
+#, qt-format
+msgid "FAILED: %1"
+msgstr ""
+
+#: SummaryPage.cc:308
+#, qt-format
+msgid "Packages removed by user: %1"
+msgstr ""
+
+#: SummaryPage.cc:309
+#, qt-format
+msgid "Packages removed because of dependencies: %1"
+msgstr ""
+
+#: SummaryPage.cc:310
+#, qt-format
+msgid "Packages installed by user: %1"
+msgstr ""
+
+#: SummaryPage.cc:311
+#, qt-format
+msgid "Packages installed because of dependencies: %1"
+msgstr ""
+
+#: SummaryPage.cc:312
+#, qt-format
+msgid "Packages updated by user: %1"
+msgstr ""
+
+#: SummaryPage.cc:313
+#, qt-format
+msgid "Packages updated because of dependencies: %1"
+msgstr ""
+
+#: SummaryPage.cc:314
+#, qt-format
+msgid "To do: %1"
+msgstr ""
+
+#: SummaryPage.cc:363
+#, qt-format
+msgid "(%1 more)"
+msgstr ""
+
+#: SummaryPage.cc:379
+msgid "Reboot recommended."
+msgstr ""
+
+#: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
+msgid "Information only available for installed packages."
+msgstr ""
+
+#: YQPkgChangeLogView.cc:116
+#, qt-format
+msgid "(%1 more; run \"%2\" to see the complete change log)"
+msgstr ""
+
+#: YQPkgChangesDialog.cc:48
+msgid "Changed Packages"
+msgstr ""
+
+#: YQPkgChangesDialog.cc:85
+msgid "All"
+msgstr ""
+
+#: YQPkgChangesDialog.cc:86
+msgid "Selected by the user"
+msgstr ""
+
+#: YQPkgChangesDialog.cc:87 YQPkgSelectorBase.cc:261
+msgid "Automatic Changes"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:45
+msgid "No Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:46
+msgid "Recommended Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:47
+msgid "Suggested Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:48
+msgid "Orphaned Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:49
+msgid "Unneeded Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:50
+msgid "Multiversion Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:51
+msgid "Retracted Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:52
+msgid "Retracted Installed Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
+#: YQPkgSelector.cc:734
+msgid "All Packages"
+msgstr ""
+
+#: YQPkgClassificationFilterView.cc:82
+msgid "Package Classification"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:104
+msgid "&OK -- Try Again"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:116
+msgid "&Expert"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:129
+msgid "&Save This List to a File..."
+msgstr ""
+
+#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
+#: YQPkgSelector.cc:643 YQPkgSelector.cc:1263 YQPkgTextDialog.cc:235
+#: pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
+msgid "&Cancel"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:190
+msgid "Verifying System Dependencies"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:321
+msgid "Create Dependency Resolver Test Case"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:325
+msgid "You need to run the dependency resolver first."
+msgstr ""
+
+#: YQPkgConflictDialog.cc:333
+#, qt-format
+msgid ""
+"<p>Use this to generate extensive logs to help tracking down bugs in the "
+"dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1262
+#: YQPkgSelector.cc:1314 YQPkgVersionsView.cc:427
+msgid "C&ontinue"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:351
+#, qt-format
+msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:354
+msgid "Success"
+msgstr ""
+
+#: YQPkgConflictDialog.cc:359
+#, qt-format
+msgid ""
+"<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
+"disk space and permissions for <tt>%1</tt></p>"
+msgstr ""
+
+#: YQPkgConflictList.cc:138
+msgid "Save conflicts list"
+msgstr ""
+
+#: YQPkgConflictList.cc:161
+#, qt-format
+msgid "Can't open file %1"
+msgstr ""
+
+#: YQPkgConflictList.cc:247
+msgid "Conflict Resolution:"
+msgstr ""
+
+#: YQPkgConflictList.cc:287
+#, qt-format
+msgid "<a href='/'>%1 more...</a>"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:81 YQPkgDependenciesView.cc:111
+#: YQPkgTechnicalDetailsView.cc:128 YQPkgTechnicalDetailsView.cc:174
+msgid "Version:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:83 YQPkgDependenciesView.cc:113
+msgid "Provides:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:84 YQPkgDependenciesView.cc:114
+msgid "Prerequires:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:85 YQPkgDependenciesView.cc:115
+msgid "Requires:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:86 YQPkgDependenciesView.cc:116
+msgid "Conflicts:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:87 YQPkgDependenciesView.cc:117
+msgid "Obsoletes:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:88 YQPkgDependenciesView.cc:118
+msgid "Recommends:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:89 YQPkgDependenciesView.cc:119
+msgid "Suggests:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:90 YQPkgDependenciesView.cc:120
+msgid "Enhances:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:91 YQPkgDependenciesView.cc:121
+msgid "Supplements:"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:167
+msgid "<b>Alternate Version</b>"
+msgstr ""
+
+#: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:168
+msgid "<b>Installed Version</b>"
+msgstr ""
+
+#: YQPkgDescriptionDialog.cc:45
+msgid "Package Description"
+msgstr ""
+
+#: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelectorBase.cc:166
+#: YQPkgSelector.cc:1538 YQPkgSelector.cc:1708 YQPkgTextDialog.cc:43
+#: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
+msgid "&OK"
+msgstr ""
+
+#: YQPkgDescriptionView.cc:88
+msgid "References:"
+msgstr ""
+
+#: YQPkgDescriptionView.cc:237
+msgid "This package contains: "
+msgstr ""
+
+#: YQPkgDiskUsageList.cc:123
+msgid "<b>Error:</b> Out of disk space!"
+msgstr ""
+
+#: YQPkgDiskUsageList.cc:132
+msgid "<b>Warning:</b> Disk space is running out!"
+msgstr ""
+
+#: YQPkgDiskUsageWarningDialog.cc:41
+msgid "Disk Space Warning"
+msgstr ""
+
+#: YQPkgFileListView.cc:98
+#, qt-format
+msgid "%1 files total"
+msgstr ""
+
+#: YQPkgFilterTab.cc:124
+msgid "&View"
+msgstr ""
+
+#: YQPkgFilterTab.cc:233
+msgid "Move page &left"
+msgstr ""
+
+#: YQPkgFilterTab.cc:241
+msgid "Move page &right"
+msgstr ""
+
+#: YQPkgFilterTab.cc:249
+msgid "&Close page"
+msgstr ""
+
+#: YQPkgLangList.cc:40
+msgid "Code"
+msgstr ""
+
+#: YQPkgLangList.cc:43
+msgid "Language"
+msgstr ""
+
+#: YQPkgList.cc:48
+msgid "Package"
+msgstr ""
+
+#: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
+#: summary-page.ui:36
+msgid "Summary"
+msgstr ""
+
+#: YQPkgList.cc:54
+msgid "Installed (Available)"
+msgstr ""
+
+#: YQPkgList.cc:58
+msgid "Avail. Ver."
+msgstr ""
+
+#: YQPkgList.cc:61
+msgid "Inst. Ver."
+msgstr ""
+
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 zypp-history-browser.ui:162
+msgid "Version"
+msgstr ""
+
+#: YQPkgList.cc:71
+msgid "Size"
+msgstr ""
+
+#: YQPkgList.cc:436 YQPkgObjList.cc:492 YQPkgPatchList.cc:386
+msgid "&All in This List"
+msgstr ""
+
+#: YQPkgList.cc:575
+#, qt-format
+msgid "Installed Version: %1"
+msgstr ""
+
+#: YQPkgList.cc:593
+msgid "same"
+msgstr ""
+
+#: YQPkgList.cc:595
+msgid "newer"
+msgstr ""
+
+#: YQPkgList.cc:596
+msgid "older"
+msgstr ""
+
+#: YQPkgList.cc:599
+#, qt-format
+msgid "Available Version: %1 (%2)"
+msgstr ""
+
+#: YQPkgList.cc:603
+msgid "Not available for installation"
+msgstr ""
+
+#: YQPkgObjList.cc:241 status-filter-view.ui:259
+msgid "Delete"
+msgstr ""
+
+#: YQPkgObjList.cc:242 status-filter-view.ui:63
+msgid "Install"
+msgstr ""
+
+#: YQPkgObjList.cc:243 status-filter-view.ui:193
+msgid "Keep"
+msgstr ""
+
+#: YQPkgObjList.cc:244 status-filter-view.ui:210
+msgid "Do Not Install"
+msgstr ""
+
+#: YQPkgObjList.cc:245
+msgid "Protected -- Do Not Modify"
+msgstr ""
+
+#: YQPkgObjList.cc:246
+msgid "Taboo -- Never Install"
+msgstr ""
+
+#: YQPkgObjList.cc:247 status-filter-view.ui:83
+msgid "Update"
+msgstr ""
+
+#: YQPkgObjList.cc:249
+msgid "Autodelete"
+msgstr ""
+
+#: YQPkgObjList.cc:250
+msgid "Autoinstall"
+msgstr ""
+
+#: YQPkgObjList.cc:251
+msgid "Autoupdate"
+msgstr ""
+
+#: YQPkgObjList.cc:368 YQPkgObjList.cc:388 YQPkgSelector.cc:739
+msgid "Update unconditionally"
+msgstr ""
+
+#: YQPkgObjList.cc:383 YQPkgSelector.cc:736
+msgid "Update if newer version available"
+msgstr ""
+
+#: YQPkgObjList.cc:1298
+msgid "(by a software selection)"
+msgstr ""
+
+#: YQPkgObjList.cc:1300
+msgid "(by dependencies)"
+msgstr ""
+
+#: YQPkgPatchFilterView.cc:59
+msgid "&Show Patch Category:"
+msgstr ""
+
+#: YQPkgPatchFilterView.cc:65
+msgid "Needed Patches"
+msgstr ""
+
+#: YQPkgPatchFilterView.cc:66
+msgid "Unneeded Patches"
+msgstr ""
+
+#: YQPkgPatchFilterView.cc:67
+msgid "All Patches"
+msgstr ""
+
+#: YQPkgPatchFilterView.cc:79
+msgid "Patch Description"
+msgstr ""
+
+#: YQPkgPatchList.cc:595
+msgid "YaST"
+msgstr ""
+
+#: YQPkgPatchList.cc:596
+msgid "security"
+msgstr ""
+
+#: YQPkgPatchList.cc:597
+msgid "recommended"
+msgstr ""
+
+#: YQPkgPatchList.cc:598
+msgid "optional"
+msgstr ""
+
+#: YQPkgPatchList.cc:599
+msgid "feature"
+msgstr ""
+
+#: YQPkgPatchList.cc:600
+msgid "document"
+msgstr ""
+
+#: YQPkgPatternList.cc:56
+msgid "Pattern"
+msgstr ""
+
+#: YQPkgPatternList.cc:68
+msgid "Order"
+msgstr ""
+
+#: YQPkgPatternList.cc:412
+msgid "Invisible"
+msgstr ""
+
+#: YQPkgProductDialog.cc:40
+msgid "Products"
+msgstr ""
+
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:568
+msgid "Dependencies"
+msgstr ""
+
+#: YQPkgProductList.cc:35
+msgid "Product"
+msgstr ""
+
+#: YQPkgProductList.cc:38
+msgid "Vendor"
+msgstr ""
+
+#: YQPkgRepoFilterView.cc:92
+msgid "Protect All"
+msgstr ""
+
+#: YQPkgRepoFilterView.cc:99
+msgid "Un-Protect All"
+msgstr ""
+
+#: YQPkgRpmGroupsFilterView.cc:32
+msgid "RPM Groups"
+msgstr ""
+
+#: YQPkgRpmGroupsFilterView.cc:252
+#, qt-format
+msgid "zzz Unspecified (%1)"
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:156
+#, qt-format
+msgid "Default: %1"
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:163
+#, qt-format
+msgid "Detected: %1"
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:439
+msgid "No Results."
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:454
+msgid "Query Error"
+msgstr ""
+
+#: YQPkgSecondaryFilterView.cc:77
+msgid "&Secondary Filter:"
+msgstr ""
+
+#: YQPkgSecondaryFilterView.cc:97
+msgid "Installed Packages"
+msgstr ""
+
+#: YQPkgSecondaryFilterView.cc:106
+msgid "Not Installed Packages"
+msgstr ""
+
+#: YQPkgSecondaryFilterView.cc:116
+msgid "Search"
+msgstr ""
+
+#: YQPkgSecondaryFilterView.cc:132
+msgid "Status"
+msgstr ""
+
+#: YQPkgSelectorBase.cc:120
+msgid "System dependencies verify OK."
+msgstr ""
+
+#: YQPkgSelectorBase.cc:139
+msgid "Error: Out of disk space!"
+msgstr ""
+
+#: YQPkgSelectorBase.cc:140
+msgid ""
+"<p>You can choose to install anyway if you know what you are doing, but you "
+"risk getting a corrupted system that requires manual repairs. If you are not "
+"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"deselect some packages.</p>"
+msgstr ""
+
+#: YQPkgSelectorBase.cc:148
+msgid "C&ontinue Anyway"
+msgstr ""
+
+#: YQPkgSelectorBase.cc:160
+msgid "The following items will be changed: "
+msgstr ""
+
+#: YQPkgSelectorBase.cc:210
+msgid "Really abandon all changes and exit?"
+msgstr ""
+
+#: YQPkgSelectorBase.cc:265
+msgid ""
+"In addition to your manual selections, the following packages have been "
+"changed to resolve dependencies:"
+msgstr ""
+
+#: YQPkgSelectorBase.cc:367
+msgid "Not implemented yet"
+msgstr ""
+
+#: YQPkgSelector.cc:311 search-filter-view.ui:53
+msgid "&Search"
+msgstr ""
+
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1279
+msgid "Patc&hes"
+msgstr ""
+
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1280
+msgid "&Updates"
+msgstr ""
+
+#: YQPkgSelector.cc:347
+msgid "&Repositories"
+msgstr ""
+
+#: YQPkgSelector.cc:357
+msgid "RPM &Groups"
+msgstr ""
+
+#: YQPkgSelector.cc:370
+msgid "Repository Index Ser&vices"
+msgstr ""
+
+#: YQPkgSelector.cc:383
+msgid "Pa&tterns"
+msgstr ""
+
+#: YQPkgSelector.cc:394
+msgid "Package Classi&fication"
+msgstr ""
+
+#: YQPkgSelector.cc:405
+msgid "&Languages"
+msgstr ""
+
+#: YQPkgSelector.cc:415
+msgid "Installation Su&mmary"
+msgstr ""
+
+#: YQPkgSelector.cc:543
+msgid "Description"
+msgstr ""
+
+#: YQPkgSelector.cc:555
+msgid "Technical Data"
+msgstr ""
+
+#: YQPkgSelector.cc:582
+msgid "Versions"
+msgstr ""
+
+#: YQPkgSelector.cc:600
+msgid "File List"
+msgstr ""
+
+#: YQPkgSelector.cc:616
+msgid "Change Log"
+msgstr ""
+
+#: YQPkgSelector.cc:637
+msgid "Resolver: ??"
+msgstr ""
+
+#: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
+msgid "&Accept"
+msgstr ""
+
+#: YQPkgSelector.cc:692
+msgid "&File"
+msgstr ""
+
+#: YQPkgSelector.cc:695
+msgid "&Accept Changes"
+msgstr ""
+
+#: YQPkgSelector.cc:697
+msgid "&Quit - Discard Changes"
+msgstr ""
+
+#: YQPkgSelector.cc:709
+msgid "&Package"
+msgstr ""
+
+#: YQPkgSelector.cc:758
+msgid "Patch"
+msgstr ""
+
+#: YQPkgSelector.cc:784
+msgid "&Dependencies"
+msgstr ""
+
+#: YQPkgSelector.cc:786
+msgid "&Check Now"
+msgstr ""
+
+#: YQPkgSelector.cc:788
+msgid "&Autocheck"
+msgstr ""
+
+#: YQPkgSelector.cc:792
+msgid "Install &Recommended Packages"
+msgstr ""
+
+#: YQPkgSelector.cc:805
+msgid "&Options"
+msgstr ""
+
+#: YQPkgSelector.cc:808
+msgid "Show -de&vel Packages"
+msgstr ""
+
+#: YQPkgSelector.cc:818
+msgid "Show -&debuginfo/-debugsource Packages"
+msgstr ""
+
+#: YQPkgSelector.cc:828
+msgid "&System Verification Mode"
+msgstr ""
+
+#: YQPkgSelector.cc:835
+msgid "Options for this run only"
+msgstr ""
+
+#: YQPkgSelector.cc:837
+msgid "&Cleanup when deleting packages"
+msgstr ""
+
+#: YQPkgSelector.cc:841
+msgid "&Allow vendor change"
+msgstr ""
+
+#: YQPkgSelector.cc:853
+msgid "E&xtras"
+msgstr ""
+
+#: YQPkgSelector.cc:857
+msgid "C&onfigure Repositories..."
+msgstr ""
+
+#: YQPkgSelector.cc:863
+msgid "Show &Products"
+msgstr ""
+
+#: YQPkgSelector.cc:864
+msgid "Show Package &Changes"
+msgstr ""
+
+#: YQPkgSelector.cc:866
+msgid "Show &History"
+msgstr ""
+
+#: YQPkgSelector.cc:873
+msgid "Install All Matching -devel Packages"
+msgstr ""
+
+#: YQPkgSelector.cc:876
+msgid "Install All Matching -debuginfo Packages"
+msgstr ""
+
+#: YQPkgSelector.cc:879
+msgid "Install All Matching -debugsource Packages"
+msgstr ""
+
+#: YQPkgSelector.cc:881
+msgid "Install All Matching Recommended Packages"
+msgstr ""
+
+#: YQPkgSelector.cc:887
+msgid "Generate Dependency Resolver &Test Case"
+msgstr ""
+
+#: YQPkgSelector.cc:900
+msgid "H&elp"
+msgstr ""
+
+#: YQPkgSelector.cc:910
+msgid "&Overview"
+msgstr ""
+
+#: YQPkgSelector.cc:912
+msgid "About &Myrlyn"
+msgstr ""
+
+#: YQPkgSelector.cc:913
+msgid "About &Qt"
+msgstr ""
+
+#: YQPkgSelector.cc:918
+msgid "Rep&ository Configuration"
+msgstr ""
+
+#: YQPkgSelector.cc:919
+msgid "Root &Authentication"
+msgstr ""
+
+#: YQPkgSelector.cc:1146
+msgid "All package dependencies are OK."
+msgstr ""
+
+#: YQPkgSelector.cc:1254
+msgid ""
+"There are pending changes.\n"
+"\n"
+"If you continue to the repository configuration\n"
+"and change anything there, you will have to\n"
+"restart the program, and all package changes\n"
+"will be lost.\n"
+msgstr ""
+
+#: YQPkgSelector.cc:1312
+#, qt-format
+msgid "%1 packages will be updated"
+msgstr ""
+
+#: YQPkgSelector.cc:1342
+msgid "Dist-Upgrade Mode"
+msgstr ""
+
+#: YQPkgSelector.cc:1343
+msgid "Package Update Mode"
+msgstr ""
+
+#: YQPkgSelector.cc:1381
+#, qt-format
+msgid ""
+"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
+"versions in this repository (%2)</p>"
+msgstr ""
+
+#: YQPkgSelector.cc:1406
+#, qt-format
+msgid ""
+"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
+"to versions in repository %2</p>"
+msgstr ""
+
+#: YQPkgSelector.cc:1482
+#, qt-format
+msgid ""
+"Can't open zypp history file\n"
+"%1\n"
+"\n"
+"No permissions?"
+msgstr ""
+
+#: YQPkgSelector.cc:1494
+#, qt-format
+msgid ""
+"Parse error in zypp history file\n"
+"%1\n"
+"\n"
+"Check the log!"
+msgstr ""
+
+#: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
+msgid "Added Subpackages:"
+msgstr ""
+
+#: YQPkgServiceList.cc:202
+msgid "URL: "
+msgstr ""
+
+#: YQPkgServiceList.cc:209
+msgid "Product: "
+msgstr ""
+
+#: YQPkgServiceList.cc:213
+msgid "Repositories:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:129 YQPkgTechnicalDetailsView.cc:175
+msgid "Build Time:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:133 YQPkgTechnicalDetailsView.cc:176
+msgid "Install Time:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
+msgid "RPM Group:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
+msgid "License:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:141 YQPkgTechnicalDetailsView.cc:185
+msgid "Installed Size:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:142 YQPkgTechnicalDetailsView.cc:186
+msgid "Download Size:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:143 YQPkgTechnicalDetailsView.cc:187
+msgid "Distribution:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:144 YQPkgTechnicalDetailsView.cc:188
+msgid "Vendor:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:145 YQPkgTechnicalDetailsView.cc:189
+msgid "Packager:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:146 YQPkgTechnicalDetailsView.cc:190
+msgid "Architecture:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:147 YQPkgTechnicalDetailsView.cc:191
+#: repo-config.ui:128
+msgid "URL:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:148 YQPkgTechnicalDetailsView.cc:192
+msgid "Source Package:"
+msgstr ""
+
+#: YQPkgTechnicalDetailsView.cc:151 YQPkgTechnicalDetailsView.cc:196
+msgid "Authors:"
+msgstr ""
+
+#: YQPkgVersionsView.cc:184
+#, qt-format
+msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
+msgstr ""
+
+#: YQPkgVersionsView.cc:192
+#, qt-format
+msgid "%1-%2 from vendor %3 (installed)"
+msgstr ""
+
+#: YQPkgVersionsView.cc:399
+msgid ""
+"You are trying to install multiversion-capable\n"
+"and non-multiversion-capable versions of this\n"
+"package at the same time."
+msgstr ""
+
+#: YQPkgVersionsView.cc:407
+msgid ""
+"This version is multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install this version\n"
+"and unselect the non-multiversion-capable version,\n"
+"\"Cancel\" to unselect this version and keep the other one."
+msgstr ""
+
+#: YQPkgVersionsView.cc:416
+msgid ""
+"This version is not multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install only this version\n"
+"and unselect all other versions,\n"
+"\"Cancel\" to unselect this version and keep the other ones."
+msgstr ""
+
+#: YQPkgVersionsView.cc:425
+msgid "Incompatible Package Versions"
+msgstr ""
+
+#: YQPkgVersionsView.cc:551
+#, qt-format
+msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
+msgstr ""
+
+#: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
+#, qt-format
+msgid "%1-%2 from %3 with priority %4 and vendor %5"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:465
+#, qt-format
+msgid "Repo+  %1  %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:471
+#, qt-format
+msgid "Repo-  %1"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:476
+#, qt-format
+msgid "Repo-URL  %1 -> %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:482
+#, qt-format
+msgid "Repo-Alias  %1 -> %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:502
+#, qt-format
+msgid "Patch %1"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:625
+#, qt-format
+msgid "<b>Filter:</b> %1"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:627
+msgid "<i>No Filter</i>"
+msgstr ""
+
+#: ZyppHistoryFilter.cc:26
+msgid "Only repo events"
+msgstr ""
+
+#: ZyppHistoryFilter.cc:57
+#, qt-format
+msgid "Package name \"%1\""
+msgstr ""
+
+#: ZyppHistoryFilter.cc:80
+#, qt-format
+msgid "Packages from repo \"%1\""
+msgstr ""
+
+#: ZyppHistoryFilterDialog.cc:155
+msgid "Only package installation / update"
+msgstr ""
+
+#: ZyppHistoryFilterDialog.cc:160
+msgid "Only package removal"
+msgstr ""
+
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -9,11 +1227,11 @@ msgstr ""
 msgid "About Myrlyn"
 msgstr ""
 
-#: about-dialog.ui:36
+#: about-dialog.ui:52
 msgid "## Myrlyn "
 msgstr ""
 
-#: about-dialog.ui:65
+#: about-dialog.ui:81
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -28,15 +1246,22 @@ msgid ""
 "dependencies."
 msgstr ""
 
-#: about-dialog.ui:107
+#: about-dialog.ui:123
 msgid ""
 "### Main Author\n"
 "\n"
-"- Stefan Hundhammer (GitHub: @shundhammer)\n"
+"Stefan Hundhammer (GitHub: @shundhammer)\n"
 "\n"
 "### Contributors\n"
 "\n"
-"- Christoph Grüninger (GitHub: @gruenich)"
+"- Christoph Grüninger (GitHub: @gruenich)\n"
+"- @Arthurium-On-Linux\n"
+"- @byDMA"
+msgstr ""
+
+#: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
+#: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
+msgid "Form"
 msgstr ""
 
 #: init-repos-page.ui:36
@@ -57,6 +1282,10 @@ msgstr ""
 
 #: progress-dialog.ui:14
 msgid "Working..."
+msgstr ""
+
+#: progress-dialog.ui:79 repo-config.ui:378 zypp-history-browser.ui:222
+msgid "&Close"
 msgstr ""
 
 #: repo-config.ui:14
@@ -107,16 +1336,16 @@ msgstr ""
 msgid "<i>Restart needed!</i>"
 msgstr ""
 
-#: repo-config.ui:378
-msgid "&Close"
-msgstr ""
-
 #: repo-edit-add.ui:98
 msgid "Custom &Repository"
 msgstr ""
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
+msgstr ""
+
+#: repo-edit-add.ui:254 search-filter-view.ui:87
+msgid "&Name"
 msgstr ""
 
 #: repo-edit-add.ui:270
@@ -179,10 +1408,6 @@ msgstr ""
 msgid "Search In"
 msgstr ""
 
-#: search-filter-view.ui:87
-msgid "&Name"
-msgstr ""
-
 #: search-filter-view.ui:97
 msgid "Su&mmary"
 msgstr ""
@@ -191,51 +1416,69 @@ msgstr ""
 msgid "D&escription"
 msgstr ""
 
-#: search-filter-view.ui:111
+#: search-filter-view.ui:127
 msgid "RPM P&rovides"
 msgstr ""
 
-#: search-filter-view.ui:118
+#: search-filter-view.ui:134
 msgid "RPM Re&quires"
 msgstr ""
 
-#: search-filter-view.ui:125
+#: search-filter-view.ui:141
+msgid "RPM Recommends"
+msgstr ""
+
+#: search-filter-view.ui:164
 msgid "File &List"
 msgstr ""
 
-#: search-filter-view.ui:159
+#: search-filter-view.ui:198
 msgid "Searc&h Mode:"
 msgstr ""
 
-#: search-filter-view.ui:170
+#: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
+#: zypp-history-filter-dialog.ui:184
 msgid "Auto"
 msgstr ""
 
-#: search-filter-view.ui:175
+#: search-filter-view.ui:214 zypp-history-filter-dialog.ui:98
+#: zypp-history-filter-dialog.ui:189
 msgid "Contains"
 msgstr ""
 
-#: search-filter-view.ui:180
+#: search-filter-view.ui:219 zypp-history-filter-dialog.ui:103
+#: zypp-history-filter-dialog.ui:194
 msgid "Starts With"
 msgstr ""
 
-#: search-filter-view.ui:185
+#: search-filter-view.ui:224 zypp-history-filter-dialog.ui:108
+#: zypp-history-filter-dialog.ui:199
 msgid "Exact Match"
 msgstr ""
 
-#: search-filter-view.ui:190
+#: search-filter-view.ui:229 zypp-history-filter-dialog.ui:113
+#: zypp-history-filter-dialog.ui:204
 msgid "Wildcards"
 msgstr ""
 
-#: search-filter-view.ui:195
+#: search-filter-view.ui:234 zypp-history-filter-dialog.ui:118
+#: zypp-history-filter-dialog.ui:209
 msgid "Regular Expression"
 msgstr ""
 
-#: search-filter-view.ui:203
+#: search-filter-view.ui:244
 msgid "Detected:"
 msgstr ""
 
-#: search-filter-view.ui:212
+#: search-filter-view.ui:267
+msgid "Switch default mode for \"auto\""
+msgstr ""
+
+#: search-filter-view.ui:270 summary-page.ui:132
+msgid "..."
+msgstr ""
+
+#: search-filter-view.ui:295
 msgid "Case Sens&itive"
 msgstr ""
 
@@ -271,6 +1514,10 @@ msgstr ""
 msgid "Defaults"
 msgstr ""
 
+#: status-filter-view.ui:361 updates-filter-view.ui:242
+msgid "Refresh List"
+msgstr ""
+
 #: summary-page.ui:52
 msgid ""
 "Packages installed: 2\n"
@@ -295,20 +1542,12 @@ msgstr ""
 msgid "&Stop"
 msgstr ""
 
-#: summary-page.ui:132
-msgid "..."
-msgstr ""
-
 #: summary-page.ui:172
 msgid "&Back"
 msgstr ""
 
 #: summary-page.ui:179
 msgid "&Finish"
-msgstr ""
-
-#: updates-filter-view.ui:14
-msgid "Form"
 msgstr ""
 
 #: updates-filter-view.ui:35
@@ -348,1121 +1587,74 @@ msgid ""
 "This is the equivalent of the \"zypper dup\" command."
 msgstr ""
 
-#: updates-filter-view.ui:242
-msgid "Refresh List"
+#: zypp-history-browser.ui:14
+msgid "Zypp History"
 msgstr ""
 
-#: MyrlynApp.cc:180
-msgid " [root]"
+#: zypp-history-browser.ui:66
+msgid "**Zypp History**"
 msgstr ""
 
-#: MyrlynApp.cc:183 RepoConfigDialog.cc:64
-msgid " (read-only)"
+#: zypp-history-browser.ui:92
+msgid "No Filter"
 msgstr ""
 
-#: MyrlynApp.cc:204
-msgid "Preparing the package selector..."
+#: zypp-history-browser.ui:108
+msgid "Cl&ear Filter"
 msgstr ""
 
-#: MyrlynApp.cc:462
-msgid "Really quit?"
+#: zypp-history-browser.ui:115
+msgid "&Filter..."
 msgstr ""
 
-#: MyrlynRepoManager.cc:296
-msgid ""
-"Error loading the repos. Run\n"
-"\n"
-"    sudo zypper refresh\n"
-"\n"
-"and restart the program."
+#: zypp-history-browser.ui:144
+msgid "Navigation"
 msgstr ""
 
-#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
-#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:159
-msgid "Error"
+#: zypp-history-browser.ui:167
+msgid "Arch."
 msgstr ""
 
-#: MyrlynRepoManager.cc:318
-#, qt-format
-msgid ""
-"Refreshing repository \"%1\" failed.\n"
-"\n"
-"This repository is now disabled for this program run."
+#: zypp-history-browser.ui:172
+msgid "Repo"
 msgstr ""
 
-#: MyrlynRepoManager.cc:329
-#, qt-format
-msgid ""
-"Refreshing failed for repositories\n"
-"\n"
-"%1\n"
-"Those repositories are now disabled for this program run."
+#: zypp-history-browser.ui:199
+msgid "Sho&w (+/-) Count"
 msgstr ""
 
-#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
-msgid "Warning"
+#: zypp-history-filter-dialog.ui:14
+msgid "Zypp History Filter"
 msgstr ""
 
-#: MyrlynWorkflowSteps.cc:168
-msgid ""
-"Can't connect to the package manager!\n"
-"It may be busy in another window.\n"
+#: zypp-history-filter-dialog.ui:38
+msgid "**Zypp History Filter**"
 msgstr ""
 
-#: PkgCommitPage.cc:141
-msgid "To Do"
+#: zypp-history-filter-dialog.ui:51
+msgid "Package by &Name"
 msgstr ""
 
-#: PkgCommitPage.cc:142
-msgid "Downloads"
+#: zypp-history-filter-dialog.ui:76
+msgid "Package Name or Pattern"
 msgstr ""
 
-#: PkgCommitPage.cc:143
-msgid "Done"
+#: zypp-history-filter-dialog.ui:142
+msgid "Package by &Repository"
 msgstr ""
 
-#: PkgCommitPage.cc:295
-msgid "Hide &Details"
+#: zypp-history-filter-dialog.ui:167
+msgid "Repo Alias or Pattern"
 msgstr ""
 
-#: PkgCommitPage.cc:295
-msgid "Show &Details"
+#: zypp-history-filter-dialog.ui:233
+msgid "Package &Install / Update"
 msgstr ""
 
-#: PkgCommitPage.cc:340
-msgid "Really cancel the current package actions?"
+#: zypp-history-filter-dialog.ui:240
+msgid "Package Re&move"
 msgstr ""
 
-#: PkgCommitPage.cc:541
-msgid "Checking File Conflicts..."
-msgstr ""
-
-#: PkgCommitPage.cc:710
-#, qt-format
-msgid "Error downloading package %1"
-msgstr ""
-
-#: PkgCommitPage.cc:758 PkgCommitPage.cc:787
-#, qt-format
-msgid "Error installing package %1"
-msgstr ""
-
-#: PkgCommitPage.cc:975
-msgid "[Post-transaction scripts]"
-msgstr ""
-
-#: PkgCommitPage.cc:1124
-msgid "File Conflict"
-msgstr ""
-
-#: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
-#: YQPkgServiceList.cc:46
-msgid "Name"
-msgstr ""
-
-#: QY2DiskUsageList.cc:164
-msgid "Disk Usage"
-msgstr ""
-
-#: QY2DiskUsageList.cc:165
-msgid "Free"
-msgstr ""
-
-#: QY2DiskUsageList.cc:166
-msgid "Total"
-msgstr ""
-
-#: QY2DiskUsageList.cc:228
-#, qt-format
-msgid "Used %1"
-msgstr ""
-
-#: RepoConfigDialog.cc:324
-#, qt-format
-msgid ""
-"Really delete repository \"%1\"?\n"
-"\n"
-"URL: %2"
-msgstr ""
-
-#: RepoConfigDialog.cc:350
-msgid ""
-"The application needs to be restarted\n"
-"for the changes to take effect.\n"
-"\n"
-"Quitting now. Please restart."
-msgstr ""
-
-#: RepoEditDialog.cc:104
-msgid "See also  'man zypper'"
-msgstr ""
-
-#: RepoEditDialog.cc:112
-msgid "Add Repository"
-msgstr ""
-
-#: RepoEditDialog.cc:112
-msgid "Edit Repository"
-msgstr ""
-
-#: RepoEditDialog.cc:246
-msgid "Invalid URL: "
-msgstr ""
-
-#: RepoEditDialog.cc:251
-msgid "Invalid input: "
-msgstr ""
-
-#: RepoGpgKeyImportDialog.cc:110
-#, qt-format
-msgid "Repository \"%1\" will be temporarily disabled."
-msgstr ""
-
-#: RepoTable.cc:40
-msgid "Priority"
-msgstr ""
-
-#: RepoTable.cc:41
-msgid "Enabled"
-msgstr ""
-
-#: RepoTable.cc:42
-msgid "Auto-Refresh"
-msgstr ""
-
-#: RepoTable.cc:43
-msgid "Service"
-msgstr ""
-
-#: RepoTable.cc:44
-msgid "URL"
-msgstr ""
-
-#: SummaryPage.cc:120
-#, qt-format
-msgid "%1 s"
-msgstr ""
-
-#: SummaryPage.cc:175
-msgid "Close after 300 seconds (5 minutes)"
-msgstr ""
-
-#: SummaryPage.cc:176
-msgid "Don't automatically close"
-msgstr ""
-
-#: SummaryPage.cc:192
-#, qt-format
-msgid "Close after %1 seconds"
-msgstr ""
-
-#: SummaryPage.cc:258
-msgid "No package changes."
-msgstr ""
-
-#: SummaryPage.cc:299
-#, qt-format
-msgid "FAILED: %1"
-msgstr ""
-
-#: SummaryPage.cc:300
-#, qt-format
-msgid "Packages removed by user: %1"
-msgstr ""
-
-#: SummaryPage.cc:301
-#, qt-format
-msgid "Packages removed because of dependencies: %1"
-msgstr ""
-
-#: SummaryPage.cc:302
-#, qt-format
-msgid "Packages installed by user: %1"
-msgstr ""
-
-#: SummaryPage.cc:303
-#, qt-format
-msgid "Packages installed because of dependencies: %1"
-msgstr ""
-
-#: SummaryPage.cc:304
-#, qt-format
-msgid "Packages updated by user: %1"
-msgstr ""
-
-#: SummaryPage.cc:305
-#, qt-format
-msgid "Packages updated because of dependencies: %1"
-msgstr ""
-
-#: SummaryPage.cc:306
-#, qt-format
-msgid "To do: %1"
-msgstr ""
-
-#: SummaryPage.cc:355
-#, qt-format
-msgid "(%1 more)"
-msgstr ""
-
-#: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
-msgid "Information only available for installed packages."
-msgstr ""
-
-#: YQPkgChangeLogView.cc:116
-#, qt-format
-msgid "(%1 more; run \"%2\" to see the complete change log)"
-msgstr ""
-
-#: YQPkgChangesDialog.cc:48
-msgid "Changed Packages"
-msgstr ""
-
-#: YQPkgChangesDialog.cc:85
-msgid "All"
-msgstr ""
-
-#: YQPkgChangesDialog.cc:86
-msgid "Selected by the user"
-msgstr ""
-
-#: YQPkgChangesDialog.cc:87 YQPkgSelectorBase.cc:261
-msgid "Automatic Changes"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:45
-msgid "No Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:46
-msgid "Recommended Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:47
-msgid "Suggested Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:48
-msgid "Orphaned Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:49
-msgid "Unneeded Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:50
-msgid "Multiversion Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:51
-msgid "Retracted Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:52
-msgid "Retracted Installed Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:109
-#: YQPkgSelector.cc:703
-msgid "All Packages"
-msgstr ""
-
-#: YQPkgClassificationFilterView.cc:82
-msgid "Package Classification"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:104
-msgid "&OK -- Try Again"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:116
-msgid "&Expert"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:129
-msgid "&Save This List to a File..."
-msgstr ""
-
-#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
-#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
-msgid "&Cancel"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:190
-msgid "Verifying System Dependencies"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:321
-msgid "Create Dependency Resolver Test Case"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:325
-msgid "You need to run the dependency resolver first."
-msgstr ""
-
-#: YQPkgConflictDialog.cc:333
-#, qt-format
-msgid ""
-"<p>Use this to generate extensive logs to help tracking down bugs in the "
-"dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1217
-#: YQPkgSelector.cc:1269 YQPkgVersionsView.cc:427
-msgid "C&ontinue"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:351
-#, qt-format
-msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:354
-msgid "Success"
-msgstr ""
-
-#: YQPkgConflictDialog.cc:359
-#, qt-format
-msgid ""
-"<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
-"disk space and permissions for <tt>%1</tt></p>"
-msgstr ""
-
-#: YQPkgConflictList.cc:137
-msgid "Save conflicts list"
-msgstr ""
-
-#: YQPkgConflictList.cc:160
-#, qt-format
-msgid "Can't open file %1"
-msgstr ""
-
-#: YQPkgConflictList.cc:246
-msgid "Conflict Resolution:"
-msgstr ""
-
-#: YQPkgConflictList.cc:286
-#, qt-format
-msgid "<a href='/'>%1 more...</a>"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:81 YQPkgDependenciesView.cc:111
-#: YQPkgTechnicalDetailsView.cc:105 YQPkgTechnicalDetailsView.cc:146
-msgid "Version:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:83 YQPkgDependenciesView.cc:113
-msgid "Provides:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:84 YQPkgDependenciesView.cc:114
-msgid "Prerequires:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:85 YQPkgDependenciesView.cc:115
-msgid "Requires:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:86 YQPkgDependenciesView.cc:116
-msgid "Conflicts:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:87 YQPkgDependenciesView.cc:117
-msgid "Obsoletes:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:88 YQPkgDependenciesView.cc:118
-msgid "Recommends:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:89 YQPkgDependenciesView.cc:119
-msgid "Suggests:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:90 YQPkgDependenciesView.cc:120
-msgid "Enhances:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:91 YQPkgDependenciesView.cc:121
-msgid "Supplements:"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:139
-msgid "<b>Alternate Version</b>"
-msgstr ""
-
-#: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:140
-msgid "<b>Installed Version</b>"
-msgstr ""
-
-#: YQPkgDescriptionDialog.cc:45
-msgid "Package Description"
-msgstr ""
-
-#: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114 YQPkgProductDialog.cc:99
-#: YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449 YQPkgSelector.cc:1619
-#: YQPkgTextDialog.cc:43
-msgid "&OK"
-msgstr ""
-
-#: YQPkgDescriptionView.cc:88
-msgid "References:"
-msgstr ""
-
-#: YQPkgDescriptionView.cc:237
-msgid "This package contains: "
-msgstr ""
-
-#: YQPkgDiskUsageList.cc:123
-msgid "<b>Error:</b> Out of disk space!"
-msgstr ""
-
-#: YQPkgDiskUsageList.cc:132
-msgid "<b>Warning:</b> Disk space is running out!"
-msgstr ""
-
-#: YQPkgDiskUsageWarningDialog.cc:41
-msgid "Disk Space Warning"
-msgstr ""
-
-#: YQPkgFileListView.cc:98
-#, qt-format
-msgid "%1 files total"
-msgstr ""
-
-#: YQPkgFilterTab.cc:123
-msgid "&View"
-msgstr ""
-
-#: YQPkgFilterTab.cc:232
-msgid "Move page &left"
-msgstr ""
-
-#: YQPkgFilterTab.cc:240
-msgid "Move page &right"
-msgstr ""
-
-#: YQPkgFilterTab.cc:248
-msgid "&Close page"
-msgstr ""
-
-#: YQPkgHistoryDialog.cc:56
-msgid "Package History"
-msgstr ""
-
-#: YQPkgHistoryDialog.cc:73
-msgid "Package History (/var/log/zypp/history)"
-msgstr ""
-
-#: YQPkgHistoryDialog.cc:89
-msgid "Date"
-msgstr ""
-
-#: YQPkgHistoryDialog.cc:97
-msgid "Action"
-msgstr ""
-
-#: YQPkgHistoryDialog.cc:97
-msgid "Version/URL"
-msgstr ""
-
-#: YQPkgHistoryDialog.cc:183
-msgid "Unable to read history"
-msgstr ""
-
-#: YQPkgLangList.cc:40
-msgid "Code"
-msgstr ""
-
-#: YQPkgLangList.cc:43
-msgid "Language"
-msgstr ""
-
-#: YQPkgList.cc:48
-msgid "Package"
-msgstr ""
-
-#: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
-msgid "Summary"
-msgstr ""
-
-#: YQPkgList.cc:54
-msgid "Installed (Available)"
-msgstr ""
-
-#: YQPkgList.cc:58
-msgid "Avail. Ver."
-msgstr ""
-
-#: YQPkgList.cc:61
-msgid "Inst. Ver."
-msgstr ""
-
-#: YQPkgList.cc:67 YQPkgProductList.cc:37
-msgid "Version"
-msgstr ""
-
-#: YQPkgList.cc:71
-msgid "Size"
-msgstr ""
-
-#: YQPkgList.cc:436 YQPkgObjList.cc:526 YQPkgPatchList.cc:386
-msgid "&All in This List"
-msgstr ""
-
-#: YQPkgList.cc:575
-#, qt-format
-msgid "Installed Version: %1"
-msgstr ""
-
-#: YQPkgList.cc:593
-msgid "same"
-msgstr ""
-
-#: YQPkgList.cc:595
-msgid "newer"
-msgstr ""
-
-#: YQPkgList.cc:596
-msgid "older"
-msgstr ""
-
-#: YQPkgList.cc:599
-#, qt-format
-msgid "Available Version: %1 (%2)"
-msgstr ""
-
-#: YQPkgList.cc:603
-msgid "Not available for installation"
-msgstr ""
-
-#: YQPkgObjList.cc:264
-msgid "Autodelete"
-msgstr ""
-
-#: YQPkgObjList.cc:265
-msgid "Autoinstall"
-msgstr ""
-
-#: YQPkgObjList.cc:266
-msgid "Autoupdate"
-msgstr ""
-
-#: YQPkgObjList.cc:267
-msgid "Delete"
-msgstr ""
-
-#: YQPkgObjList.cc:268
-msgid "Install"
-msgstr ""
-
-#: YQPkgObjList.cc:269
-msgid "Keep"
-msgstr ""
-
-#: YQPkgObjList.cc:270
-msgid "Do Not Install"
-msgstr ""
-
-#: YQPkgObjList.cc:271
-msgid "Protected -- Do Not Modify"
-msgstr ""
-
-#: YQPkgObjList.cc:272
-msgid "Taboo -- Never Install"
-msgstr ""
-
-#: YQPkgObjList.cc:273
-msgid "Update"
-msgstr ""
-
-#: YQPkgObjList.cc:390 YQPkgObjList.cc:412 YQPkgSelector.cc:708
-msgid "Update unconditionally"
-msgstr ""
-
-#: YQPkgObjList.cc:406 YQPkgSelector.cc:705
-msgid "Update if newer version available"
-msgstr ""
-
-#: YQPkgObjList.cc:1314
-msgid "(by a software selection)"
-msgstr ""
-
-#: YQPkgObjList.cc:1316
-msgid "(by dependencies)"
-msgstr ""
-
-#: YQPkgPatchFilterView.cc:59
-msgid "&Show Patch Category:"
-msgstr ""
-
-#: YQPkgPatchFilterView.cc:65
-msgid "Needed Patches"
-msgstr ""
-
-#: YQPkgPatchFilterView.cc:66
-msgid "Unneeded Patches"
-msgstr ""
-
-#: YQPkgPatchFilterView.cc:67
-msgid "All Patches"
-msgstr ""
-
-#: YQPkgPatchFilterView.cc:79
-msgid "Patch Description"
-msgstr ""
-
-#: YQPkgPatchList.cc:595
-msgid "YaST"
-msgstr ""
-
-#: YQPkgPatchList.cc:596
-msgid "security"
-msgstr ""
-
-#: YQPkgPatchList.cc:597
-msgid "recommended"
-msgstr ""
-
-#: YQPkgPatchList.cc:598
-msgid "optional"
-msgstr ""
-
-#: YQPkgPatchList.cc:599
-msgid "feature"
-msgstr ""
-
-#: YQPkgPatchList.cc:600
-msgid "document"
-msgstr ""
-
-#: YQPkgPatternList.cc:56
-msgid "Pattern"
-msgstr ""
-
-#: YQPkgPatternList.cc:68
-msgid "Order"
-msgstr ""
-
-#: YQPkgPatternList.cc:398
-msgid "Invisible"
-msgstr ""
-
-#: YQPkgProductDialog.cc:40
-msgid "Products"
-msgstr ""
-
-#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:542
-msgid "Dependencies"
-msgstr ""
-
-#: YQPkgProductList.cc:35
-msgid "Product"
-msgstr ""
-
-#: YQPkgProductList.cc:38
-msgid "Vendor"
-msgstr ""
-
-#: YQPkgSearchFilterView.cc:141
-#, qt-format
-msgid "Default: %1"
-msgstr ""
-
-#: YQPkgSearchFilterView.cc:147
-#, qt-format
-msgid "Detected: %1"
-msgstr ""
-
-#: YQPkgSearchFilterView.cc:364
-msgid "No Results."
-msgstr ""
-
-#: YQPkgSearchFilterView.cc:379
-msgid "Query Error"
-msgstr ""
-
-#: YQPkgSecondaryFilterView.cc:99
-msgid "&Secondary Filter:"
-msgstr ""
-
-#: YQPkgSecondaryFilterView.cc:119
-msgid "Search"
-msgstr ""
-
-#: YQPkgSecondaryFilterView.cc:135
-msgid "Installation Summary"
-msgstr ""
-
-#: YQPkgSelectorBase.cc:120
-msgid "System dependencies verify OK."
-msgstr ""
-
-#: YQPkgSelectorBase.cc:139
-msgid "Error: Out of disk space!"
-msgstr ""
-
-#: YQPkgSelectorBase.cc:140
-msgid ""
-"<p>You can choose to install anyway if you know what you are doing, but you "
-"risk getting a corrupted system that requires manual repairs. If you are not "
-"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
-"deselect some packages.</p>"
-msgstr ""
-
-#: YQPkgSelectorBase.cc:148
-msgid "C&ontinue Anyway"
-msgstr ""
-
-#: YQPkgSelectorBase.cc:160
-msgid "The following items will be changed: "
-msgstr ""
-
-#: YQPkgSelectorBase.cc:210
-msgid "Really abandon all changes and exit?"
-msgstr ""
-
-#: YQPkgSelectorBase.cc:265
-msgid ""
-"In addition to your manual selections, the following packages have been "
-"changed to resolve dependencies:"
-msgstr ""
-
-#: YQPkgSelectorBase.cc:367
-msgid "Not implemented yet"
-msgstr ""
-
-#: YQPkgSelector.cc:294
-msgid "&Search"
-msgstr ""
-
-#: YQPkgSelector.cc:308 YQPkgSelector.cc:1234
-msgid "Patc&hes"
-msgstr ""
-
-#: YQPkgSelector.cc:320 YQPkgSelector.cc:1235
-msgid "&Updates"
-msgstr ""
-
-#: YQPkgSelector.cc:330
-msgid "&Repositories"
-msgstr ""
-
-#: YQPkgSelector.cc:344
-msgid "Repository Index Ser&vices"
-msgstr ""
-
-#: YQPkgSelector.cc:357
-msgid "Pa&tterns"
-msgstr ""
-
-#: YQPkgSelector.cc:368
-msgid "Package Classi&fication"
-msgstr ""
-
-#: YQPkgSelector.cc:379
-msgid "&Languages"
-msgstr ""
-
-#: YQPkgSelector.cc:389
-msgid "Installation Su&mmary"
-msgstr ""
-
-#: YQPkgSelector.cc:517
-msgid "Description"
-msgstr ""
-
-#: YQPkgSelector.cc:529
-msgid "Technical Data"
-msgstr ""
-
-#: YQPkgSelector.cc:556
-msgid "Versions"
-msgstr ""
-
-#: YQPkgSelector.cc:574
-msgid "File List"
-msgstr ""
-
-#: YQPkgSelector.cc:590
-msgid "Change Log"
-msgstr ""
-
-#: YQPkgSelector.cc:622 YQPkgTextDialog.cc:235
-msgid "&Accept"
-msgstr ""
-
-#: YQPkgSelector.cc:661
-msgid "&File"
-msgstr ""
-
-#: YQPkgSelector.cc:664
-msgid "&Accept Changes"
-msgstr ""
-
-#: YQPkgSelector.cc:666
-msgid "&Quit - Discard Changes"
-msgstr ""
-
-#: YQPkgSelector.cc:678
-msgid "&Package"
-msgstr ""
-
-#: YQPkgSelector.cc:727
-msgid "Patch"
-msgstr ""
-
-#: YQPkgSelector.cc:753
-msgid "&Dependencies"
-msgstr ""
-
-#: YQPkgSelector.cc:755
-msgid "&Check Now"
-msgstr ""
-
-#: YQPkgSelector.cc:757
-msgid "&Autocheck"
-msgstr ""
-
-#: YQPkgSelector.cc:761
-msgid "Install &Recommended Packages"
-msgstr ""
-
-#: YQPkgSelector.cc:774
-msgid "&Options"
-msgstr ""
-
-#: YQPkgSelector.cc:777
-msgid "Show -de&vel Packages"
-msgstr ""
-
-#: YQPkgSelector.cc:787
-msgid "Show -&debuginfo/-debugsource Packages"
-msgstr ""
-
-#: YQPkgSelector.cc:797
-msgid "&System Verification Mode"
-msgstr ""
-
-#: YQPkgSelector.cc:804
-msgid "Options for this run only"
-msgstr ""
-
-#: YQPkgSelector.cc:806
-msgid "&Cleanup when deleting packages"
-msgstr ""
-
-#: YQPkgSelector.cc:810
-msgid "&Allow vendor change"
-msgstr ""
-
-#: YQPkgSelector.cc:822
-msgid "E&xtras"
-msgstr ""
-
-#: YQPkgSelector.cc:826
-msgid "C&onfigure Repositories..."
-msgstr ""
-
-#: YQPkgSelector.cc:832
-msgid "Show &Products"
-msgstr ""
-
-#: YQPkgSelector.cc:833
-msgid "Show Package &Changes"
-msgstr ""
-
-#: YQPkgSelector.cc:834
-msgid "Show &History"
-msgstr ""
-
-#: YQPkgSelector.cc:839
-msgid "Install All Matching -devel Packages"
-msgstr ""
-
-#: YQPkgSelector.cc:842
-msgid "Install All Matching -debuginfo Packages"
-msgstr ""
-
-#: YQPkgSelector.cc:845
-msgid "Install All Matching -debugsource Packages"
-msgstr ""
-
-#: YQPkgSelector.cc:847
-msgid "Install All Matching Recommended Packages"
-msgstr ""
-
-#: YQPkgSelector.cc:853
-msgid "Generate Dependency Resolver &Test Case"
-msgstr ""
-
-#: YQPkgSelector.cc:866
-msgid "H&elp"
-msgstr ""
-
-#: YQPkgSelector.cc:876
-msgid "&Overview"
-msgstr ""
-
-#: YQPkgSelector.cc:878
-msgid "About &Myrlyn"
-msgstr ""
-
-#: YQPkgSelector.cc:879
-msgid "About &Qt"
-msgstr ""
-
-#: YQPkgSelector.cc:884
-msgid "Rep&ository Configuration"
-msgstr ""
-
-#: YQPkgSelector.cc:885
-msgid "Root &Authentication"
-msgstr ""
-
-#: YQPkgSelector.cc:1105
-msgid "All package dependencies are OK."
-msgstr ""
-
-#: YQPkgSelector.cc:1209
-msgid ""
-"There are pending changes.\n"
-"\n"
-"If you continue to the repository configuration\n"
-"and change anything there, you will have to\n"
-"restart the program, and all package changes\n"
-"will be lost.\n"
-msgstr ""
-
-#: YQPkgSelector.cc:1267
-#, qt-format
-msgid "%1 packages will be updated"
-msgstr ""
-
-#: YQPkgSelector.cc:1320
-#, qt-format
-msgid ""
-"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
-"versions in this repository (%2)</p>"
-msgstr ""
-
-#: YQPkgSelector.cc:1345
-#, qt-format
-msgid ""
-"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
-"to versions in repository %2</p>"
-msgstr ""
-
-#: YQPkgSelector.cc:1448 YQPkgSelector.cc:1617
-msgid "Added Subpackages:"
-msgstr ""
-
-#: YQPkgServiceList.cc:202
-msgid "URL: "
-msgstr ""
-
-#: YQPkgServiceList.cc:209
-msgid "Product: "
-msgstr ""
-
-#: YQPkgServiceList.cc:213
-msgid "Repositories:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:106 YQPkgTechnicalDetailsView.cc:147
-msgid "Build Time:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:110 YQPkgTechnicalDetailsView.cc:148
-msgid "Install Time:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:112 YQPkgTechnicalDetailsView.cc:149
-msgid "License:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:113 YQPkgTechnicalDetailsView.cc:150
-msgid "Installed Size:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:114 YQPkgTechnicalDetailsView.cc:151
-msgid "Download Size:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:115 YQPkgTechnicalDetailsView.cc:152
-msgid "Distribution:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:116 YQPkgTechnicalDetailsView.cc:153
-msgid "Vendor:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:117 YQPkgTechnicalDetailsView.cc:154
-msgid "Packager:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:118 YQPkgTechnicalDetailsView.cc:155
-msgid "Architecture:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:119 YQPkgTechnicalDetailsView.cc:156
-msgid "URL:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:120 YQPkgTechnicalDetailsView.cc:157
-msgid "Source Package:"
-msgstr ""
-
-#: YQPkgTechnicalDetailsView.cc:123 YQPkgTechnicalDetailsView.cc:161
-msgid "Authors:"
-msgstr ""
-
-#: YQPkgVersionsView.cc:184
-#, qt-format
-msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr ""
-
-#: YQPkgVersionsView.cc:192
-#, qt-format
-msgid "%1-%2 from vendor %3 (installed)"
-msgstr ""
-
-#: YQPkgVersionsView.cc:399
-msgid ""
-"You are trying to install multiversion-capable\n"
-"and non-multiversion-capable versions of this\n"
-"package at the same time."
-msgstr ""
-
-#: YQPkgVersionsView.cc:407
-msgid ""
-"This version is multiversion-capable.\n"
-"\n"
-"Press \"Continue\" to install this version\n"
-"and unselect the non-multiversion-capable version,\n"
-"\"Cancel\" to unselect this version and keep the other one."
-msgstr ""
-
-#: YQPkgVersionsView.cc:416
-msgid ""
-"This version is not multiversion-capable.\n"
-"\n"
-"Press \"Continue\" to install only this version\n"
-"and unselect all other versions,\n"
-"\"Cancel\" to unselect this version and keep the other ones."
-msgstr ""
-
-#: YQPkgVersionsView.cc:425
-msgid "Incompatible Package Versions"
-msgstr ""
-
-#: YQPkgVersionsView.cc:551
-#, qt-format
-msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr ""
-
-#: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
-#, qt-format
-msgid "%1-%2 from %3 with priority %4 and vendor %5"
+#: zypp-history-filter-dialog.ui:247
+msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr ""

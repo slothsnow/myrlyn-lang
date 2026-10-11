@@ -1,454 +1,16 @@
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
-# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
-# This file is distributed under the same license as the package.
-#
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
-# translation of qt-pkg.po to italian
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.po to
-# translation of packages-qt.it.po to
-# translation of packages-qt.it.po to
-# translation of packages-qt.it.po to
-# translation of packages-qt.it.po to
-# Italian message file for YaST2 (@memory@).
-# Copyright (C) 2002 SuSE Linux AG.
-# Copyright (C) 1999, 2000, 2001 SuSE GmbH.
-#
-# Franca Delcarlo <francad@attglobal.net>, 1999, 2000, 2001.
-# Karl Eichwalder <ke@suse.de>, 2000,2003, 2004, 2005.
-# Andrea Florio <andrea@opensuse.it>, 2008.
-# Andrea Florio <andrea@opensuse.org>, 2008, 2009.
-# Andrea Turrini <andrea.turrini@gmail.com>, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2024-03-04 10:42+0000\n"
-"Last-Translator: Davide Aiello <davide.aiello@novilingulists.com>\n"
-"Language-Team: Italian <https://l10n.opensuse.org/projects/yast-qt-pkg/"
-"master/it/>\n"
-"Language: it\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
-"X-Poedit-Language: Italian\n"
-
-#: about-dialog.ui:14
-msgid "About Myrlyn"
-msgstr ""
-
-#: about-dialog.ui:36
-msgid "## Myrlyn "
-msgstr ""
-
-#: about-dialog.ui:65
-msgid ""
-"Myrlyn is a graphical package manager to select\n"
-"software packages and patterns for installation,\n"
-"update and removal.\n"
-"\n"
-"It uses libzypp as its backend and Qt as its\n"
-"GUI toolkit.\n"
-"\n"
-"This started in the 11/2024 SUSE Hack Week\n"
-"to make the SUSE YaST Qt package selector usable\n"
-"as a standalone Qt program without any YaST\n"
-"dependencies."
-msgstr ""
-
-#: about-dialog.ui:107
-msgid ""
-"### Main Author\n"
-"\n"
-"- Stefan Hundhammer (GitHub: @shundhammer)\n"
-"\n"
-"### Contributors\n"
-"\n"
-"- Christoph Grüninger (GitHub: @gruenich)"
-msgstr ""
-
-#: init-repos-page.ui:36
-#, fuzzy
-msgid "Initializing Repositories"
-msgstr "&Repository"
-
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-# tooltip
-#: pkg-commit-page.ui:41
-#, fuzzy
-msgid "Installing / Removing Packages"
-msgstr "Installa pacchetti &consigliati"
-
-#: pkg-commit-page.ui:282
-msgid "Doing"
-msgstr ""
-
-#: pkg-commit-page.ui:548
-msgid "Show &Summary Page"
-msgstr ""
-
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
-# TLABEL modules/lan/lan.ycp:1772
-#: progress-dialog.ui:14
-#, fuzzy
-msgid "Working..."
-msgstr "Ricerca in corso..."
-
-#: repo-config.ui:14
-#, fuzzy
-msgid "Repository Configuration"
-msgstr "&Configurazione"
-
-#: repo-config.ui:41
-#, fuzzy
-msgid "**Repository Configuration**"
-msgstr "&Configurazione"
-
-#: repo-config.ui:94
-msgid "**PackMan**"
-msgstr ""
-
-#: repo-config.ui:154
-#, fuzzy
-msgid "Raw URL:"
-msgstr "URL:"
-
-#: repo-config.ui:208
-msgid "&Priority:"
-msgstr ""
-
-#: repo-config.ui:248
-msgid "Ena&bled"
-msgstr ""
-
-#: repo-config.ui:258
-msgid "Auto-Re&fresh"
-msgstr ""
-
-#: repo-config.ui:281
-msgid "1: highest; 200: lowest"
-msgstr ""
-
-#: repo-config.ui:334
-msgid "&Add"
-msgstr ""
-
-#: repo-config.ui:341
-msgid "&Edit"
-msgstr ""
-
-#: repo-config.ui:348
-#, fuzzy
-msgid "&Delete"
-msgstr "Elimina"
-
-#: repo-config.ui:368
-msgid "<i>Restart needed!</i>"
-msgstr ""
-
-#: repo-config.ui:378
-#, fuzzy
-msgid "&Close"
-msgstr "&Chiudi"
-
-#: repo-edit-add.ui:98
-#, fuzzy
-msgid "Custom &Repository"
-msgstr "&Repository"
-
-#: repo-edit-add.ui:108
-msgid "Co&mmunity Repository"
-msgstr ""
-
-#: repo-edit-add.ui:270
-#, fuzzy
-msgid "Repository Name"
-msgstr "&Repository"
-
-#: repo-edit-add.ui:302
-msgid "Raw &URL"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:14
-msgid "GPG Key"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:41
-msgid "## Import Untrusted GPG Key"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:81
-#, fuzzy
-msgid "_Repository:_"
-msgstr "Repository:"
-
-#: repo-gpg-key-import-dialog.ui:101
-#, fuzzy
-msgid "_URL:_"
-msgstr "URL:"
-
-#: repo-gpg-key-import-dialog.ui:121
-msgid "_Fingerprint:_"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:141
-msgid "_Key Name:_"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:161
-msgid "_Key Algorithm:_"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:181
-msgid "_Key ID:_"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:201
-msgid "_Created:_"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:221
-msgid "_Expires:_"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:274
-msgid "&Trust"
-msgstr ""
-
-#: search-filter-view.ui:43
-msgid "Search Text or Pattern"
-msgstr ""
-
-#: search-filter-view.ui:78
-#, fuzzy
-msgid "Search In"
-msgstr "Cerca in"
-
-#: search-filter-view.ui:87
-#, fuzzy
-msgid "&Name"
-msgstr "&Nome"
-
-#: search-filter-view.ui:97
-#, fuzzy
-msgid "Su&mmary"
-msgstr "&Riepilogo"
-
-#: search-filter-view.ui:104
-#, fuzzy
-msgid "D&escription"
-msgstr "&Descrizione"
-
-#: search-filter-view.ui:111
-#, fuzzy
-msgid "RPM P&rovides"
-msgstr "RPM \"&Fornisce\""
-
-#: search-filter-view.ui:118
-#, fuzzy
-msgid "RPM Re&quires"
-msgstr "RPM \"&Richiede\""
-
-#: search-filter-view.ui:125
-#, fuzzy
-msgid "File &List"
-msgstr "Elenco file"
-
-#: search-filter-view.ui:159
-#, fuzzy
-msgid "Searc&h Mode:"
-msgstr "&Modalità di ricerca:"
-
-#: search-filter-view.ui:170
-msgid "Auto"
-msgstr ""
-
-#: search-filter-view.ui:175
-#, fuzzy
-msgid "Contains"
-msgstr "Contiene"
-
-#: search-filter-view.ui:180
-msgid "Starts With"
-msgstr ""
-
-#: search-filter-view.ui:185
-#, fuzzy
-msgid "Exact Match"
-msgstr "Esatta corrispondenza"
-
-#: search-filter-view.ui:190
-#, fuzzy
-msgid "Wildcards"
-msgstr "Usa caratteri jolly"
-
-#: search-filter-view.ui:195
-#, fuzzy
-msgid "Regular Expression"
-msgstr "Usa espressione regolare"
-
-#: search-filter-view.ui:203
-#, fuzzy
-msgid "Detected:"
-msgstr "Protetto"
-
-#: search-filter-view.ui:212
-#, fuzzy
-msgid "Case Sens&itive"
-msgstr "Disting&ui tra maiuscole e minuscole"
-
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
-# &a is taken by &Annulla
-# 2001-10-01 14:14:27 CEST -ke-
-# TLABEL modules/inst_sw_single.ycp:113
-#: status-filter-view.ui:32
-#, fuzzy
-msgid "Show Packages with Status"
-msgstr "Mostra pacchetti con stato"
-
-#: status-filter-view.ui:103
-#, fuzzy
-msgid "Auto-Install"
-msgstr "Installazione automatica"
-
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
-# TLABEL modules/dialup/dialup.ycp:1196
-#: status-filter-view.ui:123
-#, fuzzy
-msgid "Auto-Update"
-msgstr "Aggiornamento automatico"
-
-#: status-filter-view.ui:143
-#, fuzzy
-msgid "Taboo"
-msgstr "Tabù"
-
-#: status-filter-view.ui:160
-#, fuzzy
-msgid "Protected"
-msgstr "Protetto"
-
-#: status-filter-view.ui:279
-#, fuzzy
-msgid "Auto-Delete"
-msgstr "Eliminazione automatica"
-
-#: status-filter-view.ui:302
-msgid "<i>Middle-click on a status to show only this one</i>"
-msgstr ""
-
-#: status-filter-view.ui:354
-msgid "Defaults"
-msgstr ""
-
-#: summary-page.ui:52
-msgid ""
-"Packages installed: 2\n"
-"\n"
-"Packages updated: 5\n"
-"\n"
-"Packages removed: 0\n"
-"\n"
-"Errors: 0\n"
-"\n"
-msgstr ""
-
-#: summary-page.ui:92
-msgid "Automatically closing in"
-msgstr ""
-
-#: summary-page.ui:99
-msgid "10"
-msgstr ""
-
-#: summary-page.ui:122
-msgid "&Stop"
-msgstr ""
-
-#: summary-page.ui:132
-msgid "..."
-msgstr ""
-
-#: summary-page.ui:172
-msgid "&Back"
-msgstr ""
-
-#: summary-page.ui:179
-msgid "&Finish"
-msgstr ""
-
-#: updates-filter-view.ui:14
-msgid "Form"
-msgstr ""
-
-#: updates-filter-view.ui:35
-#, fuzzy
-msgid "Updates"
-msgstr "Aggiorna"
-
-#: updates-filter-view.ui:48
-msgid ""
-"This shows only packages that could be updated, i.e. where a newer version "
-"is available than the version that is already installed."
-msgstr ""
-
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
-# TLABEL modules/inst_sw_single.ycp:745
-#: updates-filter-view.ui:98
-#, fuzzy
-msgid "Pac&kage Update"
-msgstr "Pacchetto"
-
-#: updates-filter-view.ui:120
-msgid ""
-"Mark all packages for updating that can be updated without a dependency "
-"problem.\n"
-"\n"
-"This is the equivalent of the \"zypper up\" command."
-msgstr ""
-
-#: updates-filter-view.ui:172
-msgid "D&ist-Upgrade"
-msgstr ""
-
-#: updates-filter-view.ui:194
-msgid ""
-"Do a distribution upgrade: Mark all packages for updating that can be "
-"updated without a dependency problem.\n"
-"\n"
-"This takes package splits, package renames,  pattern updates and more into "
-"account.\n"
-"\n"
-"This is the equivalent of the \"zypper dup\" command."
-msgstr ""
-
-#: updates-filter-view.ui:242
-#, fuzzy
-msgid "Refresh List"
-msgstr "A&ggiorna elenco"
-
-#: MyrlynApp.cc:180
+#: MyrlynApp.cc:203
 msgid " [root]"
 msgstr ""
 
-#: MyrlynApp.cc:183 RepoConfigDialog.cc:64
+#: MyrlynApp.cc:206 RepoConfigDialog.cc:64
 msgid " (read-only)"
 msgstr ""
 
-#: MyrlynApp.cc:204
+#: MyrlynApp.cc:227
 msgid "Preparing the package selector..."
 msgstr ""
 
-#: MyrlynApp.cc:462
+#: MyrlynApp.cc:485
 msgid "Really quit?"
 msgstr ""
 
@@ -462,7 +24,7 @@ msgid ""
 msgstr ""
 
 #: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
-#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:159
+#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
 msgid "Error"
 msgstr "Errore"
 
@@ -493,63 +55,63 @@ msgid ""
 "It may be busy in another window.\n"
 msgstr ""
 
-#: PkgCommitPage.cc:141
+#: PkgCommitPage.cc:144 pkg-commit-page.ui:113
 msgid "To Do"
 msgstr ""
 
-#: PkgCommitPage.cc:142
+#: PkgCommitPage.cc:145 pkg-commit-page.ui:238
 #, fuzzy
 msgid "Downloads"
 msgstr "Dimensioni download:"
 
-#: PkgCommitPage.cc:143
+#: PkgCommitPage.cc:146 pkg-commit-page.ui:376
 msgid "Done"
 msgstr ""
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_select.ycp:266
-#: PkgCommitPage.cc:295
+#: PkgCommitPage.cc:298 pkg-commit-page.ui:61
 #, fuzzy
 msgid "Hide &Details"
 msgstr "&Dettagli..."
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_select.ycp:266
-#: PkgCommitPage.cc:295
+#: PkgCommitPage.cc:298
 #, fuzzy
 msgid "Show &Details"
 msgstr "&Dettagli..."
 
-#: PkgCommitPage.cc:340
+#: PkgCommitPage.cc:343
 msgid "Really cancel the current package actions?"
 msgstr ""
 
-#: PkgCommitPage.cc:541
+#: PkgCommitPage.cc:544
 #, fuzzy
 msgid "Checking File Conflicts..."
 msgstr "Controllo delle dipendenze in corso..."
 
-#: PkgCommitPage.cc:710
+#: PkgCommitPage.cc:713
 #, fuzzy, qt-format
 msgid "Error downloading package %1"
 msgstr "Errore durante il caricamento dell'elenco di pacchetti da: %1"
 
-#: PkgCommitPage.cc:758 PkgCommitPage.cc:787
+#: PkgCommitPage.cc:761 PkgCommitPage.cc:790
 #, fuzzy, qt-format
 msgid "Error installing package %1"
 msgstr "Errore durante l'esportazione dell'elenco di pacchetti in %1"
 
-#: PkgCommitPage.cc:975
+#: PkgCommitPage.cc:978
 msgid "[Post-transaction scripts]"
 msgstr ""
 
-#: PkgCommitPage.cc:1124
+#: PkgCommitPage.cc:1128
 #, fuzzy
 msgid "File Conflict"
 msgstr "Elenco file"
 
 #: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
-#: YQPkgServiceList.cc:46
+#: YQPkgServiceList.cc:46 zypp-history-browser.ui:157
 msgid "Name"
 msgstr "Nome"
 
@@ -586,25 +148,25 @@ msgid ""
 "Quitting now. Please restart."
 msgstr ""
 
-#: RepoEditDialog.cc:104
+#: RepoEditDialog.cc:105
 msgid "See also  'man zypper'"
 msgstr ""
 
-#: RepoEditDialog.cc:112
+#: RepoEditDialog.cc:113
 #, fuzzy
 msgid "Add Repository"
 msgstr "&Repository"
 
-#: RepoEditDialog.cc:112
+#: RepoEditDialog.cc:113
 #, fuzzy
 msgid "Edit Repository"
 msgstr "&Repository"
 
-#: RepoEditDialog.cc:246
+#: RepoEditDialog.cc:247
 msgid "Invalid URL: "
 msgstr ""
 
-#: RepoEditDialog.cc:251
+#: RepoEditDialog.cc:252
 msgid "Invalid input: "
 msgstr ""
 
@@ -635,20 +197,20 @@ msgstr "&Servizi"
 msgid "URL"
 msgstr "URL:"
 
-#: SummaryPage.cc:120
+#: SummaryPage.cc:123
 #, qt-format
 msgid "%1 s"
 msgstr ""
 
-#: SummaryPage.cc:175
+#: SummaryPage.cc:178
 msgid "Close after 300 seconds (5 minutes)"
 msgstr ""
 
-#: SummaryPage.cc:176
+#: SummaryPage.cc:179
 msgid "Don't automatically close"
 msgstr ""
 
-#: SummaryPage.cc:192
+#: SummaryPage.cc:195
 #, qt-format
 msgid "Close after %1 seconds"
 msgstr ""
@@ -657,55 +219,61 @@ msgstr ""
 # &a is taken by &Annulla
 # 2001-10-01 14:14:27 CEST -ke-
 # TLABEL modules/inst_sw_single.ycp:113
-#: SummaryPage.cc:258
+#: SummaryPage.cc:263
 #, fuzzy
 msgid "No package changes."
 msgstr "Mostra modifiche dei p&acchetti"
 
-#: SummaryPage.cc:299
+#: SummaryPage.cc:307
 #, qt-format
 msgid "FAILED: %1"
 msgstr ""
 
-#: SummaryPage.cc:300
+#: SummaryPage.cc:308
 #, qt-format
 msgid "Packages removed by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:301
+#: SummaryPage.cc:309
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:302
+#: SummaryPage.cc:310
 #, qt-format
 msgid "Packages installed by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:303
+#: SummaryPage.cc:311
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:304
+#: SummaryPage.cc:312
 #, qt-format
 msgid "Packages updated by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:305
+#: SummaryPage.cc:313
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:306
+#: SummaryPage.cc:314
 #, qt-format
 msgid "To do: %1"
 msgstr ""
 
-#: SummaryPage.cc:355
+#: SummaryPage.cc:363
 #, qt-format
 msgid "(%1 more)"
 msgstr ""
+
+#: SummaryPage.cc:379
+#, fuzzy
+#| msgid "recommended"
+msgid "Reboot recommended."
+msgstr "consigliato"
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
@@ -772,8 +340,8 @@ msgstr "Pacchetti ritirati"
 msgid "Retracted Installed Packages"
 msgstr "Pacchetti installati ritirati"
 
-#: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:109
-#: YQPkgSelector.cc:703
+#: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
+#: YQPkgSelector.cc:734
 msgid "All Packages"
 msgstr "Tutti i pacchetti"
 
@@ -794,7 +362,9 @@ msgid "&Save This List to a File..."
 msgstr "Sal&va questo elenco in un file..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
-#: YQPkgSelector.cc:612 YQPkgSelector.cc:1218 YQPkgTextDialog.cc:235
+#: YQPkgSelector.cc:643 YQPkgSelector.cc:1263 YQPkgTextDialog.cc:235
+#: pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Annulla"
 
@@ -822,8 +392,8 @@ msgstr ""
 "rilevare i bug nel risolutore delle dipendenze. Questi log verranno "
 "archiviati nella directory <br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1217
-#: YQPkgSelector.cc:1269 YQPkgVersionsView.cc:427
+#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1262
+#: YQPkgSelector.cc:1314 YQPkgVersionsView.cc:427
 msgid "C&ontinue"
 msgstr "&Continua"
 
@@ -848,29 +418,29 @@ msgstr ""
 "dipendenze</p><p>Controllare lo spazio disponibile sul disco e i permessi di "
 "<tt>%1</tt></p>"
 
-#: YQPkgConflictList.cc:137
+#: YQPkgConflictList.cc:138
 #, fuzzy
 msgid "Save conflicts list"
 msgstr "Salva elenco conflitti"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/sound/sound.ycp:620
-#: YQPkgConflictList.cc:160
+#: YQPkgConflictList.cc:161
 #, fuzzy, qt-format
 msgid "Can't open file %1"
 msgstr "Impossibile aprire il file %1"
 
-#: YQPkgConflictList.cc:246
+#: YQPkgConflictList.cc:247
 msgid "Conflict Resolution:"
 msgstr "Risoluzione del conflitto:"
 
-#: YQPkgConflictList.cc:286
+#: YQPkgConflictList.cc:287
 #, qt-format
 msgid "<a href='/'>%1 more...</a>"
 msgstr "<a href='/'>Ulteriori %1…</a>"
 
 #: YQPkgDependenciesView.cc:81 YQPkgDependenciesView.cc:111
-#: YQPkgTechnicalDetailsView.cc:105 YQPkgTechnicalDetailsView.cc:146
+#: YQPkgTechnicalDetailsView.cc:128 YQPkgTechnicalDetailsView.cc:174
 msgid "Version:"
 msgstr "Versione:"
 
@@ -912,11 +482,11 @@ msgstr "Miglioramenti:"
 msgid "Supplements:"
 msgstr "Supplementi:"
 
-#: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:139
+#: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:167
 msgid "<b>Alternate Version</b>"
 msgstr "<b>Versione alternativa</b>"
 
-#: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:140
+#: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:168
 msgid "<b>Installed Version</b>"
 msgstr "<b>Versione installata</b>"
 
@@ -928,9 +498,9 @@ msgstr "Descrizione pacchetto"
 # TLABEL modules/inst_startup.ycp:61
 # TLABEL modules/inst_sw_single.ycp:756
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgHistoryDialog.cc:114 YQPkgProductDialog.cc:99
-#: YQPkgSelectorBase.cc:166 YQPkgSelector.cc:1449 YQPkgSelector.cc:1619
-#: YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelectorBase.cc:166
+#: YQPkgSelector.cc:1538 YQPkgSelector.cc:1708 YQPkgTextDialog.cc:43
+#: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "&OK"
 
@@ -961,46 +531,21 @@ msgstr "Avviso riguardo allo spazio sul disco"
 msgid "%1 files total"
 msgstr "%1 file in totale"
 
-#: YQPkgFilterTab.cc:123
+#: YQPkgFilterTab.cc:124
 msgid "&View"
 msgstr "&Visualizza"
 
-#: YQPkgFilterTab.cc:232
+#: YQPkgFilterTab.cc:233
 msgid "Move page &left"
 msgstr "Sposta pagina a &sinistra"
 
-#: YQPkgFilterTab.cc:240
+#: YQPkgFilterTab.cc:241
 msgid "Move page &right"
 msgstr "Sposta pagina a &destra"
 
-#: YQPkgFilterTab.cc:248
+#: YQPkgFilterTab.cc:249
 msgid "&Close page"
 msgstr "&Chiudi pagina"
-
-#: YQPkgHistoryDialog.cc:56
-msgid "Package History"
-msgstr "Cronologia dei pacchetti"
-
-#: YQPkgHistoryDialog.cc:73
-#, fuzzy
-msgid "Package History (/var/log/zypp/history)"
-msgstr "Cronologia pacchetto (/var/log/zypp/history)"
-
-#: YQPkgHistoryDialog.cc:89
-msgid "Date"
-msgstr "Data"
-
-#: YQPkgHistoryDialog.cc:97
-msgid "Action"
-msgstr "Azione"
-
-#: YQPkgHistoryDialog.cc:97
-msgid "Version/URL"
-msgstr "Versione/URL"
-
-#: YQPkgHistoryDialog.cc:183
-msgid "Unable to read history"
-msgstr "Impossibile leggere la cronologia"
 
 #: YQPkgLangList.cc:40
 msgid "Code"
@@ -1017,6 +562,7 @@ msgid "Package"
 msgstr "Pacchetto"
 
 #: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
+#: summary-page.ui:36
 msgid "Summary"
 msgstr "Riepilogo"
 
@@ -1034,7 +580,7 @@ msgstr "Vers. dispon."
 msgid "Inst. Ver."
 msgstr "Vers. inst."
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 zypp-history-browser.ui:162
 msgid "Version"
 msgstr "Versione"
 
@@ -1044,7 +590,7 @@ msgstr "Versione"
 msgid "Size"
 msgstr "Dimensioni"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:526 YQPkgPatchList.cc:386
+#: YQPkgList.cc:436 YQPkgObjList.cc:492 YQPkgPatchList.cc:386
 msgid "&All in This List"
 msgstr "Tutti in questo &elenco"
 
@@ -1074,67 +620,67 @@ msgstr "Versione disponibile: %1 (%2)"
 msgid "Not available for installation"
 msgstr "Non disponibile per l'installazione"
 
-#: YQPkgObjList.cc:264
-msgid "Autodelete"
-msgstr "Eliminazione automatica"
-
-#: YQPkgObjList.cc:265
-msgid "Autoinstall"
-msgstr "Installazione automatica"
-
-# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
-# TLABEL modules/dialup/dialup.ycp:1196
-#: YQPkgObjList.cc:266
-msgid "Autoupdate"
-msgstr "Aggiornamento automatico"
-
-#: YQPkgObjList.cc:267
+#: YQPkgObjList.cc:241 status-filter-view.ui:259
 msgid "Delete"
 msgstr "Elimina"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_target_part.ycp:680
-#: YQPkgObjList.cc:268
+#: YQPkgObjList.cc:242 status-filter-view.ui:63
 msgid "Install"
 msgstr "Installa"
 
-#: YQPkgObjList.cc:269
+#: YQPkgObjList.cc:243 status-filter-view.ui:193
 msgid "Keep"
 msgstr "Mantieni"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_target_part.ycp:680
-#: YQPkgObjList.cc:270
+#: YQPkgObjList.cc:244 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "Non installare"
 
-#: YQPkgObjList.cc:271
+#: YQPkgObjList.cc:245
 msgid "Protected -- Do Not Modify"
 msgstr "Protetto -- non modificare"
 
-#: YQPkgObjList.cc:272
+#: YQPkgObjList.cc:246
 msgid "Taboo -- Never Install"
 msgstr "Tabù - non installare mai"
 
-#: YQPkgObjList.cc:273
+#: YQPkgObjList.cc:247 status-filter-view.ui:83
 msgid "Update"
 msgstr "Aggiorna"
 
-#: YQPkgObjList.cc:390 YQPkgObjList.cc:412 YQPkgSelector.cc:708
+#: YQPkgObjList.cc:249
+msgid "Autodelete"
+msgstr "Eliminazione automatica"
+
+#: YQPkgObjList.cc:250
+msgid "Autoinstall"
+msgstr "Installazione automatica"
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/dialup/dialup.ycp:1196
+#: YQPkgObjList.cc:251
+msgid "Autoupdate"
+msgstr "Aggiornamento automatico"
+
+#: YQPkgObjList.cc:368 YQPkgObjList.cc:388 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "Aggiorna incondizionatamente"
 
-#: YQPkgObjList.cc:406 YQPkgSelector.cc:705
+#: YQPkgObjList.cc:383 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "Aggiorna se è disponibile una nuova versione"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_select.ycp:207
-#: YQPkgObjList.cc:1314
+#: YQPkgObjList.cc:1298
 msgid "(by a software selection)"
 msgstr "(secondo una selezione di programmi)"
 
-#: YQPkgObjList.cc:1316
+#: YQPkgObjList.cc:1300
 msgid "(by dependencies)"
 msgstr "(secondo dipendenze)"
 
@@ -1198,7 +744,7 @@ msgstr "Modello"
 msgid "Order"
 msgstr "Ordine"
 
-#: YQPkgPatternList.cc:398
+#: YQPkgPatternList.cc:412
 msgid "Invisible"
 msgstr "Invisibile"
 
@@ -1206,7 +752,7 @@ msgstr "Invisibile"
 msgid "Products"
 msgstr "Prodotti"
 
-#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:542
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:568
 msgid "Dependencies"
 msgstr "Dipendenze"
 
@@ -1218,37 +764,76 @@ msgstr "Prodotto"
 msgid "Vendor"
 msgstr "Fornitore"
 
-#: YQPkgSearchFilterView.cc:141
+#: YQPkgRepoFilterView.cc:92
+#, fuzzy
+#| msgid "Protect"
+msgid "Protect All"
+msgstr "Proteggi"
+
+#: YQPkgRepoFilterView.cc:99
+#, fuzzy
+#| msgid "Protect"
+msgid "Un-Protect All"
+msgstr "Proteggi"
+
+#: YQPkgRpmGroupsFilterView.cc:32
+#, fuzzy
+#| msgid "&RPM Groups"
+msgid "RPM Groups"
+msgstr "Gruppi &RPM"
+
+#: YQPkgRpmGroupsFilterView.cc:252
+#, qt-format
+msgid "zzz Unspecified (%1)"
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:156
 #, qt-format
 msgid "Default: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:147
+#: YQPkgSearchFilterView.cc:163
 #, qt-format
 msgid "Detected: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:364
+#: YQPkgSearchFilterView.cc:439
 msgid "No Results."
 msgstr "Nessun risultato."
 
-#: YQPkgSearchFilterView.cc:379
+#: YQPkgSearchFilterView.cc:454
 msgid "Query Error"
 msgstr "Errore nella richiesta"
 
-#: YQPkgSecondaryFilterView.cc:99
+#: YQPkgSecondaryFilterView.cc:77
 msgid "&Secondary Filter:"
 msgstr "Filtro &secondario:"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# tooltip
+#: YQPkgSecondaryFilterView.cc:97
+#, fuzzy
+#| msgid "Retracted Installed Packages"
+msgid "Installed Packages"
+msgstr "Pacchetti installati ritirati"
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# tooltip
+#: YQPkgSecondaryFilterView.cc:106
+#, fuzzy
+#| msgid "Retracted Installed Packages"
+msgid "Not Installed Packages"
+msgstr "Pacchetti installati ritirati"
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # "c" as a keyboard accel is already taken.
-#: YQPkgSecondaryFilterView.cc:119
+#: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
 msgstr "Cerca"
 
-#: YQPkgSecondaryFilterView.cc:135
-msgid "Installation Summary"
-msgstr "Riepilogo installazione"
+#: YQPkgSecondaryFilterView.cc:132
+msgid "Status"
+msgstr "Stato"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_rpmcopy.ycp:57
@@ -1301,162 +886,172 @@ msgstr "Funzione non ancora implementata."
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # "c" as a keyboard accel is already taken.
-#: YQPkgSelector.cc:294
+#: YQPkgSelector.cc:311 search-filter-view.ui:53
 msgid "&Search"
 msgstr "&Cerca"
 
-#: YQPkgSelector.cc:308 YQPkgSelector.cc:1234
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1279
 #, fuzzy
 msgid "Patc&hes"
 msgstr "Tutte le patch"
 
-#: YQPkgSelector.cc:320 YQPkgSelector.cc:1235
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1280
 #, fuzzy
 msgid "&Updates"
 msgstr "Aggiorna"
 
-#: YQPkgSelector.cc:330
+#: YQPkgSelector.cc:347
 msgid "&Repositories"
 msgstr "&Repository"
 
-#: YQPkgSelector.cc:344
+#: YQPkgSelector.cc:357
+#, fuzzy
+#| msgid "&RPM Groups"
+msgid "RPM &Groups"
+msgstr "Gruppi &RPM"
+
+#: YQPkgSelector.cc:370
 #, fuzzy
 msgid "Repository Index Ser&vices"
 msgstr "&Repository"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL timezone.ycp.in:484
-#: YQPkgSelector.cc:357
+#: YQPkgSelector.cc:383
 #, fuzzy
 msgid "Pa&tterns"
 msgstr "&Modelli"
 
-#: YQPkgSelector.cc:368
+#: YQPkgSelector.cc:394
 #, fuzzy
 msgid "Package Classi&fication"
 msgstr "Classificazione del pacchetto"
 
-#: YQPkgSelector.cc:379
+#: YQPkgSelector.cc:405
 msgid "&Languages"
 msgstr "&Lingue"
 
-#: YQPkgSelector.cc:389
+#: YQPkgSelector.cc:415
 #, fuzzy
 msgid "Installation Su&mmary"
 msgstr "Riepilogo installazione"
 
-#: YQPkgSelector.cc:517
+#: YQPkgSelector.cc:543
 #, fuzzy
 msgid "Description"
 msgstr "&Descrizione"
 
-#: YQPkgSelector.cc:529
+#: YQPkgSelector.cc:555
 #, fuzzy
 msgid "Technical Data"
 msgstr "Dati &tecnici"
 
-#: YQPkgSelector.cc:556
+#: YQPkgSelector.cc:582
 #, fuzzy
 msgid "Versions"
 msgstr "&Versioni"
 
-#: YQPkgSelector.cc:574
+#: YQPkgSelector.cc:600
 msgid "File List"
 msgstr "Elenco file"
 
-#: YQPkgSelector.cc:590
+#: YQPkgSelector.cc:616
 msgid "Change Log"
 msgstr "Log modifiche"
 
-#: YQPkgSelector.cc:622 YQPkgTextDialog.cc:235
+#: YQPkgSelector.cc:637
+msgid "Resolver: ??"
+msgstr ""
+
+#: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
 msgid "&Accept"
 msgstr "&Accetta"
 
-#: YQPkgSelector.cc:661
+#: YQPkgSelector.cc:692
 msgid "&File"
 msgstr "&File"
 
-#: YQPkgSelector.cc:664
+#: YQPkgSelector.cc:695
 #, fuzzy
 msgid "&Accept Changes"
 msgstr "&Accetta"
 
-#: YQPkgSelector.cc:666
+#: YQPkgSelector.cc:697
 #, fuzzy
 msgid "&Quit - Discard Changes"
 msgstr "&Esci -- Ignora modifiche"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_single.ycp:745
-#: YQPkgSelector.cc:678
+#: YQPkgSelector.cc:709
 msgid "&Package"
 msgstr "&Pacchetto"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL ../../general/keyboard.ycp.in:94
-#: YQPkgSelector.cc:727
+#: YQPkgSelector.cc:758
 #, fuzzy
 msgid "Patch"
 msgstr "&Patch"
 
-#: YQPkgSelector.cc:753
+#: YQPkgSelector.cc:784
 msgid "&Dependencies"
 msgstr "&Dipendenze"
 
-#: YQPkgSelector.cc:755
+#: YQPkgSelector.cc:786
 msgid "&Check Now"
 msgstr "&Verifica ora"
 
-#: YQPkgSelector.cc:757
+#: YQPkgSelector.cc:788
 msgid "&Autocheck"
 msgstr "&Controllo automatico"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-# tooltip
-#: YQPkgSelector.cc:761
+#: YQPkgSelector.cc:792
 msgid "Install &Recommended Packages"
 msgstr "Installa pacchetti &consigliati"
 
-#: YQPkgSelector.cc:774
+#: YQPkgSelector.cc:805
 msgid "&Options"
 msgstr "&Opzioni"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_rpmcopy.ycp:28-1
-#: YQPkgSelector.cc:777
+#: YQPkgSelector.cc:808
 msgid "Show -de&vel Packages"
 msgstr "&Mostra pacchetti -devel"
 
-#: YQPkgSelector.cc:787
+#: YQPkgSelector.cc:818
 msgid "Show -&debuginfo/-debugsource Packages"
 msgstr "Mostra i pacchetti -&debuginfo/-debugsource"
 
-#: YQPkgSelector.cc:797
+#: YQPkgSelector.cc:828
 msgid "&System Verification Mode"
 msgstr "Modalità di verifica del &sistema"
 
-#: YQPkgSelector.cc:804
+#: YQPkgSelector.cc:835
 #, fuzzy
 msgid "Options for this run only"
 msgstr "Opzioni solo per questa esecuzione..."
 
-#: YQPkgSelector.cc:806
+#: YQPkgSelector.cc:837
 msgid "&Cleanup when deleting packages"
 msgstr "&Pulizia durante l'eliminazione dei pacchetti"
 
-#: YQPkgSelector.cc:810
+#: YQPkgSelector.cc:841
 msgid "&Allow vendor change"
 msgstr "&Consenti cambio produttore"
 
-#: YQPkgSelector.cc:822
+#: YQPkgSelector.cc:853
 msgid "E&xtras"
 msgstr "E&xtra"
 
-#: YQPkgSelector.cc:826
+#: YQPkgSelector.cc:857
 #, fuzzy
 msgid "C&onfigure Repositories..."
 msgstr "&Repository..."
 
-#: YQPkgSelector.cc:832
+#: YQPkgSelector.cc:863
 msgid "Show &Products"
 msgstr "Mostra &prodotti"
 
@@ -1464,72 +1059,72 @@ msgstr "Mostra &prodotti"
 # &a is taken by &Annulla
 # 2001-10-01 14:14:27 CEST -ke-
 # TLABEL modules/inst_sw_single.ycp:113
-#: YQPkgSelector.cc:833
+#: YQPkgSelector.cc:864
 #, fuzzy
 msgid "Show Package &Changes"
 msgstr "Mostra modifiche dei p&acchetti"
 
-#: YQPkgSelector.cc:834
+#: YQPkgSelector.cc:866
 msgid "Show &History"
 msgstr "&Mostra cronologia"
 
-#: YQPkgSelector.cc:839
+#: YQPkgSelector.cc:873
 #, fuzzy
 msgid "Install All Matching -devel Packages"
 msgstr "Installa tutti i pacchetti -&devel corrispondenti"
 
-#: YQPkgSelector.cc:842
+#: YQPkgSelector.cc:876
 #, fuzzy
 msgid "Install All Matching -debuginfo Packages"
 msgstr "Installa tutti i pacchetti -de&buginfo corrispondenti"
 
-#: YQPkgSelector.cc:845
+#: YQPkgSelector.cc:879
 #, fuzzy
 msgid "Install All Matching -debugsource Packages"
 msgstr "Installa tutti i pacchetti -debug&source corrispondenti"
 
-#: YQPkgSelector.cc:847
+#: YQPkgSelector.cc:881
 #, fuzzy
 msgid "Install All Matching Recommended Packages"
 msgstr "Installa tutti i pacchetti &consigliati corrispondenti"
 
-#: YQPkgSelector.cc:853
+#: YQPkgSelector.cc:887
 msgid "Generate Dependency Resolver &Test Case"
 msgstr "Genera &test per risolutore delle dipendenze"
 
-#: YQPkgSelector.cc:866
+#: YQPkgSelector.cc:900
 msgid "H&elp"
 msgstr ""
 
-#: YQPkgSelector.cc:876
+#: YQPkgSelector.cc:910
 msgid "&Overview"
 msgstr "&Panoramica"
 
-#: YQPkgSelector.cc:878
+#: YQPkgSelector.cc:912
 msgid "About &Myrlyn"
 msgstr ""
 
-#: YQPkgSelector.cc:879
+#: YQPkgSelector.cc:913
 msgid "About &Qt"
 msgstr ""
 
-#: YQPkgSelector.cc:884
+#: YQPkgSelector.cc:918
 #, fuzzy
 msgid "Rep&ository Configuration"
 msgstr "&Configurazione"
 
-#: YQPkgSelector.cc:885
+#: YQPkgSelector.cc:919
 #, fuzzy
 msgid "Root &Authentication"
 msgstr "Comunicazione"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_rpmcopy.ycp:57
-#: YQPkgSelector.cc:1105
+#: YQPkgSelector.cc:1146
 msgid "All package dependencies are OK."
 msgstr "Tutte le dipendenze dei pacchetti sono soddisfatte."
 
-#: YQPkgSelector.cc:1209
+#: YQPkgSelector.cc:1254
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1539,12 +1134,23 @@ msgid ""
 "will be lost.\n"
 msgstr ""
 
-#: YQPkgSelector.cc:1267
+#: YQPkgSelector.cc:1312
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "Verranno aggiornati %1 pacchetti"
 
-#: YQPkgSelector.cc:1320
+#: YQPkgSelector.cc:1342
+msgid "Dist-Upgrade Mode"
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/inst_sw_single.ycp:745
+#: YQPkgSelector.cc:1343
+#, fuzzy
+msgid "Package Update Mode"
+msgstr "Pacchetto"
+
+#: YQPkgSelector.cc:1381
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1553,7 +1159,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Passa i pacchetti di sistema</a> alla "
 "versione nel repository (%2)</p>"
 
-#: YQPkgSelector.cc:1345
+#: YQPkgSelector.cc:1406
 #, fuzzy, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1562,9 +1168,27 @@ msgstr ""
 "<p><small><a href=\"repoupgraderemove:///%1\">Annulla passaggio</a> dei "
 "pacchetti di sistema alla versione nel repository %2</small></p>"
 
+#: YQPkgSelector.cc:1482
+#, qt-format
+msgid ""
+"Can't open zypp history file\n"
+"%1\n"
+"\n"
+"No permissions?"
+msgstr ""
+
+#: YQPkgSelector.cc:1494
+#, qt-format
+msgid ""
+"Parse error in zypp history file\n"
+"%1\n"
+"\n"
+"Check the log!"
+msgstr ""
+
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_rpmcopy.ycp:28-1
-#: YQPkgSelector.cc:1448 YQPkgSelector.cc:1617
+#: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
 msgid "Added Subpackages:"
 msgstr "Pacchetti secondari aggiunti:"
 
@@ -1580,57 +1204,64 @@ msgstr "Prodotto: "
 msgid "Repositories:"
 msgstr "Repository:"
 
-#: YQPkgTechnicalDetailsView.cc:106 YQPkgTechnicalDetailsView.cc:147
+#: YQPkgTechnicalDetailsView.cc:129 YQPkgTechnicalDetailsView.cc:175
 msgid "Build Time:"
 msgstr "Creato il:"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_target_part.ycp:680
-#: YQPkgTechnicalDetailsView.cc:110 YQPkgTechnicalDetailsView.cc:148
+#: YQPkgTechnicalDetailsView.cc:133 YQPkgTechnicalDetailsView.cc:176
 msgid "Install Time:"
 msgstr "Installato il:"
 
-#: YQPkgTechnicalDetailsView.cc:112 YQPkgTechnicalDetailsView.cc:149
+#: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
+#, fuzzy
+#| msgid "&RPM Groups"
+msgid "RPM Group:"
+msgstr "Gruppi &RPM"
+
+#: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
 msgstr "Licenza:"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_target_part.ycp:680
-#: YQPkgTechnicalDetailsView.cc:113 YQPkgTechnicalDetailsView.cc:150
+#: YQPkgTechnicalDetailsView.cc:141 YQPkgTechnicalDetailsView.cc:185
 msgid "Installed Size:"
 msgstr "Dimensione installata:"
 
-#: YQPkgTechnicalDetailsView.cc:114 YQPkgTechnicalDetailsView.cc:151
+#: YQPkgTechnicalDetailsView.cc:142 YQPkgTechnicalDetailsView.cc:186
 msgid "Download Size:"
 msgstr "Dimensioni download:"
 
-#: YQPkgTechnicalDetailsView.cc:115 YQPkgTechnicalDetailsView.cc:152
+#: YQPkgTechnicalDetailsView.cc:143 YQPkgTechnicalDetailsView.cc:187
 msgid "Distribution:"
 msgstr "Distribuzione:"
 
-#: YQPkgTechnicalDetailsView.cc:116 YQPkgTechnicalDetailsView.cc:153
+#: YQPkgTechnicalDetailsView.cc:144 YQPkgTechnicalDetailsView.cc:188
 msgid "Vendor:"
 msgstr "Fornitore:"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_single.ycp:745
-#: YQPkgTechnicalDetailsView.cc:117 YQPkgTechnicalDetailsView.cc:154
+#: YQPkgTechnicalDetailsView.cc:145 YQPkgTechnicalDetailsView.cc:189
 msgid "Packager:"
 msgstr "Packager:"
 
-#: YQPkgTechnicalDetailsView.cc:118 YQPkgTechnicalDetailsView.cc:155
+#: YQPkgTechnicalDetailsView.cc:146 YQPkgTechnicalDetailsView.cc:190
 msgid "Architecture:"
 msgstr "Architettura:"
 
-#: YQPkgTechnicalDetailsView.cc:119 YQPkgTechnicalDetailsView.cc:156
+#: YQPkgTechnicalDetailsView.cc:147 YQPkgTechnicalDetailsView.cc:191
+#: repo-config.ui:128
 msgid "URL:"
 msgstr "URL:"
 
-#: YQPkgTechnicalDetailsView.cc:120 YQPkgTechnicalDetailsView.cc:157
+#: YQPkgTechnicalDetailsView.cc:148 YQPkgTechnicalDetailsView.cc:192
 msgid "Source Package:"
 msgstr "Pacchetto sorgente:"
 
-#: YQPkgTechnicalDetailsView.cc:123 YQPkgTechnicalDetailsView.cc:161
+#: YQPkgTechnicalDetailsView.cc:151 YQPkgTechnicalDetailsView.cc:196
 msgid "Authors:"
 msgstr "Autori:"
 
@@ -1695,6 +1326,636 @@ msgstr "%1-%2 [RITIRATO] da %3 con priorità %4 e fornitore %5"
 #, qt-format
 msgid "%1-%2 from %3 with priority %4 and vendor %5"
 msgstr "%1-%2 da %3 con priorità %4 e fornitore %5"
+
+#: ZyppHistoryBrowser.cc:465
+#, qt-format
+msgid "Repo+  %1  %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:471
+#, qt-format
+msgid "Repo-  %1"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:476
+#, qt-format
+msgid "Repo-URL  %1 -> %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:482
+#, qt-format
+msgid "Repo-Alias  %1 -> %2"
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL ../../general/keyboard.ycp.in:94
+#: ZyppHistoryBrowser.cc:502
+#, fuzzy, qt-format
+msgid "Patch %1"
+msgstr "&Patch"
+
+#: ZyppHistoryBrowser.cc:625
+#, qt-format
+msgid "<b>Filter:</b> %1"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:627
+msgid "<i>No Filter</i>"
+msgstr ""
+
+#: ZyppHistoryFilter.cc:26
+msgid "Only repo events"
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/inst_sw_single.ycp:745
+#: ZyppHistoryFilter.cc:57
+#, fuzzy, qt-format
+msgid "Package name \"%1\""
+msgstr "Pacchetto"
+
+#: ZyppHistoryFilter.cc:80
+#, qt-format
+msgid "Packages from repo \"%1\""
+msgstr ""
+
+#: ZyppHistoryFilterDialog.cc:155
+#, fuzzy
+#| msgid "%1 packages will be updated"
+msgid "Only package installation / update"
+msgstr "Verranno aggiornati %1 pacchetti"
+
+#: ZyppHistoryFilterDialog.cc:160
+msgid "Only package removal"
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# translation of qt-pkg.po to italian
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.po to
+# translation of packages-qt.it.po to
+# translation of packages-qt.it.po to
+# translation of packages-qt.it.po to
+# translation of packages-qt.it.po to
+# Italian message file for YaST2 (@memory@).
+# Copyright (C) 2002 SuSE Linux AG.
+# Copyright (C) 1999, 2000, 2001 SuSE GmbH.
+#
+# Franca Delcarlo <francad@attglobal.net>, 1999, 2000, 2001.
+# Karl Eichwalder <ke@suse.de>, 2000,2003, 2004, 2005.
+# Andrea Florio <andrea@opensuse.it>, 2008.
+# Andrea Florio <andrea@opensuse.org>, 2008, 2009.
+# Andrea Turrini <andrea.turrini@gmail.com>, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2024-03-04 10:42+0000\n"
+"Last-Translator: Davide Aiello <davide.aiello@novilingulists.com>\n"
+"Language-Team: Italian <https://l10n.opensuse.org/projects/yast-qt-pkg/"
+"master/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
+"X-Poedit-Language: Italian\n"
+
+#: about-dialog.ui:14
+msgid "About Myrlyn"
+msgstr ""
+
+#: about-dialog.ui:52
+msgid "## Myrlyn "
+msgstr ""
+
+#: about-dialog.ui:81
+msgid ""
+"Myrlyn is a graphical package manager to select\n"
+"software packages and patterns for installation,\n"
+"update and removal.\n"
+"\n"
+"It uses libzypp as its backend and Qt as its\n"
+"GUI toolkit.\n"
+"\n"
+"This started in the 11/2024 SUSE Hack Week\n"
+"to make the SUSE YaST Qt package selector usable\n"
+"as a standalone Qt program without any YaST\n"
+"dependencies."
+msgstr ""
+
+#: about-dialog.ui:123
+msgid ""
+"### Main Author\n"
+"\n"
+"Stefan Hundhammer (GitHub: @shundhammer)\n"
+"\n"
+"### Contributors\n"
+"\n"
+"- Christoph Grüninger (GitHub: @gruenich)\n"
+"- @Arthurium-On-Linux\n"
+"- @byDMA"
+msgstr ""
+
+#: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
+#: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
+msgid "Form"
+msgstr ""
+
+#: init-repos-page.ui:36
+#, fuzzy
+msgid "Initializing Repositories"
+msgstr "&Repository"
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-# tooltip
+#: pkg-commit-page.ui:41
+#, fuzzy
+msgid "Installing / Removing Packages"
+msgstr "Installa pacchetti &consigliati"
+
+#: pkg-commit-page.ui:282
+msgid "Doing"
+msgstr ""
+
+#: pkg-commit-page.ui:548
+msgid "Show &Summary Page"
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/lan/lan.ycp:1772
+#: progress-dialog.ui:14
+#, fuzzy
+msgid "Working..."
+msgstr "Ricerca in corso..."
+
+#: progress-dialog.ui:79 repo-config.ui:378 zypp-history-browser.ui:222
+#, fuzzy
+msgid "&Close"
+msgstr "&Chiudi"
+
+#: repo-config.ui:14
+#, fuzzy
+msgid "Repository Configuration"
+msgstr "&Configurazione"
+
+#: repo-config.ui:41
+#, fuzzy
+msgid "**Repository Configuration**"
+msgstr "&Configurazione"
+
+#: repo-config.ui:94
+msgid "**PackMan**"
+msgstr ""
+
+#: repo-config.ui:154
+#, fuzzy
+msgid "Raw URL:"
+msgstr "URL:"
+
+#: repo-config.ui:208
+msgid "&Priority:"
+msgstr ""
+
+#: repo-config.ui:248
+msgid "Ena&bled"
+msgstr ""
+
+#: repo-config.ui:258
+msgid "Auto-Re&fresh"
+msgstr ""
+
+#: repo-config.ui:281
+msgid "1: highest; 200: lowest"
+msgstr ""
+
+#: repo-config.ui:334
+msgid "&Add"
+msgstr ""
+
+#: repo-config.ui:341
+msgid "&Edit"
+msgstr ""
+
+#: repo-config.ui:348
+#, fuzzy
+msgid "&Delete"
+msgstr "Elimina"
+
+#: repo-config.ui:368
+msgid "<i>Restart needed!</i>"
+msgstr ""
+
+#: repo-edit-add.ui:98
+#, fuzzy
+msgid "Custom &Repository"
+msgstr "&Repository"
+
+#: repo-edit-add.ui:108
+msgid "Co&mmunity Repository"
+msgstr ""
+
+#: repo-edit-add.ui:254 search-filter-view.ui:87
+#, fuzzy
+msgid "&Name"
+msgstr "&Nome"
+
+#: repo-edit-add.ui:270
+#, fuzzy
+msgid "Repository Name"
+msgstr "&Repository"
+
+#: repo-edit-add.ui:302
+msgid "Raw &URL"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:14
+msgid "GPG Key"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:41
+msgid "## Import Untrusted GPG Key"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:81
+#, fuzzy
+msgid "_Repository:_"
+msgstr "Repository:"
+
+#: repo-gpg-key-import-dialog.ui:101
+#, fuzzy
+msgid "_URL:_"
+msgstr "URL:"
+
+#: repo-gpg-key-import-dialog.ui:121
+msgid "_Fingerprint:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:141
+msgid "_Key Name:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:161
+msgid "_Key Algorithm:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:181
+msgid "_Key ID:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:201
+msgid "_Created:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:221
+msgid "_Expires:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:274
+msgid "&Trust"
+msgstr ""
+
+#: search-filter-view.ui:43
+msgid "Search Text or Pattern"
+msgstr ""
+
+#: search-filter-view.ui:78
+#, fuzzy
+msgid "Search In"
+msgstr "Cerca in"
+
+#: search-filter-view.ui:97
+#, fuzzy
+msgid "Su&mmary"
+msgstr "&Riepilogo"
+
+#: search-filter-view.ui:104
+#, fuzzy
+msgid "D&escription"
+msgstr "&Descrizione"
+
+#: search-filter-view.ui:127
+#, fuzzy
+msgid "RPM P&rovides"
+msgstr "RPM \"&Fornisce\""
+
+#: search-filter-view.ui:134
+#, fuzzy
+msgid "RPM Re&quires"
+msgstr "RPM \"&Richiede\""
+
+#: search-filter-view.ui:141
+#, fuzzy
+#| msgid "Recommends:"
+msgid "RPM Recommends"
+msgstr "Consigli:"
+
+#: search-filter-view.ui:164
+#, fuzzy
+msgid "File &List"
+msgstr "Elenco file"
+
+#: search-filter-view.ui:198
+#, fuzzy
+msgid "Searc&h Mode:"
+msgstr "&Modalità di ricerca:"
+
+#: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
+#: zypp-history-filter-dialog.ui:184
+msgid "Auto"
+msgstr ""
+
+#: search-filter-view.ui:214 zypp-history-filter-dialog.ui:98
+#: zypp-history-filter-dialog.ui:189
+#, fuzzy
+msgid "Contains"
+msgstr "Contiene"
+
+#: search-filter-view.ui:219 zypp-history-filter-dialog.ui:103
+#: zypp-history-filter-dialog.ui:194
+msgid "Starts With"
+msgstr ""
+
+#: search-filter-view.ui:224 zypp-history-filter-dialog.ui:108
+#: zypp-history-filter-dialog.ui:199
+#, fuzzy
+msgid "Exact Match"
+msgstr "Esatta corrispondenza"
+
+#: search-filter-view.ui:229 zypp-history-filter-dialog.ui:113
+#: zypp-history-filter-dialog.ui:204
+#, fuzzy
+msgid "Wildcards"
+msgstr "Usa caratteri jolly"
+
+#: search-filter-view.ui:234 zypp-history-filter-dialog.ui:118
+#: zypp-history-filter-dialog.ui:209
+#, fuzzy
+msgid "Regular Expression"
+msgstr "Usa espressione regolare"
+
+#: search-filter-view.ui:244
+#, fuzzy
+msgid "Detected:"
+msgstr "Protetto"
+
+#: search-filter-view.ui:267
+msgid "Switch default mode for \"auto\""
+msgstr ""
+
+#: search-filter-view.ui:270 summary-page.ui:132
+msgid "..."
+msgstr ""
+
+#: search-filter-view.ui:295
+#, fuzzy
+msgid "Case Sens&itive"
+msgstr "Disting&ui tra maiuscole e minuscole"
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# &a is taken by &Annulla
+# 2001-10-01 14:14:27 CEST -ke-
+# TLABEL modules/inst_sw_single.ycp:113
+#: status-filter-view.ui:32
+#, fuzzy
+msgid "Show Packages with Status"
+msgstr "Mostra pacchetti con stato"
+
+#: status-filter-view.ui:103
+#, fuzzy
+msgid "Auto-Install"
+msgstr "Installazione automatica"
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/dialup/dialup.ycp:1196
+#: status-filter-view.ui:123
+#, fuzzy
+msgid "Auto-Update"
+msgstr "Aggiornamento automatico"
+
+#: status-filter-view.ui:143
+#, fuzzy
+msgid "Taboo"
+msgstr "Tabù"
+
+#: status-filter-view.ui:160
+#, fuzzy
+msgid "Protected"
+msgstr "Protetto"
+
+#: status-filter-view.ui:279
+#, fuzzy
+msgid "Auto-Delete"
+msgstr "Eliminazione automatica"
+
+#: status-filter-view.ui:302
+msgid "<i>Middle-click on a status to show only this one</i>"
+msgstr ""
+
+#: status-filter-view.ui:354
+msgid "Defaults"
+msgstr ""
+
+#: status-filter-view.ui:361 updates-filter-view.ui:242
+#, fuzzy
+msgid "Refresh List"
+msgstr "A&ggiorna elenco"
+
+#: summary-page.ui:52
+msgid ""
+"Packages installed: 2\n"
+"\n"
+"Packages updated: 5\n"
+"\n"
+"Packages removed: 0\n"
+"\n"
+"Errors: 0\n"
+"\n"
+msgstr ""
+
+#: summary-page.ui:92
+msgid "Automatically closing in"
+msgstr ""
+
+#: summary-page.ui:99
+msgid "10"
+msgstr ""
+
+#: summary-page.ui:122
+msgid "&Stop"
+msgstr ""
+
+#: summary-page.ui:172
+msgid "&Back"
+msgstr ""
+
+#: summary-page.ui:179
+msgid "&Finish"
+msgstr ""
+
+#: updates-filter-view.ui:35
+#, fuzzy
+msgid "Updates"
+msgstr "Aggiorna"
+
+#: updates-filter-view.ui:48
+msgid ""
+"This shows only packages that could be updated, i.e. where a newer version "
+"is available than the version that is already installed."
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/inst_sw_single.ycp:745
+#: updates-filter-view.ui:98
+#, fuzzy
+msgid "Pac&kage Update"
+msgstr "Pacchetto"
+
+#: updates-filter-view.ui:120
+msgid ""
+"Mark all packages for updating that can be updated without a dependency "
+"problem.\n"
+"\n"
+"This is the equivalent of the \"zypper up\" command."
+msgstr ""
+
+#: updates-filter-view.ui:172
+msgid "D&ist-Upgrade"
+msgstr ""
+
+#: updates-filter-view.ui:194
+msgid ""
+"Do a distribution upgrade: Mark all packages for updating that can be "
+"updated without a dependency problem.\n"
+"\n"
+"This takes package splits, package renames,  pattern updates and more into "
+"account.\n"
+"\n"
+"This is the equivalent of the \"zypper dup\" command."
+msgstr ""
+
+#: zypp-history-browser.ui:14
+#, fuzzy
+#| msgid "Show &History"
+msgid "Zypp History"
+msgstr "&Mostra cronologia"
+
+#: zypp-history-browser.ui:66
+msgid "**Zypp History**"
+msgstr ""
+
+#: zypp-history-browser.ui:92
+#, fuzzy
+#| msgid "Fi&lter:"
+msgid "No Filter"
+msgstr "Fi&ltro:"
+
+#: zypp-history-browser.ui:108
+#, fuzzy
+#| msgid "&Secondary Filter:"
+msgid "Cl&ear Filter"
+msgstr "Filtro &secondario:"
+
+#: zypp-history-browser.ui:115
+#, fuzzy
+#| msgid "&File"
+msgid "&Filter..."
+msgstr "&File"
+
+#: zypp-history-browser.ui:144
+#, fuzzy
+#| msgid "Localization"
+msgid "Navigation"
+msgstr "Localizzazione"
+
+#: zypp-history-browser.ui:167
+msgid "Arch."
+msgstr ""
+
+#: zypp-history-browser.ui:172
+msgid "Repo"
+msgstr ""
+
+#: zypp-history-browser.ui:199
+msgid "Sho&w (+/-) Count"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:14
+msgid "Zypp History Filter"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:38
+msgid "**Zypp History Filter**"
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/inst_sw_single.ycp:745
+#: zypp-history-filter-dialog.ui:51
+#, fuzzy
+msgid "Package by &Name"
+msgstr "Pacchetto"
+
+#: zypp-history-filter-dialog.ui:76
+msgid "Package Name or Pattern"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:142
+#, fuzzy
+#| msgid "Package History"
+msgid "Package by &Repository"
+msgstr "Cronologia dei pacchetti"
+
+#: zypp-history-filter-dialog.ui:167
+msgid "Repo Alias or Pattern"
+msgstr ""
+
+# #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
+# TLABEL modules/inst_sw_single.ycp:745
+#: zypp-history-filter-dialog.ui:233
+#, fuzzy
+msgid "Package &Install / Update"
+msgstr "Pacchetto"
+
+#: zypp-history-filter-dialog.ui:240
+#, fuzzy
+#| msgid "Package &Groups"
+msgid "Package Re&move"
+msgstr "&Gruppi di pacchetti"
+
+#: zypp-history-filter-dialog.ui:247
+msgid "Repository &Add / Remove / Change URL / Change Alias"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Package History (/var/log/zypp/history)"
+#~ msgstr "Cronologia pacchetto (/var/log/zypp/history)"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Action"
+#~ msgstr "Azione"
+
+#~ msgid "Version/URL"
+#~ msgstr "Versione/URL"
+
+#~ msgid "Unable to read history"
+#~ msgstr "Impossibile leggere la cronologia"
+
+#~ msgid "Installation Summary"
+#~ msgstr "Riepilogo installazione"
 
 #~ msgid "&Update Problems"
 #~ msgstr "&Problemi con l'aggiornamento"
@@ -2120,9 +2381,6 @@ msgstr "%1-%2 da %3 con priorità %4 e fornitore %5"
 #~ "pacchetto non venga installato, soprattutto a causa di eventuali "
 #~ "insorgenze di dipendenze irrisolte di altri pacchetti. "
 
-#~ msgid "Protect"
-#~ msgstr "Proteggi"
-
 #~ msgid ""
 #~ "Set this package to \"protected\" if it is installed: make sure this "
 #~ "package will not be modified, especially not because of unresolved "
@@ -2169,9 +2427,6 @@ msgstr "%1-%2 da %3 con priorità %4 e fornitore %5"
 
 #~ msgid "Export Package List"
 #~ msgstr "Esporta elenco di pacchetti"
-
-#~ msgid "Status"
-#~ msgstr "Stato"
 
 #~ msgid "Install Sources"
 #~ msgstr "Installa sorgenti"
@@ -2261,9 +2516,6 @@ msgstr "%1-%2 da %3 con priorità %4 e fornitore %5"
 #~ msgid "Package Group:"
 #~ msgstr "Gruppo pacchetti:"
 
-#~ msgid "Package &Groups"
-#~ msgstr "&Gruppi di pacchetti"
-
 #~ msgid "Accessibility"
 #~ msgstr "Accessibilità"
 
@@ -2326,9 +2578,6 @@ msgstr "%1-%2 da %3 con priorità %4 e fornitore %5"
 #~ msgid "Legacy"
 #~ msgstr "Obsoleto"
 
-#~ msgid "Localization"
-#~ msgstr "Localizzazione"
-
 #~ msgid "Virtualization"
 #~ msgstr "Virtualizzazione"
 
@@ -2352,9 +2601,6 @@ msgstr "%1-%2 da %3 con priorità %4 e fornitore %5"
 
 #~ msgid "Package Groups"
 #~ msgstr "Gruppi di pacchetti"
-
-#~ msgid "&RPM Groups"
-#~ msgstr "Gruppi &RPM"
 
 #~ msgid "zzz All"
 #~ msgstr "zzz tutti"
@@ -2407,9 +2653,6 @@ msgstr "%1-%2 da %3 con priorità %4 e fornitore %5"
 #~ "RPM origine:\n"
 #~ "#-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#\n"
 #~ "RPM sorgente:"
-
-#~ msgid "Fi&lter:"
-#~ msgstr "Fi&ltro:"
 
 #~ msgid "Languages"
 #~ msgstr "Lingue"
