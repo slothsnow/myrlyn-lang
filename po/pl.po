@@ -1,3 +1,24 @@
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Mariusz Fik <fisiu@opensuse.org>, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-10-11 23:25+0000\n"
+"Last-Translator: byDMA <bydma@noreply.codeberg.org>\n"
+"Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.10.1\n"
+
 #: MyrlynApp.cc:203
 msgid " [root]"
 msgstr " [root | Tryb administratora]"
@@ -274,10 +295,8 @@ msgid "(%1 more)"
 msgstr "(%1 więcej)"
 
 #: SummaryPage.cc:379
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended."
-msgstr "zalecana"
+msgstr "Zalecane ponowne uruchomienie."
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
@@ -729,27 +748,21 @@ msgid "Vendor"
 msgstr "Dostawca"
 
 #: YQPkgRepoFilterView.cc:92
-#, fuzzy
-#| msgid "Protect"
 msgid "Protect All"
-msgstr "Chroń"
+msgstr "Chroń wszystkie zainstalowane pakiety z tego repozytorium"
 
 #: YQPkgRepoFilterView.cc:99
-#, fuzzy
-#| msgid "Protect"
 msgid "Un-Protect All"
-msgstr "Chroń"
+msgstr "Zdejmij blokadę"
 
 #: YQPkgRpmGroupsFilterView.cc:32
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Groups"
 msgstr "Grupy &RPM"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
 msgid "zzz Unspecified (%1)"
-msgstr ""
+msgstr "zzz Wszystkie (%1)"
 
 #: YQPkgSearchFilterView.cc:156
 #, qt-format
@@ -774,16 +787,12 @@ msgid "&Secondary Filter:"
 msgstr "Filtr &drugorzędny:"
 
 #: YQPkgSecondaryFilterView.cc:97
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Installed Packages"
-msgstr "Wycofane zainstalowane pakiety"
+msgstr "Zainstalowane pakiety"
 
 #: YQPkgSecondaryFilterView.cc:106
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Not Installed Packages"
-msgstr "Wycofane zainstalowane pakiety"
+msgstr "Niezainstalowane pakiety"
 
 #: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
@@ -791,7 +800,7 @@ msgstr "Wyszukiwanie"
 
 #: YQPkgSecondaryFilterView.cc:132
 msgid "Status"
-msgstr "Stan"
+msgstr "Status"
 
 #: YQPkgSelectorBase.cc:120
 msgid "System dependencies verify OK."
@@ -854,10 +863,8 @@ msgid "&Repositories"
 msgstr "&Repozytoria"
 
 #: YQPkgSelector.cc:357
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM &Groups"
-msgstr "Grupy &RPM"
+msgstr "&Grupy RPM"
 
 #: YQPkgSelector.cc:370
 msgid "Repository Index Ser&vices"
@@ -901,7 +908,7 @@ msgstr "Dziennik zmian"
 
 #: YQPkgSelector.cc:637
 msgid "Resolver: ??"
-msgstr ""
+msgstr "Rozwiązywanie konfliktu:??"
 
 #: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
 msgid "&Accept"
@@ -1061,16 +1068,12 @@ msgid "%1 packages will be updated"
 msgstr "Pakiety do zaktualizowania: %1"
 
 #: YQPkgSelector.cc:1342
-#, fuzzy
-#| msgid "D&ist-Upgrade"
 msgid "Dist-Upgrade Mode"
-msgstr "Aktualizacja d&ystrybucji"
+msgstr "Tryb aktualizacji dystrybucji"
 
 #: YQPkgSelector.cc:1343
-#, fuzzy
-#| msgid "Pac&kage Update"
 msgid "Package Update Mode"
-msgstr "Aktualizacja pa&kietów"
+msgstr "Tryb aktualizacji pakietów"
 
 #: YQPkgSelector.cc:1381
 #, qt-format
@@ -1098,6 +1101,10 @@ msgid ""
 "\n"
 "No permissions?"
 msgstr ""
+"Nie można otworzyć pliku historii\n"
+"%1\n"
+"\n"
+"Brak uprawnień?"
 
 #: YQPkgSelector.cc:1494
 #, qt-format
@@ -1107,6 +1114,10 @@ msgid ""
 "\n"
 "Check the log!"
 msgstr ""
+"Błąd w pliku historii działań\n"
+"%1\n"
+"\n"
+"Sprawdź logi!"
 
 #: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
 msgid "Added Subpackages:"
@@ -1133,10 +1144,8 @@ msgid "Install Time:"
 msgstr "Czas instalacji:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Group:"
-msgstr "Grupy &RPM"
+msgstr "Grupy &RPM:"
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1245,84 +1254,58 @@ msgstr "%1-%2 z %3, z priorytetem %4 oraz dostawcą %5"
 #: ZyppHistoryBrowser.cc:465
 #, qt-format
 msgid "Repo+  %1  %2"
-msgstr ""
+msgstr "Repozytorium+  %1  %2"
 
 #: ZyppHistoryBrowser.cc:471
 #, qt-format
 msgid "Repo-  %1"
-msgstr ""
+msgstr "Repozytorium-  %1"
 
 #: ZyppHistoryBrowser.cc:476
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
-msgstr ""
+msgstr "Repozytorium-URL  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:482
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
-msgstr ""
+msgstr "Repozytorium-Alias  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:502
-#, fuzzy, qt-format
-#| msgid "Patch"
+#, qt-format
 msgid "Patch %1"
-msgstr "Poprawka"
+msgstr "Poprawka %1"
 
 #: ZyppHistoryBrowser.cc:625
 #, qt-format
 msgid "<b>Filter:</b> %1"
-msgstr ""
+msgstr "<b>Filtr:</b> %1"
 
 #: ZyppHistoryBrowser.cc:627
 msgid "<i>No Filter</i>"
-msgstr ""
+msgstr "<i>Bez filtra</i>"
 
 #: ZyppHistoryFilter.cc:26
 msgid "Only repo events"
-msgstr ""
+msgstr "Działania na repozytoriach"
 
 #: ZyppHistoryFilter.cc:57
-#, fuzzy, qt-format
-#| msgid "Pac&kage Update"
+#, qt-format
 msgid "Package name \"%1\""
-msgstr "Aktualizacja pa&kietów"
+msgstr "Nazwa pakietu \"%1\""
 
 #: ZyppHistoryFilter.cc:80
-#, fuzzy, qt-format
-#| msgid "Packages removed by user: %1"
+#, qt-format
 msgid "Packages from repo \"%1\""
-msgstr "Pakiety usunięte przez użytkownika: %1"
+msgstr "Pakiety z repozytorium \"%1\""
 
 #: ZyppHistoryFilterDialog.cc:155
-#, fuzzy
-#| msgid "%1 packages will be updated"
 msgid "Only package installation / update"
-msgstr "Pakiety do zaktualizowania: %1"
+msgstr "Wyłącznie zainstalowane / zaktualizowane pakiety"
 
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
-msgstr ""
-
-# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
-# This file is distributed under the same license as the package.
-#
-# Mariusz Fik <fisiu@opensuse.org>, 2013, 2014.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-11 15:42+0000\n"
-"Last-Translator: byDMA <bydma@noreply.codeberg.org>\n"
-"Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/pl/>\n"
-"Language: pl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
+msgstr "Wyłącznie pakiety usunięte"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -1359,15 +1342,6 @@ msgstr ""
 "YaST (i Ruby) opartego na technologii QT."
 
 #: about-dialog.ui:123
-#, fuzzy
-#| msgid ""
-#| "### Main Author\n"
-#| "\n"
-#| "- Stefan Hundhammer (GitHub: @shundhammer)\n"
-#| "\n"
-#| "### Contributors\n"
-#| "\n"
-#| "- Christoph Grüninger (GitHub: @gruenich)"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -1385,7 +1359,9 @@ msgstr ""
 "\n"
 "### Współtwórcy\n"
 "\n"
-"- Christoph Grüninger (GitHub: @gruenich)"
+"- Christoph Grüninger (GitHub: @gruenich)\n"
+"- @Arthurium-On-Linux\n"
+"- @byDMA"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
@@ -1553,10 +1529,8 @@ msgid "RPM Re&quires"
 msgstr "RPM \"wymaga\""
 
 #: search-filter-view.ui:141
-#, fuzzy
-#| msgid "Recommends:"
 msgid "RPM Recommends"
-msgstr "Zalecane:"
+msgstr "RPM \"zaleca\""
 
 #: search-filter-view.ui:164
 msgid "File &List"
@@ -1602,7 +1576,7 @@ msgstr "Wykryto:"
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
-msgstr ""
+msgstr "Przełącza domyślny tryb wyszukiwania dla \"Automatyczny\""
 
 #: search-filter-view.ui:270 summary-page.ui:132
 msgid "..."
@@ -1741,96 +1715,76 @@ msgstr ""
 "Działanie jest równoznaczne z wykonaniem polecenia \"zypper dup\" w konsoli."
 
 #: zypp-history-browser.ui:14
-#, fuzzy
-#| msgid "Show &History"
 msgid "Zypp History"
-msgstr "Pokaż &historię"
+msgstr "Historia aktualizacji"
 
 #: zypp-history-browser.ui:66
 msgid "**Zypp History**"
-msgstr ""
+msgstr "**Historia aktualizacji**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
-msgstr ""
+msgstr "Brak filtra"
 
 #: zypp-history-browser.ui:108
-#, fuzzy
-#| msgid "&Secondary Filter:"
 msgid "Cl&ear Filter"
-msgstr "Filtr &drugorzędny:"
+msgstr "&Usuń filtr"
 
 #: zypp-history-browser.ui:115
-#, fuzzy
-#| msgid "&File"
 msgid "&Filter..."
-msgstr "&Plik"
+msgstr "&Filtr..."
 
 #: zypp-history-browser.ui:144
-#, fuzzy
-#| msgid "Localization"
 msgid "Navigation"
-msgstr "Tłumaczenia"
+msgstr "Nawigacja"
 
 #: zypp-history-browser.ui:167
 msgid "Arch."
-msgstr ""
+msgstr "Architektura"
 
 #: zypp-history-browser.ui:172
 msgid "Repo"
-msgstr ""
+msgstr "Repozytorium"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr ""
+msgstr "Pokaż licznik (+/-)"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
-msgstr ""
+msgstr "Filtr historii"
 
 #: zypp-history-filter-dialog.ui:38
 msgid "**Zypp History Filter**"
-msgstr ""
+msgstr "**Filtr historii**"
 
 #: zypp-history-filter-dialog.ui:51
-#, fuzzy
-#| msgid "Pac&kage Update"
 msgid "Package by &Name"
-msgstr "Aktualizacja pa&kietów"
+msgstr "Pakiety według &nazwy"
 
 #: zypp-history-filter-dialog.ui:76
-#, fuzzy
-#| msgid "Search Text or Pattern"
 msgid "Package Name or Pattern"
-msgstr "Szukaj w tekście i wzorcach"
+msgstr "Nazwa pakietu lub wzorca"
 
 #: zypp-history-filter-dialog.ui:142
-#, fuzzy
-#| msgid "Package History"
 msgid "Package by &Repository"
-msgstr "Historia pakietu"
+msgstr "Pakiety według &repozytorium"
 
 #: zypp-history-filter-dialog.ui:167
-#, fuzzy
-#| msgid "Search Text or Pattern"
 msgid "Repo Alias or Pattern"
-msgstr "Szukaj w tekście i wzorcach"
+msgstr "Alias repozytorium lub wzorzec"
 
 #: zypp-history-filter-dialog.ui:233
-#, fuzzy
-#| msgid "Pac&kage Update"
 msgid "Package &Install / Update"
-msgstr "Aktualizacja pa&kietów"
+msgstr "Pakiety zainstalowane / zaktualizowane"
 
 #: zypp-history-filter-dialog.ui:240
-#, fuzzy
-#| msgid "Package &Groups"
 msgid "Package Re&move"
-msgstr "&Grupy pakietów"
+msgstr "Pakiety usunięte"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
-msgstr ""
+msgstr "Repozytorium dod&ane / usunięte / zmiana adresu URL / zmiana aliasu"
 
 #~ msgid "Package History (/var/log/zypp/history)"
 #~ msgstr "Pokaż historię (/var/log/zypp/history)"
