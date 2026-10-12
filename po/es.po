@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-11 23:25+0000\n"
+"PO-Revision-Date: 2026-10-13 09:27+0000\n"
 "Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
 "Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/es/>\n"
@@ -299,34 +299,30 @@ msgstr "Paquetes actualizados por el usuario: %1"
 #: SummaryPage.cc:313
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
-msgstr ""
+msgstr "Paquetes actualizados por dependencias: %1"
 
 #: SummaryPage.cc:314
 #, qt-format
 msgid "To do: %1"
-msgstr ""
+msgstr "Pendiente: %1"
 
 #: SummaryPage.cc:363
 #, qt-format
 msgid "(%1 more)"
-msgstr ""
+msgstr "(%1 más)"
 
 #: SummaryPage.cc:379
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended."
-msgstr "recomendados"
+msgstr "Reinicio recomendado."
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
 msgstr "Información disponible sólo para paquetes instalados."
 
 #: YQPkgChangeLogView.cc:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "(%1 more; run \"%2\" to see the complete change log)"
-msgstr ""
-"(%1 más entradas de cambios no se muestran. Ejecute \"%2\" para ver el "
-"registro de cambios completo.)"
+msgstr "(%1 más; ejecuta \"%2\" para ver el registro de cambios completo)"
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
@@ -405,18 +401,16 @@ msgid "&Cancel"
 msgstr "&Cancelar"
 
 #: YQPkgConflictDialog.cc:190
-#, fuzzy
 msgid "Verifying System Dependencies"
-msgstr "Comprobando dependencias..."
+msgstr "Verificando dependencias del sistema"
 
 #: YQPkgConflictDialog.cc:321
 msgid "Create Dependency Resolver Test Case"
 msgstr "Generar caso de prueba para el solucionador de dependencias"
 
 #: YQPkgConflictDialog.cc:325
-#, fuzzy
 msgid "You need to run the dependency resolver first."
-msgstr "Generar caso de &prueba para el solucionador de dependencias"
+msgstr "Ejecuta el solucionador de dependencias primero."
 
 #: YQPkgConflictDialog.cc:333
 #, qt-format
@@ -434,12 +428,11 @@ msgid "C&ontinue"
 msgstr "C&ontinuar"
 
 #: YQPkgConflictDialog.cc:351
-#, fuzzy, qt-format
+#, qt-format
 msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
 msgstr ""
-"<p>El caso de prueba de resolución de dependencias se ha escrito en "
-"<br><tt>%1</tt>.</p><p>¿Desea preparar el archivo de reserva <tt>y2logs.tgz "
-"tar</tt> para adjuntarlo a Bugzilla?</p>"
+"<p>Caso de prueba del solucionador de dependencias escrito en <br><tt>%1</tt>"
+"</p>"
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
@@ -456,15 +449,14 @@ msgstr ""
 "tt></p>"
 
 #: YQPkgConflictList.cc:138
-#, fuzzy
 msgid "Save conflicts list"
-msgstr "Guardar lista de conflictos"
+msgstr "Guardar registro de conflictos"
 
 # include/backup/ui.ycp:1661
 #: YQPkgConflictList.cc:161
-#, fuzzy, qt-format
+#, qt-format
 msgid "Can't open file %1"
-msgstr "No es posible abrir el archivo %1"
+msgstr "Error al abrir el archivo %1"
 
 #: YQPkgConflictList.cc:247
 msgid "Conflict Resolution:"
@@ -737,7 +729,7 @@ msgstr "opcionales"
 
 #: YQPkgPatchList.cc:599
 msgid "feature"
-msgstr ""
+msgstr "Característica"
 
 #: YQPkgPatchList.cc:600
 msgid "document"
@@ -776,20 +768,16 @@ msgstr "Proveedor"
 # include/mail/ui.ycp:819
 # include/mail/ui.ycp:1013
 #: YQPkgRepoFilterView.cc:92
-#, fuzzy
-#| msgid "Protect"
 msgid "Protect All"
-msgstr "Proteger"
+msgstr "Proteger todo"
 
 # include/mail/ui.ycp:720
 # include/mail/ui.ycp:747
 # include/mail/ui.ycp:819
 # include/mail/ui.ycp:1013
 #: YQPkgRepoFilterView.cc:99
-#, fuzzy
-#| msgid "Protect"
 msgid "Un-Protect All"
-msgstr "Proteger"
+msgstr "Desproteger todo"
 
 #: YQPkgRpmGroupsFilterView.cc:32
 #, fuzzy
