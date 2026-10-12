@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
 "PO-Revision-Date: 2026-10-13 09:27+0000\n"
-"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
 "Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/es/>\n"
 "Language: es\n"
@@ -21,7 +21,7 @@ msgstr " [root]"
 
 #: MyrlynApp.cc:206 RepoConfigDialog.cc:64
 msgid " (read-only)"
-msgstr " (read-only)"
+msgstr " (sólo lectura)"
 
 #: MyrlynApp.cc:227
 msgid "Preparing the package selector..."
@@ -780,25 +780,23 @@ msgid "Un-Protect All"
 msgstr "Desproteger todo"
 
 #: YQPkgRpmGroupsFilterView.cc:32
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Groups"
 msgstr "Grupos &RPM"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
 msgid "zzz Unspecified (%1)"
-msgstr ""
+msgstr "zzz No especificado (%1)"
 
 #: YQPkgSearchFilterView.cc:156
 #, qt-format
 msgid "Default: %1"
-msgstr ""
+msgstr "Predeterminado: %1"
 
 #: YQPkgSearchFilterView.cc:163
 #, qt-format
 msgid "Detected: %1"
-msgstr ""
+msgstr "Detectado: %1"
 
 #: YQPkgSearchFilterView.cc:439
 msgid "No Results."
@@ -813,16 +811,12 @@ msgid "&Secondary Filter:"
 msgstr "Filtro &secundario:"
 
 #: YQPkgSecondaryFilterView.cc:97
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Installed Packages"
-msgstr "Paquetes instalados retirados"
+msgstr "Paquetes instalados"
 
 #: YQPkgSecondaryFilterView.cc:106
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Not Installed Packages"
-msgstr "Paquetes instalados retirados"
+msgstr "Paquetes no instalados"
 
 #: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
@@ -862,9 +856,8 @@ msgid "The following items will be changed: "
 msgstr "Los siguientes elementos serán modificados: "
 
 #: YQPkgSelectorBase.cc:210
-#, fuzzy
 msgid "Really abandon all changes and exit?"
-msgstr "¿Desea abandonar todos los cambios y terminar?"
+msgstr "¿Desea abandonar todos los cambios y salir?"
 
 #: YQPkgSelectorBase.cc:265
 msgid ""
@@ -875,72 +868,60 @@ msgstr ""
 "cambiado para resolver dependencias:"
 
 #: YQPkgSelectorBase.cc:367
-#, fuzzy
 msgid "Not implemented yet"
-msgstr "Aún no se ha implementado. Lo sentimos."
+msgstr "No implementado aún"
 
 #: YQPkgSelector.cc:311 search-filter-view.ui:53
 msgid "&Search"
 msgstr "&Buscar"
 
 #: YQPkgSelector.cc:325 YQPkgSelector.cc:1279
-#, fuzzy
 msgid "Patc&hes"
-msgstr "Todos los parches"
+msgstr "Parc&hes"
 
 #: YQPkgSelector.cc:337 YQPkgSelector.cc:1280
-#, fuzzy
 msgid "&Updates"
-msgstr "Actualizar"
+msgstr "Act&ualizaciones"
 
 #: YQPkgSelector.cc:347
 msgid "&Repositories"
 msgstr "&Repositorios"
 
 #: YQPkgSelector.cc:357
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM &Groups"
-msgstr "Grupos &RPM"
+msgstr "&Grupos RPM"
 
 #: YQPkgSelector.cc:370
-#, fuzzy
 msgid "Repository Index Ser&vices"
-msgstr "&Repositorios"
+msgstr "Ser&vicios de indexado de repositorio"
 
 #: YQPkgSelector.cc:383
-#, fuzzy
 msgid "Pa&tterns"
-msgstr "Patro&nes"
+msgstr "Pa&trones"
 
 #: YQPkgSelector.cc:394
-#, fuzzy
 msgid "Package Classi&fication"
-msgstr "Clasificación de paquetes"
+msgstr "Clasi&ficación de paquetes"
 
 #: YQPkgSelector.cc:405
 msgid "&Languages"
 msgstr "&Idiomas"
 
 #: YQPkgSelector.cc:415
-#, fuzzy
 msgid "Installation Su&mmary"
-msgstr "Resumen de instalación"
+msgstr "Resu&men de instalación"
 
 #: YQPkgSelector.cc:543
-#, fuzzy
 msgid "Description"
-msgstr "D&escripción"
+msgstr "Descripción"
 
 #: YQPkgSelector.cc:555
-#, fuzzy
 msgid "Technical Data"
-msgstr "Datos &técnicos"
+msgstr "Datos técnicos"
 
 #: YQPkgSelector.cc:582
-#, fuzzy
 msgid "Versions"
-msgstr "&Versiones"
+msgstr "Versiones"
 
 #: YQPkgSelector.cc:600
 msgid "File List"
@@ -952,7 +933,7 @@ msgstr "Registro de cambios"
 
 #: YQPkgSelector.cc:637
 msgid "Resolver: ??"
-msgstr ""
+msgstr "Resolución de conflictos:??"
 
 #: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
 msgid "&Accept"
@@ -963,23 +944,20 @@ msgid "&File"
 msgstr "&Archivo"
 
 #: YQPkgSelector.cc:695
-#, fuzzy
 msgid "&Accept Changes"
-msgstr "&Aceptar"
+msgstr "&Aceptar cambios"
 
 #: YQPkgSelector.cc:697
-#, fuzzy
 msgid "&Quit - Discard Changes"
-msgstr "Sa&lir: descartar cambios"
+msgstr "Sa&lir - descartar cambios"
 
 #: YQPkgSelector.cc:709
 msgid "&Package"
 msgstr "&Paquete"
 
 #: YQPkgSelector.cc:758
-#, fuzzy
 msgid "Patch"
-msgstr "&Parche"
+msgstr "Parche"
 
 #: YQPkgSelector.cc:784
 msgid "&Dependencies"
@@ -1014,9 +992,8 @@ msgid "&System Verification Mode"
 msgstr "Modo de verificación del &sistema"
 
 #: YQPkgSelector.cc:835
-#, fuzzy
 msgid "Options for this run only"
-msgstr "Opciones solo para esta ejecución..."
+msgstr "Opciones sólo para esta ejecución"
 
 #: YQPkgSelector.cc:837
 msgid "&Cleanup when deleting packages"
@@ -1031,9 +1008,8 @@ msgid "E&xtras"
 msgstr "E&xtras"
 
 #: YQPkgSelector.cc:857
-#, fuzzy
 msgid "C&onfigure Repositories..."
-msgstr "&Repositorios..."
+msgstr "C&onfigurar repositorios..."
 
 #: YQPkgSelector.cc:863
 msgid "Show &Products"
@@ -1042,33 +1018,28 @@ msgstr "Mostrar &productos"
 # clients/inst_sw_single.ycp:1391
 # clients/inst_sw_single.ycp:1506
 #: YQPkgSelector.cc:864
-#, fuzzy
 msgid "Show Package &Changes"
-msgstr "Mostrar cambios de p&aquetes"
+msgstr "Mostrar &cambios de paquetes"
 
 #: YQPkgSelector.cc:866
 msgid "Show &History"
 msgstr "Mostrar &histórico"
 
 #: YQPkgSelector.cc:873
-#, fuzzy
 msgid "Install All Matching -devel Packages"
-msgstr "Instalar todos los paquetes -&devel correspondientes"
+msgstr "Instalar todos los paquetes -devel correspondientes"
 
 #: YQPkgSelector.cc:876
-#, fuzzy
 msgid "Install All Matching -debuginfo Packages"
-msgstr "Instalar todos los paquetes -de&buginfo correspondientes"
+msgstr "Instalar todos los paquetes -debuginfo correspondientes"
 
 #: YQPkgSelector.cc:879
-#, fuzzy
 msgid "Install All Matching -debugsource Packages"
-msgstr "Instalar todos los paquetes -debug&source coincidentes"
+msgstr "Instalar todos los paquetes -debugsource correspondientes"
 
 #: YQPkgSelector.cc:881
-#, fuzzy
 msgid "Install All Matching Recommended Packages"
-msgstr "Instalar todos los paquetes &recomendados que coincidan"
+msgstr "Instalar todos los paquetes recomendados correspondientes"
 
 #: YQPkgSelector.cc:887
 msgid "Generate Dependency Resolver &Test Case"
@@ -1076,7 +1047,7 @@ msgstr "Generar caso de &prueba para el solucionador de dependencias"
 
 #: YQPkgSelector.cc:900
 msgid "H&elp"
-msgstr ""
+msgstr "Ayuda"
 
 #: YQPkgSelector.cc:910
 msgid "&Overview"
@@ -1084,21 +1055,19 @@ msgstr "Visión general"
 
 #: YQPkgSelector.cc:912
 msgid "About &Myrlyn"
-msgstr ""
+msgstr "Acerca de &Myrlyn"
 
 #: YQPkgSelector.cc:913
 msgid "About &Qt"
-msgstr ""
+msgstr "Acerca de &Qt"
 
 #: YQPkgSelector.cc:918
-#, fuzzy
 msgid "Rep&ository Configuration"
-msgstr "Confi&guración"
+msgstr "Configuración de rep&ositorio"
 
 #: YQPkgSelector.cc:919
-#, fuzzy
 msgid "Root &Authentication"
-msgstr "Comunicación"
+msgstr "Autenticación de root"
 
 #: YQPkgSelector.cc:1146
 msgid "All package dependencies are OK."
@@ -1113,6 +1082,12 @@ msgid ""
 "restart the program, and all package changes\n"
 "will be lost.\n"
 msgstr ""
+"Hay cambios pendientes.\n"
+"\n"
+"Si continúa con la configuración del repositorio\n"
+"y cambia algo allí, tendrá que\n"
+"reiniciar el programa y todos los cambios de paquetes\n"
+"se perderán.\n"
 
 #: YQPkgSelector.cc:1312
 #, qt-format
@@ -1121,12 +1096,11 @@ msgstr "Se actualizarán %1 paquetes"
 
 #: YQPkgSelector.cc:1342
 msgid "Dist-Upgrade Mode"
-msgstr ""
+msgstr "Modo actualización de distribución"
 
 #: YQPkgSelector.cc:1343
-#, fuzzy
 msgid "Package Update Mode"
-msgstr "Paquete"
+msgstr "Modo actualización de paquete"
 
 #: YQPkgSelector.cc:1381
 #, qt-format
@@ -1138,13 +1112,13 @@ msgstr ""
 "versiones en este repositorio (%2)</p>"
 
 #: YQPkgSelector.cc:1406
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
 "to versions in repository %2</p>"
 msgstr ""
-"<p><small><a href=\"repoupgraderemove:///%1\">Cancelar el cambio de</a> "
-"paquetes de sistema a versiones en el repositorio %2</small></p>"
+"<p><a href=\"repoupgraderemove:///%1\">Cancelar el cambio de</a> paquetes de "
+"sistema a versiones en el repositorio %2</p>"
 
 #: YQPkgSelector.cc:1482
 #, qt-format
@@ -1154,6 +1128,10 @@ msgid ""
 "\n"
 "No permissions?"
 msgstr ""
+"No se puede abrir el archivo de histórico de zypp\n"
+"%1\n"
+"\n"
+"¿Tal vez no tenga permisos suficientes?"
 
 #: YQPkgSelector.cc:1494
 #, qt-format
@@ -1163,6 +1141,10 @@ msgid ""
 "\n"
 "Check the log!"
 msgstr ""
+"Error de procesado del archivo de histórico de zypp\n"
+"%1\n"
+"\n"
+"¡Revise la traza!"
 
 #: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
 msgid "Added Subpackages:"
@@ -1189,10 +1171,8 @@ msgid "Install Time:"
 msgstr "Fecha de instalación:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Group:"
-msgstr "Grupos &RPM"
+msgstr "Grupos RPM:"
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1301,60 +1281,58 @@ msgstr "%1-%2 de %3 con prioridad %4 y proveedor %5"
 #: ZyppHistoryBrowser.cc:465
 #, qt-format
 msgid "Repo+  %1  %2"
-msgstr ""
+msgstr "Repositorio+  %1  %2"
 
 #: ZyppHistoryBrowser.cc:471
 #, qt-format
 msgid "Repo-  %1"
-msgstr ""
+msgstr "Repositorio-  %1"
 
 #: ZyppHistoryBrowser.cc:476
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
-msgstr ""
+msgstr "URL repositorio  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:482
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
-msgstr ""
+msgstr "Alias repositorio  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:502
-#, fuzzy, qt-format
+#, qt-format
 msgid "Patch %1"
-msgstr "&Parche"
+msgstr "Parche %1"
 
 #: ZyppHistoryBrowser.cc:625
 #, qt-format
 msgid "<b>Filter:</b> %1"
-msgstr ""
+msgstr "<b>Filtro:</b> %1"
 
 #: ZyppHistoryBrowser.cc:627
 msgid "<i>No Filter</i>"
-msgstr ""
+msgstr "<i>Sin filtrar</i>"
 
 #: ZyppHistoryFilter.cc:26
 msgid "Only repo events"
-msgstr ""
+msgstr "Solo eventos del repositorio"
 
 #: ZyppHistoryFilter.cc:57
-#, fuzzy, qt-format
+#, qt-format
 msgid "Package name \"%1\""
-msgstr "Paquete"
+msgstr "Nombre de paquete \"%1\""
 
 #: ZyppHistoryFilter.cc:80
 #, qt-format
 msgid "Packages from repo \"%1\""
-msgstr ""
+msgstr "Paquetes del repositorio \"%1\""
 
 #: ZyppHistoryFilterDialog.cc:155
-#, fuzzy
-#| msgid "%1 packages will be updated"
 msgid "Only package installation / update"
-msgstr "Se actualizarán %1 paquetes"
+msgstr "Solo instalación/actualización de paquetes"
 
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
-msgstr ""
+msgstr "Sólo eliminar paquetes"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -1391,15 +1369,6 @@ msgstr ""
 "de YaST."
 
 #: about-dialog.ui:123
-#, fuzzy
-#| msgid ""
-#| "### Main Author\n"
-#| "\n"
-#| "- Stefan Hundhammer (GitHub: @shundhammer)\n"
-#| "\n"
-#| "### Contributors\n"
-#| "\n"
-#| "- Christoph Grüninger (GitHub: @gruenich)"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -1411,18 +1380,20 @@ msgid ""
 "- @Arthurium-On-Linux\n"
 "- @byDMA"
 msgstr ""
-"### Autor Principal\n"
+"### Autor principal\n"
 "\n"
 "- Stefan Hundhammer (GitHub: @shundhammer)\n"
 "\n"
 "### Colaboradores\n"
 "\n"
-"- Christoph Grüninger (GitHub: @gruenich)"
+"- Christoph Grüninger (GitHub: @gruenich)\n"
+"- @Arthurium-On-Linux\n"
+"- @byDMA"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
 msgid "Form"
-msgstr ""
+msgstr "Formulario"
 
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
@@ -1583,100 +1554,85 @@ msgid "D&escription"
 msgstr "&Descripción"
 
 #: search-filter-view.ui:127
-#, fuzzy
 msgid "RPM P&rovides"
-msgstr "P&roporciona"
+msgstr "P&roporciona RPM"
 
 # clients/hwinfo.ycp:73
 # clients/hwinfo.ycp:73
 # clients/hwinfo.ycp:73
 #: search-filter-view.ui:134
-#, fuzzy
 msgid "RPM Re&quires"
-msgstr "Re&quiere"
+msgstr "Re&quiere RPM"
 
 #: search-filter-view.ui:141
-#, fuzzy
-#| msgid "Recommends:"
 msgid "RPM Recommends"
-msgstr "Recomendados:"
+msgstr "Recomendaciones de RPM"
 
 #: search-filter-view.ui:164
-#, fuzzy
 msgid "File &List"
-msgstr "Lista de archivos"
+msgstr "&Lista de archivos"
 
 #: search-filter-view.ui:198
-#, fuzzy
 msgid "Searc&h Mode:"
 msgstr "&Modo de búsqueda:"
 
 #: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
 #: zypp-history-filter-dialog.ui:184
 msgid "Auto"
-msgstr ""
+msgstr "Automático"
 
 #: search-filter-view.ui:214 zypp-history-filter-dialog.ui:98
 #: zypp-history-filter-dialog.ui:189
-#, fuzzy
 msgid "Contains"
 msgstr "Contiene"
 
 #: search-filter-view.ui:219 zypp-history-filter-dialog.ui:103
 #: zypp-history-filter-dialog.ui:194
 msgid "Starts With"
-msgstr ""
+msgstr "Comienza con"
 
 #: search-filter-view.ui:224 zypp-history-filter-dialog.ui:108
 #: zypp-history-filter-dialog.ui:199
-#, fuzzy
 msgid "Exact Match"
 msgstr "Correspondencia exacta"
 
 #: search-filter-view.ui:229 zypp-history-filter-dialog.ui:113
 #: zypp-history-filter-dialog.ui:204
-#, fuzzy
 msgid "Wildcards"
-msgstr "Usar comodines"
+msgstr "Comodines"
 
 #: search-filter-view.ui:234 zypp-history-filter-dialog.ui:118
 #: zypp-history-filter-dialog.ui:209
-#, fuzzy
 msgid "Regular Expression"
-msgstr "Usar expresiones regulares"
+msgstr "Expresión regular"
 
 #: search-filter-view.ui:244
-#, fuzzy
 msgid "Detected:"
-msgstr "Protegido"
+msgstr "Detectado:"
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
-msgstr ""
+msgstr "Cambiar el modo predeterminado a \"automático\""
 
 #: search-filter-view.ui:270 summary-page.ui:132
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: search-filter-view.ui:295
-#, fuzzy
 msgid "Case Sens&itive"
-msgstr "Distinguir entre mayúscu&las/minúsculas"
+msgstr "Distinguir entre mayúsculas/minúsculas"
 
 # clients/inst_sw_single.ycp:1391
 # clients/inst_sw_single.ycp:1506
 #: status-filter-view.ui:32
-#, fuzzy
 msgid "Show Packages with Status"
 msgstr "Mostrar paquetes con estado"
 
 #: status-filter-view.ui:103
-#, fuzzy
 msgid "Auto-Install"
-msgstr "Autoinstalación"
+msgstr "Instalación automática"
 
 #: status-filter-view.ui:123
-#, fuzzy
 msgid "Auto-Update"
 msgstr "Actualización automática"
 
@@ -1684,33 +1640,29 @@ msgstr "Actualización automática"
 # include/partitioning/partition_defines.ycp:365
 # include/partitioning/partition_defines.ycp:374
 #: status-filter-view.ui:143
-#, fuzzy
 msgid "Taboo"
 msgstr "Tabú"
 
 #: status-filter-view.ui:160
-#, fuzzy
 msgid "Protected"
 msgstr "Protegido"
 
 #: status-filter-view.ui:279
-#, fuzzy
 msgid "Auto-Delete"
 msgstr "Borrado automático"
 
 #: status-filter-view.ui:302
 msgid "<i>Middle-click on a status to show only this one</i>"
-msgstr ""
+msgstr "<i>Clic en botón central en un estado para mostrar sólo este</i>"
 
 #: status-filter-view.ui:354
 msgid "Defaults"
-msgstr ""
+msgstr "Predeterminados"
 
 # include/runlevel/ui.ycp:521
 #: status-filter-view.ui:361 updates-filter-view.ui:242
-#, fuzzy
 msgid "Refresh List"
-msgstr "Actualiza&r lista"
+msgstr "Actualizar lista"
 
 #: summary-page.ui:52
 msgid ""
@@ -1723,42 +1675,50 @@ msgid ""
 "Errors: 0\n"
 "\n"
 msgstr ""
+"Paquetes instalados: 2\n"
+"\n"
+"Paquetes actualizados: 5\n"
+"\n"
+"Paquetes eliminados: 0\n"
+"\n"
+"Errores: 0\n"
+"\n"
 
 #: summary-page.ui:92
 msgid "Automatically closing in"
-msgstr ""
+msgstr "Se cerrará automáticamente en"
 
 #: summary-page.ui:99
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: summary-page.ui:122
 msgid "&Stop"
-msgstr ""
+msgstr "Detener"
 
 #: summary-page.ui:172
 msgid "&Back"
-msgstr ""
+msgstr "Atrás"
 
 #: summary-page.ui:179
 msgid "&Finish"
-msgstr ""
+msgstr "Terminar"
 
 #: updates-filter-view.ui:35
-#, fuzzy
 msgid "Updates"
-msgstr "Actualizar"
+msgstr "Actualizaciones"
 
 #: updates-filter-view.ui:48
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
 msgstr ""
+"Esto muestra solamente los paquetes que pueden actualizarse, p.e. cuando "
+"está disponible una versión más reciente que la que está ya instalada."
 
 #: updates-filter-view.ui:98
-#, fuzzy
 msgid "Pac&kage Update"
-msgstr "Paquete"
+msgstr "Actualización de paquetes"
 
 #: updates-filter-view.ui:120
 msgid ""
@@ -1767,10 +1727,14 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper up\" command."
 msgstr ""
+"Marcar para actualizar todos los paquetes que puedan actualizarse sin "
+"problemas de dependencias.\n"
+"\n"
+"Esto es equivalente al comando \"zypper up\"."
 
 #: updates-filter-view.ui:172
 msgid "D&ist-Upgrade"
-msgstr ""
+msgstr "Actualización de distribución"
 
 #: updates-filter-view.ui:194
 msgid ""
@@ -1782,96 +1746,85 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper dup\" command."
 msgstr ""
+"Hacer una actualización de distribución: Marcar para actualizar todos los "
+"paquetes que puedan actualizarse sin problemas de dependencias.\n"
+"\n"
+"Esto tiene en cuenta las divisiones de paquetes, los renombrados de "
+"paquetes, las actualizaciones de patrones, etc.\n"
+"\n"
+"Esto es equivalente al comando \"zypper dup\"."
 
 #: zypp-history-browser.ui:14
-#, fuzzy
-#| msgid "Show &History"
 msgid "Zypp History"
-msgstr "Mostrar &histórico"
+msgstr "Histórico de zypp"
 
 #: zypp-history-browser.ui:66
 msgid "**Zypp History**"
-msgstr ""
+msgstr "**Histórico de zypp**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
-msgstr ""
+msgstr "Sin filtrar"
 
 #: zypp-history-browser.ui:108
-#, fuzzy
-#| msgid "&Secondary Filter:"
 msgid "Cl&ear Filter"
-msgstr "Filtro &secundario:"
+msgstr "Quitar filtro"
 
 #: zypp-history-browser.ui:115
-#, fuzzy
-#| msgid "&File"
 msgid "&Filter..."
-msgstr "&Archivo"
+msgstr "&Filtro..."
 
 #: zypp-history-browser.ui:144
-#, fuzzy
-#| msgid "Localization"
 msgid "Navigation"
-msgstr "Localización"
+msgstr "Navegación"
 
 #: zypp-history-browser.ui:167
 msgid "Arch."
-msgstr ""
+msgstr "Arch."
 
 #: zypp-history-browser.ui:172
 msgid "Repo"
-msgstr ""
+msgstr "Repositorio"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr ""
+msgstr "M&ostrar recuento (+/-)"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
-msgstr ""
+msgstr "Filtrado de histórico de zypp"
 
 #: zypp-history-filter-dialog.ui:38
 msgid "**Zypp History Filter**"
-msgstr ""
+msgstr "**Filtrado de histórico de zypp**"
 
 #: zypp-history-filter-dialog.ui:51
-#, fuzzy
 msgid "Package by &Name"
-msgstr "Paquete"
+msgstr "Paquete por &nombre"
 
 #: zypp-history-filter-dialog.ui:76
-#, fuzzy
-#| msgid "Search Text or Pattern"
 msgid "Package Name or Pattern"
-msgstr "Texto o patrón a buscar"
+msgstr "Nombre de paquete o patrón"
 
 #: zypp-history-filter-dialog.ui:142
-#, fuzzy
-#| msgid "Package History"
 msgid "Package by &Repository"
-msgstr "Historial de paquetes"
+msgstr "Paquete por &repositorio"
 
 #: zypp-history-filter-dialog.ui:167
-#, fuzzy
-#| msgid "Search Text or Pattern"
 msgid "Repo Alias or Pattern"
-msgstr "Texto o patrón a buscar"
+msgstr "Alias de repositorio o patrón"
 
 #: zypp-history-filter-dialog.ui:233
-#, fuzzy
 msgid "Package &Install / Update"
-msgstr "Paquete"
+msgstr "&Instalación / actualización de paquetes"
 
 #: zypp-history-filter-dialog.ui:240
-#, fuzzy
-#| msgid "Package &Groups"
 msgid "Package Re&move"
-msgstr "&Grupos de paquetes"
+msgstr "Eli&minar paquetes"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
-msgstr ""
+msgstr "&Añadir / eliminar / cambiar URL / cambiar alias de repositorio"
 
 #~ msgid "Package History (/var/log/zypp/history)"
 #~ msgstr "Historial de paquetes (/var/log/zypp/history)"
