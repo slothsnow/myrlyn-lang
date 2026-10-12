@@ -1,18 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-10-13 09:27+0000\n"
+"Last-Translator: freekdk <freekdk@noreply.codeberg.org>\n"
+"Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:203
 msgid " [root]"
-msgstr ""
+msgstr " [root]"
 
 #: MyrlynApp.cc:206 RepoConfigDialog.cc:64
 msgid " (read-only)"
-msgstr ""
+msgstr " (alleen-lezen)"
 
 #: MyrlynApp.cc:227
 msgid "Preparing the package selector..."
-msgstr ""
+msgstr "De pakketkiezer voorbereiden..."
 
 #: MyrlynApp.cc:485
 msgid "Really quit?"
-msgstr ""
+msgstr "Afsluiten?"
 
 #: MyrlynRepoManager.cc:296
 msgid ""
@@ -22,6 +39,11 @@ msgid ""
 "\n"
 "and restart the program."
 msgstr ""
+"Fout bij het laden van de opslagruimten. Uitvoeren\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"en het programma herstarten."
 
 #: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
 #: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
@@ -35,6 +57,9 @@ msgid ""
 "\n"
 "This repository is now disabled for this program run."
 msgstr ""
+"Vernieuwen van de opslagruimte \"%1\" is mislukt.\n"
+"\n"
+"Deze opslagruimte is nu uitgeschakeld voor dit programma om te gebruiken."
 
 #: MyrlynRepoManager.cc:329
 #, qt-format
@@ -44,6 +69,10 @@ msgid ""
 "%1\n"
 "Those repositories are now disabled for this program run."
 msgstr ""
+"Vernieuwen is mislukt voor opslagruimten\n"
+"\n"
+"%1\n"
+"Deze opslagruimten zijn nu uitgeschakeld voor dit programma om te gebruiken."
 
 #: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
 msgid "Warning"
@@ -54,58 +83,54 @@ msgid ""
 "Can't connect to the package manager!\n"
 "It may be busy in another window.\n"
 msgstr ""
+"Kan geen verbinding maken met de pakketbeheerder!\n"
+"Deze kan bezig zijn in een ander venster.\n"
 
 #: PkgCommitPage.cc:144 pkg-commit-page.ui:113
 msgid "To Do"
-msgstr ""
+msgstr "Te doen"
 
 #: PkgCommitPage.cc:145 pkg-commit-page.ui:238
-#, fuzzy
 msgid "Downloads"
-msgstr "Grootte bij downloaden:"
+msgstr "Downloads"
 
 #: PkgCommitPage.cc:146 pkg-commit-page.ui:376
 msgid "Done"
-msgstr ""
+msgstr "Gedaan"
 
 #: PkgCommitPage.cc:298 pkg-commit-page.ui:61
-#, fuzzy
 msgid "Hide &Details"
-msgstr "&Details…"
+msgstr "Verbergen &details"
 
 #: PkgCommitPage.cc:298
-#, fuzzy
 msgid "Show &Details"
-msgstr "&Details…"
+msgstr "Tonen &details"
 
 #: PkgCommitPage.cc:343
 msgid "Really cancel the current package actions?"
-msgstr ""
+msgstr "De huidige pakketacties annuleren?"
 
 #: PkgCommitPage.cc:544
-#, fuzzy
 msgid "Checking File Conflicts..."
-msgstr "Bezig met controleren van afhankelijkheden…"
+msgstr "Bezig met controleren van conflicten…"
 
 #: PkgCommitPage.cc:713
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error downloading package %1"
-msgstr ""
-"Er is een fout opgetreden tijdens het laden van de pakketlijst uit ‘%1’"
+msgstr "Er is een fout opgetreden tijdens het downloaden van pakket %1"
 
 #: PkgCommitPage.cc:761 PkgCommitPage.cc:790
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error installing package %1"
-msgstr "De pakketlijst kan niet naar ‘%1’ worden geëxporteerd"
+msgstr "Fout bij installeren van %1"
 
 #: PkgCommitPage.cc:978
 msgid "[Post-transaction scripts]"
-msgstr ""
+msgstr "[Scripts na transactie]"
 
 #: PkgCommitPage.cc:1128
-#, fuzzy
 msgid "File Conflict"
-msgstr "Bestandslijst"
+msgstr "Bestandsconflict"
 
 #: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
 #: YQPkgServiceList.cc:46 zypp-history-browser.ui:157
@@ -114,20 +139,20 @@ msgstr "Naam"
 
 #: QY2DiskUsageList.cc:164
 msgid "Disk Usage"
-msgstr ""
+msgstr "Schijfgebruik"
 
 #: QY2DiskUsageList.cc:165
 msgid "Free"
-msgstr ""
+msgstr "Vrij"
 
 #: QY2DiskUsageList.cc:166
 msgid "Total"
-msgstr ""
+msgstr "Totaal"
 
 #: QY2DiskUsageList.cc:228
 #, qt-format
 msgid "Used %1"
-msgstr ""
+msgstr "Gebruikt %1"
 
 #: RepoConfigDialog.cc:324
 #, qt-format
@@ -136,6 +161,9 @@ msgid ""
 "\n"
 "URL: %2"
 msgstr ""
+"Opslagruimte \"%1\" verwijderen?\n"
+"\n"
+"URL: %2"
 
 #: RepoConfigDialog.cc:350
 msgid ""
@@ -144,140 +172,136 @@ msgid ""
 "\n"
 "Quitting now. Please restart."
 msgstr ""
+"De toepassing moet herstart worden\n"
+"om de wijzigingen effectief te maken.\n"
+"\n"
+"Nu afsluiten. Graag herstarten."
 
 #: RepoEditDialog.cc:105
 msgid "See also  'man zypper'"
-msgstr ""
+msgstr "Zie ook  'man zypper'"
 
 #: RepoEditDialog.cc:113
-#, fuzzy
 msgid "Add Repository"
-msgstr "Pakketb&ronnen"
+msgstr "Opslagruimte toevoegen"
 
 #: RepoEditDialog.cc:113
-#, fuzzy
 msgid "Edit Repository"
-msgstr "Pakketb&ronnen"
+msgstr "Opslagruimte bewerken"
 
 #: RepoEditDialog.cc:247
 msgid "Invalid URL: "
-msgstr ""
+msgstr "Ongeldige URL: "
 
 #: RepoEditDialog.cc:252
 msgid "Invalid input: "
-msgstr ""
+msgstr "Ongeldige invoer: "
 
 #: RepoGpgKeyImportDialog.cc:110
 #, qt-format
 msgid "Repository \"%1\" will be temporarily disabled."
-msgstr ""
+msgstr "Opslagruimte \"%1\" zal tijdelijk uitgeschakeld worden."
 
 #: RepoTable.cc:40
 msgid "Priority"
-msgstr ""
+msgstr "Prioriteit"
 
 #: RepoTable.cc:41
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: RepoTable.cc:42
 msgid "Auto-Refresh"
-msgstr ""
+msgstr "Automatisch vernieuwen"
 
 #: RepoTable.cc:43
-#, fuzzy
 msgid "Service"
-msgstr "Dien&sten"
+msgstr "Service"
 
 #: RepoTable.cc:44
-#, fuzzy
 msgid "URL"
-msgstr "URL:"
+msgstr "URL"
 
 #: SummaryPage.cc:123
 #, qt-format
 msgid "%1 s"
-msgstr ""
+msgstr "%1 s"
 
 #: SummaryPage.cc:178
 msgid "Close after 300 seconds (5 minutes)"
-msgstr ""
+msgstr "Na 300 seconden (5 minuten) sluiten"
 
 #: SummaryPage.cc:179
 msgid "Don't automatically close"
-msgstr ""
+msgstr "Niet automatisch sluiten"
 
 #: SummaryPage.cc:195
 #, qt-format
 msgid "Close after %1 seconds"
-msgstr ""
+msgstr "Na %1 seconden sluiten"
 
 #: SummaryPage.cc:263
-#, fuzzy
 msgid "No package changes."
-msgstr "P&akketwijzigingen tonen"
+msgstr "Geen pakketwijzigingen."
 
 #: SummaryPage.cc:307
 #, qt-format
 msgid "FAILED: %1"
-msgstr ""
+msgstr "MISLUKT: %1"
 
 #: SummaryPage.cc:308
 #, qt-format
 msgid "Packages removed by user: %1"
-msgstr ""
+msgstr "Pakketten verwijderd door de gebruiker: %1"
 
 #: SummaryPage.cc:309
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
-msgstr ""
+msgstr "Pakketten verwijderd vanwege afhankelijkheden: %1"
 
 #: SummaryPage.cc:310
 #, qt-format
 msgid "Packages installed by user: %1"
-msgstr ""
+msgstr "Pakketten geïnstalleerd door de gebruiker: %1"
 
 #: SummaryPage.cc:311
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
-msgstr ""
+msgstr "Pakketten geïnstalleerd vanwege afhankelijkheden: %1"
 
 #: SummaryPage.cc:312
 #, qt-format
 msgid "Packages updated by user: %1"
-msgstr ""
+msgstr "Pakketten bijgewerkt door de gebruiker: %1"
 
 #: SummaryPage.cc:313
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
-msgstr ""
+msgstr "Pakketten bijgewerkt vanwege afhankelijkheden: %1"
 
 #: SummaryPage.cc:314
 #, qt-format
 msgid "To do: %1"
-msgstr ""
+msgstr "Te doen: %1"
 
 #: SummaryPage.cc:363
 #, qt-format
 msgid "(%1 more)"
-msgstr ""
+msgstr "(nog %1)"
 
 #: SummaryPage.cc:379
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended."
-msgstr "aanbevolen"
+msgstr "Opnieuw starten aanbevolen."
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
 msgstr "Informatie alleen voor geïnstalleerde pakketten."
 
 #: YQPkgChangeLogView.cc:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "(%1 more; run \"%2\" to see the complete change log)"
 msgstr ""
-"(%1 wijzigingen worden niet getoond. Voer ‘%2’ uit om het volledige logboek "
-"met wijzigingen te bekijken.)"
+"(nog %1; voer ‘%2’ uit om het volledige logboek met wijzigingen te bekijken)"
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
@@ -356,18 +380,16 @@ msgid "&Cancel"
 msgstr "Ann&uleren"
 
 #: YQPkgConflictDialog.cc:190
-#, fuzzy
 msgid "Verifying System Dependencies"
-msgstr "Bezig met controleren van afhankelijkheden…"
+msgstr "Bezig met controleren van systeemafhankelijkheden"
 
 #: YQPkgConflictDialog.cc:321
 msgid "Create Dependency Resolver Test Case"
 msgstr "Testscenario van afhankelijkheidsoplosser creëren"
 
 #: YQPkgConflictDialog.cc:325
-#, fuzzy
 msgid "You need to run the dependency resolver first."
-msgstr "&Testscenario voor afhankelijkheidsoplosser samenstellen"
+msgstr "U moet eerst de afhankelijkheidsoplosser uitvoeren."
 
 #: YQPkgConflictDialog.cc:333
 #, qt-format
@@ -385,12 +407,10 @@ msgid "C&ontinue"
 msgstr "D&oorgaan"
 
 #: YQPkgConflictDialog.cc:351
-#, fuzzy, qt-format
+#, qt-format
 msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
 msgstr ""
-"<p>Het testgeval voor de afhankelijkheidsoplossing wordt geschreven naar "
-"<br><tt>%1</tt></p><p>Wilt u <tt>y2logs.tgz tar</tt> voorbereiden om als "
-"bijlage voor bugzilla te gebruiken?</p>"
+"<p>Testcase voor afhankelijkheidsoplossing geschreven om <br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
@@ -406,12 +426,11 @@ msgstr ""
 "p><p>Controleer schijfruimte en rechten voor <tt>%1</tt></p>"
 
 #: YQPkgConflictList.cc:138
-#, fuzzy
 msgid "Save conflicts list"
 msgstr "Conflictenlijst opslaan"
 
 #: YQPkgConflictList.cc:161
-#, fuzzy, qt-format
+#, qt-format
 msgid "Can't open file %1"
 msgstr "Kan bestand %1 niet openen"
 
@@ -686,7 +705,7 @@ msgstr "optioneel"
 
 #: YQPkgPatchList.cc:599
 msgid "feature"
-msgstr ""
+msgstr "mogelijkheid"
 
 #: YQPkgPatchList.cc:600
 msgid "document"
@@ -722,38 +741,32 @@ msgstr "Leverancier"
 
 # /usr/lib/YaST2/clients/lan_inetd_custom.ycp:175
 #: YQPkgRepoFilterView.cc:92
-#, fuzzy
-#| msgid "Protect"
 msgid "Protect All"
-msgstr "Beschermen"
+msgstr "Alles beschermen"
 
 # /usr/lib/YaST2/clients/lan_inetd_custom.ycp:175
 #: YQPkgRepoFilterView.cc:99
-#, fuzzy
-#| msgid "Protect"
 msgid "Un-Protect All"
-msgstr "Beschermen"
+msgstr "Alle bescherming opheffen"
 
 #: YQPkgRpmGroupsFilterView.cc:32
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Groups"
-msgstr "&RPM-groepen"
+msgstr "RPM-groepen"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
 msgid "zzz Unspecified (%1)"
-msgstr ""
+msgstr "zzz ongespecificeerd (%1)"
 
 #: YQPkgSearchFilterView.cc:156
 #, qt-format
 msgid "Default: %1"
-msgstr ""
+msgstr "Standaard: %1"
 
 #: YQPkgSearchFilterView.cc:163
 #, qt-format
 msgid "Detected: %1"
-msgstr ""
+msgstr "Gedetecteerd: %1"
 
 #: YQPkgSearchFilterView.cc:439
 msgid "No Results."
@@ -768,16 +781,12 @@ msgid "&Secondary Filter:"
 msgstr "&Secundair filter:"
 
 #: YQPkgSecondaryFilterView.cc:97
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Installed Packages"
-msgstr "Teruggetrokken geïnstalleerde pakketten"
+msgstr "Geïnstalleerde pakketten"
 
 #: YQPkgSecondaryFilterView.cc:106
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Not Installed Packages"
-msgstr "Teruggetrokken geïnstalleerde pakketten"
+msgstr "Niet geïnstalleerde pakketten"
 
 #: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
@@ -817,9 +826,8 @@ msgid "The following items will be changed: "
 msgstr "De volgende items worden aangepast: "
 
 #: YQPkgSelectorBase.cc:210
-#, fuzzy
 msgid "Really abandon all changes and exit?"
-msgstr "Wilt u alle aanpassingen ongedaan maken en afsluiten?"
+msgstr "Wilt u alle wijzigingen ongedaan maken en afsluiten?"
 
 #: YQPkgSelectorBase.cc:265
 msgid ""
@@ -830,72 +838,60 @@ msgstr ""
 "afhankelijkheden op te lossen:"
 
 #: YQPkgSelectorBase.cc:367
-#, fuzzy
 msgid "Not implemented yet"
-msgstr "Nog niet geïmplementeerd - excuses."
+msgstr "Nog niet geïmplementeerd"
 
 #: YQPkgSelector.cc:311 search-filter-view.ui:53
 msgid "&Search"
 msgstr "&Zoeken"
 
 #: YQPkgSelector.cc:325 YQPkgSelector.cc:1279
-#, fuzzy
 msgid "Patc&hes"
-msgstr "Alle patches"
+msgstr "Patches"
 
 #: YQPkgSelector.cc:337 YQPkgSelector.cc:1280
-#, fuzzy
 msgid "&Updates"
-msgstr "Bijwerken"
+msgstr "Elementen voor &bijwerken"
 
 #: YQPkgSelector.cc:347
 msgid "&Repositories"
 msgstr "Pakketb&ronnen"
 
 #: YQPkgSelector.cc:357
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM &Groups"
-msgstr "&RPM-groepen"
+msgstr "RPM-&groepen"
 
 #: YQPkgSelector.cc:370
-#, fuzzy
 msgid "Repository Index Ser&vices"
-msgstr "Pakketb&ronnen"
+msgstr "Ser&vices voor opslagruimte-index"
 
 #: YQPkgSelector.cc:383
-#, fuzzy
 msgid "Pa&tterns"
-msgstr "Patro&nen"
+msgstr "Pa&tronen"
 
 #: YQPkgSelector.cc:394
-#, fuzzy
 msgid "Package Classi&fication"
-msgstr "Pakketklassificatie"
+msgstr "Pakket-klassi&ficatie"
 
 #: YQPkgSelector.cc:405
 msgid "&Languages"
 msgstr "Ta&len"
 
 #: YQPkgSelector.cc:415
-#, fuzzy
 msgid "Installation Su&mmary"
 msgstr "Samenvatting van installatie"
 
 #: YQPkgSelector.cc:543
-#, fuzzy
 msgid "Description"
-msgstr "B&eschrijving"
+msgstr "Beschrijving"
 
 #: YQPkgSelector.cc:555
-#, fuzzy
 msgid "Technical Data"
-msgstr "&Technische informatie"
+msgstr "Technische gegevens"
 
 #: YQPkgSelector.cc:582
-#, fuzzy
 msgid "Versions"
-msgstr "&Versies"
+msgstr "Versies"
 
 #: YQPkgSelector.cc:600
 msgid "File List"
@@ -907,7 +903,7 @@ msgstr "Wijzigingslog"
 
 #: YQPkgSelector.cc:637
 msgid "Resolver: ??"
-msgstr ""
+msgstr "Oplosser:??"
 
 #: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
 msgid "&Accept"
@@ -918,12 +914,10 @@ msgid "&File"
 msgstr "&Bestand"
 
 #: YQPkgSelector.cc:695
-#, fuzzy
 msgid "&Accept Changes"
-msgstr "&Accepteren"
+msgstr "Wijzigingen &accepteren"
 
 #: YQPkgSelector.cc:697
-#, fuzzy
 msgid "&Quit - Discard Changes"
 msgstr "S&toppen -- wijzigingen negeren"
 
@@ -932,9 +926,8 @@ msgid "&Package"
 msgstr "&Pakket"
 
 #: YQPkgSelector.cc:758
-#, fuzzy
 msgid "Patch"
-msgstr "&Patch"
+msgstr "Patch"
 
 #: YQPkgSelector.cc:784
 msgid "&Dependencies"
@@ -969,9 +962,8 @@ msgid "&System Verification Mode"
 msgstr "&Systeemverificatiemodus"
 
 #: YQPkgSelector.cc:835
-#, fuzzy
 msgid "Options for this run only"
-msgstr "Eenmalig opties…"
+msgstr "Eenmalig opties voor deze uitvoering"
 
 #: YQPkgSelector.cc:837
 msgid "&Cleanup when deleting packages"
@@ -986,42 +978,36 @@ msgid "E&xtras"
 msgstr "E&xtra's"
 
 #: YQPkgSelector.cc:857
-#, fuzzy
 msgid "C&onfigure Repositories..."
-msgstr "Pakketb&ronnen…"
+msgstr "Opslagruimten c&onfigurereren..."
 
 #: YQPkgSelector.cc:863
 msgid "Show &Products"
 msgstr "&Producten tonen"
 
 #: YQPkgSelector.cc:864
-#, fuzzy
 msgid "Show Package &Changes"
-msgstr "P&akketwijzigingen tonen"
+msgstr "Pakket&wijzigingen tonen"
 
 #: YQPkgSelector.cc:866
 msgid "Show &History"
 msgstr "Gesc&hiedenis bekijken"
 
 #: YQPkgSelector.cc:873
-#, fuzzy
 msgid "Install All Matching -devel Packages"
-msgstr "Alle overeenkomende -&devel-pakketten installeren"
+msgstr "Alle overeenkomende -devel-pakketten installeren"
 
 #: YQPkgSelector.cc:876
-#, fuzzy
 msgid "Install All Matching -debuginfo Packages"
-msgstr "Alle overeenkomende -de&buginfo-pakketten installeren"
+msgstr "Alle overeenkomende -debuginfo-pakketten installeren"
 
 #: YQPkgSelector.cc:879
-#, fuzzy
 msgid "Install All Matching -debugsource Packages"
-msgstr "Alle overeenkomende pakketten -debug&source installeren"
+msgstr "Alle overeenkomende pakketten -debugsource installeren"
 
 #: YQPkgSelector.cc:881
-#, fuzzy
 msgid "Install All Matching Recommended Packages"
-msgstr "Alle &overeenkomende aanbevolen pakketten installeren"
+msgstr "Alle overeenkomende aanbevolen pakketten installeren"
 
 #: YQPkgSelector.cc:887
 msgid "Generate Dependency Resolver &Test Case"
@@ -1029,7 +1015,7 @@ msgstr "&Testscenario voor afhankelijkheidsoplosser samenstellen"
 
 #: YQPkgSelector.cc:900
 msgid "H&elp"
-msgstr ""
+msgstr "H&elp"
 
 #: YQPkgSelector.cc:910
 msgid "&Overview"
@@ -1037,21 +1023,19 @@ msgstr "&Overzicht"
 
 #: YQPkgSelector.cc:912
 msgid "About &Myrlyn"
-msgstr ""
+msgstr "Info over &Myrlyn"
 
 #: YQPkgSelector.cc:913
 msgid "About &Qt"
-msgstr ""
+msgstr "Info over &Qt"
 
 #: YQPkgSelector.cc:918
-#, fuzzy
 msgid "Rep&ository Configuration"
-msgstr "Instellin&gen"
+msgstr "Configuratie van &opslagruimte"
 
 #: YQPkgSelector.cc:919
-#, fuzzy
 msgid "Root &Authentication"
-msgstr "Communicatie"
+msgstr "&Authenticatie van root"
 
 #: YQPkgSelector.cc:1146
 msgid "All package dependencies are OK."
@@ -1066,6 +1050,12 @@ msgid ""
 "restart the program, and all package changes\n"
 "will be lost.\n"
 msgstr ""
+"Er zijn wachtende wijzigingen.\n"
+"\n"
+"Als u doorgaat naar de configuratie van\n"
+"de opslagruimte en daar iets wijzigt, dan\n"
+"moet u het programma herstarten, en zijn\n"
+"alle pakketwijzigingen verloren.\n"
 
 #: YQPkgSelector.cc:1312
 #, qt-format
@@ -1074,12 +1064,11 @@ msgstr "%1 pakketten worden bijgewerkt"
 
 #: YQPkgSelector.cc:1342
 msgid "Dist-Upgrade Mode"
-msgstr ""
+msgstr "Modus dist-opwaardering (dup)"
 
 #: YQPkgSelector.cc:1343
-#, fuzzy
 msgid "Package Update Mode"
-msgstr "Pakket"
+msgstr "Modus Pakketten bijwerken (up)"
 
 #: YQPkgSelector.cc:1381
 #, qt-format
@@ -1091,13 +1080,13 @@ msgstr ""
 "versies in deze pakketbron (%2)</p>"
 
 #: YQPkgSelector.cc:1406
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
 "to versions in repository %2</p>"
 msgstr ""
-"<p><small><a href=\"repoupgraderemove:///%1\">Wisselen van</a> "
-"systeempakketten naar versies in pakketbron %2 annuleren</small></p>"
+"<p><a href=\"repoupgraderemove:///%1\">Omschakelen annuleren</a> "
+"systeempakketten naar versies in opslagruimte %2</p>"
 
 #: YQPkgSelector.cc:1482
 #, qt-format
@@ -1107,6 +1096,10 @@ msgid ""
 "\n"
 "No permissions?"
 msgstr ""
+"Kan geschiedenisbestand van zypp niet openen\n"
+"%1\n"
+"\n"
+"Geen rechten?"
 
 #: YQPkgSelector.cc:1494
 #, qt-format
@@ -1116,6 +1109,10 @@ msgid ""
 "\n"
 "Check the log!"
 msgstr ""
+"Fout in ontleden in geschiedenisbestand van zypp\n"
+"%1\n"
+"\n"
+"Controleer het logboek!"
 
 #: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
 msgid "Added Subpackages:"
@@ -1142,10 +1139,8 @@ msgid "Install Time:"
 msgstr "Installatietijd:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
-#, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Group:"
-msgstr "&RPM-groepen"
+msgstr "RPM-groep:"
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1255,85 +1250,66 @@ msgstr "%1-%2 van %3 met prioriteit %4 en leverancier %5"
 #: ZyppHistoryBrowser.cc:465
 #, qt-format
 msgid "Repo+  %1  %2"
-msgstr ""
+msgstr "Repo+  %1  %2"
 
 #: ZyppHistoryBrowser.cc:471
 #, qt-format
 msgid "Repo-  %1"
-msgstr ""
+msgstr "Repo-  %1"
 
 #: ZyppHistoryBrowser.cc:476
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
-msgstr ""
+msgstr "Repo-URL  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:482
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
-msgstr ""
+msgstr "Repo-alias  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:502
-#, fuzzy, qt-format
+#, qt-format
 msgid "Patch %1"
-msgstr "&Patch"
+msgstr "Patch %1"
 
 #: ZyppHistoryBrowser.cc:625
 #, qt-format
 msgid "<b>Filter:</b> %1"
-msgstr ""
+msgstr "<b>Filter:</b> %1"
 
 #: ZyppHistoryBrowser.cc:627
 msgid "<i>No Filter</i>"
-msgstr ""
+msgstr "<i>Geen filter</i>"
 
 #: ZyppHistoryFilter.cc:26
 msgid "Only repo events"
-msgstr ""
+msgstr "Alleen gebeurtenissen in opslagruimte"
 
 #: ZyppHistoryFilter.cc:57
-#, fuzzy, qt-format
+#, qt-format
 msgid "Package name \"%1\""
-msgstr "Pakket"
+msgstr "Pakketnaam \"%1\""
 
 #: ZyppHistoryFilter.cc:80
 #, qt-format
 msgid "Packages from repo \"%1\""
-msgstr ""
+msgstr "Pakketten uit opslagruimte \"%1\""
 
 #: ZyppHistoryFilterDialog.cc:155
-#, fuzzy
-#| msgid "%1 packages will be updated"
 msgid "Only package installation / update"
-msgstr "%1 pakketten worden bijgewerkt"
+msgstr "Alleen installatie / bijwerken van pakketten"
 
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
-msgstr ""
-
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-01-23 12:21+0000\n"
-"Last-Translator: freekdk <freekdk@noreply.codeberg.org>\n"
-"Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/nl/>\n"
-"Language: nl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
-"X-Qt-Contexts: true\n"
+msgstr "Alleen verwijderen van pakketten"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
-msgstr ""
+msgstr "Info over Myrlyn"
 
 #: about-dialog.ui:52
 msgid "## Myrlyn "
-msgstr ""
+msgstr "## Myrlyn "
 
 #: about-dialog.ui:81
 msgid ""
@@ -1349,6 +1325,17 @@ msgid ""
 "as a standalone Qt program without any YaST\n"
 "dependencies."
 msgstr ""
+"Myrlyn is een grafische beheerder van pakketten om\n"
+"softwarepakketten te selecteren en patronen voor\n"
+" installatie, bijwerken en verwijderen.\n"
+"\n"
+"Het gebruikt libzypp als zijn backend en Qt als zijn\n"
+"GUI-toolkit.\n"
+"\n"
+"Dit is gestart in de 11/2024 SUSE Hack Week\n"
+"om de SUSE YaST Qt pakketkiezer bruikbaar\n"
+"te maken als een alleenstaand Qt-programma\n"
+"zonder een enkele afhankelijkheid van YaST."
 
 #: about-dialog.ui:123
 msgid ""
@@ -1362,303 +1349,277 @@ msgid ""
 "- @Arthurium-On-Linux\n"
 "- @byDMA"
 msgstr ""
+"### Hoofdauteur\n"
+"\n"
+"Stefan Hundhammer (GitHub: @shundhammer)\n"
+"\n"
+"### Medewerkers\n"
+"\n"
+"- Christoph Grüninger (GitHub: @gruenich)\n"
+"- @Arthurium-On-Linux\n"
+"- @byDMA"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
 msgid "Form"
-msgstr ""
+msgstr "Formulier"
 
 #: init-repos-page.ui:36
-#, fuzzy
 msgid "Initializing Repositories"
-msgstr "Pakketb&ronnen"
+msgstr "Opslagruimten initialiseren"
 
 #: pkg-commit-page.ui:41
-#, fuzzy
 msgid "Installing / Removing Packages"
-msgstr "Aanbevolen pakketten installe&ren"
+msgstr "Installeren / verwijderen van pakketten"
 
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr ""
+msgstr "Het doen"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
-msgstr ""
+msgstr "&Samenvattingspagina tonen"
 
 # /usr/lib/YaST2/clients/lan_finish.ycp:62
 # /usr/lib/YaST2/clients/lan_finish.ycp:102
 # /usr/lib/YaST2/clients/lan_finish.ycp:184
 #: progress-dialog.ui:14
-#, fuzzy
 msgid "Working..."
-msgstr "Zoeken..."
+msgstr "Er wordt gewerkt..."
 
 #: progress-dialog.ui:79 repo-config.ui:378 zypp-history-browser.ui:222
-#, fuzzy
 msgid "&Close"
 msgstr "&Sluiten"
 
 #: repo-config.ui:14
-#, fuzzy
 msgid "Repository Configuration"
-msgstr "Instellin&gen"
+msgstr "Configuratie van opslagruimte"
 
 #: repo-config.ui:41
-#, fuzzy
 msgid "**Repository Configuration**"
-msgstr "Instellin&gen"
+msgstr "**Configuratie van opslagruimte**"
 
 #: repo-config.ui:94
 msgid "**PackMan**"
-msgstr ""
+msgstr "**PackMan**"
 
 #: repo-config.ui:154
-#, fuzzy
 msgid "Raw URL:"
-msgstr "URL:"
+msgstr "Ruwe URL:"
 
 #: repo-config.ui:208
 msgid "&Priority:"
-msgstr ""
+msgstr "&Prioriteit:"
 
 #: repo-config.ui:248
 msgid "Ena&bled"
-msgstr ""
+msgstr "&Ingeschakeld"
 
 #: repo-config.ui:258
 msgid "Auto-Re&fresh"
-msgstr ""
+msgstr "Automatische ver&nieuwing"
 
 #: repo-config.ui:281
 msgid "1: highest; 200: lowest"
-msgstr ""
+msgstr "1: hoogste; 200: laagste"
 
 #: repo-config.ui:334
 msgid "&Add"
-msgstr ""
+msgstr "&Toevoegen"
 
 #: repo-config.ui:341
 msgid "&Edit"
-msgstr ""
+msgstr "B&ewerken"
 
 #: repo-config.ui:348
-#, fuzzy
 msgid "&Delete"
-msgstr "Verwijderen"
+msgstr "Ver&wijderen"
 
 #: repo-config.ui:368
 msgid "<i>Restart needed!</i>"
-msgstr ""
+msgstr "<i>Herstart nodig!</i>"
 
 #: repo-edit-add.ui:98
-#, fuzzy
 msgid "Custom &Repository"
-msgstr "Pakketb&ronnen"
+msgstr "Aangepaste &opslagruimte"
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
-msgstr ""
+msgstr "Opslagruimte van de ge&meenschap"
 
 #: repo-edit-add.ui:254 search-filter-view.ui:87
-#, fuzzy
 msgid "&Name"
-msgstr "Naam"
+msgstr "&Naam"
 
 #: repo-edit-add.ui:270
-#, fuzzy
 msgid "Repository Name"
-msgstr "Pakketb&ronnen"
+msgstr "Opslagruimtenaam"
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr ""
+msgstr "Ruwe &URL"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG-sleutel"
 
 #: repo-gpg-key-import-dialog.ui:41
 msgid "## Import Untrusted GPG Key"
-msgstr ""
+msgstr "## Niet vertrouwde GPG-sleutel importeren"
 
 #: repo-gpg-key-import-dialog.ui:81
-#, fuzzy
 msgid "_Repository:_"
-msgstr "Opslagruimtes:"
+msgstr "_Opslagruimte:_"
 
 #: repo-gpg-key-import-dialog.ui:101
-#, fuzzy
 msgid "_URL:_"
-msgstr "URL:"
+msgstr "_URL:_"
 
 #: repo-gpg-key-import-dialog.ui:121
 msgid "_Fingerprint:_"
-msgstr ""
+msgstr "_Vingerafdruk:_"
 
 #: repo-gpg-key-import-dialog.ui:141
 msgid "_Key Name:_"
-msgstr ""
+msgstr "_Sleutelnaam:_"
 
 #: repo-gpg-key-import-dialog.ui:161
 msgid "_Key Algorithm:_"
-msgstr ""
+msgstr "_Sleutelalgoritme:_"
 
 #: repo-gpg-key-import-dialog.ui:181
 msgid "_Key ID:_"
-msgstr ""
+msgstr "_Sleutel-ID:_"
 
 #: repo-gpg-key-import-dialog.ui:201
 msgid "_Created:_"
-msgstr ""
+msgstr "_Aangemaakt:_"
 
 #: repo-gpg-key-import-dialog.ui:221
 msgid "_Expires:_"
-msgstr ""
+msgstr "_Verloopt:_"
 
 #: repo-gpg-key-import-dialog.ui:274
 msgid "&Trust"
-msgstr ""
+msgstr "Ver&trouwen"
 
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
-msgstr ""
+msgstr "Zoek tekst of patroon"
 
 #: search-filter-view.ui:78
-#, fuzzy
 msgid "Search In"
 msgstr "Zoeken in"
 
 #: search-filter-view.ui:97
-#, fuzzy
 msgid "Su&mmary"
-msgstr "&Overzicht"
+msgstr "Sa&menvatting"
 
 #: search-filter-view.ui:104
-#, fuzzy
 msgid "D&escription"
 msgstr "B&eschrijving"
 
 #: search-filter-view.ui:127
-#, fuzzy
 msgid "RPM P&rovides"
-msgstr "RPM \"&levert\""
+msgstr "RPM leve&rt"
 
 #: search-filter-view.ui:134
-#, fuzzy
 msgid "RPM Re&quires"
-msgstr "RPM \"be&nodigt\""
+msgstr "RPM ve&reist"
 
 #: search-filter-view.ui:141
-#, fuzzy
-#| msgid "Recommends:"
 msgid "RPM Recommends"
-msgstr "Beveelt aan:"
+msgstr "RPM beveelt aan"
 
 #: search-filter-view.ui:164
-#, fuzzy
 msgid "File &List"
-msgstr "Bestandslijst"
+msgstr "Bestands&lijst"
 
 #: search-filter-view.ui:198
-#, fuzzy
 msgid "Searc&h Mode:"
-msgstr "Zoek&modus:"
+msgstr "Zoe&kmodus:"
 
 #: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
 #: zypp-history-filter-dialog.ui:184
 msgid "Auto"
-msgstr ""
+msgstr "Automatisch"
 
 #: search-filter-view.ui:214 zypp-history-filter-dialog.ui:98
 #: zypp-history-filter-dialog.ui:189
-#, fuzzy
 msgid "Contains"
 msgstr "Bevat"
 
 #: search-filter-view.ui:219 zypp-history-filter-dialog.ui:103
 #: zypp-history-filter-dialog.ui:194
 msgid "Starts With"
-msgstr ""
+msgstr "Start met"
 
 #: search-filter-view.ui:224 zypp-history-filter-dialog.ui:108
 #: zypp-history-filter-dialog.ui:199
-#, fuzzy
 msgid "Exact Match"
 msgstr "Exacte overeenkomst"
 
 #: search-filter-view.ui:229 zypp-history-filter-dialog.ui:113
 #: zypp-history-filter-dialog.ui:204
-#, fuzzy
 msgid "Wildcards"
-msgstr "Jokertekens gebruiken"
+msgstr "Jokertekens"
 
 #: search-filter-view.ui:234 zypp-history-filter-dialog.ui:118
 #: zypp-history-filter-dialog.ui:209
-#, fuzzy
 msgid "Regular Expression"
-msgstr "Reguliere expressie gebruiken"
+msgstr "Reguliere expressie"
 
 #: search-filter-view.ui:244
-#, fuzzy
 msgid "Detected:"
-msgstr "Beschermd"
+msgstr "Gedetecteerd:"
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
-msgstr ""
+msgstr "Schakel modus standaard op \"automatisch\""
 
 #: search-filter-view.ui:270 summary-page.ui:132
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: search-filter-view.ui:295
-#, fuzzy
 msgid "Case Sens&itive"
 msgstr "&Hoofdlettergevoelig"
 
 #: status-filter-view.ui:32
-#, fuzzy
 msgid "Show Packages with Status"
-msgstr "Pakketten weergeven met status"
+msgstr "Pakketten met status weergeven"
 
 #: status-filter-view.ui:103
-#, fuzzy
 msgid "Auto-Install"
 msgstr "Automatisch installeren"
 
 #: status-filter-view.ui:123
-#, fuzzy
 msgid "Auto-Update"
 msgstr "Automatisch bijwerken"
 
 #: status-filter-view.ui:143
-#, fuzzy
 msgid "Taboo"
 msgstr "Taboe"
 
 #: status-filter-view.ui:160
-#, fuzzy
 msgid "Protected"
 msgstr "Beschermd"
 
 #: status-filter-view.ui:279
-#, fuzzy
 msgid "Auto-Delete"
 msgstr "Automatisch verwijderen"
 
 #: status-filter-view.ui:302
 msgid "<i>Middle-click on a status to show only this one</i>"
-msgstr ""
+msgstr "<i>Middelklik op een status om alleen deze te tonen</i>"
 
 #: status-filter-view.ui:354
 msgid "Defaults"
-msgstr ""
+msgstr "Standaarden"
 
 #: status-filter-view.ui:361 updates-filter-view.ui:242
-#, fuzzy
 msgid "Refresh List"
-msgstr "Lijst ve&rnieuwen"
+msgstr "Lijst vernieuwen"
 
 #: summary-page.ui:52
 msgid ""
@@ -1671,42 +1632,50 @@ msgid ""
 "Errors: 0\n"
 "\n"
 msgstr ""
+"Geïnstalleerde pakketten: 2\n"
+"\n"
+"Bijgewerkte pakketten: 5\n"
+"\n"
+"Verwijderde pakketten: 0\n"
+"\n"
+"Fouten: 0\n"
+"\n"
 
 #: summary-page.ui:92
 msgid "Automatically closing in"
-msgstr ""
+msgstr "Automatisch invoegen"
 
 #: summary-page.ui:99
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: summary-page.ui:122
 msgid "&Stop"
-msgstr ""
+msgstr "&Stoppen"
 
 #: summary-page.ui:172
 msgid "&Back"
-msgstr ""
+msgstr "&Terug"
 
 #: summary-page.ui:179
 msgid "&Finish"
-msgstr ""
+msgstr "&Beëindigen"
 
 #: updates-filter-view.ui:35
-#, fuzzy
 msgid "Updates"
-msgstr "Bijwerken"
+msgstr "Elementen voor bijwerken"
 
 #: updates-filter-view.ui:48
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
 msgstr ""
+"Dit toont alleen pakketten die bijgewerkt konden worden, d.w.z. waar een "
+"nieuwere versie dan de al geïnstalleerde versie van beschikbaar is."
 
 #: updates-filter-view.ui:98
-#, fuzzy
 msgid "Pac&kage Update"
-msgstr "Pakket"
+msgstr "Pa&kket bijwerken"
 
 #: updates-filter-view.ui:120
 msgid ""
@@ -1715,10 +1684,14 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper up\" command."
 msgstr ""
+"Markeer alle pakketten voor bijwerken die bijgewerkt kunnen worden zonder "
+"een probleem met bijwerken.\n"
+"\n"
+"Dit is het equivalent van het commando \"zypper up\"."
 
 #: updates-filter-view.ui:172
 msgid "D&ist-Upgrade"
-msgstr ""
+msgstr "D&ist-opwaardering"
 
 #: updates-filter-view.ui:194
 msgid ""
@@ -1730,92 +1703,85 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper dup\" command."
 msgstr ""
+"Do een distributie opwaardering: Markeer alle pakketten voor opwaardering "
+"die bijgewerkt kunnen worden zonder een afhankelijksproblem.\n"
+"\n"
+"Dit houdt rekening met splitsen van pakketten, hernoemen van pakketten,  "
+"bijwerken van patronen en meer.\n"
+"\n"
+"Dit is het equivalent van het commando \"zypper dup\"."
 
 #: zypp-history-browser.ui:14
-#, fuzzy
-#| msgid "Show &History"
 msgid "Zypp History"
-msgstr "Gesc&hiedenis bekijken"
+msgstr "Geschiedenis van zypp"
 
 #: zypp-history-browser.ui:66
 msgid "**Zypp History**"
-msgstr ""
+msgstr "**Geschiedenis van Zypp**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
-msgstr ""
+msgstr "Geen filter"
 
 #: zypp-history-browser.ui:108
-#, fuzzy
-#| msgid "&Secondary Filter:"
 msgid "Cl&ear Filter"
-msgstr "&Secundair filter:"
+msgstr "Filt&er wissen"
 
 #: zypp-history-browser.ui:115
-#, fuzzy
-#| msgid "&File"
 msgid "&Filter..."
-msgstr "&Bestand"
+msgstr "&Filter..."
 
 #: zypp-history-browser.ui:144
-#, fuzzy
-#| msgid "Localization"
 msgid "Navigation"
-msgstr "Lokalisatie"
+msgstr "Navigatie"
 
 #: zypp-history-browser.ui:167
 msgid "Arch."
-msgstr ""
+msgstr "Arch."
 
 #: zypp-history-browser.ui:172
 msgid "Repo"
-msgstr ""
+msgstr "Opslagruimte"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr ""
+msgstr "Too&n (+/-) aantal"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
-msgstr ""
+msgstr "Filter voor geschiedenis van Zypp"
 
 #: zypp-history-filter-dialog.ui:38
 msgid "**Zypp History Filter**"
-msgstr ""
+msgstr "**Filter voor geschiedenis van Zypp**"
 
 #: zypp-history-filter-dialog.ui:51
-#, fuzzy
 msgid "Package by &Name"
-msgstr "Pakket"
+msgstr "Pakket op &naam"
 
 #: zypp-history-filter-dialog.ui:76
 msgid "Package Name or Pattern"
-msgstr ""
+msgstr "Pakketnaam of patroon"
 
 #: zypp-history-filter-dialog.ui:142
-#, fuzzy
-#| msgid "Package History"
 msgid "Package by &Repository"
-msgstr "Geschiedenis van pakket"
+msgstr "Pakket per &opslagruimte"
 
 #: zypp-history-filter-dialog.ui:167
 msgid "Repo Alias or Pattern"
-msgstr ""
+msgstr "Repo-alias of patroon"
 
 #: zypp-history-filter-dialog.ui:233
-#, fuzzy
 msgid "Package &Install / Update"
-msgstr "Pakket"
+msgstr "&Installeren / bijwerken van pakket"
 
 #: zypp-history-filter-dialog.ui:240
-#, fuzzy
-#| msgid "Package &Groups"
 msgid "Package Re&move"
-msgstr "Pakket&groepen"
+msgstr "Ver&wijderen van pakket"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
-msgstr ""
+msgstr "Opslagruimte &toevoegen / Verwijderen / URL wijzigen / Alias wijzigen"
 
 #~ msgid "Package History (/var/log/zypp/history)"
 #~ msgstr "Geschiedenis van pakket (/var/log/zypp/history)"
