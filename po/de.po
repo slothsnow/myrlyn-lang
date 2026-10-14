@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-11 23:25+0000\n"
+"PO-Revision-Date: 2026-10-14 23:15+0000\n"
 "Last-Translator: byDMA <bydma@noreply.codeberg.org>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/de/>\n"
@@ -742,7 +742,7 @@ msgstr "Anbieter"
 
 #: YQPkgRepoFilterView.cc:92
 msgid "Protect All"
-msgstr "Alle installierten Pakete des Repositories sperren"
+msgstr "Repository sperren (alle Pakete)"
 
 #: YQPkgRepoFilterView.cc:99
 msgid "Un-Protect All"
