@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: qt-pkg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-11 23:25+0000\n"
+"PO-Revision-Date: 2026-10-14 23:15+0000\n"
 "Last-Translator: byDMA <bydma@noreply.codeberg.org>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/pl/>\n"
@@ -749,7 +749,7 @@ msgstr "Dostawca"
 
 #: YQPkgRepoFilterView.cc:92
 msgid "Protect All"
-msgstr "Chroń wszystkie zainstalowane pakiety z tego repozytorium"
+msgstr "Załóż blokadę (chroń wszystkie)"
 
 #: YQPkgRepoFilterView.cc:99
 msgid "Un-Protect All"
