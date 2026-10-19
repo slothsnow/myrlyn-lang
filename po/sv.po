@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
+"POT-Creation-Date: 2026-01-24 04:33+0000\n"
+"PO-Revision-Date: 2026-10-20 07:27+0000\n"
+"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:203
 msgid " [root]"
 msgstr " [root]"
@@ -273,10 +290,8 @@ msgid "(%1 more)"
 msgstr "(%1 mer)"
 
 #: SummaryPage.cc:379
-#, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended."
-msgstr "rekommenderad"
+msgstr "Omstart rekommenderas."
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
@@ -723,27 +738,21 @@ msgid "Vendor"
 msgstr "Leverantör"
 
 #: YQPkgRepoFilterView.cc:92
-#, fuzzy
-#| msgid "Protected"
 msgid "Protect All"
-msgstr "Skyddad"
+msgstr "Skydda alla"
 
 #: YQPkgRepoFilterView.cc:99
-#, fuzzy
-#| msgid "Protected"
 msgid "Un-Protect All"
-msgstr "Skyddad"
+msgstr "Avskydda alla"
 
 #: YQPkgRpmGroupsFilterView.cc:32
-#, fuzzy
-#| msgid "RPM P&rovides"
 msgid "RPM Groups"
-msgstr "RPM t&illhandahåller"
+msgstr "RPM grupper"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
 msgid "zzz Unspecified (%1)"
-msgstr ""
+msgstr "zzz Ospecificerad (%1)"
 
 #: YQPkgSearchFilterView.cc:156
 #, qt-format
@@ -768,16 +777,12 @@ msgid "&Secondary Filter:"
 msgstr "&Sekundärt filter:"
 
 #: YQPkgSecondaryFilterView.cc:97
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Installed Packages"
-msgstr "Tillbakadragna installerade paket"
+msgstr "Installerade paket"
 
 #: YQPkgSecondaryFilterView.cc:106
-#, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Not Installed Packages"
-msgstr "Tillbakadragna installerade paket"
+msgstr "Inte installerade paket"
 
 #: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
@@ -785,7 +790,7 @@ msgstr "Sök"
 
 #: YQPkgSecondaryFilterView.cc:132
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: YQPkgSelectorBase.cc:120
 msgid "System dependencies verify OK."
@@ -847,10 +852,8 @@ msgid "&Repositories"
 msgstr "&Förråd"
 
 #: YQPkgSelector.cc:357
-#, fuzzy
-#| msgid "RPM P&rovides"
 msgid "RPM &Groups"
-msgstr "RPM t&illhandahåller"
+msgstr "RPM &grupper"
 
 #: YQPkgSelector.cc:370
 msgid "Repository Index Ser&vices"
@@ -894,7 +897,7 @@ msgstr "Ändringslogg"
 
 #: YQPkgSelector.cc:637
 msgid "Resolver: ??"
-msgstr ""
+msgstr "Lösare: ??"
 
 #: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
 msgid "&Accept"
@@ -1054,16 +1057,12 @@ msgid "%1 packages will be updated"
 msgstr "%1 paket kommer att uppdateras"
 
 #: YQPkgSelector.cc:1342
-#, fuzzy
-#| msgid "D&ist-Upgrade"
 msgid "Dist-Upgrade Mode"
-msgstr "D&ist-uppgradering"
+msgstr "Dist-uppgraderings läge"
 
 #: YQPkgSelector.cc:1343
-#, fuzzy
-#| msgid "Pac&kage Update"
 msgid "Package Update Mode"
-msgstr "Pak&et uppdatering"
+msgstr "Paket uppdaterings läge"
 
 #: YQPkgSelector.cc:1381
 #, qt-format
@@ -1091,6 +1090,10 @@ msgid ""
 "\n"
 "No permissions?"
 msgstr ""
+"Kan inte öppna zypp-historikfil\n"
+"%1\n"
+"\n"
+"Inga behörigheter?"
 
 #: YQPkgSelector.cc:1494
 #, qt-format
@@ -1100,6 +1103,10 @@ msgid ""
 "\n"
 "Check the log!"
 msgstr ""
+"Tolkningsfel i zypp-historikfil\n"
+"%1\n"
+"\n"
+"Kolla loggen!"
 
 #: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
 msgid "Added Subpackages:"
@@ -1127,7 +1134,7 @@ msgstr "Installationstid:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
 msgid "RPM Group:"
-msgstr ""
+msgstr "RPM grupp:"
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1235,80 +1242,58 @@ msgstr "%1-%2 från %3 med prioritet %4 och leverantör %5"
 #: ZyppHistoryBrowser.cc:465
 #, qt-format
 msgid "Repo+  %1  %2"
-msgstr ""
+msgstr "Förråd+  %1  %2"
 
 #: ZyppHistoryBrowser.cc:471
 #, qt-format
 msgid "Repo-  %1"
-msgstr ""
+msgstr "Förråd-  %1"
 
 #: ZyppHistoryBrowser.cc:476
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
-msgstr ""
+msgstr "Förråds-URL  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:482
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
-msgstr ""
+msgstr "Förråds-Alias  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:502
-#, fuzzy, qt-format
-#| msgid "Patch"
+#, qt-format
 msgid "Patch %1"
-msgstr "Patch"
+msgstr "Patch %1"
 
 #: ZyppHistoryBrowser.cc:625
 #, qt-format
 msgid "<b>Filter:</b> %1"
-msgstr ""
+msgstr "<b>Filter:</b> %1"
 
 #: ZyppHistoryBrowser.cc:627
 msgid "<i>No Filter</i>"
-msgstr ""
+msgstr "<i>Inget filter</i>"
 
 #: ZyppHistoryFilter.cc:26
 msgid "Only repo events"
-msgstr ""
+msgstr "Endast förråds händelser"
 
 #: ZyppHistoryFilter.cc:57
-#, fuzzy, qt-format
-#| msgid "Pac&kage Update"
+#, qt-format
 msgid "Package name \"%1\""
-msgstr "Pak&et uppdatering"
+msgstr "Paket namn \"%1\""
 
 #: ZyppHistoryFilter.cc:80
-#, fuzzy, qt-format
-#| msgid "Packages removed by user: %1"
+#, qt-format
 msgid "Packages from repo \"%1\""
-msgstr "Paket borttagna av användaren: %1"
+msgstr "Paket från förråd \"%1\""
 
 #: ZyppHistoryFilterDialog.cc:155
-#, fuzzy
-#| msgid "%1 packages will be updated"
 msgid "Only package installation / update"
-msgstr "%1 paket kommer att uppdateras"
+msgstr "Endast paketinstallation/uppdatering"
 
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
-msgstr ""
-
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
-"POT-Creation-Date: 2026-01-24 04:33+0000\n"
-"PO-Revision-Date: 2026-10-10 10:27+0000\n"
-"Last-Translator: slothsnow <slothsnow@noreply.codeberg.org>\n"
-"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/sv/>\n"
-"Language: sv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
-"X-Qt-Contexts: true\n"
+msgstr "Endast borttagning av paket"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -1345,15 +1330,6 @@ msgstr ""
 "beroenden."
 
 #: about-dialog.ui:123
-#, fuzzy
-#| msgid ""
-#| "### Main Author\n"
-#| "\n"
-#| "- Stefan Hundhammer (GitHub: @shundhammer)\n"
-#| "\n"
-#| "### Contributors\n"
-#| "\n"
-#| "- Christoph Grüninger (GitHub: @gruenich)"
 msgid ""
 "### Main Author\n"
 "\n"
@@ -1371,7 +1347,9 @@ msgstr ""
 "\n"
 "### Bidragsgivare\n"
 "\n"
-"- Christoph Grüninger (GitHub: @gruenich)"
+"- Christoph Grüninger (GitHub: @gruenich)\n"
+"- @Arthurium-On-Linux\n"
+"- @byDMA"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
@@ -1539,10 +1517,8 @@ msgid "RPM Re&quires"
 msgstr "RPM kr&äver"
 
 #: search-filter-view.ui:141
-#, fuzzy
-#| msgid "Recommends:"
 msgid "RPM Recommends"
-msgstr "Rekommenderar:"
+msgstr "RPM rekommendationer"
 
 #: search-filter-view.ui:164
 msgid "File &List"
@@ -1588,7 +1564,7 @@ msgstr "Upptäckt:"
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
-msgstr ""
+msgstr "Växla standardläge för \"auto\""
 
 #: search-filter-view.ui:270 summary-page.ui:132
 msgid "..."
@@ -1724,94 +1700,76 @@ msgstr ""
 "Detta motsvarar kommandot \"zypper dup\" kommandot."
 
 #: zypp-history-browser.ui:14
-#, fuzzy
-#| msgid "Show &History"
 msgid "Zypp History"
-msgstr "Visa &historik"
+msgstr "Zypp historik"
 
 #: zypp-history-browser.ui:66
 msgid "**Zypp History**"
-msgstr ""
+msgstr "**Zypp historik**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
-msgstr ""
+msgstr "Inget filter"
 
 #: zypp-history-browser.ui:108
-#, fuzzy
-#| msgid "&Secondary Filter:"
 msgid "Cl&ear Filter"
-msgstr "&Sekundärt filter:"
+msgstr "Re&nsa filter"
 
 #: zypp-history-browser.ui:115
-#, fuzzy
-#| msgid "&File"
 msgid "&Filter..."
-msgstr "&Fil"
+msgstr "&Filter..."
 
 #: zypp-history-browser.ui:144
 msgid "Navigation"
-msgstr ""
+msgstr "Navigering"
 
 #: zypp-history-browser.ui:167
 msgid "Arch."
-msgstr ""
+msgstr "Arkitektur."
 
 #: zypp-history-browser.ui:172
 msgid "Repo"
-msgstr ""
+msgstr "Förråd"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr ""
+msgstr "Vis&a (+/-) räkning"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
-msgstr ""
+msgstr "Zypp historikfilter"
 
 #: zypp-history-filter-dialog.ui:38
 msgid "**Zypp History Filter**"
-msgstr ""
+msgstr "**Zypp historikfilter**"
 
 #: zypp-history-filter-dialog.ui:51
-#, fuzzy
-#| msgid "Pac&kage Update"
 msgid "Package by &Name"
-msgstr "Pak&et uppdatering"
+msgstr "Paket efter &namn"
 
 #: zypp-history-filter-dialog.ui:76
-#, fuzzy
-#| msgid "Search Text or Pattern"
 msgid "Package Name or Pattern"
-msgstr "Sök text eller mönster"
+msgstr "Paketnamn eller mönster"
 
 #: zypp-history-filter-dialog.ui:142
-#, fuzzy
-#| msgid "Package History"
 msgid "Package by &Repository"
-msgstr "Pakethistorik"
+msgstr "Paket efter &förråd"
 
 #: zypp-history-filter-dialog.ui:167
-#, fuzzy
-#| msgid "Search Text or Pattern"
 msgid "Repo Alias or Pattern"
-msgstr "Sök text eller mönster"
+msgstr "Förråds alias eller mönster"
 
 #: zypp-history-filter-dialog.ui:233
-#, fuzzy
-#| msgid "Pac&kage Update"
 msgid "Package &Install / Update"
-msgstr "Pak&et uppdatering"
+msgstr "Paket &installera / uppdatera"
 
 #: zypp-history-filter-dialog.ui:240
-#, fuzzy
-#| msgid "Package"
 msgid "Package Re&move"
-msgstr "Paket"
+msgstr "Paket Ra&dera"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
-msgstr ""
+msgstr "Förråd & Lägg till / Ta bort / Ändra URL / Ändra alias"
 
 #~ msgid "Package History (/var/log/zypp/history)"
 #~ msgstr "Pakethistorik (/var/log/zypp/history)"
