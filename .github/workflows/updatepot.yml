@@ -13,28 +13,24 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v4
 
-      - name: Clone main project
+      - name: Install gettext + Qt tools
         run: |
-          git clone https://github.com/shundhammer/myrlyn.git myrlyn
-          ls -R myrlyn
+          sudo apt-get update
+          sudo apt-get install -y gettext qttools5-dev-tools qt6-tools-dev-tools
 
-      - name: Install gettext
-        run: sudo apt-get update && sudo apt-get install -y gettext qt6-tools-dev-tools qttools5-dev-tools
-
-      - name: Generate POT file via makepot
+      - name: Run makepot with Bash
         run: |
           cd myrlyn/src
-          chmod +x makepot
-          ./makepot
+          bash ./makepot
 
-      - name: Copy new POT 
+      - name: Copy generated POT file
         run: |
           cp myrlyn/src/myrlyn.pot po/myrlyn.pot
 
-      - name: Update PO files
+      - name: Merge PO files
         run: |
           for f in po/*.po; do
-            msgmerge --update --backup=none "$f" po/messages.pot
+            msgmerge --update --backup=none "$f" po/myrlyn.pot
           done
 
       - name: Commit changes
