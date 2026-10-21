@@ -1,38 +1,16 @@
-# translation of qt-pkg.po to Japanese
-# Copyright (C) YEAR SuSE Linux AG, Nuernberg
-# This file is distributed under the same license as the PACKAGE package.
-#
-#
-# Yasuhiko Kamata <belphegor@belbel.or.jp>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-18 12:49+0000\n"
-"Last-Translator: belphegor-belbel <belphegor@belbel.or.jp>\n"
-"Language-Team: Japanese <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/ja/>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
-
-#: MyrlynApp.cc:203
+#: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
 
-#: MyrlynApp.cc:206 RepoConfigDialog.cc:64
+#: MyrlynApp.cc:212 RepoConfigDialog.cc:64
 msgid " (read-only)"
 msgstr " (読み込み専用)"
 
-#: MyrlynApp.cc:227
+#: MyrlynApp.cc:233
 msgid "Preparing the package selector..."
 msgstr "パッケージ選択器を準備しています..."
 
-#: MyrlynApp.cc:485
+#: MyrlynApp.cc:491
 msgid "Really quit?"
 msgstr "終了してよろしいですか？"
 
@@ -91,49 +69,49 @@ msgstr ""
 "パッケージマネージャへの接続に失敗しました！\n"
 "別のウインドウでパッケージマネージャが動作している可能性があります。\n"
 
-#: PkgCommitPage.cc:144 pkg-commit-page.ui:113
+#: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"
 msgstr "やるべきこと"
 
-#: PkgCommitPage.cc:145 pkg-commit-page.ui:238
+#: PkgCommitPage.cc:146 pkg-commit-page.ui:238
 msgid "Downloads"
 msgstr "ダウンロード"
 
-#: PkgCommitPage.cc:146 pkg-commit-page.ui:376
+#: PkgCommitPage.cc:147 pkg-commit-page.ui:376
 msgid "Done"
 msgstr "完了"
 
-#: PkgCommitPage.cc:298 pkg-commit-page.ui:61
+#: PkgCommitPage.cc:292 pkg-commit-page.ui:61
 msgid "Hide &Details"
 msgstr "詳細を隠す (&D)"
 
-#: PkgCommitPage.cc:298
+#: PkgCommitPage.cc:292
 msgid "Show &Details"
 msgstr "詳細を表示する (&D)"
 
-#: PkgCommitPage.cc:343
+#: PkgCommitPage.cc:337
 msgid "Really cancel the current package actions?"
 msgstr "ここまでに指定したパッケージ操作をキャンセルしてよろしいですか？"
 
-#: PkgCommitPage.cc:544
+#: PkgCommitPage.cc:538
 msgid "Checking File Conflicts..."
 msgstr "ファイルの競合を調べています..."
 
-#: PkgCommitPage.cc:713
+#: PkgCommitPage.cc:707
 #, qt-format
 msgid "Error downloading package %1"
 msgstr "パッケージ %1 のダウンロード時にエラーが発生しました"
 
-#: PkgCommitPage.cc:761 PkgCommitPage.cc:790
+#: PkgCommitPage.cc:755 PkgCommitPage.cc:784
 #, qt-format
 msgid "Error installing package %1"
 msgstr "パッケージ %1 のインストール時にエラーが発生しました"
 
-#: PkgCommitPage.cc:978
+#: PkgCommitPage.cc:972
 msgid "[Post-transaction scripts]"
 msgstr "[トランザクション後スクリプト]"
 
-#: PkgCommitPage.cc:1128
+#: PkgCommitPage.cc:1122
 msgid "File Conflict"
 msgstr "ファイルの競合"
 
@@ -227,74 +205,74 @@ msgstr "サービス"
 msgid "URL"
 msgstr "URL"
 
-#: SummaryPage.cc:123
+#: SummaryPage.cc:124
 #, qt-format
 msgid "%1 s"
 msgstr "%1 秒"
 
-#: SummaryPage.cc:178
+#: SummaryPage.cc:182
 msgid "Close after 300 seconds (5 minutes)"
 msgstr "300 秒 (5 分) 後に閉じる"
 
-#: SummaryPage.cc:179
+#: SummaryPage.cc:183
 msgid "Don't automatically close"
 msgstr "自動では閉じない"
 
-#: SummaryPage.cc:195
+#: SummaryPage.cc:199
 #, qt-format
 msgid "Close after %1 seconds"
 msgstr "%1 秒後に閉じる"
 
-#: SummaryPage.cc:263
+#: SummaryPage.cc:267
 msgid "No package changes."
 msgstr "パッケージの変更はありません。"
 
-#: SummaryPage.cc:307
+#: SummaryPage.cc:311
 #, qt-format
 msgid "FAILED: %1"
 msgstr "失敗: %1"
 
-#: SummaryPage.cc:308
+#: SummaryPage.cc:312
 #, qt-format
 msgid "Packages removed by user: %1"
 msgstr "ユーザによって削除されたパッケージ: %1"
 
-#: SummaryPage.cc:309
+#: SummaryPage.cc:313
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
 msgstr "依存関係の問題で削除されたパッケージ: %1"
 
-#: SummaryPage.cc:310
+#: SummaryPage.cc:314
 #, qt-format
 msgid "Packages installed by user: %1"
 msgstr "ユーザによってインストールされたパッケージ: %1"
 
-#: SummaryPage.cc:311
+#: SummaryPage.cc:315
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
 msgstr "依存関係を満たすためにインストールされたパッケージ: %1"
 
-#: SummaryPage.cc:312
+#: SummaryPage.cc:316
 #, qt-format
 msgid "Packages updated by user: %1"
 msgstr "ユーザによって更新されたパッケージ: %1"
 
-#: SummaryPage.cc:313
+#: SummaryPage.cc:317
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
 msgstr "依存関係のために更新されたパッケージ: %1"
 
-#: SummaryPage.cc:314
+#: SummaryPage.cc:318
 #, qt-format
 msgid "To do: %1"
 msgstr "やるべきこと: %1"
 
-#: SummaryPage.cc:363
+#: SummaryPage.cc:367
 #, qt-format
 msgid "(%1 more)"
 msgstr "(さらに %1 件)"
 
-#: SummaryPage.cc:379
+#: SummaryPage.cc:383
 msgid "Reboot recommended."
 msgstr "再起動をお勧めします。"
 
@@ -378,8 +356,8 @@ msgstr "熟練者向け (&E)"
 msgid "&Save This List to a File..."
 msgstr "この一覧をファイルに保存 (&S)..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
-#: YQPkgSelector.cc:643 YQPkgSelector.cc:1263 YQPkgTextDialog.cc:235
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1273
+#: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
@@ -406,8 +384,8 @@ msgstr ""
 "<p>依存関係解決器のバグを追跡する目的で、広範囲のログを採取したい場合に使いま"
 "す。このログはディレクトリ <br><tt>%1</tt> に保存されます。</p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1262
-#: YQPkgSelector.cc:1314 YQPkgVersionsView.cc:427
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
 msgid "C&ontinue"
 msgstr "続行(&O)"
 
@@ -501,8 +479,8 @@ msgid "Package Description"
 msgstr "パッケージの説明"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelectorBase.cc:166
-#: YQPkgSelector.cc:1538 YQPkgSelector.cc:1708 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1548
+#: YQPkgSelector.cc:1718 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "OK(&O)"
@@ -560,7 +538,7 @@ msgstr "言語"
 msgid "Package"
 msgstr "パッケージ"
 
-#: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
+#: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
 #: summary-page.ui:36
 msgid "Summary"
 msgstr "概要"
@@ -577,7 +555,8 @@ msgstr "利用可能バージョン"
 msgid "Inst. Ver."
 msgstr "インストール済みバージョン"
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 zypp-history-browser.ui:162
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "バージョン"
 
@@ -585,7 +564,7 @@ msgstr "バージョン"
 msgid "Size"
 msgstr "サイズ"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:492 YQPkgPatchList.cc:386
+#: YQPkgList.cc:436 YQPkgObjList.cc:472 YQPkgPatchList.cc:387
 msgid "&All in This List"
 msgstr "この一覧内の全て (&A)"
 
@@ -615,59 +594,59 @@ msgstr "使用可能なバージョン: %1 (%2)"
 msgid "Not available for installation"
 msgstr "インストールできません"
 
-#: YQPkgObjList.cc:241 status-filter-view.ui:259
+#: YQPkgObjList.cc:221 status-filter-view.ui:259
 msgid "Delete"
 msgstr "削除"
 
-#: YQPkgObjList.cc:242 status-filter-view.ui:63
+#: YQPkgObjList.cc:222 status-filter-view.ui:63
 msgid "Install"
 msgstr "インストールする"
 
-#: YQPkgObjList.cc:243 status-filter-view.ui:193
+#: YQPkgObjList.cc:223 status-filter-view.ui:193
 msgid "Keep"
 msgstr "保持"
 
-#: YQPkgObjList.cc:244 status-filter-view.ui:210
+#: YQPkgObjList.cc:224 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "インストールしない"
 
-#: YQPkgObjList.cc:245
+#: YQPkgObjList.cc:225
 msgid "Protected -- Do Not Modify"
 msgstr "保護 -- 変更しない"
 
-#: YQPkgObjList.cc:246
+#: YQPkgObjList.cc:226
 msgid "Taboo -- Never Install"
 msgstr "禁止 -- 決してインストールしない"
 
-#: YQPkgObjList.cc:247 status-filter-view.ui:83
+#: YQPkgObjList.cc:227 status-filter-view.ui:83
 msgid "Update"
 msgstr "更新"
 
-#: YQPkgObjList.cc:249
+#: YQPkgObjList.cc:229
 msgid "Autodelete"
 msgstr "自動削除"
 
-#: YQPkgObjList.cc:250
+#: YQPkgObjList.cc:230
 msgid "Autoinstall"
 msgstr "自動インストール"
 
-#: YQPkgObjList.cc:251
+#: YQPkgObjList.cc:231
 msgid "Autoupdate"
 msgstr "自動更新"
 
-#: YQPkgObjList.cc:368 YQPkgObjList.cc:388 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:348 YQPkgObjList.cc:368 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "強制的に更新する"
 
-#: YQPkgObjList.cc:383 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:363 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "新しいバージョンがあれば更新する"
 
-#: YQPkgObjList.cc:1298
+#: YQPkgObjList.cc:1278
 msgid "(by a software selection)"
 msgstr "(ソフトウエアの選択によって)"
 
-#: YQPkgObjList.cc:1300
+#: YQPkgObjList.cc:1280
 msgid "(by dependencies)"
 msgstr "(依存関係によって)"
 
@@ -691,39 +670,39 @@ msgstr "全ての修正"
 msgid "Patch Description"
 msgstr "修正の説明"
 
-#: YQPkgPatchList.cc:595
+#: YQPkgPatchList.cc:589
 msgid "YaST"
 msgstr "YaST"
 
-#: YQPkgPatchList.cc:596
+#: YQPkgPatchList.cc:590
 msgid "security"
 msgstr "セキュリティ"
 
-#: YQPkgPatchList.cc:597
+#: YQPkgPatchList.cc:591
 msgid "recommended"
 msgstr "推奨"
 
-#: YQPkgPatchList.cc:598
+#: YQPkgPatchList.cc:592
 msgid "optional"
 msgstr "オプション"
 
-#: YQPkgPatchList.cc:599
+#: YQPkgPatchList.cc:593
 msgid "feature"
 msgstr "機能"
 
-#: YQPkgPatchList.cc:600
+#: YQPkgPatchList.cc:594
 msgid "document"
 msgstr "ドキュメント"
 
-#: YQPkgPatternList.cc:56
+#: YQPkgPatternList.cc:57
 msgid "Pattern"
 msgstr "パターン"
 
-#: YQPkgPatternList.cc:68
+#: YQPkgPatternList.cc:69
 msgid "Order"
 msgstr "順序"
 
-#: YQPkgPatternList.cc:412
+#: YQPkgPatternList.cc:413
 msgid "Invisible"
 msgstr "非表示"
 
@@ -739,7 +718,7 @@ msgstr "依存関係"
 msgid "Product"
 msgstr "製品"
 
-#: YQPkgProductList.cc:38
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
 msgid "Vendor"
 msgstr "製造元"
 
@@ -760,21 +739,21 @@ msgstr "RPM グループ"
 msgid "zzz Unspecified (%1)"
 msgstr "zzz その他 (%1)"
 
-#: YQPkgSearchFilterView.cc:156
+#: YQPkgSearchFilterView.cc:160
 #, qt-format
 msgid "Default: %1"
 msgstr "既定値: %1"
 
-#: YQPkgSearchFilterView.cc:163
+#: YQPkgSearchFilterView.cc:167
 #, qt-format
 msgid "Detected: %1"
 msgstr "検出済み: %1"
 
-#: YQPkgSearchFilterView.cc:439
+#: YQPkgSearchFilterView.cc:443
 msgid "No Results."
 msgstr "該当するものはありません。"
 
-#: YQPkgSearchFilterView.cc:454
+#: YQPkgSearchFilterView.cc:458
 msgid "Query Error"
 msgstr "問い合わせエラー"
 
@@ -798,58 +777,15 @@ msgstr "検索"
 msgid "Status"
 msgstr "状態"
 
-#: YQPkgSelectorBase.cc:120
-msgid "System dependencies verify OK."
-msgstr "システム依存関係の確認が問題なく完了しました。"
-
-#: YQPkgSelectorBase.cc:139
-msgid "Error: Out of disk space!"
-msgstr "エラー: ディスク容量がありません！"
-
-#: YQPkgSelectorBase.cc:140
-msgid ""
-"<p>You can choose to install anyway if you know what you are doing, but you "
-"risk getting a corrupted system that requires manual repairs. If you are not "
-"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
-"deselect some packages.</p>"
-msgstr ""
-"<p>特別な事情があればインストールを続行することも可能ですが、場合によっては手"
-"作業による修復が必要なほどシステムが壊れる可能性があります。修復の方法や手順"
-"について詳しくない場合は、［ <b>キャンセル</b>］ボタンをクリックし、いくつか"
-"のパッケージを選択解除してください。</p>"
-
-#: YQPkgSelectorBase.cc:148
-msgid "C&ontinue Anyway"
-msgstr "このまま続行(&O)"
-
-#: YQPkgSelectorBase.cc:160
-msgid "The following items will be changed: "
-msgstr "以下の項目が変更されます: "
-
-#: YQPkgSelectorBase.cc:210
-msgid "Really abandon all changes and exit?"
-msgstr "すべての変更を取りやめて終了しますか？"
-
-#: YQPkgSelectorBase.cc:265
-msgid ""
-"In addition to your manual selections, the following packages have been "
-"changed to resolve dependencies:"
-msgstr ""
-"手動での選択に加え、依存関係を解決するために次のパッケージを変更しました:"
-
-#: YQPkgSelectorBase.cc:367
-msgid "Not implemented yet"
-msgstr "まだ実装されていません"
-
 #: YQPkgSelector.cc:311 search-filter-view.ui:53
 msgid "&Search"
 msgstr "検索 (&S)"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1279
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1289
 msgid "Patc&hes"
 msgstr "修正 (&H)"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1280
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1290
 msgid "&Updates"
 msgstr "更新 (&U)"
 
@@ -1040,11 +976,11 @@ msgstr "リポジトリの設定 (&O)"
 msgid "Root &Authentication"
 msgstr "root 認証 (&A)"
 
-#: YQPkgSelector.cc:1146
+#: YQPkgSelector.cc:1156
 msgid "All package dependencies are OK."
 msgstr "すべてのパッケージ依存関係を確認しました。"
 
-#: YQPkgSelector.cc:1254
+#: YQPkgSelector.cc:1264
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1060,29 +996,29 @@ msgstr ""
 "ここまでに設定したパッケージ変更を適用できず、\n"
 "失うことになってしまいます。\n"
 
-#: YQPkgSelector.cc:1312
+#: YQPkgSelector.cc:1322
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 個のパッケージが更新されます"
 
-#: YQPkgSelector.cc:1342
+#: YQPkgSelector.cc:1352
 msgid "Dist-Upgrade Mode"
 msgstr "ディストリビューション更新モード"
 
-#: YQPkgSelector.cc:1343
+#: YQPkgSelector.cc:1353
 msgid "Package Update Mode"
 msgstr "パッケージ更新モード"
 
-#: YQPkgSelector.cc:1381
+#: YQPkgSelector.cc:1391
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
-"<p>このリポジトリ(%2)内のバージョンに <a href=\"repoupgradeadd:///%1\">"
-"システムパッケージを切り替えます</a></p>"
+"<p>このリポジトリ(%2)内のバージョンに <a href=\"repoupgradeadd:///%1\">システ"
+"ムパッケージを切り替えます</a></p>"
 
-#: YQPkgSelector.cc:1406
+#: YQPkgSelector.cc:1416
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1091,7 +1027,7 @@ msgstr ""
 "<p>リポジトリ %2 内のバージョンへのシステムパッケージの <a "
 "href=\"repoupgraderemove:///%1\">切り替えをキャンセルします</a></p>"
 
-#: YQPkgSelector.cc:1482
+#: YQPkgSelector.cc:1492
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1104,7 +1040,7 @@ msgstr ""
 "\n"
 "アクセス許可が無い可能性があります。"
 
-#: YQPkgSelector.cc:1494
+#: YQPkgSelector.cc:1504
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1118,9 +1054,52 @@ msgstr ""
 "ログをご確認ください！"
 
 #  Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
-#: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
+#: YQPkgSelector.cc:1547 YQPkgSelector.cc:1716
 msgid "Added Subpackages:"
 msgstr "追加されたサブパッケージ:"
+
+#: YQPkgSelectorBase.cc:120
+msgid "System dependencies verify OK."
+msgstr "システム依存関係の確認が問題なく完了しました。"
+
+#: YQPkgSelectorBase.cc:139
+msgid "Error: Out of disk space!"
+msgstr "エラー: ディスク容量がありません！"
+
+#: YQPkgSelectorBase.cc:140
+msgid ""
+"<p>You can choose to install anyway if you know what you are doing, but you "
+"risk getting a corrupted system that requires manual repairs. If you are not "
+"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"deselect some packages.</p>"
+msgstr ""
+"<p>特別な事情があればインストールを続行することも可能ですが、場合によっては手"
+"作業による修復が必要なほどシステムが壊れる可能性があります。修復の方法や手順"
+"について詳しくない場合は、［ <b>キャンセル</b>］ボタンをクリックし、いくつか"
+"のパッケージを選択解除してください。</p>"
+
+#: YQPkgSelectorBase.cc:148
+msgid "C&ontinue Anyway"
+msgstr "このまま続行(&O)"
+
+#: YQPkgSelectorBase.cc:160
+msgid "The following items will be changed: "
+msgstr "以下の項目が変更されます: "
+
+#: YQPkgSelectorBase.cc:210
+msgid "Really abandon all changes and exit?"
+msgstr "すべての変更を取りやめて終了しますか？"
+
+#: YQPkgSelectorBase.cc:265
+msgid ""
+"In addition to your manual selections, the following packages have been "
+"changed to resolve dependencies:"
+msgstr ""
+"手動での選択に加え、依存関係を解決するために次のパッケージを変更しました:"
+
+#: YQPkgSelectorBase.cc:367
+msgid "Not implemented yet"
+msgstr "まだ実装されていません"
 
 #: YQPkgServiceList.cc:202
 msgid "URL: "
@@ -1187,17 +1166,26 @@ msgstr "ソースパッケージ:"
 msgid "Authors:"
 msgstr "著者:"
 
-#: YQPkgVersionsView.cc:184
-#, qt-format
-msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr "提供元 %3 からの %1-%2 [撤回済み] (インストール済み)"
+#: YQPkgVersionsView.cc:241
+#, fuzzy
+msgid "Architecture"
+msgstr "アーキテクチャ:"
 
-#: YQPkgVersionsView.cc:192
-#, qt-format
-msgid "%1-%2 from vendor %3 (installed)"
-msgstr "提供元 %3 からの %1-%2 (インストール済み)"
+#: YQPkgVersionsView.cc:242
+#, fuzzy
+msgid "Repository"
+msgstr "_リポジトリ:_"
 
-#: YQPkgVersionsView.cc:399
+#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+msgid "[RETRACTED]"
+msgstr ""
+
+#: YQPkgVersionsView.cc:411
+#, fuzzy
+msgid "(installed)"
+msgstr "インストールする"
+
+#: YQPkgVersionsView.cc:598
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1207,7 +1195,7 @@ msgstr ""
 "対応していないパッケージの両方を、\n"
 "同時にインストールしようとしています。"
 
-#: YQPkgVersionsView.cc:407
+#: YQPkgVersionsView.cc:606
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1222,7 +1210,7 @@ msgstr ""
 "このバージョンの選択を外すには、 \"キャンセル\" を押して他のものを選択してく"
 "ださい。"
 
-#: YQPkgVersionsView.cc:416
+#: YQPkgVersionsView.cc:615
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1237,51 +1225,41 @@ msgstr ""
 "このバージョンの選択を外すには、 \"キャンセル\" を押して他のものを選択してく"
 "ださい。"
 
-#: YQPkgVersionsView.cc:425
+#: YQPkgVersionsView.cc:624
 msgid "Incompatible Package Versions"
 msgstr "互換性のないパッケージバージョン"
 
-#: YQPkgVersionsView.cc:551
-#, qt-format
-msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr "%3 から提供されている優先度 %4 ／提供元 %5 の %1-%2 [撤回済み]"
-
-#: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
-#, qt-format
-msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr "%3 から提供されている優先度 %4 ／提供元 %5 の %1-%2"
-
-#: ZyppHistoryBrowser.cc:465
+#: ZyppHistoryBrowser.cc:463
 #, qt-format
 msgid "Repo+  %1  %2"
 msgstr "リポジトリ追加  %1  %2"
 
-#: ZyppHistoryBrowser.cc:471
+#: ZyppHistoryBrowser.cc:469
 #, qt-format
 msgid "Repo-  %1"
 msgstr "リポジトリ削除  %1"
 
-#: ZyppHistoryBrowser.cc:476
+#: ZyppHistoryBrowser.cc:474
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
 msgstr "リポジトリ URL  %1 -> %2"
 
-#: ZyppHistoryBrowser.cc:482
+#: ZyppHistoryBrowser.cc:480
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
 msgstr "リポジトリ別名  %1 -> %2"
 
-#: ZyppHistoryBrowser.cc:502
+#: ZyppHistoryBrowser.cc:500
 #, qt-format
 msgid "Patch %1"
 msgstr "修正 %1"
 
-#: ZyppHistoryBrowser.cc:625
+#: ZyppHistoryBrowser.cc:623
 #, qt-format
 msgid "<b>Filter:</b> %1"
 msgstr "<b>フィルタ:</b> %1"
 
-#: ZyppHistoryBrowser.cc:627
+#: ZyppHistoryBrowser.cc:625
 msgid "<i>No Filter</i>"
 msgstr "<i>フィルタ無し</i>"
 
@@ -1306,6 +1284,28 @@ msgstr "パッケージのインストール／更新のみ"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "パッケージ削除のみ"
+
+# translation of qt-pkg.po to Japanese
+# Copyright (C) YEAR SuSE Linux AG, Nuernberg
+# This file is distributed under the same license as the PACKAGE package.
+#
+#
+# Yasuhiko Kamata <belphegor@belbel.or.jp>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-10-18 12:49+0000\n"
+"Last-Translator: belphegor-belbel <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -1578,7 +1578,7 @@ msgstr "検出:"
 msgid "Switch default mode for \"auto\""
 msgstr "\"自動\" に対する既定モードの切り替え"
 
-#: search-filter-view.ui:270 summary-page.ui:132
+#: search-filter-view.ui:270 summary-page.ui:135
 msgid "..."
 msgstr "..."
 
@@ -1622,43 +1622,19 @@ msgstr "既定値"
 msgid "Refresh List"
 msgstr "一覧を更新"
 
-#: summary-page.ui:52
-msgid ""
-"Packages installed: 2\n"
-"\n"
-"Packages updated: 5\n"
-"\n"
-"Packages removed: 0\n"
-"\n"
-"Errors: 0\n"
-"\n"
-msgstr ""
-"インストールされたパッケージ: 2\n"
-"\n"
-"更新されたパッケージ: 5\n"
-"\n"
-"削除されたパッケージ: 0\n"
-"\n"
-"エラー: 0\n"
-"\n"
-
-#: summary-page.ui:92
+#: summary-page.ui:95
 msgid "Automatically closing in"
 msgstr "自動的に閉じます"
 
-#: summary-page.ui:99
-msgid "10"
-msgstr "10"
-
-#: summary-page.ui:122
+#: summary-page.ui:125
 msgid "&Stop"
 msgstr "停止 (&S)"
 
-#: summary-page.ui:172
+#: summary-page.ui:175
 msgid "&Back"
 msgstr "戻る (&B)"
 
-#: summary-page.ui:179
+#: summary-page.ui:182
 msgid "&Finish"
 msgstr "完了 (&F)"
 
@@ -1671,9 +1647,8 @@ msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
 msgstr ""
-"ここでは更新可能なパッケージのみが表示されます。言い換えると、現在"
-"インストール済みのものよりも新しいバージョンが提供されているものを表示します"
-"。"
+"ここでは更新可能なパッケージのみが表示されます。言い換えると、現在インストー"
+"ル済みのものよりも新しいバージョンが提供されているものを表示します。"
 
 #: updates-filter-view.ui:98
 msgid "Pac&kage Update"
@@ -1782,6 +1757,44 @@ msgstr "パッケージの削除 (&M)"
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr "リポジトリの追加／削除／URL 変更／別名変更"
+
+#, qt-format
+#~ msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
+#~ msgstr "提供元 %3 からの %1-%2 [撤回済み] (インストール済み)"
+
+#, qt-format
+#~ msgid "%1-%2 from vendor %3 (installed)"
+#~ msgstr "提供元 %3 からの %1-%2 (インストール済み)"
+
+#, qt-format
+#~ msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
+#~ msgstr "%3 から提供されている優先度 %4 ／提供元 %5 の %1-%2 [撤回済み]"
+
+#, qt-format
+#~ msgid "%1-%2 from %3 with priority %4 and vendor %5"
+#~ msgstr "%3 から提供されている優先度 %4 ／提供元 %5 の %1-%2"
+
+#~ msgid ""
+#~ "Packages installed: 2\n"
+#~ "\n"
+#~ "Packages updated: 5\n"
+#~ "\n"
+#~ "Packages removed: 0\n"
+#~ "\n"
+#~ "Errors: 0\n"
+#~ "\n"
+#~ msgstr ""
+#~ "インストールされたパッケージ: 2\n"
+#~ "\n"
+#~ "更新されたパッケージ: 5\n"
+#~ "\n"
+#~ "削除されたパッケージ: 0\n"
+#~ "\n"
+#~ "エラー: 0\n"
+#~ "\n"
+
+#~ msgid "10"
+#~ msgstr "10"
 
 #~ msgid "&Update Problems"
 #~ msgstr "更新の問題 (&U)"

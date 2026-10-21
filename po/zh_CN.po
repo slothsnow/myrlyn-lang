@@ -1,16 +1,16 @@
-#: MyrlynApp.cc:203
+#: MyrlynApp.cc:209
 msgid " [root]"
 msgstr ""
 
-#: MyrlynApp.cc:206 RepoConfigDialog.cc:64
+#: MyrlynApp.cc:212 RepoConfigDialog.cc:64
 msgid " (read-only)"
 msgstr ""
 
-#: MyrlynApp.cc:227
+#: MyrlynApp.cc:233
 msgid "Preparing the package selector..."
 msgstr ""
 
-#: MyrlynApp.cc:485
+#: MyrlynApp.cc:491
 msgid "Really quit?"
 msgstr ""
 
@@ -55,53 +55,53 @@ msgid ""
 "It may be busy in another window.\n"
 msgstr ""
 
-#: PkgCommitPage.cc:144 pkg-commit-page.ui:113
+#: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"
 msgstr ""
 
-#: PkgCommitPage.cc:145 pkg-commit-page.ui:238
+#: PkgCommitPage.cc:146 pkg-commit-page.ui:238
 #, fuzzy
 msgid "Downloads"
 msgstr "下载时间:"
 
-#: PkgCommitPage.cc:146 pkg-commit-page.ui:376
+#: PkgCommitPage.cc:147 pkg-commit-page.ui:376
 msgid "Done"
 msgstr ""
 
-#: PkgCommitPage.cc:298 pkg-commit-page.ui:61
+#: PkgCommitPage.cc:292 pkg-commit-page.ui:61
 #, fuzzy
 msgid "Hide &Details"
 msgstr "细节(&D)..."
 
-#: PkgCommitPage.cc:298
+#: PkgCommitPage.cc:292
 #, fuzzy
 msgid "Show &Details"
 msgstr "细节(&D)..."
 
-#: PkgCommitPage.cc:343
+#: PkgCommitPage.cc:337
 msgid "Really cancel the current package actions?"
 msgstr ""
 
-#: PkgCommitPage.cc:544
+#: PkgCommitPage.cc:538
 #, fuzzy
 msgid "Checking File Conflicts..."
 msgstr "正在检查依赖项..."
 
-#: PkgCommitPage.cc:713
+#: PkgCommitPage.cc:707
 #, fuzzy, qt-format
 msgid "Error downloading package %1"
 msgstr "从 %1 加载软件包列表时出错"
 
-#: PkgCommitPage.cc:761 PkgCommitPage.cc:790
+#: PkgCommitPage.cc:755 PkgCommitPage.cc:784
 #, fuzzy, qt-format
 msgid "Error installing package %1"
 msgstr "导出软件包列表到 %1 时出错"
 
-#: PkgCommitPage.cc:978
+#: PkgCommitPage.cc:972
 msgid "[Post-transaction scripts]"
 msgstr ""
 
-#: PkgCommitPage.cc:1128
+#: PkgCommitPage.cc:1122
 #, fuzzy
 msgid "File Conflict"
 msgstr "文件列表"
@@ -193,77 +193,76 @@ msgstr "服务(&S)"
 msgid "URL"
 msgstr "URL:"
 
-#: SummaryPage.cc:123
+#: SummaryPage.cc:124
 #, qt-format
 msgid "%1 s"
 msgstr ""
 
-#: SummaryPage.cc:178
+#: SummaryPage.cc:182
 msgid "Close after 300 seconds (5 minutes)"
 msgstr ""
 
-#: SummaryPage.cc:179
+#: SummaryPage.cc:183
 msgid "Don't automatically close"
 msgstr ""
 
-#: SummaryPage.cc:195
+#: SummaryPage.cc:199
 #, qt-format
 msgid "Close after %1 seconds"
 msgstr ""
 
-#: SummaryPage.cc:263
+#: SummaryPage.cc:267
 #, fuzzy
 msgid "No package changes."
 msgstr "显示软件包变动(&a)"
 
-#: SummaryPage.cc:307
+#: SummaryPage.cc:311
 #, qt-format
 msgid "FAILED: %1"
 msgstr ""
 
-#: SummaryPage.cc:308
+#: SummaryPage.cc:312
 #, qt-format
 msgid "Packages removed by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:309
+#: SummaryPage.cc:313
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:310
+#: SummaryPage.cc:314
 #, qt-format
 msgid "Packages installed by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:311
+#: SummaryPage.cc:315
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:312
+#: SummaryPage.cc:316
 #, qt-format
 msgid "Packages updated by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:313
+#: SummaryPage.cc:317
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:314
+#: SummaryPage.cc:318
 #, qt-format
 msgid "To do: %1"
 msgstr ""
 
-#: SummaryPage.cc:363
+#: SummaryPage.cc:367
 #, qt-format
 msgid "(%1 more)"
 msgstr ""
 
-#: SummaryPage.cc:379
+#: SummaryPage.cc:383
 #, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended."
 msgstr "推荐"
 
@@ -345,8 +344,8 @@ msgstr "高级(&E)"
 msgid "&Save This List to a File..."
 msgstr "将列表保存为文件(&S)..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
-#: YQPkgSelector.cc:643 YQPkgSelector.cc:1263 YQPkgTextDialog.cc:235
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1273
+#: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
@@ -375,8 +374,8 @@ msgstr ""
 "<p>使用此功能可以生成详细日志，以便追踪依赖解析器中的错误。日志将存储在目录："
 "<br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1262
-#: YQPkgSelector.cc:1314 YQPkgVersionsView.cc:427
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
 msgid "C&ontinue"
 msgstr "继续(&o)"
 
@@ -473,8 +472,8 @@ msgid "Package Description"
 msgstr "软件包描述"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelectorBase.cc:166
-#: YQPkgSelector.cc:1538 YQPkgSelector.cc:1708 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1548
+#: YQPkgSelector.cc:1718 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "确定(&O)"
@@ -532,7 +531,7 @@ msgstr "语言"
 msgid "Package"
 msgstr "软件包"
 
-#: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
+#: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
 #: summary-page.ui:36
 msgid "Summary"
 msgstr "摘要"
@@ -549,7 +548,8 @@ msgstr "可用版本.."
 msgid "Inst. Ver."
 msgstr "已安装版本.."
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 zypp-history-browser.ui:162
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "版本"
 
@@ -557,7 +557,7 @@ msgstr "版本"
 msgid "Size"
 msgstr "大小"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:492 YQPkgPatchList.cc:386
+#: YQPkgList.cc:436 YQPkgObjList.cc:472 YQPkgPatchList.cc:387
 msgid "&All in This List"
 msgstr "列出所有(&A)"
 
@@ -587,59 +587,59 @@ msgstr "可用版本: %1 (%2)"
 msgid "Not available for installation"
 msgstr "不可安装"
 
-#: YQPkgObjList.cc:241 status-filter-view.ui:259
+#: YQPkgObjList.cc:221 status-filter-view.ui:259
 msgid "Delete"
 msgstr "删除"
 
-#: YQPkgObjList.cc:242 status-filter-view.ui:63
+#: YQPkgObjList.cc:222 status-filter-view.ui:63
 msgid "Install"
 msgstr "安装"
 
-#: YQPkgObjList.cc:243 status-filter-view.ui:193
+#: YQPkgObjList.cc:223 status-filter-view.ui:193
 msgid "Keep"
 msgstr "保留"
 
-#: YQPkgObjList.cc:244 status-filter-view.ui:210
+#: YQPkgObjList.cc:224 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "不安装"
 
-#: YQPkgObjList.cc:245
+#: YQPkgObjList.cc:225
 msgid "Protected -- Do Not Modify"
 msgstr "受保护 -- 不可修改"
 
-#: YQPkgObjList.cc:246
+#: YQPkgObjList.cc:226
 msgid "Taboo -- Never Install"
 msgstr "禁用 -- 永不安装"
 
-#: YQPkgObjList.cc:247 status-filter-view.ui:83
+#: YQPkgObjList.cc:227 status-filter-view.ui:83
 msgid "Update"
 msgstr "升级"
 
-#: YQPkgObjList.cc:249
+#: YQPkgObjList.cc:229
 msgid "Autodelete"
 msgstr "自动删除"
 
-#: YQPkgObjList.cc:250
+#: YQPkgObjList.cc:230
 msgid "Autoinstall"
 msgstr "自动安装"
 
-#: YQPkgObjList.cc:251
+#: YQPkgObjList.cc:231
 msgid "Autoupdate"
 msgstr "自动升级"
 
-#: YQPkgObjList.cc:368 YQPkgObjList.cc:388 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:348 YQPkgObjList.cc:368 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "立即更新"
 
-#: YQPkgObjList.cc:383 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:363 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "在新版本时更新"
 
-#: YQPkgObjList.cc:1298
+#: YQPkgObjList.cc:1278
 msgid "(by a software selection)"
 msgstr "(由软件选择)"
 
-#: YQPkgObjList.cc:1300
+#: YQPkgObjList.cc:1280
 msgid "(by dependencies)"
 msgstr "(由依赖决定)"
 
@@ -663,39 +663,39 @@ msgstr "所有补丁"
 msgid "Patch Description"
 msgstr "补丁描述"
 
-#: YQPkgPatchList.cc:595
+#: YQPkgPatchList.cc:589
 msgid "YaST"
 msgstr "YaST"
 
-#: YQPkgPatchList.cc:596
+#: YQPkgPatchList.cc:590
 msgid "security"
 msgstr "安全"
 
-#: YQPkgPatchList.cc:597
+#: YQPkgPatchList.cc:591
 msgid "recommended"
 msgstr "推荐"
 
-#: YQPkgPatchList.cc:598
+#: YQPkgPatchList.cc:592
 msgid "optional"
 msgstr "可选"
 
-#: YQPkgPatchList.cc:599
+#: YQPkgPatchList.cc:593
 msgid "feature"
 msgstr ""
 
-#: YQPkgPatchList.cc:600
+#: YQPkgPatchList.cc:594
 msgid "document"
 msgstr "文档"
 
-#: YQPkgPatternList.cc:56
+#: YQPkgPatternList.cc:57
 msgid "Pattern"
 msgstr "安装模式"
 
-#: YQPkgPatternList.cc:68
+#: YQPkgPatternList.cc:69
 msgid "Order"
 msgstr "顺序"
 
-#: YQPkgPatternList.cc:412
+#: YQPkgPatternList.cc:413
 msgid "Invisible"
 msgstr "隐藏"
 
@@ -711,25 +711,22 @@ msgstr "依赖"
 msgid "Product"
 msgstr "产品"
 
-#: YQPkgProductList.cc:38
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
 msgid "Vendor"
 msgstr "来源"
 
 #: YQPkgRepoFilterView.cc:92
 #, fuzzy
-#| msgid "Protect"
 msgid "Protect All"
 msgstr "保护"
 
 #: YQPkgRepoFilterView.cc:99
 #, fuzzy
-#| msgid "Protect"
 msgid "Un-Protect All"
 msgstr "保护"
 
 #: YQPkgRpmGroupsFilterView.cc:32
 #, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Groups"
 msgstr "RPM 组(&R)"
 
@@ -738,21 +735,21 @@ msgstr "RPM 组(&R)"
 msgid "zzz Unspecified (%1)"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:156
+#: YQPkgSearchFilterView.cc:160
 #, qt-format
 msgid "Default: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:163
+#: YQPkgSearchFilterView.cc:167
 #, qt-format
 msgid "Detected: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:439
+#: YQPkgSearchFilterView.cc:443
 msgid "No Results."
 msgstr "无结果。"
 
-#: YQPkgSearchFilterView.cc:454
+#: YQPkgSearchFilterView.cc:458
 msgid "Query Error"
 msgstr "查询错误"
 
@@ -762,13 +759,11 @@ msgstr "次级筛选(&S):"
 
 #: YQPkgSecondaryFilterView.cc:97
 #, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Installed Packages"
 msgstr "已安装且已撤回的软件包"
 
 #: YQPkgSecondaryFilterView.cc:106
 #, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Not Installed Packages"
 msgstr "已安装且已撤回的软件包"
 
@@ -780,59 +775,16 @@ msgstr "搜索"
 msgid "Status"
 msgstr "状态"
 
-#: YQPkgSelectorBase.cc:120
-msgid "System dependencies verify OK."
-msgstr "系统依赖检查通过。"
-
-#: YQPkgSelectorBase.cc:139
-msgid "Error: Out of disk space!"
-msgstr "错误：磁盘空间不足！"
-
-#: YQPkgSelectorBase.cc:140
-msgid ""
-"<p>You can choose to install anyway if you know what you are doing, but you "
-"risk getting a corrupted system that requires manual repairs. If you are not "
-"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
-"deselect some packages.</p>"
-msgstr ""
-"<p>如果您知道自己在做什么，可以选择继续安装，但这有可能导致系统损坏，需要手动"
-"修复。如果您不完全确定如何处理此类情况，请立即点击 <b>取消</b> 并取消选中部分"
-"软件包。</p>"
-
-#: YQPkgSelectorBase.cc:148
-msgid "C&ontinue Anyway"
-msgstr "继续安装(&o)"
-
-#: YQPkgSelectorBase.cc:160
-msgid "The following items will be changed: "
-msgstr "将修改以下项目： "
-
-#: YQPkgSelectorBase.cc:210
-#, fuzzy
-msgid "Really abandon all changes and exit?"
-msgstr "您想要放弃全部更改并退出吗？"
-
-#: YQPkgSelectorBase.cc:265
-msgid ""
-"In addition to your manual selections, the following packages have been "
-"changed to resolve dependencies:"
-msgstr "­在您手动选择的基础上，以下软件包已被更改以满足依赖要求:"
-
-#: YQPkgSelectorBase.cc:367
-#, fuzzy
-msgid "Not implemented yet"
-msgstr "尚未实现。抱歉。"
-
 #: YQPkgSelector.cc:311 search-filter-view.ui:53
 msgid "&Search"
 msgstr "搜索(&S)"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1279
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1289
 #, fuzzy
 msgid "Patc&hes"
 msgstr "所有补丁"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1280
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1290
 #, fuzzy
 msgid "&Updates"
 msgstr "升级"
@@ -843,7 +795,6 @@ msgstr "软件源(&R)"
 
 #: YQPkgSelector.cc:357
 #, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM &Groups"
 msgstr "RPM 组(&R)"
 
@@ -1042,11 +993,11 @@ msgstr "配置(&C)"
 msgid "Root &Authentication"
 msgstr "通讯"
 
-#: YQPkgSelector.cc:1146
+#: YQPkgSelector.cc:1156
 msgid "All package dependencies are OK."
 msgstr "所有软件包依赖关系正常。"
 
-#: YQPkgSelector.cc:1254
+#: YQPkgSelector.cc:1264
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1056,21 +1007,21 @@ msgid ""
 "will be lost.\n"
 msgstr ""
 
-#: YQPkgSelector.cc:1312
+#: YQPkgSelector.cc:1322
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 个软件包将被更新"
 
-#: YQPkgSelector.cc:1342
+#: YQPkgSelector.cc:1352
 msgid "Dist-Upgrade Mode"
 msgstr ""
 
-#: YQPkgSelector.cc:1343
+#: YQPkgSelector.cc:1353
 #, fuzzy
 msgid "Package Update Mode"
 msgstr "软件包"
 
-#: YQPkgSelector.cc:1381
+#: YQPkgSelector.cc:1391
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1079,7 +1030,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">将系统软件包切换</a>到此仓库 (%2) 中的版"
 "本</p>"
 
-#: YQPkgSelector.cc:1406
+#: YQPkgSelector.cc:1416
 #, fuzzy, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1088,7 +1039,7 @@ msgstr ""
 "<p><small><a href=\"repoupgraderemove:///%1\">取消将</a>系统软件包切换为软件"
 "源 %2 中的版本</small></p>"
 
-#: YQPkgSelector.cc:1482
+#: YQPkgSelector.cc:1492
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1097,7 +1048,7 @@ msgid ""
 "No permissions?"
 msgstr ""
 
-#: YQPkgSelector.cc:1494
+#: YQPkgSelector.cc:1504
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1106,9 +1057,52 @@ msgid ""
 "Check the log!"
 msgstr ""
 
-#: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
+#: YQPkgSelector.cc:1547 YQPkgSelector.cc:1716
 msgid "Added Subpackages:"
 msgstr "已添加的子包："
+
+#: YQPkgSelectorBase.cc:120
+msgid "System dependencies verify OK."
+msgstr "系统依赖检查通过。"
+
+#: YQPkgSelectorBase.cc:139
+msgid "Error: Out of disk space!"
+msgstr "错误：磁盘空间不足！"
+
+#: YQPkgSelectorBase.cc:140
+msgid ""
+"<p>You can choose to install anyway if you know what you are doing, but you "
+"risk getting a corrupted system that requires manual repairs. If you are not "
+"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"deselect some packages.</p>"
+msgstr ""
+"<p>如果您知道自己在做什么，可以选择继续安装，但这有可能导致系统损坏，需要手动"
+"修复。如果您不完全确定如何处理此类情况，请立即点击 <b>取消</b> 并取消选中部分"
+"软件包。</p>"
+
+#: YQPkgSelectorBase.cc:148
+msgid "C&ontinue Anyway"
+msgstr "继续安装(&o)"
+
+#: YQPkgSelectorBase.cc:160
+msgid "The following items will be changed: "
+msgstr "将修改以下项目： "
+
+#: YQPkgSelectorBase.cc:210
+#, fuzzy
+msgid "Really abandon all changes and exit?"
+msgstr "您想要放弃全部更改并退出吗？"
+
+#: YQPkgSelectorBase.cc:265
+msgid ""
+"In addition to your manual selections, the following packages have been "
+"changed to resolve dependencies:"
+msgstr "­在您手动选择的基础上，以下软件包已被更改以满足依赖要求:"
+
+#: YQPkgSelectorBase.cc:367
+#, fuzzy
+msgid "Not implemented yet"
+msgstr "尚未实现。抱歉。"
 
 #: YQPkgServiceList.cc:202
 msgid "URL: "
@@ -1132,7 +1126,6 @@ msgstr "安装时间:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
 #, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Group:"
 msgstr "RPM 组(&R)"
 
@@ -1177,17 +1170,26 @@ msgstr "源软件包:"
 msgid "Authors:"
 msgstr "作者:"
 
-#: YQPkgVersionsView.cc:184
-#, qt-format
-msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr "%1-%2 [已撤回] 来自来源 %3 (已安装)"
+#: YQPkgVersionsView.cc:241
+#, fuzzy
+msgid "Architecture"
+msgstr "架构:"
 
-#: YQPkgVersionsView.cc:192
-#, qt-format
-msgid "%1-%2 from vendor %3 (installed)"
-msgstr "%1-%2 来自来源 %3 (已安装)"
+#: YQPkgVersionsView.cc:242
+#, fuzzy
+msgid "Repository"
+msgstr "软件源:"
 
-#: YQPkgVersionsView.cc:399
+#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+msgid "[RETRACTED]"
+msgstr ""
+
+#: YQPkgVersionsView.cc:411
+#, fuzzy
+msgid "(installed)"
+msgstr "安装"
+
+#: YQPkgVersionsView.cc:598
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1197,7 +1199,7 @@ msgstr ""
 "支持多版本和不支持多版本的\n"
 "该软件包版本。"
 
-#: YQPkgVersionsView.cc:407
+#: YQPkgVersionsView.cc:606
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1211,7 +1213,7 @@ msgstr ""
 "并取消选择不支持多版本的版本；\n"
 "点击“取消”以取消选择此版本并保留另一个版本。"
 
-#: YQPkgVersionsView.cc:416
+#: YQPkgVersionsView.cc:615
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1225,51 +1227,41 @@ msgstr ""
 "并取消选择所有其他版本；\n"
 "点击“取消”以取消选择此版本并保留其他版本。"
 
-#: YQPkgVersionsView.cc:425
+#: YQPkgVersionsView.cc:624
 msgid "Incompatible Package Versions"
 msgstr "软件包版本不兼容"
 
-#: YQPkgVersionsView.cc:551
-#, qt-format
-msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr "%1-%2 [已撤回] 来自 %3，优先级 %4，来源 %5"
-
-#: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
-#, qt-format
-msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr "%1-%2 来自 %3，优先级 %4，来源 %5"
-
-#: ZyppHistoryBrowser.cc:465
+#: ZyppHistoryBrowser.cc:463
 #, qt-format
 msgid "Repo+  %1  %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:471
+#: ZyppHistoryBrowser.cc:469
 #, qt-format
 msgid "Repo-  %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:476
+#: ZyppHistoryBrowser.cc:474
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:482
+#: ZyppHistoryBrowser.cc:480
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:502
+#: ZyppHistoryBrowser.cc:500
 #, fuzzy, qt-format
 msgid "Patch %1"
 msgstr "补丁(&P)"
 
-#: ZyppHistoryBrowser.cc:625
+#: ZyppHistoryBrowser.cc:623
 #, qt-format
 msgid "<b>Filter:</b> %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:627
+#: ZyppHistoryBrowser.cc:625
 msgid "<i>No Filter</i>"
 msgstr ""
 
@@ -1289,7 +1281,6 @@ msgstr ""
 
 #: ZyppHistoryFilterDialog.cc:155
 #, fuzzy
-#| msgid "%1 packages will be updated"
 msgid "Only package installation / update"
 msgstr "%1 个软件包将被更新"
 
@@ -1535,7 +1526,6 @@ msgstr "RPM \"依赖”(&q)"
 
 #: search-filter-view.ui:141
 #, fuzzy
-#| msgid "Recommends:"
 msgid "RPM Recommends"
 msgstr "推荐软件包:"
 
@@ -1592,7 +1582,7 @@ msgstr "保护"
 msgid "Switch default mode for \"auto\""
 msgstr ""
 
-#: search-filter-view.ui:270 summary-page.ui:132
+#: search-filter-view.ui:270 summary-page.ui:135
 msgid "..."
 msgstr ""
 
@@ -1644,35 +1634,19 @@ msgstr ""
 msgid "Refresh List"
 msgstr "刷新列表(&R)"
 
-#: summary-page.ui:52
-msgid ""
-"Packages installed: 2\n"
-"\n"
-"Packages updated: 5\n"
-"\n"
-"Packages removed: 0\n"
-"\n"
-"Errors: 0\n"
-"\n"
-msgstr ""
-
-#: summary-page.ui:92
+#: summary-page.ui:95
 msgid "Automatically closing in"
 msgstr ""
 
-#: summary-page.ui:99
-msgid "10"
-msgstr ""
-
-#: summary-page.ui:122
+#: summary-page.ui:125
 msgid "&Stop"
 msgstr ""
 
-#: summary-page.ui:172
+#: summary-page.ui:175
 msgid "&Back"
 msgstr ""
 
-#: summary-page.ui:179
+#: summary-page.ui:182
 msgid "&Finish"
 msgstr ""
 
@@ -1717,7 +1691,6 @@ msgstr ""
 
 #: zypp-history-browser.ui:14
 #, fuzzy
-#| msgid "Show &History"
 msgid "Zypp History"
 msgstr "显示历史记录(&H)"
 
@@ -1731,19 +1704,16 @@ msgstr ""
 
 #: zypp-history-browser.ui:108
 #, fuzzy
-#| msgid "&Secondary Filter:"
 msgid "Cl&ear Filter"
 msgstr "次级筛选(&S):"
 
 #: zypp-history-browser.ui:115
 #, fuzzy
-#| msgid "&File"
 msgid "&Filter..."
 msgstr "文件(&F)"
 
 #: zypp-history-browser.ui:144
 #, fuzzy
-#| msgid "Localization"
 msgid "Navigation"
 msgstr "本地化"
 
@@ -1778,7 +1748,6 @@ msgstr ""
 
 #: zypp-history-filter-dialog.ui:142
 #, fuzzy
-#| msgid "Package History"
 msgid "Package by &Repository"
 msgstr "软件包历史"
 
@@ -1793,13 +1762,28 @@ msgstr "软件包"
 
 #: zypp-history-filter-dialog.ui:240
 #, fuzzy
-#| msgid "Package &Groups"
 msgid "Package Re&move"
 msgstr "软件包群组(&G)"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr ""
+
+#, qt-format
+#~ msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
+#~ msgstr "%1-%2 [已撤回] 来自来源 %3 (已安装)"
+
+#, qt-format
+#~ msgid "%1-%2 from vendor %3 (installed)"
+#~ msgstr "%1-%2 来自来源 %3 (已安装)"
+
+#, qt-format
+#~ msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
+#~ msgstr "%1-%2 [已撤回] 来自 %3，优先级 %4，来源 %5"
+
+#, qt-format
+#~ msgid "%1-%2 from %3 with priority %4 and vendor %5"
+#~ msgstr "%1-%2 来自 %3，优先级 %4，来源 %5"
 
 #~ msgid "Package History (/var/log/zypp/history)"
 #~ msgstr "­软件包历史(/var/log/zypp/history)"

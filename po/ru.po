@@ -1,16 +1,16 @@
-#: MyrlynApp.cc:203
+#: MyrlynApp.cc:209
 msgid " [root]"
 msgstr ""
 
-#: MyrlynApp.cc:206 RepoConfigDialog.cc:64
+#: MyrlynApp.cc:212 RepoConfigDialog.cc:64
 msgid " (read-only)"
 msgstr ""
 
-#: MyrlynApp.cc:227
+#: MyrlynApp.cc:233
 msgid "Preparing the package selector..."
 msgstr ""
 
-#: MyrlynApp.cc:485
+#: MyrlynApp.cc:491
 msgid "Really quit?"
 msgstr ""
 
@@ -55,53 +55,53 @@ msgid ""
 "It may be busy in another window.\n"
 msgstr ""
 
-#: PkgCommitPage.cc:144 pkg-commit-page.ui:113
+#: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"
 msgstr ""
 
-#: PkgCommitPage.cc:145 pkg-commit-page.ui:238
+#: PkgCommitPage.cc:146 pkg-commit-page.ui:238
 #, fuzzy
 msgid "Downloads"
 msgstr "Размер загрузки:"
 
-#: PkgCommitPage.cc:146 pkg-commit-page.ui:376
+#: PkgCommitPage.cc:147 pkg-commit-page.ui:376
 msgid "Done"
 msgstr ""
 
-#: PkgCommitPage.cc:298 pkg-commit-page.ui:61
+#: PkgCommitPage.cc:292 pkg-commit-page.ui:61
 #, fuzzy
 msgid "Hide &Details"
 msgstr "&Подробнее..."
 
-#: PkgCommitPage.cc:298
+#: PkgCommitPage.cc:292
 #, fuzzy
 msgid "Show &Details"
 msgstr "&Подробнее..."
 
-#: PkgCommitPage.cc:343
+#: PkgCommitPage.cc:337
 msgid "Really cancel the current package actions?"
 msgstr ""
 
-#: PkgCommitPage.cc:544
+#: PkgCommitPage.cc:538
 #, fuzzy
 msgid "Checking File Conflicts..."
 msgstr "Проверка зависимостей..."
 
-#: PkgCommitPage.cc:713
+#: PkgCommitPage.cc:707
 #, fuzzy, qt-format
 msgid "Error downloading package %1"
 msgstr "Ошибка загрузки списка пакетов из %1"
 
-#: PkgCommitPage.cc:761 PkgCommitPage.cc:790
+#: PkgCommitPage.cc:755 PkgCommitPage.cc:784
 #, fuzzy, qt-format
 msgid "Error installing package %1"
 msgstr "Ошибка экспорта списка пакетов в %1"
 
-#: PkgCommitPage.cc:978
+#: PkgCommitPage.cc:972
 msgid "[Post-transaction scripts]"
 msgstr ""
 
-#: PkgCommitPage.cc:1128
+#: PkgCommitPage.cc:1122
 #, fuzzy
 msgid "File Conflict"
 msgstr "Список файлов"
@@ -193,77 +193,76 @@ msgstr "&Сервисы"
 msgid "URL"
 msgstr "URL:"
 
-#: SummaryPage.cc:123
+#: SummaryPage.cc:124
 #, qt-format
 msgid "%1 s"
 msgstr ""
 
-#: SummaryPage.cc:178
+#: SummaryPage.cc:182
 msgid "Close after 300 seconds (5 minutes)"
 msgstr ""
 
-#: SummaryPage.cc:179
+#: SummaryPage.cc:183
 msgid "Don't automatically close"
 msgstr ""
 
-#: SummaryPage.cc:195
+#: SummaryPage.cc:199
 #, qt-format
 msgid "Close after %1 seconds"
 msgstr ""
 
-#: SummaryPage.cc:263
+#: SummaryPage.cc:267
 #, fuzzy
 msgid "No package changes."
 msgstr "Показывать и&зменения пакетов"
 
-#: SummaryPage.cc:307
+#: SummaryPage.cc:311
 #, qt-format
 msgid "FAILED: %1"
 msgstr ""
 
-#: SummaryPage.cc:308
+#: SummaryPage.cc:312
 #, qt-format
 msgid "Packages removed by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:309
+#: SummaryPage.cc:313
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:310
+#: SummaryPage.cc:314
 #, qt-format
 msgid "Packages installed by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:311
+#: SummaryPage.cc:315
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:312
+#: SummaryPage.cc:316
 #, qt-format
 msgid "Packages updated by user: %1"
 msgstr ""
 
-#: SummaryPage.cc:313
+#: SummaryPage.cc:317
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
 msgstr ""
 
-#: SummaryPage.cc:314
+#: SummaryPage.cc:318
 #, qt-format
 msgid "To do: %1"
 msgstr ""
 
-#: SummaryPage.cc:363
+#: SummaryPage.cc:367
 #, qt-format
 msgid "(%1 more)"
 msgstr ""
 
-#: SummaryPage.cc:379
+#: SummaryPage.cc:383
 #, fuzzy
-#| msgid "recommended"
 msgid "Reboot recommended."
 msgstr "рекомендуемое"
 
@@ -347,8 +346,8 @@ msgstr "&Эксперт"
 msgid "&Save This List to a File..."
 msgstr "Сохранить этот список в файл..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271
-#: YQPkgSelector.cc:643 YQPkgSelector.cc:1263 YQPkgTextDialog.cc:235
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1273
+#: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
@@ -378,8 +377,8 @@ msgstr ""
 "найти ошибки в обработчике зависимостей. Журналы будут сохранены в каталоге "
 "<br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelectorBase.cc:271 YQPkgSelector.cc:1262
-#: YQPkgSelector.cc:1314 YQPkgVersionsView.cc:427
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
 msgid "C&ontinue"
 msgstr "П&родолжить"
 
@@ -477,8 +476,8 @@ msgid "Package Description"
 msgstr "Описание пакета"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelectorBase.cc:166
-#: YQPkgSelector.cc:1538 YQPkgSelector.cc:1708 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1548
+#: YQPkgSelector.cc:1718 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "&ОК"
@@ -536,7 +535,7 @@ msgstr "Язык"
 msgid "Package"
 msgstr "Пакет"
 
-#: YQPkgList.cc:49 YQPkgPatchList.cc:48 YQPkgProductList.cc:36
+#: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
 #: summary-page.ui:36
 msgid "Summary"
 msgstr "Сводка"
@@ -553,7 +552,8 @@ msgstr "Дост. версия"
 msgid "Inst. Ver."
 msgstr "Уст. версия"
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 zypp-history-browser.ui:162
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "Версия"
 
@@ -561,7 +561,7 @@ msgstr "Версия"
 msgid "Size"
 msgstr "Размер"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:492 YQPkgPatchList.cc:386
+#: YQPkgList.cc:436 YQPkgObjList.cc:472 YQPkgPatchList.cc:387
 msgid "&All in This List"
 msgstr "&Все в этом списке"
 
@@ -591,59 +591,59 @@ msgstr "Доступная версия: %1 (%2)"
 msgid "Not available for installation"
 msgstr "Недоступно для установки"
 
-#: YQPkgObjList.cc:241 status-filter-view.ui:259
+#: YQPkgObjList.cc:221 status-filter-view.ui:259
 msgid "Delete"
 msgstr "Удалить"
 
-#: YQPkgObjList.cc:242 status-filter-view.ui:63
+#: YQPkgObjList.cc:222 status-filter-view.ui:63
 msgid "Install"
 msgstr "Установить"
 
-#: YQPkgObjList.cc:243 status-filter-view.ui:193
+#: YQPkgObjList.cc:223 status-filter-view.ui:193
 msgid "Keep"
 msgstr "Оставить"
 
-#: YQPkgObjList.cc:244 status-filter-view.ui:210
+#: YQPkgObjList.cc:224 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "Не устанавливать"
 
-#: YQPkgObjList.cc:245
+#: YQPkgObjList.cc:225
 msgid "Protected -- Do Not Modify"
 msgstr "Защищен — не изменять"
 
-#: YQPkgObjList.cc:246
+#: YQPkgObjList.cc:226
 msgid "Taboo -- Never Install"
 msgstr "Запрещен — никогда не устанавливать"
 
-#: YQPkgObjList.cc:247 status-filter-view.ui:83
+#: YQPkgObjList.cc:227 status-filter-view.ui:83
 msgid "Update"
 msgstr "Обновить"
 
-#: YQPkgObjList.cc:249
+#: YQPkgObjList.cc:229
 msgid "Autodelete"
 msgstr "Автоудаление"
 
-#: YQPkgObjList.cc:250
+#: YQPkgObjList.cc:230
 msgid "Autoinstall"
 msgstr "Автоустановка"
 
-#: YQPkgObjList.cc:251
+#: YQPkgObjList.cc:231
 msgid "Autoupdate"
 msgstr "Автообновление"
 
-#: YQPkgObjList.cc:368 YQPkgObjList.cc:388 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:348 YQPkgObjList.cc:368 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "Обновить безусловно"
 
-#: YQPkgObjList.cc:383 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:363 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "Обновить при наличии более новой версии"
 
-#: YQPkgObjList.cc:1298
+#: YQPkgObjList.cc:1278
 msgid "(by a software selection)"
 msgstr "(из набора программ)"
 
-#: YQPkgObjList.cc:1300
+#: YQPkgObjList.cc:1280
 msgid "(by dependencies)"
 msgstr "(по зависимостям)"
 
@@ -667,39 +667,39 @@ msgstr "Все исправления"
 msgid "Patch Description"
 msgstr "Описание исправления"
 
-#: YQPkgPatchList.cc:595
+#: YQPkgPatchList.cc:589
 msgid "YaST"
 msgstr "YaST"
 
-#: YQPkgPatchList.cc:596
+#: YQPkgPatchList.cc:590
 msgid "security"
 msgstr "безопасность"
 
-#: YQPkgPatchList.cc:597
+#: YQPkgPatchList.cc:591
 msgid "recommended"
 msgstr "рекомендуемое"
 
-#: YQPkgPatchList.cc:598
+#: YQPkgPatchList.cc:592
 msgid "optional"
 msgstr "необязательное"
 
-#: YQPkgPatchList.cc:599
+#: YQPkgPatchList.cc:593
 msgid "feature"
 msgstr ""
 
-#: YQPkgPatchList.cc:600
+#: YQPkgPatchList.cc:594
 msgid "document"
 msgstr "документация"
 
-#: YQPkgPatternList.cc:56
+#: YQPkgPatternList.cc:57
 msgid "Pattern"
 msgstr "Шаблон"
 
-#: YQPkgPatternList.cc:68
+#: YQPkgPatternList.cc:69
 msgid "Order"
 msgstr "Порядок"
 
-#: YQPkgPatternList.cc:412
+#: YQPkgPatternList.cc:413
 msgid "Invisible"
 msgstr "Невидимые"
 
@@ -715,25 +715,22 @@ msgstr "Зависимости"
 msgid "Product"
 msgstr "Продукт"
 
-#: YQPkgProductList.cc:38
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
 msgid "Vendor"
 msgstr "Поставщик"
 
 #: YQPkgRepoFilterView.cc:92
 #, fuzzy
-#| msgid "Protect"
 msgid "Protect All"
 msgstr "Защитить"
 
 #: YQPkgRepoFilterView.cc:99
 #, fuzzy
-#| msgid "Protect"
 msgid "Un-Protect All"
 msgstr "Защитить"
 
 #: YQPkgRpmGroupsFilterView.cc:32
 #, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Groups"
 msgstr "&Группы RPM"
 
@@ -742,21 +739,21 @@ msgstr "&Группы RPM"
 msgid "zzz Unspecified (%1)"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:156
+#: YQPkgSearchFilterView.cc:160
 #, qt-format
 msgid "Default: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:163
+#: YQPkgSearchFilterView.cc:167
 #, qt-format
 msgid "Detected: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:439
+#: YQPkgSearchFilterView.cc:443
 msgid "No Results."
 msgstr "Результаты отсутствуют."
 
-#: YQPkgSearchFilterView.cc:454
+#: YQPkgSearchFilterView.cc:458
 msgid "Query Error"
 msgstr "Ошибка запроса"
 
@@ -766,13 +763,11 @@ msgstr "&Дополнительный фильтр:"
 
 #: YQPkgSecondaryFilterView.cc:97
 #, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Installed Packages"
 msgstr "Установленные отозванные пакеты"
 
 #: YQPkgSecondaryFilterView.cc:106
 #, fuzzy
-#| msgid "Retracted Installed Packages"
 msgid "Not Installed Packages"
 msgstr "Установленные отозванные пакеты"
 
@@ -784,62 +779,16 @@ msgstr "Поиск"
 msgid "Status"
 msgstr "Состояние"
 
-#: YQPkgSelectorBase.cc:120
-msgid "System dependencies verify OK."
-msgstr "Зависимости системы проверены успешно."
-
-#: YQPkgSelectorBase.cc:139
-msgid "Error: Out of disk space!"
-msgstr "Ошибка: недостаточно места на диске!"
-
-#: YQPkgSelectorBase.cc:140
-msgid ""
-"<p>You can choose to install anyway if you know what you are doing, but you "
-"risk getting a corrupted system that requires manual repairs. If you are not "
-"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
-"deselect some packages.</p>"
-msgstr ""
-"<p>Вы можете продолжить установку, если знаете, что делаете, но рискуете "
-"получить поврежденную систему, требующую ручного восстановления. Если вы не "
-"уверены, как поступить в такой ситуации, нажмите <b>Отмена</b> и отмените "
-"выбор некоторых пакетов.</p>"
-
-#: YQPkgSelectorBase.cc:148
-msgid "C&ontinue Anyway"
-msgstr "П&родолжить в любом случае"
-
-#: YQPkgSelectorBase.cc:160
-msgid "The following items will be changed: "
-msgstr "Следующие элементы будут изменены: "
-
-#: YQPkgSelectorBase.cc:210
-#, fuzzy
-msgid "Really abandon all changes and exit?"
-msgstr "Отменить все изменения и выйти?"
-
-#: YQPkgSelectorBase.cc:265
-msgid ""
-"In addition to your manual selections, the following packages have been "
-"changed to resolve dependencies:"
-msgstr ""
-"Помимо выбранных вами вручную, для разрешения зависимостей были изменены "
-"следующие пакеты:"
-
-#: YQPkgSelectorBase.cc:367
-#, fuzzy
-msgid "Not implemented yet"
-msgstr "Еще не реализовано. Приносим извинения."
-
 #: YQPkgSelector.cc:311 search-filter-view.ui:53
 msgid "&Search"
 msgstr "&Поиск"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1279
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1289
 #, fuzzy
 msgid "Patc&hes"
 msgstr "Все исправления"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1280
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1290
 #, fuzzy
 msgid "&Updates"
 msgstr "Обновить"
@@ -850,7 +799,6 @@ msgstr "&Репозитории"
 
 #: YQPkgSelector.cc:357
 #, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM &Groups"
 msgstr "&Группы RPM"
 
@@ -1049,11 +997,11 @@ msgstr "Конфи&гурация"
 msgid "Root &Authentication"
 msgstr "Связь"
 
-#: YQPkgSelector.cc:1146
+#: YQPkgSelector.cc:1156
 msgid "All package dependencies are OK."
 msgstr "Все зависимости пакетов в порядке."
 
-#: YQPkgSelector.cc:1254
+#: YQPkgSelector.cc:1264
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1063,21 +1011,21 @@ msgid ""
 "will be lost.\n"
 msgstr ""
 
-#: YQPkgSelector.cc:1312
+#: YQPkgSelector.cc:1322
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "Будет обновлено пакетов: %1"
 
-#: YQPkgSelector.cc:1342
+#: YQPkgSelector.cc:1352
 msgid "Dist-Upgrade Mode"
 msgstr ""
 
-#: YQPkgSelector.cc:1343
+#: YQPkgSelector.cc:1353
 #, fuzzy
 msgid "Package Update Mode"
 msgstr "Пакет"
 
-#: YQPkgSelector.cc:1381
+#: YQPkgSelector.cc:1391
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1086,7 +1034,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Переключить системные пакеты</a> на "
 "версии из этого репозитория (%2)</p>"
 
-#: YQPkgSelector.cc:1406
+#: YQPkgSelector.cc:1416
 #, fuzzy, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1095,7 +1043,7 @@ msgstr ""
 "<p><small><a href=\"repoupgraderemove:///%1\">Отменить переключение</a> "
 "системных пакетов на версии из репозитория %2</small></p>"
 
-#: YQPkgSelector.cc:1482
+#: YQPkgSelector.cc:1492
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1104,7 +1052,7 @@ msgid ""
 "No permissions?"
 msgstr ""
 
-#: YQPkgSelector.cc:1494
+#: YQPkgSelector.cc:1504
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1113,9 +1061,55 @@ msgid ""
 "Check the log!"
 msgstr ""
 
-#: YQPkgSelector.cc:1537 YQPkgSelector.cc:1706
+#: YQPkgSelector.cc:1547 YQPkgSelector.cc:1716
 msgid "Added Subpackages:"
 msgstr "Добавленные подпакеты:"
+
+#: YQPkgSelectorBase.cc:120
+msgid "System dependencies verify OK."
+msgstr "Зависимости системы проверены успешно."
+
+#: YQPkgSelectorBase.cc:139
+msgid "Error: Out of disk space!"
+msgstr "Ошибка: недостаточно места на диске!"
+
+#: YQPkgSelectorBase.cc:140
+msgid ""
+"<p>You can choose to install anyway if you know what you are doing, but you "
+"risk getting a corrupted system that requires manual repairs. If you are not "
+"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"deselect some packages.</p>"
+msgstr ""
+"<p>Вы можете продолжить установку, если знаете, что делаете, но рискуете "
+"получить поврежденную систему, требующую ручного восстановления. Если вы не "
+"уверены, как поступить в такой ситуации, нажмите <b>Отмена</b> и отмените "
+"выбор некоторых пакетов.</p>"
+
+#: YQPkgSelectorBase.cc:148
+msgid "C&ontinue Anyway"
+msgstr "П&родолжить в любом случае"
+
+#: YQPkgSelectorBase.cc:160
+msgid "The following items will be changed: "
+msgstr "Следующие элементы будут изменены: "
+
+#: YQPkgSelectorBase.cc:210
+#, fuzzy
+msgid "Really abandon all changes and exit?"
+msgstr "Отменить все изменения и выйти?"
+
+#: YQPkgSelectorBase.cc:265
+msgid ""
+"In addition to your manual selections, the following packages have been "
+"changed to resolve dependencies:"
+msgstr ""
+"Помимо выбранных вами вручную, для разрешения зависимостей были изменены "
+"следующие пакеты:"
+
+#: YQPkgSelectorBase.cc:367
+#, fuzzy
+msgid "Not implemented yet"
+msgstr "Еще не реализовано. Приносим извинения."
 
 #: YQPkgServiceList.cc:202
 msgid "URL: "
@@ -1139,7 +1133,6 @@ msgstr "Время установки:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
 #, fuzzy
-#| msgid "&RPM Groups"
 msgid "RPM Group:"
 msgstr "&Группы RPM"
 
@@ -1184,17 +1177,26 @@ msgstr "Исходный пакет:"
 msgid "Authors:"
 msgstr "Авторы:"
 
-#: YQPkgVersionsView.cc:184
-#, qt-format
-msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
-msgstr "%1-%2 [ОТОЗВАН] от поставщика %3 (установлен)"
+#: YQPkgVersionsView.cc:241
+#, fuzzy
+msgid "Architecture"
+msgstr "Архитектура:"
 
-#: YQPkgVersionsView.cc:192
-#, qt-format
-msgid "%1-%2 from vendor %3 (installed)"
-msgstr "%1-%2 от поставщика %3 (установлен)"
+#: YQPkgVersionsView.cc:242
+#, fuzzy
+msgid "Repository"
+msgstr "Репозитории:"
 
-#: YQPkgVersionsView.cc:399
+#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+msgid "[RETRACTED]"
+msgstr ""
+
+#: YQPkgVersionsView.cc:411
+#, fuzzy
+msgid "(installed)"
+msgstr "Установить"
+
+#: YQPkgVersionsView.cc:598
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1204,7 +1206,7 @@ msgstr ""
 "и немноговерсионную версии этого\n"
 "пакета."
 
-#: YQPkgVersionsView.cc:407
+#: YQPkgVersionsView.cc:606
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1218,7 +1220,7 @@ msgstr ""
 "и отменить выбор немноговерсионной версии,\n"
 "или \"Отмена\", чтобы отменить выбор этой версии и оставить другую."
 
-#: YQPkgVersionsView.cc:416
+#: YQPkgVersionsView.cc:615
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1232,51 +1234,41 @@ msgstr ""
 "и отменить выбор всех остальных версий,\n"
 "или \"Отмена\", чтобы отменить выбор этой версии и оставить остальные."
 
-#: YQPkgVersionsView.cc:425
+#: YQPkgVersionsView.cc:624
 msgid "Incompatible Package Versions"
 msgstr "Несовместимые версии пакета"
 
-#: YQPkgVersionsView.cc:551
-#, qt-format
-msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
-msgstr "%1-%2 [ОТОЗВАН] от %3 с приоритетом %4 и поставщиком %5"
-
-#: YQPkgVersionsView.cc:571 YQPkgVersionsView.cc:597
-#, qt-format
-msgid "%1-%2 from %3 with priority %4 and vendor %5"
-msgstr "%1-%2 от %3 с приоритетом %4 и поставщиком %5"
-
-#: ZyppHistoryBrowser.cc:465
+#: ZyppHistoryBrowser.cc:463
 #, qt-format
 msgid "Repo+  %1  %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:471
+#: ZyppHistoryBrowser.cc:469
 #, qt-format
 msgid "Repo-  %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:476
+#: ZyppHistoryBrowser.cc:474
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:482
+#: ZyppHistoryBrowser.cc:480
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:502
+#: ZyppHistoryBrowser.cc:500
 #, fuzzy, qt-format
 msgid "Patch %1"
 msgstr "&Исправление"
 
-#: ZyppHistoryBrowser.cc:625
+#: ZyppHistoryBrowser.cc:623
 #, qt-format
 msgid "<b>Filter:</b> %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:627
+#: ZyppHistoryBrowser.cc:625
 msgid "<i>No Filter</i>"
 msgstr ""
 
@@ -1296,7 +1288,6 @@ msgstr ""
 
 #: ZyppHistoryFilterDialog.cc:155
 #, fuzzy
-#| msgid "%1 packages will be updated"
 msgid "Only package installation / update"
 msgstr "Будет обновлено пакетов: %1"
 
@@ -1543,7 +1534,6 @@ msgstr "RPM \"Тре&бует\""
 
 #: search-filter-view.ui:141
 #, fuzzy
-#| msgid "Recommends:"
 msgid "RPM Recommends"
 msgstr "Рекомендует:"
 
@@ -1600,7 +1590,7 @@ msgstr "Защищен"
 msgid "Switch default mode for \"auto\""
 msgstr ""
 
-#: search-filter-view.ui:270 summary-page.ui:132
+#: search-filter-view.ui:270 summary-page.ui:135
 msgid "..."
 msgstr ""
 
@@ -1652,35 +1642,19 @@ msgstr ""
 msgid "Refresh List"
 msgstr "&Обновить список"
 
-#: summary-page.ui:52
-msgid ""
-"Packages installed: 2\n"
-"\n"
-"Packages updated: 5\n"
-"\n"
-"Packages removed: 0\n"
-"\n"
-"Errors: 0\n"
-"\n"
-msgstr ""
-
-#: summary-page.ui:92
+#: summary-page.ui:95
 msgid "Automatically closing in"
 msgstr ""
 
-#: summary-page.ui:99
-msgid "10"
-msgstr ""
-
-#: summary-page.ui:122
+#: summary-page.ui:125
 msgid "&Stop"
 msgstr ""
 
-#: summary-page.ui:172
+#: summary-page.ui:175
 msgid "&Back"
 msgstr ""
 
-#: summary-page.ui:179
+#: summary-page.ui:182
 msgid "&Finish"
 msgstr ""
 
@@ -1725,7 +1699,6 @@ msgstr ""
 
 #: zypp-history-browser.ui:14
 #, fuzzy
-#| msgid "Show &History"
 msgid "Zypp History"
 msgstr "Показывать &историю"
 
@@ -1739,19 +1712,16 @@ msgstr ""
 
 #: zypp-history-browser.ui:108
 #, fuzzy
-#| msgid "&Secondary Filter:"
 msgid "Cl&ear Filter"
 msgstr "&Дополнительный фильтр:"
 
 #: zypp-history-browser.ui:115
 #, fuzzy
-#| msgid "&File"
 msgid "&Filter..."
 msgstr "&Файл"
 
 #: zypp-history-browser.ui:144
 #, fuzzy
-#| msgid "Localization"
 msgid "Navigation"
 msgstr "Локализация"
 
@@ -1786,7 +1756,6 @@ msgstr ""
 
 #: zypp-history-filter-dialog.ui:142
 #, fuzzy
-#| msgid "Package History"
 msgid "Package by &Repository"
 msgstr "История пакетов"
 
@@ -1801,13 +1770,28 @@ msgstr "Пакет"
 
 #: zypp-history-filter-dialog.ui:240
 #, fuzzy
-#| msgid "Package &Groups"
 msgid "Package Re&move"
 msgstr "Группы &пакетов"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr ""
+
+#, qt-format
+#~ msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
+#~ msgstr "%1-%2 [ОТОЗВАН] от поставщика %3 (установлен)"
+
+#, qt-format
+#~ msgid "%1-%2 from vendor %3 (installed)"
+#~ msgstr "%1-%2 от поставщика %3 (установлен)"
+
+#, qt-format
+#~ msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
+#~ msgstr "%1-%2 [ОТОЗВАН] от %3 с приоритетом %4 и поставщиком %5"
+
+#, qt-format
+#~ msgid "%1-%2 from %3 with priority %4 and vendor %5"
+#~ msgstr "%1-%2 от %3 с приоритетом %4 и поставщиком %5"
 
 #~ msgid "Package History (/var/log/zypp/history)"
 #~ msgstr "История пакетов (/var/log/zypp/history)"
