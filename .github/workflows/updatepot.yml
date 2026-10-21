@@ -1,0 +1,46 @@
+name: Update pot
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-gettext:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Clone main project
+        run: |
+          git clone https://github.com/shundhammer/myrlyn.git myrlyn
+          ls -R myrlyn
+
+      - name: Install gettext
+        run: sudo apt-get update && sudo apt-get install -y gettext
+
+      - name: Generate POT file via makepot
+        run: |
+          cd myrlyn/src
+          chmod +x makepot
+          ./makepot
+
+      - name: Copy new POT 
+        run: |
+          cp myrlyn/src/myrlyn.pot po/myrlyn.pot
+
+      - name: Update PO files
+        run: |
+          for f in po/*.po; do
+            msgmerge --update --backup=none "$f" po/messages.pot
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add po/*.po po/myrlyn.pot
+          git commit -m "Update gettext catalogs" || echo "No changes"
+          git push
