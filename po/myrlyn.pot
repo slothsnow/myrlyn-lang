@@ -1121,6 +1121,14 @@ msgstr ""
 msgid "%1-%2 from vendor %3 (installed)"
 msgstr ""
 
+#: YQPkgVersionsView.cc:229
+msgid "Architecture"
+msgstr ""
+
+#: YQPkgVersionsView.cc:230
+msgid "Repository"
+msgstr ""
+
 #: YQPkgVersionsView.cc:399
 msgid ""
 "You are trying to install multiversion-capable\n"
