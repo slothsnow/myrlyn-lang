@@ -1198,6 +1198,14 @@ msgstr "%1-%2 [WYCOFANY] od dostawcy %3 (zainstalowany)"
 msgid "%1-%2 from vendor %3 (installed)"
 msgstr "%1-%2 od dostawcy %3 (zainstalowany)"
 
+#: YQPkgVersionsView.cc:229
+msgid "Architecture"
+msgstr "Architektura"
+
+#: YQPkgVersionsView.cc:230
+msgid "Repository"
+msgstr "Repozytorium"
+
 #: YQPkgVersionsView.cc:399
 msgid ""
 "You are trying to install multiversion-capable\n"
