@@ -4,12 +4,15 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-  
+
+
 jobs:
   update-gettext:
     runs-on: ubuntu-latest
     container:
       image: opensuse/tumbleweed
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Install required packages
@@ -22,6 +25,11 @@ jobs:
           git clone https://github.com/${GITHUB_REPOSITORY}.git repo
           cd repo
           git checkout "${GITHUB_REF_NAME}"
+
+      - name: Configure git remote with token
+        run: |
+          cd repo
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
       - name: Clone main project
         run: |
