@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-
+  
 jobs:
   update-gettext:
     runs-on: ubuntu-latest
@@ -12,19 +12,19 @@ jobs:
       image: opensuse/tumbleweed
 
     steps:
+      - name: Install required packages
+        run: |
+          zypper --non-interactive refresh
+          zypper --non-interactive install git gettext-tools qt6-tools-linguist sed grep
+
       - name: Checkout this repository
         uses: actions/checkout@v4
-        
+
       - name: Clone main project
         run: |
           git clone https://github.com/shundhammer/myrlyn.git myrlyn
-          ls -R myrlyn
-      
-      - name: Install gettext + Qt tools
-        run: |
-          zypper --non-interactive install qt6-tools-linguist gettext
-          
-      - name: Run makepot with Bash
+
+      - name: Run makepot
         run: |
           cd myrlyn/src
           ./makepot
@@ -36,7 +36,7 @@ jobs:
       - name: Merge PO files
         run: |
           for f in po/*.po; do
-            msgmerge --update --backup=none "$f" myrlyn/src/myrlyn.pot
+            msgmerge --update --backup=none "$f" po/myrlyn.pot
           done
 
       - name: Commit changes
