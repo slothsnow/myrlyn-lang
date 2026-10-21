@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-10-22 14:27+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -1200,23 +1217,20 @@ msgid "Authors:"
 msgstr "Autores:"
 
 #: YQPkgVersionsView.cc:241
-#, fuzzy
 msgid "Architecture"
-msgstr "Arquitectura:"
+msgstr "Arquitectura"
 
 #: YQPkgVersionsView.cc:242
-#, fuzzy
 msgid "Repository"
-msgstr "Nombre del repositorio:_"
+msgstr "Repositorio"
 
 #: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
 msgid "[RETRACTED]"
-msgstr ""
+msgstr "[RETIRADO]"
 
 #: YQPkgVersionsView.cc:411
-#, fuzzy
 msgid "(installed)"
-msgstr "Instalar"
+msgstr "(instalado)"
 
 #: YQPkgVersionsView.cc:598
 msgid ""
@@ -1315,24 +1329,7 @@ msgstr "Solo instalación/actualización de paquetes"
 
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
-msgstr "Sólo eliminar paquetes"
-
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-13 09:27+0000\n"
-"Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
-"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
+msgstr "Solo eliminar paquetes"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
