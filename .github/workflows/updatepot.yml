@@ -12,7 +12,12 @@ jobs:
     steps:
       - name: Checkout this repository
         uses: actions/checkout@v4
-
+        
+      - name: Clone main project
+        run: |
+          git clone https://github.com/shundhammer/myrlyn.git myrlyn
+          ls -R myrlyn
+      
       - name: Install gettext + Qt tools
         run: |
           sudo apt-get update
