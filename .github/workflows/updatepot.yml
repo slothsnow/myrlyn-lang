@@ -19,7 +19,7 @@ jobs:
           ls -R myrlyn
 
       - name: Install gettext
-        run: sudo apt-get update && sudo apt-get install -y gettext qt6-tools-dev-tools
+        run: sudo apt-get update && sudo apt-get install -y gettext qt6-tools-dev-tools qttools5-dev-tools
 
       - name: Generate POT file via makepot
         run: |
