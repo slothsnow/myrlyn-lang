@@ -17,8 +17,10 @@ jobs:
           zypper --non-interactive refresh
           zypper --non-interactive install git gettext-tools qt6-tools-linguist sed grep
 
-      - name: Checkout this repository
+      - name: Checkout repository inside container (with full .git)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Clone main project
         run: |
