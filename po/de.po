@@ -1180,7 +1180,7 @@ msgstr "[ZURÜCKGEZOGEN]"
 
 #: YQPkgVersionsView.cc:412
 msgid "(installed)"
-msgstr "(Installiert)"
+msgstr "(installiert)"
 
 #: YQPkgVersionsView.cc:599
 msgid ""
@@ -1750,11 +1750,11 @@ msgstr "&Installierte/aktualisierte Pakete"
 
 #: zypp-history-filter-dialog.ui:240
 msgid "Package Re&move"
-msgstr "Deinstallierte Pakete"
+msgstr "Dei&nstallierte Pakete"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
-msgstr "Installierte/gelöschte/URL Änderungen/&Alias Änderungen eines Repos"
+msgstr "Hinzufügen/Löschen/Änderung der URL/des &Alias eines Repos"
 
 #, qt-format
 #~ msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
