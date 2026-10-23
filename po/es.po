@@ -1,20 +1,3 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-22 14:27+0000\n"
-"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
-"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -423,7 +406,7 @@ msgstr ""
 "el directorio <br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
-#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "C&ontinuar"
 
@@ -597,7 +580,7 @@ msgstr "Ver. Disp."
 msgid "Inst. Ver."
 msgstr "Ver. Inst."
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
 #: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "Versión"
@@ -760,7 +743,7 @@ msgstr "Dependencias"
 msgid "Product"
 msgstr "Producto"
 
-#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:244
 msgid "Vendor"
 msgstr "Proveedor"
 
@@ -1216,23 +1199,23 @@ msgstr "Paquete fuente:"
 msgid "Authors:"
 msgstr "Autores:"
 
-#: YQPkgVersionsView.cc:241
+#: YQPkgVersionsView.cc:242
 msgid "Architecture"
 msgstr "Arquitectura"
 
-#: YQPkgVersionsView.cc:242
+#: YQPkgVersionsView.cc:243
 msgid "Repository"
 msgstr "Repositorio"
 
-#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+#: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
 msgstr "[RETIRADO]"
 
-#: YQPkgVersionsView.cc:411
+#: YQPkgVersionsView.cc:412
 msgid "(installed)"
 msgstr "(instalado)"
 
-#: YQPkgVersionsView.cc:598
+#: YQPkgVersionsView.cc:599
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1242,7 +1225,7 @@ msgstr ""
 "versiones compatibles y no compatibles\n"
 "de este paquete al mismo tiempo."
 
-#: YQPkgVersionsView.cc:606
+#: YQPkgVersionsView.cc:607
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1256,7 +1239,7 @@ msgstr ""
 "y desactive la versión que no es compatible con múltiples versiones,\n"
 "haga clic en «Cancelar» para desactivar esta versión y conservar la otra."
 
-#: YQPkgVersionsView.cc:615
+#: YQPkgVersionsView.cc:616
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1271,7 +1254,7 @@ msgstr ""
 "Haga clic en «Cancelar» para deseleccionar esta versión y conservar las "
 "demás versiones."
 
-#: YQPkgVersionsView.cc:624
+#: YQPkgVersionsView.cc:625
 msgid "Incompatible Package Versions"
 msgstr "Las versiones son incompatibles"
 
@@ -1330,6 +1313,23 @@ msgstr "Solo instalación/actualización de paquetes"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Solo eliminar paquetes"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-10-22 14:27+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"

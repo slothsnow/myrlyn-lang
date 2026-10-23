@@ -378,7 +378,7 @@ msgstr ""
 "<br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
-#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "П&родолжить"
 
@@ -552,7 +552,7 @@ msgstr "Дост. версия"
 msgid "Inst. Ver."
 msgstr "Уст. версия"
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
 #: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "Версия"
@@ -715,7 +715,7 @@ msgstr "Зависимости"
 msgid "Product"
 msgstr "Продукт"
 
-#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:244
 msgid "Vendor"
 msgstr "Поставщик"
 
@@ -1177,26 +1177,26 @@ msgstr "Исходный пакет:"
 msgid "Authors:"
 msgstr "Авторы:"
 
-#: YQPkgVersionsView.cc:241
+#: YQPkgVersionsView.cc:242
 #, fuzzy
 msgid "Architecture"
 msgstr "Архитектура:"
 
-#: YQPkgVersionsView.cc:242
+#: YQPkgVersionsView.cc:243
 #, fuzzy
 msgid "Repository"
 msgstr "Репозитории:"
 
-#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+#: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
 msgstr ""
 
-#: YQPkgVersionsView.cc:411
+#: YQPkgVersionsView.cc:412
 #, fuzzy
 msgid "(installed)"
 msgstr "Установить"
 
-#: YQPkgVersionsView.cc:598
+#: YQPkgVersionsView.cc:599
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1206,7 +1206,7 @@ msgstr ""
 "и немноговерсионную версии этого\n"
 "пакета."
 
-#: YQPkgVersionsView.cc:606
+#: YQPkgVersionsView.cc:607
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1220,7 +1220,7 @@ msgstr ""
 "и отменить выбор немноговерсионной версии,\n"
 "или \"Отмена\", чтобы отменить выбор этой версии и оставить другую."
 
-#: YQPkgVersionsView.cc:615
+#: YQPkgVersionsView.cc:616
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1234,7 +1234,7 @@ msgstr ""
 "и отменить выбор всех остальных версий,\n"
 "или \"Отмена\", чтобы отменить выбор этой версии и оставить остальные."
 
-#: YQPkgVersionsView.cc:624
+#: YQPkgVersionsView.cc:625
 msgid "Incompatible Package Versions"
 msgstr "Несовместимые версии пакета"
 

@@ -1,25 +1,3 @@
-# translation of qt-pkg.po to Japanese
-# Copyright (C) YEAR SuSE Linux AG, Nuernberg
-# This file is distributed under the same license as the PACKAGE package.
-#
-#
-# Yasuhiko Kamata <belphegor@belbel.or.jp>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-22 14:27+0000\n"
-"Last-Translator: belphegor-belbel <belphegor@belbel.or.jp>\n"
-"Language-Team: Japanese <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/ja/>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
-
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -407,7 +385,7 @@ msgstr ""
 "す。このログはディレクトリ <br><tt>%1</tt> に保存されます。</p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
-#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "続行(&O)"
 
@@ -577,7 +555,7 @@ msgstr "利用可能バージョン"
 msgid "Inst. Ver."
 msgstr "インストール済みバージョン"
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
 #: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "バージョン"
@@ -740,7 +718,7 @@ msgstr "依存関係"
 msgid "Product"
 msgstr "製品"
 
-#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:244
 msgid "Vendor"
 msgstr "製造元"
 
@@ -1188,23 +1166,23 @@ msgstr "ソースパッケージ:"
 msgid "Authors:"
 msgstr "著者:"
 
-#: YQPkgVersionsView.cc:241
+#: YQPkgVersionsView.cc:242
 msgid "Architecture"
 msgstr "アーキテクチャ"
 
-#: YQPkgVersionsView.cc:242
+#: YQPkgVersionsView.cc:243
 msgid "Repository"
 msgstr "リポジトリ"
 
-#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+#: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
 msgstr "[撤回済み]"
 
-#: YQPkgVersionsView.cc:411
+#: YQPkgVersionsView.cc:412
 msgid "(installed)"
 msgstr "(インストール済み)"
 
-#: YQPkgVersionsView.cc:598
+#: YQPkgVersionsView.cc:599
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1214,7 +1192,7 @@ msgstr ""
 "対応していないパッケージの両方を、\n"
 "同時にインストールしようとしています。"
 
-#: YQPkgVersionsView.cc:606
+#: YQPkgVersionsView.cc:607
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1229,7 +1207,7 @@ msgstr ""
 "このバージョンの選択を外すには、 \"キャンセル\" を押して他のものを選択してく"
 "ださい。"
 
-#: YQPkgVersionsView.cc:615
+#: YQPkgVersionsView.cc:616
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1244,7 +1222,7 @@ msgstr ""
 "このバージョンの選択を外すには、 \"キャンセル\" を押して他のものを選択してく"
 "ださい。"
 
-#: YQPkgVersionsView.cc:624
+#: YQPkgVersionsView.cc:625
 msgid "Incompatible Package Versions"
 msgstr "互換性のないパッケージバージョン"
 
@@ -1303,6 +1281,28 @@ msgstr "パッケージのインストール／更新のみ"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "パッケージ削除のみ"
+
+# translation of qt-pkg.po to Japanese
+# Copyright (C) YEAR SuSE Linux AG, Nuernberg
+# This file is distributed under the same license as the PACKAGE package.
+#
+#
+# Yasuhiko Kamata <belphegor@belbel.or.jp>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-10-22 14:27+0000\n"
+"Last-Translator: belphegor-belbel <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"

@@ -385,7 +385,7 @@ msgstr ""
 "journaux seront stockés dans le répertoire <br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
-#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "C&ontinuer"
 
@@ -562,7 +562,7 @@ msgstr "Dispo.Bloc."
 msgid "Inst. Ver."
 msgstr "Inst. Vers."
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
 #: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "Version"
@@ -725,7 +725,7 @@ msgstr "Dépendances"
 msgid "Product"
 msgstr "Produit"
 
-#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:244
 msgid "Vendor"
 msgstr "Vendeur"
 
@@ -1204,26 +1204,26 @@ msgstr "Paquet source :"
 msgid "Authors:"
 msgstr "Auteurs :"
 
-#: YQPkgVersionsView.cc:241
+#: YQPkgVersionsView.cc:242
 #, fuzzy
 msgid "Architecture"
 msgstr "Architecture :"
 
-#: YQPkgVersionsView.cc:242
+#: YQPkgVersionsView.cc:243
 #, fuzzy
 msgid "Repository"
 msgstr "Dépôts :"
 
-#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+#: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
 msgstr ""
 
-#: YQPkgVersionsView.cc:411
+#: YQPkgVersionsView.cc:412
 #, fuzzy
 msgid "(installed)"
 msgstr "Installer"
 
-#: YQPkgVersionsView.cc:598
+#: YQPkgVersionsView.cc:599
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1233,7 +1233,7 @@ msgstr ""
 "compatibles avec le multivers et des versions\n"
 "non compatibles avec le multivers de ce paquet."
 
-#: YQPkgVersionsView.cc:606
+#: YQPkgVersionsView.cc:607
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1247,7 +1247,7 @@ msgstr ""
 "et désélectionner la version ne prenant pas en charge le multiversion,\n"
 "ou sur « Annuler » pour désélectionner cette version et conserver l'autre."
 
-#: YQPkgVersionsView.cc:615
+#: YQPkgVersionsView.cc:616
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1261,7 +1261,7 @@ msgstr ""
 "et désélectionner toutes les autres versions,\n"
 "ou sur « Annuler » pour désélectionner cette version et conserver les autres."
 
-#: YQPkgVersionsView.cc:624
+#: YQPkgVersionsView.cc:625
 msgid "Incompatible Package Versions"
 msgstr "Versions de paquets incompatibles"
 

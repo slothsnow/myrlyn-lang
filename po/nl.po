@@ -385,7 +385,7 @@ msgstr ""
 "worden in map <br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
-#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "D&oorgaan"
 
@@ -556,7 +556,7 @@ msgstr "Besch. ver."
 msgid "Inst. Ver."
 msgstr "Geïnst. ver."
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
 #: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "Versie"
@@ -719,7 +719,7 @@ msgstr "Afhankelijkheden"
 msgid "Product"
 msgstr "Product"
 
-#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:244
 msgid "Vendor"
 msgstr "Leverancier"
 
@@ -1167,26 +1167,26 @@ msgstr "Bronpakket:"
 msgid "Authors:"
 msgstr "Auteurs:"
 
-#: YQPkgVersionsView.cc:241
+#: YQPkgVersionsView.cc:242
 #, fuzzy
 msgid "Architecture"
 msgstr "Architectuur:"
 
-#: YQPkgVersionsView.cc:242
+#: YQPkgVersionsView.cc:243
 #, fuzzy
 msgid "Repository"
 msgstr "_Opslagruimte:_"
 
-#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+#: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
 msgstr ""
 
-#: YQPkgVersionsView.cc:411
+#: YQPkgVersionsView.cc:412
 #, fuzzy
 msgid "(installed)"
 msgstr "Installeren"
 
-#: YQPkgVersionsView.cc:598
+#: YQPkgVersionsView.cc:599
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1196,7 +1196,7 @@ msgstr ""
 " te installeren tegelijk met de niet-multi-versie-\n"
 "mogelijk van dit pakket."
 
-#: YQPkgVersionsView.cc:606
+#: YQPkgVersionsView.cc:607
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1211,7 +1211,7 @@ msgstr ""
 "\"Annuleren\" om deze versie te deactiveren en de \n"
 "andere te behouden."
 
-#: YQPkgVersionsView.cc:615
+#: YQPkgVersionsView.cc:616
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1226,7 +1226,7 @@ msgstr ""
 "\"Annuleren\" om deze versie te deactiveren en \n"
 "de anderen te behouden."
 
-#: YQPkgVersionsView.cc:624
+#: YQPkgVersionsView.cc:625
 msgid "Incompatible Package Versions"
 msgstr "Incompatibele pakketversies"
 

@@ -375,7 +375,7 @@ msgstr ""
 "<br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
-#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:626
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "继续(&o)"
 
@@ -548,7 +548,7 @@ msgstr "可用版本.."
 msgid "Inst. Ver."
 msgstr "已安装版本.."
 
-#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:240
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
 #: zypp-history-browser.ui:162
 msgid "Version"
 msgstr "版本"
@@ -711,7 +711,7 @@ msgstr "依赖"
 msgid "Product"
 msgstr "产品"
 
-#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:243
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:244
 msgid "Vendor"
 msgstr "来源"
 
@@ -1170,26 +1170,26 @@ msgstr "源软件包:"
 msgid "Authors:"
 msgstr "作者:"
 
-#: YQPkgVersionsView.cc:241
+#: YQPkgVersionsView.cc:242
 #, fuzzy
 msgid "Architecture"
 msgstr "架构:"
 
-#: YQPkgVersionsView.cc:242
+#: YQPkgVersionsView.cc:243
 #, fuzzy
 msgid "Repository"
 msgstr "软件源:"
 
-#: YQPkgVersionsView.cc:288 YQPkgVersionsView.cc:743
+#: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
 msgstr ""
 
-#: YQPkgVersionsView.cc:411
+#: YQPkgVersionsView.cc:412
 #, fuzzy
 msgid "(installed)"
 msgstr "安装"
 
-#: YQPkgVersionsView.cc:598
+#: YQPkgVersionsView.cc:599
 msgid ""
 "You are trying to install multiversion-capable\n"
 "and non-multiversion-capable versions of this\n"
@@ -1199,7 +1199,7 @@ msgstr ""
 "支持多版本和不支持多版本的\n"
 "该软件包版本。"
 
-#: YQPkgVersionsView.cc:606
+#: YQPkgVersionsView.cc:607
 msgid ""
 "This version is multiversion-capable.\n"
 "\n"
@@ -1213,7 +1213,7 @@ msgstr ""
 "并取消选择不支持多版本的版本；\n"
 "点击“取消”以取消选择此版本并保留另一个版本。"
 
-#: YQPkgVersionsView.cc:615
+#: YQPkgVersionsView.cc:616
 msgid ""
 "This version is not multiversion-capable.\n"
 "\n"
@@ -1227,7 +1227,7 @@ msgstr ""
 "并取消选择所有其他版本；\n"
 "点击“取消”以取消选择此版本并保留其他版本。"
 
-#: YQPkgVersionsView.cc:624
+#: YQPkgVersionsView.cc:625
 msgid "Incompatible Package Versions"
 msgstr "软件包版本不兼容"
 
