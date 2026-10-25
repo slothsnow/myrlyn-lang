@@ -356,7 +356,7 @@ msgstr "&Experte"
 msgid "&Save This List to a File..."
 msgstr "Die&se Liste in einer Datei speichern..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1273
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -385,7 +385,7 @@ msgstr ""
 "Ihnen helfen, Fehler im Abhängigkeitsauflöser aufzuspüren. Die Protokolle "
 "werden im Verzeichnis gespeichert <br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1272 YQPkgSelector.cc:1324
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1269 YQPkgSelector.cc:1321
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "F&ortfahren"
@@ -481,8 +481,8 @@ msgid "Package Description"
 msgstr "Paketbeschreibung"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1548
-#: YQPkgSelector.cc:1718 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
+#: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "&OK"
@@ -783,11 +783,11 @@ msgstr "Status"
 msgid "&Search"
 msgstr "&Suche"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1289
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1286
 msgid "Patc&hes"
 msgstr "Patc&hes"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1290
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1287
 msgid "&Updates"
 msgstr "Akt&ualisierungen"
 
@@ -955,31 +955,39 @@ msgstr "Abhängigkeitsauflöser und &Testfall generieren"
 msgid "H&elp"
 msgstr "Hilf&e"
 
-#: YQPkgSelector.cc:910
+#: YQPkgSelector.cc:906
 msgid "&Overview"
 msgstr "Übersicht"
 
-#: YQPkgSelector.cc:912
+#: YQPkgSelector.cc:908
 msgid "About &Myrlyn"
 msgstr "Über &Myrlyn"
 
-#: YQPkgSelector.cc:913
+#: YQPkgSelector.cc:909
 msgid "About &Qt"
 msgstr "Über &Qt"
 
-#: YQPkgSelector.cc:918
+#: YQPkgSelector.cc:914
 msgid "Rep&ository Configuration"
 msgstr "Rep&ositoryverwaltung"
 
-#: YQPkgSelector.cc:919
+#: YQPkgSelector.cc:915
 msgid "Root &Authentication"
 msgstr "Root &Authentifizierung"
 
-#: YQPkgSelector.cc:1156
+#: YQPkgSelector.cc:916
+msgid "&Development Status"
+msgstr ""
+
+#: YQPkgSelector.cc:917
+msgid "&Latest Release"
+msgstr ""
+
+#: YQPkgSelector.cc:1153
 msgid "All package dependencies are OK."
 msgstr "Alle Paketabhängigkeiten sind in Ordnung."
 
-#: YQPkgSelector.cc:1264
+#: YQPkgSelector.cc:1261
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -995,20 +1003,20 @@ msgstr ""
 "das Programm neu starten, und alle Paketänderungen\n"
 "gehen verloren.\n"
 
-#: YQPkgSelector.cc:1322
+#: YQPkgSelector.cc:1319
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 Pakete werden aktualisiert"
 
-#: YQPkgSelector.cc:1352
+#: YQPkgSelector.cc:1349
 msgid "Dist-Upgrade Mode"
 msgstr "Distributions Upgrade Modus"
 
-#: YQPkgSelector.cc:1353
+#: YQPkgSelector.cc:1350
 msgid "Package Update Mode"
 msgstr "Aktualisierungs-Modus"
 
-#: YQPkgSelector.cc:1391
+#: YQPkgSelector.cc:1388
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1017,7 +1025,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Wechseln von Systempaketen</a> zu den "
 "Versionen in diesem Repository (%2)</p>"
 
-#: YQPkgSelector.cc:1416
+#: YQPkgSelector.cc:1413
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1026,7 +1034,7 @@ msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">Abbrechen der Umstellung</a> von "
 "Systempaketen auf Versionen im Repository %2</p>"
 
-#: YQPkgSelector.cc:1492
+#: YQPkgSelector.cc:1489
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1039,7 +1047,7 @@ msgstr ""
 "\n"
 "Keine Berechtigung?"
 
-#: YQPkgSelector.cc:1504
+#: YQPkgSelector.cc:1501
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1052,7 +1060,7 @@ msgstr ""
 "\n"
 "Logs prüfen!"
 
-#: YQPkgSelector.cc:1547 YQPkgSelector.cc:1716
+#: YQPkgSelector.cc:1544 YQPkgSelector.cc:1713
 msgid "Added Subpackages:"
 msgstr "Hinzugefügte Unterpakete:"
 
