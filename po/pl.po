@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: qt-pkg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-25 09:03+0000\n"
+"PO-Revision-Date: 2026-10-26 11:07+0000\n"
 "Last-Translator: byDMA <byDMApl@yandex.com>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/pl/>\n"
@@ -1001,11 +1001,11 @@ msgstr "Tryb &administratora (root) i logowanie"
 
 #: YQPkgSelector.cc:916
 msgid "&Development Status"
-msgstr ""
+msgstr "&Status prac programistycznych"
 
 #: YQPkgSelector.cc:917
 msgid "&Latest Release"
-msgstr ""
+msgstr "&Najnowsza wersja"
 
 #: YQPkgSelector.cc:1153
 msgid "All package dependencies are OK."
