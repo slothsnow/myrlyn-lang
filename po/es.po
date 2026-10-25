@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-10-26 11:07+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -1011,11 +1028,11 @@ msgstr "Autenticación de root"
 
 #: YQPkgSelector.cc:916
 msgid "&Development Status"
-msgstr ""
+msgstr "Estado del proyecto"
 
 #: YQPkgSelector.cc:917
 msgid "&Latest Release"
-msgstr ""
+msgstr "Última versión"
 
 #: YQPkgSelector.cc:1153
 msgid "All package dependencies are OK."
@@ -1321,23 +1338,6 @@ msgstr "Solo instalación/actualización de paquetes"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Solo eliminar paquetes"
-
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-22 14:27+0000\n"
-"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
-"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
