@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-25 09:03+0000\n"
+"PO-Revision-Date: 2026-10-26 11:07+0000\n"
 "Last-Translator: byDMA <byDMApl@yandex.com>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/de/>\n"
@@ -994,11 +994,11 @@ msgstr "Root &Authentifizierung"
 
 #: YQPkgSelector.cc:916
 msgid "&Development Status"
-msgstr ""
+msgstr "&Entwicklungsstatus"
 
 #: YQPkgSelector.cc:917
 msgid "&Latest Release"
-msgstr ""
+msgstr "&Neueste Version"
 
 #: YQPkgSelector.cc:1153
 msgid "All package dependencies are OK."
