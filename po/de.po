@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-10-28 08:43+0000\n"
+"Last-Translator: byDMA <byDMApl@yandex.com>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -71,15 +88,15 @@ msgstr ""
 
 #: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"
-msgstr "Zu erledigen"
+msgstr "Aufgabenwarteschlange"
 
 #: PkgCommitPage.cc:146 pkg-commit-page.ui:238
 msgid "Downloads"
-msgstr "Downloads"
+msgstr "Herunterladen"
 
 #: PkgCommitPage.cc:147 pkg-commit-page.ui:376
 msgid "Done"
-msgstr "Fertig"
+msgstr "Abgearbeitete Aufgaben"
 
 #: PkgCommitPage.cc:292 pkg-commit-page.ui:61
 msgid "Hide &Details"
@@ -113,7 +130,7 @@ msgstr "[Post-Transaktions-Skripte]"
 
 #: PkgCommitPage.cc:1122
 msgid "File Conflict"
-msgstr "Datei Konflikt"
+msgstr "Datei-Konflikt"
 
 #: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
 #: YQPkgServiceList.cc:46 zypp-history-browser.ui:157
@@ -265,7 +282,7 @@ msgstr "Aufgrund von Abhängigkeiten aktualisierte Pakete: %1"
 #: SummaryPage.cc:318
 #, qt-format
 msgid "To do: %1"
-msgstr "Zu erledigen: %1"
+msgstr "Aufgabenwarteschlange: %1"
 
 #: SummaryPage.cc:367
 #, qt-format
@@ -515,7 +532,7 @@ msgstr "%1 Dateien insgesamt"
 
 #: YQPkgFilterTab.cc:124
 msgid "&View"
-msgstr "Ansicht"
+msgstr "Ansich&t"
 
 #: YQPkgFilterTab.cc:233
 msgid "Move page &left"
@@ -544,7 +561,7 @@ msgstr "Paket"
 #: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
 #: summary-page.ui:36
 msgid "Summary"
-msgstr "Übersichtsseite"
+msgstr "Übersichtsseite anzeigen"
 
 #: YQPkgList.cc:54
 msgid "Installed (Available)"
@@ -623,7 +640,7 @@ msgstr "Tabu – Niemals installieren"
 
 #: YQPkgObjList.cc:232 status-filter-view.ui:83
 msgid "Update"
-msgstr "Update"
+msgstr "Aktualisierung"
 
 #: YQPkgObjList.cc:234
 msgid "Autodelete"
@@ -655,7 +672,7 @@ msgstr "(nach Abhängigkeiten)"
 
 #: YQPkgPatchFilterView.cc:59
 msgid "&Show Patch Category:"
-msgstr "Patch-Kategorie anzeigen:"
+msgstr "Patc&h-Kategorie anzeigen:"
 
 #: YQPkgPatchFilterView.cc:65
 msgid "Needed Patches"
@@ -735,7 +752,7 @@ msgstr "Sperre aufheben"
 
 #: YQPkgRpmGroupsFilterView.cc:32
 msgid "RPM Groups"
-msgstr "&RPM-Gruppen"
+msgstr "RPM-Gruppen"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
@@ -802,7 +819,7 @@ msgstr "RPM-&Gruppen"
 
 #: YQPkgSelector.cc:370
 msgid "Repository Index Ser&vices"
-msgstr "Repository Index Dienste"
+msgstr "Repository Inde&x Dienste"
 
 #: YQPkgSelector.cc:383
 msgid "Pa&tterns"
@@ -814,11 +831,11 @@ msgstr "Paketklassi&fizierung"
 
 #: YQPkgSelector.cc:405
 msgid "&Languages"
-msgstr "Sprachen"
+msgstr "Sprache&n"
 
 #: YQPkgSelector.cc:415
 msgid "Installation Su&mmary"
-msgstr "Installationsübersicht"
+msgstr "Insta&llationsübersicht"
 
 #: YQPkgSelector.cc:543
 msgid "Description"
@@ -850,7 +867,7 @@ msgstr "&Akzeptieren"
 
 #: YQPkgSelector.cc:692
 msgid "&File"
-msgstr "Datei"
+msgstr "&Datei"
 
 #: YQPkgSelector.cc:695
 msgid "&Accept Changes"
@@ -858,7 +875,7 @@ msgstr "Änderungen &akzeptieren"
 
 #: YQPkgSelector.cc:697
 msgid "&Quit - Discard Changes"
-msgstr "Beenden – Änderungen verwerfen"
+msgstr "Beenden – Änderungen &verwerfen"
 
 #: YQPkgSelector.cc:709
 msgid "&Package"
@@ -874,7 +891,7 @@ msgstr "&Abhängigkeiten"
 
 #: YQPkgSelector.cc:786
 msgid "&Check Now"
-msgstr "Jetzt überprüfen"
+msgstr "&Jetzt überprüfen"
 
 #: YQPkgSelector.cc:788
 msgid "&Autocheck"
@@ -894,7 +911,7 @@ msgstr "-de&vel-Pakete anzeigen"
 
 #: YQPkgSelector.cc:818
 msgid "Show -&debuginfo/-debugsource Packages"
-msgstr "--&debuginfo/-debugsource-Pakete anzeigen"
+msgstr "-&debuginfo/-debugsource-Pakete anzeigen"
 
 #: YQPkgSelector.cc:828
 msgid "&System Verification Mode"
@@ -910,7 +927,7 @@ msgstr "Beim Lös&chen von Paketen bereinigen"
 
 #: YQPkgSelector.cc:841
 msgid "&Allow vendor change"
-msgstr "&Anbieterwechsel zulassen"
+msgstr "&Anbieterwechsel erlauben"
 
 #: YQPkgSelector.cc:853
 msgid "E&xtras"
@@ -926,11 +943,11 @@ msgstr "&Produkte anzeigen"
 
 #: YQPkgSelector.cc:864
 msgid "Show Package &Changes"
-msgstr "Paketänderungen anzeigen"
+msgstr "Paketänderungen an&zeigen"
 
 #: YQPkgSelector.cc:866
 msgid "Show &History"
-msgstr "Verlauf anzeigen"
+msgstr "Verlau&f anzeigen"
 
 #: YQPkgSelector.cc:873
 msgid "Install All Matching -devel Packages"
@@ -958,7 +975,7 @@ msgstr "Hilf&e"
 
 #: YQPkgSelector.cc:906
 msgid "&Overview"
-msgstr "Übersicht"
+msgstr "Über&sicht"
 
 #: YQPkgSelector.cc:908
 msgid "About &Myrlyn"
@@ -1011,7 +1028,7 @@ msgstr "%1 Pakete werden aktualisiert"
 
 #: YQPkgSelector.cc:1349
 msgid "Dist-Upgrade Mode"
-msgstr "Distributions Upgrade Modus"
+msgstr "Distributions-Upgrade-Modus"
 
 #: YQPkgSelector.cc:1350
 msgid "Package Update Mode"
@@ -1132,7 +1149,7 @@ msgstr "Installationsdatum:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
 msgid "RPM Group:"
-msgstr "&RPM-Gruppen:"
+msgstr "RPM-Gruppe:"
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1144,7 +1161,7 @@ msgstr "Installierte Größe:"
 
 #: YQPkgTechnicalDetailsView.cc:142 YQPkgTechnicalDetailsView.cc:186
 msgid "Download Size:"
-msgstr "Download Größe:"
+msgstr "Download-Größe:"
 
 #: YQPkgTechnicalDetailsView.cc:143 YQPkgTechnicalDetailsView.cc:187
 msgid "Distribution:"
@@ -1291,23 +1308,6 @@ msgstr "Nur installierte/aktualisierte Pakete"
 msgid "Only package removal"
 msgstr "Nur deinstallierte Pakete"
 
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-26 11:07+0000\n"
-"Last-Translator: byDMA <byDMApl@yandex.com>\n"
-"Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "Über Myrlyn"
@@ -1375,20 +1375,19 @@ msgstr "Paketliste / Repositories auffrischen"
 
 #: ../aux/myrlyn-askpass.ui:14
 msgid "Myrlyn-Password"
-msgstr ""
+msgstr "Myrlyn-Passwort"
 
 #: ../aux/myrlyn-askpass.ui:35
-#, fuzzy
 msgid "### Authentication for Myrlyn"
-msgstr "Root &Authentifizierung"
+msgstr "### Authentifizierung für Myrlyn"
 
 #: ../aux/myrlyn-askpass.ui:84
 msgid "Enter your user password:"
-msgstr ""
+msgstr "Benutzer-Passwort eingeben:"
 
 #: ../aux/myrlyn-askpass.ui:94
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
@@ -1396,7 +1395,7 @@ msgstr "Pakete installieren / löschen"
 
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr "In Bearbeitung"
+msgstr "Soeben in Bearbeitung"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -1412,11 +1411,11 @@ msgstr "S&chließen"
 
 #: repo-config.ui:14
 msgid "Repository Configuration"
-msgstr "Repository Verwaltung"
+msgstr "Repository-Verwaltung"
 
 #: repo-config.ui:41
 msgid "**Repository Configuration**"
-msgstr "**Repository Verwaltung**"
+msgstr "**Repository-Verwaltung**"
 
 #: repo-config.ui:94
 msgid "**PackMan**"
@@ -1424,7 +1423,7 @@ msgstr "**PackMan**"
 
 #: repo-config.ui:154
 msgid "Raw URL:"
-msgstr "Raw URL:"
+msgstr "Raw-URL:"
 
 #: repo-config.ui:208
 msgid "&Priority:"
@@ -1444,7 +1443,7 @@ msgstr "1: höchste; 200: niedrigste"
 
 #: repo-config.ui:334
 msgid "&Add"
-msgstr "Hinzufügen"
+msgstr "&Hinzufügen"
 
 #: repo-config.ui:341
 msgid "&Edit"
@@ -1456,7 +1455,7 @@ msgstr "&Löschen"
 
 #: repo-config.ui:368
 msgid "<i>Restart needed!</i>"
-msgstr "<i>Neustart benötigt!</i>"
+msgstr "<i>Neustart erforderlich!</i>"
 
 #: repo-edit-add.ui:98
 msgid "Custom &Repository"
@@ -1464,7 +1463,7 @@ msgstr "Benutzerdefiniertes &Repository"
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
-msgstr "Co&mmunity Repository"
+msgstr "Co&mmunity-Repository"
 
 #: repo-edit-add.ui:254 search-filter-view.ui:87
 msgid "&Name"
@@ -1476,7 +1475,7 @@ msgstr "Name des Repositories"
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr "Raw &URL"
+msgstr "Raw-&URL"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -1508,7 +1507,7 @@ msgstr "_Verschlüsselungsverfahren:_"
 
 #: repo-gpg-key-import-dialog.ui:181
 msgid "_Key ID:_"
-msgstr "_Schlüssel ID:_"
+msgstr "_Schlüssel-ID:_"
 
 #: repo-gpg-key-import-dialog.ui:201
 msgid "_Created:_"
@@ -1520,7 +1519,7 @@ msgstr "_Ablaufdatum:_"
 
 #: repo-gpg-key-import-dialog.ui:274
 msgid "&Trust"
-msgstr "Vertrauen"
+msgstr "Ver&trauen"
 
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
@@ -1528,11 +1527,11 @@ msgstr "Suche nach Text oder Schemata"
 
 #: search-filter-view.ui:78
 msgid "Search In"
-msgstr "Suche In"
+msgstr "Suche in"
 
 #: search-filter-view.ui:97
 msgid "Su&mmary"
-msgstr "Zusammenfassung"
+msgstr "Zusa&mmenfassung"
 
 #: search-filter-view.ui:104
 msgid "D&escription"
@@ -1540,11 +1539,11 @@ msgstr "B&eschreibung"
 
 #: search-filter-view.ui:127
 msgid "RPM P&rovides"
-msgstr "RPM Bietet an"
+msgstr "&RPM Bietet an"
 
 #: search-filter-view.ui:134
 msgid "RPM Re&quires"
-msgstr "RPM Benötigt"
+msgstr "RPM &Benötigt"
 
 #: search-filter-view.ui:141
 msgid "RPM Recommends"
@@ -1556,7 +1555,7 @@ msgstr "Datei&liste"
 
 #: search-filter-view.ui:198
 msgid "Searc&h Mode:"
-msgstr "Suchmodus:"
+msgstr "Suc&hmodus:"
 
 #: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
 #: zypp-history-filter-dialog.ui:184
@@ -1590,7 +1589,7 @@ msgstr "Regulären Ausdruck verwenden"
 
 #: search-filter-view.ui:244
 msgid "Detected:"
-msgstr "Entdeckt:"
+msgstr "Erkannt:"
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
@@ -1604,7 +1603,7 @@ msgstr "..."
 # shortened; cf. #46275 -ke-
 #: search-filter-view.ui:295
 msgid "Case Sens&itive"
-msgstr "Groß-/Kleinschreibung beachten"
+msgstr "Groß-/Kle&inschreibung beachten"
 
 #: status-filter-view.ui:32
 msgid "Show Packages with Status"
@@ -1638,7 +1637,7 @@ msgstr ""
 
 #: status-filter-view.ui:354
 msgid "Defaults"
-msgstr "Voreinstellungen"
+msgstr "Voreinstellungen laden"
 
 #: status-filter-view.ui:361 updates-filter-view.ui:242
 msgid "Refresh List"
@@ -1650,15 +1649,15 @@ msgstr "Automatisch schliessen in"
 
 #: summary-page.ui:125
 msgid "&Stop"
-msgstr "Abbrechen"
+msgstr "Ab&brechen"
 
 #: summary-page.ui:175
 msgid "&Back"
-msgstr "Zurück"
+msgstr "&Zurück"
 
 #: summary-page.ui:182
 msgid "&Finish"
-msgstr "Beenden"
+msgstr "&Beenden"
 
 #: updates-filter-view.ui:35
 msgid "Updates"
@@ -1683,14 +1682,14 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper up\" command."
 msgstr ""
-"Markiere alle Pakete zum Aktualisieren, die ohne Abhängigkeitsprobleme "
+"Markiert alle Pakete zum Aktualisieren, die ohne Abhängigkeitsprobleme "
 "aktualisiert werden können.\n"
 "\n"
 "Dies entspricht dem Befehl \"zypper up“."
 
 #: updates-filter-view.ui:172
 msgid "D&ist-Upgrade"
-msgstr "D&istributions Aktualisierung"
+msgstr "D&istributions-Aktualisierung"
 
 #: updates-filter-view.ui:194
 msgid ""
@@ -1702,7 +1701,7 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper dup\" command."
 msgstr ""
-"Führen Sie ein Distributions-Upgrade durch: Markieren Sie alle Pakete zum "
+"Führt ein Distributions-Upgrade durch: Markiert alle Pakete zum "
 "Aktualisieren, die ohne Abhängigkeitsprobleme aktualisiert werden können.\n"
 "\n"
 "Dabei werden Paketsplits, Paketumbenennungen, Aktualisierungen von Schemata "
@@ -1720,7 +1719,7 @@ msgstr "**Verlauf**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
-msgstr "Kein Fi&lter"
+msgstr "Kein Filter"
 
 #: zypp-history-browser.ui:108
 msgid "Cl&ear Filter"
@@ -1744,7 +1743,7 @@ msgstr "Repository"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr "Zähler (+/-) anzeigen"
+msgstr "&Zähler (+/-) anzeigen"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
@@ -1752,7 +1751,7 @@ msgstr "Verlaufs-Filter"
 
 #: zypp-history-filter-dialog.ui:38
 msgid "**Zypp History Filter**"
-msgstr "**Filter Einstellungen**"
+msgstr "**Filter-Einstellungen**"
 
 #: zypp-history-filter-dialog.ui:51
 msgid "Package by &Name"
