@@ -1,10 +1,31 @@
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Mariusz Fik <fisiu@opensuse.org>, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-10-28 08:43+0000\n"
+"Last-Translator: byDMA <byDMApl@yandex.com>\n"
+"Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.10.1\n"
+
 #: MyrlynApp.cc:209
 msgid " [root]"
-msgstr " [root | Tryb administratora]"
+msgstr " [root]"
 
 #: MyrlynApp.cc:212 RepoConfigDialog.cc:64
 msgid " (read-only)"
-msgstr " (read-only | Tryb tylko do przeglądania)"
+msgstr " (do przeglądania)"
 
 #: MyrlynApp.cc:233
 msgid "Preparing the package selector..."
@@ -80,7 +101,7 @@ msgstr "Pobieranie pakietów"
 
 #: PkgCommitPage.cc:147 pkg-commit-page.ui:376
 msgid "Done"
-msgstr "Gotowe"
+msgstr "Zakończone zadania"
 
 #: PkgCommitPage.cc:292 pkg-commit-page.ui:61
 msgid "Hide &Details"
@@ -110,7 +131,7 @@ msgstr "Błąd podczas instalowania pakietu %1"
 
 #: PkgCommitPage.cc:972
 msgid "[Post-transaction scripts]"
-msgstr "[Skrypty-post-instalacyjne]"
+msgstr "[Skrypty-po-instalacyjne]"
 
 #: PkgCommitPage.cc:1122
 msgid "File Conflict"
@@ -163,7 +184,7 @@ msgstr ""
 
 #: RepoEditDialog.cc:105
 msgid "See also  'man zypper'"
-msgstr "Sprawdź dokumentację 'man zypper'"
+msgstr "Sprawdź dokumentację  'man zypper'"
 
 #: RepoEditDialog.cc:113
 msgid "Add Repository"
@@ -184,7 +205,7 @@ msgstr "Niepoprawny wpis: "
 #: RepoGpgKeyImportDialog.cc:110
 #, qt-format
 msgid "Repository \"%1\" will be temporarily disabled."
-msgstr "Repozytorium \"%1\" będzie czasowo wyłączone."
+msgstr "Repozytorium \"%1\" zostanie czasowo wyłączone."
 
 #: RepoTable.cc:40
 msgid "Priority"
@@ -226,7 +247,7 @@ msgstr "Zamknij po %1 sekundach"
 
 #: SummaryPage.cc:267
 msgid "No package changes."
-msgstr "Żadnych zmian pakietów."
+msgstr "Brak zmian pakietów."
 
 #: SummaryPage.cc:311
 #, qt-format
@@ -284,9 +305,7 @@ msgstr "Informacje dostępne tylko dla zainstalowanych pakietów."
 #: YQPkgChangeLogView.cc:116
 #, qt-format
 msgid "(%1 more; run \"%2\" to see the complete change log)"
-msgstr ""
-"(Liczba niewyświetlanych wpisów: %1. Uruchom \"%2\", aby zobaczyć pełny "
-"dziennik zmian)"
+msgstr "(dodatkowo: %1; Uruchom \"%2\", aby zobaczyć pełny dziennik zmian)"
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
@@ -355,7 +374,7 @@ msgstr "Tryb &eksperta"
 
 #: YQPkgConflictDialog.cc:129
 msgid "&Save This List to a File..."
-msgstr "&Zapisz listę do pliku..."
+msgstr "Zapi&sz listę do pliku..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
@@ -493,7 +512,7 @@ msgstr "&OK"
 
 #: YQPkgDescriptionView.cc:88
 msgid "References:"
-msgstr "Odniesienia:"
+msgstr "Powiązania:"
 
 #: YQPkgDescriptionView.cc:237
 msgid "This package contains: "
@@ -547,7 +566,7 @@ msgstr "Pakiet"
 #: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
 #: summary-page.ui:36
 msgid "Summary"
-msgstr "Podsumowanie"
+msgstr "Pokaż podsumowanie"
 
 #: YQPkgList.cc:54
 msgid "Installed (Available)"
@@ -634,11 +653,11 @@ msgstr "Usuwany automatycznie"
 
 #: YQPkgObjList.cc:235
 msgid "Autoinstall"
-msgstr "Instalowany automatycznie"
+msgstr "Autoinstalacja"
 
 #: YQPkgObjList.cc:236
 msgid "Autoupdate"
-msgstr "Aktualizowany automatycznie"
+msgstr "Automatyczna aktualizacja"
 
 #: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
 msgid "Update unconditionally"
@@ -650,7 +669,7 @@ msgstr "Aktualizuj, jeśli jest dostępna nowsza wersja"
 
 #: YQPkgObjList.cc:1283
 msgid "(by a software selection)"
-msgstr "(poprzez zestaw)"
+msgstr "(poprzez wybór)"
 
 #: YQPkgObjList.cc:1285
 msgid "(by dependencies)"
@@ -686,11 +705,11 @@ msgstr "zabezpieczenia"
 
 #: YQPkgPatchList.cc:591
 msgid "recommended"
-msgstr "zalecana"
+msgstr "zalecane"
 
 #: YQPkgPatchList.cc:592
 msgid "optional"
-msgstr "opcjonalna"
+msgstr "opcjonalne"
 
 #: YQPkgPatchList.cc:593
 msgid "feature"
@@ -738,7 +757,7 @@ msgstr "Zdejmij blokadę"
 
 #: YQPkgRpmGroupsFilterView.cc:32
 msgid "RPM Groups"
-msgstr "Grupy &RPM"
+msgstr "Grupy RPM"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
@@ -777,7 +796,7 @@ msgstr "Niezainstalowane pakiety"
 
 #: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
-msgstr "Wyszukiwanie"
+msgstr "Szukaj"
 
 #: YQPkgSecondaryFilterView.cc:132
 msgid "Status"
@@ -813,7 +832,7 @@ msgstr "&Wzorce"
 
 #: YQPkgSelector.cc:394
 msgid "Package Classi&fication"
-msgstr "Klasyfikacja pakietów"
+msgstr "Klasy&fikacja pakietów"
 
 #: YQPkgSelector.cc:405
 msgid "&Languages"
@@ -865,7 +884,7 @@ msgstr "&Wyjdź -- pomiń zmiany"
 
 #: YQPkgSelector.cc:709
 msgid "&Package"
-msgstr "Paki&ety"
+msgstr "&Pakiety"
 
 #: YQPkgSelector.cc:758
 msgid "Patch"
@@ -901,7 +920,7 @@ msgstr "Pokaż pakiety -&debuginfo/-debugsource"
 
 #: YQPkgSelector.cc:828
 msgid "&System Verification Mode"
-msgstr "&Tryb weryfikacji systemu"
+msgstr "Tryb weryfikacji &systemu"
 
 #: YQPkgSelector.cc:835
 msgid "Options for this run only"
@@ -977,7 +996,7 @@ msgstr "Konfi&guracja repozytoriów"
 
 #: YQPkgSelector.cc:915
 msgid "Root &Authentication"
-msgstr "Tryb &administratora (root) i logowanie"
+msgstr "Uwierzytelni&anie (root) i logowanie"
 
 #: YQPkgSelector.cc:916
 msgid "&Development Status"
@@ -1000,7 +1019,7 @@ msgid ""
 "restart the program, and all package changes\n"
 "will be lost.\n"
 msgstr ""
-"Istnieją zmiany oczekujące na zapis.\n"
+"Dokonano zmian, które oczekują na dalsze działanie.\n"
 "\n"
 "Jeżeli będzie kontynuowana konfiguracja\n"
 "repozytorium i coś zostanie zmienione, konieczny\n"
@@ -1090,7 +1109,7 @@ msgstr ""
 
 #: YQPkgSelectorBase.cc:148
 msgid "C&ontinue Anyway"
-msgstr "&Kontynuuj mimo wszystko"
+msgstr "K&ontynuuj mimo wszystko"
 
 #: YQPkgSelectorBase.cc:160
 msgid "The following items will be changed: "
@@ -1098,7 +1117,7 @@ msgstr "Następujące elementy zostaną zmienione: "
 
 #: YQPkgSelectorBase.cc:210
 msgid "Really abandon all changes and exit?"
-msgstr "Czy chcesz porzucić wszystkie zmiany i zamknąć?"
+msgstr "Czy porzucić wszystkie zmiany i zamknąć?"
 
 #: YQPkgSelectorBase.cc:265
 msgid ""
@@ -1110,7 +1129,7 @@ msgstr ""
 
 #: YQPkgSelectorBase.cc:367
 msgid "Not implemented yet"
-msgstr "Przepraszamy. Ta funkcja nie jest jeszcze zaimplementowana."
+msgstr "Ta funkcja nie jest jeszcze zaimplementowana."
 
 #: YQPkgServiceList.cc:202
 msgid "URL: "
@@ -1134,7 +1153,7 @@ msgstr "Czas instalacji:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
 msgid "RPM Group:"
-msgstr "Grupy &RPM:"
+msgstr "Grupa RPM:"
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1272,7 +1291,7 @@ msgstr "<i>Bez filtra</i>"
 
 #: ZyppHistoryFilter.cc:26
 msgid "Only repo events"
-msgstr "Działania na repozytoriach"
+msgstr "Tylko zmiany repozytoriów"
 
 #: ZyppHistoryFilter.cc:57
 #, qt-format
@@ -1291,27 +1310,6 @@ msgstr "Wyłącznie zainstalowane / zaktualizowane pakiety"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Wyłącznie pakiety usunięte"
-
-# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
-# This file is distributed under the same license as the package.
-#
-# Mariusz Fik <fisiu@opensuse.org>, 2013, 2014.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-26 11:07+0000\n"
-"Last-Translator: byDMA <byDMApl@yandex.com>\n"
-"Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/pl/>\n"
-"Language: pl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -1380,20 +1378,19 @@ msgstr "Inicjalizacja repozytoriów"
 
 #: ../aux/myrlyn-askpass.ui:14
 msgid "Myrlyn-Password"
-msgstr ""
+msgstr "Hasło do programu Myrlyn"
 
 #: ../aux/myrlyn-askpass.ui:35
-#, fuzzy
 msgid "### Authentication for Myrlyn"
-msgstr "Tryb &administratora (root) i logowanie"
+msgstr "### Uwierzytelnienie dla programu Myrlyn"
 
 #: ../aux/myrlyn-askpass.ui:84
 msgid "Enter your user password:"
-msgstr ""
+msgstr "Wpisz swoje hasło użytkownika:"
 
 #: ../aux/myrlyn-askpass.ui:94
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
@@ -1401,7 +1398,7 @@ msgstr "Instalacja / Usuwanie pakietów"
 
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr "Właśnie instalowane"
+msgstr "Działanie w toku"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
@@ -1429,7 +1426,7 @@ msgstr "**PackMan**"
 
 #: repo-config.ui:154
 msgid "Raw URL:"
-msgstr "Adres Raw URL:"
+msgstr "Adres Raw-URL:"
 
 #: repo-config.ui:208
 msgid "&Priority:"
@@ -1481,7 +1478,7 @@ msgstr "Nazwa repozytorium"
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr "Adres Raw &URL"
+msgstr "Adres Raw-&URL"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
@@ -1545,11 +1542,11 @@ msgstr "&Opisach"
 
 #: search-filter-view.ui:127
 msgid "RPM P&rovides"
-msgstr "RPM \"&dostarcza\""
+msgstr "&RPM \"dostarcza\""
 
 #: search-filter-view.ui:134
 msgid "RPM Re&quires"
-msgstr "RPM \"wymaga\""
+msgstr "RPM \"wyma&ga\""
 
 #: search-filter-view.ui:141
 msgid "RPM Recommends"
@@ -1607,7 +1604,7 @@ msgstr "..."
 
 #: search-filter-view.ui:295
 msgid "Case Sens&itive"
-msgstr "Rozróżniaj wielkość &liter"
+msgstr "Rozróżniaj w&ielkość liter"
 
 #: status-filter-view.ui:32
 msgid "Show Packages with Status"
@@ -1641,7 +1638,7 @@ msgstr ""
 
 #: status-filter-view.ui:354
 msgid "Defaults"
-msgstr "Domyślne"
+msgstr "Przywróć ustawienia domyślne"
 
 #: status-filter-view.ui:361 updates-filter-view.ui:242
 msgid "Refresh List"
@@ -1719,7 +1716,7 @@ msgstr "Historia zmian"
 
 #: zypp-history-browser.ui:66
 msgid "**Zypp History**"
-msgstr "**Historia aktualizacji**"
+msgstr "**Historia zmian**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
@@ -1747,7 +1744,7 @@ msgstr "Repozytorium"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr "Pokaż licznik (+/-)"
+msgstr "Pokaż lic&znik (+/-)"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
@@ -1775,11 +1772,11 @@ msgstr "Alias repozytorium lub wzorzec"
 
 #: zypp-history-filter-dialog.ui:233
 msgid "Package &Install / Update"
-msgstr "Pakiety zainstalowane / zaktualizowane"
+msgstr "Pakiety za&instalowane / zaktualizowane"
 
 #: zypp-history-filter-dialog.ui:240
 msgid "Package Re&move"
-msgstr "Pakiety usunięte"
+msgstr "Pakiety usu&nięte"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
