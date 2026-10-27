@@ -1,20 +1,3 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
-"POT-Creation-Date: 2026-01-24 04:33+0000\n"
-"PO-Revision-Date: 2026-10-26 11:07+0000\n"
-"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
-"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/sv/>\n"
-"Language: sv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -373,7 +356,7 @@ msgstr "&Spara den här listan till en fil..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
-#: pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Avbryt"
@@ -497,7 +480,8 @@ msgstr "Paketbeskrivning"
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
 #: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
 #: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
-#: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
+#: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
+#: zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "&OK"
 
@@ -580,7 +564,7 @@ msgstr "Version"
 msgid "Size"
 msgstr "Storlek"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:472 YQPkgPatchList.cc:387
+#: YQPkgList.cc:436 YQPkgObjList.cc:477 YQPkgPatchList.cc:387
 msgid "&All in This List"
 msgstr "&Alla i denna lista"
 
@@ -610,59 +594,59 @@ msgstr "Tillgänglig version: %1 (%2)"
 msgid "Not available for installation"
 msgstr "Inte tillgänglig för installation"
 
-#: YQPkgObjList.cc:221 status-filter-view.ui:259
+#: YQPkgObjList.cc:226 status-filter-view.ui:259
 msgid "Delete"
 msgstr "Radera"
 
-#: YQPkgObjList.cc:222 status-filter-view.ui:63
+#: YQPkgObjList.cc:227 status-filter-view.ui:63
 msgid "Install"
 msgstr "Installera"
 
-#: YQPkgObjList.cc:223 status-filter-view.ui:193
+#: YQPkgObjList.cc:228 status-filter-view.ui:193
 msgid "Keep"
 msgstr "Behåll"
 
-#: YQPkgObjList.cc:224 status-filter-view.ui:210
+#: YQPkgObjList.cc:229 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "Installera inte"
 
-#: YQPkgObjList.cc:225
+#: YQPkgObjList.cc:230
 msgid "Protected -- Do Not Modify"
 msgstr "Skyddad -- ändra inte"
 
-#: YQPkgObjList.cc:226
+#: YQPkgObjList.cc:231
 msgid "Taboo -- Never Install"
 msgstr "Tabu -- installera aldrig"
 
-#: YQPkgObjList.cc:227 status-filter-view.ui:83
+#: YQPkgObjList.cc:232 status-filter-view.ui:83
 msgid "Update"
 msgstr "Uppdatera"
 
-#: YQPkgObjList.cc:229
+#: YQPkgObjList.cc:234
 msgid "Autodelete"
 msgstr "Autoradering"
 
-#: YQPkgObjList.cc:230
+#: YQPkgObjList.cc:235
 msgid "Autoinstall"
 msgstr "Automatisk installation"
 
-#: YQPkgObjList.cc:231
+#: YQPkgObjList.cc:236
 msgid "Autoupdate"
 msgstr "Automatisk uppdatering"
 
-#: YQPkgObjList.cc:348 YQPkgObjList.cc:368 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "Uppdatera villkorslöst"
 
-#: YQPkgObjList.cc:363 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "Uppdatera om en nyare version finns tillgänglig"
 
-#: YQPkgObjList.cc:1278
+#: YQPkgObjList.cc:1283
 msgid "(by a software selection)"
 msgstr "(genom ett programval)"
 
-#: YQPkgObjList.cc:1280
+#: YQPkgObjList.cc:1285
 msgid "(by dependencies)"
 msgstr "(efter beroenden)"
 
@@ -1244,37 +1228,37 @@ msgstr ""
 msgid "Incompatible Package Versions"
 msgstr "Inkompatibla paketversioner"
 
-#: ZyppHistoryBrowser.cc:463
+#: ZyppHistoryBrowser.cc:467
 #, qt-format
 msgid "Repo+  %1  %2"
 msgstr "Förråd+  %1  %2"
 
-#: ZyppHistoryBrowser.cc:469
+#: ZyppHistoryBrowser.cc:473
 #, qt-format
 msgid "Repo-  %1"
 msgstr "Förråd-  %1"
 
-#: ZyppHistoryBrowser.cc:474
+#: ZyppHistoryBrowser.cc:478
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
 msgstr "Förråds-URL  %1 -> %2"
 
-#: ZyppHistoryBrowser.cc:480
+#: ZyppHistoryBrowser.cc:484
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
 msgstr "Förråds-Alias  %1 -> %2"
 
-#: ZyppHistoryBrowser.cc:500
+#: ZyppHistoryBrowser.cc:504
 #, qt-format
 msgid "Patch %1"
 msgstr "Patch %1"
 
-#: ZyppHistoryBrowser.cc:623
+#: ZyppHistoryBrowser.cc:628
 #, qt-format
 msgid "<b>Filter:</b> %1"
 msgstr "<b>Filter:</b> %1"
 
-#: ZyppHistoryBrowser.cc:625
+#: ZyppHistoryBrowser.cc:630
 msgid "<i>No Filter</i>"
 msgstr "<i>Inget filter</i>"
 
@@ -1299,6 +1283,23 @@ msgstr "Endast paketinstallation/uppdatering"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Endast borttagning av paket"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
+"POT-Creation-Date: 2026-01-24 04:33+0000\n"
+"PO-Revision-Date: 2026-10-26 11:07+0000\n"
+"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -1364,6 +1365,23 @@ msgstr "Formulär"
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
 msgstr "Initierar förråd"
+
+#: ../aux/myrlyn-askpass.ui:14
+msgid "Myrlyn-Password"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:35
+#, fuzzy
+msgid "### Authentication for Myrlyn"
+msgstr "Root &autentisering"
+
+#: ../aux/myrlyn-askpass.ui:84
+msgid "Enter your user password:"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:94
+msgid "Password"
+msgstr ""
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"

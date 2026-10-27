@@ -354,7 +354,7 @@ msgstr "&Sauvegarder cette liste dans un fichier..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
-#: pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Annuler"
@@ -488,7 +488,8 @@ msgstr "Description du paquet"
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
 #: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
 #: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
-#: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
+#: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
+#: zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "&Vu"
 
@@ -571,7 +572,7 @@ msgstr "Version"
 msgid "Size"
 msgstr "Taille"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:472 YQPkgPatchList.cc:387
+#: YQPkgList.cc:436 YQPkgObjList.cc:477 YQPkgPatchList.cc:387
 msgid "&All in This List"
 msgstr "&Tous les éléments de cette liste"
 
@@ -601,59 +602,59 @@ msgstr "Version disponible : %1 (%2)"
 msgid "Not available for installation"
 msgstr "Non disponible pour l'installation"
 
-#: YQPkgObjList.cc:221 status-filter-view.ui:259
+#: YQPkgObjList.cc:226 status-filter-view.ui:259
 msgid "Delete"
 msgstr "Supprimer"
 
-#: YQPkgObjList.cc:222 status-filter-view.ui:63
+#: YQPkgObjList.cc:227 status-filter-view.ui:63
 msgid "Install"
 msgstr "Installer"
 
-#: YQPkgObjList.cc:223 status-filter-view.ui:193
+#: YQPkgObjList.cc:228 status-filter-view.ui:193
 msgid "Keep"
 msgstr "Conserver"
 
-#: YQPkgObjList.cc:224 status-filter-view.ui:210
+#: YQPkgObjList.cc:229 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "Ne Pas installer"
 
-#: YQPkgObjList.cc:225
+#: YQPkgObjList.cc:230
 msgid "Protected -- Do Not Modify"
 msgstr "Protégé — Ne pas modifier"
 
-#: YQPkgObjList.cc:226
+#: YQPkgObjList.cc:231
 msgid "Taboo -- Never Install"
 msgstr "À ne surtout pas faire : ne jamais installer"
 
-#: YQPkgObjList.cc:227 status-filter-view.ui:83
+#: YQPkgObjList.cc:232 status-filter-view.ui:83
 msgid "Update"
 msgstr "Mise à jour"
 
-#: YQPkgObjList.cc:229
+#: YQPkgObjList.cc:234
 msgid "Autodelete"
 msgstr "Suppression automatique"
 
-#: YQPkgObjList.cc:230
+#: YQPkgObjList.cc:235
 msgid "Autoinstall"
 msgstr "Installation automatique"
 
-#: YQPkgObjList.cc:231
+#: YQPkgObjList.cc:236
 msgid "Autoupdate"
 msgstr "Mise à jour automatique"
 
-#: YQPkgObjList.cc:348 YQPkgObjList.cc:368 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "Forcer l'actualisation"
 
-#: YQPkgObjList.cc:363 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "Actualiser si une nouvelle version est disponible"
 
-#: YQPkgObjList.cc:1278
+#: YQPkgObjList.cc:1283
 msgid "(by a software selection)"
 msgstr "(par le biais d'une sélection de logiciels)"
 
-#: YQPkgObjList.cc:1280
+#: YQPkgObjList.cc:1285
 msgid "(by dependencies)"
 msgstr "(par dépendances)"
 
@@ -1273,38 +1274,38 @@ msgstr ""
 msgid "Incompatible Package Versions"
 msgstr "Versions de paquets incompatibles"
 
-#: ZyppHistoryBrowser.cc:463
+#: ZyppHistoryBrowser.cc:467
 #, qt-format
 msgid "Repo+  %1  %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:469
+#: ZyppHistoryBrowser.cc:473
 #, qt-format
 msgid "Repo-  %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:474
+#: ZyppHistoryBrowser.cc:478
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:480
+#: ZyppHistoryBrowser.cc:484
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
 msgstr ""
 
 # TLABEL autoinst_2002_08_07_0216__95
-#: ZyppHistoryBrowser.cc:500
+#: ZyppHistoryBrowser.cc:504
 #, fuzzy, qt-format
 msgid "Patch %1"
 msgstr "&Correctif"
 
-#: ZyppHistoryBrowser.cc:623
+#: ZyppHistoryBrowser.cc:628
 #, qt-format
 msgid "<b>Filter:</b> %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:625
+#: ZyppHistoryBrowser.cc:630
 msgid "<i>No Filter</i>"
 msgstr ""
 
@@ -1393,6 +1394,23 @@ msgstr ""
 #, fuzzy
 msgid "Initializing Repositories"
 msgstr "&Dépôts"
+
+#: ../aux/myrlyn-askpass.ui:14
+msgid "Myrlyn-Password"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:35
+#, fuzzy
+msgid "### Authentication for Myrlyn"
+msgstr "Communication"
+
+#: ../aux/myrlyn-askpass.ui:84
+msgid "Enter your user password:"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:94
+msgid "Password"
+msgstr ""
 
 #: pkg-commit-page.ui:41
 #, fuzzy

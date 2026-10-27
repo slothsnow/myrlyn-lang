@@ -362,7 +362,7 @@ msgstr "Sal&va questo elenco in un file..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
-#: pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Annulla"
@@ -499,7 +499,8 @@ msgstr "Descrizione pacchetto"
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
 #: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
 #: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
-#: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
+#: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
+#: zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "&OK"
 
@@ -590,7 +591,7 @@ msgstr "Versione"
 msgid "Size"
 msgstr "Dimensioni"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:472 YQPkgPatchList.cc:387
+#: YQPkgList.cc:436 YQPkgObjList.cc:477 YQPkgPatchList.cc:387
 msgid "&All in This List"
 msgstr "Tutti in questo &elenco"
 
@@ -620,67 +621,67 @@ msgstr "Versione disponibile: %1 (%2)"
 msgid "Not available for installation"
 msgstr "Non disponibile per l'installazione"
 
-#: YQPkgObjList.cc:221 status-filter-view.ui:259
+#: YQPkgObjList.cc:226 status-filter-view.ui:259
 msgid "Delete"
 msgstr "Elimina"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_target_part.ycp:680
-#: YQPkgObjList.cc:222 status-filter-view.ui:63
+#: YQPkgObjList.cc:227 status-filter-view.ui:63
 msgid "Install"
 msgstr "Installa"
 
-#: YQPkgObjList.cc:223 status-filter-view.ui:193
+#: YQPkgObjList.cc:228 status-filter-view.ui:193
 msgid "Keep"
 msgstr "Mantieni"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_target_part.ycp:680
-#: YQPkgObjList.cc:224 status-filter-view.ui:210
+#: YQPkgObjList.cc:229 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "Non installare"
 
-#: YQPkgObjList.cc:225
+#: YQPkgObjList.cc:230
 msgid "Protected -- Do Not Modify"
 msgstr "Protetto -- non modificare"
 
-#: YQPkgObjList.cc:226
+#: YQPkgObjList.cc:231
 msgid "Taboo -- Never Install"
 msgstr "Tabù - non installare mai"
 
-#: YQPkgObjList.cc:227 status-filter-view.ui:83
+#: YQPkgObjList.cc:232 status-filter-view.ui:83
 msgid "Update"
 msgstr "Aggiorna"
 
-#: YQPkgObjList.cc:229
+#: YQPkgObjList.cc:234
 msgid "Autodelete"
 msgstr "Eliminazione automatica"
 
-#: YQPkgObjList.cc:230
+#: YQPkgObjList.cc:235
 msgid "Autoinstall"
 msgstr "Installazione automatica"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/dialup/dialup.ycp:1196
-#: YQPkgObjList.cc:231
+#: YQPkgObjList.cc:236
 msgid "Autoupdate"
 msgstr "Aggiornamento automatico"
 
-#: YQPkgObjList.cc:348 YQPkgObjList.cc:368 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "Aggiorna incondizionatamente"
 
-#: YQPkgObjList.cc:363 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "Aggiorna se è disponibile una nuova versione"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_select.ycp:207
-#: YQPkgObjList.cc:1278
+#: YQPkgObjList.cc:1283
 msgid "(by a software selection)"
 msgstr "(secondo una selezione di programmi)"
 
-#: YQPkgObjList.cc:1280
+#: YQPkgObjList.cc:1285
 msgid "(by dependencies)"
 msgstr "(secondo dipendenze)"
 
@@ -1329,39 +1330,39 @@ msgstr ""
 msgid "Incompatible Package Versions"
 msgstr "Versioni dei pacchetti incompatibili"
 
-#: ZyppHistoryBrowser.cc:463
+#: ZyppHistoryBrowser.cc:467
 #, qt-format
 msgid "Repo+  %1  %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:469
+#: ZyppHistoryBrowser.cc:473
 #, qt-format
 msgid "Repo-  %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:474
+#: ZyppHistoryBrowser.cc:478
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:480
+#: ZyppHistoryBrowser.cc:484
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
 msgstr ""
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL ../../general/keyboard.ycp.in:94
-#: ZyppHistoryBrowser.cc:500
+#: ZyppHistoryBrowser.cc:504
 #, fuzzy, qt-format
 msgid "Patch %1"
 msgstr "&Patch"
 
-#: ZyppHistoryBrowser.cc:623
+#: ZyppHistoryBrowser.cc:628
 #, qt-format
 msgid "<b>Filter:</b> %1"
 msgstr ""
 
-#: ZyppHistoryBrowser.cc:625
+#: ZyppHistoryBrowser.cc:630
 msgid "<i>No Filter</i>"
 msgstr ""
 
@@ -1480,6 +1481,23 @@ msgstr ""
 #, fuzzy
 msgid "Initializing Repositories"
 msgstr "&Repository"
+
+#: ../aux/myrlyn-askpass.ui:14
+msgid "Myrlyn-Password"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:35
+#, fuzzy
+msgid "### Authentication for Myrlyn"
+msgstr "Comunicazione"
+
+#: ../aux/myrlyn-askpass.ui:84
+msgid "Enter your user password:"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:94
+msgid "Password"
+msgstr ""
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-# tooltip
 #: pkg-commit-page.ui:41

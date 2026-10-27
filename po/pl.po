@@ -1,24 +1,3 @@
-# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
-# This file is distributed under the same license as the package.
-#
-# Mariusz Fik <fisiu@opensuse.org>, 2013, 2014.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-10-26 11:07+0000\n"
-"Last-Translator: byDMA <byDMApl@yandex.com>\n"
-"Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/pl/>\n"
-"Language: pl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
-
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root | Tryb administratora]"
@@ -380,7 +359,7 @@ msgstr "&Zapisz listę do pliku..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
-#: pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Anuluj"
@@ -507,7 +486,8 @@ msgstr "Opis pakietu"
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
 #: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
 #: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
-#: repo-edit-add.ui:369 zypp-history-filter-dialog.ui:298
+#: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
+#: zypp-history-filter-dialog.ui:298
 msgid "&OK"
 msgstr "&OK"
 
@@ -590,7 +570,7 @@ msgstr "Wersja"
 msgid "Size"
 msgstr "Rozmiar"
 
-#: YQPkgList.cc:436 YQPkgObjList.cc:472 YQPkgPatchList.cc:387
+#: YQPkgList.cc:436 YQPkgObjList.cc:477 YQPkgPatchList.cc:387
 msgid "&All in This List"
 msgstr "&Wszytko z tej listy"
 
@@ -620,59 +600,59 @@ msgstr "Dostępna wersja: %1 (%2)"
 msgid "Not available for installation"
 msgstr "Niedostępny do instalacji"
 
-#: YQPkgObjList.cc:221 status-filter-view.ui:259
+#: YQPkgObjList.cc:226 status-filter-view.ui:259
 msgid "Delete"
 msgstr "Usuń"
 
-#: YQPkgObjList.cc:222 status-filter-view.ui:63
+#: YQPkgObjList.cc:227 status-filter-view.ui:63
 msgid "Install"
 msgstr "Zainstaluj"
 
-#: YQPkgObjList.cc:223 status-filter-view.ui:193
+#: YQPkgObjList.cc:228 status-filter-view.ui:193
 msgid "Keep"
 msgstr "Pozostaw"
 
-#: YQPkgObjList.cc:224 status-filter-view.ui:210
+#: YQPkgObjList.cc:229 status-filter-view.ui:210
 msgid "Do Not Install"
 msgstr "Nie instaluj"
 
-#: YQPkgObjList.cc:225
+#: YQPkgObjList.cc:230
 msgid "Protected -- Do Not Modify"
 msgstr "Chroniony -- nie zmieniaj"
 
-#: YQPkgObjList.cc:226
+#: YQPkgObjList.cc:231
 msgid "Taboo -- Never Install"
 msgstr "Tabu -- nigdy nie instaluj"
 
-#: YQPkgObjList.cc:227 status-filter-view.ui:83
+#: YQPkgObjList.cc:232 status-filter-view.ui:83
 msgid "Update"
 msgstr "Aktualizacja"
 
-#: YQPkgObjList.cc:229
+#: YQPkgObjList.cc:234
 msgid "Autodelete"
 msgstr "Usuwany automatycznie"
 
-#: YQPkgObjList.cc:230
+#: YQPkgObjList.cc:235
 msgid "Autoinstall"
 msgstr "Instalowany automatycznie"
 
-#: YQPkgObjList.cc:231
+#: YQPkgObjList.cc:236
 msgid "Autoupdate"
 msgstr "Aktualizowany automatycznie"
 
-#: YQPkgObjList.cc:348 YQPkgObjList.cc:368 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
 msgid "Update unconditionally"
 msgstr "Aktualizuj bezwarunkowo"
 
-#: YQPkgObjList.cc:363 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
 msgid "Update if newer version available"
 msgstr "Aktualizuj, jeśli jest dostępna nowsza wersja"
 
-#: YQPkgObjList.cc:1278
+#: YQPkgObjList.cc:1283
 msgid "(by a software selection)"
 msgstr "(poprzez zestaw)"
 
-#: YQPkgObjList.cc:1280
+#: YQPkgObjList.cc:1285
 msgid "(by dependencies)"
 msgstr "(poprzez zależności)"
 
@@ -1256,37 +1236,37 @@ msgstr ""
 msgid "Incompatible Package Versions"
 msgstr "Niezgodne wersje pakietów"
 
-#: ZyppHistoryBrowser.cc:463
+#: ZyppHistoryBrowser.cc:467
 #, qt-format
 msgid "Repo+  %1  %2"
 msgstr "Repozytorium+  %1  %2"
 
-#: ZyppHistoryBrowser.cc:469
+#: ZyppHistoryBrowser.cc:473
 #, qt-format
 msgid "Repo-  %1"
 msgstr "Repozytorium-  %1"
 
-#: ZyppHistoryBrowser.cc:474
+#: ZyppHistoryBrowser.cc:478
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
 msgstr "Repozytorium-URL  %1 -> %2"
 
-#: ZyppHistoryBrowser.cc:480
+#: ZyppHistoryBrowser.cc:484
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
 msgstr "Repozytorium-Alias  %1 -> %2"
 
-#: ZyppHistoryBrowser.cc:500
+#: ZyppHistoryBrowser.cc:504
 #, qt-format
 msgid "Patch %1"
 msgstr "Poprawka %1"
 
-#: ZyppHistoryBrowser.cc:623
+#: ZyppHistoryBrowser.cc:628
 #, qt-format
 msgid "<b>Filter:</b> %1"
 msgstr "<b>Filtr:</b> %1"
 
-#: ZyppHistoryBrowser.cc:625
+#: ZyppHistoryBrowser.cc:630
 msgid "<i>No Filter</i>"
 msgstr "<i>Bez filtra</i>"
 
@@ -1311,6 +1291,27 @@ msgstr "Wyłącznie zainstalowane / zaktualizowane pakiety"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Wyłącznie pakiety usunięte"
+
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Mariusz Fik <fisiu@opensuse.org>, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-10-26 11:07+0000\n"
+"Last-Translator: byDMA <byDMApl@yandex.com>\n"
+"Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
@@ -1376,6 +1377,23 @@ msgstr "Formularz"
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
 msgstr "Inicjalizacja repozytoriów"
+
+#: ../aux/myrlyn-askpass.ui:14
+msgid "Myrlyn-Password"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:35
+#, fuzzy
+msgid "### Authentication for Myrlyn"
+msgstr "Tryb &administratora (root) i logowanie"
+
+#: ../aux/myrlyn-askpass.ui:84
+msgid "Enter your user password:"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:94
+msgid "Password"
+msgstr ""
 
 #: pkg-commit-page.ui:41
 msgid "Installing / Removing Packages"
