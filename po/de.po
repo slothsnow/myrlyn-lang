@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-28 08:43+0000\n"
+"PO-Revision-Date: 2026-10-28 14:27+0000\n"
 "Last-Translator: byDMA <byDMApl@yandex.com>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/de/>\n"
@@ -561,7 +561,7 @@ msgstr "Paket"
 #: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
 #: summary-page.ui:36
 msgid "Summary"
-msgstr "Übersichtsseite anzeigen"
+msgstr "Übersichtsseite"
 
 #: YQPkgList.cc:54
 msgid "Installed (Available)"
