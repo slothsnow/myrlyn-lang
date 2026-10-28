@@ -1,0 +1,2404 @@
+#: MyrlynApp.cc:209
+msgid " [root]"
+msgstr ""
+
+#: MyrlynApp.cc:212 RepoConfigDialog.cc:64
+msgid " (read-only)"
+msgstr ""
+
+#: MyrlynApp.cc:233
+msgid "Preparing the package selector..."
+msgstr ""
+
+#: MyrlynApp.cc:491
+msgid "Really quit?"
+msgstr ""
+
+#: MyrlynRepoManager.cc:296
+msgid ""
+"Error loading the repos. Run\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"and restart the program."
+msgstr ""
+
+#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
+#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
+msgid "Error"
+msgstr "錯誤"
+
+#: MyrlynRepoManager.cc:318
+#, qt-format
+msgid ""
+"Refreshing repository \"%1\" failed.\n"
+"\n"
+"This repository is now disabled for this program run."
+msgstr ""
+
+#: MyrlynRepoManager.cc:329
+#, qt-format
+msgid ""
+"Refreshing failed for repositories\n"
+"\n"
+"%1\n"
+"Those repositories are now disabled for this program run."
+msgstr ""
+
+#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
+msgid "Warning"
+msgstr "警告"
+
+#: MyrlynWorkflowSteps.cc:168
+msgid ""
+"Can't connect to the package manager!\n"
+"It may be busy in another window.\n"
+msgstr ""
+
+#: PkgCommitPage.cc:145 pkg-commit-page.ui:113
+msgid "To Do"
+msgstr ""
+
+#: PkgCommitPage.cc:146 pkg-commit-page.ui:238
+#, fuzzy
+msgid "Downloads"
+msgstr "下載大小："
+
+#: PkgCommitPage.cc:147 pkg-commit-page.ui:376
+msgid "Done"
+msgstr ""
+
+#: PkgCommitPage.cc:292 pkg-commit-page.ui:61
+#, fuzzy
+msgid "Hide &Details"
+msgstr "詳細資訊(&D)..."
+
+#: PkgCommitPage.cc:292
+#, fuzzy
+msgid "Show &Details"
+msgstr "詳細資訊(&D)..."
+
+#: PkgCommitPage.cc:337
+msgid "Really cancel the current package actions?"
+msgstr ""
+
+#: PkgCommitPage.cc:538
+#, fuzzy
+msgid "Checking File Conflicts..."
+msgstr "正在檢查相依項..."
+
+#: PkgCommitPage.cc:707
+#, fuzzy, qt-format
+msgid "Error downloading package %1"
+msgstr "從 %1 載入套件清單時發生錯誤"
+
+#: PkgCommitPage.cc:755 PkgCommitPage.cc:784
+#, fuzzy, qt-format
+msgid "Error installing package %1"
+msgstr "將套件清單輸出至 %1 時發生錯誤"
+
+#: PkgCommitPage.cc:972
+msgid "[Post-transaction scripts]"
+msgstr ""
+
+#: PkgCommitPage.cc:1122
+#, fuzzy
+msgid "File Conflict"
+msgstr "檔案清單"
+
+#: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
+#: YQPkgServiceList.cc:46 zypp-history-browser.ui:157
+msgid "Name"
+msgstr "名稱"
+
+#: QY2DiskUsageList.cc:164
+msgid "Disk Usage"
+msgstr ""
+
+#: QY2DiskUsageList.cc:165
+msgid "Free"
+msgstr ""
+
+#: QY2DiskUsageList.cc:166
+msgid "Total"
+msgstr ""
+
+#: QY2DiskUsageList.cc:228
+#, qt-format
+msgid "Used %1"
+msgstr ""
+
+#: RepoConfigDialog.cc:324
+#, qt-format
+msgid ""
+"Really delete repository \"%1\"?\n"
+"\n"
+"URL: %2"
+msgstr ""
+
+#: RepoConfigDialog.cc:350
+msgid ""
+"The application needs to be restarted\n"
+"for the changes to take effect.\n"
+"\n"
+"Quitting now. Please restart."
+msgstr ""
+
+#: RepoEditDialog.cc:105
+msgid "See also  'man zypper'"
+msgstr ""
+
+#: RepoEditDialog.cc:113
+#, fuzzy
+msgid "Add Repository"
+msgstr "儲存庫(&R)"
+
+#: RepoEditDialog.cc:113
+#, fuzzy
+msgid "Edit Repository"
+msgstr "儲存庫(&R)"
+
+#: RepoEditDialog.cc:247
+msgid "Invalid URL: "
+msgstr ""
+
+#: RepoEditDialog.cc:252
+msgid "Invalid input: "
+msgstr ""
+
+#: RepoGpgKeyImportDialog.cc:110
+#, qt-format
+msgid "Repository \"%1\" will be temporarily disabled."
+msgstr ""
+
+#: RepoTable.cc:40
+msgid "Priority"
+msgstr ""
+
+#: RepoTable.cc:41
+msgid "Enabled"
+msgstr ""
+
+#: RepoTable.cc:42
+msgid "Auto-Refresh"
+msgstr ""
+
+#: RepoTable.cc:43
+#, fuzzy
+msgid "Service"
+msgstr "服務(&S)"
+
+#: RepoTable.cc:44
+#, fuzzy
+msgid "URL"
+msgstr "URL："
+
+#: SummaryPage.cc:124
+#, qt-format
+msgid "%1 s"
+msgstr ""
+
+#: SummaryPage.cc:182
+msgid "Close after 300 seconds (5 minutes)"
+msgstr ""
+
+#: SummaryPage.cc:183
+msgid "Don't automatically close"
+msgstr ""
+
+#: SummaryPage.cc:199
+#, qt-format
+msgid "Close after %1 seconds"
+msgstr ""
+
+#: SummaryPage.cc:267
+#, fuzzy
+msgid "No package changes."
+msgstr "顯示套件變更(&A)"
+
+#: SummaryPage.cc:311
+#, qt-format
+msgid "FAILED: %1"
+msgstr ""
+
+#: SummaryPage.cc:312
+#, qt-format
+msgid "Packages removed by user: %1"
+msgstr ""
+
+#: SummaryPage.cc:313
+#, qt-format
+msgid "Packages removed because of dependencies: %1"
+msgstr ""
+
+#: SummaryPage.cc:314
+#, qt-format
+msgid "Packages installed by user: %1"
+msgstr ""
+
+#: SummaryPage.cc:315
+#, qt-format
+msgid "Packages installed because of dependencies: %1"
+msgstr ""
+
+#: SummaryPage.cc:316
+#, qt-format
+msgid "Packages updated by user: %1"
+msgstr ""
+
+#: SummaryPage.cc:317
+#, qt-format
+msgid "Packages updated because of dependencies: %1"
+msgstr ""
+
+#: SummaryPage.cc:318
+#, qt-format
+msgid "To do: %1"
+msgstr ""
+
+#: SummaryPage.cc:367
+#, qt-format
+msgid "(%1 more)"
+msgstr ""
+
+#: SummaryPage.cc:383
+#, fuzzy
+msgid "Reboot recommended."
+msgstr "推薦"
+
+#: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
+msgid "Information only available for installed packages."
+msgstr "資訊僅針對已安裝套件提供。"
+
+#: YQPkgChangeLogView.cc:116
+#, fuzzy, qt-format
+msgid "(%1 more; run \"%2\" to see the complete change log)"
+msgstr "(還有 %1 個變更項目未顯示。執行「%2」可查看完整的變更記錄。)"
+
+#: YQPkgChangesDialog.cc:48
+msgid "Changed Packages"
+msgstr "變更的套件"
+
+#: YQPkgChangesDialog.cc:85
+msgid "All"
+msgstr "全部"
+
+#: YQPkgChangesDialog.cc:86
+msgid "Selected by the user"
+msgstr "使用者選定"
+
+#: YQPkgChangesDialog.cc:87 YQPkgSelectorBase.cc:261
+msgid "Automatic Changes"
+msgstr "自動變更"
+
+#: YQPkgClassificationFilterView.cc:45
+msgid "No Packages"
+msgstr "無套件"
+
+#: YQPkgClassificationFilterView.cc:46
+msgid "Recommended Packages"
+msgstr "推薦的套件"
+
+#: YQPkgClassificationFilterView.cc:47
+msgid "Suggested Packages"
+msgstr "建議的套件"
+
+#: YQPkgClassificationFilterView.cc:48
+msgid "Orphaned Packages"
+msgstr "孤立的套件"
+
+#: YQPkgClassificationFilterView.cc:49
+msgid "Unneeded Packages"
+msgstr "不需要的套件"
+
+#: YQPkgClassificationFilterView.cc:50
+msgid "Multiversion Packages"
+msgstr "多版本套件"
+
+#: YQPkgClassificationFilterView.cc:51
+msgid "Retracted Packages"
+msgstr "已收回的套件"
+
+#: YQPkgClassificationFilterView.cc:52
+msgid "Retracted Installed Packages"
+msgstr "安裝的已收回套件"
+
+#: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
+#: YQPkgSelector.cc:734
+msgid "All Packages"
+msgstr "所有套件"
+
+#: YQPkgClassificationFilterView.cc:82
+msgid "Package Classification"
+msgstr "套件分類"
+
+#: YQPkgConflictDialog.cc:104
+msgid "&OK -- Try Again"
+msgstr "確定(&O) -- 再試一次"
+
+#: YQPkgConflictDialog.cc:116
+msgid "&Expert"
+msgstr "進階(&E)"
+
+#: YQPkgConflictDialog.cc:129
+msgid "&Save This List to a File..."
+msgstr "儲存此清單到檔案(&S)..."
+
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
+#: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
+#: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: YQPkgConflictDialog.cc:190
+#, fuzzy
+msgid "Verifying System Dependencies"
+msgstr "正在檢查相依項..."
+
+#: YQPkgConflictDialog.cc:321
+msgid "Create Dependency Resolver Test Case"
+msgstr "建立相依性解析程式測試個案"
+
+#: YQPkgConflictDialog.cc:325
+#, fuzzy
+msgid "You need to run the dependency resolver first."
+msgstr "產生相依性解析程式測試個案(&T)"
+
+#: YQPkgConflictDialog.cc:333
+#, qt-format
+msgid ""
+"<p>Use this to generate extensive logs to help tracking down bugs in the "
+"dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
+msgstr ""
+"<p>使用此功能產生大量記錄以協助追蹤相依性解析程式中的錯誤。記錄會存放在目錄 "
+"<br><tt>%1</tt> 中</p>"
+
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1269 YQPkgSelector.cc:1321
+#: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
+msgid "C&ontinue"
+msgstr "繼續(&O)"
+
+#: YQPkgConflictDialog.cc:351
+#, fuzzy, qt-format
+msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
+msgstr ""
+"<p>相依性解析程式測試個案寫入 <br><tt>%1</tt></p><p>準備將 <tt>y2logs.tgz "
+"tar</tt> 歸檔附加至 Bugzilla？</p>"
+
+#: YQPkgConflictDialog.cc:354
+msgid "Success"
+msgstr "成功"
+
+#: YQPkgConflictDialog.cc:359
+#, qt-format
+msgid ""
+"<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
+"disk space and permissions for <tt>%1</tt></p>"
+msgstr ""
+"<p>建立相依項解析器測試個案時發生<b>錯誤</b></p><p>請檢查磁碟空間和 <tt>%1</"
+"tt> 的許可權</p>"
+
+#: YQPkgConflictList.cc:138
+#, fuzzy
+msgid "Save conflicts list"
+msgstr "儲存衝突清單"
+
+#: YQPkgConflictList.cc:161
+#, fuzzy, qt-format
+msgid "Can't open file %1"
+msgstr "無法開啟檔案 %1"
+
+#: YQPkgConflictList.cc:247
+msgid "Conflict Resolution:"
+msgstr "衝突解決："
+
+#: YQPkgConflictList.cc:287
+#, qt-format
+msgid "<a href='/'>%1 more...</a>"
+msgstr "<a href='/'>%1 更多...</a>"
+
+#: YQPkgDependenciesView.cc:81 YQPkgDependenciesView.cc:111
+#: YQPkgTechnicalDetailsView.cc:128 YQPkgTechnicalDetailsView.cc:174
+msgid "Version:"
+msgstr "版本："
+
+#: YQPkgDependenciesView.cc:83 YQPkgDependenciesView.cc:113
+msgid "Provides:"
+msgstr "提供："
+
+#: YQPkgDependenciesView.cc:84 YQPkgDependenciesView.cc:114
+msgid "Prerequires:"
+msgstr "先決條件︰"
+
+#: YQPkgDependenciesView.cc:85 YQPkgDependenciesView.cc:115
+msgid "Requires:"
+msgstr "需要︰"
+
+#: YQPkgDependenciesView.cc:86 YQPkgDependenciesView.cc:116
+msgid "Conflicts:"
+msgstr "衝突："
+
+#: YQPkgDependenciesView.cc:87 YQPkgDependenciesView.cc:117
+msgid "Obsoletes:"
+msgstr "過時︰"
+
+#: YQPkgDependenciesView.cc:88 YQPkgDependenciesView.cc:118
+msgid "Recommends:"
+msgstr "推薦："
+
+#: YQPkgDependenciesView.cc:89 YQPkgDependenciesView.cc:119
+msgid "Suggests:"
+msgstr "建議︰"
+
+#: YQPkgDependenciesView.cc:90 YQPkgDependenciesView.cc:120
+msgid "Enhances:"
+msgstr "增強："
+
+#: YQPkgDependenciesView.cc:91 YQPkgDependenciesView.cc:121
+msgid "Supplements:"
+msgstr "補充︰"
+
+#: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:167
+msgid "<b>Alternate Version</b>"
+msgstr "<b>替換版本</b>"
+
+#: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:168
+msgid "<b>Installed Version</b>"
+msgstr "<b>安裝的版本</b>"
+
+#: YQPkgDescriptionDialog.cc:45
+msgid "Package Description"
+msgstr "套件描述"
+
+#: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
+#: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
+#: zypp-history-filter-dialog.ui:298
+msgid "&OK"
+msgstr "確定(&O)"
+
+#: YQPkgDescriptionView.cc:88
+msgid "References:"
+msgstr "參考："
+
+#: YQPkgDescriptionView.cc:237
+msgid "This package contains: "
+msgstr "此套件包含： "
+
+#: YQPkgDiskUsageList.cc:123
+msgid "<b>Error:</b> Out of disk space!"
+msgstr "<b>錯誤︰</b>磁碟空間不足！"
+
+#: YQPkgDiskUsageList.cc:132
+msgid "<b>Warning:</b> Disk space is running out!"
+msgstr "<b>警告︰</b>磁碟空間快要不夠了！"
+
+#: YQPkgDiskUsageWarningDialog.cc:41
+msgid "Disk Space Warning"
+msgstr "磁碟空間警告"
+
+#: YQPkgFileListView.cc:98
+#, qt-format
+msgid "%1 files total"
+msgstr "全部 %1 個檔案"
+
+#: YQPkgFilterTab.cc:124
+msgid "&View"
+msgstr "檢視(&V)"
+
+#: YQPkgFilterTab.cc:233
+msgid "Move page &left"
+msgstr "將頁面向左移(&L)"
+
+#: YQPkgFilterTab.cc:241
+msgid "Move page &right"
+msgstr "將頁面向右移(&R)"
+
+#: YQPkgFilterTab.cc:249
+msgid "&Close page"
+msgstr "關閉頁面(&C)"
+
+#: YQPkgLangList.cc:40
+msgid "Code"
+msgstr "代碼"
+
+#: YQPkgLangList.cc:43
+msgid "Language"
+msgstr "語言"
+
+#: YQPkgList.cc:48
+msgid "Package"
+msgstr "套件"
+
+#: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
+#: summary-page.ui:36
+msgid "Summary"
+msgstr "摘要"
+
+#: YQPkgList.cc:54
+msgid "Installed (Available)"
+msgstr "已安裝 (可用)"
+
+#: YQPkgList.cc:58
+msgid "Avail. Ver."
+msgstr "可用的版本"
+
+#: YQPkgList.cc:61
+msgid "Inst. Ver."
+msgstr "安裝的版本"
+
+#: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
+#: zypp-history-browser.ui:162
+msgid "Version"
+msgstr "版本"
+
+#: YQPkgList.cc:71
+msgid "Size"
+msgstr "大小"
+
+#: YQPkgList.cc:436 YQPkgObjList.cc:477 YQPkgPatchList.cc:387
+msgid "&All in This List"
+msgstr "此清單中所有項目(&A)"
+
+#: YQPkgList.cc:575
+#, qt-format
+msgid "Installed Version: %1"
+msgstr "安裝的版本︰%1"
+
+#: YQPkgList.cc:593
+msgid "same"
+msgstr "相同"
+
+#: YQPkgList.cc:595
+msgid "newer"
+msgstr "較新"
+
+#: YQPkgList.cc:596
+msgid "older"
+msgstr "較舊"
+
+#: YQPkgList.cc:599
+#, qt-format
+msgid "Available Version: %1 (%2)"
+msgstr "可用的版本︰%1 (%2)"
+
+#: YQPkgList.cc:603
+msgid "Not available for installation"
+msgstr "無法用於安裝"
+
+#: YQPkgObjList.cc:226 status-filter-view.ui:259
+msgid "Delete"
+msgstr "刪除"
+
+#: YQPkgObjList.cc:227 status-filter-view.ui:63
+msgid "Install"
+msgstr "安裝"
+
+#: YQPkgObjList.cc:228 status-filter-view.ui:193
+msgid "Keep"
+msgstr "保留"
+
+#: YQPkgObjList.cc:229 status-filter-view.ui:210
+msgid "Do Not Install"
+msgstr "不要安裝"
+
+#: YQPkgObjList.cc:230
+msgid "Protected -- Do Not Modify"
+msgstr "受保護 - 不要修改"
+
+#: YQPkgObjList.cc:231
+msgid "Taboo -- Never Install"
+msgstr "禁用 -- 永遠不要安裝"
+
+#: YQPkgObjList.cc:232 status-filter-view.ui:83
+msgid "Update"
+msgstr "更新"
+
+#: YQPkgObjList.cc:234
+msgid "Autodelete"
+msgstr "自動刪除"
+
+#: YQPkgObjList.cc:235
+msgid "Autoinstall"
+msgstr "自動安裝"
+
+#: YQPkgObjList.cc:236
+msgid "Autoupdate"
+msgstr "自動更新"
+
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
+msgid "Update unconditionally"
+msgstr "無條件更新"
+
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
+msgid "Update if newer version available"
+msgstr "如果有較新版本，則更新"
+
+#: YQPkgObjList.cc:1283
+msgid "(by a software selection)"
+msgstr "(依軟體選項)"
+
+#: YQPkgObjList.cc:1285
+msgid "(by dependencies)"
+msgstr "(依相依項)"
+
+#: YQPkgPatchFilterView.cc:59
+msgid "&Show Patch Category:"
+msgstr "顯示修補程式類別(&S)："
+
+#: YQPkgPatchFilterView.cc:65
+msgid "Needed Patches"
+msgstr "需要的修補程式"
+
+#: YQPkgPatchFilterView.cc:66
+msgid "Unneeded Patches"
+msgstr "不需要的修補程式"
+
+#: YQPkgPatchFilterView.cc:67
+msgid "All Patches"
+msgstr "所有修補程式"
+
+#: YQPkgPatchFilterView.cc:79
+msgid "Patch Description"
+msgstr "修補程式描述"
+
+#: YQPkgPatchList.cc:589
+msgid "YaST"
+msgstr "YaST"
+
+#: YQPkgPatchList.cc:590
+msgid "security"
+msgstr "安全性"
+
+#: YQPkgPatchList.cc:591
+msgid "recommended"
+msgstr "推薦"
+
+#: YQPkgPatchList.cc:592
+msgid "optional"
+msgstr "選擇性"
+
+#: YQPkgPatchList.cc:593
+msgid "feature"
+msgstr ""
+
+#: YQPkgPatchList.cc:594
+msgid "document"
+msgstr "文件"
+
+#: YQPkgPatternList.cc:57
+msgid "Pattern"
+msgstr "模式"
+
+#: YQPkgPatternList.cc:69
+msgid "Order"
+msgstr "順序"
+
+#: YQPkgPatternList.cc:413
+msgid "Invisible"
+msgstr "不可見"
+
+#: YQPkgProductDialog.cc:40
+msgid "Products"
+msgstr "產品"
+
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:568
+msgid "Dependencies"
+msgstr "相依項"
+
+#: YQPkgProductList.cc:35
+msgid "Product"
+msgstr "產品"
+
+#: YQPkgProductList.cc:38 YQPkgVersionsView.cc:244
+msgid "Vendor"
+msgstr "廠商"
+
+#: YQPkgRepoFilterView.cc:92
+#, fuzzy
+msgid "Protect All"
+msgstr "保護"
+
+#: YQPkgRepoFilterView.cc:99
+#, fuzzy
+msgid "Un-Protect All"
+msgstr "保護"
+
+#: YQPkgRpmGroupsFilterView.cc:32
+#, fuzzy
+msgid "RPM Groups"
+msgstr "RPM 群組(&R)"
+
+#: YQPkgRpmGroupsFilterView.cc:252
+#, qt-format
+msgid "zzz Unspecified (%1)"
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:160
+#, qt-format
+msgid "Default: %1"
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:167
+#, qt-format
+msgid "Detected: %1"
+msgstr ""
+
+#: YQPkgSearchFilterView.cc:443
+msgid "No Results."
+msgstr "沒有結果。"
+
+#: YQPkgSearchFilterView.cc:458
+msgid "Query Error"
+msgstr "查詢錯誤"
+
+#: YQPkgSecondaryFilterView.cc:77
+msgid "&Secondary Filter:"
+msgstr "次要過濾器(&S)︰"
+
+#: YQPkgSecondaryFilterView.cc:97
+#, fuzzy
+msgid "Installed Packages"
+msgstr "安裝的已收回套件"
+
+#: YQPkgSecondaryFilterView.cc:106
+#, fuzzy
+msgid "Not Installed Packages"
+msgstr "安裝的已收回套件"
+
+#: YQPkgSecondaryFilterView.cc:116
+msgid "Search"
+msgstr "搜尋"
+
+#: YQPkgSecondaryFilterView.cc:132
+msgid "Status"
+msgstr "狀態"
+
+#: YQPkgSelector.cc:311 search-filter-view.ui:53
+msgid "&Search"
+msgstr "搜尋(&S)"
+
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1286
+#, fuzzy
+msgid "Patc&hes"
+msgstr "所有修補程式"
+
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1287
+#, fuzzy
+msgid "&Updates"
+msgstr "更新"
+
+#: YQPkgSelector.cc:347
+msgid "&Repositories"
+msgstr "儲存庫(&R)"
+
+#: YQPkgSelector.cc:357
+#, fuzzy
+msgid "RPM &Groups"
+msgstr "RPM 群組(&R)"
+
+#: YQPkgSelector.cc:370
+#, fuzzy
+msgid "Repository Index Ser&vices"
+msgstr "儲存庫(&R)"
+
+#: YQPkgSelector.cc:383
+#, fuzzy
+msgid "Pa&tterns"
+msgstr "樣式(&P)"
+
+#: YQPkgSelector.cc:394
+#, fuzzy
+msgid "Package Classi&fication"
+msgstr "套件分類"
+
+#: YQPkgSelector.cc:405
+msgid "&Languages"
+msgstr "語言(&L)"
+
+#: YQPkgSelector.cc:415
+#, fuzzy
+msgid "Installation Su&mmary"
+msgstr "安裝摘要"
+
+#: YQPkgSelector.cc:543
+#, fuzzy
+msgid "Description"
+msgstr "描述(&E)"
+
+#: YQPkgSelector.cc:555
+#, fuzzy
+msgid "Technical Data"
+msgstr "技術資料(&T)"
+
+#: YQPkgSelector.cc:582
+#, fuzzy
+msgid "Versions"
+msgstr "版本(&V)"
+
+#: YQPkgSelector.cc:600
+msgid "File List"
+msgstr "檔案清單"
+
+#: YQPkgSelector.cc:616
+msgid "Change Log"
+msgstr "變更記錄"
+
+#: YQPkgSelector.cc:637
+msgid "Resolver: ??"
+msgstr ""
+
+#: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
+msgid "&Accept"
+msgstr "接受(&A)"
+
+#: YQPkgSelector.cc:692
+msgid "&File"
+msgstr "檔案(&F)"
+
+#: YQPkgSelector.cc:695
+#, fuzzy
+msgid "&Accept Changes"
+msgstr "接受(&A)"
+
+#: YQPkgSelector.cc:697
+#, fuzzy
+msgid "&Quit - Discard Changes"
+msgstr "離開(&X) -- 丟棄變更"
+
+#: YQPkgSelector.cc:709
+msgid "&Package"
+msgstr "套件(&P)"
+
+#: YQPkgSelector.cc:758
+#, fuzzy
+msgid "Patch"
+msgstr "修補程式(&P)"
+
+#: YQPkgSelector.cc:784
+msgid "&Dependencies"
+msgstr "相依性(&D)"
+
+#: YQPkgSelector.cc:786
+msgid "&Check Now"
+msgstr "立即檢查(&C)"
+
+#: YQPkgSelector.cc:788
+msgid "&Autocheck"
+msgstr "自動檢查(&A)"
+
+#: YQPkgSelector.cc:792
+msgid "Install &Recommended Packages"
+msgstr "安裝推薦的套件(&R)"
+
+#: YQPkgSelector.cc:805
+msgid "&Options"
+msgstr "選項(&O)"
+
+#: YQPkgSelector.cc:808
+msgid "Show -de&vel Packages"
+msgstr "顯示 -devel 套件(&V)"
+
+#: YQPkgSelector.cc:818
+msgid "Show -&debuginfo/-debugsource Packages"
+msgstr "顯示 -debuginfo/-debugsource 套件(&D)"
+
+#: YQPkgSelector.cc:828
+msgid "&System Verification Mode"
+msgstr "系統驗證模式(&S)"
+
+#: YQPkgSelector.cc:835
+#, fuzzy
+msgid "Options for this run only"
+msgstr "僅用於此次執行的選項…"
+
+#: YQPkgSelector.cc:837
+msgid "&Cleanup when deleting packages"
+msgstr "刪除套件時清理(&C)"
+
+#: YQPkgSelector.cc:841
+msgid "&Allow vendor change"
+msgstr "允許廠商變更(&A)"
+
+#: YQPkgSelector.cc:853
+msgid "E&xtras"
+msgstr "額外(&X)"
+
+#: YQPkgSelector.cc:857
+#, fuzzy
+msgid "C&onfigure Repositories..."
+msgstr "儲存庫(&R)..."
+
+#: YQPkgSelector.cc:863
+msgid "Show &Products"
+msgstr "顯示產品(&P)"
+
+#: YQPkgSelector.cc:864
+#, fuzzy
+msgid "Show Package &Changes"
+msgstr "顯示套件變更(&A)"
+
+#: YQPkgSelector.cc:866
+msgid "Show &History"
+msgstr "顯示歷史記錄(&H)"
+
+#: YQPkgSelector.cc:873
+#, fuzzy
+msgid "Install All Matching -devel Packages"
+msgstr "安裝所有相符的 -devel 套件(&D)"
+
+#: YQPkgSelector.cc:876
+#, fuzzy
+msgid "Install All Matching -debuginfo Packages"
+msgstr "安裝所有相符的 -debuginfo 套件(&B)"
+
+#: YQPkgSelector.cc:879
+#, fuzzy
+msgid "Install All Matching -debugsource Packages"
+msgstr "安裝所有相符的 -debugsource 套件(&S)"
+
+#: YQPkgSelector.cc:881
+#, fuzzy
+msgid "Install All Matching Recommended Packages"
+msgstr "安裝所有相符的推薦套件(&R)"
+
+#: YQPkgSelector.cc:887
+msgid "Generate Dependency Resolver &Test Case"
+msgstr "產生相依性解析程式測試個案(&T)"
+
+#: YQPkgSelector.cc:900
+msgid "H&elp"
+msgstr ""
+
+#: YQPkgSelector.cc:906
+msgid "&Overview"
+msgstr "綜覽(&O)"
+
+#: YQPkgSelector.cc:908
+msgid "About &Myrlyn"
+msgstr ""
+
+#: YQPkgSelector.cc:909
+msgid "About &Qt"
+msgstr ""
+
+#: YQPkgSelector.cc:914
+#, fuzzy
+msgid "Rep&ository Configuration"
+msgstr "組態(&C)"
+
+#: YQPkgSelector.cc:915
+#, fuzzy
+msgid "Root &Authentication"
+msgstr "通訊"
+
+#: YQPkgSelector.cc:916
+msgid "&Development Status"
+msgstr ""
+
+#: YQPkgSelector.cc:917
+msgid "&Latest Release"
+msgstr ""
+
+#: YQPkgSelector.cc:1153
+msgid "All package dependencies are OK."
+msgstr "所有的套件相依項均沒有問題。"
+
+#: YQPkgSelector.cc:1261
+msgid ""
+"There are pending changes.\n"
+"\n"
+"If you continue to the repository configuration\n"
+"and change anything there, you will have to\n"
+"restart the program, and all package changes\n"
+"will be lost.\n"
+msgstr ""
+
+#: YQPkgSelector.cc:1319
+#, qt-format
+msgid "%1 packages will be updated"
+msgstr "將更新 %1 個套件"
+
+#: YQPkgSelector.cc:1349
+msgid "Dist-Upgrade Mode"
+msgstr ""
+
+#: YQPkgSelector.cc:1350
+msgid "Package Update Mode"
+msgstr ""
+
+#: YQPkgSelector.cc:1388
+#, qt-format
+msgid ""
+"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
+"versions in this repository (%2)</p>"
+msgstr ""
+"<p><a href=\"repoupgradeadd:///%1\">將系統套件切換</a>至此儲存庫 (%2) 中的版"
+"本</p>"
+
+#: YQPkgSelector.cc:1413
+#, fuzzy, qt-format
+msgid ""
+"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
+"to versions in repository %2</p>"
+msgstr ""
+"<p><small><a href=\"repoupgraderemove:///%1\">取消</a>將系統套件切換至儲存庫 "
+"%2 中的版本</small></p>"
+
+#: YQPkgSelector.cc:1489
+#, qt-format
+msgid ""
+"Can't open zypp history file\n"
+"%1\n"
+"\n"
+"No permissions?"
+msgstr ""
+
+#: YQPkgSelector.cc:1501
+#, qt-format
+msgid ""
+"Parse error in zypp history file\n"
+"%1\n"
+"\n"
+"Check the log!"
+msgstr ""
+
+#: YQPkgSelector.cc:1544 YQPkgSelector.cc:1713
+msgid "Added Subpackages:"
+msgstr "新增的子套件："
+
+#: YQPkgSelectorBase.cc:120
+msgid "System dependencies verify OK."
+msgstr "系統相依性驗證通過。"
+
+#: YQPkgSelectorBase.cc:139
+msgid "Error: Out of disk space!"
+msgstr "錯誤：磁碟空間不足！"
+
+#: YQPkgSelectorBase.cc:140
+msgid ""
+"<p>You can choose to install anyway if you know what you are doing, but you "
+"risk getting a corrupted system that requires manual repairs. If you are not "
+"absolutely sure how to handle such a case, press <b>Cancel</b> now and "
+"deselect some packages.</p>"
+msgstr ""
+"<p>如果您知道如何進行，可以選擇繼續安裝，但是可能會造成系統毀損而需要手動修"
+"復。如果您不是完全確定如何處理這類問題，立即按<b>「取消」</b>並取消選取一些套"
+"件。</p>"
+
+#: YQPkgSelectorBase.cc:148
+msgid "C&ontinue Anyway"
+msgstr "無論如何都要繼續(&O)"
+
+#: YQPkgSelectorBase.cc:160
+msgid "The following items will be changed: "
+msgstr "將會變更下列各項︰ "
+
+#: YQPkgSelectorBase.cc:210
+#, fuzzy
+msgid "Really abandon all changes and exit?"
+msgstr "您要放棄所有變更並離開嗎？"
+
+#: YQPkgSelectorBase.cc:265
+msgid ""
+"In addition to your manual selections, the following packages have been "
+"changed to resolve dependencies:"
+msgstr "除了手動選取的套件外，已變更下列套件以解決相依項："
+
+#: YQPkgSelectorBase.cc:367
+#, fuzzy
+msgid "Not implemented yet"
+msgstr "尚未執行，抱歉。"
+
+#: YQPkgServiceList.cc:202
+msgid "URL: "
+msgstr "URL： "
+
+#: YQPkgServiceList.cc:209
+msgid "Product: "
+msgstr "產品： "
+
+#: YQPkgServiceList.cc:213
+msgid "Repositories:"
+msgstr "軟體庫："
+
+#: YQPkgTechnicalDetailsView.cc:129 YQPkgTechnicalDetailsView.cc:175
+msgid "Build Time:"
+msgstr "建立時間："
+
+#: YQPkgTechnicalDetailsView.cc:133 YQPkgTechnicalDetailsView.cc:176
+msgid "Install Time:"
+msgstr "安裝時間："
+
+#: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
+#, fuzzy
+msgid "RPM Group:"
+msgstr "RPM 群組(&R)"
+
+#: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
+msgid "License:"
+msgstr "授權："
+
+#: YQPkgTechnicalDetailsView.cc:141 YQPkgTechnicalDetailsView.cc:185
+msgid "Installed Size:"
+msgstr "安裝的大小："
+
+#: YQPkgTechnicalDetailsView.cc:142 YQPkgTechnicalDetailsView.cc:186
+msgid "Download Size:"
+msgstr "下載大小："
+
+#: YQPkgTechnicalDetailsView.cc:143 YQPkgTechnicalDetailsView.cc:187
+msgid "Distribution:"
+msgstr "配送："
+
+#: YQPkgTechnicalDetailsView.cc:144 YQPkgTechnicalDetailsView.cc:188
+msgid "Vendor:"
+msgstr "廠商："
+
+#: YQPkgTechnicalDetailsView.cc:145 YQPkgTechnicalDetailsView.cc:189
+msgid "Packager:"
+msgstr "製作套件者："
+
+#: YQPkgTechnicalDetailsView.cc:146 YQPkgTechnicalDetailsView.cc:190
+msgid "Architecture:"
+msgstr "架構︰"
+
+#: YQPkgTechnicalDetailsView.cc:147 YQPkgTechnicalDetailsView.cc:191
+#: repo-config.ui:128
+msgid "URL:"
+msgstr "URL："
+
+#: YQPkgTechnicalDetailsView.cc:148 YQPkgTechnicalDetailsView.cc:192
+msgid "Source Package:"
+msgstr "來源套件："
+
+#: YQPkgTechnicalDetailsView.cc:151 YQPkgTechnicalDetailsView.cc:196
+msgid "Authors:"
+msgstr "原著者："
+
+#: YQPkgVersionsView.cc:242
+#, fuzzy
+msgid "Architecture"
+msgstr "架構︰"
+
+#: YQPkgVersionsView.cc:243
+#, fuzzy
+msgid "Repository"
+msgstr "儲存庫(&R)"
+
+#: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
+msgid "[RETRACTED]"
+msgstr ""
+
+#: YQPkgVersionsView.cc:412
+#, fuzzy
+msgid "(installed)"
+msgstr "安裝"
+
+#: YQPkgVersionsView.cc:599
+msgid ""
+"You are trying to install multiversion-capable\n"
+"and non-multiversion-capable versions of this\n"
+"package at the same time."
+msgstr ""
+"您正在嘗試同時安裝此套件\n"
+"具有多版本功能和沒有多版本功能的\n"
+"兩種版本。"
+
+#: YQPkgVersionsView.cc:607
+msgid ""
+"This version is multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install this version\n"
+"and unselect the non-multiversion-capable version,\n"
+"\"Cancel\" to unselect this version and keep the other one."
+msgstr ""
+"此版本具有多版本功能。\n"
+"\n"
+"按「繼續」會安裝此版本並\n"
+"取消選取沒有多版本功能的版本，\n"
+"按「取消」會取消選取此版本並保留另一個版本。"
+
+#: YQPkgVersionsView.cc:616
+msgid ""
+"This version is not multiversion-capable.\n"
+"\n"
+"Press \"Continue\" to install only this version\n"
+"and unselect all other versions,\n"
+"\"Cancel\" to unselect this version and keep the other ones."
+msgstr ""
+"此版本沒有多版本功能。\n"
+"\n"
+"按「繼續」只會安裝此版本並\n"
+"取消選取所有其他版本，\n"
+"按「取消」會取消選取此版本並保留其他版本。"
+
+#: YQPkgVersionsView.cc:625
+msgid "Incompatible Package Versions"
+msgstr "不相容的套件版本"
+
+#: ZyppHistoryBrowser.cc:467
+#, qt-format
+msgid "Repo+  %1  %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:473
+#, qt-format
+msgid "Repo-  %1"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:478
+#, qt-format
+msgid "Repo-URL  %1 -> %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:484
+#, qt-format
+msgid "Repo-Alias  %1 -> %2"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:504
+#, fuzzy, qt-format
+msgid "Patch %1"
+msgstr "修補程式(&P)"
+
+#: ZyppHistoryBrowser.cc:628
+#, qt-format
+msgid "<b>Filter:</b> %1"
+msgstr ""
+
+#: ZyppHistoryBrowser.cc:630
+msgid "<i>No Filter</i>"
+msgstr ""
+
+#: ZyppHistoryFilter.cc:26
+msgid "Only repo events"
+msgstr ""
+
+#: ZyppHistoryFilter.cc:57
+#, qt-format
+msgid "Package name \"%1\""
+msgstr ""
+
+#: ZyppHistoryFilter.cc:80
+#, qt-format
+msgid "Packages from repo \"%1\""
+msgstr ""
+
+#: ZyppHistoryFilterDialog.cc:155
+#, fuzzy
+msgid "Only package installation / update"
+msgstr "將更新 %1 個套件"
+
+#: ZyppHistoryFilterDialog.cc:160
+msgid "Only package removal"
+msgstr ""
+
+# translation of qt-pkg.po to
+# Chinese message file for YaST2 (@memory@). -*- coding: utf-8 -*-
+# Copyright (C) 2002 SuSE Linux AG.
+# Copyright (C) 2001 SuSE GmbH.
+#
+# swyear <swyear@gmail.com>, 2008.
+# Ray Chen <swyear@gmail.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2025-04-08 10:56+0000\n"
+"Last-Translator: Emily Dong <Emily.Dong@excel-gits.com>\n"
+"Language-Team: Chinese (Taiwan) <https://l10n.opensuse.org/projects/yast-qt-"
+"pkg/master/zh_TW/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10.3\n"
+
+#: about-dialog.ui:14
+msgid "About Myrlyn"
+msgstr ""
+
+#: about-dialog.ui:52
+msgid "## Myrlyn "
+msgstr ""
+
+#: about-dialog.ui:81
+msgid ""
+"Myrlyn is a graphical package manager to select\n"
+"software packages and patterns for installation,\n"
+"update and removal.\n"
+"\n"
+"It uses libzypp as its backend and Qt as its\n"
+"GUI toolkit.\n"
+"\n"
+"This started in the 11/2024 SUSE Hack Week\n"
+"to make the SUSE YaST Qt package selector usable\n"
+"as a standalone Qt program without any YaST\n"
+"dependencies."
+msgstr ""
+
+#: about-dialog.ui:123
+msgid ""
+"### Main Author\n"
+"\n"
+"Stefan Hundhammer (GitHub: @shundhammer)\n"
+"\n"
+"### Contributors\n"
+"\n"
+"- Christoph Grüninger (GitHub: @gruenich)\n"
+"- @Arthurium-On-Linux\n"
+"- @byDMA"
+msgstr ""
+
+#: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
+#: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
+msgid "Form"
+msgstr ""
+
+#: init-repos-page.ui:36
+#, fuzzy
+msgid "Initializing Repositories"
+msgstr "儲存庫(&R)"
+
+#: ../aux/myrlyn-askpass.ui:14
+msgid "Myrlyn-Password"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:35
+msgid "### Authentication for Myrlyn"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:84
+msgid "Enter your user password:"
+msgstr ""
+
+#: ../aux/myrlyn-askpass.ui:94
+msgid "Password"
+msgstr ""
+
+#: pkg-commit-page.ui:41
+#, fuzzy
+msgid "Installing / Removing Packages"
+msgstr "安裝推薦的套件(&R)"
+
+#: pkg-commit-page.ui:282
+msgid "Doing"
+msgstr ""
+
+#: pkg-commit-page.ui:548
+msgid "Show &Summary Page"
+msgstr ""
+
+#: progress-dialog.ui:14
+#, fuzzy
+msgid "Working..."
+msgstr "搜尋中..."
+
+#: progress-dialog.ui:79 repo-config.ui:378 zypp-history-browser.ui:222
+msgid "&Close"
+msgstr "關閉(&C)"
+
+#: repo-config.ui:14
+#, fuzzy
+msgid "Repository Configuration"
+msgstr "組態(&C)"
+
+#: repo-config.ui:41
+#, fuzzy
+msgid "**Repository Configuration**"
+msgstr "組態(&C)"
+
+#: repo-config.ui:94
+msgid "**PackMan**"
+msgstr ""
+
+#: repo-config.ui:154
+#, fuzzy
+msgid "Raw URL:"
+msgstr "URL："
+
+#: repo-config.ui:208
+msgid "&Priority:"
+msgstr ""
+
+#: repo-config.ui:248
+msgid "Ena&bled"
+msgstr ""
+
+#: repo-config.ui:258
+msgid "Auto-Re&fresh"
+msgstr ""
+
+#: repo-config.ui:281
+msgid "1: highest; 200: lowest"
+msgstr ""
+
+#: repo-config.ui:334
+msgid "&Add"
+msgstr ""
+
+#: repo-config.ui:341
+msgid "&Edit"
+msgstr ""
+
+#: repo-config.ui:348
+#, fuzzy
+msgid "&Delete"
+msgstr "刪除"
+
+#: repo-config.ui:368
+msgid "<i>Restart needed!</i>"
+msgstr ""
+
+#: repo-edit-add.ui:98
+#, fuzzy
+msgid "Custom &Repository"
+msgstr "儲存庫(&R)"
+
+#: repo-edit-add.ui:108
+msgid "Co&mmunity Repository"
+msgstr ""
+
+#: repo-edit-add.ui:254 search-filter-view.ui:87
+msgid "&Name"
+msgstr "名稱(&N)"
+
+#: repo-edit-add.ui:270
+#, fuzzy
+msgid "Repository Name"
+msgstr "儲存庫(&R)"
+
+#: repo-edit-add.ui:302
+msgid "Raw &URL"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:14
+msgid "GPG Key"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:41
+msgid "## Import Untrusted GPG Key"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:81
+#, fuzzy
+msgid "_Repository:_"
+msgstr "軟體庫："
+
+#: repo-gpg-key-import-dialog.ui:101
+#, fuzzy
+msgid "_URL:_"
+msgstr "URL："
+
+#: repo-gpg-key-import-dialog.ui:121
+msgid "_Fingerprint:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:141
+msgid "_Key Name:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:161
+msgid "_Key Algorithm:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:181
+msgid "_Key ID:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:201
+msgid "_Created:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:221
+msgid "_Expires:_"
+msgstr ""
+
+#: repo-gpg-key-import-dialog.ui:274
+msgid "&Trust"
+msgstr ""
+
+#: search-filter-view.ui:43
+msgid "Search Text or Pattern"
+msgstr ""
+
+#: search-filter-view.ui:78
+#, fuzzy
+msgid "Search In"
+msgstr "搜尋範圍"
+
+#: search-filter-view.ui:97
+msgid "Su&mmary"
+msgstr "摘要(&M)"
+
+#: search-filter-view.ui:104
+msgid "D&escription"
+msgstr "描述(&E)"
+
+#: search-filter-view.ui:127
+#, fuzzy
+msgid "RPM P&rovides"
+msgstr "RPM \"提供\"(&R)"
+
+#: search-filter-view.ui:134
+#, fuzzy
+msgid "RPM Re&quires"
+msgstr "RPM \"需要\"(&Q)"
+
+#: search-filter-view.ui:141
+#, fuzzy
+msgid "RPM Recommends"
+msgstr "推薦："
+
+#: search-filter-view.ui:164
+#, fuzzy
+msgid "File &List"
+msgstr "檔案清單"
+
+#: search-filter-view.ui:198
+#, fuzzy
+msgid "Searc&h Mode:"
+msgstr "搜尋模式(&M)："
+
+#: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
+#: zypp-history-filter-dialog.ui:184
+msgid "Auto"
+msgstr ""
+
+#: search-filter-view.ui:214 zypp-history-filter-dialog.ui:98
+#: zypp-history-filter-dialog.ui:189
+msgid "Contains"
+msgstr "包含"
+
+#: search-filter-view.ui:219 zypp-history-filter-dialog.ui:103
+#: zypp-history-filter-dialog.ui:194
+msgid "Starts With"
+msgstr ""
+
+#: search-filter-view.ui:224 zypp-history-filter-dialog.ui:108
+#: zypp-history-filter-dialog.ui:199
+msgid "Exact Match"
+msgstr "完全符合"
+
+#: search-filter-view.ui:229 zypp-history-filter-dialog.ui:113
+#: zypp-history-filter-dialog.ui:204
+#, fuzzy
+msgid "Wildcards"
+msgstr "使用萬用字元"
+
+#: search-filter-view.ui:234 zypp-history-filter-dialog.ui:118
+#: zypp-history-filter-dialog.ui:209
+#, fuzzy
+msgid "Regular Expression"
+msgstr "使用規則運算式"
+
+#: search-filter-view.ui:244
+#, fuzzy
+msgid "Detected:"
+msgstr "受保護"
+
+#: search-filter-view.ui:267
+msgid "Switch default mode for \"auto\""
+msgstr ""
+
+#: search-filter-view.ui:270 summary-page.ui:135
+msgid "..."
+msgstr ""
+
+#: search-filter-view.ui:295
+#, fuzzy
+msgid "Case Sens&itive"
+msgstr "區分大小寫(&V)"
+
+#: status-filter-view.ui:32
+#, fuzzy
+msgid "Show Packages with Status"
+msgstr "顯示套件及其狀態"
+
+#: status-filter-view.ui:103
+#, fuzzy
+msgid "Auto-Install"
+msgstr "自動安裝"
+
+#: status-filter-view.ui:123
+#, fuzzy
+msgid "Auto-Update"
+msgstr "自動更新"
+
+#: status-filter-view.ui:143
+msgid "Taboo"
+msgstr "禁用"
+
+#: status-filter-view.ui:160
+msgid "Protected"
+msgstr "受保護"
+
+#: status-filter-view.ui:279
+#, fuzzy
+msgid "Auto-Delete"
+msgstr "自動刪除"
+
+#: status-filter-view.ui:302
+msgid "<i>Middle-click on a status to show only this one</i>"
+msgstr ""
+
+#: status-filter-view.ui:354
+msgid "Defaults"
+msgstr ""
+
+#: status-filter-view.ui:361 updates-filter-view.ui:242
+#, fuzzy
+msgid "Refresh List"
+msgstr "重新整理清單(&R)"
+
+#: summary-page.ui:95
+msgid "Automatically closing in"
+msgstr ""
+
+#: summary-page.ui:125
+msgid "&Stop"
+msgstr ""
+
+#: summary-page.ui:175
+msgid "&Back"
+msgstr ""
+
+#: summary-page.ui:182
+msgid "&Finish"
+msgstr ""
+
+#: updates-filter-view.ui:35
+#, fuzzy
+msgid "Updates"
+msgstr "更新"
+
+#: updates-filter-view.ui:48
+msgid ""
+"This shows only packages that could be updated, i.e. where a newer version "
+"is available than the version that is already installed."
+msgstr ""
+
+#: updates-filter-view.ui:98
+#, fuzzy
+msgid "Pac&kage Update"
+msgstr "套件"
+
+#: updates-filter-view.ui:120
+msgid ""
+"Mark all packages for updating that can be updated without a dependency "
+"problem.\n"
+"\n"
+"This is the equivalent of the \"zypper up\" command."
+msgstr ""
+
+#: updates-filter-view.ui:172
+msgid "D&ist-Upgrade"
+msgstr ""
+
+#: updates-filter-view.ui:194
+msgid ""
+"Do a distribution upgrade: Mark all packages for updating that can be "
+"updated without a dependency problem.\n"
+"\n"
+"This takes package splits, package renames,  pattern updates and more into "
+"account.\n"
+"\n"
+"This is the equivalent of the \"zypper dup\" command."
+msgstr ""
+
+#: zypp-history-browser.ui:14
+#, fuzzy
+msgid "Zypp History"
+msgstr "顯示歷史記錄(&H)"
+
+#: zypp-history-browser.ui:66
+msgid "**Zypp History**"
+msgstr ""
+
+#: zypp-history-browser.ui:92
+msgid "No Filter"
+msgstr ""
+
+#: zypp-history-browser.ui:108
+#, fuzzy
+msgid "Cl&ear Filter"
+msgstr "次要過濾器(&S)︰"
+
+#: zypp-history-browser.ui:115
+#, fuzzy
+msgid "&Filter..."
+msgstr "檔案(&F)"
+
+#: zypp-history-browser.ui:144
+#, fuzzy
+msgid "Navigation"
+msgstr "當地化"
+
+#: zypp-history-browser.ui:167
+msgid "Arch."
+msgstr ""
+
+#: zypp-history-browser.ui:172
+msgid "Repo"
+msgstr ""
+
+#: zypp-history-browser.ui:199
+msgid "Sho&w (+/-) Count"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:14
+msgid "Zypp History Filter"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:38
+msgid "**Zypp History Filter**"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:51
+#, fuzzy
+msgid "Package by &Name"
+msgstr "套件"
+
+#: zypp-history-filter-dialog.ui:76
+msgid "Package Name or Pattern"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:142
+#, fuzzy
+msgid "Package by &Repository"
+msgstr "套件歷程"
+
+#: zypp-history-filter-dialog.ui:167
+msgid "Repo Alias or Pattern"
+msgstr ""
+
+#: zypp-history-filter-dialog.ui:233
+#, fuzzy
+msgid "Package &Install / Update"
+msgstr "將更新 %1 個套件"
+
+#: zypp-history-filter-dialog.ui:240
+#, fuzzy
+msgid "Package Re&move"
+msgstr "套件群組(&G)"
+
+#: zypp-history-filter-dialog.ui:247
+msgid "Repository &Add / Remove / Change URL / Change Alias"
+msgstr ""
+
+#~ msgid "&Update Problems"
+#~ msgstr "更新問題(&U)"
+
+#~ msgid "Patter&ns"
+#~ msgstr "模式(&N)"
+
+#~ msgid "Package &Classification"
+#~ msgstr "套件分類(&C)"
+
+#~ msgid "S&earch"
+#~ msgstr "搜尋(&E)"
+
+#~ msgid "&Keywords"
+#~ msgstr "關鍵字(&K)"
+
+#~ msgid "&Installation Summary"
+#~ msgstr "安裝摘要(&I)"
+
+#~ msgid "&Import..."
+#~ msgstr "輸入(&I)..."
+
+#~ msgid "&Export..."
+#~ msgstr "輸出(&E)..."
+
+#~ msgid "&Quit -- Save Changes"
+#~ msgstr "結束(&Q) -- 儲存變更"
+
+#~ msgid "Confi&guration"
+#~ msgstr "組態(&G)"
+
+#~ msgid "&Online Update..."
+#~ msgstr "線上更新(&O)..."
+
+#~ msgid "Search &Online"
+#~ msgstr "線上搜尋(&O)"
+
+#~ msgid "&Help"
+#~ msgstr "說明(&H)"
+
+#~ msgid "&Symbols"
+#~ msgstr "符號(&S)"
+
+#~ msgid "&Keys"
+#~ msgstr "按鍵(&K)"
+
+#~ msgid "P&atches"
+#~ msgstr "修補程式(&A)"
+
+#~ msgid "Save Package List"
+#~ msgstr "儲存套件清單"
+
+#~ msgid "Load Package List"
+#~ msgstr "載入套件清單"
+
+#~ msgid "&Continue"
+#~ msgstr "繼續(&C)"
+
+#~ msgid "C&ancel"
+#~ msgstr "取消(&A)"
+
+#~ msgid "Reset &Ignored Dependency Conflicts"
+#~ msgstr "重設忽略的相依項衝突(&I)"
+
+#~ msgid "&Yes"
+#~ msgstr "是(&Y)"
+
+#~ msgid "&No"
+#~ msgstr "否(&N)"
+
+#~ msgid "Unsupported Packages"
+#~ msgstr "不支援的套件"
+
+#~ msgid ""
+#~ "Please realize that the following selected software is either unsupported "
+#~ "or requires an additional customer contract for support."
+#~ msgstr "請注意，下列選定的軟體不受支援或需要其他客戶合約才受支援。"
+
+#~ msgid "The YaST Package Manager"
+#~ msgstr "YaST 套件管理員"
+
+#~ msgid ""
+#~ "<b>Note:</b> This is a just a short  overview. Refer to the manual for "
+#~ "details."
+#~ msgstr "<b>注意事項：</b>這僅是簡短綜覽。請參閱手冊瞭解詳細資訊。"
+
+#~ msgid "In this dialog, select patches to download and install."
+#~ msgstr "您可以在此對話方塊中選取要下載及安裝的修補程式。"
+
+#~ msgid ""
+#~ "The list on the left side contains available patches along with the "
+#~ "respective patch kind (security, recommended, or optional) and the "
+#~ "(estimated) download size."
+#~ msgstr ""
+#~ "左邊的清單包含可用的修補程式，以及相關的修補程式類型 (安全性、建議或選擇性"
+#~ "項目) 和 (預估) 下載大小。"
+
+#~ msgid ""
+#~ "This list normally contains only those patches that are not installed on "
+#~ "your system yet. You can change that with the <b>Include Installed "
+#~ "Patches</b> check box below the list."
+#~ msgstr ""
+#~ "此清單通常僅包含系統中尚未安裝的修補程式。使用清單底下的<b>「包含已安裝的"
+#~ "修補程式」</b>核取方塊，可以變更清單內容。"
+
+#~ msgid ""
+#~ "The <b>Patch Description</b> field contains a longer explanation of the "
+#~ "currently selected patch. Click a patch in the list to view its "
+#~ "description here."
+#~ msgstr ""
+#~ "<b>「修補程式描述」</b>欄位包含目前所選修補程式較長的解說。按一下清單中的"
+#~ "修補程式，在此檢視它的描述。"
+
+#~ msgid ""
+#~ "The package list on the right side shows the contents of the currently "
+#~ "selected patch, i.e., the packages it contains. You cannot install or "
+#~ "delete individual packages from a patch, only the patch as a whole. This "
+#~ "is intentional to avoid system inconsistencies."
+#~ msgstr ""
+#~ "右邊的套件清單會顯示目前所選修補程式的內容，例如其所包含的套件。您無法安裝"
+#~ "或刪除修補程式中的個別套件，僅能安裝整個修補程式。這是為了避免造成系統不一"
+#~ "致。"
+
+#~ msgid ""
+#~ "In addition to <b>Patches</b>, you can also select one of the other "
+#~ "filter views from <b>Filter</b> at the upper left:"
+#~ msgstr ""
+#~ "除了<b>修補程式</b>，您還可以從左上方的「<b>過濾器</b>」的其他過濾器檢視中"
+#~ "選取其中一種："
+
+#~ msgid ""
+#~ "In this dialog, select which packages to install, update, or delete. You "
+#~ "can select individual packages or entire package \"selections\"."
+#~ msgstr ""
+#~ "在此對話方塊中，選取要安裝、更新或刪除的套件。您可以選取個別套件或整個套件"
+#~ "「選項」。"
+
+#~ msgid ""
+#~ "Click the status icon for a package or selection to change the status or "
+#~ "right-click it to open a context menu."
+#~ msgstr ""
+#~ "按一下套件或選項的狀態圖示變更狀態，或在上面按滑鼠右鍵開啟快顯功能表。"
+
+#~ msgid ""
+#~ "Use the <b>Check Dependencies</b> button to resolve package dependencies. "
+#~ "Some packages require other packages to be installed. Some packages can "
+#~ "only be installed if certain other packages are not installed, too. This "
+#~ "check will automatically mark required packages for installation and it "
+#~ "will warn you if there are dependency conflicts."
+#~ msgstr ""
+#~ "使用<b>檢查相依項</b>按鈕可解決套件相依項。有些套件需要其他套件才能安裝。"
+#~ "而有些套件也只有在某些其他套件沒有安裝時才能安裝。此項檢查將自動標示安裝所"
+#~ "必需的套件，而且如果有相依項衝突時，將會警告您。"
+
+#~ msgid ""
+#~ "When you leave this dialog with <b>Accept</b>, this check will "
+#~ "automatically be performed."
+#~ msgstr "按一下<b>接受</b>離開此對話方塊時，將會自動執行此項檢查。"
+
+#~ msgid ""
+#~ "Select one of the available filter views with the <b>Filter</b> combo-box "
+#~ "at the upper left:"
+#~ msgstr "使用左上角的<b>「過濾器」</b>組合方塊選取其中一個可用的過濾器檢視："
+
+#~ msgid ""
+#~ "<b>Selections</b> shows some predefined sets of packages that logically "
+#~ "belong together."
+#~ msgstr "<b>選項</b>會顯示一些邏輯上屬於同類的預先定義套件集。"
+
+#~ msgid ""
+#~ "Use the check box next to the selection to select it as a whole. You can "
+#~ "also select or deselect individual packages in the package list at the "
+#~ "right."
+#~ msgstr ""
+#~ "使用選項旁邊的核取方塊可選取全部。也可以在右邊的套件清單中選取或取消選取個"
+#~ "別的套件。"
+
+#~ msgid ""
+#~ "<b>Package Groups</b> shows packages by category. You can expand and "
+#~ "collapse tree items to refine or generalize categories. Click any "
+#~ "category to display the packages in that category in the package list on "
+#~ "the right side."
+#~ msgstr ""
+#~ "<b>套件群組</b>會依類別顯示套件。您可以展開和折疊樹狀項目，以縮小或歸納類"
+#~ "別。按一下任何類別可在右邊的套件清單中顯示該類別中的套件。"
+
+#~ msgid ""
+#~ " <b>Hint:</b> There is a \"zzz All\" entry at the very end of the list "
+#~ "that will show all packages. This may take a few seconds on slow machines."
+#~ msgstr ""
+#~ " <b>提示：</b>清單最尾端有「zzz 全部」項目，表示將顯示所有套件。如果電腦較"
+#~ "慢，可能需費時幾秒鐘。"
+
+#~ msgid ""
+#~ "<b>Search</b> allows you to search for packages that meet various "
+#~ "criteria. This is usually the easiest way to find a package if you know "
+#~ "its name."
+#~ msgstr ""
+#~ "<b>搜尋</b>允許您搜尋符合各種準則的套件。如果知道套件名稱，採用此方式通常"
+#~ "最容易找到套件。"
+
+#~ msgid ""
+#~ "<b>Hint:</b> You can also use this to find out what package contains a "
+#~ "certain library.  Search in the <b>Provides</b> RPM field."
+#~ msgstr ""
+#~ "<b>提示：</b>也可使用此方式找出包含特定程式庫的套件。在<b>提供</b>RPM 欄位"
+#~ "中搜尋。"
+
+#~ msgid ""
+#~ "<b>Installation Summary</b> by default shows the changes to your system "
+#~ "-- what packages will be installed, deleted, or updated."
+#~ msgstr ""
+#~ "<b>「安裝摘要」</b>預設會顯示系統的變更 -- 將安裝、刪除或更新哪些套件。"
+
+#~ msgid ""
+#~ "It is generally a good idea to use <b>Check Dependencies</b> then switch "
+#~ "to <b>Installation Summary</b> before clicking <b>Accept</b>. This way "
+#~ "you can see all changes that will be made to your system."
+#~ msgstr ""
+#~ "通常比較好的做法為使用<b>檢查相依項</b>，然後切換到<b>安裝摘要</b>，再按一"
+#~ "下<b>接受</b>。這樣您可以看到將對系統進行的所有變更。"
+
+#~ msgid ""
+#~ "You can also explicitly select what packages with what status to see "
+#~ "here; use the check boxes at the left side."
+#~ msgstr "您也可以明確選取在此所見的套件及其狀態；請使用左邊的核取方塊。"
+
+#~ msgid ""
+#~ "<b>Hint:</b> You can also reverse the effect of this filter. You can see "
+#~ "what packages remain the same on your system. Simply check <b>Keep</b> "
+#~ "and uncheck everything else."
+#~ msgstr ""
+#~ "<b>提示：</b>您也可以顛倒此過濾器的作用。您會看到系統上哪些套件會維持相同"
+#~ "狀態；只需選取<b>保留</b>並取消核取所有其他項目。"
+
+#~ msgid "Symbols Overview"
+#~ msgstr "符號綜覽"
+
+#~ msgid "Do not install"
+#~ msgstr "不要安裝"
+
+#~ msgid "This package is not installed and it will not be installed."
+#~ msgstr "未安裝此套件，將不會安裝。"
+
+#~ msgid "This package will be installed. It is not installed yet."
+#~ msgstr "將會安裝此套件，尚未安裝。"
+
+#~ msgid "This package is already installed. Leave it untouched."
+#~ msgstr "此套件已經安裝，保留不變。"
+
+#~ msgid ""
+#~ "This package is already installed. Update it or reinstall it (if the "
+#~ "versions are the same)."
+#~ msgstr "此套件已經安裝，將其更新或重新安裝 (如果版本相同)。"
+
+#~ msgid "This package is already installed. Delete it."
+#~ msgstr "此套件已經安裝，將其刪除。"
+
+#~ msgid ""
+#~ "This package is not installed and should not be installed under any "
+#~ "circumstances,  especially not because of unresolved dependencies that "
+#~ "other packages might have or get."
+#~ msgstr ""
+#~ "未安裝此套件，而且任何情況下都不應安裝，特別是當其他套件可能與此套件有未解"
+#~ "決的相依項時。"
+
+#~ msgid ""
+#~ "Packages set to \"taboo\" are treated as if they did not exist on any "
+#~ "installation media."
+#~ msgstr "設定為「禁用」的套件會視為不存在於任何安裝媒體上。"
+
+#~ msgid ""
+#~ "This package is installed and should not be modified,  especially not "
+#~ "because of unresolved dependencies that other packages might have or get."
+#~ msgstr ""
+#~ "已安裝此套件，而且不應該修改，特別是當其他套件與此套件可能有未解決的相依項"
+#~ "時。"
+
+#~ msgid ""
+#~ "Use this status for third-party packages that should not be overwritten "
+#~ "by newer versions that may come with the distribution."
+#~ msgstr "對於不應該由隨附的較新版本覆寫的協力廠商套件，請使用此狀態。"
+
+#~ msgid ""
+#~ "This package will be installed automatically because some other package "
+#~ "needs it."
+#~ msgstr "將自動安裝此套件，因為有些其他套件需要它。"
+
+#~ msgid ""
+#~ "<b>Hint:</b> You may have to use \"taboo\" to get rid of such a package."
+#~ msgstr "<b>提示：</b> 您可能需要使用「禁用」來移除這類套件。"
+
+#~ msgid ""
+#~ "This package is already installed, but some other package needs a newer "
+#~ "version, so it will automatically be updated."
+#~ msgstr "已安裝此套件，但是有些其他套件需要較新版本，因此會自動更新。"
+
+#~ msgid ""
+#~ "This package is already installed, but package dependencies require that "
+#~ "it is deleted."
+#~ msgstr "已安裝此套件，但是套件相依項要求刪除它。"
+
+#~ msgid ""
+#~ "This can happen, for example, if some other package obsoletes this one."
+#~ msgstr "例如，如果有些其他套件作廢此套件，就會發生這種情形。"
+
+#~ msgid "Special Keys Overview"
+#~ msgstr "特殊按鍵綜覽"
+
+#~ msgid "In any case, go to the next list item."
+#~ msgstr "在任何情況中，跳到下一個清單項目。"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid ""
+#~ "Get this package. Install it if it is not installed yet. Update it to the "
+#~ "latest version if it is installed  and there is a newer version."
+#~ msgstr ""
+#~ "取得此套件。如果尚未安裝它，請安裝。如果已安裝且有更新版本，則請更新為最新"
+#~ "版本。"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid ""
+#~ "Get rid of this package. Mark it as \"do not install\" if it is not "
+#~ "installed yet. Delete it if it is installed."
+#~ msgstr ""
+#~ "移除此套件。如果尚未安裝它，則將其標示為「不要安裝」。如果已安裝，則請刪除"
+#~ "它。"
+
+#~ msgid ""
+#~ "Update this package if it is installed and there is a newer version. "
+#~ "Ignore packages that are not installed."
+#~ msgstr "如果已安裝此套件但有更新版本時，請更新它。忽略沒有安裝的套件。"
+
+#~ msgid "Undo Update"
+#~ msgstr "復原更新"
+
+#~ msgid ""
+#~ "Undo the effect of \">\" above: Set package to \"keep\" if it is "
+#~ "currently set to \"update\". Ignore all other packages."
+#~ msgstr ""
+#~ "復原上述「>」的作用：如果套件目前是設定為「更新」，則將其設定為「保留」。"
+#~ "忽略所有其他套件。"
+
+#~ msgid ""
+#~ "Set this package to \"taboo\" if it is not installed: make sure this "
+#~ "package does not get installed, especially not because of unresolved "
+#~ "dependencies that other packages might have or get. "
+#~ msgstr ""
+#~ "若尚未安裝此套件，將其設定為「禁用」：確定不會安裝此套件，特別是當其他套件"
+#~ "與此套件可能有未解決的相依項時。 "
+
+#~ msgid ""
+#~ "Set this package to \"protected\" if it is installed: make sure this "
+#~ "package will not be modified, especially not because of unresolved "
+#~ "dependencies that other packages might have or get. "
+#~ msgstr ""
+#~ "若已安裝此套件，將其設定為「受保護」：確定不會修改此套件，特別是當其他套件"
+#~ "與此套件可能有未解決的相依項時。 "
+
+#~ msgid ""
+#~ "Use this for third-party packages that should not be overwritten by newer "
+#~ "versions that may come with the distribution."
+#~ msgstr "對於不應該由隨附的較新版本覆寫的協力廠商套件，請使用此狀態。"
+
+#~ msgid "Solver Test Case"
+#~ msgstr "解析程式測試個案"
+
+#~ msgid "Supportability: %1"
+#~ msgstr "支援性：%1"
+
+#, fuzzy
+#~| msgid "Package History (/var/log/zypp/history)"
+#~ msgid "Show History (/var/log/zypp/history)"
+#~ msgstr "套件歷程 (/var/log/zypp/history)"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Action"
+#~ msgstr "動作"
+
+#~ msgid "Version/URL"
+#~ msgstr "版本/URL"
+
+#~ msgid "Unable to read history"
+#~ msgstr "無法讀取歷程"
+
+#~ msgid "Export This List to &Text File..."
+#~ msgstr "輸出此清單到文字檔(&T)..."
+
+#~ msgid "&Install Source"
+#~ msgstr "安裝來源(&I)"
+
+#~ msgid "Do &Not Install Source"
+#~ msgstr "不要安裝來源(&N)"
+
+#~ msgid "&Install All Available Sources"
+#~ msgstr "安裝所有可用來源(&I)"
+
+#~ msgid "Do &Not Install Any Sources"
+#~ msgstr "不要安裝任何來源(&N)"
+
+#~ msgid "Export Package List"
+#~ msgstr "輸出套件清單"
+
+#~ msgid "Install Sources"
+#~ msgstr "安裝來源"
+
+#~ msgid "Do Not Install Sources"
+#~ msgstr "不要安裝來源"
+
+#~ msgid "No Sources Available"
+#~ msgstr "沒有可用的來源"
+
+#~ msgid "Dependencies broken"
+#~ msgstr "相依項被破壞"
+
+#~ msgid "All dependencies satisfied"
+#~ msgstr "已滿足所有相依性"
+
+#~ msgid "Nam&e"
+#~ msgstr "名稱(&E)"
+
+#~ msgid "Descr&iption"
+#~ msgstr "描述(&I)"
+
+#~ msgid "Begins with"
+#~ msgstr "開始項目"
+
+#~ msgid "Unmaintained Packages"
+#~ msgstr "不再維護的套件"
+
+#~ msgid "Changes Overview"
+#~ msgstr "變更綜覽"
+
+#~ msgid "Build Host:"
+#~ msgstr "建立主機："
+
+#~ msgid "Media No.:"
+#~ msgstr "媒體編號："
+
+#~ msgid ""
+#~ "<br>\n"
+#~ "<h2>Update Problem</h2>\n"
+#~ "<p>\n"
+#~ "The packages in this list cannot be updated automatically.\n"
+#~ "</p>\n"
+#~ "<p>Possible reasons:</p>\n"
+#~ "<ul>\n"
+#~ "<li>They are obsoleted by other packages\n"
+#~ "<li>There is no newer version to update to on any installation media\n"
+#~ "<li>They are third-party packages\n"
+#~ "</ul>\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "Please choose manually what to do with them.\n"
+#~ "The safest course of action is to delete them.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<br>\n"
+#~ "<h2>更新問題</h2>\n"
+#~ "<p>\n"
+#~ "此清單中的套件無法自動更新。\n"
+#~ "</p>\n"
+#~ "<p>可能的原因：</p>\n"
+#~ "<ul>\n"
+#~ "<li>其他套件已廢棄這些套件\n"
+#~ "<li>所有安裝媒體上均沒有可供更新的較新版本\n"
+#~ "<li>這些套件是協力廠商的套件\n"
+#~ "</ul>\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "請手動選擇處理這些套件的方式。\n"
+#~ "最安全的動作是刪除它們。\n"
+#~ "</p>"
+
+#~ msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
+#~ msgstr "%1-%2 [已收回] 來自廠商 %3 (已安裝)"
+
+#~ msgid "%1-%2 from vendor %3 (installed)"
+#~ msgstr "%1-%2 來自廠商 %3 (已安裝)"
+
+#~ msgid "%1-%2 [RETRACTED] from %3 with priority %4 and vendor %5"
+#~ msgstr "%1-%2 [已收回] 來自 %3 優先程度為 %4 廠商為 %5"
+
+#~ msgid "%1-%2 from %3 with priority %4 and vendor %5"
+#~ msgstr "%1-%2 來自 %3 優先程度為 %4 廠商為 %5"
+
+#~ msgid "This version is installed in your system."
+#~ msgstr "您的系統已安裝此版本。"
+
+#~ msgid "Selection"
+#~ msgstr "選項"
+
+#~ msgid "Package Group:"
+#~ msgstr "套件群組："
+
+#~ msgid "Accessibility"
+#~ msgstr "協助工具"
+
+#~ msgid "Accessories"
+#~ msgstr "附屬應用程式"
+
+#~ msgid "Education"
+#~ msgstr "教育"
+
+#~ msgid "Games"
+#~ msgstr "遊戲"
+
+#~ msgid "Graphics"
+#~ msgstr "繪圖"
+
+#~ msgid "Internet"
+#~ msgstr "網際網路"
+
+#~ msgid "Office"
+#~ msgstr "辦公室軟體"
+
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#~ msgid "Programming"
+#~ msgstr "程式設計"
+
+#~ msgid "Multimedia"
+#~ msgstr "多媒體"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgid "GNOME Desktop"
+#~ msgstr "GNOME 桌面"
+
+#~ msgid "KDE Desktop"
+#~ msgstr "KDE 桌面"
+
+#~ msgid "XFCE Desktop"
+#~ msgstr "XFCE 桌面"
+
+# button label for other/more options
+#~ msgid "Other Desktops"
+#~ msgstr "其他桌面"
+
+#~ msgid "Publishing"
+#~ msgstr "發佈"
+
+#~ msgid "Servers"
+#~ msgstr "伺服器"
+
+#~ msgid "Fonts"
+#~ msgstr "字型"
+
+#~ msgid "Admin Tools"
+#~ msgstr "管理工具"
+
+#~ msgid "Legacy"
+#~ msgstr "遺產"
+
+#~ msgid "Virtualization"
+#~ msgstr "虛擬化"
+
+#~ msgid "Security"
+#~ msgstr "安全性"
+
+#~ msgid "Power Management"
+#~ msgstr "電源管理"
+
+#~ msgid "Network"
+#~ msgstr "網路"
+
+#~ msgid "Maps"
+#~ msgstr "映射"
+
+#~ msgid "Software Sources"
+#~ msgstr "軟體來源"
+
+#~ msgid "Unknown Group"
+#~ msgstr "未知的群組"
+
+#~ msgid "Package Groups"
+#~ msgstr "套件群組"
+
+#~ msgid "zzz All"
+#~ msgstr "zzz 全部"
+
+#~ msgid "Show solver information"
+#~ msgstr "顯示解析器資訊"
+
+#~ msgid "Missing package"
+#~ msgstr "遺失套件"
+
+#~ msgid "Package libqdialogsolver is required for this feature."
+#~ msgstr "此功能需要套件 libqdialogsolver。"
+
+#~ msgid "&Abandon"
+#~ msgstr "放棄(&A)"
+
+#~ msgid "&Ignore Recommended Packages for Already Installed Packages"
+#~ msgstr "對已安裝的套件忽略推薦的套件(&I)"
+
+#~ msgid "Close the current page"
+#~ msgstr "關閉目前頁面"
+
+#~ msgid "Search Packages on &Web..."
+#~ msgstr "在網路上搜尋套件(&W)..."
+
+#~ msgid "YaST2"
+#~ msgstr "YaST2"
