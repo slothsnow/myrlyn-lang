@@ -10,6 +10,32 @@ BuildArch:      noarch
 
 BuildRequires:  gettext
 Requires:       gettext
+Requires:       myrlyn
+Provides:       locale(myrlyn:ca)
+Provides:       locale(myrlyn:de)
+Provides:       locale(myrlyn:es)
+#Provides:       locale(myrlyn:fr)
+#Provides:       locale(myrlyn:it)
+Provides:       locale(myrlyn:ja)
+Provides:       locale(myrlyn:nl)
+Provides:       locale(myrlyn:pl)
+#Provides:       locale(myrlyn:ru)
+Provides:       locale(myrlyn:sv)
+#Provides:       locale(myrlyn:zh_CN)
+#Provides:       locale(myrlyn:zh_TW)
+
+Supplements:    myrlyn and namespace language(ca)
+Supplements:    myrlyn and namespace language(de)
+Supplements:    myrlyn and namespace language(es)
+#Supplements:    myrlyn and namespace language(fr)
+#Supplements:    myrlyn and namespace language(it)
+Supplements:    myrlyn and namespace language(ja)
+Supplements:    myrlyn and namespace language(nl)
+Supplements:    myrlyn and namespace language(pl)
+#Supplements:    myrlyn and namespace language(ru)
+Supplements:    myrlyn and namespace language(sv)
+#Supplements:    myrlyn and namespace language(zh_CN)
+#Supplements:    myrlyn and namespace language(zh_TW)
 
 %description
 This package contains the translation files for Myrlyn.
