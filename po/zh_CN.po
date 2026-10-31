@@ -344,7 +344,7 @@ msgstr "高级(&E)"
 msgid "&Save This List to a File..."
 msgstr "将列表保存为文件(&S)..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1276
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -374,7 +374,7 @@ msgstr ""
 "<p>使用此功能可以生成详细日志，以便追踪依赖解析器中的错误。日志将存储在目录："
 "<br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1269 YQPkgSelector.cc:1321
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1275 YQPkgSelector.cc:1327
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "继续(&o)"
@@ -472,8 +472,8 @@ msgid "Package Description"
 msgstr "软件包描述"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
-#: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1551
+#: YQPkgSelector.cc:1721 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -780,12 +780,12 @@ msgstr "状态"
 msgid "&Search"
 msgstr "搜索(&S)"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1286
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1292
 #, fuzzy
 msgid "Patc&hes"
 msgstr "所有补丁"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1287
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1293
 #, fuzzy
 msgid "&Updates"
 msgstr "升级"
@@ -1002,11 +1002,11 @@ msgstr ""
 msgid "&Latest Release"
 msgstr ""
 
-#: YQPkgSelector.cc:1153
+#: YQPkgSelector.cc:1159
 msgid "All package dependencies are OK."
 msgstr "所有软件包依赖关系正常。"
 
-#: YQPkgSelector.cc:1261
+#: YQPkgSelector.cc:1267
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1016,21 +1016,21 @@ msgid ""
 "will be lost.\n"
 msgstr ""
 
-#: YQPkgSelector.cc:1319
+#: YQPkgSelector.cc:1325
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 个软件包将被更新"
 
-#: YQPkgSelector.cc:1349
+#: YQPkgSelector.cc:1355
 msgid "Dist-Upgrade Mode"
 msgstr ""
 
-#: YQPkgSelector.cc:1350
+#: YQPkgSelector.cc:1356
 #, fuzzy
 msgid "Package Update Mode"
 msgstr "软件包"
 
-#: YQPkgSelector.cc:1388
+#: YQPkgSelector.cc:1394
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1039,7 +1039,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">将系统软件包切换</a>到此仓库 (%2) 中的版"
 "本</p>"
 
-#: YQPkgSelector.cc:1413
+#: YQPkgSelector.cc:1419
 #, fuzzy, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1048,7 +1048,7 @@ msgstr ""
 "<p><small><a href=\"repoupgraderemove:///%1\">取消将</a>系统软件包切换为软件"
 "源 %2 中的版本</small></p>"
 
-#: YQPkgSelector.cc:1489
+#: YQPkgSelector.cc:1495
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1057,7 +1057,7 @@ msgid ""
 "No permissions?"
 msgstr ""
 
-#: YQPkgSelector.cc:1501
+#: YQPkgSelector.cc:1507
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1066,7 +1066,7 @@ msgid ""
 "Check the log!"
 msgstr ""
 
-#: YQPkgSelector.cc:1544 YQPkgSelector.cc:1713
+#: YQPkgSelector.cc:1550 YQPkgSelector.cc:1719
 msgid "Added Subpackages:"
 msgstr "已添加的子包："
 
@@ -1318,11 +1318,11 @@ msgstr ""
 msgid "About Myrlyn"
 msgstr ""
 
-#: about-dialog.ui:52
+#: about-dialog.ui:55
 msgid "## Myrlyn "
 msgstr ""
 
-#: about-dialog.ui:81
+#: about-dialog.ui:84
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -1337,17 +1337,15 @@ msgid ""
 "dependencies."
 msgstr ""
 
-#: about-dialog.ui:123
+#: about-dialog.ui:126
 msgid ""
 "### Main Author\n"
 "\n"
-"Stefan Hundhammer (GitHub: @shundhammer)\n"
-"\n"
-"### Contributors\n"
-"\n"
-"- Christoph Grüninger (GitHub: @gruenich)\n"
-"- @Arthurium-On-Linux\n"
-"- @byDMA"
+"- Stefan Hundhammer (GitHub: @shundhammer)\n"
+msgstr ""
+
+#: about-dialog.ui:161
+msgid "### Contributors\n"
 msgstr ""
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14

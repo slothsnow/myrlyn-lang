@@ -354,7 +354,7 @@ msgstr "&Expert"
 msgid "&Save This List to a File..."
 msgstr "&Spara den här listan till en fil..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1276
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -383,7 +383,7 @@ msgstr ""
 "spåra buggar i beroendeupplösaren. Loggarna kommer att lagras i katalogen "
 "<br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1269 YQPkgSelector.cc:1321
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1275 YQPkgSelector.cc:1327
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "F&ortsätt"
@@ -478,8 +478,8 @@ msgid "Package Description"
 msgstr "Paketbeskrivning"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
-#: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1551
+#: YQPkgSelector.cc:1721 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -781,11 +781,11 @@ msgstr "Status"
 msgid "&Search"
 msgstr "&Sök"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1286
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1292
 msgid "Patc&hes"
 msgstr "Patc&har"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1287
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1293
 msgid "&Updates"
 msgstr "&Uppdateringar"
 
@@ -981,11 +981,11 @@ msgstr "&Utvecklingsstatus"
 msgid "&Latest Release"
 msgstr "&Senaste utgåvan"
 
-#: YQPkgSelector.cc:1153
+#: YQPkgSelector.cc:1159
 msgid "All package dependencies are OK."
 msgstr "Alla paketberoenden är OK."
 
-#: YQPkgSelector.cc:1261
+#: YQPkgSelector.cc:1267
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1001,20 +1001,20 @@ msgstr ""
 "starta om programmet och alla paketändringar\n"
 "kommer at gå förlorade.\n"
 
-#: YQPkgSelector.cc:1319
+#: YQPkgSelector.cc:1325
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 paket kommer att uppdateras"
 
-#: YQPkgSelector.cc:1349
+#: YQPkgSelector.cc:1355
 msgid "Dist-Upgrade Mode"
 msgstr "Dist-uppgraderings läge"
 
-#: YQPkgSelector.cc:1350
+#: YQPkgSelector.cc:1356
 msgid "Package Update Mode"
 msgstr "Paket uppdaterings läge"
 
-#: YQPkgSelector.cc:1388
+#: YQPkgSelector.cc:1394
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1023,7 +1023,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Växla systempaket</a> till versionerna i "
 "detta förråd (%2)</p>"
 
-#: YQPkgSelector.cc:1413
+#: YQPkgSelector.cc:1419
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1032,7 +1032,7 @@ msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">Avbryt byte</a> av systempaket till "
 "versioner i förrådet %2</p>"
 
-#: YQPkgSelector.cc:1489
+#: YQPkgSelector.cc:1495
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1045,7 +1045,7 @@ msgstr ""
 "\n"
 "Inga behörigheter?"
 
-#: YQPkgSelector.cc:1501
+#: YQPkgSelector.cc:1507
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1058,7 +1058,7 @@ msgstr ""
 "\n"
 "Kolla loggen!"
 
-#: YQPkgSelector.cc:1544 YQPkgSelector.cc:1713
+#: YQPkgSelector.cc:1550 YQPkgSelector.cc:1719
 msgid "Added Subpackages:"
 msgstr "Tillagda delpaket:"
 
@@ -1305,11 +1305,11 @@ msgstr ""
 msgid "About Myrlyn"
 msgstr "Om Myrlyn"
 
-#: about-dialog.ui:52
+#: about-dialog.ui:55
 msgid "## Myrlyn "
 msgstr "## Myrlyn "
 
-#: about-dialog.ui:81
+#: about-dialog.ui:84
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -1335,27 +1335,16 @@ msgstr ""
 "som ett fristående Qt-program utan några YaST\n"
 "beroenden."
 
-#: about-dialog.ui:123
+#: about-dialog.ui:126
 msgid ""
 "### Main Author\n"
 "\n"
-"Stefan Hundhammer (GitHub: @shundhammer)\n"
-"\n"
-"### Contributors\n"
-"\n"
-"- Christoph Grüninger (GitHub: @gruenich)\n"
-"- @Arthurium-On-Linux\n"
-"- @byDMA"
-msgstr ""
-"### Huvudutvecklare\n"
-"\n"
 "- Stefan Hundhammer (GitHub: @shundhammer)\n"
-"\n"
-"### Bidragsgivare\n"
-"\n"
-"- Christoph Grüninger (GitHub: @gruenich)\n"
-"- @Arthurium-On-Linux\n"
-"- @byDMA"
+msgstr ""
+
+#: about-dialog.ui:161
+msgid "### Contributors\n"
+msgstr ""
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
@@ -1768,6 +1757,27 @@ msgstr "Paket Ra&dera"
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr "Förråd & Lägg till / Ta bort / Ändra URL / Ändra alias"
+
+#~ msgid ""
+#~ "### Main Author\n"
+#~ "\n"
+#~ "Stefan Hundhammer (GitHub: @shundhammer)\n"
+#~ "\n"
+#~ "### Contributors\n"
+#~ "\n"
+#~ "- Christoph Grüninger (GitHub: @gruenich)\n"
+#~ "- @Arthurium-On-Linux\n"
+#~ "- @byDMA"
+#~ msgstr ""
+#~ "### Huvudutvecklare\n"
+#~ "\n"
+#~ "- Stefan Hundhammer (GitHub: @shundhammer)\n"
+#~ "\n"
+#~ "### Bidragsgivare\n"
+#~ "\n"
+#~ "- Christoph Grüninger (GitHub: @gruenich)\n"
+#~ "- @Arthurium-On-Linux\n"
+#~ "- @byDMA"
 
 #, qt-format
 #~ msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"

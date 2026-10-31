@@ -1,20 +1,3 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-10-30 12:45+0000\n"
-"Last-Translator: Sauerlandlinux <Sauerlandlinux@gmx.de>\n"
-"Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/nl/>\n"
-"Language: nl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -372,7 +355,7 @@ msgstr "&Expert"
 msgid "&Save This List to a File..."
 msgstr "Lijst op&slaan als bestand…"
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1270
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1276
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -401,7 +384,7 @@ msgstr ""
 "van bugs in de oplosser van afhankelijkheden. De logs zullen opgeslagen "
 "worden in map <br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1269 YQPkgSelector.cc:1321
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1275 YQPkgSelector.cc:1327
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "D&oorgaan"
@@ -497,8 +480,8 @@ msgid "Package Description"
 msgstr "Packetbeschrijving"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1545
-#: YQPkgSelector.cc:1715 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1551
+#: YQPkgSelector.cc:1721 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -803,11 +786,11 @@ msgstr "Status"
 msgid "&Search"
 msgstr "&Zoeken"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1286
+#: YQPkgSelector.cc:325 YQPkgSelector.cc:1292
 msgid "Patc&hes"
 msgstr "Patches"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1287
+#: YQPkgSelector.cc:337 YQPkgSelector.cc:1293
 msgid "&Updates"
 msgstr "Elementen voor &bijwerken"
 
@@ -1003,11 +986,11 @@ msgstr "Status van &ontwikkeling"
 msgid "&Latest Release"
 msgstr "&Laatste uitgave"
 
-#: YQPkgSelector.cc:1153
+#: YQPkgSelector.cc:1159
 msgid "All package dependencies are OK."
 msgstr "Alle afhankelijkheden zijn in orde."
 
-#: YQPkgSelector.cc:1261
+#: YQPkgSelector.cc:1267
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1023,20 +1006,20 @@ msgstr ""
 "moet u het programma herstarten, en zijn\n"
 "alle pakketwijzigingen verloren.\n"
 
-#: YQPkgSelector.cc:1319
+#: YQPkgSelector.cc:1325
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 pakketten worden bijgewerkt"
 
-#: YQPkgSelector.cc:1349
+#: YQPkgSelector.cc:1355
 msgid "Dist-Upgrade Mode"
 msgstr "Modus dist-opwaardering (dup)"
 
-#: YQPkgSelector.cc:1350
+#: YQPkgSelector.cc:1356
 msgid "Package Update Mode"
 msgstr "Modus Pakketten bijwerken (up)"
 
-#: YQPkgSelector.cc:1388
+#: YQPkgSelector.cc:1394
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1045,7 +1028,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Systeempakketten wisselen met</a> "
 "versies in deze pakketbron (%2)</p>"
 
-#: YQPkgSelector.cc:1413
+#: YQPkgSelector.cc:1419
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1054,7 +1037,7 @@ msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">Omschakelen annuleren</a> "
 "systeempakketten naar versies in opslagruimte %2</p>"
 
-#: YQPkgSelector.cc:1489
+#: YQPkgSelector.cc:1495
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1067,7 +1050,7 @@ msgstr ""
 "\n"
 "Geen rechten?"
 
-#: YQPkgSelector.cc:1501
+#: YQPkgSelector.cc:1507
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1080,7 +1063,7 @@ msgstr ""
 "\n"
 "Controleer het logboek!"
 
-#: YQPkgSelector.cc:1544 YQPkgSelector.cc:1713
+#: YQPkgSelector.cc:1550 YQPkgSelector.cc:1719
 msgid "Added Subpackages:"
 msgstr "Toegevoegde aanvullende pakketten:"
 
@@ -1309,15 +1292,32 @@ msgstr "Alleen installatie / bijwerken van pakketten"
 msgid "Only package removal"
 msgstr "Alleen verwijderen van pakketten"
 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-10-30 12:45+0000\n"
+"Last-Translator: Sauerlandlinux <Sauerlandlinux@gmx.de>\n"
+"Language-Team: Dutch <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "Info over Myrlyn"
 
-#: about-dialog.ui:52
+#: about-dialog.ui:55
 msgid "## Myrlyn "
 msgstr "## Myrlyn "
 
-#: about-dialog.ui:81
+#: about-dialog.ui:84
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -1343,27 +1343,16 @@ msgstr ""
 "te maken als een alleenstaand Qt-programma\n"
 "zonder een enkele afhankelijkheid van YaST."
 
-#: about-dialog.ui:123
+#: about-dialog.ui:126
 msgid ""
 "### Main Author\n"
 "\n"
-"Stefan Hundhammer (GitHub: @shundhammer)\n"
-"\n"
-"### Contributors\n"
-"\n"
-"- Christoph Grüninger (GitHub: @gruenich)\n"
-"- @Arthurium-On-Linux\n"
-"- @byDMA"
+"- Stefan Hundhammer (GitHub: @shundhammer)\n"
 msgstr ""
-"### Hoofdauteur\n"
-"\n"
-"Stefan Hundhammer (GitHub: @shundhammer)\n"
-"\n"
-"### Medewerkers\n"
-"\n"
-"- Christoph Grüninger (GitHub: @gruenich)\n"
-"- @Arthurium-On-Linux\n"
-"- @byDMA"
+
+#: about-dialog.ui:161
+msgid "### Contributors\n"
+msgstr ""
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
@@ -1780,6 +1769,27 @@ msgstr "Ver&wijderen van pakket"
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr "Opslagruimte &toevoegen / Verwijderen / URL wijzigen / Alias wijzigen"
+
+#~ msgid ""
+#~ "### Main Author\n"
+#~ "\n"
+#~ "Stefan Hundhammer (GitHub: @shundhammer)\n"
+#~ "\n"
+#~ "### Contributors\n"
+#~ "\n"
+#~ "- Christoph Grüninger (GitHub: @gruenich)\n"
+#~ "- @Arthurium-On-Linux\n"
+#~ "- @byDMA"
+#~ msgstr ""
+#~ "### Hoofdauteur\n"
+#~ "\n"
+#~ "Stefan Hundhammer (GitHub: @shundhammer)\n"
+#~ "\n"
+#~ "### Medewerkers\n"
+#~ "\n"
+#~ "- Christoph Grüninger (GitHub: @gruenich)\n"
+#~ "- @Arthurium-On-Linux\n"
+#~ "- @byDMA"
 
 #, qt-format
 #~ msgid "%1-%2 [RETRACTED] from vendor %3 (installed)"
