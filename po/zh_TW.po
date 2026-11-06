@@ -1,3 +1,26 @@
+# translation of qt-pkg.po to
+# Chinese message file for YaST2 (@memory@). -*- coding: utf-8 -*-
+# Copyright (C) 2002 SuSE Linux AG.
+# Copyright (C) 2001 SuSE GmbH.
+#
+# swyear <swyear@gmail.com>, 2008.
+# Ray Chen <swyear@gmail.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-11-06 16:27+0000\n"
+"Last-Translator: anenasa <anenasa@noreply.codeberg.org>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"translate.codeberg.org/projects/myrlyn-lang/myrlyn-lang/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.10.1\n"
+
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -108,8 +131,9 @@ msgid "Error installing package %1"
 msgstr "安裝套件 %1 時發生錯誤"
 
 #: PkgCommitPage.cc:972
+#, fuzzy
 msgid "[Post-transaction scripts]"
-msgstr ""
+msgstr "[處理事項後命令稿]"
 
 #: PkgCommitPage.cc:1122
 msgid "File Conflict"
@@ -962,27 +986,27 @@ msgstr "關於 &Qt"
 
 #: YQPkgSelector.cc:911
 msgid "Myrlyn Home &Page"
-msgstr ""
+msgstr "Myrlyn 首頁(&P)"
 
 #: YQPkgSelector.cc:913
 msgid "&Help Center"
-msgstr ""
+msgstr "說明中心(&H)"
 
 #: YQPkgSelector.cc:915
 msgid "Customization FAQs"
-msgstr ""
+msgstr "自訂常見問題"
 
 #: YQPkgSelector.cc:917
 msgid "Font Si&ze"
-msgstr ""
+msgstr "字型大小(&Z)"
 
 #: YQPkgSelector.cc:918
 msgid "&GUI Scaling (HiDPI)"
-msgstr ""
+msgstr "圖形使用者介面縮放 (HiDPI)(&G)"
 
 #: YQPkgSelector.cc:919
 msgid "&Dark Theme"
-msgstr ""
+msgstr "暗色主題(&D)"
 
 #: YQPkgSelector.cc:921
 msgid "Root &Authentication"
@@ -1072,6 +1096,10 @@ msgid ""
 "\n"
 "Check the log!"
 msgstr ""
+"zypp 歷史記錄檔解析錯誤\n"
+"%1\n"
+"\n"
+"請檢查記錄檔！"
 
 #: YQPkgSelector.cc:1559 YQPkgSelector.cc:1728
 msgid "Added Subpackages:"
@@ -1244,22 +1272,22 @@ msgstr "不相容的套件版本"
 #: ZyppHistoryBrowser.cc:467
 #, qt-format
 msgid "Repo+  %1  %2"
-msgstr ""
+msgstr "套件庫+  %1  %2"
 
 #: ZyppHistoryBrowser.cc:473
 #, qt-format
 msgid "Repo-  %1"
-msgstr ""
+msgstr "套件庫-  %1"
 
 #: ZyppHistoryBrowser.cc:478
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
-msgstr ""
+msgstr "套件庫-網址  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:484
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
-msgstr ""
+msgstr "套件庫-別名  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:504
 #, qt-format
@@ -1297,29 +1325,6 @@ msgstr "只有套件安裝 / 更新"
 msgid "Only package removal"
 msgstr "只有套件移除"
 
-# translation of qt-pkg.po to
-# Chinese message file for YaST2 (@memory@). -*- coding: utf-8 -*-
-# Copyright (C) 2002 SuSE Linux AG.
-# Copyright (C) 2001 SuSE GmbH.
-#
-# swyear <swyear@gmail.com>, 2008.
-# Ray Chen <swyear@gmail.com>, 2009, 2010, 2011.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-11-02 01:09+0000\n"
-"Last-Translator: anenasa <user-7066@noreply.codeberg.org>\n"
-"Language-Team: Chinese (Traditional Han script) <https://"
-"translate.codeberg.org/projects/myrlyn-lang/myrlyn-lang/zh_Hant/>\n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
-
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "關於 Myrlyn"
@@ -1329,6 +1334,7 @@ msgid "## Myrlyn "
 msgstr "## Myrlyn "
 
 #: about-dialog.ui:84
+#, fuzzy
 msgid ""
 "Myrlyn is a graphical package manager to select\n"
 "software packages and patterns for installation,\n"
@@ -1342,6 +1348,17 @@ msgid ""
 "as a standalone Qt program without any YaST\n"
 "dependencies."
 msgstr ""
+"Myrlyn 是圖形化套件管理員，\n"
+"用於選取要安裝、更新與移除\n"
+"的軟體套件與樣式。\n"
+"。\n"
+"\n"
+"使用 libzypp 作為後端，Qt 作為\n"
+"圖形使用者介面工具箱。\n"
+"\n"
+"這個專案開始於 2024 年 11 月 SUSE Hack Week\n"
+"使 SUSE YaST Qt package selector 可作為\n"
+"獨立 Qt 程式運作，不相依於 YaST。"
 
 #: about-dialog.ui:126
 msgid ""
@@ -1349,15 +1366,19 @@ msgid ""
 "\n"
 "- Stefan Hundhammer (GitHub: @shundhammer)\n"
 msgstr ""
+"### 主要作者\n"
+"\n"
+"- Stefan Hundhammer (GitHub: @shundhammer)\n"
 
 #: about-dialog.ui:161
 msgid "### Contributors\n"
-msgstr ""
+msgstr "### 貢獻者\n"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
+#, fuzzy
 msgid "Form"
-msgstr ""
+msgstr "表單"
 
 #: init-repos-page.ui:36
 msgid "Initializing Repositories"
@@ -1583,7 +1604,7 @@ msgstr "偵測到："
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
-msgstr ""
+msgstr "切換「自動」的預設模式"
 
 #: search-filter-view.ui:270 summary-page.ui:135
 msgid "..."
@@ -1618,8 +1639,9 @@ msgid "Auto-Delete"
 msgstr "自動刪除"
 
 #: status-filter-view.ui:302
+#, fuzzy
 msgid "<i>Middle-click on a status to show only this one</i>"
-msgstr ""
+msgstr "<i>在一種狀態上按中鍵以只顯示這個</i>"
 
 #: status-filter-view.ui:354
 msgid "Defaults"
@@ -1666,6 +1688,9 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper up\" command."
 msgstr ""
+"將所有可更新且沒有相依性問題的套件標記為更新。\n"
+"\n"
+"相當於 \"zypper up\" 命令。"
 
 #: updates-filter-view.ui:172
 msgid "D&ist-Upgrade"
@@ -1681,6 +1706,11 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper dup\" command."
 msgstr ""
+"進行發行版本升級：將所有可更新且沒有相依性問題的套件標記為更新。\n"
+"\n"
+"這會把套件分割、套件重新命名、樣式更新等等納入考量。\n"
+"\n"
+"相當於 \"zypper dup\" 命令。"
 
 #: zypp-history-browser.ui:14
 msgid "Zypp History"
