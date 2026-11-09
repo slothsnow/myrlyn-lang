@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-11-09 12:44+0000\n"
+"Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:209
 msgid " [root]"
 msgstr " [root]"
@@ -1000,27 +1017,27 @@ msgstr "Acerca de &Qt"
 
 #: YQPkgSelector.cc:926
 msgid "Myrlyn Home &Page"
-msgstr ""
+msgstr "&Página de inicio de Myrlyn"
 
 #: YQPkgSelector.cc:928
 msgid "&Help Center"
-msgstr ""
+msgstr "Centro de &ayuda"
 
 #: YQPkgSelector.cc:930
 msgid "Customization FAQs"
-msgstr ""
+msgstr "Preguntas frecuentes sobre personalización"
 
 #: YQPkgSelector.cc:932
 msgid "Font Si&ze"
-msgstr ""
+msgstr "&Tamaño de fuente"
 
 #: YQPkgSelector.cc:933
 msgid "&GUI Scaling (HiDPI)"
-msgstr ""
+msgstr "Escalado de la interfaz gráfica de usuario (HiDPI)"
 
 #: YQPkgSelector.cc:934
 msgid "&Dark Theme"
-msgstr ""
+msgstr "Tema &oscuro"
 
 #: YQPkgSelector.cc:936
 msgid "Root &Authentication"
@@ -1342,23 +1359,6 @@ msgstr "Solo instalar / actualizar paquetes"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Solo eliminar paquetes"
-
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-11-03 09:27+0000\n"
-"Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
-"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
