@@ -335,7 +335,7 @@ msgid "Retracted Installed Packages"
 msgstr "Wycofane zainstalowane pakiety"
 
 #: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
-#: YQPkgSelector.cc:735
+#: YQPkgSelector.cc:750
 msgid "All Packages"
 msgstr "Wszystkie pakiety"
 
@@ -355,7 +355,7 @@ msgstr "Tryb &eksperta"
 msgid "&Save This List to a File..."
 msgstr "Zapi&sz listę do pliku..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1285
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -384,7 +384,7 @@ msgstr ""
 "module rozwiązywania zależności. Dzienniki będą przechowywane w katalogu "
 "<br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1284 YQPkgSelector.cc:1336
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1299 YQPkgSelector.cc:1351
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "K&ontynuuj"
@@ -482,8 +482,8 @@ msgid "Package Description"
 msgstr "Opis pakietu"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1560
-#: YQPkgSelector.cc:1730 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1575
+#: YQPkgSelector.cc:1745 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -638,11 +638,11 @@ msgstr "Autoinstalacja"
 msgid "Autoupdate"
 msgstr "Automatyczna aktualizacja"
 
-#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:740
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:755
 msgid "Update unconditionally"
 msgstr "Aktualizuj bezwarunkowo"
 
-#: YQPkgObjList.cc:368 YQPkgSelector.cc:737
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:752
 msgid "Update if newer version available"
 msgstr "Aktualizuj, jeśli jest dostępna nowsza wersja"
 
@@ -714,7 +714,7 @@ msgstr "Niewidoczne"
 msgid "Products"
 msgstr "Produkty"
 
-#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:569
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:584
 msgid "Dependencies"
 msgstr "Zależności"
 
@@ -781,235 +781,235 @@ msgstr "Szukaj"
 msgid "Status"
 msgstr "Status"
 
-#: YQPkgSelector.cc:312 search-filter-view.ui:53
+#: YQPkgSelector.cc:327 search-filter-view.ui:53
 msgid "&Search"
 msgstr "&Szukaj"
 
-#: YQPkgSelector.cc:326 YQPkgSelector.cc:1301
+#: YQPkgSelector.cc:341 YQPkgSelector.cc:1316
 msgid "Patc&hes"
 msgstr "Po&prawki"
 
-#: YQPkgSelector.cc:338 YQPkgSelector.cc:1302
+#: YQPkgSelector.cc:353 YQPkgSelector.cc:1317
 msgid "&Updates"
 msgstr "&Aktualizacje"
 
-#: YQPkgSelector.cc:348
+#: YQPkgSelector.cc:363
 msgid "&Repositories"
 msgstr "&Repozytoria"
 
-#: YQPkgSelector.cc:358
+#: YQPkgSelector.cc:373
 msgid "RPM &Groups"
 msgstr "&Grupy RPM"
 
-#: YQPkgSelector.cc:371
+#: YQPkgSelector.cc:386
 msgid "Repository Index Ser&vices"
 msgstr "Usługi indeksacji repozytoriów"
 
-#: YQPkgSelector.cc:384
+#: YQPkgSelector.cc:399
 msgid "Pa&tterns"
 msgstr "&Wzorce"
 
-#: YQPkgSelector.cc:395
+#: YQPkgSelector.cc:410
 msgid "Package Classi&fication"
 msgstr "Klasy&fikacja pakietów"
 
-#: YQPkgSelector.cc:406
+#: YQPkgSelector.cc:421
 msgid "&Languages"
 msgstr "&Języki"
 
-#: YQPkgSelector.cc:416
+#: YQPkgSelector.cc:431
 msgid "Installation Su&mmary"
 msgstr "Podsu&mowanie instalacji"
 
-#: YQPkgSelector.cc:544
+#: YQPkgSelector.cc:559
 msgid "Description"
 msgstr "Opis"
 
-#: YQPkgSelector.cc:556
+#: YQPkgSelector.cc:571
 msgid "Technical Data"
 msgstr "Dane techniczne"
 
-#: YQPkgSelector.cc:583
+#: YQPkgSelector.cc:598
 msgid "Versions"
 msgstr "Wersje"
 
-#: YQPkgSelector.cc:601
+#: YQPkgSelector.cc:616
 msgid "File List"
 msgstr "Lista plików"
 
-#: YQPkgSelector.cc:617
+#: YQPkgSelector.cc:632
 msgid "Change Log"
 msgstr "Dziennik zmian"
 
-#: YQPkgSelector.cc:638
+#: YQPkgSelector.cc:653
 msgid "Resolver: ??"
 msgstr "Rozwiązywanie konfliktu:??"
 
-#: YQPkgSelector.cc:654 YQPkgTextDialog.cc:235
+#: YQPkgSelector.cc:669 YQPkgTextDialog.cc:235
 msgid "&Accept"
 msgstr "A&kceptuj"
 
-#: YQPkgSelector.cc:693
+#: YQPkgSelector.cc:708
 msgid "&File"
 msgstr "&Plik"
 
-#: YQPkgSelector.cc:696
+#: YQPkgSelector.cc:711
 msgid "&Accept Changes"
 msgstr "A&kceptuj zmiany"
 
-#: YQPkgSelector.cc:698
+#: YQPkgSelector.cc:713
 msgid "&Quit - Discard Changes"
 msgstr "&Wyjdź -- pomiń zmiany"
 
-#: YQPkgSelector.cc:710
+#: YQPkgSelector.cc:725
 msgid "&Package"
 msgstr "&Pakiety"
 
-#: YQPkgSelector.cc:759
+#: YQPkgSelector.cc:774
 msgid "Patch"
 msgstr "Poprawka"
 
-#: YQPkgSelector.cc:785
+#: YQPkgSelector.cc:800
 msgid "&Dependencies"
 msgstr "&Zależności"
 
-#: YQPkgSelector.cc:787
+#: YQPkgSelector.cc:802
 msgid "&Check Now"
 msgstr "&Sprawdź teraz"
 
-#: YQPkgSelector.cc:789
+#: YQPkgSelector.cc:804
 msgid "&Autocheck"
 msgstr "Kontrola a&utomatyczna"
 
-#: YQPkgSelector.cc:793
+#: YQPkgSelector.cc:808
 msgid "Install &Recommended Packages"
 msgstr "Za&instaluj zalecane pakiety"
 
-#: YQPkgSelector.cc:806
+#: YQPkgSelector.cc:821
 msgid "&Options"
 msgstr "&Opcje"
 
-#: YQPkgSelector.cc:809
+#: YQPkgSelector.cc:824
 msgid "Show -de&vel Packages"
 msgstr "Pokaż pakiety -de&vel"
 
-#: YQPkgSelector.cc:819
+#: YQPkgSelector.cc:834
 msgid "Show -&debuginfo/-debugsource Packages"
 msgstr "Pokaż pakiety -&debuginfo/-debugsource"
 
-#: YQPkgSelector.cc:829
+#: YQPkgSelector.cc:844
 msgid "&System Verification Mode"
 msgstr "Tryb weryfikacji &systemu"
 
-#: YQPkgSelector.cc:836
+#: YQPkgSelector.cc:851
 msgid "Options for this run only"
 msgstr "Opcje wyłącznie dla tej sesji"
 
-#: YQPkgSelector.cc:838
+#: YQPkgSelector.cc:853
 msgid "&Cleanup when deleting packages"
 msgstr "Wy&czyść przy usuwaniu pakietów"
 
-#: YQPkgSelector.cc:842
+#: YQPkgSelector.cc:857
 msgid "&Allow vendor change"
 msgstr "Pozwól na zmi&anę dostawcy"
 
-#: YQPkgSelector.cc:854
+#: YQPkgSelector.cc:869
 msgid "E&xtras"
 msgstr "&Dodatki"
 
-#: YQPkgSelector.cc:858
+#: YQPkgSelector.cc:873
 msgid "C&onfigure Repositories..."
 msgstr "K&onfiguracja repozytoriów..."
 
-#: YQPkgSelector.cc:864
+#: YQPkgSelector.cc:879
 msgid "Show &Products"
 msgstr "Pokaż &produkty"
 
-#: YQPkgSelector.cc:865
+#: YQPkgSelector.cc:880
 msgid "Show Package &Changes"
 msgstr "Pokaż zmiany p&akietów"
 
-#: YQPkgSelector.cc:867
+#: YQPkgSelector.cc:882
 msgid "Show &History"
 msgstr "Pokaż &historię"
 
-#: YQPkgSelector.cc:874
+#: YQPkgSelector.cc:889
 msgid "Install All Matching -devel Packages"
 msgstr "Zainstaluj wszystkie pasujące pakiety -&devel"
 
-#: YQPkgSelector.cc:877
+#: YQPkgSelector.cc:892
 msgid "Install All Matching -debuginfo Packages"
 msgstr "Zainstaluj wszystkie pasujące pakiety -de&buginfo"
 
-#: YQPkgSelector.cc:880
+#: YQPkgSelector.cc:895
 msgid "Install All Matching -debugsource Packages"
 msgstr "Zainstaluj wszystkie pasujące pakiety -debug&source"
 
-#: YQPkgSelector.cc:882
+#: YQPkgSelector.cc:897
 msgid "Install All Matching Recommended Packages"
 msgstr "Zainstaluj wszystkie &zgodne zalecane pakiety"
 
-#: YQPkgSelector.cc:888
+#: YQPkgSelector.cc:903
 msgid "Generate Dependency Resolver &Test Case"
 msgstr "Wygeneruj &test modułu rozwiązywania zależności"
 
-#: YQPkgSelector.cc:901
+#: YQPkgSelector.cc:916
 msgid "H&elp"
 msgstr "Po&moc"
 
-#: YQPkgSelector.cc:906
+#: YQPkgSelector.cc:921
 msgid "About &Myrlyn"
 msgstr "O programie &Myrlyn"
 
-#: YQPkgSelector.cc:907
+#: YQPkgSelector.cc:922
 msgid "About &Qt"
 msgstr "O środowisku &Qt"
 
-#: YQPkgSelector.cc:911
+#: YQPkgSelector.cc:926
 msgid "Myrlyn Home &Page"
 msgstr ""
 
-#: YQPkgSelector.cc:913
+#: YQPkgSelector.cc:928
 msgid "&Help Center"
 msgstr ""
 
-#: YQPkgSelector.cc:915
+#: YQPkgSelector.cc:930
 msgid "Customization FAQs"
 msgstr ""
 
-#: YQPkgSelector.cc:917
+#: YQPkgSelector.cc:932
 msgid "Font Si&ze"
 msgstr ""
 
-#: YQPkgSelector.cc:918
+#: YQPkgSelector.cc:933
 msgid "&GUI Scaling (HiDPI)"
 msgstr ""
 
-#: YQPkgSelector.cc:919
+#: YQPkgSelector.cc:934
 msgid "&Dark Theme"
 msgstr ""
 
-#: YQPkgSelector.cc:921
+#: YQPkgSelector.cc:936
 msgid "Root &Authentication"
 msgstr "Uwierzytelni&anie (root) i logowanie"
 
-#: YQPkgSelector.cc:922
+#: YQPkgSelector.cc:937
 msgid "Rep&ository Configuration"
 msgstr "Konfi&guracja repozytoriów"
 
-#: YQPkgSelector.cc:925
+#: YQPkgSelector.cc:940
 msgid "&Development Status"
 msgstr "&Status prac programistycznych"
 
-#: YQPkgSelector.cc:926
+#: YQPkgSelector.cc:941
 msgid "&Latest Release"
 msgstr "&Najnowsza wersja"
 
-#: YQPkgSelector.cc:1168
+#: YQPkgSelector.cc:1183
 msgid "All package dependencies are OK."
 msgstr "Wszystkie zależności pakietów są prawidłowe."
 
-#: YQPkgSelector.cc:1276
+#: YQPkgSelector.cc:1291
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1025,20 +1025,20 @@ msgstr ""
 "będzie restart programu, a wtedy wszystkie zmiany\n"
 "pakietów zostaną utracone.\n"
 
-#: YQPkgSelector.cc:1334
+#: YQPkgSelector.cc:1349
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "Pakiety do zaktualizowania: %1"
 
-#: YQPkgSelector.cc:1364
+#: YQPkgSelector.cc:1379
 msgid "Dist-Upgrade Mode"
 msgstr "Tryb aktualizacji dystrybucji"
 
-#: YQPkgSelector.cc:1365
+#: YQPkgSelector.cc:1380
 msgid "Package Update Mode"
 msgstr "Tryb aktualizacji pakietów"
 
-#: YQPkgSelector.cc:1403
+#: YQPkgSelector.cc:1418
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1047,7 +1047,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Przełącz pakiety systemowe</a> do wersji "
 "z tego repozytorium (%2)</p>"
 
-#: YQPkgSelector.cc:1428
+#: YQPkgSelector.cc:1443
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1056,7 +1056,7 @@ msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">Anuluj przełączanie</a> pakietów "
 "systemowych do wersji z repozytorium %2</p>"
 
-#: YQPkgSelector.cc:1504
+#: YQPkgSelector.cc:1519
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1069,7 +1069,7 @@ msgstr ""
 "\n"
 "Brak uprawnień?"
 
-#: YQPkgSelector.cc:1516
+#: YQPkgSelector.cc:1531
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1082,7 +1082,7 @@ msgstr ""
 "\n"
 "Sprawdź logi!"
 
-#: YQPkgSelector.cc:1559 YQPkgSelector.cc:1728
+#: YQPkgSelector.cc:1574 YQPkgSelector.cc:1743
 msgid "Added Subpackages:"
 msgstr "Dodane podpakiety:"
 

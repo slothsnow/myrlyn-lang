@@ -340,7 +340,7 @@ msgid "Retracted Installed Packages"
 msgstr "Pacchetti installati ritirati"
 
 #: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
-#: YQPkgSelector.cc:735
+#: YQPkgSelector.cc:750
 msgid "All Packages"
 msgstr "Tutti i pacchetti"
 
@@ -360,7 +360,7 @@ msgstr "&Esperto"
 msgid "&Save This List to a File..."
 msgstr "Sal&va questo elenco in un file..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1285
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -391,7 +391,7 @@ msgstr ""
 "rilevare i bug nel risolutore delle dipendenze. Questi log verranno "
 "archiviati nella directory <br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1284 YQPkgSelector.cc:1336
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1299 YQPkgSelector.cc:1351
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "&Continua"
@@ -497,8 +497,8 @@ msgstr "Descrizione pacchetto"
 # TLABEL modules/inst_startup.ycp:61
 # TLABEL modules/inst_sw_single.ycp:756
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1560
-#: YQPkgSelector.cc:1730 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1575
+#: YQPkgSelector.cc:1745 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -667,11 +667,11 @@ msgstr "Installazione automatica"
 msgid "Autoupdate"
 msgstr "Aggiornamento automatico"
 
-#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:740
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:755
 msgid "Update unconditionally"
 msgstr "Aggiorna incondizionatamente"
 
-#: YQPkgObjList.cc:368 YQPkgSelector.cc:737
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:752
 msgid "Update if newer version available"
 msgstr "Aggiorna se è disponibile una nuova versione"
 
@@ -753,7 +753,7 @@ msgstr "Invisibile"
 msgid "Products"
 msgstr "Prodotti"
 
-#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:569
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:584
 msgid "Dependencies"
 msgstr "Dipendenze"
 
@@ -833,171 +833,171 @@ msgstr "Stato"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # "c" as a keyboard accel is already taken.
-#: YQPkgSelector.cc:312 search-filter-view.ui:53
+#: YQPkgSelector.cc:327 search-filter-view.ui:53
 msgid "&Search"
 msgstr "&Cerca"
 
-#: YQPkgSelector.cc:326 YQPkgSelector.cc:1301
+#: YQPkgSelector.cc:341 YQPkgSelector.cc:1316
 #, fuzzy
 msgid "Patc&hes"
 msgstr "Tutte le patch"
 
-#: YQPkgSelector.cc:338 YQPkgSelector.cc:1302
+#: YQPkgSelector.cc:353 YQPkgSelector.cc:1317
 #, fuzzy
 msgid "&Updates"
 msgstr "Aggiorna"
 
-#: YQPkgSelector.cc:348
+#: YQPkgSelector.cc:363
 msgid "&Repositories"
 msgstr "&Repository"
 
-#: YQPkgSelector.cc:358
+#: YQPkgSelector.cc:373
 #, fuzzy
 msgid "RPM &Groups"
 msgstr "Gruppi &RPM"
 
-#: YQPkgSelector.cc:371
+#: YQPkgSelector.cc:386
 #, fuzzy
 msgid "Repository Index Ser&vices"
 msgstr "&Repository"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL timezone.ycp.in:484
-#: YQPkgSelector.cc:384
+#: YQPkgSelector.cc:399
 #, fuzzy
 msgid "Pa&tterns"
 msgstr "&Modelli"
 
-#: YQPkgSelector.cc:395
+#: YQPkgSelector.cc:410
 #, fuzzy
 msgid "Package Classi&fication"
 msgstr "Classificazione del pacchetto"
 
-#: YQPkgSelector.cc:406
+#: YQPkgSelector.cc:421
 msgid "&Languages"
 msgstr "&Lingue"
 
-#: YQPkgSelector.cc:416
+#: YQPkgSelector.cc:431
 #, fuzzy
 msgid "Installation Su&mmary"
 msgstr "Riepilogo installazione"
 
-#: YQPkgSelector.cc:544
+#: YQPkgSelector.cc:559
 #, fuzzy
 msgid "Description"
 msgstr "&Descrizione"
 
-#: YQPkgSelector.cc:556
+#: YQPkgSelector.cc:571
 #, fuzzy
 msgid "Technical Data"
 msgstr "Dati &tecnici"
 
-#: YQPkgSelector.cc:583
+#: YQPkgSelector.cc:598
 #, fuzzy
 msgid "Versions"
 msgstr "&Versioni"
 
-#: YQPkgSelector.cc:601
+#: YQPkgSelector.cc:616
 msgid "File List"
 msgstr "Elenco file"
 
-#: YQPkgSelector.cc:617
+#: YQPkgSelector.cc:632
 msgid "Change Log"
 msgstr "Log modifiche"
 
-#: YQPkgSelector.cc:638
+#: YQPkgSelector.cc:653
 msgid "Resolver: ??"
 msgstr ""
 
-#: YQPkgSelector.cc:654 YQPkgTextDialog.cc:235
+#: YQPkgSelector.cc:669 YQPkgTextDialog.cc:235
 msgid "&Accept"
 msgstr "&Accetta"
 
-#: YQPkgSelector.cc:693
+#: YQPkgSelector.cc:708
 msgid "&File"
 msgstr "&File"
 
-#: YQPkgSelector.cc:696
+#: YQPkgSelector.cc:711
 #, fuzzy
 msgid "&Accept Changes"
 msgstr "&Accetta"
 
-#: YQPkgSelector.cc:698
+#: YQPkgSelector.cc:713
 #, fuzzy
 msgid "&Quit - Discard Changes"
 msgstr "&Esci -- Ignora modifiche"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_single.ycp:745
-#: YQPkgSelector.cc:710
+#: YQPkgSelector.cc:725
 msgid "&Package"
 msgstr "&Pacchetto"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL ../../general/keyboard.ycp.in:94
-#: YQPkgSelector.cc:759
+#: YQPkgSelector.cc:774
 #, fuzzy
 msgid "Patch"
 msgstr "&Patch"
 
-#: YQPkgSelector.cc:785
+#: YQPkgSelector.cc:800
 msgid "&Dependencies"
 msgstr "&Dipendenze"
 
-#: YQPkgSelector.cc:787
+#: YQPkgSelector.cc:802
 msgid "&Check Now"
 msgstr "&Verifica ora"
 
-#: YQPkgSelector.cc:789
+#: YQPkgSelector.cc:804
 msgid "&Autocheck"
 msgstr "&Controllo automatico"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-# tooltip
-#: YQPkgSelector.cc:793
+#: YQPkgSelector.cc:808
 msgid "Install &Recommended Packages"
 msgstr "Installa pacchetti &consigliati"
 
-#: YQPkgSelector.cc:806
+#: YQPkgSelector.cc:821
 msgid "&Options"
 msgstr "&Opzioni"
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_rpmcopy.ycp:28-1
-#: YQPkgSelector.cc:809
+#: YQPkgSelector.cc:824
 msgid "Show -de&vel Packages"
 msgstr "&Mostra pacchetti -devel"
 
-#: YQPkgSelector.cc:819
+#: YQPkgSelector.cc:834
 msgid "Show -&debuginfo/-debugsource Packages"
 msgstr "Mostra i pacchetti -&debuginfo/-debugsource"
 
-#: YQPkgSelector.cc:829
+#: YQPkgSelector.cc:844
 msgid "&System Verification Mode"
 msgstr "Modalità di verifica del &sistema"
 
-#: YQPkgSelector.cc:836
+#: YQPkgSelector.cc:851
 #, fuzzy
 msgid "Options for this run only"
 msgstr "Opzioni solo per questa esecuzione..."
 
-#: YQPkgSelector.cc:838
+#: YQPkgSelector.cc:853
 msgid "&Cleanup when deleting packages"
 msgstr "&Pulizia durante l'eliminazione dei pacchetti"
 
-#: YQPkgSelector.cc:842
+#: YQPkgSelector.cc:857
 msgid "&Allow vendor change"
 msgstr "&Consenti cambio produttore"
 
-#: YQPkgSelector.cc:854
+#: YQPkgSelector.cc:869
 msgid "E&xtras"
 msgstr "E&xtra"
 
-#: YQPkgSelector.cc:858
+#: YQPkgSelector.cc:873
 #, fuzzy
 msgid "C&onfigure Repositories..."
 msgstr "&Repository..."
 
-#: YQPkgSelector.cc:864
+#: YQPkgSelector.cc:879
 msgid "Show &Products"
 msgstr "Mostra &prodotti"
 
@@ -1005,100 +1005,100 @@ msgstr "Mostra &prodotti"
 # &a is taken by &Annulla
 # 2001-10-01 14:14:27 CEST -ke-
 # TLABEL modules/inst_sw_single.ycp:113
-#: YQPkgSelector.cc:865
+#: YQPkgSelector.cc:880
 #, fuzzy
 msgid "Show Package &Changes"
 msgstr "Mostra modifiche dei p&acchetti"
 
-#: YQPkgSelector.cc:867
+#: YQPkgSelector.cc:882
 msgid "Show &History"
 msgstr "&Mostra cronologia"
 
-#: YQPkgSelector.cc:874
+#: YQPkgSelector.cc:889
 #, fuzzy
 msgid "Install All Matching -devel Packages"
 msgstr "Installa tutti i pacchetti -&devel corrispondenti"
 
-#: YQPkgSelector.cc:877
+#: YQPkgSelector.cc:892
 #, fuzzy
 msgid "Install All Matching -debuginfo Packages"
 msgstr "Installa tutti i pacchetti -de&buginfo corrispondenti"
 
-#: YQPkgSelector.cc:880
+#: YQPkgSelector.cc:895
 #, fuzzy
 msgid "Install All Matching -debugsource Packages"
 msgstr "Installa tutti i pacchetti -debug&source corrispondenti"
 
-#: YQPkgSelector.cc:882
+#: YQPkgSelector.cc:897
 #, fuzzy
 msgid "Install All Matching Recommended Packages"
 msgstr "Installa tutti i pacchetti &consigliati corrispondenti"
 
-#: YQPkgSelector.cc:888
+#: YQPkgSelector.cc:903
 msgid "Generate Dependency Resolver &Test Case"
 msgstr "Genera &test per risolutore delle dipendenze"
 
-#: YQPkgSelector.cc:901
+#: YQPkgSelector.cc:916
 msgid "H&elp"
 msgstr ""
 
-#: YQPkgSelector.cc:906
+#: YQPkgSelector.cc:921
 msgid "About &Myrlyn"
 msgstr ""
 
-#: YQPkgSelector.cc:907
+#: YQPkgSelector.cc:922
 msgid "About &Qt"
 msgstr ""
 
-#: YQPkgSelector.cc:911
+#: YQPkgSelector.cc:926
 msgid "Myrlyn Home &Page"
 msgstr ""
 
-#: YQPkgSelector.cc:913
+#: YQPkgSelector.cc:928
 msgid "&Help Center"
 msgstr ""
 
-#: YQPkgSelector.cc:915
+#: YQPkgSelector.cc:930
 msgid "Customization FAQs"
 msgstr ""
 
-#: YQPkgSelector.cc:917
+#: YQPkgSelector.cc:932
 msgid "Font Si&ze"
 msgstr ""
 
-#: YQPkgSelector.cc:918
+#: YQPkgSelector.cc:933
 msgid "&GUI Scaling (HiDPI)"
 msgstr ""
 
-#: YQPkgSelector.cc:919
+#: YQPkgSelector.cc:934
 msgid "&Dark Theme"
 msgstr ""
 
-#: YQPkgSelector.cc:921
+#: YQPkgSelector.cc:936
 #, fuzzy
 msgid "Root &Authentication"
 msgstr "Comunicazione"
 
-#: YQPkgSelector.cc:922
+#: YQPkgSelector.cc:937
 #, fuzzy
 msgid "Rep&ository Configuration"
 msgstr "&Configurazione"
 
-#: YQPkgSelector.cc:925
+#: YQPkgSelector.cc:940
 msgid "&Development Status"
 msgstr ""
 
-#: YQPkgSelector.cc:926
+#: YQPkgSelector.cc:941
 msgid "&Latest Release"
 msgstr ""
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_rpmcopy.ycp:57
-#: YQPkgSelector.cc:1168
+#: YQPkgSelector.cc:1183
 msgid "All package dependencies are OK."
 msgstr "Tutte le dipendenze dei pacchetti sono soddisfatte."
 
-#: YQPkgSelector.cc:1276
+#: YQPkgSelector.cc:1291
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1108,23 +1108,23 @@ msgid ""
 "will be lost.\n"
 msgstr ""
 
-#: YQPkgSelector.cc:1334
+#: YQPkgSelector.cc:1349
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "Verranno aggiornati %1 pacchetti"
 
-#: YQPkgSelector.cc:1364
+#: YQPkgSelector.cc:1379
 msgid "Dist-Upgrade Mode"
 msgstr ""
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_sw_single.ycp:745
-#: YQPkgSelector.cc:1365
+#: YQPkgSelector.cc:1380
 #, fuzzy
 msgid "Package Update Mode"
 msgstr "Pacchetto"
 
-#: YQPkgSelector.cc:1403
+#: YQPkgSelector.cc:1418
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1133,7 +1133,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Passa i pacchetti di sistema</a> alla "
 "versione nel repository (%2)</p>"
 
-#: YQPkgSelector.cc:1428
+#: YQPkgSelector.cc:1443
 #, fuzzy, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1142,7 +1142,7 @@ msgstr ""
 "<p><small><a href=\"repoupgraderemove:///%1\">Annulla passaggio</a> dei "
 "pacchetti di sistema alla versione nel repository %2</small></p>"
 
-#: YQPkgSelector.cc:1504
+#: YQPkgSelector.cc:1519
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1151,7 +1151,7 @@ msgid ""
 "No permissions?"
 msgstr ""
 
-#: YQPkgSelector.cc:1516
+#: YQPkgSelector.cc:1531
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1162,7 +1162,7 @@ msgstr ""
 
 # #-#-#-#-#  qt-pkg.it.po (qt-pkg)  #-#-#-#-#
 # TLABEL modules/inst_rpmcopy.ycp:28-1
-#: YQPkgSelector.cc:1559 YQPkgSelector.cc:1728
+#: YQPkgSelector.cc:1574 YQPkgSelector.cc:1743
 msgid "Added Subpackages:"
 msgstr "Pacchetti secondari aggiunti:"
 
