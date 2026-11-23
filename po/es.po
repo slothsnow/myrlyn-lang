@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-11-24 08:45+0000\n"
+"Last-Translator: dap39 <dap39@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
@@ -1353,23 +1370,6 @@ msgstr "Solo instalar / actualizar paquetes"
 msgid "Only package removal"
 msgstr "Solo eliminar paquetes"
 
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-11-22 14:51+0000\n"
-"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
-"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "Acerca de Myrlyn"
@@ -1424,7 +1424,7 @@ msgstr "Clave pública GPG"
 
 #: expired-gpg-key-dialog.ui:41
 msgid "## Expired Repository GPG Key"
-msgstr ""
+msgstr "## Clave de repositorio caducada"
 
 #: expired-gpg-key-dialog.ui:81 repo-gpg-key-import-dialog.ui:133
 msgid "**Fingerprint:**"
@@ -1439,9 +1439,8 @@ msgid "**Created:**"
 msgstr "**Fecha de creación:**"
 
 #: expired-gpg-key-dialog.ui:169
-#, fuzzy
 msgid "**Expired:**"
-msgstr "**Caduca:**"
+msgstr "**Caducada:**"
 
 #: expired-gpg-key-dialog.ui:195 repo-gpg-key-import-dialog.ui:159
 msgid "**Key Name:**"
@@ -1454,11 +1453,14 @@ msgid ""
 "If it is still needed, in the next step (repositories refresh), the latest "
 "version will be reimported from its repository."
 msgstr ""
+"Borre esta clave GPG; no se puede volver a usar.\n"
+"\n"
+"Si todavía se necesita, en el siguiente paso (actualización de repositorios)"
+", la última versión será importada desde su repositorio."
 
 #: expired-gpg-key-dialog.ui:275
-#, fuzzy
 msgid "&Delete Key"
-msgstr "&Borrar"
+msgstr "&Borrar clave"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
