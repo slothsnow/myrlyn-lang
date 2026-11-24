@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
+"POT-Creation-Date: 2026-01-24 04:33+0000\n"
+"PO-Revision-Date: 2026-11-24 08:45+0000\n"
+"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
@@ -1314,23 +1331,6 @@ msgstr "Endast paketinstallation/uppdatering"
 msgid "Only package removal"
 msgstr "Endast borttagning av paket"
 
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
-"POT-Creation-Date: 2026-01-24 04:33+0000\n"
-"PO-Revision-Date: 2026-11-16 07:48+0000\n"
-"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
-"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/sv/>\n"
-"Language: sv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "Om Myrlyn"
@@ -1385,32 +1385,27 @@ msgstr "GPG-nyckel"
 
 #: expired-gpg-key-dialog.ui:41
 msgid "## Expired Repository GPG Key"
-msgstr ""
+msgstr "## Utgången GPG-nyckel för förråd"
 
 #: expired-gpg-key-dialog.ui:81 repo-gpg-key-import-dialog.ui:133
-#, fuzzy
 msgid "**Fingerprint:**"
-msgstr "_Fingeravtryck:_"
+msgstr "**Fingeravtryck:**"
 
 #: expired-gpg-key-dialog.ui:117 repo-gpg-key-import-dialog.ui:211
-#, fuzzy
 msgid "**Key ID:**"
-msgstr "_Nyckel-ID:_"
+msgstr "**Nyckel-ID:**"
 
 #: expired-gpg-key-dialog.ui:143 repo-gpg-key-import-dialog.ui:237
-#, fuzzy
 msgid "**Created:**"
-msgstr "_Skapad:_"
+msgstr "**Skapad:**"
 
 #: expired-gpg-key-dialog.ui:169
-#, fuzzy
 msgid "**Expired:**"
-msgstr "_Går ut:_"
+msgstr "**Går ut:**"
 
 #: expired-gpg-key-dialog.ui:195 repo-gpg-key-import-dialog.ui:159
-#, fuzzy
 msgid "**Key Name:**"
-msgstr "_Nyckel namn:_"
+msgstr "**Nyckel namn:**"
 
 #: expired-gpg-key-dialog.ui:229
 msgid ""
@@ -1419,11 +1414,14 @@ msgid ""
 "If it is still needed, in the next step (repositories refresh), the latest "
 "version will be reimported from its repository."
 msgstr ""
+"Ta bort denna GPG-nyckel; den kan inte längre användas.\n"
+"\n"
+"Om den fortfarande behövs kommer den senaste versionen att importeras på "
+"nytt från sitt förråd i nästa steg (uppdatering av förråd)."
 
 #: expired-gpg-key-dialog.ui:275
-#, fuzzy
 msgid "&Delete Key"
-msgstr "&Radera"
+msgstr "&Radera nyckel"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
@@ -1543,24 +1541,20 @@ msgid "## Import Untrusted GPG Key"
 msgstr "## Importera otillförlitlig GPG-nyckel"
 
 #: repo-gpg-key-import-dialog.ui:81
-#, fuzzy
 msgid "**Repository:**"
-msgstr "Förråd"
+msgstr "**Förråd:**"
 
 #: repo-gpg-key-import-dialog.ui:107
-#, fuzzy
 msgid "**URL:**"
-msgstr "URL:"
+msgstr "**URL:**"
 
 #: repo-gpg-key-import-dialog.ui:185
-#, fuzzy
 msgid "**Key Algorithm:**"
-msgstr "_Nyckel algoritm:_"
+msgstr "**Nyckel algoritm:**"
 
 #: repo-gpg-key-import-dialog.ui:263
-#, fuzzy
 msgid "**Expires:**"
-msgstr "_Går ut:_"
+msgstr "**Går ut:**"
 
 #: repo-gpg-key-import-dialog.ui:322
 msgid "&Trust"
