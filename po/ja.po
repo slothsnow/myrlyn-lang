@@ -1,3 +1,25 @@
+# translation of qt-pkg.po to Japanese
+# Copyright (C) YEAR SuSE Linux AG, Nuernberg
+# This file is distributed under the same license as the PACKAGE package.
+#
+#
+# Yasuhiko Kamata <belphegor@belbel.or.jp>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-11-24 08:45+0000\n"
+"Last-Translator: belphegor-belbel <belphegor@belbel.or.jp>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.10.1\n"
+
 #: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
@@ -1321,28 +1343,6 @@ msgstr "パッケージのインストール／更新のみ"
 msgid "Only package removal"
 msgstr "パッケージ削除のみ"
 
-# translation of qt-pkg.po to Japanese
-# Copyright (C) YEAR SuSE Linux AG, Nuernberg
-# This file is distributed under the same license as the PACKAGE package.
-#
-#
-# Yasuhiko Kamata <belphegor@belbel.or.jp>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-11-22 14:51+0000\n"
-"Last-Translator: belphegor-belbel <belphegor@belbel.or.jp>\n"
-"Language-Team: Japanese <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/ja/>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.1\n"
-
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "Myrlyn について"
@@ -1397,7 +1397,7 @@ msgstr "GPG 鍵"
 
 #: expired-gpg-key-dialog.ui:41
 msgid "## Expired Repository GPG Key"
-msgstr ""
+msgstr "## 有効期限切れのリポジトリ GPG 鍵"
 
 #: expired-gpg-key-dialog.ui:81 repo-gpg-key-import-dialog.ui:133
 msgid "**Fingerprint:**"
@@ -1412,7 +1412,6 @@ msgid "**Created:**"
 msgstr "**作成日時:**"
 
 #: expired-gpg-key-dialog.ui:169
-#, fuzzy
 msgid "**Expired:**"
 msgstr "**期限切れ日時:**"
 
@@ -1427,11 +1426,14 @@ msgid ""
 "If it is still needed, in the next step (repositories refresh), the latest "
 "version will be reimported from its repository."
 msgstr ""
+"この GPG 鍵を削除すると、今後はこの鍵を使用しなくなります。\n"
+"\n"
+"必要であれば、次の手順 (リポジトリの更新) にて、対象のリポジトリから最新の鍵"
+"を再取り込みすることもできます。"
 
 #: expired-gpg-key-dialog.ui:275
-#, fuzzy
 msgid "&Delete Key"
-msgstr "削除 (&D)"
+msgstr "鍵の削除 (&D)"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
