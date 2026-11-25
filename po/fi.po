@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: qt-pkg.fi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-11-24 08:47+0000\n"
-"Last-Translator: slothsnow <slothsnow@noreply.codeberg.org>\n"
+"PO-Revision-Date: 2026-11-25 11:27+0000\n"
+"Last-Translator: bhasic <bhasic@noreply.codeberg.org>\n"
 "Language-Team: Finnish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/fi/>\n"
 "Language: fi\n"
@@ -43,21 +43,23 @@ msgstr ""
 
 #: MyrlynApp.cc:214 RepoConfigDialog.cc:64
 msgid " (read-only)"
-msgstr ""
+msgstr " (vain-luku)"
 
 #: MyrlynApp.cc:235
 msgid "Preparing the package selector..."
-msgstr ""
+msgstr "Valmistellaan pakettivalitsinta..."
 
 #: MyrlynApp.cc:493
 msgid "Really quit?"
-msgstr ""
+msgstr "Haluatko varmasti lopettaa?"
 
 #: MyrlynApp.cc:513
 msgid ""
 "Can't connect to the package manager!\n"
 "It may be busy in another window.\n"
 msgstr ""
+"Ei saada yhteyttä pakettienhallintaan!\n"
+"Se saattaa olla varattu toisessa ikkunassa.\n"
 
 #: MyrlynApp.cc:521
 #, qt-format
@@ -65,6 +67,8 @@ msgid ""
 "Locking process:\n"
 "PID %1   %2"
 msgstr ""
+"Lukitseva prosessi:\n"
+"PID %1   %2"
 
 #: MyrlynApp.cc:530 MyrlynRepoManager.cc:341 YQPkgConflictDialog.cc:363
 #: YQPkgConflictList.cc:160
@@ -79,6 +83,11 @@ msgid ""
 "\n"
 "and restart the program."
 msgstr ""
+"Virhe asennuslähteiden lataamisessa. Suorita komento\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"ja käynnistä ohjelma uudelleen."
 
 #: MyrlynRepoManager.cc:357
 #, qt-format
@@ -87,6 +96,9 @@ msgid ""
 "\n"
 "This repository is now disabled for this program run."
 msgstr ""
+"Asennuslähteen \"%1\" virkistäminen epäonnistui.\n"
+"\n"
+"Tämä asennuslähde on nyt poistettu käytöstä tämän suorituskerran ajaksi."
 
 #: MyrlynRepoManager.cc:368
 #, qt-format
@@ -96,6 +108,10 @@ msgid ""
 "%1\n"
 "Those repositories are now disabled for this program run."
 msgstr ""
+"Asennuslähteiden virkistäminen epäonnistui\n"
+"\n"
+"%1\n"
+"Nämä asennuslähteet on nyt poistettu käytöstä tämän suorituskerran ajaksi."
 
 #: MyrlynRepoManager.cc:376 YQPkgConflictDialog.cc:63
 msgid "Warning"
@@ -103,54 +119,49 @@ msgstr "Varoitus"
 
 #: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"
-msgstr ""
+msgstr "Tehtävät"
 
 #: PkgCommitPage.cc:146 pkg-commit-page.ui:238
-#, fuzzy
 msgid "Downloads"
-msgstr "Latauskoko"
+msgstr "Lataukset"
 
 #: PkgCommitPage.cc:147 pkg-commit-page.ui:376
 msgid "Done"
-msgstr ""
+msgstr "Tehty"
 
 #: PkgCommitPage.cc:292 pkg-commit-page.ui:61
-#, fuzzy
 msgid "Hide &Details"
-msgstr "&Tiedot..."
+msgstr "Piilota &Tiedot"
 
 #: PkgCommitPage.cc:292
-#, fuzzy
 msgid "Show &Details"
-msgstr "&Tiedot..."
+msgstr "Näytä &Tiedot"
 
 #: PkgCommitPage.cc:337
 msgid "Really cancel the current package actions?"
-msgstr ""
+msgstr "Haluatko todella peruuttaa nykyiset pakettitoiminnot?"
 
 #: PkgCommitPage.cc:538
-#, fuzzy
 msgid "Checking File Conflicts..."
-msgstr "Tarkistetaan riippuvuudet..."
+msgstr "Tarkistetaan Ristiriitoja..."
 
 #: PkgCommitPage.cc:707
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error downloading package %1"
-msgstr "Virhe ladattaessa pakettiluetteloa %1"
+msgstr "Virhe ladattaessa pakettia %1"
 
 #: PkgCommitPage.cc:755 PkgCommitPage.cc:784
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error installing package %1"
-msgstr "Virhe vietäessä pakettiluetteloa tiedostoon %1"
+msgstr "Virhe asennettaessa pakettia %1"
 
 #: PkgCommitPage.cc:972
 msgid "[Post-transaction scripts]"
-msgstr ""
+msgstr "[Transaktion jälkeiset skriptit]"
 
 #: PkgCommitPage.cc:1122
-#, fuzzy
 msgid "File Conflict"
-msgstr "Tiedostoluettelo"
+msgstr "Tiedostojen Ristiriita"
 
 #: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
 #: YQPkgServiceList.cc:46 zypp-history-browser.ui:157
@@ -159,20 +170,20 @@ msgstr "Nimi"
 
 #: QY2DiskUsageList.cc:164
 msgid "Disk Usage"
-msgstr ""
+msgstr "Levyn Käyttö"
 
 #: QY2DiskUsageList.cc:165
 msgid "Free"
-msgstr ""
+msgstr "Vapaana"
 
 #: QY2DiskUsageList.cc:166
 msgid "Total"
-msgstr ""
+msgstr "Yhteensä"
 
 #: QY2DiskUsageList.cc:228
 #, qt-format
 msgid "Used %1"
-msgstr ""
+msgstr "Käytetty %1"
 
 #: RepoConfigDialog.cc:324
 #, qt-format
@@ -181,6 +192,9 @@ msgid ""
 "\n"
 "URL: %2"
 msgstr ""
+"Haluatko varmasti poistaa asennuslähteen \"%1\"?\n"
+"\n"
+"Verkko-osoite: %2"
 
 #: RepoConfigDialog.cc:350
 msgid ""
@@ -189,142 +203,139 @@ msgid ""
 "\n"
 "Quitting now. Please restart."
 msgstr ""
+"Sovellus on käynnistettävä uudelleen,\n"
+"jotta muutokset tulevat voimaan.\n"
+"\n"
+"Sovellus suljetaan nyt. Käynnistä se uudelleen."
 
 #: RepoEditDialog.cc:105
 msgid "See also  'man zypper'"
-msgstr ""
+msgstr "Katso myös  'man zypper'"
 
 #: RepoEditDialog.cc:113
-#, fuzzy
 msgid "Add Repository"
-msgstr "&Asennuslähteet"
+msgstr "Lisää Asennuslähde"
 
 #: RepoEditDialog.cc:113
-#, fuzzy
 msgid "Edit Repository"
-msgstr "&Asennuslähteet"
+msgstr "Muokkaa Asennuslähdettä"
 
 #: RepoEditDialog.cc:247
 msgid "Invalid URL: "
-msgstr ""
+msgstr "Virheellinen Verkko-osoite: "
 
 #: RepoEditDialog.cc:252
 msgid "Invalid input: "
-msgstr ""
+msgstr "Virheellinen syöte: "
 
 #: RepoGpgKeyImportDialog.cc:110
 #, qt-format
 msgid "Repository \"%1\" will be temporarily disabled."
-msgstr ""
+msgstr "Asennuslähde ”%1” poistetaan väliaikaisesti käytöstä."
 
 #: RepoTable.cc:40
 msgid "Priority"
-msgstr ""
+msgstr "Prioriteetti"
 
 #: RepoTable.cc:41
 msgid "Enabled"
-msgstr ""
+msgstr "Käytössä"
 
 #: RepoTable.cc:42
 msgid "Auto-Refresh"
-msgstr ""
+msgstr "Autom. Virkistys"
 
 #: RepoTable.cc:43
-#, fuzzy
 msgid "Service"
-msgstr "&Palvelut"
+msgstr "Palvelu"
 
 #: RepoTable.cc:44
-#, fuzzy
 msgid "URL"
-msgstr "Verkko-osoite:"
+msgstr "Verkko-osoite"
 
 #: SummaryPage.cc:124
 #, qt-format
 msgid "%1 s"
-msgstr ""
+msgstr "%1 s"
 
 #: SummaryPage.cc:182
 msgid "Close after 300 seconds (5 minutes)"
-msgstr ""
+msgstr "Sulje 300 sekunnin jälkeen (5 minuuttia)"
 
 #: SummaryPage.cc:183
 msgid "Don't automatically close"
-msgstr ""
+msgstr "Älä sulje automaattisesti"
 
 #: SummaryPage.cc:199
 #, qt-format
 msgid "Close after %1 seconds"
-msgstr ""
+msgstr "Sulje %1 sekunnin jälkeen"
 
 #: SummaryPage.cc:267
-#, fuzzy
 msgid "No package changes."
-msgstr "Näytä p&akettien muutokset"
+msgstr "Ei pakettien muutoksia."
 
 #: SummaryPage.cc:311
 #, qt-format
 msgid "FAILED: %1"
-msgstr ""
+msgstr "EPÄONNISTUI: %1"
 
 #: SummaryPage.cc:312
 #, qt-format
 msgid "Packages removed by user: %1"
-msgstr ""
+msgstr "Käyttäjän poistamat paketit: %1"
 
 #: SummaryPage.cc:313
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
-msgstr ""
+msgstr "Riippuvuuksien vuoksi poistetut paketit: %1"
 
 #: SummaryPage.cc:314
 #, qt-format
 msgid "Packages installed by user: %1"
-msgstr ""
+msgstr "Käyttäjän asentamat paketit: %1"
 
 #: SummaryPage.cc:315
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
-msgstr ""
+msgstr "Riippuvuuksien vuoksi asennetut paketit: %1"
 
 #: SummaryPage.cc:316
 #, qt-format
 msgid "Packages updated by user: %1"
-msgstr ""
+msgstr "Käyttäjän päivittämät paketit: %1"
 
 #: SummaryPage.cc:317
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
-msgstr ""
+msgstr "Riippuvuuksien vuoksi päivitetyt paketit: %1"
 
 #: SummaryPage.cc:318
 #, qt-format
 msgid "To do: %1"
-msgstr ""
+msgstr "Tehtävät: %1"
 
 #: SummaryPage.cc:367
 #, qt-format
 msgid "(%1 more)"
-msgstr ""
+msgstr "(%1 lisää)"
 
 #: SummaryPage.cc:383
-#, fuzzy
 msgid "Reboot recommended."
-msgstr "suositeltu"
+msgstr "Suositellaan käynnistämään uudelleen."
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
 msgstr "Tiedot ovat saatavilla vain asennetuista paketeista."
 
 #: YQPkgChangeLogView.cc:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "(%1 more; run \"%2\" to see the complete change log)"
-msgstr ""
-"(%1 muuta muutosta ei näytetä. Saat täyden muutoslokin ajamalla \"%2\".)"
+msgstr "(%1 lisää; suorita komento ”%2” nähdäksesi täydellisen muutoslokin)"
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
-msgstr "Muuttuneet paketit"
+msgstr "Muutetut Paketit"
 
 #: YQPkgChangesDialog.cc:85
 msgid "All"
@@ -336,44 +347,44 @@ msgstr "Käyttäjän valitsema"
 
 #: YQPkgChangesDialog.cc:87 YQPkgSelectorBase.cc:261
 msgid "Automatic Changes"
-msgstr "Automaattiset muutokset"
+msgstr "Automaattiset Muutokset"
 
 #: YQPkgClassificationFilterView.cc:45
 msgid "No Packages"
-msgstr "Ei paketteja"
+msgstr "Ei Paketteja"
 
 #: YQPkgClassificationFilterView.cc:46
 msgid "Recommended Packages"
-msgstr "Suositellut paketit"
+msgstr "Suositellut Paketit"
 
 #: YQPkgClassificationFilterView.cc:47
 msgid "Suggested Packages"
-msgstr "Ehdotetut paketit"
+msgstr "Ehdotetut Paketit"
 
 #: YQPkgClassificationFilterView.cc:48
 msgid "Orphaned Packages"
-msgstr "Orvot paketit"
+msgstr "Orvot Paketit"
 
 #: YQPkgClassificationFilterView.cc:49
 msgid "Unneeded Packages"
-msgstr "Tarpeettomat paketit"
+msgstr "Tarpeettomat Paketit"
 
 #: YQPkgClassificationFilterView.cc:50
 msgid "Multiversion Packages"
-msgstr "Moniversioiset paketit"
+msgstr "Moniversioiset Paketit"
 
 #: YQPkgClassificationFilterView.cc:51
 msgid "Retracted Packages"
-msgstr "Takaisinvedetyt paketit"
+msgstr "Takaisinvedetyt Paketit"
 
 #: YQPkgClassificationFilterView.cc:52
 msgid "Retracted Installed Packages"
-msgstr "Takaisinvedetyt asennetut paketit"
+msgstr "Takaisinvedetyt Asennetut Paketit"
 
 #: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
 #: YQPkgSelector.cc:750
 msgid "All Packages"
-msgstr "Kaikki paketit"
+msgstr "Kaikki Paketit"
 
 #: YQPkgClassificationFilterView.cc:82
 msgid "Package Classification"
@@ -381,7 +392,7 @@ msgstr "Pakettiluokka"
 
 #: YQPkgConflictDialog.cc:104
 msgid "&OK -- Try Again"
-msgstr "&OK -- Yritä uudelleen"
+msgstr "&OK -- Yritä Uudelleen"
 
 #: YQPkgConflictDialog.cc:116
 msgid "&Expert"
@@ -389,7 +400,7 @@ msgstr "&Asiantuntijatila"
 
 #: YQPkgConflictDialog.cc:129
 msgid "&Save This List to a File..."
-msgstr "&Tallenna tämä luettelo tiedostoon..."
+msgstr "&Tallenna Tämä Luettelo Tiedostoon..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
@@ -400,18 +411,16 @@ msgid "&Cancel"
 msgstr "&Peruuta"
 
 #: YQPkgConflictDialog.cc:190
-#, fuzzy
 msgid "Verifying System Dependencies"
-msgstr "Tarkistetaan riippuvuudet..."
+msgstr "Tarkistetaan Järjestelmän Riippuvuudet"
 
 #: YQPkgConflictDialog.cc:321
 msgid "Create Dependency Resolver Test Case"
-msgstr "Luo riippuvuuksin ratkaisun testitapaus"
+msgstr "Luo Riippuvuuksien Ratkaisijan Testitapaus"
 
 #: YQPkgConflictDialog.cc:325
-#, fuzzy
 msgid "You need to run the dependency resolver first."
-msgstr "Luo riippuvuuksien ratkaisun &testitapaus"
+msgstr "Riippuvuuksien ratkaisija on suoritettava ensin."
 
 #: YQPkgConflictDialog.cc:333
 #, qt-format
@@ -419,20 +428,20 @@ msgid ""
 "<p>Use this to generate extensive logs to help tracking down bugs in the "
 "dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
 msgstr ""
-"<p>Käytä tätä luomaan laajennettu loki, joka avustaa riippuvuusvirheiden "
-"etsinnässä. Lokit tallennetaan hakemistoon <br><tt>%1</tt></p>"
+"<p>Käytä tätä luodaksesi kattavia lokitiedostoja, joiden avulla voidaan "
+"jäljittää riippuvuuksien ratkaisijan virheitä. Lokitiedostot tallennetaan "
+"hakemistoon <br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1299 YQPkgSelector.cc:1351
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
-msgstr "Jat&ka"
+msgstr "&Jatka"
 
 #: YQPkgConflictDialog.cc:351
-#, fuzzy, qt-format
+#, qt-format
 msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
 msgstr ""
-"<p>Riippuvuuksien ratkaisun testitapaus kirjoitetaan <br><tt>%1</tt></"
-"p><p>Valmistele <tt>y2logs.tgz tar</tt>-arkisto Bugzillaan liitettäväksi?</p>"
+"<p>Riippuvuuksien ratkaisijan testitapaus on kirjoitettu <br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
@@ -444,22 +453,21 @@ msgid ""
 "<p><b>Error</b> creating dependency resolver test case</p><p>Please check "
 "disk space and permissions for <tt>%1</tt></p>"
 msgstr ""
-"<p><b>Virhe</b> luotaessa riippuvuuksien ratkaisun testitapausta</"
-"p><p>Tarkista levytila ja <tt>%1</tt> oikeudet</p>"
+"<p><b>Virhe</b> luotaessa riippuvuuksien ratkaisijan testitapausta</p><p>"
+"Tarkista levytila ja<tt>%1</tt> oikeudet</p>"
 
 #: YQPkgConflictList.cc:138
-#, fuzzy
 msgid "Save conflicts list"
 msgstr "Tallenna ristiriitaluettelo"
 
 #: YQPkgConflictList.cc:161
-#, fuzzy, qt-format
+#, qt-format
 msgid "Can't open file %1"
-msgstr "Tiedoston %1 avaaminen epäonnistui"
+msgstr "Ei voi avata tiedostoa %1"
 
 #: YQPkgConflictList.cc:247
 msgid "Conflict Resolution:"
-msgstr "Ristiriidan ratkaisu:"
+msgstr "Ristiriidan Ratkaisu:"
 
 #: YQPkgConflictList.cc:287
 #, qt-format
@@ -485,7 +493,7 @@ msgstr "Vaatii:"
 
 #: YQPkgDependenciesView.cc:86 YQPkgDependenciesView.cc:116
 msgid "Conflicts:"
-msgstr "Ristiriita:"
+msgstr "Ristiriidat:"
 
 #: YQPkgDependenciesView.cc:87 YQPkgDependenciesView.cc:117
 msgid "Obsoletes:"
@@ -509,15 +517,15 @@ msgstr "Täydentää:"
 
 #: YQPkgDependenciesView.cc:104 YQPkgTechnicalDetailsView.cc:167
 msgid "<b>Alternate Version</b>"
-msgstr "<b>Vaihtoehtoiset versiot</b>"
+msgstr "<b>Vaihtoehtoiset Versiot</b>"
 
 #: YQPkgDependenciesView.cc:105 YQPkgTechnicalDetailsView.cc:168
 msgid "<b>Installed Version</b>"
-msgstr "<b>Asennettu versio</b>"
+msgstr "<b>Asennettu Versio</b>"
 
 #: YQPkgDescriptionDialog.cc:45
 msgid "Package Description"
-msgstr "Paketin kuvaus"
+msgstr "Paketin Kuvaus"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
 #: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1575
@@ -545,7 +553,7 @@ msgstr "<b>Varoitus:</b> Levytila on loppumassa!"
 
 #: YQPkgDiskUsageWarningDialog.cc:41
 msgid "Disk Space Warning"
-msgstr "Levytilan varoitus"
+msgstr "Levytilan Varoitus"
 
 #: YQPkgFileListView.cc:98
 #, qt-format
@@ -554,7 +562,7 @@ msgstr "%1 tiedostoa yhteensä"
 
 #: YQPkgFilterTab.cc:124
 msgid "&View"
-msgstr "Näk&ymä"
+msgstr "&Näkymä"
 
 #: YQPkgFilterTab.cc:234
 msgid "Move page &left"
@@ -591,11 +599,11 @@ msgstr "Asennettu (Saatavilla)"
 
 #: YQPkgList.cc:58
 msgid "Avail. Ver."
-msgstr "Saatavilla oleva versio."
+msgstr "Saatavilla oleva Versio"
 
 #: YQPkgList.cc:61
 msgid "Inst. Ver."
-msgstr "Asennettu versio."
+msgstr "Asennettu Versio"
 
 #: YQPkgList.cc:67 YQPkgProductList.cc:37 YQPkgVersionsView.cc:241
 #: zypp-history-browser.ui:162
@@ -608,12 +616,12 @@ msgstr "Koko"
 
 #: YQPkgList.cc:436 YQPkgObjList.cc:477 YQPkgPatchList.cc:387
 msgid "&All in This List"
-msgstr "&Kaikki tästä luettelosta"
+msgstr "&Kaikki Tästä Luettelosta"
 
 #: YQPkgList.cc:575
 #, qt-format
 msgid "Installed Version: %1"
-msgstr "Asennettu versio: %1"
+msgstr "Asennettu Versio: %1"
 
 #: YQPkgList.cc:593
 msgid "same"
@@ -630,7 +638,7 @@ msgstr "vanhempi"
 #: YQPkgList.cc:599
 #, qt-format
 msgid "Available Version: %1 (%2)"
-msgstr "Saatavilla olevat versiot: %1 (%2)"
+msgstr "Saatavilla oleva Versio: %1 (%2)"
 
 #: YQPkgList.cc:603
 msgid "Not available for installation"
@@ -650,15 +658,15 @@ msgstr "Pidä"
 
 #: YQPkgObjList.cc:229 status-filter-view.ui:210
 msgid "Do Not Install"
-msgstr "Älä asenna"
+msgstr "Älä Asenna"
 
 #: YQPkgObjList.cc:230
 msgid "Protected -- Do Not Modify"
-msgstr "Suojattu -- älä muokkaa"
+msgstr "Suojattu -- Älä Muokkaa"
 
 #: YQPkgObjList.cc:231
 msgid "Taboo -- Never Install"
-msgstr "Tabu -- älä asenna koskaan"
+msgstr "Tabu -- Älä Asenna Koskaan"
 
 #: YQPkgObjList.cc:232 status-filter-view.ui:83
 msgid "Update"
@@ -690,31 +698,31 @@ msgstr "(ohjelmiston esivalinnalla)"
 
 #: YQPkgObjList.cc:1285
 msgid "(by dependencies)"
-msgstr "(riippuvuusvaatimuksesta)"
+msgstr "(riippuvuusvaatimuksista)"
 
 #: YQPkgPatchFilterView.cc:59
 msgid "&Show Patch Category:"
-msgstr "&Näytä korjauksen luokka:"
+msgstr "&Näytä Korjauksen Luokka:"
 
 #: YQPkgPatchFilterView.cc:65
 msgid "Needed Patches"
-msgstr "Tarvittavat korjaukset"
+msgstr "Tarvittavat Korjaukset"
 
 #: YQPkgPatchFilterView.cc:66
 msgid "Unneeded Patches"
-msgstr "Ei tarpeelliset korjaukset"
+msgstr "Tarpeettomat Korjaukset"
 
 #: YQPkgPatchFilterView.cc:67
 msgid "All Patches"
-msgstr "Kaikki korjaukset"
+msgstr "Kaikki Korjaukset"
 
 #: YQPkgPatchFilterView.cc:79
 msgid "Patch Description"
-msgstr "Korjauksen kuvaus"
+msgstr "Korjauksen Kuvaus"
 
 #: YQPkgPatchList.cc:589
 msgid "YaST"
-msgstr "YaST"
+msgstr ""
 
 #: YQPkgPatchList.cc:590
 msgid "security"
@@ -730,7 +738,7 @@ msgstr "valinnainen"
 
 #: YQPkgPatchList.cc:593
 msgid "feature"
-msgstr ""
+msgstr "ominaisuus"
 
 #: YQPkgPatchList.cc:594
 msgid "document"
@@ -742,11 +750,11 @@ msgstr "Ohjelmistoryhmä"
 
 #: YQPkgPatternList.cc:69
 msgid "Order"
-msgstr ""
+msgstr "Järjestys"
 
 #: YQPkgPatternList.cc:413
 msgid "Invisible"
-msgstr ""
+msgstr "Näkymätön"
 
 #: YQPkgProductDialog.cc:40
 msgid "Products"
@@ -765,56 +773,51 @@ msgid "Vendor"
 msgstr "Valmistaja"
 
 #: YQPkgRepoFilterView.cc:92
-#, fuzzy
 msgid "Protect All"
-msgstr "Suojaa"
+msgstr "Suojaa Kaikki"
 
 #: YQPkgRepoFilterView.cc:99
-#, fuzzy
 msgid "Un-Protect All"
-msgstr "Suojaa"
+msgstr "Poista Suojaukset Kaikista"
 
 #: YQPkgRpmGroupsFilterView.cc:32
-#, fuzzy
 msgid "RPM Groups"
-msgstr "&RPM-ryhmät"
+msgstr "RPM-ryhmät"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
 msgid "zzz Unspecified (%1)"
-msgstr ""
+msgstr "zzz Määrittelemätön (%1)"
 
 #: YQPkgSearchFilterView.cc:161
 #, qt-format
 msgid "Default: %1"
-msgstr ""
+msgstr "Oletus: %1"
 
 #: YQPkgSearchFilterView.cc:168
 #, qt-format
 msgid "Detected: %1"
-msgstr ""
+msgstr "Havaittu: %1"
 
 #: YQPkgSearchFilterView.cc:444
 msgid "No Results."
-msgstr "Ei tuloksia."
+msgstr "Ei Tuloksia."
 
 #: YQPkgSearchFilterView.cc:459
 msgid "Query Error"
-msgstr "Hakuvirhe"
+msgstr "Kyselyvirhe"
 
 #: YQPkgSecondaryFilterView.cc:77
 msgid "&Secondary Filter:"
-msgstr "&Toissijainen suodin:"
+msgstr "&Toissijainen Suodin:"
 
 #: YQPkgSecondaryFilterView.cc:97
-#, fuzzy
 msgid "Installed Packages"
-msgstr "Takaisinvedetyt asennetut paketit"
+msgstr "Asennetut Paketit"
 
 #: YQPkgSecondaryFilterView.cc:106
-#, fuzzy
 msgid "Not Installed Packages"
-msgstr "Takaisinvedetyt asennetut paketit"
+msgstr "Asentamattomat Paketit"
 
 #: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
@@ -829,62 +832,52 @@ msgid "&Search"
 msgstr "&Etsi"
 
 #: YQPkgSelector.cc:341 YQPkgSelector.cc:1316
-#, fuzzy
 msgid "Patc&hes"
-msgstr "Kaikki korjaukset"
+msgstr "&Korjaukset"
 
 #: YQPkgSelector.cc:353 YQPkgSelector.cc:1317
-#, fuzzy
 msgid "&Updates"
-msgstr "Päivitä"
+msgstr "&Päivitykset"
 
 #: YQPkgSelector.cc:363
 msgid "&Repositories"
 msgstr "&Asennuslähteet"
 
 #: YQPkgSelector.cc:373
-#, fuzzy
 msgid "RPM &Groups"
 msgstr "&RPM-ryhmät"
 
 #: YQPkgSelector.cc:386
-#, fuzzy
 msgid "Repository Index Ser&vices"
-msgstr "&Asennuslähteet"
+msgstr "A&sennuslähteiden Hakemistopalvelut"
 
 #: YQPkgSelector.cc:399
-#, fuzzy
 msgid "Pa&tterns"
 msgstr "&Ohjelmistoryhmät"
 
 #: YQPkgSelector.cc:410
-#, fuzzy
 msgid "Package Classi&fication"
-msgstr "Pakettiluokka"
+msgstr "Pakettiluokat"
 
 #: YQPkgSelector.cc:421
 msgid "&Languages"
-msgstr "&Kielet"
+msgstr "Ki&elet"
 
 #: YQPkgSelector.cc:431
-#, fuzzy
 msgid "Installation Su&mmary"
-msgstr "Yhteenveto asennuksesta"
+msgstr "&Yhteenveto Asennuksesta"
 
 #: YQPkgSelector.cc:559
-#, fuzzy
 msgid "Description"
-msgstr "Kuva&us"
+msgstr "Kuvaus"
 
 #: YQPkgSelector.cc:571
-#, fuzzy
 msgid "Technical Data"
-msgstr "&Tekniset tiedot"
+msgstr "Tekniset Tiedot"
 
 #: YQPkgSelector.cc:598
-#, fuzzy
 msgid "Versions"
-msgstr "&Versiot"
+msgstr "Versiot"
 
 #: YQPkgSelector.cc:616
 msgid "File List"
@@ -896,7 +889,7 @@ msgstr "Muutosloki"
 
 #: YQPkgSelector.cc:653
 msgid "Resolver: ??"
-msgstr ""
+msgstr "Ratkaisija: ??"
 
 #: YQPkgSelector.cc:669 YQPkgTextDialog.cc:235
 msgid "&Accept"
@@ -907,23 +900,20 @@ msgid "&File"
 msgstr "&Tiedosto"
 
 #: YQPkgSelector.cc:711
-#, fuzzy
 msgid "&Accept Changes"
-msgstr "&Hyväksy"
+msgstr "&Hyväksy Muutokset"
 
 #: YQPkgSelector.cc:713
-#, fuzzy
 msgid "&Quit - Discard Changes"
-msgstr "Lope&ta -- Hylkää muutokset"
+msgstr "&Lopeta - Hylkää Muutokset"
 
 #: YQPkgSelector.cc:725
 msgid "&Package"
 msgstr "&Paketti"
 
 #: YQPkgSelector.cc:774
-#, fuzzy
 msgid "Patch"
-msgstr "&Korjaus"
+msgstr "Korjaus"
 
 #: YQPkgSelector.cc:800
 msgid "&Dependencies"
@@ -931,15 +921,15 @@ msgstr "&Riippuvuudet"
 
 #: YQPkgSelector.cc:802
 msgid "&Check Now"
-msgstr "Tar&kista heti"
+msgstr "Tar&kista Heti"
 
 #: YQPkgSelector.cc:804
 msgid "&Autocheck"
-msgstr "A&utomaattinen tarkistus"
+msgstr "A&utomaattinen Tarkistus"
 
 #: YQPkgSelector.cc:808
 msgid "Install &Recommended Packages"
-msgstr "Asenna s&uositellut paketit"
+msgstr "Asenna &Suositellut Paketit"
 
 #: YQPkgSelector.cc:821
 msgid "&Options"
@@ -947,7 +937,7 @@ msgstr "V&alinnat"
 
 #: YQPkgSelector.cc:824
 msgid "Show -de&vel Packages"
-msgstr "Näytä -de&vel-paketit"
+msgstr "Näytä -d&evel-paketit"
 
 #: YQPkgSelector.cc:834
 msgid "Show -&debuginfo/-debugsource Packages"
@@ -955,12 +945,11 @@ msgstr "Näytä -&debuginfo/-debugsource-paketit"
 
 #: YQPkgSelector.cc:844
 msgid "&System Verification Mode"
-msgstr "&Järjestelmän varmistamistila"
+msgstr "&Järjestelmän Varmistamistila"
 
 #: YQPkgSelector.cc:851
-#, fuzzy
 msgid "Options for this run only"
-msgstr "Vain tämän ajon vaihtoehdot..."
+msgstr "Valinnat vain tälle suorituskerralle"
 
 #: YQPkgSelector.cc:853
 msgid "&Cleanup when deleting packages"
@@ -975,104 +964,96 @@ msgid "E&xtras"
 msgstr "&Lisäasetukset"
 
 #: YQPkgSelector.cc:873
-#, fuzzy
 msgid "C&onfigure Repositories..."
-msgstr "&Asennuslähteet..."
+msgstr "M&ääritä Asennuslähteet..."
 
 #: YQPkgSelector.cc:879
 msgid "Show &Products"
-msgstr "Näytä &tuotteet"
+msgstr "Näytä &Tuotteet"
 
 #: YQPkgSelector.cc:880
-#, fuzzy
 msgid "Show Package &Changes"
-msgstr "Näytä p&akettien muutokset"
+msgstr "Näytä Pakettien &Muutokset"
 
 #: YQPkgSelector.cc:882
 msgid "Show &History"
-msgstr "Näytä &historiatiedot"
+msgstr "Näytä &Historiatiedot"
 
 #: YQPkgSelector.cc:889
-#, fuzzy
 msgid "Install All Matching -devel Packages"
-msgstr "Asenna kaikki sopivat -&devel-paketit"
+msgstr "Asenna Kaikki Sopivat -devel-paketit"
 
 #: YQPkgSelector.cc:892
-#, fuzzy
 msgid "Install All Matching -debuginfo Packages"
-msgstr "Asenna kaikki sopivat -de&buginfo-paketit"
+msgstr "Asenna Kaikki Sopivat -debuginfo-paketit"
 
 #: YQPkgSelector.cc:895
-#, fuzzy
 msgid "Install All Matching -debugsource Packages"
-msgstr "Asenna kaikki sopivat -de&bugsource-paketit"
+msgstr "Asenna Kaikki Sopivat -debugsource-paketit"
 
 #: YQPkgSelector.cc:897
-#, fuzzy
 msgid "Install All Matching Recommended Packages"
-msgstr "Asenna kaikki s&opivat suositellut paketit"
+msgstr "Asenna Kaikki Sopivat Suositellut Paketit"
 
 #: YQPkgSelector.cc:903
 msgid "Generate Dependency Resolver &Test Case"
-msgstr "Luo riippuvuuksien ratkaisun &testitapaus"
+msgstr "Luo &Riippuvuuksien Ratkaisijan Testitapaus"
 
 #: YQPkgSelector.cc:916
 msgid "H&elp"
-msgstr ""
+msgstr "T&uki"
 
 #: YQPkgSelector.cc:921
 msgid "About &Myrlyn"
-msgstr ""
+msgstr "Tietoa &Myrlynistä"
 
 #: YQPkgSelector.cc:922
 msgid "About &Qt"
-msgstr ""
+msgstr "Tietoa &Qt:stä"
 
 #: YQPkgSelector.cc:926
 msgid "Myrlyn Home &Page"
-msgstr ""
+msgstr "Myrlynin &Kotisivu"
 
 #: YQPkgSelector.cc:928
 msgid "&Help Center"
-msgstr ""
+msgstr "&Tukikeskus"
 
 #: YQPkgSelector.cc:930
 msgid "Customization FAQs"
-msgstr ""
+msgstr "UKK Kustomoinnista"
 
 #: YQPkgSelector.cc:932
 msgid "Font Si&ze"
-msgstr ""
+msgstr "&Fonttikoko"
 
 #: YQPkgSelector.cc:933
 msgid "&GUI Scaling (HiDPI)"
-msgstr ""
+msgstr "Käyttöliittymän &Skaalaus (HiDPI)"
 
 #: YQPkgSelector.cc:934
 msgid "&Dark Theme"
-msgstr ""
+msgstr "Tumma T&eema"
 
 #: YQPkgSelector.cc:936
-#, fuzzy
 msgid "Root &Authentication"
-msgstr "Yhteydet"
+msgstr "&Root Todennus"
 
 #: YQPkgSelector.cc:937
-#, fuzzy
 msgid "Rep&ository Configuration"
-msgstr "&Määritys"
+msgstr "Asennuslähteiden M&ääritys"
 
 #: YQPkgSelector.cc:940
 msgid "&Development Status"
-msgstr ""
+msgstr "Ke&hityksen Tilanne"
 
 #: YQPkgSelector.cc:941
 msgid "&Latest Release"
-msgstr ""
+msgstr "&Uusin Julkaisu"
 
 #: YQPkgSelector.cc:1183
 msgid "All package dependencies are OK."
-msgstr "Pakettienväliset riippuvuudet ovat kunnossa."
+msgstr "Pakettien riippuvuudet ovat kunnossa."
 
 #: YQPkgSelector.cc:1291
 msgid ""
@@ -1083,6 +1064,12 @@ msgid ""
 "restart the program, and all package changes\n"
 "will be lost.\n"
 msgstr ""
+"Muutokset ovat vielä kesken.\n"
+"\n"
+"Jos jatkat asennuslähteiden määrityksiin\n"
+"ja teet siellä muutoksia, joudut käynnistämään\n"
+"ohjelman uudelleen, jolloin kaikki pakettimuutokset\n"
+"menetetään.\n"
 
 #: YQPkgSelector.cc:1349
 #, qt-format
@@ -1091,11 +1078,11 @@ msgstr "%1 pakettia päivitetään"
 
 #: YQPkgSelector.cc:1379
 msgid "Dist-Upgrade Mode"
-msgstr ""
+msgstr "Jakelun Päivitystila"
 
 #: YQPkgSelector.cc:1380
 msgid "Package Update Mode"
-msgstr ""
+msgstr "Pakettien Päivitystila"
 
 #: YQPkgSelector.cc:1418
 #, qt-format
@@ -1107,13 +1094,13 @@ msgstr ""
 "asennuslähteen versioihin (%2)</p>"
 
 #: YQPkgSelector.cc:1443
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
 "to versions in repository %2</p>"
 msgstr ""
-"<p><small><a href=\"repoupgraderemove:///%1\">Keskeytä järjestelmäpakettien "
-"vaihtaminen</a> asennuslähteen %2 versioihin</small></p>"
+"<p><a href=\"repoupgraderemove:///%1\">Keskeytä järjestelmäpakettien "
+"vaihtaminen</a> asennuslähteen%2 versioihin</p>"
 
 #: YQPkgSelector.cc:1519
 #, qt-format
@@ -1123,6 +1110,10 @@ msgid ""
 "\n"
 "No permissions?"
 msgstr ""
+"Zypp-historiatiedostoa ei voi avata\n"
+"%1\n"
+"\n"
+"Puuttuvat oikeudet?"
 
 #: YQPkgSelector.cc:1531
 #, qt-format
@@ -1132,14 +1123,18 @@ msgid ""
 "\n"
 "Check the log!"
 msgstr ""
+"Jäsennysvirhe zypp-historiatiedostossa\n"
+"%1\n"
+"\n"
+"Tarkista loki!"
 
 #: YQPkgSelector.cc:1574 YQPkgSelector.cc:1743
 msgid "Added Subpackages:"
-msgstr "Lisätyt alipaketit:"
+msgstr "Lisätyt Alipaketit:"
 
 #: YQPkgSelectorBase.cc:120
 msgid "System dependencies verify OK."
-msgstr "Järjestelmän riippuvuuksien tarkistus onnistui."
+msgstr "Järjestelmän riippuvuudet tarkistettu – kaikki kunnossa."
 
 #: YQPkgSelectorBase.cc:139
 msgid "Error: Out of disk space!"
@@ -1152,21 +1147,21 @@ msgid ""
 "absolutely sure how to handle such a case, press <b>Cancel</b> now and "
 "deselect some packages.</p>"
 msgstr ""
-"<p>Voit valita asennuksen joka tapauksessa, jos tiedät mitä olet tekemässä. "
-"Mahdollisesti saatat järjestelmäsi tilaan, joka vaatii korjaamista käsin. "
-"Jos et ole aivan varma, kuinka toimia sellaisessa tilanteessa, napsauta "
-"<b>Peruuta</b> nyt, ja poista joitakin paketteja.</p>"
+"<p>Voit halutessasi jatkaa asennusta, jos tiedät mitä olet tekemässä, mutta "
+"tällöin järjestelmä saattaa vioittua, jolloin se on korjattava "
+"manuaalisesti. Jos et ole täysin varma siitä, miten tällaisessa tilanteessa "
+"toimitaan, napsauta nyt <b>Peruuta</b> ja poista valinta joistakin "
+"paketeista.</p>"
 
 #: YQPkgSelectorBase.cc:148
 msgid "C&ontinue Anyway"
-msgstr "Jatka tästä hu&olimatta"
+msgstr "&Jatka Tästä Huolimatta"
 
 #: YQPkgSelectorBase.cc:160
 msgid "The following items will be changed: "
 msgstr "Seuraavat muutokset tehdään: "
 
 #: YQPkgSelectorBase.cc:210
-#, fuzzy
 msgid "Really abandon all changes and exit?"
 msgstr "Haluatko hylätä kaikki muutokset ja poistua?"
 
@@ -1179,9 +1174,8 @@ msgstr ""
 "ratkaisemiseksi:"
 
 #: YQPkgSelectorBase.cc:367
-#, fuzzy
 msgid "Not implemented yet"
-msgstr "Ei toteutettu vielä."
+msgstr "Ei toteutettu vielä"
 
 #: YQPkgServiceList.cc:202
 msgid "URL: "
@@ -1197,16 +1191,15 @@ msgstr "Asennuslähteet:"
 
 #: YQPkgTechnicalDetailsView.cc:129 YQPkgTechnicalDetailsView.cc:175
 msgid "Build Time:"
-msgstr "Paketointi aika:"
+msgstr "Koontiaika:"
 
 #: YQPkgTechnicalDetailsView.cc:133 YQPkgTechnicalDetailsView.cc:176
 msgid "Install Time:"
 msgstr "Asennusaika:"
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
-#, fuzzy
 msgid "RPM Group:"
-msgstr "&RPM-ryhmät"
+msgstr "RPM-ryhmät:"
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1243,30 +1236,27 @@ msgstr "Verkko-osoite:"
 
 #: YQPkgTechnicalDetailsView.cc:148 YQPkgTechnicalDetailsView.cc:192
 msgid "Source Package:"
-msgstr "Lähde paketti:"
+msgstr "Lähdepaketti:"
 
 #: YQPkgTechnicalDetailsView.cc:151 YQPkgTechnicalDetailsView.cc:196
 msgid "Authors:"
 msgstr "Tekijät:"
 
 #: YQPkgVersionsView.cc:242
-#, fuzzy
 msgid "Architecture"
-msgstr "Arkkitehtuuri:"
+msgstr "Arkkitehtuuri"
 
 #: YQPkgVersionsView.cc:243
-#, fuzzy
 msgid "Repository"
-msgstr "&Asennuslähteet"
+msgstr "Asennuslähde"
 
 #: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
-msgstr ""
+msgstr "[TAKAISINVEDETTY]"
 
 #: YQPkgVersionsView.cc:412
-#, fuzzy
 msgid "(installed)"
-msgstr "Asenna"
+msgstr "(asennettu)"
 
 #: YQPkgVersionsView.cc:599
 msgid ""
@@ -1274,8 +1264,8 @@ msgid ""
 "and non-multiversion-capable versions of this\n"
 "package at the same time."
 msgstr ""
-"Yrität asentaa yhtä aikaa useampiversiokykyistä\n"
-"ja ei-useampiversiokykyistä versiota tästä paketista."
+"Yrität asentaa yhtä aikaa moniversiokykyistä\n"
+"ja ei-moniversiokykyistä versiota tästä paketista."
 
 #: YQPkgVersionsView.cc:607
 msgid ""
@@ -1285,11 +1275,11 @@ msgid ""
 "and unselect the non-multiversion-capable version,\n"
 "\"Cancel\" to unselect this version and keep the other one."
 msgstr ""
-"Tämä on useampiversiokykyinen versio.\n"
+"Tämä on moniversiokykyinen versio.\n"
 "\n"
-"Asenna tämä versio ja poista ei-useampiversiokyinen\n"
+"Asenna tämä versio ja poista ei-moniversiokyinen\n"
 "versio napsauttamalla \"Jatka\" tai poista tämä ja pidä\n"
-"ei-useampiversiokykyinen versio napsauttamalla \"Peru\"."
+"ei-moniversiokykyinen versio napsauttamalla \"Peru\"."
 
 #: YQPkgVersionsView.cc:616
 msgid ""
@@ -1307,68 +1297,67 @@ msgstr ""
 
 #: YQPkgVersionsView.cc:625
 msgid "Incompatible Package Versions"
-msgstr "Yhteensopimattomat paketin versiot"
+msgstr "Yhteensopimattomat Paketin Versiot"
 
 #: ZyppHistoryBrowser.cc:467
 #, qt-format
 msgid "Repo+  %1  %2"
-msgstr ""
+msgstr "As.lähde+  %1  %2"
 
 #: ZyppHistoryBrowser.cc:473
 #, qt-format
 msgid "Repo-  %1"
-msgstr ""
+msgstr "As.lähde-  %1"
 
 #: ZyppHistoryBrowser.cc:478
 #, qt-format
 msgid "Repo-URL  %1 -> %2"
-msgstr ""
+msgstr "As.lähteen URL   %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:484
 #, qt-format
 msgid "Repo-Alias  %1 -> %2"
-msgstr ""
+msgstr "As.lähteen Alias  %1 -> %2"
 
 #: ZyppHistoryBrowser.cc:504
-#, fuzzy, qt-format
+#, qt-format
 msgid "Patch %1"
-msgstr "&Korjaus"
+msgstr "Korjaus %1"
 
 #: ZyppHistoryBrowser.cc:628
 #, qt-format
 msgid "<b>Filter:</b> %1"
-msgstr ""
+msgstr "<b>Suodin:</b> %1"
 
 #: ZyppHistoryBrowser.cc:630
 msgid "<i>No Filter</i>"
-msgstr ""
+msgstr "<i>Ei Suodinta</i>"
 
 #: ZyppHistoryFilter.cc:26
 msgid "Only repo events"
-msgstr ""
+msgstr "Vain as.lähde-tapahtumat"
 
 #: ZyppHistoryFilter.cc:57
 #, qt-format
 msgid "Package name \"%1\""
-msgstr ""
+msgstr "Paketin nimi \"%1\""
 
 #: ZyppHistoryFilter.cc:80
 #, qt-format
 msgid "Packages from repo \"%1\""
-msgstr ""
+msgstr "Paketit as.lähteestä \"%1\""
 
 #: ZyppHistoryFilterDialog.cc:155
-#, fuzzy
 msgid "Only package installation / update"
-msgstr "%1 pakettia päivitetään"
+msgstr "Vain paketin asennus / päivitys"
 
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
-msgstr ""
+msgstr "Vain paketin poisto"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
-msgstr ""
+msgstr "Tietoa Myrlynistä"
 
 #: about-dialog.ui:55
 msgid "## Myrlyn "
@@ -1388,6 +1377,17 @@ msgid ""
 "as a standalone Qt program without any YaST\n"
 "dependencies."
 msgstr ""
+"Myrlyn on graafinen pakettienhallintaohjelma, jolla voi valita\n"
+"ohjelmistopaketteja ja -kaavoja asennusta,\n"
+"päivitystä ja poistamista varten.\n"
+"\n"
+"Se käyttää libzypp:tä taustapalvelimena ja Qt:tä\n"
+"käyttöliittymätyökaluna.\n"
+"\n"
+"Projekti sai alkunsa marraskuussa 2024 järjestetyssä SUSE Hack Week\n"
+"-tapahtumassa, jonka tavoitteena oli tehdä SUSE YaST:n Qt-"
+"pakettivalitsimesta\n"
+"käytettävä itsenäinen Qt-ohjelma ilman YaST-riippuvuuksia."
 
 #: about-dialog.ui:126
 msgid ""
@@ -1395,38 +1395,41 @@ msgid ""
 "\n"
 "- Stefan Hundhammer (GitHub: @shundhammer)\n"
 msgstr ""
+"### Päätekijä\n"
+"\n"
+"- Stefan Hundhammer (GitHub: @shundhammer)\n"
 
 #: about-dialog.ui:161
 msgid "### Contributors\n"
-msgstr ""
+msgstr "### Avustajat\n"
 
 #: expired-gpg-key-dialog.ui:14 repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG-avain"
 
 #: expired-gpg-key-dialog.ui:41
 msgid "## Expired Repository GPG Key"
-msgstr ""
+msgstr "## Asennuslähteen GPG-avaimen Voimassaolo Päättynyt"
 
 #: expired-gpg-key-dialog.ui:81 repo-gpg-key-import-dialog.ui:133
 msgid "**Fingerprint:**"
-msgstr ""
+msgstr "**Sormenjälki:**"
 
 #: expired-gpg-key-dialog.ui:117 repo-gpg-key-import-dialog.ui:211
 msgid "**Key ID:**"
-msgstr ""
+msgstr "**Avaimen ID:**"
 
 #: expired-gpg-key-dialog.ui:143 repo-gpg-key-import-dialog.ui:237
 msgid "**Created:**"
-msgstr ""
+msgstr "**Luotu:**"
 
 #: expired-gpg-key-dialog.ui:169
 msgid "**Expired:**"
-msgstr ""
+msgstr "**Voimassaolo Päättynyt:**"
 
 #: expired-gpg-key-dialog.ui:195 repo-gpg-key-import-dialog.ui:159
 msgid "**Key Name:**"
-msgstr ""
+msgstr "**Avaimen Nimi:**"
 
 #: expired-gpg-key-dialog.ui:229
 msgid ""
@@ -1435,207 +1438,192 @@ msgid ""
 "If it is still needed, in the next step (repositories refresh), the latest "
 "version will be reimported from its repository."
 msgstr ""
+"Poista tämä GPG-avain; sitä ei voi enää käyttää.\n"
+"\n"
+"Jos sitä tarvitaan edelleen, uusin versio tuodaan uudelleen sen "
+"asennuslähteestä seuraavassa vaiheessa (asennuslähteiden virkistys)."
 
 #: expired-gpg-key-dialog.ui:275
-#, fuzzy
 msgid "&Delete Key"
-msgstr "Poista"
+msgstr "&Poista Avain"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
 msgid "Form"
-msgstr ""
+msgstr "Lomake"
 
 #: init-repos-page.ui:36
-#, fuzzy
 msgid "Initializing Repositories"
-msgstr "&Asennuslähteet"
+msgstr "Alustetaan Asennuslähteitä"
 
 #: ../aux/myrlyn-askpass.ui:14
 msgid "Myrlyn-Password"
-msgstr ""
+msgstr "Myrlyn-Salasana"
 
 #: ../aux/myrlyn-askpass.ui:35
 msgid "### Authentication for Myrlyn"
-msgstr ""
+msgstr "### Todennus Myrlynille"
 
 #: ../aux/myrlyn-askpass.ui:84
 msgid "Enter your user password:"
-msgstr ""
+msgstr "Syötä käyttäjäsalasanasi:"
 
 #: ../aux/myrlyn-askpass.ui:94
 msgid "Password"
-msgstr ""
+msgstr "Salasana"
 
 #: pkg-commit-page.ui:41
-#, fuzzy
 msgid "Installing / Removing Packages"
-msgstr "Asenna s&uositellut paketit"
+msgstr "Asennetaan / Poistetaan Paketteja"
 
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr ""
+msgstr "Tekeillä"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
-msgstr ""
+msgstr "Näytä &Yhteenvetosivu"
 
 #: progress-dialog.ui:14
-#, fuzzy
 msgid "Working..."
-msgstr "Etsitään..."
+msgstr "Työskentelee..."
 
 #: progress-dialog.ui:79 repo-config.ui:378 zypp-history-browser.ui:222
 msgid "&Close"
 msgstr "&Sulje"
 
 #: repo-config.ui:14
-#, fuzzy
 msgid "Repository Configuration"
-msgstr "&Määritys"
+msgstr "Asennuslähteiden Määritys"
 
 #: repo-config.ui:41
-#, fuzzy
 msgid "**Repository Configuration**"
-msgstr "&Määritys"
+msgstr "**Asennuslähteiden Määritys**"
 
 #: repo-config.ui:94
 msgid "**PackMan**"
 msgstr ""
 
 #: repo-config.ui:154
-#, fuzzy
 msgid "Raw URL:"
-msgstr "Verkko-osoite:"
+msgstr "Raaka Verkko-osoite:"
 
 #: repo-config.ui:208
 msgid "&Priority:"
-msgstr ""
+msgstr "P&rioriteetti:"
 
 #: repo-config.ui:248
 msgid "Ena&bled"
-msgstr ""
+msgstr "&Käytössä"
 
 #: repo-config.ui:258
 msgid "Auto-Re&fresh"
-msgstr ""
+msgstr "&Autom. Päivitys"
 
 #: repo-config.ui:281
 msgid "1: highest; 200: lowest"
-msgstr ""
+msgstr "1: suurin; 200: pienin"
 
 #: repo-config.ui:334
 msgid "&Add"
-msgstr ""
+msgstr "&Lisää"
 
 #: repo-config.ui:341
 msgid "&Edit"
-msgstr ""
+msgstr "&Muokkaa"
 
 #: repo-config.ui:348
-#, fuzzy
 msgid "&Delete"
-msgstr "Poista"
+msgstr "&Poista"
 
 #: repo-config.ui:368
 msgid "<i>Restart needed!</i>"
-msgstr ""
+msgstr "<i>Uudelleenkäynnistys tarvitaan!</i>"
 
 #: repo-edit-add.ui:98
-#, fuzzy
 msgid "Custom &Repository"
-msgstr "&Asennuslähteet"
+msgstr "&Mukautettu Asennuslähde"
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
-msgstr ""
+msgstr "&Yhteisön Asennuslähde"
 
 #: repo-edit-add.ui:254 search-filter-view.ui:87
-#, fuzzy
 msgid "&Name"
-msgstr "Nimi"
+msgstr "&Nimi"
 
 #: repo-edit-add.ui:270
-#, fuzzy
 msgid "Repository Name"
-msgstr "&Asennuslähteet"
+msgstr "Asennuslähteen Nimi"
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr ""
+msgstr "Raaka &Verkko-osoite"
 
 #: repo-gpg-key-import-dialog.ui:41
 msgid "## Import Untrusted GPG Key"
-msgstr ""
+msgstr "## Tuo Epäluotettava GPG-avain"
 
 #: repo-gpg-key-import-dialog.ui:81
-#, fuzzy
 msgid "**Repository:**"
-msgstr "Asennuslähteet:"
+msgstr "**Asennuslähde:**"
 
 #: repo-gpg-key-import-dialog.ui:107
-#, fuzzy
 msgid "**URL:**"
-msgstr "Verkko-osoite:"
+msgstr "**Verkko-osoite:**"
 
 #: repo-gpg-key-import-dialog.ui:185
 msgid "**Key Algorithm:**"
-msgstr ""
+msgstr "**Avaimen Algoritmi:**"
 
 #: repo-gpg-key-import-dialog.ui:263
 msgid "**Expires:**"
-msgstr ""
+msgstr "**Voimassaolo Päättyy:**"
 
 #: repo-gpg-key-import-dialog.ui:322
 msgid "&Trust"
-msgstr ""
+msgstr "&Luota"
 
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
-msgstr ""
+msgstr "Hae Tekstiä tai Ohjelmistoryhmää"
 
 #: search-filter-view.ui:78
-#, fuzzy
 msgid "Search In"
-msgstr "Etsi"
+msgstr "Sisällytä Hakuun"
 
 #: search-filter-view.ui:97
 msgid "Su&mmary"
-msgstr "Yhteen&veto"
+msgstr "&Yhteenveto"
 
 #: search-filter-view.ui:104
 msgid "D&escription"
-msgstr "Kuva&us"
+msgstr "K&uvaus"
 
 #: search-filter-view.ui:127
-#, fuzzy
 msgid "RPM P&rovides"
-msgstr "RPM ”tar&joaa”"
+msgstr "RPM Tar&joaa"
 
 #: search-filter-view.ui:134
-#, fuzzy
 msgid "RPM Re&quires"
-msgstr "RPM ”&vaatii”"
+msgstr "RPM &Vaatii"
 
 #: search-filter-view.ui:141
-#, fuzzy
 msgid "RPM Recommends"
-msgstr "Suosittelee:"
+msgstr "RPM Suosittelee"
 
 #: search-filter-view.ui:164
-#, fuzzy
 msgid "File &List"
-msgstr "Tiedostoluettelo"
+msgstr "Tiedosto&luettelo"
 
 #: search-filter-view.ui:198
-#, fuzzy
 msgid "Searc&h Mode:"
 msgstr "&Hakutapa:"
 
 #: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
 #: zypp-history-filter-dialog.ui:184
 msgid "Auto"
-msgstr ""
+msgstr "Automaattinen"
 
 #: search-filter-view.ui:214 zypp-history-filter-dialog.ui:98
 #: zypp-history-filter-dialog.ui:189
@@ -1645,57 +1633,50 @@ msgstr "Sisältää"
 #: search-filter-view.ui:219 zypp-history-filter-dialog.ui:103
 #: zypp-history-filter-dialog.ui:194
 msgid "Starts With"
-msgstr ""
+msgstr "Alkaa"
 
 #: search-filter-view.ui:224 zypp-history-filter-dialog.ui:108
 #: zypp-history-filter-dialog.ui:199
 msgid "Exact Match"
-msgstr "Täydellinen osuma"
+msgstr "Tarkka Vastaavuus"
 
 #: search-filter-view.ui:229 zypp-history-filter-dialog.ui:113
 #: zypp-history-filter-dialog.ui:204
-#, fuzzy
 msgid "Wildcards"
-msgstr "Käytä jokerimerkkejä"
+msgstr "Käytä Jokerimerkkejä"
 
 #: search-filter-view.ui:234 zypp-history-filter-dialog.ui:118
 #: zypp-history-filter-dialog.ui:209
-#, fuzzy
 msgid "Regular Expression"
-msgstr "Käytä säännöllisiä lausekkeita"
+msgstr "Käytä Säännöllisiä Lausekkeita"
 
 #: search-filter-view.ui:244
-#, fuzzy
 msgid "Detected:"
-msgstr "Suojattu"
+msgstr "Havaittu:"
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
-msgstr ""
+msgstr "Vaihda oletustila hakutavalle ”automaattinen”"
 
 #: search-filter-view.ui:270 summary-page.ui:135
 msgid "..."
 msgstr ""
 
 #: search-filter-view.ui:295
-#, fuzzy
 msgid "Case Sens&itive"
-msgstr "Kirjainkoon huomioi&va"
+msgstr "&Kirjainkoon Huomioiva"
 
 #: status-filter-view.ui:32
-#, fuzzy
 msgid "Show Packages with Status"
-msgstr "Näytä paketit, joilla tilana"
+msgstr "Näytä Paketit, joiden Tila"
 
 #: status-filter-view.ui:103
-#, fuzzy
 msgid "Auto-Install"
-msgstr "Automaattinen asennus"
+msgstr "Autom. Asennus"
 
 #: status-filter-view.ui:123
-#, fuzzy
 msgid "Auto-Update"
-msgstr "Automaattinen päivitys"
+msgstr "Autom. Päivitys"
 
 #: status-filter-view.ui:143
 msgid "Taboo"
@@ -1706,54 +1687,52 @@ msgid "Protected"
 msgstr "Suojattu"
 
 #: status-filter-view.ui:279
-#, fuzzy
 msgid "Auto-Delete"
-msgstr "Automaattinen poisto"
+msgstr "Autom. Poisto"
 
 #: status-filter-view.ui:302
 msgid "<i>Middle-click on a status to show only this one</i>"
-msgstr ""
+msgstr "<i>Napsauta tilaa keskipainikkeella, jotta näkyviin tulee vain tämä</i>"
 
 #: status-filter-view.ui:354
 msgid "Defaults"
-msgstr ""
+msgstr "Oletukset"
 
 #: status-filter-view.ui:361 updates-filter-view.ui:242
-#, fuzzy
 msgid "Refresh List"
-msgstr "&Päivitä luettelo"
+msgstr "Virkistä Luettelo"
 
 #: summary-page.ui:95
 msgid "Automatically closing in"
-msgstr ""
+msgstr "Sulkeutuu automaattisesti"
 
 #: summary-page.ui:125
 msgid "&Stop"
-msgstr ""
+msgstr "&Pysäytä"
 
 #: summary-page.ui:175
 msgid "&Back"
-msgstr ""
+msgstr "&Takaisin"
 
 #: summary-page.ui:182
 msgid "&Finish"
-msgstr ""
+msgstr "&Lopeta"
 
 #: updates-filter-view.ui:35
-#, fuzzy
 msgid "Updates"
-msgstr "Päivitä"
+msgstr "Päivitykset"
 
 #: updates-filter-view.ui:48
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
 msgstr ""
+"Tässä näkyvät vain ne paketit, jotka voidaan päivittää, eli joista on "
+"saatavilla uudempi versio kuin jo asennettu versio."
 
 #: updates-filter-view.ui:98
-#, fuzzy
 msgid "Pac&kage Update"
-msgstr "Paketti"
+msgstr "Pakett&ien Päivitys"
 
 #: updates-filter-view.ui:120
 msgid ""
@@ -1762,10 +1741,14 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper up\" command."
 msgstr ""
+"Merkitse päivitettäviksi kaikki paketit, jotka voidaan päivittää ilman "
+"riippuvuusongelmia.\n"
+"\n"
+"Tämä vastaa ”zypper up” -komentoa."
 
 #: updates-filter-view.ui:172
 msgid "D&ist-Upgrade"
-msgstr ""
+msgstr "&Jakelun Päivitys"
 
 #: updates-filter-view.ui:194
 msgid ""
@@ -1777,86 +1760,85 @@ msgid ""
 "\n"
 "This is the equivalent of the \"zypper dup\" command."
 msgstr ""
+"Suorita jakelun päivitys: Merkitse päivitettäviksi kaikki paketit, jotka "
+"voidaan päivittää ilman riippuvuusongelmia.\n"
+"\n"
+"Tässä otetaan huomioon pakettien jakautumiset, pakettien "
+"uudelleennimeämiset, kaavojen päivitykset ja muut vastaavat seikat.\n"
+"\n"
+"Tämä vastaa ”zypper dup” -komentoa."
 
 #: zypp-history-browser.ui:14
-#, fuzzy
 msgid "Zypp History"
-msgstr "Näytä &historiatiedot"
+msgstr "Zypp Historia"
 
 #: zypp-history-browser.ui:66
 msgid "**Zypp History**"
-msgstr ""
+msgstr "**Zypp Historia**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
-msgstr ""
+msgstr "Ei Suodinta"
 
 #: zypp-history-browser.ui:108
-#, fuzzy
 msgid "Cl&ear Filter"
-msgstr "&Toissijainen suodin:"
+msgstr "&Tyhjennä Suodin"
 
 #: zypp-history-browser.ui:115
-#, fuzzy
 msgid "&Filter..."
-msgstr "&Tiedosto"
+msgstr "&Suodata..."
 
 #: zypp-history-browser.ui:144
-#, fuzzy
 msgid "Navigation"
-msgstr "Kotoistus"
+msgstr "Navigointi"
 
 #: zypp-history-browser.ui:167
 msgid "Arch."
-msgstr ""
+msgstr "Ark."
 
 #: zypp-history-browser.ui:172
 msgid "Repo"
-msgstr ""
+msgstr "As.lähde"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr ""
+msgstr "&Näytä (+/-) Lukumäärä"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
-msgstr ""
+msgstr "Zypp Historian Suodatin"
 
 #: zypp-history-filter-dialog.ui:38
 msgid "**Zypp History Filter**"
-msgstr ""
+msgstr "**Zypp Historian Suodatin**"
 
 #: zypp-history-filter-dialog.ui:51
-#, fuzzy
 msgid "Package by &Name"
-msgstr "Paketti"
+msgstr "Paketti &Nimen mukaan"
 
 #: zypp-history-filter-dialog.ui:76
 msgid "Package Name or Pattern"
-msgstr ""
+msgstr "Paketin Nimi tai Ohjelmistoryhmä"
 
 #: zypp-history-filter-dialog.ui:142
-#, fuzzy
 msgid "Package by &Repository"
-msgstr "Pakettihistoria"
+msgstr "Paketti A&sennuslähteen mukaan"
 
 #: zypp-history-filter-dialog.ui:167
 msgid "Repo Alias or Pattern"
-msgstr ""
+msgstr "Asennuslähteen Alias tai Ohjelmistoryhmä"
 
 #: zypp-history-filter-dialog.ui:233
-#, fuzzy
 msgid "Package &Install / Update"
-msgstr "%1 pakettia päivitetään"
+msgstr "Paketin &Asennus / Päivitys"
 
 #: zypp-history-filter-dialog.ui:240
-#, fuzzy
 msgid "Package Re&move"
-msgstr "&Pakettiryhmät"
+msgstr "Paketin &Poisto"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
-msgstr ""
+msgstr "Asennuslähteen &Lisäys / Poisto / URL:n Muutos / Aliaksen Muutos"
 
 #~ msgid "&Update Problems"
 #~ msgstr "&Päivitysongelmat"
