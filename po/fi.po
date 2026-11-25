@@ -27,7 +27,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
 "PO-Revision-Date: 2026-11-25 11:27+0000\n"
-"Last-Translator: bhasic <bhasic@noreply.codeberg.org>\n"
+"Last-Translator: Sauerlandlinux <Sauerlandlinux@gmx.de>\n"
 "Language-Team: Finnish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/fi/>\n"
 "Language: fi\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: MyrlynApp.cc:211
 msgid " [root]"
-msgstr ""
+msgstr " [root]"
 
 #: MyrlynApp.cc:214 RepoConfigDialog.cc:64
 msgid " (read-only)"
@@ -722,7 +722,7 @@ msgstr "Korjauksen Kuvaus"
 
 #: YQPkgPatchList.cc:589
 msgid "YaST"
-msgstr ""
+msgstr "YaST"
 
 #: YQPkgPatchList.cc:590
 msgid "security"
@@ -1361,7 +1361,7 @@ msgstr "Tietoa Myrlynistä"
 
 #: about-dialog.ui:55
 msgid "## Myrlyn "
-msgstr ""
+msgstr "## Myrlyn "
 
 #: about-dialog.ui:84
 msgid ""
@@ -1502,7 +1502,7 @@ msgstr "**Asennuslähteiden Määritys**"
 
 #: repo-config.ui:94
 msgid "**PackMan**"
-msgstr ""
+msgstr "**PackMan**"
 
 #: repo-config.ui:154
 msgid "Raw URL:"
@@ -1660,7 +1660,7 @@ msgstr "Vaihda oletustila hakutavalle ”automaattinen”"
 
 #: search-filter-view.ui:270 summary-page.ui:135
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: search-filter-view.ui:295
 msgid "Case Sens&itive"
