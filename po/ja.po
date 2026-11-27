@@ -489,8 +489,8 @@ msgid "Package Description"
 msgstr "パッケージの説明"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1575
-#: YQPkgSelector.cc:1745 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1590
+#: YQPkgSelector.cc:1760 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -1048,25 +1048,25 @@ msgstr "ディストリビューション更新モード"
 msgid "Package Update Mode"
 msgstr "パッケージ更新モード"
 
-#: YQPkgSelector.cc:1418
-#, qt-format
+#: YQPkgSelector.cc:1419
+#, fuzzy, qt-format
 msgid ""
-"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
-"versions in this repository (%2)</p>"
+"<p><a href=\"%1\">Switch system packages</a> to the versions in this "
+"repository (%2)</p>"
 msgstr ""
 "<p>このリポジトリ(%2)内のバージョンに <a href=\"repoupgradeadd:///%1\">システ"
 "ムパッケージを切り替えます</a></p>"
 
-#: YQPkgSelector.cc:1443
-#, qt-format
+#: YQPkgSelector.cc:1445
+#, fuzzy, qt-format
 msgid ""
-"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
-"to versions in repository %2</p>"
+"<p><a href=\"%1\">Cancel switching</a> system packages to versions in "
+"repository %2</p>"
 msgstr ""
 "<p>リポジトリ %2 内のバージョンへのシステムパッケージの <a "
 "href=\"repoupgraderemove:///%1\">切り替えをキャンセルします</a></p>"
 
-#: YQPkgSelector.cc:1519
+#: YQPkgSelector.cc:1534
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1079,7 +1079,7 @@ msgstr ""
 "\n"
 "アクセス許可が無い可能性があります。"
 
-#: YQPkgSelector.cc:1531
+#: YQPkgSelector.cc:1546
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1093,7 +1093,7 @@ msgstr ""
 "ログをご確認ください！"
 
 #  Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
-#: YQPkgSelector.cc:1574 YQPkgSelector.cc:1743
+#: YQPkgSelector.cc:1589 YQPkgSelector.cc:1758
 msgid "Added Subpackages:"
 msgstr "追加されたサブパッケージ:"
 

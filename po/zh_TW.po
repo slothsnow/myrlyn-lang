@@ -487,8 +487,8 @@ msgid "Package Description"
 msgstr "套件描述"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1575
-#: YQPkgSelector.cc:1745 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1590
+#: YQPkgSelector.cc:1760 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -1043,25 +1043,25 @@ msgstr "發行版本升級模式"
 msgid "Package Update Mode"
 msgstr "套件更新模式"
 
-#: YQPkgSelector.cc:1418
-#, qt-format
+#: YQPkgSelector.cc:1419
+#, fuzzy, qt-format
 msgid ""
-"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
-"versions in this repository (%2)</p>"
+"<p><a href=\"%1\">Switch system packages</a> to the versions in this "
+"repository (%2)</p>"
 msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">將系統套件切換</a>至此套件庫 (%2) 中的版"
 "本</p>"
 
-#: YQPkgSelector.cc:1443
-#, qt-format
+#: YQPkgSelector.cc:1445
+#, fuzzy, qt-format
 msgid ""
-"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
-"to versions in repository %2</p>"
+"<p><a href=\"%1\">Cancel switching</a> system packages to versions in "
+"repository %2</p>"
 msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">取消</a>將系統套件切換至套件庫 %2 中的"
 "版本</p>"
 
-#: YQPkgSelector.cc:1519
+#: YQPkgSelector.cc:1534
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1074,7 +1074,7 @@ msgstr ""
 "\n"
 "沒有權限？"
 
-#: YQPkgSelector.cc:1531
+#: YQPkgSelector.cc:1546
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1087,7 +1087,7 @@ msgstr ""
 "\n"
 "請檢查記錄檔！"
 
-#: YQPkgSelector.cc:1574 YQPkgSelector.cc:1743
+#: YQPkgSelector.cc:1589 YQPkgSelector.cc:1758
 msgid "Added Subpackages:"
 msgstr "新增的子套件："
 

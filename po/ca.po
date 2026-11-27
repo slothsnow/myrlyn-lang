@@ -489,8 +489,8 @@ msgid "Package Description"
 msgstr "Descripció del paquet"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1575
-#: YQPkgSelector.cc:1745 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1590
+#: YQPkgSelector.cc:1760 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -1045,25 +1045,25 @@ msgstr "Mode d'actualització de la distribució"
 msgid "Package Update Mode"
 msgstr "Mode d'actualització de paquets"
 
-#: YQPkgSelector.cc:1418
-#, qt-format
+#: YQPkgSelector.cc:1419
+#, fuzzy, qt-format
 msgid ""
-"<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
-"versions in this repository (%2)</p>"
+"<p><a href=\"%1\">Switch system packages</a> to the versions in this "
+"repository (%2)</p>"
 msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Canvia els paquets del sistema</a> a les "
 "versions d'aquest repositori (%2)</p>"
 
-#: YQPkgSelector.cc:1443
-#, qt-format
+#: YQPkgSelector.cc:1445
+#, fuzzy, qt-format
 msgid ""
-"<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
-"to versions in repository %2</p>"
+"<p><a href=\"%1\">Cancel switching</a> system packages to versions in "
+"repository %2</p>"
 msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel·la el canvi dels</a> paquets "
 "del sistema a versions del repositori %2</p>"
 
-#: YQPkgSelector.cc:1519
+#: YQPkgSelector.cc:1534
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1076,7 +1076,7 @@ msgstr ""
 "\n"
 "Manca de permisos?"
 
-#: YQPkgSelector.cc:1531
+#: YQPkgSelector.cc:1546
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1089,7 +1089,7 @@ msgstr ""
 "\n"
 "Comproveu el registre!"
 
-#: YQPkgSelector.cc:1574 YQPkgSelector.cc:1743
+#: YQPkgSelector.cc:1589 YQPkgSelector.cc:1758
 msgid "Added Subpackages:"
 msgstr "Subpaquets afegits:"
 
