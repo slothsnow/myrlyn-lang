@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
+"POT-Creation-Date: 2026-01-24 04:33+0000\n"
+"PO-Revision-Date: 2026-11-28 18:48+0000\n"
+"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.2\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
@@ -1045,22 +1062,22 @@ msgid "Package Update Mode"
 msgstr "Paket uppdaterings läge"
 
 #: YQPkgSelector.cc:1419
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p><a href=\"%1\">Switch system packages</a> to the versions in this "
 "repository (%2)</p>"
 msgstr ""
-"<p><a href=\"repoupgradeadd:///%1\">Växla systempaket</a> till versionerna i "
-"detta förråd (%2)</p>"
+"<p><a href=\"%1\">Ändra systempaket</a> till versionerna i detta förådd (%2)"
+"</p>"
 
 #: YQPkgSelector.cc:1445
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p><a href=\"%1\">Cancel switching</a> system packages to versions in "
 "repository %2</p>"
 msgstr ""
-"<p><a href=\"repoupgraderemove:///%1\">Avbryt byte</a> av systempaket till "
-"versioner i förrådet %2</p>"
+"<a href=\"%1\">Avbryt ändringen</a> av system paket till versioner i detta "
+"förådd%2</p>"
 
 #: YQPkgSelector.cc:1534
 #, qt-format
@@ -1313,23 +1330,6 @@ msgstr "Endast paketinstallation/uppdatering"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Endast borttagning av paket"
-
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: bittin@opensuse.org\n"
-"POT-Creation-Date: 2026-01-24 04:33+0000\n"
-"PO-Revision-Date: 2026-11-24 08:45+0000\n"
-"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
-"Language-Team: Swedish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/sv/>\n"
-"Language: sv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
